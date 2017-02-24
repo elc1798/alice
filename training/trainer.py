@@ -3,6 +3,7 @@ import os.path
 import glob
 
 from alicized_models import CommandMatchingModel
+from alicized_models import GrammarMatchingModel
 
 to_lower = lambda s : s.lower()
 
@@ -18,19 +19,24 @@ def load_data(data_folder):
         cold = map(to_lower, f.read().strip().split('\n'))
     return hot, cold
 
-def get_classifier(model_folder, dataset):
+def get_classifier(model_folder, dataset, use_old=False):
 
     # The model name is the folder name without the _data at the end, in all
     # caps, and with the extension '.model'
     MODEL_FILENAME = model_folder[:-5].upper() + ".model"
     MODEL_PATH = os.path.join("MODELS", MODEL_FILENAME)
 
-    if os.path.isfile(MODEL_PATH):
+    if os.path.isfile(MODEL_PATH) and use_old:
         print "Using existing model..."
         with open(MODEL_PATH, 'r') as MODEL_FILE:
             return pickle.load(MODEL_FILE)
     else:
-        model = CommandMatchingModel( dataset , shuffle=True, train=True, name=MODEL_FILENAME)
+        g = None
+        if os.path.isfile(os.path.join(model_folder, "grammar.py")) and os.path.isfile(os.path.join(model_folder, "__init__.py")):
+            tmp = __import__(model_folder + ".grammar").grammar.get_grammar()
+            g = GrammarMatchingModel(rules=tmp)
+        model = CommandMatchingModel( dataset , shuffle=True, train=True,
+                name=MODEL_FILENAME, grammar=g )
 
         with open(MODEL_PATH, 'w') as MODEL_FILE:
             pickle.dump(model, MODEL_FILE)
@@ -60,12 +66,14 @@ if __name__ == "__main__":
         for trainee in amplified_data:
             amplified_data[trainee][1] += tmp
 
-    print amplified_data
+    print "\n\n"
+
+#   print amplified_data
 
     build_fail = [ False, "" ]
 
     for trainee in amplified_data:
-        model = get_classifier(trainee, amplified_data[trainee])
+        model = get_classifier(trainee, amplified_data[trainee], use_old=False)
 
         failcount = 0
         num_tests = 0
@@ -83,6 +91,7 @@ if __name__ == "__main__":
             build_fail[0] = True
             build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s" % (trainee,)) )
         print "Model %s failed %d out of %d tests" % (trainee, failcount, num_tests)
+        print "\n\n"
 
     if build_fail[0]:
         print build_fail[1]
