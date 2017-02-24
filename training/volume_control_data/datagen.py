@@ -1,7 +1,7 @@
 import re
 
 graph = {
-    "ROOT" : [ "turn", "make", "decrease", "increase" ],
+    "ROOT" : [ "turn", "make", "decrease", "increase", "mute", "shut" ],
     "turn" : [ "up1", "down1", "the2" ],
     "up1" : [ "the1" ],
     "down1" : [ "the1" ],
@@ -44,7 +44,9 @@ graph = {
     "lower" : [ "STOP" ],
     "higher" : [ "STOP" ],
     "decrease" : [ "the1" ],
-    "increase" : [ "the1" ]
+    "increase" : [ "the1" ],
+    "mute" : [ "STOP" ],
+    "shut" : [ "up2" ]
 }
 
 data_list = []
