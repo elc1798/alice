@@ -13,7 +13,9 @@ nlp = spacy.load('en')
 
 class CommandMatchingModel:
 
-    def __init__(self, dataset, shuffle=True, train=False, name="", grammar=None):
+    def __init__(self, dataset, shuffle=True, train=False, name="",
+            grammar=None, loss="squared_hinge", penalty="elasticnet",
+            alpha=1e-3, n_iter=5):
         """
         Creates an instance of the CommandMatchingModel.
 
@@ -29,11 +31,24 @@ class CommandMatchingModel:
                         used to identify the model externally
             grammar -   Optional dictionary of grammatical rules that any
                         matches must follow. None by default.
+
+            The below parameters are parameters for the SKLearn SGDClassifier.
+            See the sci-kit learn documentation for their meanings.
+
+                - loss
+                - penalty
+                - alpha
+                - n_iter
+
         """
         assert(len(dataset) == 2 and type(dataset[0]) == list and type(dataset[1]) == list)
 
         self.name = name
         self.grammar = grammar
+        self.loss = loss
+        self.penalty = penalty
+        self.alpha = alpha
+        self.n_iter = n_iter
 
         self.data = [ (i, "True") for i in dataset[0] ] + [ (i, "False") for i in dataset[1] ]
         if shuffle:
@@ -60,8 +75,13 @@ class CommandMatchingModel:
         self.classifier = Pipeline(
             [   ("vect", CountVectorizer()),
                 ("tfidf", TfidfTransformer()),
-                ("clsfr", SGDClassifier(loss="hinge", penalty="l2",
-                    alpha=1e-3, n_iter=5, random_state=42)),
+                ("clsfr", SGDClassifier(
+                    loss=self.loss,
+                    penalty=self.penalty,
+                    alpha=self.alpha,
+                    n_iter=self.n_iter,
+                    random_state=42
+                )),
             ])
         _ = self.classifier.fit(training_set["data"], training_set["target"])
 
