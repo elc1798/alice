@@ -63,9 +63,11 @@ def load_models():
     log("Found %d models" % (len(model_list),))
     for model_name in model_list:
         with open(model_name, 'r') as MODEL_FILE:
-            if model_name == "ORDINAL_SCALE_VOLUME_CONTROL.model":
+            if model_name.endswith("ORDINAL_SCALE_VOLUME_CONTROL.model"):
+                log("\tLoading << %s >> as volume controller" % (model_name,))
                 volume_controller = pickle.load(MODEL_FILE)
             else:
+                log("\tLoading << %s >> as command matcher" % (model_name,))
                 models.append(pickle.load(MODEL_FILE))
         log("Loaded model: %s" % (models[-1].name,))
 
