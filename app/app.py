@@ -73,13 +73,19 @@ def load_models():
 
 def cross_check_models(sentence):
     log("Checking << %s >> with existing models..." % (sentence,))
+
+    matched = None
     for model in models:
         if model.match(sentence):
             log("Matched with %s" % (model.name,))
-            alice.command_mapping[ model.name ](sentence)
-            return
+            if matched == None:
+                matched = alice.command_mapping[model.name]
+            else:
+                log("Error: MULTIPLE MATCHES")
+                return None
         else:
             log("Did not match with %s" % (model.name,), tolerance=2)
+    return None if matched == None else matched(sentence)
 
 def main():
     global use_voice, recognizer
