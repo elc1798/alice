@@ -9,10 +9,11 @@ def load_data(data_folder):
     Returns 2 lists: the hot list and cold list
     """
     hot, cold = None, None
+    to_lower = lambda s : s.lower()
     with open(os.path.join(data_folder, "true.txt")) as f:
-        hot = f.read().strip().split('\n')
+        hot = map(to_lower, f.read().strip().split('\n'))
     with open(os.path.join(data_folder, "false.txt")) as f:
-        cold = f.read().strip().split('\n')
+        cold = map(to_lower, f.read().strip().split('\n'))
     return hot, cold
 
 def get_classifier(model_folder):
