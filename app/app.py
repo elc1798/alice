@@ -2,65 +2,107 @@ import os, sys, subprocess
 import pickle
 import glob
 
+import argparse
+
 import speech_recognition as sr
 import core_funcs
 
-command_mapping = {
-    "EXIT_ALICE.model" : core_funcs.exit,
-    "KILL_ACTIVE_WINDOW.model" : core_funcs.kill_active_window,
-    "SHUTDOWN_COMPUTER.model" : core_funcs.shutdown,
-    "VOLUME_CONTROL.model" : core_funcs.volume,
-    "LOCK_COMPUTER.model" : core_funcs.lock
-}
+# Version Control Constants
+APPLICATION_NAME = "Alice"
+APPLICATION_RELEASE = 0
+APPLICATION_REVISION = 0
 
 should_listen = False
+recognizer = None
+VERBOSITY = 0
+
 prompts = [ "hey alice", "alice", "okay alice", "hey alex", "alex", "okay alex" ]
+alice = None
 
-def parse_voice(speech_recognizer):
-    global should_listen, prompts
+def log(s, tolerance=1):
+    global VERBOSITY
 
+    if VERBOSITY >= tolerance:
+        print(s)
+
+def capture_voice(speech_recognizer):
     with sr.Microphone() as source:
         audio = speech_recognizer.listen(source)
     try:
         res = speech_recognizer.recognize_google(audio).lower()
-        print("You said: " + res)
+        log("You said: " + res)
+        return res
+    except sr.UnknownValueError:
+        log("Google Speech Recognition could not understand audio")
+        return ""
+    except sr.RequestError as e:
+        log("Could not request results from Google Speech Recognition service; {0}".format(e))
+        return ""
 
+def parse_query(res):
+    global should_listen, prompts
+
+    if use_voice:
         for prompt in prompts:
             if res.startswith(prompt) and len(res) > len(prompt):
                 res = res[ len(prompt): ]
                 should_listen = True
 
-        if should_listen:
-            cross_check_models(res)
+    if use_voice == False or should_listen:
+        cross_check_models(res)
 
-        should_listen = res in prompts
+    should_listen = res in prompts
 
-    except sr.UnknownValueError:
-        print("Google Speech Recognition could not understand audio")
-    except sr.RequestError as e:
-        print("Could not request results from Google Speech Recognition service; {0}".format(e))
 
 models = []
 def load_models():
     global models
     model_list = glob.glob("../training/MODELS/*.model")
-    print "Found %d models" % (len(model_list),)
+    log("Found %d models" % (len(model_list),))
     for model_name in model_list:
         with open(model_name, 'r') as MODEL_FILE:
             models.append(pickle.load(MODEL_FILE))
-        print "Loaded model: %s" % (models[-1].name,)
+        log("Loaded model: %s" % (models[-1].name,))
 
 def cross_check_models(sentence):
-    print "Checking << %s >> with existing models..." % (sentence,)
+    log("Checking << %s >> with existing models..." % (sentence,))
     for model in models:
         if model.match(sentence):
-            command_mapping[ model.name ](sentence)
+            log("Matched with %s" % (model.name,))
+            alice.command_mapping[ model.name ](sentence)
+            return
         else:
-            print "Did not match with %s" % (model.name,)
+            log("Did not match with %s" % (model.name,), tolerance=2)
+
+def main():
+    global use_voice, recognizer
+
+    load_models()
+    if use_voice:
+        recognize = sr.Recognizer()
+
+    query = ""
+    while True:
+        query = capture_voice(r) if use_voice else str(raw_input("alice > "))
+        parse_query(query)
 
 if __name__ == "__main__":
-    load_models()
-    r = sr.Recognizer()
-    while True:
-        parse_voice(r)
+    parser = argparse.ArgumentParser(description="Alice - Linux Virtual Assistant")
+    parser.add_argument("--use-voice", "-V", action="store_true")
+    parser.add_argument("--talk", "-t", action="store_true")
+    parser.add_argument("--test", "-T", action="store_true")
+    parser.add_argument('--verbose', '-v', action='count')
+    parser.add_argument('--version', action='version', version="%s %d.%d" %
+            (APPLICATION_NAME, APPLICATION_RELEASE, APPLICATION_REVISION))
+
+    args = parser.parse_args()
+
+    use_voice = args.use_voice
+    VERBOSITY = args.verbose
+    if args.test:
+        alice = core_funcs.DummyActuator()
+    else:
+        alice = core_funcs.CommandActuator(talk=args.talk)
+
+    main()
 
