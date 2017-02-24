@@ -28,16 +28,9 @@ can you not kill the window
 can you not kill the current window
 can you not close this window
 can you not kill this window
-i like dogs
 can you wash the windows
 can you turn off the lights
 please wash your hands
-train a classifier to try to predict the category of a post
-predict the outcome on a new document
-extract the features using almost the same feature
-issue commands
-i think i didn't answer an earlier question
-we stick to simple problems in this post for the sake of illustration
 open the window
 open this window
 can you open the window
@@ -47,8 +40,4 @@ open that program
 unlock the window
 open the unlocked window
 please open the window
-a decent problem gossips beside the shoulder
-the tale pretends
-a backbone dictates above my grief
-a releasing moderate stalls beside the material cell
 
