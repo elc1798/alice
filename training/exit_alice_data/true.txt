@@ -16,3 +16,7 @@ bye bye alice
 sweet dreams
 sweet dreams alice
 emergency shutdown
+exit
+exit please
+can you please exit
+can you exit
