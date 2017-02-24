@@ -9,7 +9,7 @@ from sklearn.linear_model import SGDClassifier
 
 class CommandMatchingModel:
 
-    def __init__(self, dataset, shuffle=True, train=False):
+    def __init__(self, dataset, shuffle=True, train=False, name="model"):
         """
         Creates an instance of the CommandMatchingModel.
 
@@ -21,8 +21,12 @@ class CommandMatchingModel:
                         random.shuffle. True by default.
             train   -   Boolean. If true, will train the classifier within the
                         constructor. False by default.
+            name    -   The name of the model. This is optional, and is only
+                        used to identify the model externally
         """
         assert(len(dataset) == 2 and type(dataset[0]) == list and type(dataset[1]) == list)
+
+        self.name = name
 
         self.data = [ (i, "True") for i in dataset[0] ] + [ (i, "False") for i in dataset[1] ]
         if shuffle:
