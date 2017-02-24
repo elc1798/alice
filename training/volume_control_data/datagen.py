@@ -1,36 +1,50 @@
-# Procedurally generate dataset using state diagram / graph implementation
-# YES, i know I didn't make the graph correctly, and there's some grammatically
-# incorrect traversals. I just wanted to save some time.
+import re
 
 graph = {
-    "ROOT" : [ "turn", "make", "increase", "decrease", "increase", "lower",
-        "higher"],
-    "turn" : [ "up", "down", "the"],
-    "make" : [ "the" ],
-    "up" : [ "the", "tunez", "volume", "sound", "beat", "tune", "tunes", "music",
-        "song" ],
-    "down": [ "the", "tunez", "volume", "sound", "beat", "tune", "tunes", "music",
-        "song" ],
-    "the" : [ "tunez", "volume", "sound", "beat", "tune", "tunes", "music",
-        "song" ],
-    "tunez" : [ "louder", "softer", "quieter", "lower", "higher", "STOP"],
-    "volume" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "sound" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "beat" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "tune" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "tunes" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "music" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "song" : [ "louder", "softer", "quieter", "lower", "higher", "STOP" ],
-    "decrease" : [ "the", "volume", "sound", "tunes", "music" ],
-    "increase" : [ "the", "volume", "sound", "tunes", "music" ],
-    "lower" : [ "the", "volume", "sound", "tunes", "music" ],
-    "higher" : [ "the", "volume", "sound", "tunes", "music" ],
-    "louder" : ["STOP"],
-    "softer" : ["STOP"],
-    "quieter" : ["STOP"],
-    "lower" : ["STOP"],
-    "higher" : ["STOP"],
-    "STOP" : []
+    "ROOT" : [ "turn", "make", "decrease", "increase" ],
+    "turn" : [ "up1", "down1", "the2" ],
+    "up1" : [ "the1" ],
+    "down1" : [ "the1" ],
+    "the1" : [ "tunez1", "volume1", "sound1", "beat1", "tune1", "tunes1",
+        "music1", "song1" ],
+    "tunez1" : [ "STOP" ],
+    "volume1" : [ "STOP" ],
+    "sound1" : [ "STOP" ],
+    "beat1" : [ "STOP" ],
+    "tune1" : [ "STOP" ],
+    "tunes1" : [ "STOP" ],
+    "music1" : [ "STOP" ],
+    "song1" : [ "STOP" ],
+    "the2" : [ "tunez2", "volume2", "sound2", "beat2", "tune2", "tunes2",
+        "music2", "song2" ],
+    "tunez2" : [ "up2", "down2" ],
+    "volume2" : [ "up2", "down2" ],
+    "sound2" : [ "up2", "down2" ],
+    "beat2" : [ "up2", "down2" ],
+    "tune2" : [ "up2", "down2" ],
+    "tunes2" : [ "up2", "down2" ],
+    "music2" : [ "up2", "down2" ],
+    "song2" : [ "up2", "down2" ],
+    "up2" : [ "STOP" ],
+    "down2" : [ "STOP" ],
+    "make" : [ "the3" ],
+    "the3" : [ "tunez3", "volume3", "sound3", "beat3", "tune3", "tunes3",
+        "music3", "song3" ],
+    "tunez3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "volume3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "sound3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "beat3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "tune3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "tunes3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "music3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "song3" : [ "louder", "softer", "quieter", "lower", "higher" ],
+    "louder" : [ "STOP" ],
+    "softer" : [ "STOP" ],
+    "quieter" : [ "STOP" ],
+    "lower" : [ "STOP" ],
+    "higher" : [ "STOP" ],
+    "decrease" : [ "the1" ],
+    "increase" : [ "the1" ]
 }
 
 data_list = []
@@ -53,5 +67,5 @@ def bfs():
 bfs()
 
 with open("true.txt", 'w') as f:
-    f.write( "\n".join(data_list) )
+    f.write( re.sub(r'\d+', '', "\n".join(data_list)))
 
