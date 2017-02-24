@@ -27,7 +27,7 @@ def parse_voice(speech_recognizer):
 
         for prompt in prompts:
             if res.startswith(prompt) and len(res) > len(prompt):
-                res = res.lstrip(prompt)
+                res = res[ len(prompt): ]
                 should_listen = True
 
         if should_listen:
@@ -55,6 +55,8 @@ def cross_check_models(sentence):
     for model in models:
         if model.match(sentence):
             command_mapping[ model.name ](sentence)
+        else:
+            print "Did not match with %s" % (model.name,)
 
 if __name__ == "__main__":
     load_models()
