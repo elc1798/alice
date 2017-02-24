@@ -1,0 +1,8 @@
+SpeechRecognition
+numpy
+pyaudio
+sklearn
+matplotlib
+pandas
+scipy
+spacy
