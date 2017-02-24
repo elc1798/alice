@@ -1,0 +1,3357 @@
+(ialicized_models
+CommandMatchingModel
+p0
+(dp1
+S'loss'
+p2
+S'squared_hinge'
+p3
+sS'grammar'
+p4
+NsS'name'
+p5
+S'VOLUME_CONTROL.model'
+p6
+sS'n_iter'
+p7
+I5
+sS'penalty'
+p8
+S'l1'
+p9
+sS'trained'
+p10
+I01
+sS'alpha'
+p11
+F0.001
+sS'data'
+p12
+(lp13
+(S'turn the song up please'
+p14
+S'True'
+p15
+tp16
+a(S'can you turn up the tunes'
+p17
+g15
+tp18
+a(S'please send me to the lock screen'
+p19
+S'False'
+p20
+tp21
+a(S'can you send me to the lock screen'
+p22
+g20
+tp23
+a(S'can you please turn down the beat'
+p24
+g15
+tp25
+a(S'can you please shutdown the computer'
+p26
+g20
+tp27
+a(S'can you please kill the window'
+p28
+g20
+tp29
+a(S'can you please turn the music up'
+p30
+g15
+tp31
+a(S'see you'
+p32
+g20
+tp33
+a(S'turn down the sound please'
+p34
+g15
+tp35
+a(S'can you turn my computer off'
+p36
+g20
+tp37
+a(S'turn the song down please'
+p38
+g15
+tp39
+a(S'can you turn the volume down'
+p40
+g15
+tp41
+a(S'make the tune softer'
+p42
+g15
+tp43
+a(S'can you please make the tunez softer'
+p44
+g15
+tp45
+a(S'can you please kill this window'
+p46
+g20
+tp47
+a(S'can you please decrease the music'
+p48
+g15
+tp49
+a(S'please kill current window'
+p50
+g20
+tp51
+a(S'can you shutdown'
+p52
+g20
+tp53
+a(S'kill current window'
+p54
+g20
+tp55
+a(S'can you make the volume lower'
+p56
+g15
+tp57
+a(S'increase the sound please'
+p58
+g15
+tp59
+a(S'make the tunez softer'
+p60
+g15
+tp61
+a(S'can you lock the screen'
+p62
+g20
+tp63
+a(S'turn up the tunez please'
+p64
+g15
+tp65
+a(S'shut down the computer please'
+p66
+g20
+tp67
+a(S'turn the tunez up please'
+p68
+g15
+tp69
+a(S'can you please increase the song'
+p70
+g15
+tp71
+a(S'can you make the tunes softer'
+p72
+g15
+tp73
+a(S'close active window'
+p74
+g20
+tp75
+a(S'kill the program'
+p76
+g20
+tp77
+a(S'please lock the screen'
+p78
+g20
+tp79
+a(S'can you make the volume softer'
+p80
+g15
+tp81
+a(S'predict the outcome on a new document'
+p82
+g20
+tp83
+a(S'increase the tunes please'
+p84
+g15
+tp85
+a(S'shut down'
+p86
+g20
+tp87
+a(S'decrease the tune'
+p88
+g15
+tp89
+a(S'please shutdown my computer'
+p90
+g20
+tp91
+a(S'please lock my computer'
+p92
+g20
+tp93
+a(S'can you turn up the song'
+p94
+g15
+tp95
+a(S'can you kill this window'
+p96
+g20
+tp97
+a(S'increase the sound'
+p98
+g15
+tp99
+a(S'emergency shutdown'
+p100
+g20
+tp101
+a(S'increase the tunez'
+p102
+g15
+tp103
+a(S'make the sound quieter please'
+p104
+g15
+tp105
+a(S'can you make the beat louder'
+p106
+g15
+tp107
+a(S'can you lock computer please'
+p108
+g20
+tp109
+a(S'shutdown my computer'
+p110
+g20
+tp111
+a(S'make the song softer'
+p112
+g15
+tp113
+a(S'can you make the beat lower'
+p114
+g15
+tp115
+a(S'can you exit'
+p116
+g20
+tp117
+a(S'can you please turn down the volume'
+p118
+g15
+tp119
+a(S'lock the screen please'
+p120
+g20
+tp121
+a(S'lock computer'
+p122
+g20
+tp123
+a(S'can you please make the beat louder'
+p124
+g15
+tp125
+a(S'can you make the tune louder'
+p126
+g15
+tp127
+a(S'please shut my computer down'
+p128
+g20
+tp129
+a(S'please turn my computer off'
+p130
+g20
+tp131
+a(S'turn down the tunez'
+p132
+g15
+tp133
+a(S''
+p134
+g20
+tp135
+a(S'please shut off my computer'
+p136
+g20
+tp137
+a(S'can you close this window'
+p138
+g20
+tp139
+a(S'can you please turn the volume down'
+p140
+g15
+tp141
+a(S'can you please close active window'
+p142
+g20
+tp143
+a(S'make the volume softer'
+p144
+g15
+tp145
+a(S'can you please shutdown my computer'
+p146
+g20
+tp147
+a(S'make the song quieter please'
+p148
+g15
+tp149
+a(S'can you please shut down the computer'
+p150
+g20
+tp151
+a(S'can you make the music higher'
+p152
+g15
+tp153
+a(S'bye'
+p154
+g20
+tp155
+a(S'turn up the volume'
+p156
+g15
+tp157
+a(S'can you make the volume louder'
+p158
+g15
+tp159
+a(S'can you put me on the lock screen'
+p160
+g20
+tp161
+a(S'decrease the song'
+p162
+g15
+tp163
+a(S'make the music lower please'
+p164
+g15
+tp165
+a(S'can you close the active window'
+p166
+g20
+tp167
+a(S'can you please make the tunes higher'
+p168
+g15
+tp169
+a(S'bye bye'
+p170
+g20
+tp171
+a(S'lock the screen'
+p172
+g20
+tp173
+a(S'can you please turn down the song'
+p174
+g15
+tp175
+a(S'decrease the tunes please'
+p176
+g15
+tp177
+a(S'can you increase the tune'
+p178
+g15
+tp179
+a(S'make the volume lower'
+p180
+g15
+tp181
+a(S'can you send me to the lock screen please'
+p182
+g20
+tp183
+a(S'decrease the song please'
+p184
+g15
+tp185
+a(S'can you please turn the tunes up'
+p186
+g15
+tp187
+a(S'can you please make the tunes quieter'
+p188
+g15
+tp189
+a(S'can you please make the tune louder'
+p190
+g15
+tp191
+a(S'can you please make the music higher'
+p192
+g15
+tp193
+a(S'make the tunes lower'
+p194
+g15
+tp195
+a(S'can you make the tunez quieter'
+p196
+g15
+tp197
+a(S'shutdown please'
+p198
+g20
+tp199
+a(S'turn the beat up'
+p200
+g15
+tp201
+a(S'can you turn down the sound'
+p202
+g15
+tp203
+a(S'make the song quieter'
+p204
+g15
+tp205
+a(S'can you please make the tune lower'
+p206
+g15
+tp207
+a(S'can you turn the music down'
+p208
+g15
+tp209
+a(S'can you make the sound quieter'
+p210
+g15
+tp211
+a(S'can you make the tunez louder'
+p212
+g15
+tp213
+a(S'turn the tune up please'
+p214
+g15
+tp215
+a(S'can you please increase the volume'
+p216
+g15
+tp217
+a(S'can you please make the song higher'
+p218
+g15
+tp219
+a(S'shut off my computer'
+p220
+g20
+tp221
+a(S'turn down the beat please'
+p222
+g15
+tp223
+a(S'shut off'
+p224
+g20
+tp225
+a(S'decrease the music please'
+p226
+g15
+tp227
+a(S'turn down the tunes'
+p228
+g15
+tp229
+a(S'can you shutdown the computer'
+p230
+g20
+tp231
+a(S'can you please decrease the song'
+p232
+g15
+tp233
+a(S'increase the tune please'
+p234
+g15
+tp235
+a(S'can you please make the beat lower'
+p236
+g15
+tp237
+a(S'increase the tunes'
+p238
+g15
+tp239
+a(S'can you please turn the song up'
+p240
+g15
+tp241
+a(S'can you please turn the sound down'
+p242
+g15
+tp243
+a(S'can you put me on the lock screen please'
+p244
+g20
+tp245
+a(S'make the song softer please'
+p246
+g15
+tp247
+a(S'can you make the volume quieter'
+p248
+g15
+tp249
+a(S'can you please make the tune softer'
+p250
+g15
+tp251
+a(S'make the song lower'
+p252
+g15
+tp253
+a(S'can you decrease the tunez'
+p254
+g15
+tp255
+a(S'a backbone dictates above my grief'
+p256
+g20
+tp257
+a(S'make the tunez lower please'
+p258
+g15
+tp259
+a(S'make the beat softer please'
+p260
+g15
+tp261
+a(S'the tale pretends'
+p262
+g20
+tp263
+a(S'shut my computer down please'
+p264
+g20
+tp265
+a(S'can you turn the sound down'
+p266
+g15
+tp267
+a(S'shutdown the computer please'
+p268
+g20
+tp269
+a(S'can you please close current window'
+p270
+g20
+tp271
+a(S'make the tune quieter please'
+p272
+g15
+tp273
+a(S'can you please make the song softer'
+p274
+g15
+tp275
+a(S'put me on the lock screen please'
+p276
+g20
+tp277
+a(S'decrease the volume'
+p278
+g15
+tp279
+a(S'please kill the window'
+p280
+g20
+tp281
+a(S'turn the tune down please'
+p282
+g15
+tp283
+a(S'can you please decrease the tunes'
+p284
+g15
+tp285
+a(S'make the volume louder please'
+p286
+g15
+tp287
+a(S'can you turn off the computer'
+p288
+g20
+tp289
+a(S'turn down the sound'
+p290
+g15
+tp291
+a(S'can you turn yourself off'
+p292
+g20
+tp293
+a(S'make the song higher'
+p294
+g15
+tp295
+a(S'make the beat lower'
+p296
+g15
+tp297
+a(S'turn the sound up'
+p298
+g15
+tp299
+a(S'can you shut off'
+p300
+g20
+tp301
+a(S'make the beat quieter please'
+p302
+g15
+tp303
+a(S'make the volume quieter'
+p304
+g15
+tp305
+a(S'can you make the sound lower'
+p306
+g15
+tp307
+a(S'can you please make the sound lower'
+p308
+g15
+tp309
+a(S'turn up the song please'
+p310
+g15
+tp311
+a(S'can you kill the current window'
+p312
+g20
+tp313
+a(S'can you decrease the sound'
+p314
+g15
+tp315
+a(S'can you please make the volume higher'
+p316
+g15
+tp317
+a(S'close the active window'
+p318
+g20
+tp319
+a(S'can you please turn off the computer'
+p320
+g20
+tp321
+a(S'can you kill the window'
+p322
+g20
+tp323
+a(S'make the tunes quieter'
+p324
+g15
+tp325
+a(S'can you please increase the tunez'
+p326
+g15
+tp327
+a(S'can you make the tune quieter'
+p328
+g15
+tp329
+a(S'can you please increase the sound'
+p330
+g15
+tp331
+a(S'can you please make the tunez higher'
+p332
+g15
+tp333
+a(S'make the tune lower please'
+p334
+g15
+tp335
+a(S'make the tunes softer please'
+p336
+g15
+tp337
+a(S"i think i didn't answer an earlier question"
+p338
+g20
+tp339
+a(S'can you please make the beat quieter'
+p340
+g15
+tp341
+a(S'can you please make the song lower'
+p342
+g15
+tp343
+a(S'can you turn down the volume'
+p344
+g15
+tp345
+a(S'make the sound lower please'
+p346
+g15
+tp347
+a(S'can you make the sound louder'
+p348
+g15
+tp349
+a(S'can you decrease the volume'
+p350
+g15
+tp351
+a(S'can you please turn up the music'
+p352
+g15
+tp353
+a(S'shut off please'
+p354
+g20
+tp355
+a(S'make the volume higher'
+p356
+g15
+tp357
+a(S'can you please increase the beat'
+p358
+g15
+tp359
+a(S'send me to the lock screen'
+p360
+g20
+tp361
+a(S'decrease the tune please'
+p362
+g15
+tp363
+a(S'make the tune louder please'
+p364
+g15
+tp365
+a(S'can you decrease the tune'
+p366
+g15
+tp367
+a(S'turn the sound down'
+p368
+g15
+tp369
+a(S'can you decrease the song'
+p370
+g15
+tp371
+a(S'can you please make the tune higher'
+p372
+g15
+tp373
+a(S'can you please make the song quieter'
+p374
+g15
+tp375
+a(S'can you decrease the music'
+p376
+g15
+tp377
+a(S'increase the beat'
+p378
+g15
+tp379
+a(S'make the music softer please'
+p380
+g15
+tp381
+a(S'can you make the song quieter'
+p382
+g15
+tp383
+a(S'can you make the tunes lower'
+p384
+g15
+tp385
+a(S'shutdown'
+p386
+g20
+tp387
+a(S'can you please turn the tunes down'
+p388
+g15
+tp389
+a(S'make the beat louder please'
+p390
+g15
+tp391
+a(S'make the sound higher'
+p392
+g15
+tp393
+a(S'make the song lower please'
+p394
+g15
+tp395
+a(S'can you please turn up the volume'
+p396
+g15
+tp397
+a(S'turn the tunes down'
+p398
+g15
+tp399
+a(S'can you please make the tunez lower'
+p400
+g15
+tp401
+a(S'can you please make the sound louder'
+p402
+g15
+tp403
+a(S'make the tunez higher'
+p404
+g15
+tp405
+a(S'make the beat higher'
+p406
+g15
+tp407
+a(S'make the tunez louder please'
+p408
+g15
+tp409
+a(S'close this window'
+p410
+g20
+tp411
+a(S'turn the song down'
+p412
+g15
+tp413
+a(S'make the music higher'
+p414
+g15
+tp415
+a(S'make the tune higher'
+p416
+g15
+tp417
+a(S'can you please close this window'
+p418
+g20
+tp419
+a(S'can you please make the volume lower'
+p420
+g15
+tp421
+a(S'can you please shut off my computer'
+p422
+g20
+tp423
+a(S'decrease the tunez please'
+p424
+g15
+tp425
+a(S'turn the beat up please'
+p426
+g15
+tp427
+a(S'can you please turn up the tunes'
+p428
+g15
+tp429
+a(S'can you please shut my computer down'
+p430
+g20
+tp431
+a(S'turn down the beat'
+p432
+g15
+tp433
+a(S'turn the tunez down'
+p434
+g15
+tp435
+a(S'shut down the computer'
+p436
+g20
+tp437
+a(S'decrease the tunez'
+p438
+g15
+tp439
+a(S'turn the tunez up'
+p440
+g15
+tp441
+a(S'please close the window'
+p442
+g20
+tp443
+a(S'turn off my computer please'
+p444
+g20
+tp445
+a(S'make the tune softer please'
+p446
+g15
+tp447
+a(S'can you make the sound softer'
+p448
+g15
+tp449
+a(S'train a classifier to try to predict the category of a post'
+p450
+g20
+tp451
+a(S'can you please make the music louder'
+p452
+g15
+tp453
+a(S'can you turn up the beat'
+p454
+g15
+tp455
+a(S'sweet dreams'
+p456
+g20
+tp457
+a(S'can you please close the current window'
+p458
+g20
+tp459
+a(S'increase the music please'
+p460
+g15
+tp461
+a(S'can you please make the volume quieter'
+p462
+g15
+tp463
+a(S'turn down the volume please'
+p464
+g15
+tp465
+a(S'can you please turn up the beat'
+p466
+g15
+tp467
+a(S'shutdown the computer'
+p468
+g20
+tp469
+a(S'can you open this program'
+p470
+g20
+tp471
+a(S'can you please turn the sound up'
+p472
+g15
+tp473
+a(S'see ya'
+p474
+g20
+tp475
+a(S'a releasing moderate stalls beside the material cell'
+p476
+g20
+tp477
+a(S'can you please decrease the tunez'
+p478
+g15
+tp479
+a(S'lock my computer'
+p480
+g20
+tp481
+a(S'can you please decrease the beat'
+p482
+g15
+tp483
+a(S'turn the sound down please'
+p484
+g15
+tp485
+a(S'make the tune higher please'
+p486
+g15
+tp487
+a(S'turn the beat down'
+p488
+g15
+tp489
+a(S'turn the beat down please'
+p490
+g15
+tp491
+a(S'make the tunes quieter please'
+p492
+g15
+tp493
+a(S'please close the active window'
+p494
+g20
+tp495
+a(S'increase the beat please'
+p496
+g15
+tp497
+a(S'can you close the current window'
+p498
+g20
+tp499
+a(S'make the volume louder'
+p500
+g15
+tp501
+a(S'turn off'
+p502
+g20
+tp503
+a(S'kill active window'
+p504
+g20
+tp505
+a(S'turn down the volume'
+p506
+g15
+tp507
+a(S'can you increase the song'
+p508
+g15
+tp509
+a(S'make the tunez quieter please'
+p510
+g15
+tp511
+a(S'can you please kill the active window'
+p512
+g20
+tp513
+a(S'can you turn yourself off please'
+p514
+g20
+tp515
+a(S'make the volume quieter please'
+p516
+g15
+tp517
+a(S'turn up the song'
+p518
+g15
+tp519
+a(S'a decent problem gossips beside the shoulder'
+p520
+g20
+tp521
+a(S'turn up the music please'
+p522
+g15
+tp523
+a(S'please kill the current window'
+p524
+g20
+tp525
+a(S'make the song louder please'
+p526
+g15
+tp527
+a(S'can you please make the tunez louder'
+p528
+g15
+tp529
+a(S'can you make the song softer'
+p530
+g15
+tp531
+a(S'please turn off the computer'
+p532
+g20
+tp533
+a(S'make the music softer'
+p534
+g15
+tp535
+a(S'can you make the song higher'
+p536
+g15
+tp537
+a(S'can you please make the tunes lower'
+p538
+g15
+tp539
+a(S'make the tunez softer please'
+p540
+g15
+tp541
+a(S'turn up the beat please'
+p542
+g15
+tp543
+a(S'make the tune lower'
+p544
+g15
+tp545
+a(S'shut down my computer'
+p546
+g20
+tp547
+a(S'turn the music down please'
+p548
+g15
+tp549
+a(S'kill the active window'
+p550
+g20
+tp551
+a(S'make the sound louder please'
+p552
+g15
+tp553
+a(S'turn up the tune'
+p554
+g15
+tp555
+a(S'turn off please'
+p556
+g20
+tp557
+a(S'can you please make the music softer'
+p558
+g15
+tp559
+a(S'can you increase the tunes'
+p560
+g15
+tp561
+a(S'can you turn down the tunez'
+p562
+g15
+tp563
+a(S'can you make the song lower'
+p564
+g15
+tp565
+a(S'can you please decrease the tune'
+p566
+g15
+tp567
+a(S'make the tunes higher please'
+p568
+g15
+tp569
+a(S'make the beat louder'
+p570
+g15
+tp571
+a(S'increase the song please'
+p572
+g15
+tp573
+a(S'decrease the sound'
+p574
+g15
+tp575
+a(S'can you please make the sound softer'
+p576
+g15
+tp577
+a(S'close window'
+p578
+g20
+tp579
+a(S'can you lock computer'
+p580
+g20
+tp581
+a(S'can you please turn the tunez down'
+p582
+g15
+tp583
+a(S'can you make the tunez higher'
+p584
+g15
+tp585
+a(S'can you please turn the beat up'
+p586
+g15
+tp587
+a(S'please shut down the computer'
+p588
+g20
+tp589
+a(S'make the music louder please'
+p590
+g15
+tp591
+a(S'can you decrease the tunes'
+p592
+g15
+tp593
+a(S'turn the tunes up'
+p594
+g15
+tp595
+a(S'decrease the beat'
+p596
+g15
+tp597
+a(S'can you please turn down the tune'
+p598
+g15
+tp599
+a(S'please shutdown'
+p600
+g20
+tp601
+a(S'make the tunes lower please'
+p602
+g15
+tp603
+a(S'increase the volume please'
+p604
+g15
+tp605
+a(S'make the beat softer'
+p606
+g15
+tp607
+a(S'exit'
+p608
+g20
+tp609
+a(S'increase the music'
+p610
+g15
+tp611
+a(S'close the current window'
+p612
+g20
+tp613
+a(S'can you decrease the beat'
+p614
+g15
+tp615
+a(S'can you please decrease the volume'
+p616
+g15
+tp617
+a(S'can you please make the music lower'
+p618
+g15
+tp619
+a(S'can you please make the music quieter'
+p620
+g15
+tp621
+a(S'make the tune louder'
+p622
+g15
+tp623
+a(S'can you make the volume higher'
+p624
+g15
+tp625
+a(S'turn the volume down please'
+p626
+g15
+tp627
+a(S'increase the tunez please'
+p628
+g15
+tp629
+a(S'can you make the tune softer'
+p630
+g15
+tp631
+a(S'make the sound quieter'
+p632
+g15
+tp633
+a(S'decrease the volume please'
+p634
+g15
+tp635
+a(S'can you make the tune lower'
+p636
+g15
+tp637
+a(S'can you increase the beat'
+p638
+g15
+tp639
+a(S'can you turn the tunes up'
+p640
+g15
+tp641
+a(S'turn down the music'
+p642
+g15
+tp643
+a(S'good bye'
+p644
+g20
+tp645
+a(S'can you please turn down the music'
+p646
+g15
+tp647
+a(S'can you please increase the tunes'
+p648
+g15
+tp649
+a(S'turn up the sound'
+p650
+g15
+tp651
+a(S'can you please turn up the sound'
+p652
+g15
+tp653
+a(S'good night alice'
+p654
+g20
+tp655
+a(S'make the beat higher please'
+p656
+g15
+tp657
+a(S'can you lock my computer please'
+p658
+g20
+tp659
+a(S'kill this window'
+p660
+g20
+tp661
+a(S'can you turn off my computer'
+p662
+g20
+tp663
+a(S'make the tunes higher'
+p664
+g15
+tp665
+a(S'can you make the tunes quieter'
+p666
+g15
+tp667
+a(S'can you make the tune higher'
+p668
+g15
+tp669
+a(S'make the tunez louder'
+p670
+g15
+tp671
+a(S'can you make the tunes higher'
+p672
+g15
+tp673
+a(S'turn down the song'
+p674
+g15
+tp675
+a(S'please shut off'
+p676
+g20
+tp677
+a(S'can you make the music quieter'
+p678
+g15
+tp679
+a(S'please turn off my computer'
+p680
+g20
+tp681
+a(S'turn off the computer please'
+p682
+g20
+tp683
+a(S'can you turn up the volume'
+p684
+g15
+tp685
+a(S'can you turn up the tunez'
+p686
+g15
+tp687
+a(S'can you please kill active window'
+p688
+g20
+tp689
+a(S'can you increase the volume'
+p690
+g15
+tp691
+a(S'can you please shut off'
+p692
+g20
+tp693
+a(S'can you please turn up the tunez'
+p694
+g15
+tp695
+a(S'turn the tune up'
+p696
+g15
+tp697
+a(S'turn up the beat'
+p698
+g15
+tp699
+a(S'can you please turn the music down'
+p700
+g15
+tp701
+a(S'please close this window'
+p702
+g20
+tp703
+a(S'make the beat quieter'
+p704
+g15
+tp705
+a(S'can you please make the tunes louder'
+p706
+g15
+tp707
+a(S'turn up the tunes please'
+p708
+g15
+tp709
+a(S'make the volume softer please'
+p710
+g15
+tp711
+a(S'please kill active window'
+p712
+g20
+tp713
+a(S'can you please make the beat softer'
+p714
+g15
+tp715
+a(S'shut down please'
+p716
+g20
+tp717
+a(S'increase the song'
+p718
+g15
+tp719
+a(S'can you please turn the tune up'
+p720
+g15
+tp721
+a(S'can you turn the tunez down'
+p722
+g15
+tp723
+a(S'can you please turn the tune down'
+p724
+g15
+tp725
+a(S'shut off my computer please'
+p726
+g20
+tp727
+a(S'can you turn down the tunes'
+p728
+g15
+tp729
+a(S'can you turn the song up'
+p730
+g15
+tp731
+a(S'put me on the lock screen'
+p732
+g20
+tp733
+a(S'turn the music up please'
+p734
+g15
+tp735
+a(S'can you please turn the tunez up'
+p736
+g15
+tp737
+a(S'i like dogs'
+p738
+g20
+tp739
+a(S'can you make the music softer'
+p740
+g15
+tp741
+a(S'please turn off'
+p742
+g20
+tp743
+a(S'turn my computer off please'
+p744
+g20
+tp745
+a(S'can you turn the tunes down'
+p746
+g15
+tp747
+a(S'can you turn up the sound'
+p748
+g15
+tp749
+a(S'make the music lower'
+p750
+g15
+tp751
+a(S'can you turn the song down'
+p752
+g15
+tp753
+a(S'can you make the music lower'
+p754
+g15
+tp755
+a(S'can you please make the song louder'
+p756
+g15
+tp757
+a(S'can you make the music louder'
+p758
+g15
+tp759
+a(S'can you turn down the song'
+p760
+g15
+tp761
+a(S'can you turn the sound up'
+p762
+g15
+tp763
+a(S'can you make the song louder'
+p764
+g15
+tp765
+a(S'increase the tune'
+p766
+g15
+tp767
+a(S'sweet dreams alice'
+p768
+g20
+tp769
+a(S'can you please decrease the sound'
+p770
+g15
+tp771
+a(S'can you turn the tune up'
+p772
+g15
+tp773
+a(S'make the tunez lower'
+p774
+g15
+tp775
+a(S'can you please make the volume softer'
+p776
+g15
+tp777
+a(S'can you shut down the computer'
+p778
+g20
+tp779
+a(S'good night'
+p780
+g20
+tp781
+a(S'turn down the tunez please'
+p782
+g15
+tp783
+a(S'decrease the beat please'
+p784
+g15
+tp785
+a(S'can you turn down the beat'
+p786
+g15
+tp787
+a(S'close current window'
+p788
+g20
+tp789
+a(S'turn the volume up please'
+p790
+g15
+tp791
+a(S'turn up the volume please'
+p792
+g15
+tp793
+a(S'can you please exit'
+p794
+g20
+tp795
+a(S'can you please make the sound quieter'
+p796
+g15
+tp797
+a(S'can you please make the sound higher'
+p798
+g15
+tp799
+a(S'turn the tunes down please'
+p800
+g15
+tp801
+a(S'turn down the music please'
+p802
+g15
+tp803
+a(S'please lock computer'
+p804
+g20
+tp805
+a(S'can you shutdown my computer'
+p806
+g20
+tp807
+a(S'bye alice'
+p808
+g20
+tp809
+a(S'turn up the tune please'
+p810
+g15
+tp811
+a(S'can you please make the beat higher'
+p812
+g15
+tp813
+a(S'can you please turn my computer off'
+p814
+g20
+tp815
+a(S'can you turn down the music'
+p816
+g15
+tp817
+a(S'please close active window'
+p818
+g20
+tp819
+a(S'see ya alice'
+p820
+g20
+tp821
+a(S'turn down the tune please'
+p822
+g15
+tp823
+a(S'issue commands'
+p824
+g20
+tp825
+a(S'make the beat lower please'
+p826
+g15
+tp827
+a(S'turn down the tune'
+p828
+g15
+tp829
+a(S'we stick to simple problems in this post for the sake of illustration'
+p830
+g20
+tp831
+a(S'can you please kill current window'
+p832
+g20
+tp833
+a(S'can you turn the tunez up'
+p834
+g15
+tp835
+a(S'bye bye alice'
+p836
+g20
+tp837
+a(S'can you please turn off'
+p838
+g20
+tp839
+a(S'make the sound lower'
+p840
+g15
+tp841
+a(S'lock'
+p842
+g20
+tp843
+a(S'can you increase the music'
+p844
+g15
+tp845
+a(S'can you please make the tunes softer'
+p846
+g15
+tp847
+a(S'can you shut down'
+p848
+g20
+tp849
+a(S'kill window'
+p850
+g20
+tp851
+a(S'can you shut my computer down'
+p852
+g20
+tp853
+a(S'lock computer please'
+p854
+g20
+tp855
+a(S'can you lock my computer please'
+p856
+g20
+tp857
+a(S'can you make the beat quieter'
+p858
+g15
+tp859
+a(S'can you please turn the beat down'
+p860
+g15
+tp861
+a(S'can you turn the tune down'
+p862
+g15
+tp863
+a(S'can you increase the tunez'
+p864
+g15
+tp865
+a(S'can you turn up the music'
+p866
+g15
+tp867
+a(S'can you please increase the tune'
+p868
+g15
+tp869
+a(S'can you turn the beat down'
+p870
+g15
+tp871
+a(S'turn up the music'
+p872
+g15
+tp873
+a(S'can you make the tunes louder'
+p874
+g15
+tp875
+a(S'turn the tune down'
+p876
+g15
+tp877
+a(S'can you make the sound higher'
+p878
+g15
+tp879
+a(S'turn down the tunes please'
+p880
+g15
+tp881
+a(S'please kill this window'
+p882
+g20
+tp883
+a(S'decrease the sound please'
+p884
+g15
+tp885
+a(S'kill the active program'
+p886
+g20
+tp887
+a(S'turn the song up'
+p888
+g15
+tp889
+a(S'turn off my computer'
+p890
+g20
+tp891
+a(S'extract the features using almost the same feature'
+p892
+g20
+tp893
+a(S'can you turn off'
+p894
+g20
+tp895
+a(S'make the tunes softer'
+p896
+g15
+tp897
+a(S'can you shut down my computer'
+p898
+g20
+tp899
+a(S'please close the current window'
+p900
+g20
+tp901
+a(S'kill the current window'
+p902
+g20
+tp903
+a(S'lock my computer please'
+p904
+g20
+tp905
+a(S'turn yourself off'
+p906
+g20
+tp907
+a(S'can you please make the tunez quieter'
+p908
+g15
+tp909
+a(S'can you shut off my computer'
+p910
+g20
+tp911
+a(S'can you please turn down the tunez'
+p912
+g15
+tp913
+a(S'make the music louder'
+p914
+g15
+tp915
+a(S'turn the volume down'
+p916
+g15
+tp917
+a(S'make the tunes louder please'
+p918
+g15
+tp919
+a(S'can you turn down the tune'
+p920
+g15
+tp921
+a(S'make the tune quieter'
+p922
+g15
+tp923
+a(S'can you please turn down the sound'
+p924
+g15
+tp925
+a(S'turn my computer off'
+p926
+g20
+tp927
+a(S'can you turn the beat up'
+p928
+g15
+tp929
+a(S'make the song louder'
+p930
+g15
+tp931
+a(S'please shut down my computer'
+p932
+g20
+tp933
+a(S'turn the volume up'
+p934
+g15
+tp935
+a(S'decrease the tunes'
+p936
+g15
+tp937
+a(S'make the volume lower please'
+p938
+g15
+tp939
+a(S'turn up the tunes'
+p940
+g15
+tp941
+a(S'turn the tunez down please'
+p942
+g15
+tp943
+a(S'make the sound softer'
+p944
+g15
+tp945
+a(S'can you turn the volume up'
+p946
+g15
+tp947
+a(S'can you please make the volume louder'
+p948
+g15
+tp949
+a(S'please kill the active window'
+p950
+g20
+tp951
+a(S'make the sound higher please'
+p952
+g15
+tp953
+a(S'make the song higher please'
+p954
+g15
+tp955
+a(S'can you make the beat softer'
+p956
+g15
+tp957
+a(S'turn yourself off please'
+p958
+g20
+tp959
+a(S'can you increase the sound'
+p960
+g15
+tp961
+a(S'can you please increase the music'
+p962
+g15
+tp963
+a(S'make the music quieter please'
+p964
+g15
+tp965
+a(S'byebye'
+p966
+g20
+tp967
+a(S'decrease the music'
+p968
+g15
+tp969
+a(S'turn off the computer'
+p970
+g20
+tp971
+a(S'make the music higher please'
+p972
+g15
+tp973
+a(S'can you please make the tune quieter'
+p974
+g15
+tp975
+a(S'can you please turn up the tune'
+p976
+g15
+tp977
+a(S'make the tunez higher please'
+p978
+g15
+tp979
+a(S'turn up the sound please'
+p980
+g15
+tp981
+a(S'exit please'
+p982
+g20
+tp983
+a(S'increase the volume'
+p984
+g15
+tp985
+a(S'turn the music up'
+p986
+g15
+tp987
+a(S'can you please kill the current window'
+p988
+g20
+tp989
+a(S'can you please turn off my computer'
+p990
+g20
+tp991
+a(S'can you lock the screen please'
+p992
+g20
+tp993
+a(S'turn down the song please'
+p994
+g15
+tp995
+a(S'make the volume higher please'
+p996
+g15
+tp997
+a(S'close current program'
+p998
+g20
+tp999
+a(S'shut down my computer please'
+p1000
+g20
+tp1001
+a(S'turn the tunes up please'
+p1002
+g15
+tp1003
+a(S'shut my computer down'
+p1004
+g20
+tp1005
+a(S'can you please shut down'
+p1006
+g20
+tp1007
+a(S'can you turn the music up'
+p1008
+g15
+tp1009
+a(S'can you please turn the song down'
+p1010
+g15
+tp1011
+a(S'make the music quieter'
+p1012
+g15
+tp1013
+a(S'can you please close the active window'
+p1014
+g20
+tp1015
+a(S'can you please turn up the song'
+p1016
+g15
+tp1017
+a(S'make the tunez quieter'
+p1018
+g15
+tp1019
+a(S'make the tunes louder'
+p1020
+g15
+tp1021
+a(S'can you turn up the tune'
+p1022
+g15
+tp1023
+a(S'can you please turn down the tunes'
+p1024
+g15
+tp1025
+a(S'can you please shut down my computer'
+p1026
+g20
+tp1027
+a(S'make the sound softer please'
+p1028
+g15
+tp1029
+a(S'turn the sound up please'
+p1030
+g15
+tp1031
+a(S'can you please turn the volume up'
+p1032
+g15
+tp1033
+a(S'send me to the lock screen please'
+p1034
+g20
+tp1035
+a(S'shutdown my computer please'
+p1036
+g20
+tp1037
+a(S'please shutdown the computer'
+p1038
+g20
+tp1039
+a(S'can you make the tunez lower'
+p1040
+g15
+tp1041
+a(S'please close current window'
+p1042
+g20
+tp1043
+a(S'turn up the tunez'
+p1044
+g15
+tp1045
+a(S'make the sound louder'
+p1046
+g15
+tp1047
+a(S'please shut down'
+p1048
+g20
+tp1049
+a(S'can you make the beat higher'
+p1050
+g15
+tp1051
+a(S'turn the music down'
+p1052
+g15
+tp1053
+a(S'can you make the tunez softer'
+p1054
+g15
+tp1055
+a(S'can you please shutdown'
+p1056
+g20
+tp1057
+asS'classifier'
+p1058
+ccopy_reg
+_reconstructor
+p1059
+(csklearn.pipeline
+Pipeline
+p1060
+c__builtin__
+object
+p1061
+Ntp1062
+Rp1063
+(dp1064
+S'_sklearn_version'
+p1065
+S'0.18.1'
+p1066
+sS'steps'
+p1067
+(lp1068
+(S'vect'
+p1069
+g1059
+(csklearn.feature_extraction.text
+CountVectorizer
+p1070
+g1061
+Ntp1071
+Rp1072
+(dp1073
+S'decode_error'
+p1074
+Vstrict
+p1075
+sS'lowercase'
+p1076
+I01
+sS'stop_words'
+p1077
+NsS'vocabulary'
+p1078
+NsS'tokenizer'
+p1079
+NsS'encoding'
+p1080
+Vutf-8
+p1081
+sS'token_pattern'
+p1082
+V(?u)\u005cb\u005cw\u005cw+\u005cb
+p1083
+sS'input'
+p1084
+Vcontent
+p1085
+sS'analyzer'
+p1086
+Vword
+p1087
+sS'vocabulary_'
+p1088
+(dp1089
+Vfeatures
+p1090
+cnumpy.core.multiarray
+scalar
+p1091
+(cnumpy
+dtype
+p1092
+(S'i8'
+p1093
+I0
+I1
+tp1094
+Rp1095
+(I3
+S'<'
+p1096
+NNNI-1
+I-1
+I0
+tp1097
+bS' \x00\x00\x00\x00\x00\x00\x00'
+p1098
+tp1099
+Rp1100
+sVsimple
+p1101
+g1091
+(g1095
+S'O\x00\x00\x00\x00\x00\x00\x00'
+p1102
+tp1103
+Rp1104
+sVsweet
+p1105
+g1091
+(g1095
+S'U\x00\x00\x00\x00\x00\x00\x00'
+p1106
+tp1107
+Rp1108
+sVyourself
+p1109
+g1091
+(g1095
+S'h\x00\x00\x00\x00\x00\x00\x00'
+p1110
+tp1111
+Rp1112
+sVdown
+p1113
+g1091
+(g1095
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p1114
+tp1115
+Rp1116
+sVactive
+p1117
+g1091
+(g1095
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p1118
+tp1119
+Rp1120
+sVsofter
+p1121
+g1091
+(g1095
+S'P\x00\x00\x00\x00\x00\x00\x00'
+p1122
+tp1123
+Rp1124
+sVkill
+p1125
+g1091
+(g1095
+S'*\x00\x00\x00\x00\x00\x00\x00'
+p1126
+tp1127
+Rp1128
+sVshutdown
+p1129
+g1091
+(g1095
+S'N\x00\x00\x00\x00\x00\x00\x00'
+p1130
+tp1131
+Rp1132
+sVopen
+p1133
+g1091
+(g1095
+S':\x00\x00\x00\x00\x00\x00\x00'
+p1134
+tp1135
+Rp1136
+sVcell
+p1137
+g1091
+(g1095
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p1138
+tp1139
+Rp1140
+sVsake
+p1141
+g1091
+(g1095
+S'G\x00\x00\x00\x00\x00\x00\x00'
+p1142
+tp1143
+Rp1144
+sVdecent
+p1145
+g1091
+(g1095
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p1146
+tp1147
+Rp1148
+sVquestion
+p1149
+g1091
+(g1095
+S'D\x00\x00\x00\x00\x00\x00\x00'
+p1150
+tp1151
+Rp1152
+sVsend
+p1153
+g1091
+(g1095
+S'K\x00\x00\x00\x00\x00\x00\x00'
+p1154
+tp1155
+Rp1156
+sVto
+p1157
+g1091
+(g1095
+S'Z\x00\x00\x00\x00\x00\x00\x00'
+p1158
+tp1159
+Rp1160
+sVwindow
+p1161
+g1091
+(g1095
+S'e\x00\x00\x00\x00\x00\x00\x00'
+p1162
+tp1163
+Rp1164
+sVprogram
+p1165
+g1091
+(g1095
+S'B\x00\x00\x00\x00\x00\x00\x00'
+p1166
+tp1167
+Rp1168
+sVmusic
+p1169
+g1091
+(g1095
+S'3\x00\x00\x00\x00\x00\x00\x00'
+p1170
+tp1171
+Rp1172
+sVtune
+p1173
+g1091
+(g1095
+S']\x00\x00\x00\x00\x00\x00\x00'
+p1174
+tp1175
+Rp1176
+sVbye
+p1177
+g1091
+(g1095
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p1178
+tp1179
+Rp1180
+sVdogs
+p1181
+g1091
+(g1095
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p1182
+tp1183
+Rp1184
+sVpretends
+p1185
+g1091
+(g1095
+S'?\x00\x00\x00\x00\x00\x00\x00'
+p1186
+tp1187
+Rp1188
+sVshoulder
+p1189
+g1091
+(g1095
+S'L\x00\x00\x00\x00\x00\x00\x00'
+p1190
+tp1191
+Rp1192
+sVpredict
+p1193
+g1091
+(g1095
+S'>\x00\x00\x00\x00\x00\x00\x00'
+p1194
+tp1195
+Rp1196
+sVgood
+p1197
+g1091
+(g1095
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p1198
+tp1199
+Rp1200
+sVemergency
+p1201
+g1091
+(g1095
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p1202
+tp1203
+Rp1204
+sVsong
+p1205
+g1091
+(g1095
+S'Q\x00\x00\x00\x00\x00\x00\x00'
+p1206
+tp1207
+Rp1208
+sVya
+p1209
+g1091
+(g1095
+S'f\x00\x00\x00\x00\x00\x00\x00'
+p1210
+tp1211
+Rp1212
+sVmaterial
+p1213
+g1091
+(g1095
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p1214
+tp1215
+Rp1216
+sVlower
+p1217
+g1091
+(g1095
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p1218
+tp1219
+Rp1220
+sVvolume
+p1221
+g1091
+(g1095
+S'c\x00\x00\x00\x00\x00\x00\x00'
+p1222
+tp1223
+Rp1224
+sVtrain
+p1225
+g1091
+(g1095
+S'[\x00\x00\x00\x00\x00\x00\x00'
+p1226
+tp1227
+Rp1228
+sVstick
+p1229
+g1091
+(g1095
+S'T\x00\x00\x00\x00\x00\x00\x00'
+p1230
+tp1231
+Rp1232
+sVbeat
+p1233
+g1091
+(g1095
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p1234
+tp1235
+Rp1236
+sVusing
+p1237
+g1091
+(g1095
+S'b\x00\x00\x00\x00\x00\x00\x00'
+p1238
+tp1239
+Rp1240
+sVan
+p1241
+g1091
+(g1095
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p1242
+tp1243
+Rp1244
+sVyou
+p1245
+g1091
+(g1095
+S'g\x00\x00\x00\x00\x00\x00\x00'
+p1246
+tp1247
+Rp1248
+sVdreams
+p1249
+g1091
+(g1095
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p1250
+tp1251
+Rp1252
+sVme
+p1253
+g1091
+(g1095
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p1254
+tp1255
+Rp1256
+sVdocument
+p1257
+g1091
+(g1095
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p1258
+tp1259
+Rp1260
+sVlike
+p1261
+g1091
+(g1095
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p1262
+tp1263
+Rp1264
+sVthis
+p1265
+g1091
+(g1095
+S'Y\x00\x00\x00\x00\x00\x00\x00'
+p1266
+tp1267
+Rp1268
+sVgossips
+p1269
+g1091
+(g1095
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p1270
+tp1271
+Rp1272
+sVdidn
+p1273
+g1091
+(g1095
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p1274
+tp1275
+Rp1276
+sValice
+p1277
+g1091
+(g1095
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p1278
+tp1279
+Rp1280
+sVtry
+p1281
+g1091
+(g1095
+S'\\\x00\x00\x00\x00\x00\x00\x00'
+p1282
+tp1283
+Rp1284
+sVtunez
+p1285
+g1091
+(g1095
+S'_\x00\x00\x00\x00\x00\x00\x00'
+p1286
+tp1287
+Rp1288
+sVlouder
+p1289
+g1091
+(g1095
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p1290
+tp1291
+Rp1292
+sVcan
+p1293
+g1091
+(g1095
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p1294
+tp1295
+Rp1296
+sVnight
+p1297
+g1091
+(g1095
+S'6\x00\x00\x00\x00\x00\x00\x00'
+p1298
+tp1299
+Rp1300
+sVtunes
+p1301
+g1091
+(g1095
+S'^\x00\x00\x00\x00\x00\x00\x00'
+p1302
+tp1303
+Rp1304
+sVdecrease
+p1305
+g1091
+(g1095
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p1306
+tp1307
+Rp1308
+sVproblem
+p1309
+g1091
+(g1095
+S'@\x00\x00\x00\x00\x00\x00\x00'
+p1310
+tp1311
+Rp1312
+sVoutcome
+p1313
+g1091
+(g1095
+S';\x00\x00\x00\x00\x00\x00\x00'
+p1314
+tp1315
+Rp1316
+sVmy
+p1317
+g1091
+(g1095
+S'4\x00\x00\x00\x00\x00\x00\x00'
+p1318
+tp1319
+Rp1320
+sVclassifier
+p1321
+g1091
+(g1095
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p1322
+tp1323
+Rp1324
+sValmost
+p1325
+g1091
+(g1095
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p1326
+tp1327
+Rp1328
+sVlock
+p1329
+g1091
+(g1095
+S',\x00\x00\x00\x00\x00\x00\x00'
+p1330
+tp1331
+Rp1332
+sVstalls
+p1333
+g1091
+(g1095
+S'S\x00\x00\x00\x00\x00\x00\x00'
+p1334
+tp1335
+Rp1336
+sVshut
+p1337
+g1091
+(g1095
+S'M\x00\x00\x00\x00\x00\x00\x00'
+p1338
+tp1339
+Rp1340
+sVup
+p1341
+g1091
+(g1095
+S'a\x00\x00\x00\x00\x00\x00\x00'
+p1342
+tp1343
+Rp1344
+sVsee
+p1345
+g1091
+(g1095
+S'J\x00\x00\x00\x00\x00\x00\x00'
+p1346
+tp1347
+Rp1348
+sVcomputer
+p1349
+g1091
+(g1095
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p1350
+tp1351
+Rp1352
+sVin
+p1353
+g1091
+(g1095
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p1354
+tp1355
+Rp1356
+sVclose
+p1357
+g1091
+(g1095
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p1358
+tp1359
+Rp1360
+sVextract
+p1361
+g1091
+(g1095
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p1362
+tp1363
+Rp1364
+sVcategory
+p1365
+g1091
+(g1095
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p1366
+tp1367
+Rp1368
+sVquieter
+p1369
+g1091
+(g1095
+S'E\x00\x00\x00\x00\x00\x00\x00'
+p1370
+tp1371
+Rp1372
+sVfor
+p1373
+g1091
+(g1095
+S'!\x00\x00\x00\x00\x00\x00\x00'
+p1374
+tp1375
+Rp1376
+sVmake
+p1377
+g1091
+(g1095
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p1378
+tp1379
+Rp1380
+sVplease
+p1381
+g1091
+(g1095
+S'<\x00\x00\x00\x00\x00\x00\x00'
+p1382
+tp1383
+Rp1384
+sVfeature
+p1385
+g1091
+(g1095
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p1386
+tp1387
+Rp1388
+sVsame
+p1389
+g1091
+(g1095
+S'H\x00\x00\x00\x00\x00\x00\x00'
+p1390
+tp1391
+Rp1392
+sVincrease
+p1393
+g1091
+(g1095
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p1394
+tp1395
+Rp1396
+sVsound
+p1397
+g1091
+(g1095
+S'R\x00\x00\x00\x00\x00\x00\x00'
+p1398
+tp1399
+Rp1400
+sVexit
+p1401
+g1091
+(g1095
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p1402
+tp1403
+Rp1404
+sVabove
+p1405
+g1091
+(g1095
+S'\x00\x00\x00\x00\x00\x00\x00\x00'
+p1406
+tp1407
+Rp1408
+sVanswer
+p1409
+g1091
+(g1095
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p1410
+tp1411
+Rp1412
+sVnew
+p1413
+g1091
+(g1095
+S'5\x00\x00\x00\x00\x00\x00\x00'
+p1414
+tp1415
+Rp1416
+sVreleasing
+p1417
+g1091
+(g1095
+S'F\x00\x00\x00\x00\x00\x00\x00'
+p1418
+tp1419
+Rp1420
+sVmoderate
+p1421
+g1091
+(g1095
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p1422
+tp1423
+Rp1424
+sVissue
+p1425
+g1091
+(g1095
+S')\x00\x00\x00\x00\x00\x00\x00'
+p1426
+tp1427
+Rp1428
+sVhigher
+p1429
+g1091
+(g1095
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p1430
+tp1431
+Rp1432
+sVwe
+p1433
+g1091
+(g1095
+S'd\x00\x00\x00\x00\x00\x00\x00'
+p1434
+tp1435
+Rp1436
+sVdictates
+p1437
+g1091
+(g1095
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p1438
+tp1439
+Rp1440
+sVscreen
+p1441
+g1091
+(g1095
+S'I\x00\x00\x00\x00\x00\x00\x00'
+p1442
+tp1443
+Rp1444
+sVbackbone
+p1445
+g1091
+(g1095
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p1446
+tp1447
+Rp1448
+sVproblems
+p1449
+g1091
+(g1095
+S'A\x00\x00\x00\x00\x00\x00\x00'
+p1450
+tp1451
+Rp1452
+sVillustration
+p1453
+g1091
+(g1095
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p1454
+tp1455
+Rp1456
+sVbeside
+p1457
+g1091
+(g1095
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p1458
+tp1459
+Rp1460
+sVbyebye
+p1461
+g1091
+(g1095
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p1462
+tp1463
+Rp1464
+sVput
+p1465
+g1091
+(g1095
+S'C\x00\x00\x00\x00\x00\x00\x00'
+p1466
+tp1467
+Rp1468
+sVpost
+p1469
+g1091
+(g1095
+S'=\x00\x00\x00\x00\x00\x00\x00'
+p1470
+tp1471
+Rp1472
+sVearlier
+p1473
+g1091
+(g1095
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p1474
+tp1475
+Rp1476
+sVon
+p1477
+g1091
+(g1095
+S'9\x00\x00\x00\x00\x00\x00\x00'
+p1478
+tp1479
+Rp1480
+sVcommands
+p1481
+g1091
+(g1095
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p1482
+tp1483
+Rp1484
+sVoff
+p1485
+g1091
+(g1095
+S'8\x00\x00\x00\x00\x00\x00\x00'
+p1486
+tp1487
+Rp1488
+sVof
+p1489
+g1091
+(g1095
+S'7\x00\x00\x00\x00\x00\x00\x00'
+p1490
+tp1491
+Rp1492
+sVcurrent
+p1493
+g1091
+(g1095
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p1494
+tp1495
+Rp1496
+sVtale
+p1497
+g1091
+(g1095
+S'V\x00\x00\x00\x00\x00\x00\x00'
+p1498
+tp1499
+Rp1500
+sVturn
+p1501
+g1091
+(g1095
+S'`\x00\x00\x00\x00\x00\x00\x00'
+p1502
+tp1503
+Rp1504
+sVgrief
+p1505
+g1091
+(g1095
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p1506
+tp1507
+Rp1508
+sVthe
+p1509
+g1091
+(g1095
+S'W\x00\x00\x00\x00\x00\x00\x00'
+p1510
+tp1511
+Rp1512
+sVthink
+p1513
+g1091
+(g1095
+S'X\x00\x00\x00\x00\x00\x00\x00'
+p1514
+tp1515
+Rp1516
+ssS'binary'
+p1517
+I00
+sS'ngram_range'
+p1518
+(I1
+I1
+tp1519
+sg1065
+g1066
+sS'max_df'
+p1520
+F1.0
+sS'min_df'
+p1521
+I1
+sS'max_features'
+p1522
+NsS'fixed_vocabulary_'
+p1523
+I00
+sS'strip_accents'
+p1524
+NsS'dtype'
+p1525
+cnumpy
+int64
+p1526
+sS'stop_words_'
+p1527
+c__builtin__
+set
+p1528
+((lp1529
+tp1530
+Rp1531
+sS'preprocessor'
+p1532
+Nsbtp1533
+a(S'tfidf'
+p1534
+g1059
+(csklearn.feature_extraction.text
+TfidfTransformer
+p1535
+g1061
+Ntp1536
+Rp1537
+(dp1538
+S'smooth_idf'
+p1539
+I01
+sg1065
+g1066
+sS'_idf_diag'
+p1540
+g1059
+(cscipy.sparse.csr
+csr_matrix
+p1541
+g1061
+Ntp1542
+Rp1543
+(dp1544
+S'indices'
+p1545
+cnumpy.core.multiarray
+_reconstruct
+p1546
+(cnumpy
+ndarray
+p1547
+(I0
+tp1548
+S'b'
+p1549
+tp1550
+Rp1551
+(I1
+(I105
+tp1552
+g1092
+(S'i4'
+p1553
+I0
+I1
+tp1554
+Rp1555
+(I3
+S'<'
+p1556
+NNNI-1
+I-1
+I0
+tp1557
+bI00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00'
+p1558
+tp1559
+bsS'indptr'
+p1560
+g1546
+(g1547
+(I0
+tp1561
+g1549
+tp1562
+Rp1563
+(I1
+(I106
+tp1564
+g1555
+I00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00'
+p1565
+tp1566
+bsS'maxprint'
+p1567
+I50
+sS'_shape'
+p1568
+(I105
+I105
+tp1569
+sg12
+g1546
+(g1547
+(I0
+tp1570
+g1549
+tp1571
+Rp1572
+(I1
+(I105
+tp1573
+g1092
+(S'f8'
+p1574
+I0
+I1
+tp1575
+Rp1576
+(I3
+S'<'
+p1577
+NNNI-1
+I-1
+I0
+tp1578
+bI00
+S'\x95\x80=\xa3\x11B\x1a@\xc3#v\xe6\xce2\x12@\xd2?\x92\x04\x17\xdd\x15@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x10\x87qd\xdf\xa2\x18@\xd2?\x92\x04\x17\xdd\x15@\x95\x80=\xa3\x11B\x1a@\xaa\xb0c\xb5\xf1\xc4\xfc?\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\xef\xe4}\xc7\x9f\xaa\x10@\x95\x80=\xa3\x11B\x1a@\x06\xb7\xe4o\xc8\xdb\t@\xdb\xaa\x9f\x83\xb8\xf0\x11@\x95\x80=\xa3\x11B\x1a@\xd4\xd6c\x11\xdb\x16\x0e@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x92IHH\'\x85\x06@\x10\x87qd\xdf\xa2\x18@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x86d!\x85\xc9\x97\x16@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@W9^CI|\x17@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\xd4\xd6c\x11\xdb\x16\x0e@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\xd4\xd6c\x11\xdb\x16\x0e@\x95\x80=\xa3\x11B\x1a@V\xb1\xd3D\x86Q\x10@\x95\x80=\xa3\x11B\x1a@\xd8tI\x1b\x1f\xff\x0f@\xd4\xd6c\x11\xdb\x16\x0e@\xd4\xd6c\x11\xdb\x16\x0e@\x8a\xaeN\xb1\xfch\x01@\x95\x80=\xa3\x11B\x1a@H\x1dB%\x01\xd2\x13@\x95\x80=\xa3\x11B\x1a@\x01\xc6\x95\x8f\xa8\x9b\x0b@\xe8\xc7\xfe\x17\x8b,\r@\x95\x80=\xa3\x11B\x1a@\x10\x87qd\xdf\xa2\x18@\x10\x87qd\xdf\xa2\x18@\xe0\x9b)\xb3Y\x9e\r@\xd2?\x92\x04\x17\xdd\x15@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@&\'\x1f\xe6{F\xfb?\x10\x87qd\xdf\xa2\x18@\x10\x87qd\xdf\xa2\x18@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x86d!\x85\xc9\x97\x16@\x86d!\x85\xc9\x97\x16@\x95\x80=\xa3\x11B\x1a@\xd4\xd6c\x11\xdb\x16\x0e@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\xc3#v\xe6\xce2\x12@W9^CI|\x17@\xd2?\x92\x04\x17\xdd\x15@\x95\x80=\xa3\x11B\x1a@Kd\xa8\xbd\xe5\x96\x0e@\x16\x88\x1f"\xa4\xb2\x11@\x95\x80=\xa3\x11B\x1a@\xd4\xd6c\x11\xdb\x16\x0e@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x10\x87qd\xdf\xa2\x18@\x95\x80=\xa3\x11B\x1a@\x84\x1c\xeb\t:\xdd\xf3?\x95\x80=\xa3\x11B\x1a@,,]\'hp\x13@\x19\xf2~\xe3\x80\xb6\x14@\x95\x80=\xa3\x11B\x1a@\x95\x80=\xa3\x11B\x1a@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x01\xc6\x95\x8f\xa8\x9b\x0b@ \r\x92\xc9]\xd1\x01@\xba<\x11\xdf\x8e\xaa\x08@\x95\x80=\xa3\x11B\x1a@\x01\xc6\x95\x8f\xa8\x9b\x0b@\x95\x80=\xa3\x11B\x1a@xR\x0b\xb2\xf4(\x0c@\x10\x87qd\xdf\xa2\x18@x?\\&\x8d\xb3\xfc?\x86d!\x85\xc9\x97\x16@'
+p1579
+tp1580
+bsbsS'use_idf'
+p1581
+I01
+sS'sublinear_tf'
+p1582
+I00
+sS'norm'
+p1583
+Vl2
+p1584
+sbtp1585
+a(S'clsfr'
+p1586
+g1059
+(csklearn.linear_model.stochastic_gradient
+SGDClassifier
+p1587
+g1061
+Ntp1588
+Rp1589
+(dp1590
+S't_'
+p1591
+F2606.0
+sS'n_jobs'
+p1592
+I1
+sS'shuffle'
+p1593
+I01
+sS'verbose'
+p1594
+I0
+sS'classes_'
+p1595
+g1546
+(g1547
+(I0
+tp1596
+g1549
+tp1597
+Rp1598
+(I1
+(I2
+tp1599
+g1092
+(S'S5'
+p1600
+I0
+I1
+tp1601
+Rp1602
+(I3
+S'|'
+p1603
+NNNI5
+I1
+I0
+tp1604
+bI00
+S'FalseTrue\x00'
+p1605
+tp1606
+bsS'class_weight'
+p1607
+NsS'fit_intercept'
+p1608
+I01
+sg8
+g9
+sS'random_state'
+p1609
+I42
+sg1065
+g1066
+sS'loss_function'
+p1610
+csklearn.linear_model.sgd_fast
+SquaredHinge
+p1611
+(F1.0
+tp1612
+Rp1613
+sS'C'
+p1614
+F1.0
+sg7
+I5
+sS'epsilon'
+p1615
+F0.1
+sS'learning_rate'
+p1616
+S'optimal'
+p1617
+sS'coef_'
+p1618
+g1546
+(g1547
+(I0
+tp1619
+g1549
+tp1620
+Rp1621
+(I1
+(I1
+I105
+tp1622
+g1576
+I00
+S'\x00\x00\x00\x00\x00\x00\x00\x00|\xb3\x9e\x8cyw\x14\xc0\xe8\xdck\xea[]\xd4\xbfP\t\x90\xb9\x08\xfa\xd8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb8q{\xe8\xe0x\x17@\x88\x8c#s\xffO\xe6\xbf\xbf\x9d\xfbZ\xb2n#\xc0\x00\xa1\xd9uFH\xca\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00~\x87\xa0\xaf\x85^)\xc0@o\xb8\xf6\x1c6\xf9\xbfIe\xe8F2\xdb$\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00tU\xf5\xa10\x9f\x1a@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8c$X*Oy\xe6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfaD_\xad\x8d\x96\x14\xc0P\t\x90\xb9\x08\xfa\xd8\xbfP\t\x90\xb9\x08\xfa\xd8\xbfP\t\x90\xb9\x08\xfa\xd8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x9e\xca\xd6\xa0\x1dy\x0b@@o\xb8\xf6\x1c6\xf9\xbf\x96\x83\x0c\xde\xf0\xf9\x12\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xaa3\xf2)\xcf\x1d+\xc0\xff\xaf[b\x0f)\x10@\x00\x00\x00\x00\x00\x00\x00\x00x\ne\xc0O\xc3!@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb4z\xdb\xe1Y<(\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00#\xf9\xd0S\xd1h\x1d\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xec\x9cC\x0e\xe0\xe1\xe8\xbf\x87V\xbc\xbb\xff\x10\x10\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x002\x92*!\xfc\x0f\x1c\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xaaM\xd8\x80n%%@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00P\t\x90\xb9\x08\xfa\xd8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xae\x9f\x9bI\x01\xec\xfe\xbf\x1a\xb9\xd6\xc4\xad\x98\x16\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x94pw_\xde\x0b@\x9a\xd3\xa0<>x\x07@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8c$X*Oy\xe6\xbf\x87V\xbc\xbb\xff\x10\x10\xc0*8X\xea`k @\x00\x00\x00\x00\x00\x00\x00\x00\xc1\x18[\xfdx\x90/\xc0v\x93\x01\xbc7P\xc2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00:\x170q\xef\xed"@&\xe2\xe0\x14\xfe4\x07@\x00\x00\x00\x00\x00\x00\x00\x00z\xae\xf5\xb7?P\xd3?\x98\xc8\x10\xf9\x95Z\x0e@P\t\x90\xb9\x08\xfa\xd8\xbf\xb0\xa7\xdb\xa5\xff\xef\xfe?\x00\x00\x00\x00\x00\x00\x00\x00\xc8\x02+\xf3\x12R%\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+p1623
+tp1624
+bsg11
+F0.001
+sS'intercept_'
+p1625
+g1546
+(g1547
+(I0
+tp1626
+g1549
+tp1627
+Rp1628
+(I1
+(I1
+tp1629
+g1576
+I00
+S'n\xb9\x7f\x1f\x95\xe1\xee\xbf'
+p1630
+tp1631
+bsS'_expanded_class_weight'
+p1632
+g1546
+(g1547
+(I0
+tp1633
+g1549
+tp1634
+Rp1635
+(I1
+(I2
+tp1636
+g1576
+I00
+S'\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?'
+p1637
+tp1638
+bsS'warm_start'
+p1639
+I00
+sg2
+g3
+sS'eta0'
+p1640
+F0.0
+sS'l1_ratio'
+p1641
+F0.15
+sS'average'
+p1642
+I00
+sS'power_t'
+p1643
+F0.5
+sbtp1644
+asbsb.
