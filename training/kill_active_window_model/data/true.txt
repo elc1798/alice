@@ -39,4 +39,8 @@ can you please kill active window
 can you please kill current window
 can you close this window
 can you kill this window
+can you open this program
+close current program
+kill the program
+kill the active program
 

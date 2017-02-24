@@ -38,4 +38,10 @@ extract the features using almost the same feature
 issue commands
 i think i didn't answer an earlier question
 we stick to simple problems in this post for the sake of illustration
+open the window
+open this window
+can you open the window
+open this program
+please open this program
+open that program
 
