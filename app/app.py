@@ -87,7 +87,7 @@ def main():
 
     query = ""
     while True:
-        query = capture_voice(r) if use_voice else str(raw_input("alice > "))
+        query = capture_voice(recognize) if use_voice else str(raw_input("alice > "))
         parse_query(query)
 
 if __name__ == "__main__":
