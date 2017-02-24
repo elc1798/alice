@@ -12,17 +12,28 @@ command_mapping = {
     "VOLUME_CONTROL.model" : core_funcs.volume
 }
 
+should_listen = False
+prompts = [ "hey alice", "alice", "okay alice", "hey alex", "alex", "okay alex" ]
+
 def parse_voice(speech_recognizer):
+    global should_listen, prompts
+
     with sr.Microphone() as source:
-        print "Say something, I'm giving up on you~~~"
         audio = speech_recognizer.listen(source)
     try:
-        res = speech_recognizer.recognize_google(audio)
+        res = speech_recognizer.recognize_google(audio).lower()
         print("You said: " + res)
-        if res in command_mapping:
-            command_mapping[res]()
-        else:
+
+        for prompt in prompts:
+            if res.startswith(prompt) and len(res) > len(prompt):
+                res = res.lstrip(prompt)
+                should_listen = True
+
+        if should_listen:
             cross_check_models(res)
+
+        should_listen = res in prompts
+
     except sr.UnknownValueError:
         print("Google Speech Recognition could not understand audio")
     except sr.RequestError as e:
@@ -39,6 +50,7 @@ def load_models():
         print "Loaded model: %s" % (models[-1].name,)
 
 def cross_check_models(sentence):
+    print "Checking << %s >> with existing models..." % (sentence,)
     for model in models:
         if model.match(sentence):
             command_mapping[ model.name ](sentence)
