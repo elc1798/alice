@@ -55,14 +55,18 @@ def parse_query(res):
 
 
 models = []
-ordinal_scalers = []
+volume_controller = None
+
 def load_models():
     global models
     model_list = glob.glob("../training/MODELS/*.model")
     log("Found %d models" % (len(model_list),))
     for model_name in model_list:
         with open(model_name, 'r') as MODEL_FILE:
-            models.append(pickle.load(MODEL_FILE))
+            if model_name == "ORDINAL_SCALE_VOLUME_CONTROL.model":
+                volume_controller = pickle.load(MODEL_FILE)
+            else:
+                models.append(pickle.load(MODEL_FILE))
         log("Loaded model: %s" % (models[-1].name,))
 
 def cross_check_models(sentence):
@@ -78,7 +82,6 @@ def cross_check_models(sentence):
 def main():
     global use_voice, recognizer
 
-    load_models()
     if use_voice:
         recognize = sr.Recognizer()
 
@@ -100,10 +103,14 @@ if __name__ == "__main__":
 
     use_voice = args.use_voice
     VERBOSITY = args.verbose
+    load_models()
     if args.test:
         alice = core_funcs.DummyActuator()
     else:
-        alice = core_funcs.CommandActuator(talk=args.talk)
+        alice = core_funcs.CommandActuator(
+                    talk=args.talk,
+                    volume_controller=volume_controller
+                )
 
     main()
 

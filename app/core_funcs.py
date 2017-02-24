@@ -4,7 +4,7 @@ import commands as COMMANDS
 
 class CommandActuator:
 
-    def __init__(self, talk=True):
+    def __init__(self, talk=True, volume_controller=None):
         self.command_mapping = {
             "EXIT_ALICE.model" : self.exit,
             "KILL_ACTIVE_WINDOW.model" : self.kill_active_window,
@@ -13,6 +13,7 @@ class CommandActuator:
             "LOCK_COMPUTER.model" : self.lock
         }
         self.talk = talk
+        self.volume_controller = volume_controller
 
     def exit(self, s):
         sys.exit()
@@ -34,19 +35,18 @@ class CommandActuator:
         os.system(COMMANDS.OPEN_FILE_BROWSER)
 
     def volume(self, s):
-        # Statement intensity inference is a planned feature and I am currently
-        # working on it. For now, for simplicity's sake, below is a naive
-        # implementation on moving the audio up or down
-
-        intersect = lambda l1, l2 : [ i for i in l1 if i in l2 ]
-        t = (0, "")
-        if "mute" in s:
+        if self.volume_controller == None:
+            intersect = lambda l1, l2 : [ i for i in l1 if i in l2 ]
             t = (0, "")
-        elif len(intersect(["higher","louder","increase","up"], s.split(" "))) > 0:
-            t = (5, "+")
-        elif len(intersect(["lower","softer","quieter","decrease","down"],s.split(" "))) > 0:
-            t = (5, "-")
-        os.system(COMMANDS.VOLUME_CONTROL % t)
+            if "mute" in s:
+                t = (0, "")
+            elif len(intersect(["higher","louder","increase","up"], s.split(" "))) > 0:
+                t = (5, "+")
+            elif len(intersect(["lower","softer","quieter","decrease","down"],s.split(" "))) > 0:
+                t = (5, "-")
+            os.system(COMMANDS.VOLUME_CONTROL % t)
+        else:
+            volume_controller.adjust(s)
 
     def lock(self, s):
         os.system(COMMANDS.LOCK)
@@ -63,4 +63,19 @@ class DummyActuator:
 
     def no_op(self, s):
         pass
+
+class VolumeController:
+
+    def __init__(self, volume_ordinal_scale_model):
+        self.volume_ordinal_scale_model = volume_ordinal_scale_model
+
+    def adjust(self, s):
+        rating = volume_ordinal_scale_model.rate(s)
+        if rating == 0:
+            t = (0, "")
+        elif rating == 1:
+            t = (5, "-")
+        elif rating == 2:
+            t = (5, "+")
+        os.system(COMMANDS.VOLUME_CONTROL % t)
 
