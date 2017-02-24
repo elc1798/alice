@@ -6,10 +6,11 @@ import speech_recognition as sr
 import core_funcs
 
 command_mapping = {
-    "EXIT_ALICE" : core_funcs.exit,
+    "EXIT_ALICE.model" : core_funcs.exit,
     "KILL_ACTIVE_WINDOW.model" : core_funcs.kill_active_window,
     "SHUTDOWN_COMPUTER.model" : core_funcs.shutdown,
-    "VOLUME_CONTROL.model" : core_funcs.volume
+    "VOLUME_CONTROL.model" : core_funcs.volume,
+    "LOCK_COMPUTER.model" : core_funcs.lock
 }
 
 should_listen = False

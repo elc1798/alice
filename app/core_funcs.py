@@ -32,3 +32,6 @@ def volume(s):
         t = (5, "-")
     os.system(COMMANDS.VOLUME_CONTROL % t)
 
+def lock(s):
+    os.system(COMMANDS.LOCK)
+
