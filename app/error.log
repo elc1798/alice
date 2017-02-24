@@ -1,0 +1,32 @@
+ALSA lib pcm_dsnoop.c:618:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1022:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+ALSA lib pcm_dmix.c:1022:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm_dsnoop.c:618:(snd_pcm_dsnoop_open) unable to open slave
+ALSA lib pcm_dmix.c:1022:(snd_pcm_dmix_open) unable to open slave
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.rear
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.center_lfe
+ALSA lib pcm.c:2239:(snd_pcm_open_noupdate) Unknown PCM cards.pcm.side
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+bt_audio_service_open: connect() failed: Connection refused (111)
+ALSA lib pcm_dmix.c:1022:(snd_pcm_dmix_open) unable to open slave
+Traceback (most recent call last):
+  File "app.py", line 28, in <module>
+    parse_voice()
+  File "app.py", line 15, in parse_voice
+    audio = r.listen(source)
+  File "/usr/local/lib/python2.7/dist-packages/speech_recognition/__init__.py", line 510, in listen
+    buffer = source.stream.read(source.CHUNK)
+  File "/usr/local/lib/python2.7/dist-packages/speech_recognition/__init__.py", line 137, in read
+    return self.pyaudio_stream.read(size, exception_on_overflow = False)
+  File "/usr/local/lib/python2.7/dist-packages/pyaudio.py", line 608, in read
+    return pa.read_stream(self._stream, num_frames, exception_on_overflow)
+KeyboardInterrupt

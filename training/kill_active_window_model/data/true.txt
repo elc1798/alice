@@ -1,0 +1,42 @@
+close window
+kill window
+close this window
+close current window
+close active window
+close the current window
+close the active window
+kill this window
+kill active window
+kill current window
+kill the current window
+kill the active window
+please close current window
+please close this window
+please close active window
+please close the current window
+please close the active window
+please close the window
+please kill the current window
+please kill the active window
+please kill the window
+please kill this window
+please kill active window
+please kill current window
+can you close the current window
+can you close the active window
+can you kill the window
+can you kill the current window
+can you please close the current window
+can you please close the active window
+can you please close this window
+can you please close active window
+can you please close current window
+can you please kill the current window
+can you please kill the active window
+can you please kill the window
+can you please kill this window
+can you please kill active window
+can you please kill current window
+can you close this window
+can you kill this window
+

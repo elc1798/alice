@@ -1,0 +1,41 @@
+don't close window
+don't kill window
+do not close this window
+do not close current window
+don't close active window
+do not close the current window
+don't close the active window
+don't kill this window
+don't kill active window
+don't kill current window
+don't kill the current window
+don't kill the active window
+please don't close current window
+please don't close this window
+please don't close active window
+please don't close the current window
+please don't close the active window
+please don't close the window
+please don't kill the current window
+please don't kill the active window
+please don't kill the window
+please don't kill this window
+please don't kill active window
+please don't kill current window
+can you not close the current window
+can you not close the active window
+can you not kill the window
+can you not kill the current window
+can you not close this window
+can you not kill this window
+i like dogs
+can you wash the windows
+can you turn off the lights
+please wash your hands
+train a classifier to try to predict the category of a post
+predict the outcome on a new document
+extract the features using almost the same feature
+issue commands
+i think i didn't answer an earlier question
+we stick to simple problems in this post for the sake of illustration
+
