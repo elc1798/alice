@@ -32,11 +32,26 @@ def get_classifier(model_folder, dataset, use_old=False):
             return pickle.load(MODEL_FILE)
     else:
         g = None
+        loss = "squared_hinge"
+        penalty = "elasticnet"
+        alpha = 1e-3
+        n_iter = 5
         if os.path.isfile(os.path.join(model_folder, "grammar.py")) and os.path.isfile(os.path.join(model_folder, "__init__.py")):
             tmp = __import__(model_folder + ".grammar").grammar.get_grammar()
             g = GrammarMatchingModel(rules=tmp)
+        if os.path.isfile(os.path.join(model_folder, "custom.py")) and os.path.isfile(os.path.join(model_folder, "__init__.py")):
+            tmp = __import__(model_folder + ".custom").custom.get_config()
+            if "loss" in tmp:
+                loss = tmp["loss"]
+            if "penalty" in tmp:
+                penalty = tmp["penalty"]
+            if "alpha" in tmp:
+                alpha = tmp["alpha"]
+            if "n_iter" in tmp:
+                n_iter = tmp["n_iter"]
         model = CommandMatchingModel( dataset , shuffle=True, train=True,
-                name=MODEL_FILENAME, grammar=g )
+                name=MODEL_FILENAME, grammar=g,
+                loss=loss, penalty=penalty, alpha=alpha, n_iter=n_iter )
 
         with open(MODEL_PATH, 'w') as MODEL_FILE:
             pickle.dump(model, MODEL_FILE)
