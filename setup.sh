@@ -1,8 +1,7 @@
 # Installs required packages
 
 sudo apt-get install speech-dispatcher
-sudo apt-get install libportaudio-dev libportaudio2 libportaudio0
-libportaudiocpp0
+sudo apt-get install libportaudio-dev libportaudio2 libportaudio0 libportaudiocpp0
 sudo apt-get install libasound-dev
 sudo apt-get install portaudio19-dev libjack-dev libjack0
 
