@@ -88,7 +88,7 @@ if __name__ == "__main__":
     build_fail = [ False, "" ]
 
     for trainee in amplified_data:
-        model = get_classifier(trainee, amplified_data[trainee], use_old=False)
+        model = get_classifier(trainee, amplified_data[trainee], use_old=True)
 
         failcount = 0
         num_tests = 0
@@ -102,9 +102,27 @@ if __name__ == "__main__":
                     failcount += 1
                     print "Failed on test: %s. Should be: %s, got %s instead." % (test[0], test[1], res)
 
+        with open(os.path.join(trainee, "true.txt")) as f:
+            tests = f.read().strip().split("\n")
+            for test in tests:
+                num_tests += 1
+                res = model.match(test)
+                if res != True:
+                    failcount += 1
+                    print "Failed on test: %s. Should be: True, got %s instead." % (test, res)
+
+        with open(os.path.join(trainee, "false.txt")) as f:
+            tests = f.read().strip().split("\n")
+            for test in tests:
+                num_tests += 1
+                res = model.match(test)
+                if res != False:
+                    failcount += 1
+                    print "Failed on test: %s. Should be: False, got %s instead." % (test, res)
+
         if failcount > 0:
             build_fail[0] = True
-            build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s" % (trainee,)) )
+            build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s: Failed %d out of %d tests" % (trainee, failcount, num_tests)) )
         print "Model %s failed %d out of %d tests" % (trainee, failcount, num_tests)
         print "\n\n"
 
