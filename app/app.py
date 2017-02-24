@@ -55,6 +55,7 @@ def parse_query(res):
 
 
 models = []
+ordinal_scalers = []
 def load_models():
     global models
     model_list = glob.glob("../training/MODELS/*.model")
