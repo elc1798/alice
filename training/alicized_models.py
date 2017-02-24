@@ -9,6 +9,8 @@ from sklearn.linear_model import SGDClassifier
 
 import spacy
 
+nlp = None
+
 class CommandMatchingModel:
 
     def __init__(self, dataset, shuffle=True, train=False, name="",
@@ -104,11 +106,12 @@ class CommandMatchingModel:
 class GrammarMatchingModel:
 
     def __init__(self, rules={}):
+        global nlp
         self.rules = rules
-        self.nlp = spacy.load('en')
+        nlp = spacy.load('en')
 
     def match(self, s):
-        docs = self.nlp(unicode(s))
+        docs = nlp(unicode(s))
         match_any = len(self.rules["any"]) == 0
         for key in self.rules["any"]:
             if key in [ str(word.dep_) for word in docs ]:
