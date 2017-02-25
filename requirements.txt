@@ -1,6 +1,4 @@
-SpeechRecognition
 numpy
-pyaudio
 sklearn
 matplotlib
 pandas

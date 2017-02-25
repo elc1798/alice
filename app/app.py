@@ -4,7 +4,10 @@ import glob
 
 import argparse
 
-import speech_recognition as sr
+try:
+    import speech_recognition as sr
+except:
+    print("SR not installed")
 import core_funcs
 
 # Version Control Constants
@@ -40,6 +43,8 @@ def capture_voice(speech_recognizer):
         return ""
 
 def parse_query(res):
+    #for open_web_browser
+    res = res.replace('.', ' dot ')
     global should_listen, prompts
 
     if use_voice:

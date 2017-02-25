@@ -4,4 +4,4 @@ LOCK = "gnome-screensaver-command -l"
 SAY = "spd-say -t child_female -p +50 -r -10 \"%s\""
 OPEN_FILE_BROWSER = "nautilus ~ &"
 VOLUME_CONTROL = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
-
+OPEN_WEB_BROWSER = "sensible-browser %s 2>&1 /dev/null &"

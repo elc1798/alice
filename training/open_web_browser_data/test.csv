@@ -1,0 +1,10 @@
+go to,True
+open browser,True
+open a browser,True
+can you please open a browser,True
+please open a browser,True
+don't go to,False
+do not open a browser,False
+don't open a browser,False
+close a browser,False
+do not open a default browser,False

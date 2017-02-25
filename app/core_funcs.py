@@ -10,7 +10,8 @@ class CommandActuator:
             "KILL_ACTIVE_WINDOW.model" : self.kill_active_window,
             "SHUTDOWN_COMPUTER.model" : self.shutdown,
             "VOLUME_CONTROL.model" : self.volume,
-            "LOCK_COMPUTER.model" : self.lock
+            "LOCK_COMPUTER.model" : self.lock,
+            "OPEN_WEB_BROWSER.model" : self.open_web_browser
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -50,6 +51,18 @@ class CommandActuator:
 
     def lock(self, s):
         os.system(COMMANDS.LOCK)
+
+    def open_web_browser(self, s):
+        command = s.split(" dot ")
+        site = command[0].split(" ")[-1]
+        top_level_domain = command[-1]
+        if top_level_domain is not None or not top_level_domain:
+            top_level_domain = "com"
+        second_level_domain = site + "." + top_level_domain
+        print(site)
+        print(top_level_domain)
+        print(second_level_domain)
+        os.system(COMMANDS.OPEN_WEB_BROWSER % (second_level_domain,))
 
 class DummyActuator:
     def __init__(self, talk=True):
