@@ -59,9 +59,6 @@ class CommandActuator:
         if top_level_domain is not None or not top_level_domain:
             top_level_domain = "com"
         second_level_domain = site + "." + top_level_domain
-        print(site)
-        print(top_level_domain)
-        print(second_level_domain)
         os.system(COMMANDS.OPEN_WEB_BROWSER % (second_level_domain,))
 
 class DummyActuator:
