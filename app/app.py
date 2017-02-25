@@ -98,6 +98,7 @@ def main():
     if use_voice:
         recognize = sr.Recognizer()
 
+    import services.facebook
     query = ""
     while True:
         query = capture_voice(recognize) if use_voice else str(raw_input("alice > "))
