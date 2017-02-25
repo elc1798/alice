@@ -1,8 +1,10 @@
 import os, sys
+import urllib
 import commands as COMMANDS
 
-
 class CommandActuator:
+
+    GOOGLE_QUERY_URL = "https://www.google.com/search?hl=en&q=%s&btnG=Google+Search&tbs=com&safe=true"
 
     def __init__(self, talk=True, volume_controller=None):
         self.command_mapping = {
@@ -11,7 +13,8 @@ class CommandActuator:
             "SHUTDOWN_COMPUTER.model" : self.shutdown,
             "VOLUME_CONTROL.model" : self.volume,
             "LOCK_COMPUTER.model" : self.lock,
-            "OPEN_WEB_BROWSER.model" : self.open_web_browser
+            "OPEN_WEB_BROWSER.model" : self.open_web_browser,
+            "GOOGLE_SEARCH.model" : self.google_search
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -60,6 +63,19 @@ class CommandActuator:
             top_level_domain = "com"
         second_level_domain = site + "." + top_level_domain
         os.system(COMMANDS.OPEN_WEB_BROWSER % (second_level_domain,))
+
+    def google_search(self, s):
+        if (s.count("google") >= 1):
+            s = s.replace("google", "", 1)
+        if (s.count("search") >= 1):
+            s = s.replace("search", "", 1)
+        if (s.count("please") >= 1):
+            s = s.replace("please", "", 1)
+        if (s.count("for") >= 1):
+            s = s.replace("for", "", 1)
+        s = s.lstrip(' ').replace("'", "\\'").replace("\"", "\\\"")
+        site = CommandActuator.GOOGLE_QUERY_URL % (s.replace(" ", "+"),)
+        os.system(COMMANDS.OPEN_WEB_BROWSER % (site,))
 
 class DummyActuator:
     def __init__(self, talk=True):
