@@ -105,3 +105,20 @@ class VolumeController:
             t = (5, "+")
         os.system(COMMANDS.VOLUME_CONTROL % t)
 
+class SpotifyController:
+
+    def __init__(self, spotify_ordinal_scale_model):
+        self.model = spotify_ordinal_scale_model
+    
+    def perform_action(self, sentence):
+        myid = self.model.rate(sentence)
+
+        if (myid == 0):
+            os.system(COMMANDS.SPOTIFY_PLAY_PAUSE)
+        # elif (myid == 1):
+
+        # elif (myid == 2):
+
+        # elif (myid == 3):
+            
+

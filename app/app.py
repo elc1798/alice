@@ -61,29 +61,36 @@ def parse_query(res):
 
 models = []
 volume_controller = None
+spotify_controller = None
 
 def load_models():
-    global models
+    global models, volume_controller, spotify_controller
     model_list = glob.glob("../training/MODELS/*.model")
     log("Found %d models" % (len(model_list),))
     for model_name in model_list:
         with open(model_name, 'r') as MODEL_FILE:
             if model_name.endswith("ORDINAL_SCALE_VOLUME_CONTROL.model"):
                 log("\tLoading << %s >> as volume controller" % (model_name,))
-                volume_controller = pickle.load(MODEL_FILE)
+                volume_controller = core_funcs.VolumeController(pickle.load(MODEL_FILE))
+            elif model_name.endswith("ORDINAL_SCALE_SPOTIFY.model"):
+                log("\tLoading << %s >> as spotify controller" % (model_name,))
+                spotify_controller = core_funcs.SpotifyController(pickle.load(MODEL_FILE))
             else:
                 log("\tLoading << %s >> as command matcher" % (model_name,))
                 models.append(pickle.load(MODEL_FILE))
         log("Loaded model: %s" % (models[-1].name,))
 
 def cross_check_models(sentence):
+    global volume_controller, spotify_controller
     log("Checking << %s >> with existing models..." % (sentence,))
 
     matched = None
     for model in models:
         if model.match(sentence):
             log("Matched with %s" % (model.name,))
-            if matched == None:
+            if  model.name == "SPOTIFY.model":
+                spotify_controller.perform_action(sentence)
+            elif matched == None:
                 matched = alice.command_mapping[model.name]
             else:
                 log("Error: MULTIPLE MATCHES")
@@ -98,7 +105,7 @@ def main():
     if use_voice:
         recognize = sr.Recognizer()
 
-    import services.facebook
+    # import services.facebook
     query = ""
     while True:
         query = capture_voice(recognize) if use_voice else str(raw_input("alice > "))
