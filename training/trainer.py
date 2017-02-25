@@ -127,6 +127,24 @@ if __name__ == "__main__":
     for trainee in ordinal_scalers:
         model = get_classifier(trainee, ordinal_scalers[trainee], use_old=True,
                 ordinal_scalers=True)
+        
+        failcount = 0
+        num_tests = 0
+
+        with open(os.path.join("ordinal_scalers", trainee, "test.csv")) as csvfile:
+            tests = csv.reader(csvfile)
+            for test in tests:
+                num_tests += 1
+                res = str(model.rate(test[0]))
+                if res != test[1]:
+                    failcount += 1
+                    print "Failed on test: %s. Should be: %s, got %s instead." % (test[0], test[1], res)
+
+        if failcount > 0:
+            build_fail[0] = True
+            build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s: Failed %d out of %d tests" % (trainee, failcount, num_tests)) )
+        print "Model %s failed %d out of %d tests" % (trainee, failcount, num_tests)
+        print "\n\n"
 
     for trainee in amplified_data:
         model = get_classifier(trainee, amplified_data[trainee], use_old=True)
