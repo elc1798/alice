@@ -45,8 +45,7 @@ The planned features are:
 
 ### Why is it named Alice?
 
-In the light novel / anime Sword Art Online: Alicization arc, Alice is a fully
-sentient AI that truly mimics human-ness.
+It's the name of a character in a light novel who's the first sentient AI.
 
 ### Your code is bad, you boosted animal...
 
