@@ -26,8 +26,7 @@ if sys.platform == "darwin":
                 """
     OPEN_WEB_BROWSER = "open \"%s\" 2>&1 /dev/null &"
     SAY = "xsay -t child_female -p +50 -r -30 \"%s\""
-    VOLUME_CHANGE = "osascript -e 'set volume  \"%s\"  '"
-    MUTE = "osascript -e 'set volume 0'"
-    # DISPLAY_NOTIFICATION = "notify-send --urgency=critical -t 2000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
-    # DISPLAY_NOTIFICATION = "osascript -e 'display notification \"Lorem ipsum dolor sit amet\" with title \"Title\"'""
+    # The second %s is for compatibility purposes. It will always be
+    # substituted with an empty string
+    VOLUME_CONTROL = "osascript -e 'set volume  \"%d\"'%s"
 

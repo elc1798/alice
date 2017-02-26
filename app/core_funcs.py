@@ -112,21 +112,6 @@ class DummyActuator:
     def no_op(self, s):
         pass
 
-# class VolumeController:
-
-#     def __init__(self, volume_ordinal_scale_model):
-#         self.volume_ordinal_scale_model = volume_ordinal_scale_model
-
-#     def adjust(self, s):
-#         rating = volume_ordinal_scale_model.rate(s)
-#         if rating == 0:
-#             t = (0, "")
-#         elif rating == 1:
-#             t = (5, "-")
-#         elif rating == 2:
-#             t = (5, "+")
-#         os.system(COMMANDS.VOLUME_CONTROL % t)
-
 class SpotifyController:
 
     def __init__(self, spotify_ordinal_scale_model):
@@ -152,27 +137,31 @@ class VolumeController:
 
     def perform_action(self, sentence):
         myid = self.model.rate(sentence)
-        
-        #find the current volume and calculates a lower and higher volume
-        current_volume  = "osascript -e 'get volume settings' | cut -d':' -f2 | cut -d',' -f1"
-        s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
-        num = int(s.split(", ")[0].split(":")[1])
-        volume_up = (num/10)
-        volume_down = (num/10)
-        if ((num/10)< 8):
-            volume_up = (num/10) + 1
-        if ((num/10) > 0):
-            volume_down = (num/10) - 1
- 
-        if (myid == 0 and COMMANDS.MUTE!= None):
-             print("mute")
-             os.system(COMMANDS.MUTE)
-        if (myid == 1 and COMMANDS.VOLUME_CHANGE!= None):
-             print("down")
-             os.system(COMMANDS.VOLUME_CHANGE % (volume_down,))
-        if (myid == 2 and COMMANDS.VOLUME_CHANGE!= None):
-             print("up")
-             os.system(COMMANDS.VOLUME_CHANGE % (volume_up,))
+        modifier = ""
+        num = 5
+
+        if myid == 1:
+            modifier = "-"
+        elif myid == 2:
+            modifier = "+"
+
+        if sys.platform == "darwin":
+            modifier = ""
+            # Find the current volume and calculates a lower and higher volume
+            current_volume  = "osascript -e 'get volume settings' | cut -d':' -f2 | cut -d',' -f1"
+            s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
+            num = int(s.split(", ")[0].split(":")[1])
+            # Janky Mac OS: Get volume gives 0-100, but set volume must be
+            # between 0 and 10???? wtf Apple?
+            num = (num / 10)
+            if myid == 0:
+                num = 0
+            elif myid == 1:
+                num -= 1
+            elif myid == 2:
+                num += 1
+
+        os.system(COMMANDS.VOLUME_CONTROL % (num, modifier))
 
 
 

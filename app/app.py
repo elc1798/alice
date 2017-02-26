@@ -1,14 +1,10 @@
 import os, sys, subprocess
 import pickle
 import glob
-
 import argparse
-
-try:
-    import speech_recognition as sr
-except:
-    print("SR not installed")
 import core_funcs
+import fbchat
+import getpass
 
 # Version Control Constants
 APPLICATION_NAME = "Alice"
@@ -16,11 +12,23 @@ APPLICATION_RELEASE = 0
 APPLICATION_REVISION = 0
 
 should_listen = False
-recognizer = None
 VERBOSITY = 0
 
 prompts = [ "hey alice", "alice", "okay alice", "hey alex", "alex", "okay alex" ]
 alice = None
+
+class AliceReceiver(fbchat.Client):
+    def __init__(self,email, password, debug=True, user_agent=None):
+        fbchat.Client.__init__(self,email, password, debug, user_agent)
+        self.knownfriends = { friend.uid : friend.name for friend in self.getAllUsers() }
+
+    def on_message(self, mid, author_id, author_name, message, metadata):
+        self.markAsDelivered(author_id, mid)
+        self.markAsRead(author_id)
+
+        if str(author_id) != str(self.uid):
+            print message
+            parse_query(message)
 
 def log(s, tolerance=1):
     global VERBOSITY
@@ -28,36 +36,10 @@ def log(s, tolerance=1):
     if VERBOSITY >= tolerance:
         print(s)
 
-def capture_voice(speech_recognizer):
-    with sr.Microphone() as source:
-        audio = speech_recognizer.listen(source)
-    try:
-        res = speech_recognizer.recognize_google(audio).lower()
-        log("You said: " + res)
-        return res
-    except sr.UnknownValueError:
-        log("Google Speech Recognition could not understand audio")
-        return ""
-    except sr.RequestError as e:
-        log("Could not request results from Google Speech Recognition service; {0}".format(e))
-        return ""
-
 def parse_query(res):
-    #for open_web_browser
+    # For open_web_browser
     res = res.replace('.', ' dot ')
-    global should_listen, prompts
-
-    if use_voice:
-        for prompt in prompts:
-            if res.startswith(prompt) and len(res) > len(prompt):
-                res = res[ len(prompt): ]
-                should_listen = True
-
-    if use_voice == False or should_listen:
-        cross_check_models(res)
-
-    should_listen = res in prompts
-
+    cross_check_models(res)
 
 models = []
 volume_controller = None
@@ -102,15 +84,17 @@ def cross_check_models(sentence):
     return None if matched == None else matched(sentence)
 
 def main():
-    global use_voice, recognizer
+    global use_voice
 
     if use_voice:
-        recognize = sr.Recognizer()
-
-    query = ""
-    while True:
-        query = capture_voice(recognize) if use_voice else str(raw_input("alice > "))
-        parse_query(query)
+        recognize = AliceReceiver(str(raw_input("Alice login: ")),
+                str(getpass.getpass()), debug=False)
+        print("Alice is listening on Facebook!")
+        recognize.listen()
+    else:
+        while True:
+            query = str(raw_input("alice > "))
+            parse_query(query)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Alice - Linux Virtual Assistant")
