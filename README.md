@@ -4,7 +4,7 @@ Digital Assistant for Linux, inspired by Cortana, Siri, Alexa, and Google Assist
 
 ### Why did I decide to do this?
 
-Because I got bored one day and started writing it.
+Because I thought it was a cool idea, I was bored, and also it was HackIllinois.
 
 ### What technologies is this built on?
 
@@ -43,17 +43,13 @@ The planned features are:
 In the light novel / anime Sword Art Online: Alicization arc, Alice is a fully
 sentient AI that truly mimics human-ness.
 
-### Your code is crap, you boosted animal...
+### Your code is bad, you boosted animal...
 
 I know :( If you want to make any improvements / fixes, make a pull request
 please!
 
 ### Ubuntu Notifications are broken...
 
-Replace them with the default Gnome Notification Daemon:
-
-1. Install notification-deamon (`sudo apt-get install notification-deamon`)
-2. Open `/usr/share/dbus-1/services/org.freedesktop.Notifications.service` (Youcan backup this file if you plan to return to notify-osd later)
-3. Change the 'Exec' line to `Exec = /usr/lib/notification-daemon/notification-daemon`
-4. Save the file and restart computer
+Yeah, it's a known bug, but `notify-osd` cannot stack messages, and will display
+them in a queue. Sorry, it's not my fault :(
 
