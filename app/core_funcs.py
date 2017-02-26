@@ -1,6 +1,7 @@
 import os, sys
 import urllib
 import commands as COMMANDS
+import datetime
 from services import google as goog
 
 class CommandActuator:
@@ -81,6 +82,9 @@ class CommandActuator:
 
     def google_calendar_show_events(self, s):
         goog.ShowEvents(s)
+
+    def get_time(self, s):
+        datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 class DummyActuator:
     def __init__(self, talk=True):
