@@ -28,4770 +28,6801 @@ F0.001
 sS'data'
 p12
 (lp13
-(S'search please for'
+(S'can you close the active window'
 p14
 S'False'
 p15
 tp16
-a(S'please go to dot com'
+a(S'play the song before'
 p17
 g15
 tp18
-a(S'the key was a straight piece of wood with pegs projecting up from its end'
+a(S'am i free on tuesday'
 p19
 g15
 tp20
-a(S'spotify start the song please'
+a(S'please spotify start the song'
 p21
 g15
 tp22
-a(S'sound up please'
+a(S'check my calendar for sunday'
 p23
+g15
+tp24
+a(S'is there anything to do on saturday'
+p25
+g15
+tp26
+a(S'stop spotify'
+p27
+g15
+tp28
+a(S'turn the beat down'
+p29
 S'True'
-p24
-tp25
-a(S'can you kill the window'
-p26
-g15
-tp27
-a(S'spotify play the last song'
-p28
-g15
-tp29
-a(S'sound higher please'
 p30
-g24
 tp31
-a(S'can you decrease the sound'
+a(S'the key could be fitted into the hole in the lock to pull back the bolt from the outside'
 p32
-g24
+g15
 tp33
-a(S'please pause song'
+a(S'is there anything to do'
 p34
 g15
 tp35
-a(S'can you lock the screen please'
+a(S'close current window'
 p36
 g15
 tp37
-a(S'can you please turn up the volume'
+a(S'turn up the volume'
 p38
-g24
+g30
 tp39
-a(S'please kill the current window'
+a(S'are there any events on tomorrow'
 p40
 g15
 tp41
-a(S'please search google'
+a(S'okay alex'
 p42
 g15
 tp43
-a(S'spotify skip'
+a(S'do i have anything on monday'
 p44
 g15
 tp45
-a(S'can you mute'
+a(S'skip'
 p46
-g24
+g15
 tp47
-a(S'shut my computer down'
+a(S'check calendar on'
 p48
 g15
 tp49
-a(S'please start spotify'
+a(S'any events on sunday'
 p50
 g15
 tp51
-a(S'spotify previous please'
+a(S'open'
 p52
 g15
 tp53
-a(S'search for please'
+a(S'please close current window'
 p54
 g15
 tp55
-a(S'can you please turn up the beat'
+a(S'please kill the current window'
 p56
-g24
+g15
 tp57
-a(S'go to dot com'
+a(S'shutdown my computer'
 p58
 g15
 tp59
-a(S'please close this window'
+a(S'check my calendar for'
 p60
 g15
 tp61
-a(S'spotify play previous song please'
+a(S'alice'
 p62
 g15
 tp63
-a(S'please open a browser'
+a(S'can you shut up'
 p64
-g15
+g30
 tp65
-a(S'make the sound higher'
+a(S'hey alice'
 p66
-g24
+g15
 tp67
-a(S'next spotify please'
+a(S'can you shutdown'
 p68
 g15
 tp69
-a(S'please spotify pause'
+a(S"don't i have anything on sunday"
 p70
 g15
 tp71
-a(S'can you exit'
+a(S'are there any events on friday'
 p72
 g15
 tp73
-a(S'start default browser please'
+a(S"don't i have anything today"
 p74
 g15
 tp75
-a(S'shut off my computer please'
+a(S'check google calendar on month'
 p76
 g15
 tp77
-a(S'close current program'
+a(S"aren't there any events"
 p78
 g15
 tp79
-a(S'please open'
+a(S'stop the song'
 p80
 g15
 tp81
-a(S'please can you turn the volume higher'
+a(S'can you please shut down'
 p82
-g24
+g15
 tp83
-a(S'go ahead spotify please'
+a(S'can you kill the window'
 p84
 g15
 tp85
-a(S'google search'
+a(S'check my calendar on saturday'
 p86
 g15
 tp87
-a(S'can you shutdown my computer'
+a(S'bye alice'
 p88
 g15
 tp89
-a(S'open dot gov'
+a(S'open a default browser please'
 p90
 g15
 tp91
-a(S'turn off please'
+a(S'do i have anything to do on saturday'
 p92
 g15
 tp93
-a(S'please kill this window'
+a(S'read time please'
 p94
 g15
 tp95
-a(S'shutdown please'
+a(S'check events for friday'
 p96
 g15
 tp97
-a(S'spotify shut up'
+a(S"don't i have to do anything on tuesday"
 p98
-g24
+g15
 tp99
-a(S'open default browser'
+a(S'can you please close current window'
 p100
 g15
 tp101
-a(S'can you shut my computer down'
+a(S'are there any events on monday'
 p102
 g15
 tp103
-a(S'start browsing please'
+a(S'can you kill the current window'
 p104
 g15
 tp105
-a(S'kill active window'
+a(S'start a browser'
 p106
 g15
 tp107
-a(S'can you turn off the computer'
+a(S'can you send me to the lock screen'
 p108
 g15
 tp109
-a(S'play song'
+a(S'can you turn up the sound'
 p110
-g15
+g30
 tp111
-a(S'go to dot ee dee you'
+a(S'get the clock please'
 p112
 g15
 tp113
-a(S'please turn my computer off'
+a(S'sweet dreams'
 p114
 g15
 tp115
-a(S'lower the tunes please'
+a(S"aren't there any events on wednesday"
 p116
-g24
+g15
 tp117
-a(S'please close the window'
+a(S'what events do i have on tuesday'
 p118
 g15
 tp119
-a(S'turn off the computer please'
+a(S'spotify shut up'
 p120
-g15
+g30
 tp121
-a(S'turn up the beat please'
+a(S"don't i have any events on friday"
 p122
-g24
+g15
 tp123
-a(S'can you shut up'
+a(S'please read the clock'
 p124
-g24
+g15
 tp125
-a(S'a backbone dictates above my grief'
+a(S'alice go ahead please'
 p126
 g15
 tp127
-a(S'start a browser'
+a(S'pause spotify'
 p128
 g15
 tp129
-a(S'can you please shut down my computer'
+a(S'can you turn up the tune'
 p130
-g15
+g30
 tp131
-a(S'the major drawback to this lock was that anyone with a curved stick or their own key could open it'
+a(S"don't i have any events on tuesday"
 p132
 g15
 tp133
-a(S'please shut my computer down'
+a(S'open dot gov'
 p134
 g15
 tp135
-a(S'the key could be fitted into the hole in the lock to pull back the bolt from the outside'
+a(S'what events are on sunday'
 p136
 g15
 tp137
-a(S'turn off'
+a(S'please send me to the lock screen'
 p138
 g15
 tp139
-a(S'open a default browser'
+a(S'check events for sunday'
 p140
 g15
 tp141
-a(S'please spotify play previous song'
+a(S'turn up the sound please'
 p142
-g15
+g30
 tp143
-a(S'turn down the volume'
+a(S'what events do i have on tomorrow'
 p144
-g24
+g15
 tp145
-a(S'these use a magnetic swipe card to open a door'
+a(S'check calendar on month'
 p146
 g15
 tp147
-a(S'can you please open a browser'
+a(S"don't i have to do anything in a month"
 p148
 g15
 tp149
-a(S'pause please'
+a(S'can you please turn up the tunez'
 p150
-g15
+g30
 tp151
-a(S'please turn off'
+a(S'check google calendar for'
 p152
 g15
 tp153
-a(S'put me on the lock screen please'
+a(S'louder please'
 p154
-g15
+g30
 tp155
-a(S'open default browser please'
+a(S"don't i have anything to do today"
 p156
 g15
 tp157
-a(S'search google please'
+a(S'stop the tunez'
 p158
-g15
+g30
 tp159
-a(S'song stop'
+a(S'search google please for'
 p160
 g15
 tp161
-a(S'a decent problem gossips beside the shoulder'
+a(S'then the string was stuffed back through the keyhole'
 p162
 g15
 tp163
-a(S'can you turn the beat down'
+a(S'lock my computer'
 p164
-g24
-tp165
-a(S'be quiet'
-p166
-g24
-tp167
-a(S'can you shutdown the computer'
-p168
 g15
+tp165
+a(S'google search for please'
+p166
+g15
+tp167
+a(S'turn off the sound please'
+p168
+g30
 tp169
-a(S'kill the music'
+a(S'please kill this window'
 p170
-g24
+g15
 tp171
-a(S'turn it down'
+a(S'turn off my computer please'
 p172
-g24
+g15
 tp173
-a(S'google for please'
+a(S'what do i have to do on sunday'
 p174
 g15
 tp175
-a(S'please volume higher'
+a(S'what do i have on saturday'
 p176
-g24
+g15
 tp177
-a(S'turn off the computer'
+a(S'check google calendar for tuesday'
 p178
 g15
 tp179
-a(S'shut down'
+a(S'turn off please'
 p180
 g15
 tp181
-a(S'please shut down the computer'
+a(S'what is on my calendar for monday'
 p182
 g15
 tp183
-a(S'can you please kill this window'
+a(S'send me to the lock screen please'
 p184
 g15
 tp185
-a(S'shut the fuck up'
+a(S'turn yourself off'
 p186
-g24
-tp187
-a(S'shutdown the computer'
-p188
 g15
+tp187
+a(S'make the sound softer'
+p188
+g30
 tp189
-a(S'open dot edu'
+a(S"don't i have any events on thursday"
 p190
 g15
 tp191
-a(S'open a browser please'
+a(S'check google calendar on thursday'
 p192
 g15
 tp193
-a(S'please spotify previous song'
+a(S'check calendar for thursday'
 p194
 g15
 tp195
-a(S'alice'
+a(S'go to'
 p196
 g15
 tp197
-a(S'please open a browser'
+a(S'make the volume 0'
 p198
-g15
+g30
 tp199
-a(S'search google for'
+a(S'close this window'
 p200
 g15
 tp201
-a(S'predict the outcome on a new document'
+a(S'check events on today'
 p202
 g15
 tp203
-a(S'can you close the active window'
+a(S"aren't there any events in a week"
 p204
 g15
 tp205
-a(S'can you please shut my computer down'
+a(S'is there anything to do on tomorrow'
 p206
 g15
 tp207
-a(S'please last song'
+a(S'close the current window'
 p208
 g15
 tp209
-a(S'turn the beat down'
+a(S'open dot org'
 p210
-g24
+g15
 tp211
-a(S'set the volume to zero'
+a(S'do i have anything in a week'
 p212
-g24
+g15
 tp213
-a(S'please sound higher'
+a(S'can you please kill the current window'
 p214
-g24
+g15
 tp215
-a(S'okay alice'
+a(S'the old testament contains several references to locks and the first archaeological evidence of locks are about 4000 years old'
 p216
 g15
 tp217
-a(S'make the volume softer'
+a(S'am i free for thursday'
 p218
-g24
+g15
 tp219
-a(S'can you lock computer'
+a(S'next song'
 p220
 g15
 tp221
-a(S'stop playing'
+a(S"don't i have to do anything on thursday"
 p222
-g24
+g15
 tp223
-a(S'please search'
+a(S'check calendar on this day'
 p224
 g15
 tp225
-a(S'kill the current window'
+a(S'check events on friday'
 p226
 g15
 tp227
-a(S'start browser please'
+a(S"don't i have to do anything in a week"
 p228
 g15
 tp229
-a(S'will you open a browser'
+a(S'please read your watch'
 p230
 g15
 tp231
-a(S'kill the program'
+a(S'please lock the screen'
 p232
 g15
 tp233
-a(S'can you please turn the tune down'
+a(S'lock the screen please'
 p234
-g24
+g15
 tp235
-a(S'mute'
+a(S'can you open browser please'
 p236
-g24
+g15
 tp237
-a(S'please send me to the lock screen'
+a(S'start browser'
 p238
 g15
 tp239
-a(S'turn up the the beat'
+a(S'what do i have in a week'
 p240
-g24
+g15
 tp241
-a(S'go back to the last song '
+a(S'do i have anything on tuesday'
 p242
 g15
 tp243
-a(S'please spotify pause the song'
+a(S'what events are on monday'
 p244
 g15
 tp245
-a(S'google search for please'
+a(S"don't i have to do anything today"
 p246
 g15
 tp247
-a(S'turn it off'
+a(S'can you open a browser please'
 p248
-g24
+g15
 tp249
-a(S'search'
+a(S'a releasing moderate stalls beside the material cell'
 p250
 g15
 tp251
-a(S'open dot net'
+a(S'can you please open a browser'
 p252
 g15
 tp253
-a(S'go spotify please'
+a(S'can you please shut up'
 p254
-g15
+g30
 tp255
-a(S'hey alice'
+a(S'what do i have in a month'
 p256
 g15
 tp257
-a(S'play '
+a(S'check calendar for saturday'
 p258
 g15
 tp259
-a(S'can you close the current window'
+a(S'please check what time it is'
 p260
 g15
 tp261
-a(S'turn off my computer'
+a(S'please shut my computer down'
 p262
 g15
 tp263
-a(S'turn off the beats'
+a(S'can you shut down the computer'
 p264
-g24
+g15
 tp265
-a(S'please shutdown the computer'
+a(S'get clock'
 p266
 g15
 tp267
-a(S'turn up the sound'
+a(S'check events on monday'
 p268
-g24
+g15
 tp269
-a(S'kill current window'
+a(S'locks have been used to fasten doors against thieves since earliest times'
 p270
 g15
 tp271
-a(S'google'
+a(S'the major drawback to this lock was that anyone with a curved stick or their own key could open it'
 p272
 g15
 tp273
-a(S'spotify skip ahead please'
+a(S"don't i have anything in a week"
 p274
 g15
 tp275
-a(S'off'
+a(S'am i free in a month'
 p276
-g24
+g15
 tp277
-a(S'byebye'
+a(S'please check the current time'
 p278
 g15
 tp279
-a(S'can you please kill current window'
+a(S'get me the clock please'
 p280
 g15
 tp281
-a(S'close active window'
+a(S'is there anything to do in a month'
 p282
 g15
 tp283
-a(S'can you put me on the lock screen'
+a(S'please start default browser'
 p284
 g15
 tp285
-a(S'start'
+a(S'please get the clock'
 p286
 g15
 tp287
-a(S'can you send me to the lock screen'
+a(S'please spotify start'
 p288
 g15
 tp289
-a(S'kill the active program'
+a(S'search for'
 p290
 g15
 tp291
-a(S'can you turn up the tunez'
+a(S'turn off the computer'
 p292
-g24
+g15
 tp293
-a(S'stop the song'
+a(S'any events on saturday'
 p294
 g15
 tp295
-a(S'shutdown the computer please'
+a(S'make the sound louder'
 p296
-g15
+g30
 tp297
-a(S'turn up the tune'
+a(S'do i have anything today'
 p298
-g24
+g15
 tp299
-a(S'spotify pause'
+a(S'do i have any events on monday'
 p300
 g15
 tp301
-a(S'can you please shutdown the computer'
+a(S'please open'
 p302
 g15
 tp303
-a(S'please close the current window'
+a(S'can you lock my computer please'
 p304
 g15
 tp305
-a(S'can you open a browser please'
+a(S'turn yourself off please'
 p306
 g15
 tp307
-a(S'the tale pretends'
+a(S"don't i have to do anything on friday"
 p308
 g15
 tp309
-a(S'music down'
+a(S'shut my computer down please'
 p310
-g24
+g15
 tp311
-a(S'the cards can have a bar code on them and computers can be used to store information on who goes in through each door raising privacy issues for some concerned people'
+a(S'retrieve the current time'
 p312
 g15
 tp313
-a(S'spotify last song please'
+a(S'can you please turn up the beat'
 p314
-g15
+g30
 tp315
-a(S'can you please turn off my computer'
+a(S'open dot ee dee you'
 p316
 g15
 tp317
-a(S'lock my computer please'
+a(S'please start'
 p318
 g15
 tp319
-a(S'can you shut off my computer'
+a(S'do i have anything on this day'
 p320
 g15
 tp321
-a(S'can you please turn up the tune'
+a(S'please turn off'
 p322
-g24
+g15
 tp323
-a(S'turn my computer off please'
+a(S'check calendar for monday'
 p324
 g15
 tp325
-a(S'can you please turn off the computer'
+a(S'check the current time'
 p326
 g15
 tp327
-a(S'can you please close the current window'
+a(S'search google'
 p328
 g15
 tp329
-a(S'can you shut down the computer'
+a(S'check my calendar on monday'
 p330
 g15
 tp331
-a(S'alice go ahead please'
+a(S'turn the volume to zero'
 p332
-g15
+g30
 tp333
-a(S'please shut off my computer'
+a(S'turn up the beat'
 p334
-g15
+g30
 tp335
-a(S'bye'
+a(S'check calendar on this week'
 p336
 g15
 tp337
-a(S'can you turn up the tune'
+a(S'retrieve what time it is'
 p338
-g24
+g15
 tp339
-a(S'stop spotify'
+a(S'is there anything i have to do on friday'
 p340
 g15
 tp341
-a(S'lower the tunez please'
+a(S'lock computer'
 p342
-g24
+g15
 tp343
-a(S'start default browser'
+a(S'what is on my calendar'
 p344
 g15
 tp345
-a(S'please lock my computer'
+a(S'please check the clock'
 p346
 g15
 tp347
-a(S'can you please turn the beat down'
+a(S'lower the volume'
 p348
-g24
+g30
 tp349
-a(S'shut up please'
+a(S'check google calendar for this day'
 p350
-g24
+g15
 tp351
-a(S'pause spotify please'
+a(S'open a browser please'
 p352
 g15
 tp353
-a(S'make the volume lower'
+a(S'mute'
 p354
-g24
+g30
 tp355
-a(S'see ya'
+a(S"don't i have anything to do in a month"
 p356
 g15
 tp357
-a(S'can you lock my computer please'
+a(S'what events do i have on wednesday'
 p358
 g15
 tp359
-a(S'can you please shut off my computer'
+a(S'check my calendar on this month'
 p360
 g15
 tp361
-a(S'pause the song please'
+a(S'please retrieve the time'
 p362
 g15
 tp363
-a(S'spotify go ahead'
+a(S'do i have anything on thursday'
 p364
 g15
 tp365
-a(S'can you please kill the window'
+a(S'please play spotify '
 p366
 g15
 tp367
-a(S'spotify go to the last song'
+a(S'am i free for a month'
 p368
 g15
 tp369
-a(S'please go spotify '
+a(S'check events for this day'
 p370
 g15
 tp371
-a(S'turn off the sound please'
+a(S'go ahead spotify please'
 p372
-g24
+g15
 tp373
-a(S'spotify pause please'
+a(S'is there anything to do on friday'
 p374
 g15
 tp375
-a(S'please pause the song'
+a(S'check my calendar on today'
 p376
 g15
 tp377
-a(S'please start a browser'
+a(S'is there anything to do on tuesday'
 p378
 g15
 tp379
-a(S'turn the volume to zero'
+a(S'this used a latchstring to pull a bolt through brackets in the door'
 p380
-g24
+g15
 tp381
-a(S'can you make it louder please'
+a(S"don't i have to do anything on sunday"
 p382
-g24
+g15
 tp383
-a(S'please turn off the computer'
+a(S"don't i have anything on monday"
 p384
 g15
 tp385
-a(S'can you please shutdown my computer'
+a(S'will you open a browser'
 p386
 g15
 tp387
-a(S'please open dot com'
+a(S'are there any events on tuesday'
 p388
 g15
 tp389
-a(S'however the trend towards these kinds of electronic and computercontrolled locks is growing in the late 1990s and they will undoubtedly be more prevalent in the future'
+a(S'can you shut off my computer'
 p390
 g15
 tp391
-a(S'can you open this program'
+a(S"don't i have to do anything in a month"
 p392
 g15
 tp393
-a(S"i think i didn't answer an earlier question"
+a(S'please close the active window'
 p394
 g15
 tp395
-a(S'turn up the tunez'
+a(S"don't i have anything in a month"
 p396
-g24
+g15
 tp397
-a(S'play spotify please'
+a(S'go to dot ee dee you'
 p398
 g15
 tp399
-a(S'turn the sound down please'
+a(S'exit'
 p400
-g24
+g15
 tp401
-a(S'can you please turn my computer off'
+a(S'check calendar for this week'
 p402
 g15
 tp403
-a(S'send me to the lock screen please'
+a(S'turn the sound down please'
 p404
-g15
+g30
 tp405
-a(S'can you please turn up the tunez'
+a(S'get the time please'
 p406
-g24
+g15
 tp407
-a(S'start spotify please'
+a(S'please close active window'
 p408
 g15
 tp409
-a(S'please search google for'
+a(S'can you please shutdown the computer'
 p410
 g15
 tp411
-a(S'can you turn up the beat'
+a(S'am i free for sunday'
 p412
-g24
+g15
 tp413
-a(S'can you lock my computer please'
+a(S'please spotify pause'
 p414
 g15
 tp415
-a(S'shut my computer down please'
+a(S'search google for please'
 p416
 g15
 tp417
-a(S'the egyptian lock consisted of a heavy wooden housing mounted to the door'
+a(S'shut down the computer please'
 p418
 g15
 tp419
-a(S'please start browser'
+a(S'alice next please'
 p420
 g15
 tp421
-a(S'many entities such as universities and large corporate headquarters that use large numbers of locks are converting to electronic passkey systems'
+a(S'do i have any events'
 p422
 g15
 tp423
-a(S'make the sound softer'
+a(S"don't i have anything on friday"
 p424
-g24
+g15
 tp425
-a(S'can you turn up the volume'
+a(S'do i have any events on tomorrow'
 p426
-g24
+g15
 tp427
-a(S'and the large metal key was cumbersome'
+a(S'do i have anything in a month'
 p428
 g15
 tp429
-a(S'please spotify last song'
+a(S'what events are on friday'
 p430
 g15
 tp431
-a(S'turn down the sound'
+a(S'check google calendar on friday'
 p432
-g24
+g15
 tp433
-a(S'please lock the screen'
+a(S'pause song please'
 p434
 g15
 tp435
-a(S'can you please exit'
+a(S'spotify previous song please'
 p436
 g15
 tp437
-a(S'can you please close this window'
+a(S'shutdown my computer please'
 p438
 g15
 tp439
-a(S'please open browser'
+a(S'search google please'
 p440
 g15
 tp441
-a(S'please pause'
+a(S'is there anything to do on monday'
 p442
 g15
 tp443
-a(S'please turn it up'
+a(S'check events on tuesday'
 p444
-g24
+g15
 tp445
-a(S'emergency shutdown'
+a(S'play spotify please'
 p446
 g15
 tp447
-a(S'open browser'
+a(S'go to dot gov'
 p448
 g15
 tp449
-a(S'spotify last please'
+a(S'can you please shut off'
 p450
 g15
 tp451
-a(S'spotify skip ahead'
+a(S'can you please shut my computer down'
 p452
 g15
 tp453
-a(S'extract the features using almost the same feature'
+a(S'are there any events on this day'
 p454
 g15
 tp455
-a(S'spotify stop playing'
+a(S'can you turn off the computer'
 p456
-g24
+g15
 tp457
-a(S'when the key was inserted and pushed upwards the pegs on the key lifted the pins in the lock and the bolt was freedthe greeks developed a simple door lock by about 700 bc'
+a(S'many entities such as universities and large corporate headquarters that use large numbers of locks are converting to electronic passkey systems'
 p458
 g15
 tp459
-a(S'can you please shutdown'
+a(S'read the clock'
 p460
 g15
 tp461
-a(S'please can you turn up the volume'
+a(S'these earliest locks were of a type known as pin tumbler and they are actually not very different from common door locks in use today'
 p462
-g24
+g15
 tp463
-a(S'shut off'
+a(S'check my calendar for this week'
 p464
 g15
 tp465
-a(S'please start a default browser'
+a(S'can you please close the current window'
 p466
 g15
 tp467
-a(S'search for'
+a(S'good night'
 p468
 g15
 tp469
-a(S'please start default browser'
+a(S'check my calendar for thursday'
 p470
 g15
 tp471
-a(S'lock computer'
+a(S'what do i have to do'
 p472
 g15
 tp473
-a(S'can you open a browser'
+a(S'can you please turn the tune down'
 p474
-g15
+g30
 tp475
-a(S'stop'
+a(S'turn up the volume'
 p476
-g15
+g30
 tp477
-a(S'louder please'
+a(S'spotify pause please'
 p478
-g24
-tp479
-a(S'can you turn the tune down'
-p480
-g24
-tp481
-a(S'please spotify start the song'
-p482
 g15
+tp479
+a(S'please go back'
+p480
+g15
+tp481
+a(S'can you please turn the sound down'
+p482
+g30
 tp483
-a(S'good night'
+a(S'can you lock the screen please'
 p484
 g15
 tp485
-a(S'please shutdown'
+a(S'turn up the tunes'
 p486
-g15
+g30
 tp487
-a(S'exit please'
+a(S"don't i have anything to do on tuesday"
 p488
 g15
 tp489
-a(S'spotify start please'
+a(S"don't i have to do anything on wednesday"
 p490
 g15
 tp491
-a(S'please close active window'
+a(S"don't i have any events on saturday"
 p492
 g15
 tp493
-a(S'locks have been used to fasten doors against thieves since earliest times'
+a(S'bye bye alice'
 p494
 g15
 tp495
-a(S'can you close this window'
+a(S'check calendar on sunday'
 p496
 g15
 tp497
-a(S'the key itself was a sickleshaped piece of metal from two to three feet long'
+a(S'read your watch'
 p498
 g15
 tp499
-a(S'can you lock computer please'
+a(S"don't i have anything to do on this day"
 p500
 g15
 tp501
-a(S'go ahead'
+a(S'check events for today'
 p502
 g15
 tp503
-a(S'turn my computer off'
+a(S"don't i have to do anything on this day"
 p504
 g15
 tp505
-a(S'make the volume 0'
+a(S'can you please close the active window'
 p506
-g24
+g15
 tp507
-a(S'stop the tunez'
+a(S'do i have anything to do on wednesday'
 p508
-g24
+g15
 tp509
-a(S'a wooden bolt passed through the lock and was held in place by iron pins which dropped into slots and held it firm'
+a(S'check calendar on today'
 p510
 g15
 tp511
-a(S'go to'
+a(S'can you please turn up the volume'
 p512
-g15
+g30
 tp513
-a(S'turn up'
+a(S'check calendar on tuesday'
 p514
-g24
+g15
 tp515
-a(S'go back please'
+a(S'close active window'
 p516
 g15
 tp517
-a(S'other hightech locks open with voice activation or palm or fingerprint recognition'
+a(S'search please for'
 p518
 g15
 tp519
-a(S'start the song'
+a(S'shutdown'
 p520
 g15
 tp521
-a(S'shut down the computer'
+a(S'am i free for wednesday'
 p522
 g15
 tp523
-a(S'turn the beat down please'
+a(S'check events for monday'
 p524
-g24
+g15
 tp525
-a(S'google for'
+a(S'please google search for'
 p526
 g15
 tp527
-a(S'please be quiet'
+a(S"aren't there any events on sunday"
 p528
-g24
+g15
 tp529
-a(S'volume up'
+a(S'what events are on tomorrow'
 p530
-g24
+g15
 tp531
-a(S'please close the active window'
+a(S"don't i have to do anything on saturday"
 p532
 g15
 tp533
-a(S'pause song please'
+a(S'make the sound higher'
 p534
-g15
+g30
 tp535
-a(S'put me on the lock screen'
+a(S'open browser please'
 p536
 g15
 tp537
-a(S'open a browser'
+a(S'byebye'
 p538
 g15
 tp539
-a(S'please play spotify '
+a(S'can you please turn off my computer'
 p540
 g15
 tp541
-a(S'exit'
+a(S'open a browser'
 p542
 g15
 tp543
-a(S'lower the sound'
+a(S"don't i have to do anything on saturday"
 p544
-g24
+g15
 tp545
-a(S'lock the screen please'
+a(S'get current time please'
 p546
 g15
 tp547
-a(S'open a default browser please'
+a(S'what do i have on today'
 p548
 g15
 tp549
-a(S'can you turn the sound down'
+a(S'any events on friday'
 p550
-g24
+g15
 tp551
-a(S'spotify stop'
+a(S'check calendar for'
 p552
 g15
 tp553
-a(S'please lock computer'
+a(S'shut up'
 p554
-g15
+g30
 tp555
-a(S'can you please shut off'
+a(S'do i have anything to do in a month'
 p556
 g15
 tp557
-a(S'please start browsing'
+a(S'start browsing please'
 p558
 g15
 tp559
-a(S'please shut off'
+a(S'am i free today'
 p560
 g15
 tp561
-a(S'search please'
+a(S'do i have any events on thursday'
 p562
 g15
 tp563
-a(S'go to dot gov'
+a(S'get the current time'
 p564
 g15
 tp565
-a(S'close window'
+a(S'can you put me on the lock screen please'
 p566
 g15
 tp567
-a(S'lower the volume'
+a(S'go ahead'
 p568
-g24
+g15
 tp569
-a(S'these earliest locks were of a type known as pin tumbler and they are actually not very different from common door locks in use today'
+a(S'can you shut down my computer'
 p570
 g15
 tp571
-a(S'turn up the volume'
+a(S'a backbone dictates above my grief'
 p572
-g24
+g15
 tp573
-a(S'shutdown my computer'
+a(S'turn my computer off please'
 p574
 g15
 tp575
-a(S'then the string was stuffed back through the keyhole'
+a(S'what is on my calendar for this week'
 p576
 g15
 tp577
-a(S'lock'
+a(S'go to dot com'
 p578
 g15
 tp579
-a(S'can you turn the volume higher please'
+a(S'go to dot edu'
 p580
-g24
+g15
 tp581
-a(S'go back'
+a(S'please close the window'
 p582
 g15
 tp583
-a(S'spotify play the song before'
+a(S'when the key was inserted and pushed upwards the pegs on the key lifted the pins in the lock and the bolt was freedthe greeks developed a simple door lock by about 700 bc'
 p584
 g15
 tp585
-a(S'go to dot net'
+a(S"don't i have anything to do on friday"
 p586
 g15
 tp587
-a(S"such locks offer relatively high security but are generally too expensive and elaborate for the ordinary citizen's home"
+a(S'what is on my calendar for this month'
 p588
 g15
 tp589
-a(S'we stick to simple problems in this post for the sake of illustration'
+a(S'go back please'
 p590
 g15
 tp591
-a(S'please shut down'
+a(S"don't i have anything on saturday"
 p592
 g15
 tp593
-a(S'please google'
+a(S'kill the active program'
 p594
 g15
 tp595
-a(S'can you turn yourself off please'
+a(S'alex'
 p596
 g15
 tp597
-a(S'start browser'
+a(S'can you please turn my computer off'
 p598
 g15
 tp599
-a(S'google search please'
+a(S'good night alice'
 p600
 g15
 tp601
-a(S'please louder'
+a(S'check events for tomorrow'
 p602
-g24
+g15
 tp603
-a(S'please can you make it louder'
+a(S'please spotify previous'
 p604
-g24
+g15
 tp605
-a(S'please spotify last'
+a(S'check google calendar on saturday'
 p606
 g15
 tp607
-a(S'please kill current window'
+a(S'current time'
 p608
 g15
 tp609
-a(S'can you put me on the lock screen please'
+a(S'when is it please'
 p610
 g15
 tp611
-a(S'spotify next song '
+a(S'kill the program'
 p612
 g15
 tp613
-a(S'spotify pause please'
+a(S'check my calendar on sunday'
 p614
 g15
 tp615
-a(S'last song please'
+a(S'spotify play last song please'
 p616
 g15
 tp617
-a(S'turn up the sound'
+a(S'any events on monday'
 p618
-g24
+g15
 tp619
-a(S'please go to'
+a(S'do i have anything to do on monday'
 p620
 g15
 tp621
-a(S'please shutdown my computer'
+a(S'check google calendar for this month'
 p622
 g15
 tp623
-a(S'spotify play'
+a(S'can you turn the sound down'
 p624
-g15
+g30
 tp625
-a(S'please turn off my computer'
+a(S'what is on my calendar for tomorrow'
 p626
 g15
 tp627
-a(S'can you kill the current window'
+a(S'see ya alice'
 p628
 g15
 tp629
-a(S'please turn it down'
+a(S'issue commands'
 p630
-g24
+g15
 tp631
-a(S'can you shut down my computer'
+a(S'check my calendar on this week'
 p632
 g15
 tp633
-a(S'please search for'
+a(S'spotify start the song please'
 p634
 g15
 tp635
-a(S'can you send me to the lock screen please'
+a(S'send me to the lock screen'
 p636
 g15
 tp637
-a(S'please spotify play last song'
+a(S'please google'
 p638
 g15
 tp639
-a(S'can you please kill the current window'
+a(S'what events do i have on today'
 p640
 g15
 tp641
-a(S'can you please close active window'
+a(S"don't i have anything"
 p642
 g15
 tp643
-a(S'can you please kill active window'
+a(S'what events do i have on sunday'
 p644
 g15
 tp645
-a(S'kill the noise'
+a(S"aren't there any events on tuesday"
 p646
-g24
+g15
 tp647
-a(S'set volume 0'
+a(S'go to dot org'
 p648
-g24
+g15
 tp649
-a(S'these are egyptian locks depicted in the pyramids'
+a(S'please turn off the computer'
 p650
 g15
 tp651
-a(S'turn yourself off please'
+a(S'check events for this day'
 p652
 g15
 tp653
-a(S'can you please close current window'
+a(S'spotify play'
 p654
 g15
 tp655
-a(S'shut down my computer please'
+a(S'what do i have to do on monday'
 p656
 g15
 tp657
-a(S'please kill active window'
+a(S'do i have anything to do on friday'
 p658
 g15
 tp659
-a(S'turn up the tunez please'
+a(S'next spotify please'
 p660
-g24
+g15
 tp661
-a(S'sweet dreams'
+a(S'retrieve what time it is please'
 p662
 g15
 tp663
-a(S'open dot ee dee you'
+a(S'go to dot net'
 p664
 g15
 tp665
-a(S'spotify go back'
+a(S'what do i have on thursday'
 p666
 g15
 tp667
-a(S'google please for'
+a(S"don't i have to do anything tomorrow"
 p668
 g15
 tp669
-a(S'can you please turn off'
+a(S'what time is it now'
 p670
 g15
 tp671
-a(S'please spotify start'
+a(S'am i free in a week'
 p672
 g15
 tp673
-a(S'issue commands'
+a(S'start song'
 p674
 g15
 tp675
-a(S'alex'
+a(S'google search please for'
 p676
 g15
 tp677
-a(S'close the active window'
+a(S'please last song'
 p678
 g15
 tp679
-a(S'spotify go please'
+a(S'can you close this window'
 p680
 g15
 tp681
-a(S'can you please close the active window'
+a(S'check calendar on friday'
 p682
 g15
 tp683
-a(S'turn the tune down'
+a(S'what do i have to do on tuesday'
 p684
-g24
+g15
 tp685
-a(S'turn it down'
+a(S'start browser please'
 p686
-g24
+g15
 tp687
-a(S'pause spotify'
+a(S'shutdown the computer please'
 p688
 g15
 tp689
-a(S'start a browser please'
+a(S'shutdown the computer'
 p690
 g15
 tp691
-a(S'see you'
+a(S'please spotify last song'
 p692
 g15
 tp693
-a(S'stop song please'
+a(S'please shut down'
 p694
 g15
 tp695
-a(S'kill the active window'
+a(S"don't i have any events on monday"
 p696
 g15
 tp697
-a(S'please shut down my computer'
+a(S"don't i have to do anything on this day"
 p698
 g15
 tp699
-a(S'please google search'
+a(S'bye'
 p700
 g15
 tp701
-a(S'shut off my computer'
+a(S'check google calendar for wednesday'
 p702
 g15
 tp703
-a(S'please close current window'
+a(S'what events are'
 p704
 g15
 tp705
-a(S'can you shut down'
+a(S'see ya'
 p706
 g15
 tp707
-a(S'shutdown my computer please'
+a(S'close the active window'
 p708
 g15
 tp709
-a(S'search google for please'
+a(S'check google calendar on sunday'
 p710
 g15
 tp711
-a(S'can you please shut down the computer'
+a(S"aren't there any events on today"
 p712
 g15
 tp713
-a(S'shut down my computer'
+a(S'can you turn up the volume'
 p714
-g15
+g30
 tp715
-a(S'spotify play the song'
+a(S'please start browser'
 p716
 g15
 tp717
-a(S'make the volume zero'
+a(S'can you please shut off my computer'
 p718
-g24
+g15
 tp719
-a(S'please kill the window'
+a(S'can you turn my computer off'
 p720
 g15
 tp721
-a(S'open browser please'
+a(S'see you'
 p722
 g15
 tp723
-a(S'please google for'
+a(S'are there any events on thursday'
 p724
 g15
 tp725
-a(S'by pulling the string the homeowner could lock the door from the outside'
+a(S'check calendar for this day'
 p726
 g15
 tp727
-a(S'next song'
+a(S'do i have anything to do on sunday'
 p728
 g15
 tp729
-a(S'open dot org'
+a(S'check google calendar for friday'
 p730
 g15
 tp731
-a(S'lock the screen'
+a(S"don't i have any events on this day"
 p732
 g15
 tp733
-a(S'can you turn off'
+a(S'please close the current window'
 p734
 g15
 tp735
-a(S'please spotify go '
+a(S'good bye'
 p736
 g15
 tp737
-a(S'close the current window'
+a(S'check google calendar on this week'
 p738
 g15
 tp739
-a(S'can you turn my computer off'
+a(S'can you please turn off'
 p740
 g15
 tp741
-a(S'can you please turn the sound down'
+a(S'set the volume zero'
 p742
-g24
+g30
 tp743
-a(S'good night alice'
+a(S'can you shut off'
 p744
 g15
 tp745
-a(S'spotify go back to the last song '
+a(S'please turn off my computer'
 p746
 g15
 tp747
-a(S'can you turn yourself off'
+a(S'check the clock'
 p748
 g15
 tp749
-a(S'the old testament contains several references to locks and the first archaeological evidence of locks are about 4000 years old'
+a(S'lock the screen'
 p750
 g15
 tp751
-a(S'shut down please'
+a(S'set volume 0'
 p752
-g15
+g30
 tp753
-a(S'please go back'
+a(S'spotify play the last song'
 p754
 g15
 tp755
-a(S'increase the volume'
+a(S'please pause'
 p756
-g24
+g15
 tp757
-a(S'a releasing moderate stalls beside the material cell'
+a(S'spotify last please'
 p758
 g15
 tp759
-a(S'lower the volume'
+a(S'start spotify please'
 p760
-g24
-tp761
-a(S'google search for'
-p762
 g15
+tp761
+a(S'please turn it down'
+p762
+g30
 tp763
-a(S'please stop song'
+a(S'can you please turn off the computer'
 p764
 g15
 tp765
-a(S'see ya alice'
+a(S'close window'
 p766
 g15
 tp767
-a(S'kill this window'
+a(S'song stop'
 p768
 g15
 tp769
-a(S'go to dot edu'
+a(S'is there anything i have to do in a month'
 p770
 g15
 tp771
-a(S'make the sound quieter'
+a(S'check my calendar for friday'
 p772
-g24
+g15
 tp773
-a(S'please pause spotify'
+a(S'is there anything to do on wednesday'
 p774
 g15
 tp775
-a(S'shutdown'
+a(S'what events do i have in a week'
 p776
 g15
 tp777
-a(S'alice next please'
+a(S'skip spotify please'
 p778
 g15
 tp779
-a(S'can you turn up the sound'
+a(S'read the time please'
 p780
-g24
+g15
 tp781
-a(S'go to dot org'
+a(S'check google calendar for saturday'
 p782
 g15
 tp783
-a(S'close this window'
+a(S'what events are on wednesday'
 p784
 g15
 tp785
-a(S'shut off please'
+a(S'go back to the last song '
 p786
 g15
 tp787
-a(S'spotify play last song please'
+a(S'turn down the sound'
 p788
-g15
+g30
 tp789
-a(S'volume higher please'
+a(S'do i have anything to do in a week'
 p790
-g24
+g15
 tp791
-a(S'send me to the lock screen'
+a(S'google please for'
 p792
 g15
 tp793
-a(S'train a classifier to try to predict the category of a post'
+a(S'any events on tuesday'
 p794
 g15
 tp795
-a(S'can you kill this window'
+a(S'kill current window'
 p796
 g15
 tp797
-a(S'lock my computer'
+a(S'shut down please'
 p798
 g15
 tp799
-a(S'turn up the volume'
+a(S'check calendar on thursday'
 p800
-g24
+g15
 tp801
-a(S'can you shutdown'
+a(S'a wooden bolt passed through the lock and was held in place by iron pins which dropped into slots and held it firm'
 p802
 g15
 tp803
-a(S'turn up the tunes'
+a(S'can you put me on the lock screen'
 p804
-g24
+g15
 tp805
-a(S'sweet dreams alice'
+a(S"don't i have anything to do on saturday"
 p806
 g15
 tp807
-a(S'mute please'
+a(S'please louder'
 p808
-g24
+g30
 tp809
-a(S'decrease the volume'
+a(S'play song'
 p810
-g24
+g15
 tp811
-a(S'please spotify previous'
+a(S'can you exit'
 p812
 g15
 tp813
-a(S'please google search for'
+a(S'do i have anything'
 p814
 g15
 tp815
-a(S'lock computer please'
+a(S'please search google'
 p816
 g15
 tp817
-a(S'shut down the computer please'
+a(S'am i free on thursday'
 p818
 g15
 tp819
-a(S'turn up the volume please'
+a(S'what events are in a week'
 p820
-g24
+g15
 tp821
-a(S'close current window'
+a(S'am i free on saturday'
 p822
 g15
 tp823
-a(S'can you turn off my computer'
+a(S'shut down the computer'
 p824
 g15
 tp825
-a(S'can you turn up the volume please'
+a(S'spotify next song '
 p826
-g24
+g15
 tp827
-a(S'turn yourself off'
+a(S'google for'
 p828
 g15
 tp829
-a(S'turn off my computer please'
+a(S"aren't there any events on this day"
 p830
 g15
 tp831
-a(S'okay alex'
+a(S'check my calendar for today'
 p832
 g15
 tp833
-a(S'can you please shut up'
+a(S'check google calendar on this day'
 p834
-g24
+g15
 tp835
-a(S'can you open browser please'
+a(S'search'
 p836
 g15
 tp837
-a(S'can you lock the screen'
+a(S'kill this window'
 p838
 g15
 tp839
-a(S'bye bye'
+a(S'please kill the active window'
 p840
 g15
 tp841
-a(S'turn up the sound please'
+a(S'retrieve the time please'
 p842
-g24
+g15
 tp843
-a(S'start a default browser please'
+a(S'please check your watch'
 p844
 g15
 tp845
-a(S'i like dogs'
+a(S'what do i have'
 p846
 g15
 tp847
-a(S'start browsing'
+a(S'other hightech locks open with voice activation or palm or fingerprint recognition'
 p848
 g15
 tp849
-a(S'start song'
+a(S'check events on this day'
 p850
 g15
 tp851
-a(S'bye alice'
+a(S'is there anything to do on this day'
 p852
 g15
 tp853
-a(S'open dot com'
+a(S'start default browser please'
 p854
 g15
 tp855
-a(S'turn up the beat'
+a(S'start the song'
 p856
-g24
+g15
 tp857
-a(S'google search please for'
+a(S'is there anything i have to do on today'
 p858
 g15
 tp859
-a(S'open'
+a(S'check calendar for wednesday'
 p860
 g15
 tp861
-a(S'can you please turn up the sound'
+a(S'check my calendar on tuesday'
 p862
-g24
+g15
 tp863
-a(S'spotify pause the song please'
+a(S'please search'
 p864
 g15
 tp865
-a(S'turn it up please'
+a(S"don't i have anything to do in a week"
 p866
-g24
+g15
 tp867
-a(S'search google please for'
+a(S'please kill the window'
 p868
 g15
 tp869
-a(S'please start'
+a(S'please start spotify'
 p870
 g15
 tp871
-a(S'search google'
+a(S'open default browser'
 p872
 g15
 tp873
-a(S'skip spotify please'
+a(S'kill active window'
 p874
 g15
 tp875
-a(S'shut up'
+a(S'am i free on tomorrow'
 p876
-g24
+g15
 tp877
-a(S'make the sound louder'
+a(S'last song please'
 p878
-g24
+g15
 tp879
-a(S'spotify stop the song '
+a(S'check events on sunday'
 p880
 g15
 tp881
-a(S'start a default browser'
+a(S'can you lock computer'
 p882
 g15
 tp883
-a(S'spotify previous song please'
+a(S"don't i have any events on wednesday"
 p884
 g15
 tp885
-a(S'set the volume zero'
+a(S'what time is it'
 p886
-g24
+g15
 tp887
-a(S'hey alex'
+a(S'check google calendar for thursday'
 p888
 g15
 tp889
-a(S'good bye'
+a(S'read the clock please'
 p890
 g15
 tp891
-a(S'please spotify pause'
+a(S'please get the current time'
 p892
 g15
 tp893
-a(S'skip'
+a(S'can you shutdown my computer'
 p894
 g15
 tp895
-a(S'play the song before'
+a(S'kill the music'
 p896
-g15
+g30
 tp897
-a(S'can you please mute'
+a(S'time'
 p898
-g24
+g15
 tp899
-a(S'kill window'
+a(S'stop'
 p900
 g15
 tp901
-a(S'spotify next'
+a(S'check calendar on wednesday'
 p902
 g15
 tp903
-a(S'this used a latchstring to pull a bolt through brackets in the door'
+a(S'what is on my calendar for sunday'
 p904
 g15
 tp905
-a(S'google please'
+a(S'please shut off'
 p906
 g15
 tp907
-a(S'next'
+a(S'what do i have to do on saturday'
 p908
 g15
 tp909
-a(S'please sound up'
+a(S"don't i have to do anything in a week"
 p910
-g24
+g15
 tp911
-a(S'can you please shut down'
+a(S'do i have anything on sunday'
 p912
 g15
 tp913
-a(S'please kill the active window'
+a(S'turn my computer off'
 p914
 g15
 tp915
-a(S'can you shut off'
+a(S'spotify play the song before'
 p916
 g15
 tp917
-a(S'bye bye alice'
+a(S'make the volume softer'
 p918
-g15
+g30
 tp919
-a(S'can you please kill the active window'
+a(S'shut the fuck up'
 p920
-g15
+g30
 tp921
-asS'classifier'
+a(S'spotify stop playing'
 p922
+g30
+tp923
+a(S"don't i have to do anything on friday"
+p924
+g15
+tp925
+a(S'check events on'
+p926
+g15
+tp927
+a(S'search for please'
+p928
+g15
+tp929
+a(S'what events do i have'
+p930
+g15
+tp931
+a(S'pause spotify please'
+p932
+g15
+tp933
+a(S'train a classifier to try to predict the category of a post'
+p934
+g15
+tp935
+a(S'turn it up please'
+p936
+g30
+tp937
+a(S'can you turn the volume higher please'
+p938
+g30
+tp939
+a(S'check my calendar for this day'
+p940
+g15
+tp941
+a(S'please turn my computer off'
+p942
+g15
+tp943
+a(S'please start browsing'
+p944
+g15
+tp945
+a(S'read your watch please'
+p946
+g15
+tp947
+a(S'am i free for friday'
+p948
+g15
+tp949
+a(S'lower the tunes please'
+p950
+g30
+tp951
+a(S'read me the clock'
+p952
+g15
+tp953
+a(S'am i free'
+p954
+g15
+tp955
+a(S"don't i have to do anything"
+p956
+g15
+tp957
+a(S'go spotify please'
+p958
+g15
+tp959
+a(S'check your watch'
+p960
+g15
+tp961
+a(S'the cards can have a bar code on them and computers can be used to store information on who goes in through each door raising privacy issues for some concerned people'
+p962
+g15
+tp963
+a(S'exit please'
+p964
+g15
+tp965
+a(S'check events for saturday'
+p966
+g15
+tp967
+a(S'decrease the volume'
+p968
+g30
+tp969
+a(S'am i free for today'
+p970
+g15
+tp971
+a(S"such locks offer relatively high security but are generally too expensive and elaborate for the ordinary citizen's home"
+p972
+g15
+tp973
+a(S'next'
+p974
+g15
+tp975
+a(S'do i have anything to do tomorrow'
+p976
+g15
+tp977
+a(S'please be quiet'
+p978
+g30
+tp979
+a(S'check google calendar on tuesday'
+p980
+g15
+tp981
+a(S'by pulling the string the homeowner could lock the door from the outside'
+p982
+g15
+tp983
+a(S'check my calendar on this day'
+p984
+g15
+tp985
+a(S'please sound up'
+p986
+g30
+tp987
+a(S'spotify skip ahead please'
+p988
+g15
+tp989
+a(S'do i have any events on today'
+p990
+g15
+tp991
+a(S"don't i have to do anything"
+p992
+g15
+tp993
+a(S'please spotify pause'
+p994
+g15
+tp995
+a(S'get clock please'
+p996
+g15
+tp997
+a(S"what's the clock"
+p998
+g15
+tp999
+a(S'check google calendar on monday'
+p1000
+g15
+tp1001
+a(S'is there anything to do in a week'
+p1002
+g15
+tp1003
+a(S'please spotify play last song'
+p1004
+g15
+tp1005
+a(S'what do i have on friday'
+p1006
+g15
+tp1007
+a(S'check calendar for sunday'
+p1008
+g15
+tp1009
+a(S'sweet dreams alice'
+p1010
+g15
+tp1011
+a(S'can you turn up the tunez'
+p1012
+g30
+tp1013
+a(S'shut down my computer'
+p1014
+g15
+tp1015
+a(S'do i have anything to do on this day'
+p1016
+g15
+tp1017
+a(S'turn up the beat please'
+p1018
+g30
+tp1019
+a(S'turn up the the beat'
+p1020
+g30
+tp1021
+a(S'spotify skip'
+p1022
+g15
+tp1023
+a(S'read the time'
+p1024
+g15
+tp1025
+a(S'is there anything i have to do'
+p1026
+g15
+tp1027
+a(S'please read time'
+p1028
+g15
+tp1029
+a(S'what is on my calendar for friday'
+p1030
+g15
+tp1031
+a(S'do i have any events in a week'
+p1032
+g15
+tp1033
+a(S'am i free for saturday'
+p1034
+g15
+tp1035
+a(S"don't i have to do anything on thursday"
+p1036
+g15
+tp1037
+a(S'what events do i have on thursday'
+p1038
+g15
+tp1039
+a(S"don't i have anything on thursday"
+p1040
+g15
+tp1041
+a(S'start a default browser please'
+p1042
+g15
+tp1043
+a(S'any events in a month'
+p1044
+g15
+tp1045
+a(S'turn it down'
+p1046
+g30
+tp1047
+a(S'can you mute'
+p1048
+g30
+tp1049
+a(S'turn up the tunez'
+p1050
+g30
+tp1051
+a(S'check events on saturday'
+p1052
+g15
+tp1053
+a(S'shut off please'
+p1054
+g15
+tp1055
+a(S'volume up'
+p1056
+g30
+tp1057
+a(S'turn it down'
+p1058
+g30
+tp1059
+a(S'can you please kill this window'
+p1060
+g15
+tp1061
+a(S'is there anything i have to do on tuesday'
+p1062
+g15
+tp1063
+a(S'what events are on this day'
+p1064
+g15
+tp1065
+a(S'please turn it up'
+p1066
+g30
+tp1067
+a(S'check google calendar for this week'
+p1068
+g15
+tp1069
+a(S'read me the clock please'
+p1070
+g15
+tp1071
+a(S'what do i have to do on friday'
+p1072
+g15
+tp1073
+a(S'stop playing'
+p1074
+g30
+tp1075
+a(S'check my calendar on thursday'
+p1076
+g15
+tp1077
+a(S'turn off the computer please'
+p1078
+g15
+tp1079
+a(S'please get clock'
+p1080
+g15
+tp1081
+a(S'any events on thursday'
+p1082
+g15
+tp1083
+a(S'what do i have to do on tomorrow'
+p1084
+g15
+tp1085
+a(S'off'
+p1086
+g30
+tp1087
+a(S'am i free'
+p1088
+g15
+tp1089
+a(S"don't i have to do anything on wednesday"
+p1090
+g15
+tp1091
+a(S'spotify next'
+p1092
+g15
+tp1093
+a(S'check calendar on monday'
+p1094
+g15
+tp1095
+a(S'hey alex'
+p1096
+g15
+tp1097
+a(S"don't i have any events on sunday"
+p1098
+g15
+tp1099
+a(S'please go spotify '
+p1100
+g15
+tp1101
+a(S'please lock my computer'
+p1102
+g15
+tp1103
+a(S'please can you turn the volume higher'
+p1104
+g30
+tp1105
+a(S'i like dogs'
+p1106
+g15
+tp1107
+a(S'please spotify play previous song'
+p1108
+g15
+tp1109
+a(S'put me on the lock screen'
+p1110
+g15
+tp1111
+a(S'check what time it is please'
+p1112
+g15
+tp1113
+a(S'check the clock right now'
+p1114
+g15
+tp1115
+a(S'any events on wednesday'
+p1116
+g15
+tp1117
+a(S'do i have any events in a month'
+p1118
+g15
+tp1119
+a(S'do i have anything tomorrow'
+p1120
+g15
+tp1121
+a(S"aren't there any events on monday"
+p1122
+g15
+tp1123
+a(S'put me on the lock screen please'
+p1124
+g15
+tp1125
+a(S'are there any events on saturday'
+p1126
+g15
+tp1127
+a(S'can you lock the screen'
+p1128
+g15
+tp1129
+a(S'please shut down the computer'
+p1130
+g15
+tp1131
+a(S'lock'
+p1132
+g15
+tp1133
+a(S'a decent problem gossips beside the shoulder'
+p1134
+g15
+tp1135
+a(S'lower the tunez please'
+p1136
+g30
+tp1137
+a(S'do i have any events on this day'
+p1138
+g15
+tp1139
+a(S'can you close the current window'
+p1140
+g15
+tp1141
+a(S'am i free on wednesday'
+p1142
+g15
+tp1143
+a(S'can you open a browser'
+p1144
+g15
+tp1145
+a(S'the key itself was a sickleshaped piece of metal from two to three feet long'
+p1146
+g15
+tp1147
+a(S'am i free for tuesday'
+p1148
+g15
+tp1149
+a(S'shut off'
+p1150
+g15
+tp1151
+a(S'please go to'
+p1152
+g15
+tp1153
+a(S'what events are on thursday'
+p1154
+g15
+tp1155
+a(S'please open browser'
+p1156
+g15
+tp1157
+a(S'what do i have to do on thursday'
+p1158
+g15
+tp1159
+a(S'what is on my calendar for this day'
+p1160
+g15
+tp1161
+a(S'can you shut my computer down'
+p1162
+g15
+tp1163
+a(S'please shut down my computer'
+p1164
+g15
+tp1165
+a(S'any events'
+p1166
+g15
+tp1167
+a(S'spotify go back to the last song '
+p1168
+g15
+tp1169
+a(S'clock'
+p1170
+g15
+tp1171
+a(S'open a default browser'
+p1172
+g15
+tp1173
+a(S'check google calendar on wednesday'
+p1174
+g15
+tp1175
+a(S'am i free for tomorrow'
+p1176
+g15
+tp1177
+a(S'spotify go to the last song'
+p1178
+g15
+tp1179
+a(S'search please'
+p1180
+g15
+tp1181
+a(S"don't i have any events in a week"
+p1182
+g15
+tp1183
+a(S'check events on month'
+p1184
+g15
+tp1185
+a(S'is there anything i have to do in a week'
+p1186
+g15
+tp1187
+a(S'check my calendar on friday'
+p1188
+g15
+tp1189
+a(S'check events for this week'
+p1190
+g15
+tp1191
+a(S'what is on my calendar for thursday'
+p1192
+g15
+tp1193
+a(S'please volume higher'
+p1194
+g30
+tp1195
+a(S'any events on this day'
+p1196
+g15
+tp1197
+a(S'shut down'
+p1198
+g15
+tp1199
+a(S'please lock computer'
+p1200
+g15
+tp1201
+a(S'spotify last song please'
+p1202
+g15
+tp1203
+a(S'lower the volume'
+p1204
+g30
+tp1205
+a(S'what events are on tuesday'
+p1206
+g15
+tp1207
+a(S'what events do i have in a month'
+p1208
+g15
+tp1209
+a(S'do i have any events on tuesday'
+p1210
+g15
+tp1211
+a(S"don't i have anything on this day"
+p1212
+g15
+tp1213
+a(S'check calendar for this month'
+p1214
+g15
+tp1215
+a(S'please shutdown'
+p1216
+g15
+tp1217
+a(S'bye bye'
+p1218
+g15
+tp1219
+a(S'pause please'
+p1220
+g15
+tp1221
+a(S'turn off'
+p1222
+g15
+tp1223
+a(S'check calendar for tuesday'
+p1224
+g15
+tp1225
+a(S'shut my computer down'
+p1226
+g15
+tp1227
+a(S"aren't there any events on tomorrow"
+p1228
+g15
+tp1229
+a(S'google search'
+p1230
+g15
+tp1231
+a(S'what do i have on sunday'
+p1232
+g15
+tp1233
+a(S"don't i have anything to do on sunday"
+p1234
+g15
+tp1235
+a(S'check my calendar for this month'
+p1236
+g15
+tp1237
+a(S'close current program'
+p1238
+g15
+tp1239
+a(S'pause the song please'
+p1240
+g15
+tp1241
+a(S'the key was a straight piece of wood with pegs projecting up from its end'
+p1242
+g15
+tp1243
+a(S'am i free for this day'
+p1244
+g15
+tp1245
+a(S'get time please'
+p1246
+g15
+tp1247
+a(S'and the large metal key was cumbersome'
+p1248
+g15
+tp1249
+a(S'check my calendar for this day'
+p1250
+g15
+tp1251
+a(S'can you turn up the beat'
+p1252
+g30
+tp1253
+a(S'what do i have to do on this day'
+p1254
+g15
+tp1255
+a(S'what do i have on monday'
+p1256
+g15
+tp1257
+a(S"i think i didn't answer an earlier question"
+p1258
+g15
+tp1259
+a(S'sound up please'
+p1260
+g30
+tp1261
+a(S"don't i have anything tomorrow"
+p1262
+g15
+tp1263
+a(S'get the clock'
+p1264
+g15
+tp1265
+a(S'shut up please'
+p1266
+g30
+tp1267
+a(S'can you shut down'
+p1268
+g15
+tp1269
+a(S'check calendar for today'
+p1270
+g15
+tp1271
+a(S'can you please mute'
+p1272
+g30
+tp1273
+a(S'are there any events on sunday'
+p1274
+g15
+tp1275
+a(S"don't i have to do anything on monday"
+p1276
+g15
+tp1277
+a(S'check calendar for this day'
+p1278
+g15
+tp1279
+a(S'start a default browser'
+p1280
+g15
+tp1281
+a(S'can you please close this window'
+p1282
+g15
+tp1283
+a(S'google search for'
+p1284
+g15
+tp1285
+a(S'what is on my calendar for today'
+p1286
+g15
+tp1287
+a(S'check my calendar for tuesday'
+p1288
+g15
+tp1289
+a(S"don't i have anything to do tomorrow"
+p1290
+g15
+tp1291
+a(S'check the clock right now please'
+p1292
+g15
+tp1293
+a(S'can you please shut down the computer'
+p1294
+g15
+tp1295
+a(S'check what time it is'
+p1296
+g15
+tp1297
+a(S'please stop song'
+p1298
+g15
+tp1299
+a(S'can you please exit'
+p1300
+g15
+tp1301
+a(S'google search please'
+p1302
+g15
+tp1303
+a(S'do i have anything to do on tuesday'
+p1304
+g15
+tp1305
+a(S"don't i have anything on tuesday"
+p1306
+g15
+tp1307
+a(S'turn it off'
+p1308
+g30
+tp1309
+a(S'can you lock my computer please'
+p1310
+g15
+tp1311
+a(S'spotify previous please'
+p1312
+g15
+tp1313
+a(S'please google search'
+p1314
+g15
+tp1315
+a(S'spotify stop'
+p1316
+g15
+tp1317
+a(S'what is on my calendar for tuesday'
+p1318
+g15
+tp1319
+a(S"aren't there any events on saturday"
+p1320
+g15
+tp1321
+a(S'do i have any events on saturday'
+p1322
+g15
+tp1323
+a(S'please shutdown the computer'
+p1324
+g15
+tp1325
+a(S'check the clock please'
+p1326
+g15
+tp1327
+a(S'read time'
+p1328
+g15
+tp1329
+a(S'what time is it right now'
+p1330
+g15
+tp1331
+a(S'do i have anything on wednesday'
+p1332
+g15
+tp1333
+a(S'stop song please'
+p1334
+g15
+tp1335
+a(S'are there any events in a week'
+p1336
+g15
+tp1337
+a(S'retrieve the current time please'
+p1338
+g15
+tp1339
+a(S'make the sound quieter'
+p1340
+g30
+tp1341
+a(S'please spotify go '
+p1342
+g15
+tp1343
+a(S'can you please turn the beat down'
+p1344
+g30
+tp1345
+a(S'please start a default browser'
+p1346
+g15
+tp1347
+a(S'do i have any events on sunday'
+p1348
+g15
+tp1349
+a(S'am i free on monday'
+p1350
+g15
+tp1351
+a(S'can you open this program'
+p1352
+g15
+tp1353
+a(S'am i free for a week'
+p1354
+g15
+tp1355
+a(S'are there any events'
+p1356
+g15
+tp1357
+a(S'please spotify previous song'
+p1358
+g15
+tp1359
+a(S'can you turn the beat down'
+p1360
+g30
+tp1361
+a(S'is there anything to do on thursday'
+p1362
+g15
+tp1363
+a(S'check my calendar on wednesday'
+p1364
+g15
+tp1365
+a(S'please pause the song'
+p1366
+g15
+tp1367
+a(S'check events on thursday'
+p1368
+g15
+tp1369
+a(S'please get the time'
+p1370
+g15
+tp1371
+a(S'spotify play the song'
+p1372
+g15
+tp1373
+a(S"don't i have anything to do on monday"
+p1374
+g15
+tp1375
+a(S'please go to dot com'
+p1376
+g15
+tp1377
+a(S'spotify go back'
+p1378
+g15
+tp1379
+a(S"don't i have to do anything on monday"
+p1380
+g15
+tp1381
+a(S'turn off the beats'
+p1382
+g30
+tp1383
+a(S'can you please kill the window'
+p1384
+g15
+tp1385
+a(S'is there anything to do on sunday'
+p1386
+g15
+tp1387
+a(S'increase the volume'
+p1388
+g30
+tp1389
+a(S'please when is it'
+p1390
+g15
+tp1391
+a(S'spotify pause'
+p1392
+g15
+tp1393
+a(S'check google calendar on today'
+p1394
+g15
+tp1395
+a(S'what events are in a month'
+p1396
+g15
+tp1397
+a(S'am i free for monday'
+p1398
+g15
+tp1399
+a(S'check google calendar for monday'
+p1400
+g15
+tp1401
+a(S'kill window'
+p1402
+g15
+tp1403
+a(S'please kill active window'
+p1404
+g15
+tp1405
+a(S'get time'
+p1406
+g15
+tp1407
+a(S'what do i have to do on today'
+p1408
+g15
+tp1409
+a(S'turn off my computer'
+p1410
+g15
+tp1411
+a(S'can you lock computer please'
+p1412
+g15
+tp1413
+a(S'please open a browser'
+p1414
+g15
+tp1415
+a(S'okay alice'
+p1416
+g15
+tp1417
+a(S'check events for tuesday'
+p1418
+g15
+tp1419
+a(S'kill the current window'
+p1420
+g15
+tp1421
+a(S"what's the time"
+p1422
+g15
+tp1423
+a(S'can you turn off'
+p1424
+g15
+tp1425
+a(S'what events are on today'
+p1426
+g15
+tp1427
+a(S'please shut off my computer'
+p1428
+g15
+tp1429
+a(S'check events on wednesday'
+p1430
+g15
+tp1431
+a(S'spotify stop the song '
+p1432
+g15
+tp1433
+a(S'what events are on saturday'
+p1434
+g15
+tp1435
+a(S'check events for this month'
+p1436
+g15
+tp1437
+a(S"don't i have to do anything on tuesday"
+p1438
+g15
+tp1439
+a(S'check my calendar for saturday'
+p1440
+g15
+tp1441
+a(S'spotify pause the song please'
+p1442
+g15
+tp1443
+a(S'do i have anything to do'
+p1444
+g15
+tp1445
+a(S"don't i have any events in a month"
+p1446
+g15
+tp1447
+a(S'volume higher please'
+p1448
+g30
+tp1449
+a(S'turn down the volume'
+p1450
+g30
+tp1451
+a(S'can you please turn up the sound'
+p1452
+g30
+tp1453
+a(S'spotify go ahead'
+p1454
+g15
+tp1455
+a(S'can you shutdown the computer'
+p1456
+g15
+tp1457
+a(S'please get me the clock'
+p1458
+g15
+tp1459
+a(S'what events do i have on friday'
+p1460
+g15
+tp1461
+a(S'check events on this week'
+p1462
+g15
+tp1463
+a(S'check events on tomorrow'
+p1464
+g15
+tp1465
+a(S'what is on my calendar for saturday'
+p1466
+g15
+tp1467
+a(S'these use a magnetic swipe card to open a door'
+p1468
+g15
+tp1469
+a(S'music down'
+p1470
+g30
+tp1471
+a(S'please start a browser'
+p1472
+g15
+tp1473
+a(S'please open dot com'
+p1474
+g15
+tp1475
+a(S'sound higher please'
+p1476
+g30
+tp1477
+a(S'get the time'
+p1478
+g15
+tp1479
+a(S'check my calendar for monday'
+p1480
+g15
+tp1481
+a(S'please search google for'
+p1482
+g15
+tp1483
+a(S'check google calendar for tomorrow'
+p1484
+g15
+tp1485
+a(S'spotify start please'
+p1486
+g15
+tp1487
+a(S'please read the time'
+p1488
+g15
+tp1489
+a(S'can you please shut down my computer'
+p1490
+g15
+tp1491
+a(S'start a browser please'
+p1492
+g15
+tp1493
+a(S'however the trend towards these kinds of electronic and computercontrolled locks is growing in the late 1990s and they will undoubtedly be more prevalent in the future'
+p1494
+g15
+tp1495
+a(S'am i free on this day'
+p1496
+g15
+tp1497
+a(S'time please'
+p1498
+g15
+tp1499
+a(S'check my calendar on tomorrow'
+p1500
+g15
+tp1501
+a(S'check my calendar on'
+p1502
+g15
+tp1503
+a(S"don't i have anything to do on wednesday"
+p1504
+g15
+tp1505
+a(S'am i free on friday'
+p1506
+g15
+tp1507
+a(S'predict the outcome on a new document'
+p1508
+g15
+tp1509
+a(S''
+p1510
+g15
+tp1511
+a(S'can you turn the tune down'
+p1512
+g30
+tp1513
+a(S'get me the clock'
+p1514
+g15
+tp1515
+a(S'is there anything i have to do on tomorrow'
+p1516
+g15
+tp1517
+a(S'make the volume zero'
+p1518
+g30
+tp1519
+a(S'turn up the volume please'
+p1520
+g30
+tp1521
+a(S'turn the tune down'
+p1522
+g30
+tp1523
+a(S'please can you make it louder'
+p1524
+g30
+tp1525
+a(S'start default browser'
+p1526
+g15
+tp1527
+a(S'am i free on sunday'
+p1528
+g15
+tp1529
+a(S'what do i have on tuesday'
+p1530
+g15
+tp1531
+a(S'turn up the sound'
+p1532
+g30
+tp1533
+a(S'turn the beat down please'
+p1534
+g30
+tp1535
+a(S'are there any events in a month'
+p1536
+g15
+tp1537
+a(S"aren't there any events on thursday"
+p1538
+g15
+tp1539
+a(S'do i have anything on friday'
+p1540
+g15
+tp1541
+a(S'open dot edu'
+p1542
+g15
+tp1543
+a(S"aren't there any events in a month"
+p1544
+g15
+tp1545
+a(S'please sound higher'
+p1546
+g30
+tp1547
+a(S'can you make it louder please'
+p1548
+g30
+tp1549
+a(S'do i have anything to do on thursday'
+p1550
+g15
+tp1551
+a(S'any events on tomorrow'
+p1552
+g15
+tp1553
+a(S'check google calendar on tomorrow'
+p1554
+g15
+tp1555
+a(S'can you send me to the lock screen please'
+p1556
+g15
+tp1557
+a(S"don't i have any events"
+p1558
+g15
+tp1559
+a(S'please check the clock right now'
+p1560
+g15
+tp1561
+a(S'check calendar for tomorrow'
+p1562
+g15
+tp1563
+a(S'kill the active window'
+p1564
+g15
+tp1565
+a(S'please spotify last'
+p1566
+g15
+tp1567
+a(S'lock computer please'
+p1568
+g15
+tp1569
+a(S'play '
+p1570
+g15
+tp1571
+a(S'shutdown please'
+p1572
+g15
+tp1573
+a(S"don't i have to do anything today"
+p1574
+g15
+tp1575
+a(S'lock my computer please'
+p1576
+g15
+tp1577
+a(S'check events for wednesday'
+p1578
+g15
+tp1579
+a(S'check the current time please'
+p1580
+g15
+tp1581
+a(S"don't i have to do anything on sunday"
+p1582
+g15
+tp1583
+a(S'can you please close active window'
+p1584
+g15
+tp1585
+a(S'can you turn yourself off'
+p1586
+g15
+tp1587
+a(S'shut off my computer please'
+p1588
+g15
+tp1589
+a(S'check events for thursday'
+p1590
+g15
+tp1591
+a(S'can you please kill the active window'
+p1592
+g15
+tp1593
+a(S'what do i have to do in a month'
+p1594
+g15
+tp1595
+a(S'spotify play previous song please'
+p1596
+g15
+tp1597
+a(S'please kill current window'
+p1598
+g15
+tp1599
+a(S'get the current time please'
+p1600
+g15
+tp1601
+a(S'can you please shutdown'
+p1602
+g15
+tp1603
+a(S'lower the sound'
+p1604
+g30
+tp1605
+a(S'please pause song'
+p1606
+g15
+tp1607
+a(S'please google for'
+p1608
+g15
+tp1609
+a(S'can you please shutdown my computer'
+p1610
+g15
+tp1611
+a(S'what time is it currently'
+p1612
+g15
+tp1613
+a(S'these are egyptian locks depicted in the pyramids'
+p1614
+g15
+tp1615
+a(S'can you turn off my computer'
+p1616
+g15
+tp1617
+a(S'spotify pause please'
+p1618
+g15
+tp1619
+a(S'check my calendar for wednesday'
+p1620
+g15
+tp1621
+a(S'check google calendar for sunday'
+p1622
+g15
+tp1623
+a(S"don't i have anything to do on thursday"
+p1624
+g15
+tp1625
+a(S'turn up the tunez please'
+p1626
+g30
+tp1627
+a(S'is there anything i have to do on sunday'
+p1628
+g15
+tp1629
+a(S'please shutdown my computer'
+p1630
+g15
+tp1631
+a(S'please get time'
+p1632
+g15
+tp1633
+a(S"aren't there any events on friday"
+p1634
+g15
+tp1635
+a(S'shut down my computer please'
+p1636
+g15
+tp1637
+a(S'please can you turn up the volume'
+p1638
+g30
+tp1639
+a(S'check calendar on saturday'
+p1640
+g15
+tp1641
+a(S'any events on today'
+p1642
+g15
+tp1643
+a(S'check my calendar for tomorrow'
+p1644
+g15
+tp1645
+a(S'start browsing'
+p1646
+g15
+tp1647
+a(S'check events for'
+p1648
+g15
+tp1649
+a(S'be quiet'
+p1650
+g30
+tp1651
+a(S'is there anything i have to do on wednesday'
+p1652
+g15
+tp1653
+a(S"don't i have anything on wednesday"
+p1654
+g15
+tp1655
+a(S'can you please kill current window'
+p1656
+g15
+tp1657
+a(S'is there anything to do on today'
+p1658
+g15
+tp1659
+a(S'check google calendar for this day'
+p1660
+g15
+tp1661
+a(S'the egyptian lock consisted of a heavy wooden housing mounted to the door'
+p1662
+g15
+tp1663
+a(S'please spotify pause the song'
+p1664
+g15
+tp1665
+a(S'google for please'
+p1666
+g15
+tp1667
+a(S'is there anything i have to do on monday'
+p1668
+g15
+tp1669
+a(S"don't i have anything to do"
+p1670
+g15
+tp1671
+a(S'kill the noise'
+p1672
+g30
+tp1673
+a(S'extract the features using almost the same feature'
+p1674
+g15
+tp1675
+a(S'can you decrease the sound'
+p1676
+g30
+tp1677
+a(S'what is on my calendar for wednesday'
+p1678
+g15
+tp1679
+a(S'are there any events on today'
+p1680
+g15
+tp1681
+a(S'please retrieve what time it is'
+p1682
+g15
+tp1683
+a(S'please search for'
+p1684
+g15
+tp1685
+a(S'check your watch please'
+p1686
+g15
+tp1687
+a(S'can you please kill active window'
+p1688
+g15
+tp1689
+a(S'retrieve the time'
+p1690
+g15
+tp1691
+a(S'check google calendar for today'
+p1692
+g15
+tp1693
+a(S'turn up'
+p1694
+g30
+tp1695
+a(S'what do i have to do in a week'
+p1696
+g15
+tp1697
+a(S'turn up the tune'
+p1698
+g30
+tp1699
+a(S'please retrieve the current time'
+p1700
+g15
+tp1701
+a(S'can you turn yourself off please'
+p1702
+g15
+tp1703
+a(S'turn up the sound'
+p1704
+g30
+tp1705
+a(S'check calendar for friday'
+p1706
+g15
+tp1707
+a(S'shut off my computer'
+p1708
+g15
+tp1709
+a(S'are there any events on wednesday'
+p1710
+g15
+tp1711
+a(S'get current time'
+p1712
+g15
+tp1713
+a(S'do i have anything on saturday'
+p1714
+g15
+tp1715
+a(S'please close this window'
+p1716
+g15
+tp1717
+a(S'spotify skip ahead'
+p1718
+g15
+tp1719
+a(S'please pause spotify'
+p1720
+g15
+tp1721
+a(S"don't i have to do anything tomorrow"
+p1722
+g15
+tp1723
+a(S'open browser'
+p1724
+g15
+tp1725
+a(S'what do i have to do on wednesday'
+p1726
+g15
+tp1727
+a(S"don't i have any events on today"
+p1728
+g15
+tp1729
+a(S'the tale pretends'
+p1730
+g15
+tp1731
+a(S'start'
+p1732
+g15
+tp1733
+a(S'google'
+p1734
+g15
+tp1735
+a(S'any events in a week'
+p1736
+g15
+tp1737
+a(g1510
+g15
+tp1738
+a(S'emergency shutdown'
+p1739
+g15
+tp1740
+a(S'please get current time'
+p1741
+g15
+tp1742
+a(S'do i have any events on friday'
+p1743
+g15
+tp1744
+a(S'what events do i have on this day'
+p1745
+g15
+tp1746
+a(S'can you turn up the volume please'
+p1747
+g30
+tp1748
+a(S'we stick to simple problems in this post for the sake of illustration'
+p1749
+g15
+tp1750
+a(S'please read me the clock'
+p1751
+g15
+tp1752
+a(S'is there anything i have to do on this day'
+p1753
+g15
+tp1754
+a(S'check google calendar on'
+p1755
+g15
+tp1756
+a(S'is there anything i have to do on saturday'
+p1757
+g15
+tp1758
+a(S'please open a browser'
+p1759
+g15
+tp1760
+a(S"don't i have any events on tomorrow"
+p1761
+g15
+tp1762
+a(S'open dot net'
+p1763
+g15
+tp1764
+a(S'spotify go please'
+p1765
+g15
+tp1766
+a(S'go back'
+p1767
+g15
+tp1768
+a(S'mute please'
+p1769
+g30
+tp1770
+a(S'what do i have on wednesday'
+p1771
+g15
+tp1772
+a(S'can you please turn up the tune'
+p1773
+g30
+tp1774
+a(S'search google for'
+p1775
+g15
+tp1776
+a(S'open dot com'
+p1777
+g15
+tp1778
+a(S'make the volume lower'
+p1779
+g30
+tp1780
+a(S'what do i have on tomorrow'
+p1781
+g15
+tp1782
+a(S'google please'
+p1783
+g15
+tp1784
+a(S'open default browser please'
+p1785
+g15
+tp1786
+a(S'can you kill this window'
+p1787
+g15
+tp1788
+a(S'what do i have on this day'
+p1789
+g15
+tp1790
+a(S'what events do i have on saturday'
+p1791
+g15
+tp1792
+a(S'set the volume to zero'
+p1793
+g30
+tp1794
+a(S'is there anything i have to do on thursday'
+p1795
+g15
+tp1796
+a(S'check calendar on tomorrow'
+p1797
+g15
+tp1798
+a(S'do i have anything to do today'
+p1799
+g15
+tp1800
+a(S'do i have any events on wednesday'
+p1801
+g15
+tp1802
+a(S'what events do i have on monday'
+p1803
+g15
+tp1804
+asS'classifier'
+p1805
 ccopy_reg
 _reconstructor
-p923
+p1806
 (csklearn.pipeline
 Pipeline
-p924
+p1807
 c__builtin__
 object
-p925
-Ntp926
-Rp927
-(dp928
+p1808
+Ntp1809
+Rp1810
+(dp1811
 S'_sklearn_version'
-p929
+p1812
 S'0.18.1'
-p930
+p1813
 sS'steps'
-p931
-(lp932
+p1814
+(lp1815
 (S'vect'
-p933
-g923
+p1816
+g1806
 (csklearn.feature_extraction.text
 CountVectorizer
-p934
-g925
-Ntp935
-Rp936
-(dp937
+p1817
+g1808
+Ntp1818
+Rp1819
+(dp1820
 S'decode_error'
-p938
+p1821
 Vstrict
-p939
+p1822
 sS'lowercase'
-p940
+p1823
 I01
 sS'stop_words'
-p941
+p1824
 NsS'vocabulary'
-p942
+p1825
 NsS'tokenizer'
-p943
+p1826
 NsS'encoding'
-p944
+p1827
 Vutf-8
-p945
+p1828
 sS'token_pattern'
-p946
+p1829
 V(?u)\u005cb\u005cw\u005cw+\u005cb
-p947
+p1830
 sS'input'
-p948
+p1831
 Vcontent
-p949
+p1832
 sS'analyzer'
-p950
+p1833
 Vword
-p951
+p1834
 sS'vocabulary_'
-p952
-(dp953
+p1835
+(dp1836
 Vcode
-p954
+p1837
 cnumpy.core.multiarray
 scalar
-p955
+p1838
 (cnumpy
 dtype
-p956
+p1839
 (S'i8'
-p957
+p1840
 I0
 I1
-tp958
-Rp959
+tp1841
+Rp1842
 (I3
 S'<'
-p960
+p1843
 NNNI-1
 I-1
 I0
-tp961
-bS'.\x00\x00\x00\x00\x00\x00\x00'
-p962
-tp963
-Rp964
-sVskip
-p965
-g955
-(g959
-S'\xf5\x00\x00\x00\x00\x00\x00\x00'
-p966
-tp967
-Rp968
-sVmagnetic
-p969
-g955
-(g959
-S'\xa0\x00\x00\x00\x00\x00\x00\x00'
-p970
-tp971
-Rp972
-sVhomeowner
-p973
-g955
-(g959
-S'\x80\x00\x00\x00\x00\x00\x00\x00'
-p974
-tp975
-Rp976
-sVsofter
-p977
-g955
-(g959
-S'\xf7\x00\x00\x00\x00\x00\x00\x00'
-p978
-tp979
-Rp980
-sVedu
-p981
-g955
-(g959
-S'S\x00\x00\x00\x00\x00\x00\x00'
-p982
-tp983
-Rp984
-sVgo
-p985
-g955
-(g959
-S'm\x00\x00\x00\x00\x00\x00\x00'
-p986
-tp987
-Rp988
-sVissues
-p989
-g955
-(g959
-S'\x8c\x00\x00\x00\x00\x00\x00\x00'
-p990
-tp991
-Rp992
-sVcell
-p993
-g955
-(g959
-S'*\x00\x00\x00\x00\x00\x00\x00'
-p994
-tp995
-Rp996
-sVpause
-p997
-g955
-(g959
-S'\xc5\x00\x00\x00\x00\x00\x00\x00'
-p998
-tp999
-Rp1000
-sVwith
-p1001
-g955
-(g959
-S'7\x01\x00\x00\x00\x00\x00\x00'
-p1002
-tp1003
-Rp1004
-sVconcerned
-p1005
-g955
-(g959
-S'5\x00\x00\x00\x00\x00\x00\x00'
-p1006
-tp1007
-Rp1008
-sVsend
-p1009
-g955
-(g959
-S'\xec\x00\x00\x00\x00\x00\x00\x00'
-p1010
-tp1011
-Rp1012
-sVto
-p1013
-g955
-(g959
-S'\x17\x01\x00\x00\x00\x00\x00\x00'
-p1014
-tp1015
-Rp1016
-sVwood
-p1017
-g955
-(g959
-S'8\x01\x00\x00\x00\x00\x00\x00'
-p1018
-tp1019
-Rp1020
-sVsound
-p1021
-g955
-(g959
-S'\xfa\x00\x00\x00\x00\x00\x00\x00'
-p1022
-tp1023
-Rp1024
-sVabove
-p1025
-g955
-(g959
-S'\x04\x00\x00\x00\x00\x00\x00\x00'
-p1026
-tp1027
-Rp1028
-sVsong
-p1029
-g955
-(g959
-S'\xf9\x00\x00\x00\x00\x00\x00\x00'
-p1030
-tp1031
-Rp1032
-sVbeat
-p1033
-g955
-(g959
-S'\x19\x00\x00\x00\x00\x00\x00\x00'
-p1034
-tp1035
-Rp1036
-sVactivation
-p1037
-g955
-(g959
-S'\x05\x00\x00\x00\x00\x00\x00\x00'
-p1038
-tp1039
-Rp1040
-sVstop
-p1041
-g955
-(g959
-S'\xff\x00\x00\x00\x00\x00\x00\x00'
-p1042
-tp1043
-Rp1044
-sVgov
-p1045
-g955
-(g959
-S'r\x00\x00\x00\x00\x00\x00\x00'
-p1046
-tp1047
-Rp1048
-sVbar
-p1049
-g955
-(g959
-S'\x16\x00\x00\x00\x00\x00\x00\x00'
-p1050
-tp1051
-Rp1052
-sVwooden
-p1053
-g955
-(g959
-S'9\x01\x00\x00\x00\x00\x00\x00'
-p1054
-tp1055
-Rp1056
-sVlarge
-p1057
-g955
-(g959
-S'\x95\x00\x00\x00\x00\x00\x00\x00'
-p1058
-tp1059
-Rp1060
-sVtunez
-p1061
-g955
-(g959
-S'!\x01\x00\x00\x00\x00\x00\x00'
-p1062
-tp1063
-Rp1064
-sVcommon
-p1065
-g955
-(g959
-S'1\x00\x00\x00\x00\x00\x00\x00'
-p1066
-tp1067
-Rp1068
-sVtunes
-p1069
-g955
-(g959
-S' \x01\x00\x00\x00\x00\x00\x00'
-p1070
-tp1071
-Rp1072
-sVthrough
-p1073
-g955
-(g959
-S'\x15\x01\x00\x00\x00\x00\x00\x00'
-p1074
-tp1075
-Rp1076
-sVset
-p1077
-g955
-(g959
-S'\xed\x00\x00\x00\x00\x00\x00\x00'
-p1078
-tp1079
-Rp1080
-sVtrend
-p1081
-g955
-(g959
-S'\x1c\x01\x00\x00\x00\x00\x00\x00'
-p1082
-tp1083
-Rp1084
-sVzero
-p1085
-g955
-(g959
-S'>\x01\x00\x00\x00\x00\x00\x00'
-p1086
-tp1087
-Rp1088
-sVlouder
-p1089
-g955
-(g959
-S'\x9e\x00\x00\x00\x00\x00\x00\x00'
-p1090
-tp1091
-Rp1092
-sVare
-p1093
-g955
-(g959
-S'\x12\x00\x00\x00\x00\x00\x00\x00'
-p1094
-tp1095
-Rp1096
-sVclose
-p1097
-g955
-(g959
-S'-\x00\x00\x00\x00\x00\x00\x00'
-p1098
-tp1099
-Rp1100
-sVlatchstring
-p1101
-g955
-(g959
-S'\x97\x00\x00\x00\x00\x00\x00\x00'
-p1102
-tp1103
-Rp1104
-sVuniversities
-p1105
-g955
-(g959
-S'&\x01\x00\x00\x00\x00\x00\x00'
-p1106
-tp1107
-Rp1108
-sVbrackets
-p1109
-g955
-(g959
-S'\x1f\x00\x00\x00\x00\x00\x00\x00'
-p1110
-tp1111
-Rp1112
-sVplease
-p1113
-g955
-(g959
-S'\xce\x00\x00\x00\x00\x00\x00\x00'
-p1114
-tp1115
-Rp1116
-sVcurrent
-p1117
-g955
-(g959
-S'<\x00\x00\x00\x00\x00\x00\x00'
-p1118
-tp1119
-Rp1120
-sVoutside
-p1121
-g955
-(g959
-S'\xc0\x00\x00\x00\x00\x00\x00\x00'
-p1122
-tp1123
-Rp1124
-sVfuture
-p1125
-g955
-(g959
-S'k\x00\x00\x00\x00\x00\x00\x00'
-p1126
-tp1127
-Rp1128
-sVgoes
-p1129
-g955
-(g959
-S'n\x00\x00\x00\x00\x00\x00\x00'
-p1130
-tp1131
-Rp1132
-sVnew
-p1133
-g955
-(g959
-S'\xae\x00\x00\x00\x00\x00\x00\x00'
-p1134
-tp1135
-Rp1136
-sVnet
-p1137
-g955
-(g959
-S'\xad\x00\x00\x00\x00\x00\x00\x00'
-p1138
-tp1139
-Rp1140
-sVbefore
-p1141
-g955
-(g959
-S'\x1c\x00\x00\x00\x00\x00\x00\x00'
-p1142
-tp1143
-Rp1144
-sVcan
-p1145
-g955
-(g959
-S'&\x00\x00\x00\x00\x00\x00\x00'
-p1146
-tp1147
-Rp1148
-sVwe
-p1149
-g955
-(g959
-S'0\x01\x00\x00\x00\x00\x00\x00'
-p1150
-tp1151
-Rp1152
-sVscreen
-p1153
-g955
-(g959
-S'\xe8\x00\x00\x00\x00\x00\x00\x00'
-p1154
-tp1155
-Rp1156
-sVhowever
-p1157
-g955
-(g959
-S'\x82\x00\x00\x00\x00\x00\x00\x00'
-p1158
-tp1159
-Rp1160
-sVkey
-p1161
-g955
-(g959
-S'\x90\x00\x00\x00\x00\x00\x00\x00'
-p1162
-tp1163
-Rp1164
-sVactive
-p1165
-g955
-(g959
-S'\x06\x00\x00\x00\x00\x00\x00\x00'
-p1166
-tp1167
-Rp1168
-sVhightech
-p1169
-g955
-(g959
-S'}\x00\x00\x00\x00\x00\x00\x00'
-p1170
-tp1171
-Rp1172
-sVsearch
-p1173
-g955
-(g959
-S'\xe9\x00\x00\x00\x00\x00\x00\x00'
-p1174
-tp1175
-Rp1176
-sVpiece
-p1177
-g955
-(g959
-S'\xc8\x00\x00\x00\x00\x00\x00\x00'
-p1178
-tp1179
-Rp1180
-sVlast
-p1181
-g955
-(g959
-S'\x96\x00\x00\x00\x00\x00\x00\x00'
-p1182
-tp1183
-Rp1184
-sVahead
-p1185
-g955
-(g959
-S'\t\x00\x00\x00\x00\x00\x00\x00'
-p1186
-tp1187
-Rp1188
-sVmany
-p1189
-g955
-(g959
-S'\xa3\x00\x00\x00\x00\x00\x00\x00'
-p1190
-tp1191
-Rp1192
-sVelaborate
-p1193
-g955
-(g959
-S'V\x00\x00\x00\x00\x00\x00\x00'
-p1194
-tp1195
-Rp1196
-sVquiet
-p1197
-g955
-(g959
-S'\xdf\x00\x00\x00\x00\x00\x00\x00'
-p1198
-tp1199
-Rp1200
-sVagainst
-p1201
-g955
-(g959
-S'\x08\x00\x00\x00\x00\x00\x00\x00'
-p1202
-tp1203
-Rp1204
-sVbrowsing
-p1205
-g955
-(g959
-S'!\x00\x00\x00\x00\x00\x00\x00'
-p1206
-tp1207
-Rp1208
-sVcom
-p1209
-g955
-(g959
-S'/\x00\x00\x00\x00\x00\x00\x00'
-p1210
-tp1211
-Rp1212
-sVsimple
-p1213
-g955
-(g959
-S'\xf3\x00\x00\x00\x00\x00\x00\x00'
-p1214
-tp1215
-Rp1216
-sVsweet
-p1217
-g955
-(g959
-S'\x05\x01\x00\x00\x00\x00\x00\x00'
-p1218
-tp1219
-Rp1220
-sVdecrease
-p1221
-g955
-(g959
-S'?\x00\x00\x00\x00\x00\x00\x00'
-p1222
-tp1223
-Rp1224
-sVshutdown
-p1225
-g955
-(g959
-S'\xf1\x00\x00\x00\x00\x00\x00\x00'
-p1226
-tp1227
-Rp1228
-sVslots
-p1229
-g955
-(g959
-S'\xf6\x00\x00\x00\x00\x00\x00\x00'
-p1230
-tp1231
-Rp1232
-sVexpensive
-p1233
-g955
-(g959
-S']\x00\x00\x00\x00\x00\x00\x00'
-p1234
-tp1235
-Rp1236
-sVuse
-p1237
-g955
-(g959
-S')\x01\x00\x00\x00\x00\x00\x00'
-p1238
-tp1239
-Rp1240
-sVfrom
-p1241
-g955
-(g959
-S'i\x00\x00\x00\x00\x00\x00\x00'
-p1242
-tp1243
-Rp1244
-sVentities
-p1245
-g955
-(g959
-S'Z\x00\x00\x00\x00\x00\x00\x00'
-p1246
-tp1247
-Rp1248
-sVsake
-p1249
-g955
-(g959
-S'\xe6\x00\x00\x00\x00\x00\x00\x00'
-p1250
-tp1251
-Rp1252
-sVdecent
-p1253
-g955
-(g959
-S'>\x00\x00\x00\x00\x00\x00\x00'
-p1254
-tp1255
-Rp1256
-sVcontains
-p1257
-g955
-(g959
-S'7\x00\x00\x00\x00\x00\x00\x00'
-p1258
-tp1259
-Rp1260
-sVtwo
-p1261
-g955
-(g959
-S'#\x01\x00\x00\x00\x00\x00\x00'
-p1262
-tp1263
-Rp1264
-sVbeen
-p1265
-g955
-(g959
-S'\x1b\x00\x00\x00\x00\x00\x00\x00'
-p1266
-tp1267
-Rp1268
-sVnext
-p1269
-g955
-(g959
-S'\xaf\x00\x00\x00\x00\x00\x00\x00'
-p1270
-tp1271
-Rp1272
-sVpredict
-p1273
-g955
-(g959
-S'\xd0\x00\x00\x00\x00\x00\x00\x00'
-p1274
-tp1275
-Rp1276
-sVdepicted
-p1277
-g955
-(g959
-S'B\x00\x00\x00\x00\x00\x00\x00'
-p1278
-tp1279
-Rp1280
-sVprogram
-p1281
-g955
-(g959
-S'\xd7\x00\x00\x00\x00\x00\x00\x00'
-p1282
-tp1283
-Rp1284
-sVmusic
-p1285
-g955
-(g959
-S'\xaa\x00\x00\x00\x00\x00\x00\x00'
-p1286
-tp1287
-Rp1288
-sVtype
-p1289
-g955
-(g959
-S'$\x01\x00\x00\x00\x00\x00\x00'
-p1290
-tp1291
-Rp1292
-sVstart
-p1293
-g955
-(g959
-S'\xfd\x00\x00\x00\x00\x00\x00\x00'
-p1294
-tp1295
-Rp1296
-sVtoday
-p1297
-g955
-(g959
-S'\x18\x01\x00\x00\x00\x00\x00\x00'
-p1298
-tp1299
-Rp1300
-sVmore
-p1301
-g955
-(g959
-S'\xa8\x00\x00\x00\x00\x00\x00\x00'
-p1302
-tp1303
-Rp1304
-sVfirm
-p1305
-g955
-(g959
-S'd\x00\x00\x00\x00\x00\x00\x00'
-p1306
-tp1307
-Rp1308
-sVdoor
-p1309
-g955
-(g959
-S'I\x00\x00\x00\x00\x00\x00\x00'
-p1310
-tp1311
-Rp1312
-sVpasskey
-p1313
-g955
-(g959
-S'\xc4\x00\x00\x00\x00\x00\x00\x00'
-p1314
-tp1315
-Rp1316
-sVreleasing
-p1317
-g955
-(g959
-S'\xe5\x00\x00\x00\x00\x00\x00\x00'
-p1318
-tp1319
-Rp1320
-sVcommands
-p1321
-g955
-(g959
-S'0\x00\x00\x00\x00\x00\x00\x00'
-p1322
-tp1323
-Rp1324
-sVit
-p1325
-g955
-(g959
-S'\x8d\x00\x00\x00\x00\x00\x00\x00'
-p1326
-tp1327
-Rp1328
-sVgrief
-p1329
-g955
-(g959
-S't\x00\x00\x00\x00\x00\x00\x00'
-p1330
-tp1331
-Rp1332
-sVtrain
-p1333
-g955
-(g959
-S'\x1b\x01\x00\x00\x00\x00\x00\x00'
-p1334
-tp1335
-Rp1336
-sVkeyhole
-p1337
-g955
-(g959
-S'\x91\x00\x00\x00\x00\x00\x00\x00'
-p1338
-tp1339
-Rp1340
-sVstick
-p1341
-g955
-(g959
-S'\xfe\x00\x00\x00\x00\x00\x00\x00'
-p1342
-tp1343
-Rp1344
-sVknown
-p1345
-g955
-(g959
-S'\x94\x00\x00\x00\x00\x00\x00\x00'
-p1346
-tp1347
-Rp1348
-sVhole
-p1349
-g955
-(g959
-S'~\x00\x00\x00\x00\x00\x00\x00'
-p1350
-tp1351
-Rp1352
-sVmounted
-p1353
-g955
-(g959
-S'\xa9\x00\x00\x00\x00\x00\x00\x00'
-p1354
-tp1355
-Rp1356
-sVme
-p1357
-g955
-(g959
-S'\xa5\x00\x00\x00\x00\x00\x00\x00'
-p1358
-tp1359
-Rp1360
-sVlocks
-p1361
-g955
-(g959
-S'\x9c\x00\x00\x00\x00\x00\x00\x00'
-p1362
-tp1363
-Rp1364
-sVthis
-p1365
-g955
-(g959
-S'\x13\x01\x00\x00\x00\x00\x00\x00'
-p1366
-tp1367
-Rp1368
-sVstraight
-p1369
-g955
-(g959
-S'\x01\x01\x00\x00\x00\x00\x00\x00'
-p1370
-tp1371
-Rp1372
-sVwhen
-p1373
-g955
-(g959
-S'2\x01\x00\x00\x00\x00\x00\x00'
-p1374
-tp1375
-Rp1376
-sVas
-p1377
-g955
-(g959
-S'\x13\x00\x00\x00\x00\x00\x00\x00'
-p1378
-tp1379
-Rp1380
-sVwill
-p1381
-g955
-(g959
-S'5\x01\x00\x00\x00\x00\x00\x00'
-p1382
-tp1383
-Rp1384
-sVthree
-p1385
-g955
-(g959
-S'\x14\x01\x00\x00\x00\x00\x00\x00'
-p1386
-tp1387
-Rp1388
-sVgrowing
-p1389
-g955
-(g959
-S'u\x00\x00\x00\x00\x00\x00\x00'
-p1390
-tp1391
-Rp1392
-sVprojecting
-p1393
-g955
-(g959
-S'\xd8\x00\x00\x00\x00\x00\x00\x00'
-p1394
-tp1395
-Rp1396
-sVmy
-p1397
-g955
-(g959
-S'\xac\x00\x00\x00\x00\x00\x00\x00'
-p1398
-tp1399
-Rp1400
-sVdee
-p1401
-g955
-(g959
-S'@\x00\x00\x00\x00\x00\x00\x00'
-p1402
-tp1403
-Rp1404
-sVnumbers
-p1405
-g955
-(g959
-S'\xb3\x00\x00\x00\x00\x00\x00\x00'
-p1406
-tp1407
-Rp1408
-sValmost
-p1409
-g955
-(g959
-S'\x0c\x00\x00\x00\x00\x00\x00\x00'
-p1410
-tp1411
-Rp1412
-sVlock
-p1413
-g955
-(g959
-S'\x9b\x00\x00\x00\x00\x00\x00\x00'
-p1414
-tp1415
-Rp1416
-sVis
-p1417
-g955
-(g959
-S'\x8a\x00\x00\x00\x00\x00\x00\x00'
-p1418
-tp1419
-Rp1420
-sVfuck
-p1421
-g955
-(g959
-S'j\x00\x00\x00\x00\x00\x00\x00'
-p1422
-tp1423
-Rp1424
-sVbackbone
-p1425
-g955
-(g959
-S'\x15\x00\x00\x00\x00\x00\x00\x00'
-p1426
-tp1427
-Rp1428
-sVhigh
-p1429
-g955
-(g959
-S'{\x00\x00\x00\x00\x00\x00\x00'
-p1430
-tp1431
-Rp1432
-sVpushed
-p1433
-g955
-(g959
-S'\xdb\x00\x00\x00\x00\x00\x00\x00'
-p1434
-tp1435
-Rp1436
-sVitself
-p1437
-g955
-(g959
-S'\x8f\x00\x00\x00\x00\x00\x00\x00'
-p1438
-tp1439
-Rp1440
-sVpulling
-p1441
-g955
-(g959
-S'\xda\x00\x00\x00\x00\x00\x00\x00'
-p1442
-tp1443
-Rp1444
-sVdropped
-p1445
-g955
-(g959
-S'O\x00\x00\x00\x00\x00\x00\x00'
-p1446
-tp1447
-Rp1448
-sVin
-p1449
-g955
-(g959
-S'\x84\x00\x00\x00\x00\x00\x00\x00'
-p1450
-tp1451
-Rp1452
-sVvoice
-p1453
-g955
-(g959
-S'-\x01\x00\x00\x00\x00\x00\x00'
-p1454
-tp1455
-Rp1456
-sVstring
-p1457
-g955
-(g959
-S'\x02\x01\x00\x00\x00\x00\x00\x00'
-p1458
-tp1459
-Rp1460
-sVinformation
-p1461
-g955
-(g959
-S'\x86\x00\x00\x00\x00\x00\x00\x00'
-p1462
-tp1463
-Rp1464
-sVdifferent
-p1465
-g955
-(g959
-S'F\x00\x00\x00\x00\x00\x00\x00'
-p1466
-tp1467
-Rp1468
-sVend
-p1469
-g955
-(g959
-S'Y\x00\x00\x00\x00\x00\x00\x00'
-p1470
-tp1471
-Rp1472
-sVmake
-p1473
-g955
-(g959
-S'\xa2\x00\x00\x00\x00\x00\x00\x00'
-p1474
-tp1475
-Rp1476
-sVegyptian
-p1477
-g955
-(g959
-S'U\x00\x00\x00\x00\x00\x00\x00'
-p1478
-tp1479
-Rp1480
-sVfeature
-p1481
-g955
-(g959
-S'`\x00\x00\x00\x00\x00\x00\x00'
-p1482
-tp1483
-Rp1484
-sVsame
-p1485
-g955
-(g959
-S'\xe7\x00\x00\x00\x00\x00\x00\x00'
-p1486
-tp1487
-Rp1488
-sVbeside
-p1489
-g955
-(g959
-S'\x1d\x00\x00\x00\x00\x00\x00\x00'
-p1490
-tp1491
-Rp1492
-sVvery
-p1493
-g955
-(g959
-S',\x01\x00\x00\x00\x00\x00\x00'
-p1494
-tp1495
-Rp1496
-sVdrawback
-p1497
-g955
-(g959
-S'M\x00\x00\x00\x00\x00\x00\x00'
-p1498
-tp1499
-Rp1500
-sVtumbler
-p1501
-g955
-(g959
-S'\x1e\x01\x00\x00\x00\x00\x00\x00'
-p1502
-tp1503
-Rp1504
-sVpins
-p1505
-g955
-(g959
-S'\xca\x00\x00\x00\x00\x00\x00\x00'
-p1506
-tp1507
-Rp1508
-sVordinary
-p1509
-g955
-(g959
-S'\xbc\x00\x00\x00\x00\x00\x00\x00'
-p1510
-tp1511
-Rp1512
-sVseveral
-p1513
-g955
-(g959
-S'\xee\x00\x00\x00\x00\x00\x00\x00'
-p1514
-tp1515
-Rp1516
-sVhigher
-p1517
-g955
-(g959
-S'|\x00\x00\x00\x00\x00\x00\x00'
-p1518
-tp1519
-Rp1520
-sVused
-p1521
-g955
-(g959
-S'*\x01\x00\x00\x00\x00\x00\x00'
-p1522
-tp1523
-Rp1524
-sVokay
-p1525
-g955
-(g959
-S'\xb7\x00\x00\x00\x00\x00\x00\x00'
-p1526
-tp1527
-Rp1528
-sVsee
-p1529
-g955
-(g959
-S'\xeb\x00\x00\x00\x00\x00\x00\x00'
-p1530
-tp1531
-Rp1532
-sVearlier
-p1533
-g955
-(g959
-S'Q\x00\x00\x00\x00\x00\x00\x00'
-p1534
-tp1535
-Rp1536
-sVbyebye
-p1537
-g955
-(g959
-S'%\x00\x00\x00\x00\x00\x00\x00'
-p1538
-tp1539
-Rp1540
-sVsuch
-p1541
-g955
-(g959
-S'\x04\x01\x00\x00\x00\x00\x00\x00'
-p1542
-tp1543
-Rp1544
-sVtune
-p1545
-g955
-(g959
-S'\x1f\x01\x00\x00\x00\x00\x00\x00'
-p1546
-tp1547
-Rp1548
-sVlower
-p1549
-g955
-(g959
-S'\x9f\x00\x00\x00\x00\x00\x00\x00'
-p1550
-tp1551
-Rp1552
-sVcomputercontrolled
-p1553
-g955
-(g959
-S'3\x00\x00\x00\x00\x00\x00\x00'
-p1554
-tp1555
-Rp1556
-sVoff
-p1557
-g955
-(g959
-S'\xb5\x00\x00\x00\x00\x00\x00\x00'
-p1558
-tp1559
-Rp1560
-sVheadquarters
-p1561
-g955
-(g959
-S'w\x00\x00\x00\x00\x00\x00\x00'
-p1562
-tp1563
-Rp1564
-sVthink
-p1565
-g955
-(g959
-S'\x12\x01\x00\x00\x00\x00\x00\x00'
-p1566
-tp1567
-Rp1568
-sVtale
-p1569
-g955
-(g959
-S'\x08\x01\x00\x00\x00\x00\x00\x00'
-p1570
-tp1571
-Rp1572
-sVpyramids
-p1573
-g955
-(g959
-S'\xdd\x00\x00\x00\x00\x00\x00\x00'
-p1574
-tp1575
-Rp1576
-sVthe
-p1577
-g955
-(g959
-S'\x0b\x01\x00\x00\x00\x00\x00\x00'
-p1578
-tp1579
-Rp1580
-sVcorporate
-p1581
-g955
-(g959
-S'9\x00\x00\x00\x00\x00\x00\x00'
-p1582
-tp1583
-Rp1584
-sVplaying
-p1585
-g955
-(g959
-S'\xcd\x00\x00\x00\x00\x00\x00\x00'
-p1586
-tp1587
-Rp1588
-sVconsisted
-p1589
-g955
-(g959
-S'6\x00\x00\x00\x00\x00\x00\x00'
-p1590
-tp1591
-Rp1592
-sVmute
-p1593
-g955
-(g959
-S'\xab\x00\x00\x00\x00\x00\x00\x00'
-p1594
-tp1595
-Rp1596
-sVdeveloped
-p1597
-g955
-(g959
-S'C\x00\x00\x00\x00\x00\x00\x00'
-p1598
-tp1599
-Rp1600
-sVyears
-p1601
-g955
-(g959
-S';\x01\x00\x00\x00\x00\x00\x00'
-p1602
-tp1603
-Rp1604
-sVheld
-p1605
-g955
-(g959
-S'y\x00\x00\x00\x00\x00\x00\x00'
-p1606
-tp1607
-Rp1608
-sVkill
-p1609
-g955
-(g959
-S'\x92\x00\x00\x00\x00\x00\x00\x00'
-p1610
-tp1611
-Rp1612
-sVconverting
-p1613
-g955
-(g959
-S'8\x00\x00\x00\x00\x00\x00\x00'
-p1614
-tp1615
-Rp1616
-sVits
-p1617
-g955
-(g959
-S'\x8e\x00\x00\x00\x00\x00\x00\x00'
-p1618
-tp1619
-Rp1620
-sVprevious
-p1621
-g955
-(g959
-S'\xd3\x00\x00\x00\x00\x00\x00\x00'
-p1622
-tp1623
-Rp1624
-sVspotify
-p1625
-g955
-(g959
-S'\xfb\x00\x00\x00\x00\x00\x00\x00'
-p1626
-tp1627
-Rp1628
-sVactually
-p1629
-g955
-(g959
-S'\x07\x00\x00\x00\x00\x00\x00\x00'
-p1630
-tp1631
-Rp1632
-sVlate
-p1633
-g955
-(g959
-S'\x98\x00\x00\x00\x00\x00\x00\x00'
-p1634
-tp1635
-Rp1636
-sVwindow
-p1637
-g955
-(g959
-S'6\x01\x00\x00\x00\x00\x00\x00'
-p1638
-tp1639
-Rp1640
-sVthieves
-p1641
-g955
-(g959
-S'\x11\x01\x00\x00\x00\x00\x00\x00'
-p1642
-tp1643
-Rp1644
-sVsystems
-p1645
-g955
-(g959
-S'\x07\x01\x00\x00\x00\x00\x00\x00'
-p1646
-tp1647
-Rp1648
-sVcitizen
-p1649
-g955
-(g959
-S'+\x00\x00\x00\x00\x00\x00\x00'
-p1650
-tp1651
-Rp1652
-sVbye
-p1653
-g955
-(g959
-S'$\x00\x00\x00\x00\x00\x00\x00'
-p1654
-tp1655
-Rp1656
-sVthen
-p1657
-g955
-(g959
-S'\x0e\x01\x00\x00\x00\x00\x00\x00'
-p1658
-tp1659
-Rp1660
-sVthem
-p1661
-g955
-(g959
-S'\r\x01\x00\x00\x00\x00\x00\x00'
-p1662
-tp1663
-Rp1664
-sVgood
-p1665
-g955
-(g959
-S'o\x00\x00\x00\x00\x00\x00\x00'
-p1666
-tp1667
-Rp1668
-sVdoors
-p1669
-g955
-(g959
-S'J\x00\x00\x00\x00\x00\x00\x00'
-p1670
-tp1671
-Rp1672
-sVemergency
-p1673
-g955
-(g959
-S'X\x00\x00\x00\x00\x00\x00\x00'
-p1674
-tp1675
-Rp1676
-sVya
-p1677
-g955
-(g959
-S':\x01\x00\x00\x00\x00\x00\x00'
-p1678
-tp1679
-Rp1680
-sVmaterial
-p1681
-g955
-(g959
-S'\xa4\x00\x00\x00\x00\x00\x00\x00'
-p1682
-tp1683
-Rp1684
-sVanswer
-p1685
-g955
-(g959
-S'\x0f\x00\x00\x00\x00\x00\x00\x00'
-p1686
-tp1687
-Rp1688
-sVthey
-p1689
-g955
-(g959
-S'\x10\x01\x00\x00\x00\x00\x00\x00'
-p1690
-tp1691
-Rp1692
-sVfingerprint
-p1693
-g955
-(g959
-S'c\x00\x00\x00\x00\x00\x00\x00'
-p1694
-tp1695
-Rp1696
-sVnot
-p1697
-g955
-(g959
-S'\xb2\x00\x00\x00\x00\x00\x00\x00'
-p1698
-tp1699
-Rp1700
-sVusing
-p1701
-g955
-(g959
-S'+\x01\x00\x00\x00\x00\x00\x00'
-p1702
-tp1703
-Rp1704
-sVdreams
-p1705
-g955
-(g959
-S'N\x00\x00\x00\x00\x00\x00\x00'
-p1706
-tp1707
-Rp1708
-sVpegs
-p1709
-g955
-(g959
-S'\xc6\x00\x00\x00\x00\x00\x00\x00'
-p1710
-tp1711
-Rp1712
-sVshoulder
-p1713
-g955
-(g959
-S'\xef\x00\x00\x00\x00\x00\x00\x00'
-p1714
-tp1715
-Rp1716
-sVdown
-p1717
-g955
-(g959
-S'L\x00\x00\x00\x00\x00\x00\x00'
-p1718
-tp1719
-Rp1720
-sVdocument
-p1721
-g955
-(g959
-S'G\x00\x00\x00\x00\x00\x00\x00'
-p1722
-tp1723
-Rp1724
-sValex
-p1725
-g955
-(g959
-S'\n\x00\x00\x00\x00\x00\x00\x00'
-p1726
-tp1727
-Rp1728
-sVlike
-p1729
-g955
-(g959
-S'\x9a\x00\x00\x00\x00\x00\x00\x00'
-p1730
-tp1731
-Rp1732
-sVgossips
-p1733
-g955
-(g959
-S'q\x00\x00\x00\x00\x00\x00\x00'
-p1734
-tp1735
-Rp1736
-sVdidn
-p1737
-g955
-(g959
-S'E\x00\x00\x00\x00\x00\x00\x00'
-p1738
-tp1739
-Rp1740
-sValice
-p1741
-g955
-(g959
-S'\x0b\x00\x00\x00\x00\x00\x00\x00'
-p1742
-tp1743
-Rp1744
-sVeach
-p1745
-g955
-(g959
-S'P\x00\x00\x00\x00\x00\x00\x00'
-p1746
-tp1747
-Rp1748
-sVarchaeological
-p1749
-g955
-(g959
-S'\x11\x00\x00\x00\x00\x00\x00\x00'
-p1750
-tp1751
-Rp1752
-sVsecurity
-p1753
-g955
-(g959
-S'\xea\x00\x00\x00\x00\x00\x00\x00'
-p1754
-tp1755
-Rp1756
-sVclassifier
-p1757
-g955
-(g959
-S',\x00\x00\x00\x00\x00\x00\x00'
-p1758
-tp1759
-Rp1760
-sVheavy
-p1761
-g955
-(g959
-S'x\x00\x00\x00\x00\x00\x00\x00'
-p1762
-tp1763
-Rp1764
-sVlifted
-p1765
-g955
-(g959
-S'\x99\x00\x00\x00\x00\x00\x00\x00'
-p1766
-tp1767
-Rp1768
-sVgoogle
-p1769
-g955
-(g959
-S'p\x00\x00\x00\x00\x00\x00\x00'
-p1770
-tp1771
-Rp1772
-sVold
-p1773
-g955
-(g959
-S'\xb8\x00\x00\x00\x00\x00\x00\x00'
-p1774
-tp1775
-Rp1776
-sVpeople
-p1777
-g955
-(g959
-S'\xc7\x00\x00\x00\x00\x00\x00\x00'
-p1778
-tp1779
-Rp1780
-sVee
-p1781
-g955
-(g959
-S'T\x00\x00\x00\x00\x00\x00\x00'
-p1782
-tp1783
-Rp1784
-sVsome
-p1785
-g955
-(g959
-S'\xf8\x00\x00\x00\x00\x00\x00\x00'
-p1786
-tp1787
-Rp1788
-sVback
-p1789
-g955
-(g959
-S'\x14\x00\x00\x00\x00\x00\x00\x00'
-p1790
-tp1791
-Rp1792
-sVpalm
-p1793
-g955
-(g959
-S'\xc2\x00\x00\x00\x00\x00\x00\x00'
-p1794
-tp1795
-Rp1796
-sVhome
-p1797
-g955
-(g959
-S'\x7f\x00\x00\x00\x00\x00\x00\x00'
-p1798
-tp1799
-Rp1800
-sVextract
-p1801
-g955
-(g959
-S'^\x00\x00\x00\x00\x00\x00\x00'
-p1802
-tp1803
-Rp1804
-sVrecognition
-p1805
-g955
-(g959
-S'\xe2\x00\x00\x00\x00\x00\x00\x00'
-p1806
-tp1807
-Rp1808
-sVcategory
-p1809
-g955
-(g959
-S')\x00\x00\x00\x00\x00\x00\x00'
-p1810
-tp1811
-Rp1812
-sVtry
-p1813
-g955
-(g959
-S'\x1d\x01\x00\x00\x00\x00\x00\x00'
-p1814
-tp1815
-Rp1816
-sVfor
-p1817
-g955
-(g959
-S'g\x00\x00\x00\x00\x00\x00\x00'
-p1818
-tp1819
-Rp1820
-sVopen
-p1821
-g955
-(g959
-S'\xba\x00\x00\x00\x00\x00\x00\x00'
-p1822
-tp1823
-Rp1824
-sVsince
-p1825
-g955
-(g959
-S'\xf4\x00\x00\x00\x00\x00\x00\x00'
-p1826
-tp1827
-Rp1828
-sVincrease
-p1829
-g955
-(g959
-S'\x85\x00\x00\x00\x00\x00\x00\x00'
-p1830
-tp1831
-Rp1832
-sVexit
-p1833
-g955
-(g959
-S'\\\x00\x00\x00\x00\x00\x00\x00'
-p1834
-tp1835
-Rp1836
-sVmoderate
-p1837
-g955
-(g959
-S'\xa7\x00\x00\x00\x00\x00\x00\x00'
-p1838
-tp1839
-Rp1840
-sVissue
-p1841
-g955
-(g959
-S'\x8b\x00\x00\x00\x00\x00\x00\x00'
-p1842
-tp1843
-Rp1844
-sVbe
+tp1844
+bS'5\x00\x00\x00\x00\x00\x00\x00'
 p1845
-g955
-(g959
-S'\x18\x00\x00\x00\x00\x00\x00\x00'
-p1846
-tp1847
-Rp1848
-sVshut
+tp1846
+Rp1847
+sVskip
+p1848
+g1838
+(g1842
+S'\x0b\x01\x00\x00\x00\x00\x00\x00'
 p1849
-g955
-(g959
-S'\xf0\x00\x00\x00\x00\x00\x00\x00'
-p1850
-tp1851
-Rp1852
-sVnoise
+tp1850
+Rp1851
+sVmagnetic
+p1852
+g1838
+(g1842
+S'\xaf\x00\x00\x00\x00\x00\x00\x00'
 p1853
-g955
-(g959
-S'\xb1\x00\x00\x00\x00\x00\x00\x00'
-p1854
-tp1855
-Rp1856
-sVbc
+tp1854
+Rp1855
+sVmonth
+p1856
+g1838
+(g1842
+S'\xb8\x00\x00\x00\x00\x00\x00\x00'
 p1857
-g955
-(g959
-S'\x17\x00\x00\x00\x00\x00\x00\x00'
-p1858
-tp1859
-Rp1860
-sVdictates
+tp1858
+Rp1859
+sVsofter
+p1860
+g1838
+(g1842
+S'\r\x01\x00\x00\x00\x00\x00\x00'
 p1861
-g955
-(g959
-S'D\x00\x00\x00\x00\x00\x00\x00'
-p1862
-tp1863
-Rp1864
-sVillustration
+tp1862
+Rp1863
+sVedu
+p1864
+g1838
+(g1842
+S'^\x00\x00\x00\x00\x00\x00\x00'
 p1865
-g955
-(g959
-S'\x83\x00\x00\x00\x00\x00\x00\x00'
-p1866
-tp1867
-Rp1868
-sVbolt
+tp1866
+Rp1867
+sVgo
+p1868
+g1838
+(g1842
+S'|\x00\x00\x00\x00\x00\x00\x00'
 p1869
-g955
-(g959
-S'\x1e\x00\x00\x00\x00\x00\x00\x00'
-p1870
-tp1871
-Rp1872
-sVput
+tp1870
+Rp1871
+sVissues
+p1872
+g1838
+(g1842
+S'\x9b\x00\x00\x00\x00\x00\x00\x00'
 p1873
-g955
-(g959
-S'\xdc\x00\x00\x00\x00\x00\x00\x00'
-p1874
-tp1875
-Rp1876
-sVorg
+tp1874
+Rp1875
+sVcurrent
+p1876
+g1838
+(g1842
+S'C\x00\x00\x00\x00\x00\x00\x00'
 p1877
-g955
-(g959
-S'\xbd\x00\x00\x00\x00\x00\x00\x00'
-p1878
-tp1879
-Rp1880
-sVpost
+tp1878
+Rp1879
+sVpause
+p1880
+g1838
+(g1842
+S'\xd7\x00\x00\x00\x00\x00\x00\x00'
 p1881
-g955
-(g959
-S'\xcf\x00\x00\x00\x00\x00\x00\x00'
-p1882
-tp1883
-Rp1884
-sVearliest
+tp1882
+Rp1883
+sVwith
+p1884
+g1838
+(g1842
+S'W\x01\x00\x00\x00\x00\x00\x00'
 p1885
-g955
-(g959
-S'R\x00\x00\x00\x00\x00\x00\x00'
-p1886
-tp1887
-Rp1888
-sVby
+tp1886
+Rp1887
+sVconcerned
+p1888
+g1838
+(g1842
+S'<\x00\x00\x00\x00\x00\x00\x00'
 p1889
-g955
-(g959
-S'#\x00\x00\x00\x00\x00\x00\x00'
-p1890
-tp1891
-Rp1892
-sVcard
+tp1890
+Rp1891
+sVsend
+p1892
+g1838
+(g1842
+S'\x02\x01\x00\x00\x00\x00\x00\x00'
 p1893
-g955
-(g959
-S"'\x00\x00\x00\x00\x00\x00\x00"
-p1894
-tp1895
-Rp1896
-sVon
-p1897
-g955
-(g959
-S'\xb9\x00\x00\x00\x00\x00\x00\x00'
-p1898
-tp1899
-Rp1900
-sVabout
-p1901
-g955
-(g959
-S'\x03\x00\x00\x00\x00\x00\x00\x00'
-p1902
-tp1903
-Rp1904
-sVof
-p1905
-g955
-(g959
-S'\xb4\x00\x00\x00\x00\x00\x00\x00'
-p1906
-tp1907
-Rp1908
-sVcould
-p1909
-g955
-(g959
-S':\x00\x00\x00\x00\x00\x00\x00'
-p1910
-tp1911
-Rp1912
-sVcomputers
-p1913
-g955
-(g959
-S'4\x00\x00\x00\x00\x00\x00\x00'
-p1914
-tp1915
-Rp1916
-sVtimes
-p1917
-g955
-(g959
-S'\x16\x01\x00\x00\x00\x00\x00\x00'
-p1918
-tp1919
-Rp1920
-sVturn
-p1921
-g955
-(g959
-S'"\x01\x00\x00\x00\x00\x00\x00'
-p1922
-tp1923
-Rp1924
-sVplace
-p1925
-g955
-(g959
-S'\xcb\x00\x00\x00\x00\x00\x00\x00'
-p1926
-tp1927
-Rp1928
-sVtestament
-p1929
-g955
-(g959
-S'\t\x01\x00\x00\x00\x00\x00\x00'
-p1930
-tp1931
-Rp1932
-sVor
-p1933
-g955
-(g959
-S'\xbb\x00\x00\x00\x00\x00\x00\x00'
-p1934
-tp1935
-Rp1936
-sVfirst
-p1937
-g955
-(g959
-S'e\x00\x00\x00\x00\x00\x00\x00'
-p1938
-tp1939
-Rp1940
-sVmajor
-p1941
-g955
-(g959
-S'\xa1\x00\x00\x00\x00\x00\x00\x00'
-p1942
-tp1943
-Rp1944
-sVown
-p1945
-g955
-(g959
-S'\xc1\x00\x00\x00\x00\x00\x00\x00'
-p1946
-tp1947
-Rp1948
-sVfeatures
-p1949
-g955
-(g959
-S'a\x00\x00\x00\x00\x00\x00\x00'
-p1950
-tp1951
-Rp1952
-sVinto
-p1953
-g955
-(g959
-S'\x88\x00\x00\x00\x00\x00\x00\x00'
-p1954
-tp1955
-Rp1956
-sVyourself
-p1957
-g955
-(g959
-S'=\x01\x00\x00\x00\x00\x00\x00'
-p1958
-tp1959
-Rp1960
-sVfeet
-p1961
-g955
-(g959
-S'b\x00\x00\x00\x00\x00\x00\x00'
-p1962
-tp1963
-Rp1964
-sVreferences
-p1965
-g955
-(g959
-S'\xe3\x00\x00\x00\x00\x00\x00\x00'
-p1966
-tp1967
-Rp1968
-sV1990s
-p1969
-g955
-(g959
-S'\x00\x00\x00\x00\x00\x00\x00\x00'
-p1970
-tp1971
-Rp1972
-sVelectronic
-p1973
-g955
-(g959
-S'W\x00\x00\x00\x00\x00\x00\x00'
-p1974
-tp1975
-Rp1976
-sVprivacy
-p1977
-g955
-(g959
-S'\xd4\x00\x00\x00\x00\x00\x00\x00'
-p1978
-tp1979
-Rp1980
-sVhousing
-p1981
-g955
-(g959
-S'\x81\x00\x00\x00\x00\x00\x00\x00'
-p1982
-tp1983
-Rp1984
-sVswipe
-p1985
-g955
-(g959
-S'\x06\x01\x00\x00\x00\x00\x00\x00'
-p1986
-tp1987
-Rp1988
-sVquestion
-p1989
-g955
-(g959
-S'\xde\x00\x00\x00\x00\x00\x00\x00'
-p1990
-tp1991
-Rp1992
-sVhey
-p1993
-g955
-(g959
-S'z\x00\x00\x00\x00\x00\x00\x00'
-p1994
-tp1995
-Rp1996
-sVlong
-p1997
-g955
-(g959
-S'\x9d\x00\x00\x00\x00\x00\x00\x00'
-p1998
-tp1999
-Rp2000
-sVanyone
-p2001
-g955
-(g959
-S'\x10\x00\x00\x00\x00\x00\x00\x00'
-p2002
-tp2003
-Rp2004
-sVtheir
-p2005
-g955
-(g959
-S'\x0c\x01\x00\x00\x00\x00\x00\x00'
-p2006
-tp2007
-Rp2008
-sVtoo
-p2009
-g955
-(g959
-S'\x19\x01\x00\x00\x00\x00\x00\x00'
-p2010
-tp2011
-Rp2012
-sVpassed
-p2013
-g955
-(g959
-S'\xc3\x00\x00\x00\x00\x00\x00\x00'
-p2014
-tp2015
-Rp2016
-sVupwards
-p2017
-g955
-(g959
-S'(\x01\x00\x00\x00\x00\x00\x00'
-p2018
-tp2019
-Rp2020
-sVwas
-p2021
-g955
-(g959
-S'/\x01\x00\x00\x00\x00\x00\x00'
-p2022
-tp2023
-Rp2024
-sVdogs
-p2025
-g955
-(g959
-S'H\x00\x00\x00\x00\x00\x00\x00'
-p2026
-tp2027
-Rp2028
-sVstore
-p2029
-g955
-(g959
-S'\x00\x01\x00\x00\x00\x00\x00\x00'
-p2030
-tp2031
-Rp2032
-sVpretends
-p2033
-g955
-(g959
-S'\xd1\x00\x00\x00\x00\x00\x00\x00'
-p2034
-tp2035
-Rp2036
-sVan
-p2037
-g955
-(g959
-S'\r\x00\x00\x00\x00\x00\x00\x00'
-p2038
-tp2039
-Rp2040
-sVstuffed
-p2041
-g955
-(g959
-S'\x03\x01\x00\x00\x00\x00\x00\x00'
-p2042
-tp2043
-Rp2044
-sVthat
-p2045
-g955
-(g959
-S'\n\x01\x00\x00\x00\x00\x00\x00'
-p2046
-tp2047
-Rp2048
-sV700
-p2049
-g955
-(g959
-S'\x02\x00\x00\x00\x00\x00\x00\x00'
-p2050
-tp2051
-Rp2052
-sVbut
-p2053
-g955
-(g959
-S'"\x00\x00\x00\x00\x00\x00\x00'
-p2054
-tp2055
-Rp2056
-sVvolume
-p2057
-g955
-(g959
-S'.\x01\x00\x00\x00\x00\x00\x00'
-p2058
-tp2059
-Rp2060
-sVsickleshaped
-p2061
-g955
-(g959
-S'\xf2\x00\x00\x00\x00\x00\x00\x00'
-p2062
-tp2063
-Rp2064
-sVundoubtedly
-p2065
-g955
-(g959
-S'%\x01\x00\x00\x00\x00\x00\x00'
-p2066
-tp2067
-Rp2068
-sVraising
-p2069
-g955
-(g959
-S'\xe1\x00\x00\x00\x00\x00\x00\x00'
-p2070
-tp2071
-Rp2072
-sVpull
-p2073
-g955
-(g959
-S'\xd9\x00\x00\x00\x00\x00\x00\x00'
-p2074
-tp2075
-Rp2076
-sVdefault
-p2077
-g955
-(g959
-S'A\x00\x00\x00\x00\x00\x00\x00'
-p2078
-tp2079
-Rp2080
-sVup
-p2081
-g955
-(g959
-S"'\x01\x00\x00\x00\x00\x00\x00"
-p2082
-tp2083
-Rp2084
-sVcomputer
-p2085
-g955
-(g959
-S'2\x00\x00\x00\x00\x00\x00\x00'
-p2086
-tp2087
-Rp2088
-sViron
-p2089
-g955
-(g959
-S'\x89\x00\x00\x00\x00\x00\x00\x00'
-p2090
-tp2091
-Rp2092
-sVwere
-p2093
-g955
-(g959
+tp1894
+Rp1895
+sVto
+p1896
+g1838
+(g1842
 S'1\x01\x00\x00\x00\x00\x00\x00'
-p2094
-tp2095
-Rp2096
-sVcards
-p2097
-g955
-(g959
-S'(\x00\x00\x00\x00\x00\x00\x00'
-p2098
-tp2099
-Rp2100
-sVproblem
-p2101
-g955
-(g959
-S'\xd5\x00\x00\x00\x00\x00\x00\x00'
-p2102
-tp2103
-Rp2104
-sVoutcome
-p2105
-g955
-(g959
-S'\xbf\x00\x00\x00\x00\x00\x00\x00'
-p2106
-tp2107
-Rp2108
-sVbrowser
-p2109
-g955
-(g959
-S' \x00\x00\x00\x00\x00\x00\x00'
-p2110
-tp2111
-Rp2112
-sVand
-p2113
-g955
-(g959
-S'\x0e\x00\x00\x00\x00\x00\x00\x00'
-p2114
-tp2115
-Rp2116
-sVpin
-p2117
-g955
-(g959
-S'\xc9\x00\x00\x00\x00\x00\x00\x00'
-p2118
-tp2119
-Rp2120
-sVevidence
-p2121
-g955
-(g959
-S'[\x00\x00\x00\x00\x00\x00\x00'
-p2122
-tp2123
-Rp2124
-sVbeats
-p2125
-g955
-(g959
-S'\x1a\x00\x00\x00\x00\x00\x00\x00'
-p2126
-tp2127
-Rp2128
-sVhave
-p2129
-g955
-(g959
-S'v\x00\x00\x00\x00\x00\x00\x00'
-p2130
-tp2131
-Rp2132
-sVstalls
-p2133
-g955
-(g959
-S'\xfc\x00\x00\x00\x00\x00\x00\x00'
-p2134
-tp2135
-Rp2136
-sVcurved
-p2137
-g955
-(g959
-S'=\x00\x00\x00\x00\x00\x00\x00'
-p2138
-tp2139
-Rp2140
-sVcumbersome
-p2141
-g955
-(g959
-S';\x00\x00\x00\x00\x00\x00\x00'
-p2142
-tp2143
-Rp2144
-sVrelatively
-p2145
-g955
-(g959
-S'\xe4\x00\x00\x00\x00\x00\x00\x00'
-p2146
-tp2147
-Rp2148
-sVthese
-p2149
-g955
-(g959
+p1897
+tp1898
+Rp1899
+sVprogram
+p1900
+g1838
+(g1842
+S'\xe9\x00\x00\x00\x00\x00\x00\x00'
+p1901
+tp1902
+Rp1903
+sVdo
+p1904
+g1838
+(g1842
+S'P\x00\x00\x00\x00\x00\x00\x00'
+p1905
+tp1906
+Rp1907
+sVstring
+p1908
+g1838
+(g1842
+S'\x18\x01\x00\x00\x00\x00\x00\x00'
+p1909
+tp1910
+Rp1911
+sVsong
+p1912
+g1838
+(g1842
 S'\x0f\x01\x00\x00\x00\x00\x00\x00'
-p2150
-tp2151
-Rp2152
-sVquieter
-p2153
-g955
-(g959
-S'\xe0\x00\x00\x00\x00\x00\x00\x00'
-p2154
-tp2155
-Rp2156
-sV4000
-p2157
-g955
-(g959
-S'\x01\x00\x00\x00\x00\x00\x00\x00'
-p2158
-tp2159
-Rp2160
-sVoffer
-p2161
-g955
-(g959
+p1913
+tp1914
+Rp1915
+sVvery
+p1916
+g1838
+(g1842
+S'H\x01\x00\x00\x00\x00\x00\x00'
+p1917
+tp1918
+Rp1919
+sVactivation
+p1920
+g1838
+(g1842
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p1921
+tp1922
+Rp1923
+sVwatch
+p1924
+g1838
+(g1842
+S'L\x01\x00\x00\x00\x00\x00\x00'
+p1925
+tp1926
+Rp1927
+sVhomeowner
+p1928
+g1838
+(g1842
+S'\x8f\x00\x00\x00\x00\x00\x00\x00'
+p1929
+tp1930
+Rp1931
+sVmoderate
+p1932
+g1838
+(g1842
 S'\xb6\x00\x00\x00\x00\x00\x00\x00'
-p2162
-tp2163
-Rp2164
+p1933
+tp1934
+Rp1935
+sVbar
+p1936
+g1838
+(g1842
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p1937
+tp1938
+Rp1939
+sVwooden
+p1940
+g1838
+(g1842
+S'Y\x01\x00\x00\x00\x00\x00\x00'
+p1941
+tp1942
+Rp1943
 sVgenerally
-p2165
-g955
-(g959
-S'l\x00\x00\x00\x00\x00\x00\x00'
-p2166
-tp2167
-Rp2168
-sVother
-p2169
-g955
-(g959
-S'\xbe\x00\x00\x00\x00\x00\x00\x00'
-p2170
-tp2171
-Rp2172
-sVwhich
-p2173
-g955
-(g959
-S'3\x01\x00\x00\x00\x00\x00\x00'
-p2174
-tp2175
-Rp2176
-sVyou
-p2177
-g955
-(g959
+p1944
+g1838
+(g1842
+S'z\x00\x00\x00\x00\x00\x00\x00'
+p1945
+tp1946
+Rp1947
+sVwednesday
+p1948
+g1838
+(g1842
+S'N\x01\x00\x00\x00\x00\x00\x00'
+p1949
+tp1950
+Rp1951
+sVlarge
+p1952
+g1838
+(g1842
+S'\xa4\x00\x00\x00\x00\x00\x00\x00'
+p1953
+tp1954
+Rp1955
+sVtunez
+p1956
+g1838
+(g1842
+S'=\x01\x00\x00\x00\x00\x00\x00'
+p1957
+tp1958
+Rp1959
+sVcommon
+p1960
+g1838
+(g1842
+S'8\x00\x00\x00\x00\x00\x00\x00'
+p1961
+tp1962
+Rp1963
+sVtunes
+p1964
+g1838
+(g1842
 S'<\x01\x00\x00\x00\x00\x00\x00'
-p2178
-tp2179
-Rp2180
-sVplay
-p2181
-g955
-(g959
-S'\xcc\x00\x00\x00\x00\x00\x00\x00'
-p2182
-tp2183
-Rp2184
-sVtowards
-p2185
-g955
-(g959
-S'\x1a\x01\x00\x00\x00\x00\x00\x00'
-p2186
-tp2187
-Rp2188
-sVkinds
-p2189
-g955
-(g959
-S'\x93\x00\x00\x00\x00\x00\x00\x00'
-p2190
-tp2191
-Rp2192
-sVwho
-p2193
-g955
-(g959
-S'4\x01\x00\x00\x00\x00\x00\x00'
-p2194
-tp2195
-Rp2196
-sVproblems
-p2197
-g955
-(g959
-S'\xd6\x00\x00\x00\x00\x00\x00\x00'
-p2198
-tp2199
-Rp2200
-sVinserted
-p2201
-g955
-(g959
-S'\x87\x00\x00\x00\x00\x00\x00\x00'
-p2202
-tp2203
-Rp2204
-sVfreedthe
-p2205
-g955
-(g959
-S'h\x00\x00\x00\x00\x00\x00\x00'
-p2206
-tp2207
-Rp2208
-sVnight
-p2209
-g955
-(g959
-S'\xb0\x00\x00\x00\x00\x00\x00\x00'
-p2210
-tp2211
-Rp2212
-sVprevalent
-p2213
-g955
-(g959
+p1965
+tp1966
+Rp1967
+sVkill
+p1968
+g1838
+(g1842
+S'\xa1\x00\x00\x00\x00\x00\x00\x00'
+p1969
+tp1970
+Rp1971
+sVset
+p1972
+g1838
+(g1842
+S'\x03\x01\x00\x00\x00\x00\x00\x00'
+p1973
+tp1974
+Rp1975
+sVabove
+p1976
+g1838
+(g1842
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p1977
+tp1978
+Rp1979
+sVtrend
+p1980
+g1838
+(g1842
+S'7\x01\x00\x00\x00\x00\x00\x00'
+p1981
+tp1982
+Rp1983
+sVup
+p1984
+g1838
+(g1842
+S'C\x01\x00\x00\x00\x00\x00\x00'
+p1985
+tp1986
+Rp1987
+sVzero
+p1988
+g1838
+(g1842
+S'_\x01\x00\x00\x00\x00\x00\x00'
+p1989
+tp1990
+Rp1991
+sVlouder
+p1992
+g1838
+(g1842
+S'\xad\x00\x00\x00\x00\x00\x00\x00'
+p1993
+tp1994
+Rp1995
+sVare
+p1996
+g1838
+(g1842
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p1997
+tp1998
+Rp1999
+sVclose
+p2000
+g1838
+(g1842
+S'4\x00\x00\x00\x00\x00\x00\x00'
+p2001
+tp2002
+Rp2003
+sVcalendar
+p2004
+g1838
+(g1842
+S'*\x00\x00\x00\x00\x00\x00\x00'
+p2005
+tp2006
+Rp2007
+sVuniversities
+p2008
+g1838
+(g1842
+S'B\x01\x00\x00\x00\x00\x00\x00'
+p2009
+tp2010
+Rp2011
+sVwhat
+p2012
+g1838
+(g1842
+S'Q\x01\x00\x00\x00\x00\x00\x00'
+p2013
+tp2014
+Rp2015
+sVclock
+p2016
+g1838
+(g1842
+S'3\x00\x00\x00\x00\x00\x00\x00'
+p2017
+tp2018
+Rp2019
+sVcurrently
+p2020
+g1838
+(g1842
+S'D\x00\x00\x00\x00\x00\x00\x00'
+p2021
+tp2022
+Rp2023
+sVplease
+p2024
+g1838
+(g1842
+S'\xe0\x00\x00\x00\x00\x00\x00\x00'
+p2025
+tp2026
+Rp2027
+sVcell
+p2028
+g1838
+(g1842
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p2029
+tp2030
+Rp2031
+sVoutside
+p2032
+g1838
+(g1842
 S'\xd2\x00\x00\x00\x00\x00\x00\x00'
-p2214
-tp2215
-Rp2216
-sVmetal
-p2217
-g955
-(g959
-S'\xa6\x00\x00\x00\x00\x00\x00\x00'
-p2218
-tp2219
-Rp2220
-sVfitted
-p2221
-g955
-(g959
-S'f\x00\x00\x00\x00\x00\x00\x00'
-p2222
-tp2223
-Rp2224
-sVgreeks
-p2225
-g955
-(g959
-S's\x00\x00\x00\x00\x00\x00\x00'
-p2226
-tp2227
-Rp2228
-sVfasten
-p2229
-g955
-(g959
-S'_\x00\x00\x00\x00\x00\x00\x00'
-p2230
-tp2231
-Rp2232
-sVdot
-p2233
-g955
-(g959
+p2033
+tp2034
+Rp2035
+sVprojecting
+p2036
+g1838
+(g1842
+S'\xea\x00\x00\x00\x00\x00\x00\x00'
+p2037
+tp2038
+Rp2039
+sVgoes
+p2040
+g1838
+(g1842
+S'}\x00\x00\x00\x00\x00\x00\x00'
+p2041
+tp2042
+Rp2043
+sVnew
+p2044
+g1838
+(g1842
+S'\xbf\x00\x00\x00\x00\x00\x00\x00'
+p2045
+tp2046
+Rp2047
+sVnet
+p2048
+g1838
+(g1842
+S'\xbe\x00\x00\x00\x00\x00\x00\x00'
+p2049
+tp2050
+Rp2051
+sVprevious
+p2052
+g1838
+(g1842
+S'\xe5\x00\x00\x00\x00\x00\x00\x00'
+p2053
+tp2054
+Rp2055
+sVwe
+p2056
+g1838
+(g1842
+S'M\x01\x00\x00\x00\x00\x00\x00'
+p2057
+tp2058
+Rp2059
+sVdictates
+p2060
+g1838
+(g1842
+S'M\x00\x00\x00\x00\x00\x00\x00'
+p2061
+tp2062
+Rp2063
+sVscreen
+p2064
+g1838
+(g1842
+S'\xfe\x00\x00\x00\x00\x00\x00\x00'
+p2065
+tp2066
+Rp2067
+sVhowever
+p2068
+g1838
+(g1842
+S'\x91\x00\x00\x00\x00\x00\x00\x00'
+p2069
+tp2070
+Rp2071
+sVillustration
+p2072
+g1838
+(g1842
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
+p2073
+tp2074
+Rp2075
+sVkey
+p2076
+g1838
+(g1842
+S'\x9f\x00\x00\x00\x00\x00\x00\x00'
+p2077
+tp2078
+Rp2079
+sVactive
+p2080
+g1838
+(g1842
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p2081
+tp2082
+Rp2083
+sVhightech
+p2084
+g1838
+(g1842
+S'\x8c\x00\x00\x00\x00\x00\x00\x00'
+p2085
+tp2086
+Rp2087
+sVsearch
+p2088
+g1838
+(g1842
+S'\xff\x00\x00\x00\x00\x00\x00\x00'
+p2089
+tp2090
+Rp2091
+sVpiece
+p2092
+g1838
+(g1842
+S'\xda\x00\x00\x00\x00\x00\x00\x00'
+p2093
+tp2094
+Rp2095
+sVlast
+p2096
+g1838
+(g1842
+S'\xa5\x00\x00\x00\x00\x00\x00\x00'
+p2097
+tp2098
+Rp2099
+sVahead
+p2100
+g1838
+(g1842
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p2101
+tp2102
+Rp2103
+sVmany
+p2104
+g1838
+(g1842
+S'\xb2\x00\x00\x00\x00\x00\x00\x00'
+p2105
+tp2106
+Rp2107
+sVelaborate
+p2108
+g1838
+(g1842
+S'a\x00\x00\x00\x00\x00\x00\x00'
+p2109
+tp2110
+Rp2111
+sVquiet
+p2112
+g1838
+(g1842
+S'\xf1\x00\x00\x00\x00\x00\x00\x00'
+p2113
+tp2114
+Rp2115
+sVagainst
+p2116
+g1838
+(g1842
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p2117
+tp2118
+Rp2119
+sVbrowsing
+p2120
+g1838
+(g1842
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p2121
+tp2122
+Rp2123
+sVcom
+p2124
+g1838
+(g1842
+S'6\x00\x00\x00\x00\x00\x00\x00'
+p2125
+tp2126
+Rp2127
+sVsimple
+p2128
+g1838
+(g1842
+S'\t\x01\x00\x00\x00\x00\x00\x00'
+p2129
+tp2130
+Rp2131
+sVsweet
+p2132
+g1838
+(g1842
+S'\x1c\x01\x00\x00\x00\x00\x00\x00'
+p2133
+tp2134
+Rp2135
+sVtuesday
+p2136
+g1838
+(g1842
+S'9\x01\x00\x00\x00\x00\x00\x00'
+p2137
+tp2138
+Rp2139
+sVdecrease
+p2140
+g1838
+(g1842
+S'H\x00\x00\x00\x00\x00\x00\x00'
+p2141
+tp2142
+Rp2143
+sVthursday
+p2144
+g1838
+(g1842
+S'.\x01\x00\x00\x00\x00\x00\x00'
+p2145
+tp2146
+Rp2147
+sVshutdown
+p2148
+g1838
+(g1842
+S'\x07\x01\x00\x00\x00\x00\x00\x00'
+p2149
+tp2150
+Rp2151
+sVslots
+p2152
+g1838
+(g1842
+S'\x0c\x01\x00\x00\x00\x00\x00\x00'
+p2153
+tp2154
+Rp2155
+sVexpensive
+p2156
+g1838
+(g1842
+S'i\x00\x00\x00\x00\x00\x00\x00'
+p2157
+tp2158
+Rp2159
+sVuse
+p2160
+g1838
+(g1842
+S'E\x01\x00\x00\x00\x00\x00\x00'
+p2161
+tp2162
+Rp2163
+sVthree
+p2164
+g1838
+(g1842
+S',\x01\x00\x00\x00\x00\x00\x00'
+p2165
+tp2166
+Rp2167
+sVfrom
+p2168
+g1838
+(g1842
+S'w\x00\x00\x00\x00\x00\x00\x00'
+p2169
+tp2170
+Rp2171
+sVentities
+p2172
+g1838
+(g1842
+S'e\x00\x00\x00\x00\x00\x00\x00'
+p2173
+tp2174
+Rp2175
+sVsake
+p2176
+g1838
+(g1842
+S'\xfb\x00\x00\x00\x00\x00\x00\x00'
+p2177
+tp2178
+Rp2179
+sVdecent
+p2180
+g1838
+(g1842
+S'G\x00\x00\x00\x00\x00\x00\x00'
+p2181
+tp2182
+Rp2183
+sVcontains
+p2184
+g1838
+(g1842
+S'>\x00\x00\x00\x00\x00\x00\x00'
+p2185
+tp2186
+Rp2187
+sVtwo
+p2188
+g1838
+(g1842
+S'?\x01\x00\x00\x00\x00\x00\x00'
+p2189
+tp2190
+Rp2191
+sVbeen
+p2192
+g1838
+(g1842
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p2193
+tp2194
+Rp2195
+sVnext
+p2196
+g1838
+(g1842
+S'\xc0\x00\x00\x00\x00\x00\x00\x00'
+p2197
+tp2198
+Rp2199
+sValmost
+p2200
+g1838
+(g1842
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p2201
+tp2202
+Rp2203
+sVdepicted
+p2204
+g1838
+(g1842
 S'K\x00\x00\x00\x00\x00\x00\x00'
-p2234
-tp2235
-Rp2236
-ssS'binary'
+p2205
+tp2206
+Rp2207
+sVwood
+p2208
+g1838
+(g1842
+S'X\x01\x00\x00\x00\x00\x00\x00'
+p2209
+tp2210
+Rp2211
+sVmusic
+p2212
+g1838
+(g1842
+S'\xbb\x00\x00\x00\x00\x00\x00\x00'
+p2213
+tp2214
+Rp2215
+sVtype
+p2216
+g1838
+(g1842
+S'@\x01\x00\x00\x00\x00\x00\x00'
+p2217
+tp2218
+Rp2219
+sVstart
+p2220
+g1838
+(g1842
+S'\x13\x01\x00\x00\x00\x00\x00\x00'
+p2221
+tp2222
+Rp2223
+sVtoday
+p2224
+g1838
+(g1842
+S'2\x01\x00\x00\x00\x00\x00\x00'
+p2225
+tp2226
+Rp2227
+sVmore
+p2228
+g1838
+(g1842
+S'\xb9\x00\x00\x00\x00\x00\x00\x00'
+p2229
+tp2230
+Rp2231
+sVfirm
+p2232
+g1838
+(g1842
+S'p\x00\x00\x00\x00\x00\x00\x00'
+p2233
+tp2234
+Rp2235
+sVdoor
+p2236
+g1838
+(g1842
+S'T\x00\x00\x00\x00\x00\x00\x00'
 p2237
-I00
-sS'ngram_range'
-p2238
-(I1
-I1
-tp2239
-sg929
-g930
-sS'max_df'
+tp2238
+Rp2239
+sVpasskey
 p2240
-F1.0
-sS'min_df'
+g1838
+(g1842
+S'\xd6\x00\x00\x00\x00\x00\x00\x00'
 p2241
-I1
-sS'max_features'
-p2242
-NsS'fixed_vocabulary_'
-p2243
-I00
-sS'strip_accents'
+tp2242
+Rp2243
+sVreleasing
 p2244
-NsS'dtype'
+g1838
+(g1842
+S'\xf8\x00\x00\x00\x00\x00\x00\x00'
 p2245
-cnumpy
-int64
-p2246
-sS'stop_words_'
-p2247
-c__builtin__
-set
+tp2246
+Rp2247
+sVcommands
 p2248
-((lp2249
+g1838
+(g1842
+S'7\x00\x00\x00\x00\x00\x00\x00'
+p2249
 tp2250
 Rp2251
-sS'preprocessor'
+sVit
 p2252
-Nsbtp2253
-a(S'tfidf'
-p2254
-g923
-(csklearn.feature_extraction.text
-TfidfTransformer
-p2255
-g925
-Ntp2256
-Rp2257
-(dp2258
-S'smooth_idf'
-p2259
-I01
-sg929
-g930
-sS'_idf_diag'
+g1838
+(g1842
+S'\x9c\x00\x00\x00\x00\x00\x00\x00'
+p2253
+tp2254
+Rp2255
+sVgrief
+p2256
+g1838
+(g1842
+S'\x83\x00\x00\x00\x00\x00\x00\x00'
+p2257
+tp2258
+Rp2259
+sVtrain
 p2260
-g923
-(cscipy.sparse.csr
-csr_matrix
+g1838
+(g1842
+S'6\x01\x00\x00\x00\x00\x00\x00'
 p2261
-g925
-Ntp2262
+tp2262
 Rp2263
-(dp2264
-S'indices'
+sVkeyhole
+p2264
+g1838
+(g1842
+S'\xa0\x00\x00\x00\x00\x00\x00\x00'
 p2265
-cnumpy.core.multiarray
-_reconstruct
-p2266
-(cnumpy
-ndarray
-p2267
-(I0
-tp2268
-S'b'
+tp2266
+Rp2267
+sVstick
+p2268
+g1838
+(g1842
+S'\x14\x01\x00\x00\x00\x00\x00\x00'
 p2269
 tp2270
 Rp2271
-(I1
-(I319
-tp2272
-g956
-(S'i4'
+sVknown
+p2272
+g1838
+(g1842
+S'\xa3\x00\x00\x00\x00\x00\x00\x00'
 p2273
-I0
-I1
 tp2274
 Rp2275
-(I3
-S'<'
+sVhole
 p2276
-NNNI-1
-I-1
-I0
-tp2277
-bI00
-S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00\xbc\x00\x00\x00\xbd\x00\x00\x00\xbe\x00\x00\x00\xbf\x00\x00\x00\xc0\x00\x00\x00\xc1\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x00\xc4\x00\x00\x00\xc5\x00\x00\x00\xc6\x00\x00\x00\xc7\x00\x00\x00\xc8\x00\x00\x00\xc9\x00\x00\x00\xca\x00\x00\x00\xcb\x00\x00\x00\xcc\x00\x00\x00\xcd\x00\x00\x00\xce\x00\x00\x00\xcf\x00\x00\x00\xd0\x00\x00\x00\xd1\x00\x00\x00\xd2\x00\x00\x00\xd3\x00\x00\x00\xd4\x00\x00\x00\xd5\x00\x00\x00\xd6\x00\x00\x00\xd7\x00\x00\x00\xd8\x00\x00\x00\xd9\x00\x00\x00\xda\x00\x00\x00\xdb\x00\x00\x00\xdc\x00\x00\x00\xdd\x00\x00\x00\xde\x00\x00\x00\xdf\x00\x00\x00\xe0\x00\x00\x00\xe1\x00\x00\x00\xe2\x00\x00\x00\xe3\x00\x00\x00\xe4\x00\x00\x00\xe5\x00\x00\x00\xe6\x00\x00\x00\xe7\x00\x00\x00\xe8\x00\x00\x00\xe9\x00\x00\x00\xea\x00\x00\x00\xeb\x00\x00\x00\xec\x00\x00\x00\xed\x00\x00\x00\xee\x00\x00\x00\xef\x00\x00\x00\xf0\x00\x00\x00\xf1\x00\x00\x00\xf2\x00\x00\x00\xf3\x00\x00\x00\xf4\x00\x00\x00\xf5\x00\x00\x00\xf6\x00\x00\x00\xf7\x00\x00\x00\xf8\x00\x00\x00\xf9\x00\x00\x00\xfa\x00\x00\x00\xfb\x00\x00\x00\xfc\x00\x00\x00\xfd\x00\x00\x00\xfe\x00\x00\x00\xff\x00\x00\x00\x00\x01\x00\x00\x01\x01\x00\x00\x02\x01\x00\x00\x03\x01\x00\x00\x04\x01\x00\x00\x05\x01\x00\x00\x06\x01\x00\x00\x07\x01\x00\x00\x08\x01\x00\x00\t\x01\x00\x00\n\x01\x00\x00\x0b\x01\x00\x00\x0c\x01\x00\x00\r\x01\x00\x00\x0e\x01\x00\x00\x0f\x01\x00\x00\x10\x01\x00\x00\x11\x01\x00\x00\x12\x01\x00\x00\x13\x01\x00\x00\x14\x01\x00\x00\x15\x01\x00\x00\x16\x01\x00\x00\x17\x01\x00\x00\x18\x01\x00\x00\x19\x01\x00\x00\x1a\x01\x00\x00\x1b\x01\x00\x00\x1c\x01\x00\x00\x1d\x01\x00\x00\x1e\x01\x00\x00\x1f\x01\x00\x00 \x01\x00\x00!\x01\x00\x00"\x01\x00\x00#\x01\x00\x00$\x01\x00\x00%\x01\x00\x00&\x01\x00\x00\'\x01\x00\x00(\x01\x00\x00)\x01\x00\x00*\x01\x00\x00+\x01\x00\x00,\x01\x00\x00-\x01\x00\x00.\x01\x00\x00/\x01\x00\x000\x01\x00\x001\x01\x00\x002\x01\x00\x003\x01\x00\x004\x01\x00\x005\x01\x00\x006\x01\x00\x007\x01\x00\x008\x01\x00\x009\x01\x00\x00:\x01\x00\x00;\x01\x00\x00<\x01\x00\x00=\x01\x00\x00>\x01\x00\x00'
-p2278
-tp2279
-bsS'indptr'
+g1838
+(g1842
+S'\x8d\x00\x00\x00\x00\x00\x00\x00'
+p2277
+tp2278
+Rp2279
+sVmounted
 p2280
-g2266
-(g2267
-(I0
-tp2281
-g2269
+g1838
+(g1842
+S'\xba\x00\x00\x00\x00\x00\x00\x00'
+p2281
 tp2282
 Rp2283
-(I1
-(I320
-tp2284
-g2275
-I00
-S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00\xbc\x00\x00\x00\xbd\x00\x00\x00\xbe\x00\x00\x00\xbf\x00\x00\x00\xc0\x00\x00\x00\xc1\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x00\xc4\x00\x00\x00\xc5\x00\x00\x00\xc6\x00\x00\x00\xc7\x00\x00\x00\xc8\x00\x00\x00\xc9\x00\x00\x00\xca\x00\x00\x00\xcb\x00\x00\x00\xcc\x00\x00\x00\xcd\x00\x00\x00\xce\x00\x00\x00\xcf\x00\x00\x00\xd0\x00\x00\x00\xd1\x00\x00\x00\xd2\x00\x00\x00\xd3\x00\x00\x00\xd4\x00\x00\x00\xd5\x00\x00\x00\xd6\x00\x00\x00\xd7\x00\x00\x00\xd8\x00\x00\x00\xd9\x00\x00\x00\xda\x00\x00\x00\xdb\x00\x00\x00\xdc\x00\x00\x00\xdd\x00\x00\x00\xde\x00\x00\x00\xdf\x00\x00\x00\xe0\x00\x00\x00\xe1\x00\x00\x00\xe2\x00\x00\x00\xe3\x00\x00\x00\xe4\x00\x00\x00\xe5\x00\x00\x00\xe6\x00\x00\x00\xe7\x00\x00\x00\xe8\x00\x00\x00\xe9\x00\x00\x00\xea\x00\x00\x00\xeb\x00\x00\x00\xec\x00\x00\x00\xed\x00\x00\x00\xee\x00\x00\x00\xef\x00\x00\x00\xf0\x00\x00\x00\xf1\x00\x00\x00\xf2\x00\x00\x00\xf3\x00\x00\x00\xf4\x00\x00\x00\xf5\x00\x00\x00\xf6\x00\x00\x00\xf7\x00\x00\x00\xf8\x00\x00\x00\xf9\x00\x00\x00\xfa\x00\x00\x00\xfb\x00\x00\x00\xfc\x00\x00\x00\xfd\x00\x00\x00\xfe\x00\x00\x00\xff\x00\x00\x00\x00\x01\x00\x00\x01\x01\x00\x00\x02\x01\x00\x00\x03\x01\x00\x00\x04\x01\x00\x00\x05\x01\x00\x00\x06\x01\x00\x00\x07\x01\x00\x00\x08\x01\x00\x00\t\x01\x00\x00\n\x01\x00\x00\x0b\x01\x00\x00\x0c\x01\x00\x00\r\x01\x00\x00\x0e\x01\x00\x00\x0f\x01\x00\x00\x10\x01\x00\x00\x11\x01\x00\x00\x12\x01\x00\x00\x13\x01\x00\x00\x14\x01\x00\x00\x15\x01\x00\x00\x16\x01\x00\x00\x17\x01\x00\x00\x18\x01\x00\x00\x19\x01\x00\x00\x1a\x01\x00\x00\x1b\x01\x00\x00\x1c\x01\x00\x00\x1d\x01\x00\x00\x1e\x01\x00\x00\x1f\x01\x00\x00 \x01\x00\x00!\x01\x00\x00"\x01\x00\x00#\x01\x00\x00$\x01\x00\x00%\x01\x00\x00&\x01\x00\x00\'\x01\x00\x00(\x01\x00\x00)\x01\x00\x00*\x01\x00\x00+\x01\x00\x00,\x01\x00\x00-\x01\x00\x00.\x01\x00\x00/\x01\x00\x000\x01\x00\x001\x01\x00\x002\x01\x00\x003\x01\x00\x004\x01\x00\x005\x01\x00\x006\x01\x00\x007\x01\x00\x008\x01\x00\x009\x01\x00\x00:\x01\x00\x00;\x01\x00\x00<\x01\x00\x00=\x01\x00\x00>\x01\x00\x00?\x01\x00\x00'
+sVme
+p2284
+g1838
+(g1842
+S'\xb4\x00\x00\x00\x00\x00\x00\x00'
 p2285
 tp2286
-bsS'maxprint'
-p2287
-I50
-sS'_shape'
+Rp2287
+sVpushed
 p2288
-(I319
-I319
-tp2289
-sg12
-g2266
-(g2267
-(I0
+g1838
+(g1842
+S'\xed\x00\x00\x00\x00\x00\x00\x00'
+p2289
 tp2290
-g2269
-tp2291
-Rp2292
+Rp2291
+sVthis
+p2292
+g1838
+(g1842
+S'+\x01\x00\x00\x00\x00\x00\x00'
+p2293
+tp2294
+Rp2295
+sVstraight
+p2296
+g1838
+(g1842
+S'\x17\x01\x00\x00\x00\x00\x00\x00'
+p2297
+tp2298
+Rp2299
+sVas
+p2300
+g1838
+(g1842
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p2301
+tp2302
+Rp2303
+sVwill
+p2304
+g1838
+(g1842
+S'U\x01\x00\x00\x00\x00\x00\x00'
+p2305
+tp2306
+Rp2307
+sVcan
+p2308
+g1838
+(g1842
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p2309
+tp2310
+Rp2311
+sVgrowing
+p2312
+g1838
+(g1842
+S'\x84\x00\x00\x00\x00\x00\x00\x00'
+p2313
+tp2314
+Rp2315
+sVvoice
+p2316
+g1838
+(g1842
+S'I\x01\x00\x00\x00\x00\x00\x00'
+p2317
+tp2318
+Rp2319
+sVmy
+p2320
+g1838
+(g1842
+S'\xbd\x00\x00\x00\x00\x00\x00\x00'
+p2321
+tp2322
+Rp2323
+sVdee
+p2324
+g1838
+(g1842
+S'I\x00\x00\x00\x00\x00\x00\x00'
+p2325
+tp2326
+Rp2327
+sVdropped
+p2328
+g1838
+(g1842
+S'Z\x00\x00\x00\x00\x00\x00\x00'
+p2329
+tp2330
+Rp2331
+sVpredict
+p2332
+g1838
+(g1842
+S'\xe2\x00\x00\x00\x00\x00\x00\x00'
+p2333
+tp2334
+Rp2335
+sVlock
+p2336
+g1838
+(g1842
+S'\xaa\x00\x00\x00\x00\x00\x00\x00'
+p2337
+tp2338
+Rp2339
+sVis
+p2340
+g1838
+(g1842
+S'\x99\x00\x00\x00\x00\x00\x00\x00'
+p2341
+tp2342
+Rp2343
+sVfuck
+p2344
+g1838
+(g1842
+S'x\x00\x00\x00\x00\x00\x00\x00'
+p2345
+tp2346
+Rp2347
+sVbackbone
+p2348
+g1838
+(g1842
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p2349
+tp2350
+Rp2351
+sVhigh
+p2352
+g1838
+(g1842
+S'\x8a\x00\x00\x00\x00\x00\x00\x00'
+p2353
+tp2354
+Rp2355
+sVlocks
+p2356
+g1838
+(g1842
+S'\xab\x00\x00\x00\x00\x00\x00\x00'
+p2357
+tp2358
+Rp2359
+sVitself
+p2360
+g1838
+(g1842
+S'\x9e\x00\x00\x00\x00\x00\x00\x00'
+p2361
+tp2362
+Rp2363
+sVpulling
+p2364
+g1838
+(g1842
+S'\xec\x00\x00\x00\x00\x00\x00\x00'
+p2365
+tp2366
+Rp2367
+sVnumbers
+p2368
+g1838
+(g1842
+S'\xc5\x00\x00\x00\x00\x00\x00\x00'
+p2369
+tp2370
+Rp2371
+sVin
+p2372
+g1838
+(g1842
+S'\x93\x00\x00\x00\x00\x00\x00\x00'
+p2373
+tp2374
+Rp2375
+sVinformation
+p2376
+g1838
+(g1842
+S'\x95\x00\x00\x00\x00\x00\x00\x00'
+p2377
+tp2378
+Rp2379
+sVdifferent
+p2380
+g1838
+(g1842
+S'O\x00\x00\x00\x00\x00\x00\x00'
+p2381
+tp2382
+Rp2383
+sVend
+p2384
+g1838
+(g1842
+S'd\x00\x00\x00\x00\x00\x00\x00'
+p2385
+tp2386
+Rp2387
+sVopen
+p2388
+g1838
+(g1842
+S'\xcc\x00\x00\x00\x00\x00\x00\x00'
+p2389
+tp2390
+Rp2391
+sVmake
+p2392
+g1838
+(g1842
+S'\xb1\x00\x00\x00\x00\x00\x00\x00'
+p2393
+tp2394
+Rp2395
+sVegyptian
+p2396
+g1838
+(g1842
+S'`\x00\x00\x00\x00\x00\x00\x00'
+p2397
+tp2398
+Rp2399
+sVfeature
+p2400
+g1838
+(g1842
+S'l\x00\x00\x00\x00\x00\x00\x00'
+p2401
+tp2402
+Rp2403
+sVsame
+p2404
+g1838
+(g1842
+S'\xfc\x00\x00\x00\x00\x00\x00\x00'
+p2405
+tp2406
+Rp2407
+sVcheck
+p2408
+g1838
+(g1842
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p2409
+tp2410
+Rp2411
+sVbeside
+p2412
+g1838
+(g1842
+S'!\x00\x00\x00\x00\x00\x00\x00'
+p2413
+tp2414
+Rp2415
+sVbeat
+p2416
+g1838
+(g1842
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p2417
+tp2418
+Rp2419
+sVsunday
+p2420
+g1838
+(g1842
+S'\x1b\x01\x00\x00\x00\x00\x00\x00'
+p2421
+tp2422
+Rp2423
+sVdrawback
+p2424
+g1838
+(g1842
+S'X\x00\x00\x00\x00\x00\x00\x00'
+p2425
+tp2426
+Rp2427
+sVtumbler
+p2428
+g1838
+(g1842
+S':\x01\x00\x00\x00\x00\x00\x00'
+p2429
+tp2430
+Rp2431
+sVanswer
+p2432
+g1838
+(g1842
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p2433
+tp2434
+Rp2435
+sVordinary
+p2436
+g1838
+(g1842
+S'\xce\x00\x00\x00\x00\x00\x00\x00'
+p2437
+tp2438
+Rp2439
+sVseveral
+p2440
+g1838
+(g1842
+S'\x04\x01\x00\x00\x00\x00\x00\x00'
+p2441
+tp2442
+Rp2443
+sVevents
+p2444
+g1838
+(g1842
+S'f\x00\x00\x00\x00\x00\x00\x00'
+p2445
+tp2446
+Rp2447
+sVhigher
+p2448
+g1838
+(g1842
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+p2449
+tp2450
+Rp2451
+sVweek
+p2452
+g1838
+(g1842
+S'O\x01\x00\x00\x00\x00\x00\x00'
+p2453
+tp2454
+Rp2455
+sVused
+p2456
+g1838
+(g1842
+S'F\x01\x00\x00\x00\x00\x00\x00'
+p2457
+tp2458
+Rp2459
+sVokay
+p2460
+g1838
+(g1842
+S'\xc9\x00\x00\x00\x00\x00\x00\x00'
+p2461
+tp2462
+Rp2463
+sVstop
+p2464
+g1838
+(g1842
+S'\x15\x01\x00\x00\x00\x00\x00\x00'
+p2465
+tp2466
+Rp2467
+sVearlier
+p2468
+g1838
+(g1842
+S'\\\x00\x00\x00\x00\x00\x00\x00'
+p2469
+tp2470
+Rp2471
+sVbyebye
+p2472
+g1838
+(g1842
+S')\x00\x00\x00\x00\x00\x00\x00'
+p2473
+tp2474
+Rp2475
+sVsuch
+p2476
+g1838
+(g1842
+S'\x1a\x01\x00\x00\x00\x00\x00\x00'
+p2477
+tp2478
+Rp2479
+sVtune
+p2480
+g1838
+(g1842
+S';\x01\x00\x00\x00\x00\x00\x00'
+p2481
+tp2482
+Rp2483
+sVlower
+p2484
+g1838
+(g1842
+S'\xae\x00\x00\x00\x00\x00\x00\x00'
+p2485
+tp2486
+Rp2487
+sVcomputercontrolled
+p2488
+g1838
+(g1842
+S':\x00\x00\x00\x00\x00\x00\x00'
+p2489
+tp2490
+Rp2491
+sVoff
+p2492
+g1838
+(g1842
+S'\xc7\x00\x00\x00\x00\x00\x00\x00'
+p2493
+tp2494
+Rp2495
+sVread
+p2496
+g1838
+(g1842
+S'\xf4\x00\x00\x00\x00\x00\x00\x00'
+p2497
+tp2498
+Rp2499
+sVheadquarters
+p2500
+g1838
+(g1842
+S'\x86\x00\x00\x00\x00\x00\x00\x00'
+p2501
+tp2502
+Rp2503
+sVor
+p2504
+g1838
+(g1842
+S'\xcd\x00\x00\x00\x00\x00\x00\x00'
+p2505
+tp2506
+Rp2507
+sVtale
+p2508
+g1838
+(g1842
+S'\x1f\x01\x00\x00\x00\x00\x00\x00'
+p2509
+tp2510
+Rp2511
+sVpyramids
+p2512
+g1838
+(g1842
+S'\xef\x00\x00\x00\x00\x00\x00\x00'
+p2513
+tp2514
+Rp2515
+sVthe
+p2516
+g1838
+(g1842
+S'"\x01\x00\x00\x00\x00\x00\x00'
+p2517
+tp2518
+Rp2519
+sVcorporate
+p2520
+g1838
+(g1842
+S'@\x00\x00\x00\x00\x00\x00\x00'
+p2521
+tp2522
+Rp2523
+sVplaying
+p2524
+g1838
+(g1842
+S'\xdf\x00\x00\x00\x00\x00\x00\x00'
+p2525
+tp2526
+Rp2527
+sVconsisted
+p2528
+g1838
+(g1842
+S'=\x00\x00\x00\x00\x00\x00\x00'
+p2529
+tp2530
+Rp2531
+sVmute
+p2532
+g1838
+(g1842
+S'\xbc\x00\x00\x00\x00\x00\x00\x00'
+p2533
+tp2534
+Rp2535
+sVdeveloped
+p2536
+g1838
+(g1842
+S'L\x00\x00\x00\x00\x00\x00\x00'
+p2537
+tp2538
+Rp2539
+sVyears
+p2540
+g1838
+(g1842
+S'[\x01\x00\x00\x00\x00\x00\x00'
+p2541
+tp2542
+Rp2543
+sVheld
+p2544
+g1838
+(g1842
+S'\x88\x00\x00\x00\x00\x00\x00\x00'
+p2545
+tp2546
+Rp2547
+sVthrough
+p2548
+g1838
+(g1842
+S'-\x01\x00\x00\x00\x00\x00\x00'
+p2549
+tp2550
+Rp2551
+sVconverting
+p2552
+g1838
+(g1842
+S'?\x00\x00\x00\x00\x00\x00\x00'
+p2553
+tp2554
+Rp2555
+sVits
+p2556
+g1838
+(g1842
+S'\x9d\x00\x00\x00\x00\x00\x00\x00'
+p2557
+tp2558
+Rp2559
+sVbefore
+p2560
+g1838
+(g1842
+S' \x00\x00\x00\x00\x00\x00\x00'
+p2561
+tp2562
+Rp2563
+sVspotify
+p2564
+g1838
+(g1842
+S'\x11\x01\x00\x00\x00\x00\x00\x00'
+p2565
+tp2566
+Rp2567
+sVactually
+p2568
+g1838
+(g1842
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p2569
+tp2570
+Rp2571
+sVlate
+p2572
+g1838
+(g1842
+S'\xa7\x00\x00\x00\x00\x00\x00\x00'
+p2573
+tp2574
+Rp2575
+sVwindow
+p2576
+g1838
+(g1842
+S'V\x01\x00\x00\x00\x00\x00\x00'
+p2577
+tp2578
+Rp2579
+sVthieves
+p2580
+g1838
+(g1842
+S')\x01\x00\x00\x00\x00\x00\x00'
+p2581
+tp2582
+Rp2583
+sVsystems
+p2584
+g1838
+(g1842
+S'\x1e\x01\x00\x00\x00\x00\x00\x00'
+p2585
+tp2586
+Rp2587
+sVcitizen
+p2588
+g1838
+(g1842
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p2589
+tp2590
+Rp2591
+sVbye
+p2592
+g1838
+(g1842
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p2593
+tp2594
+Rp2595
+sVthen
+p2596
+g1838
+(g1842
+S'%\x01\x00\x00\x00\x00\x00\x00'
+p2597
+tp2598
+Rp2599
+sVthem
+p2600
+g1838
+(g1842
+S'$\x01\x00\x00\x00\x00\x00\x00'
+p2601
+tp2602
+Rp2603
+sVgood
+p2604
+g1838
+(g1842
+S'~\x00\x00\x00\x00\x00\x00\x00'
+p2605
+tp2606
+Rp2607
+sVdoors
+p2608
+g1838
+(g1842
+S'U\x00\x00\x00\x00\x00\x00\x00'
+p2609
+tp2610
+Rp2611
+sVemergency
+p2612
+g1838
+(g1842
+S'c\x00\x00\x00\x00\x00\x00\x00'
+p2613
+tp2614
+Rp2615
+sVya
+p2616
+g1838
+(g1842
+S'Z\x01\x00\x00\x00\x00\x00\x00'
+p2617
+tp2618
+Rp2619
+sVmaterial
+p2620
+g1838
+(g1842
+S'\xb3\x00\x00\x00\x00\x00\x00\x00'
+p2621
+tp2622
+Rp2623
+sVpins
+p2624
+g1838
+(g1842
+S'\xdc\x00\x00\x00\x00\x00\x00\x00'
+p2625
+tp2626
+Rp2627
+sVthey
+p2628
+g1838
+(g1842
+S'(\x01\x00\x00\x00\x00\x00\x00'
+p2629
+tp2630
+Rp2631
+sVfingerprint
+p2632
+g1838
+(g1842
+S'o\x00\x00\x00\x00\x00\x00\x00'
+p2633
+tp2634
+Rp2635
+sVnot
+p2636
+g1838
+(g1842
+S'\xc3\x00\x00\x00\x00\x00\x00\x00'
+p2637
+tp2638
+Rp2639
+sVusing
+p2640
+g1838
+(g1842
+S'G\x01\x00\x00\x00\x00\x00\x00'
+p2641
+tp2642
+Rp2643
+sVnow
+p2644
+g1838
+(g1842
+S'\xc4\x00\x00\x00\x00\x00\x00\x00'
+p2645
+tp2646
+Rp2647
+sVday
+p2648
+g1838
+(g1842
+S'F\x00\x00\x00\x00\x00\x00\x00'
+p2649
+tp2650
+Rp2651
+sVdreams
+p2652
+g1838
+(g1842
+S'Y\x00\x00\x00\x00\x00\x00\x00'
+p2653
+tp2654
+Rp2655
+sVpegs
+p2656
+g1838
+(g1842
+S'\xd8\x00\x00\x00\x00\x00\x00\x00'
+p2657
+tp2658
+Rp2659
+sVshoulder
+p2660
+g1838
+(g1842
+S'\x05\x01\x00\x00\x00\x00\x00\x00'
+p2661
+tp2662
+Rp2663
+sVdown
+p2664
+g1838
+(g1842
+S'W\x00\x00\x00\x00\x00\x00\x00'
+p2665
+tp2666
+Rp2667
+sVdocument
+p2668
+g1838
+(g1842
+S'Q\x00\x00\x00\x00\x00\x00\x00'
+p2669
+tp2670
+Rp2671
+sValex
+p2672
+g1838
+(g1842
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p2673
+tp2674
+Rp2675
+sVlike
+p2676
+g1838
+(g1842
+S'\xa9\x00\x00\x00\x00\x00\x00\x00'
+p2677
+tp2678
+Rp2679
+sVgossips
+p2680
+g1838
+(g1842
+S'\x80\x00\x00\x00\x00\x00\x00\x00'
+p2681
+tp2682
+Rp2683
+sVdidn
+p2684
+g1838
+(g1842
+S'N\x00\x00\x00\x00\x00\x00\x00'
+p2685
+tp2686
+Rp2687
+sValice
+p2688
+g1838
+(g1842
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p2689
+tp2690
+Rp2691
+sVeach
+p2692
+g1838
+(g1842
+S'[\x00\x00\x00\x00\x00\x00\x00'
+p2693
+tp2694
+Rp2695
+sVarchaeological
+p2696
+g1838
+(g1842
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p2697
+tp2698
+Rp2699
+sVsecurity
+p2700
+g1838
+(g1842
+S'\x00\x01\x00\x00\x00\x00\x00\x00'
+p2701
+tp2702
+Rp2703
+sVclassifier
+p2704
+g1838
+(g1842
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p2705
+tp2706
+Rp2707
+sVheavy
+p2708
+g1838
+(g1842
+S'\x87\x00\x00\x00\x00\x00\x00\x00'
+p2709
+tp2710
+Rp2711
+sVlifted
+p2712
+g1838
+(g1842
+S'\xa8\x00\x00\x00\x00\x00\x00\x00'
+p2713
+tp2714
+Rp2715
+sVgoogle
+p2716
+g1838
+(g1842
+S'\x7f\x00\x00\x00\x00\x00\x00\x00'
+p2717
+tp2718
+Rp2719
+sVretrieve
+p2720
+g1838
+(g1842
+S'\xf9\x00\x00\x00\x00\x00\x00\x00'
+p2721
+tp2722
+Rp2723
+sVpeople
+p2724
+g1838
+(g1842
+S'\xd9\x00\x00\x00\x00\x00\x00\x00'
+p2725
+tp2726
+Rp2727
+sVee
+p2728
+g1838
+(g1842
+S'_\x00\x00\x00\x00\x00\x00\x00'
+p2729
+tp2730
+Rp2731
+sVthere
+p2732
+g1838
+(g1842
+S'&\x01\x00\x00\x00\x00\x00\x00'
+p2733
+tp2734
+Rp2735
+sV700
+p2736
+g1838
+(g1842
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p2737
+tp2738
+Rp2739
+sVback
+p2740
+g1838
+(g1842
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p2741
+tp2742
+Rp2743
+sVpalm
+p2744
+g1838
+(g1842
+S'\xd4\x00\x00\x00\x00\x00\x00\x00'
+p2745
+tp2746
+Rp2747
+sV1990s
+p2748
+g1838
+(g1842
+S'\x00\x00\x00\x00\x00\x00\x00\x00'
+p2749
+tp2750
+Rp2751
+sVhome
+p2752
+g1838
+(g1842
+S'\x8e\x00\x00\x00\x00\x00\x00\x00'
+p2753
+tp2754
+Rp2755
+sVextract
+p2756
+g1838
+(g1842
+S'j\x00\x00\x00\x00\x00\x00\x00'
+p2757
+tp2758
+Rp2759
+sVsaturday
+p2760
+g1838
+(g1842
+S'\xfd\x00\x00\x00\x00\x00\x00\x00'
+p2761
+tp2762
+Rp2763
+sVrecognition
+p2764
+g1838
+(g1842
+S'\xf5\x00\x00\x00\x00\x00\x00\x00'
+p2765
+tp2766
+Rp2767
+sVcategory
+p2768
+g1838
+(g1842
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p2769
+tp2770
+Rp2771
+sVtry
+p2772
+g1838
+(g1842
+S'8\x01\x00\x00\x00\x00\x00\x00'
+p2773
+tp2774
+Rp2775
+sVfor
+p2776
+g1838
+(g1842
+S's\x00\x00\x00\x00\x00\x00\x00'
+p2777
+tp2778
+Rp2779
+sVgreeks
+p2780
+g1838
+(g1842
+S'\x82\x00\x00\x00\x00\x00\x00\x00'
+p2781
+tp2782
+Rp2783
+sVsince
+p2784
+g1838
+(g1842
+S'\n\x01\x00\x00\x00\x00\x00\x00'
+p2785
+tp2786
+Rp2787
+sVyour
+p2788
+g1838
+(g1842
+S']\x01\x00\x00\x00\x00\x00\x00'
+p2789
+tp2790
+Rp2791
+sVincrease
+p2792
+g1838
+(g1842
+S'\x94\x00\x00\x00\x00\x00\x00\x00'
+p2793
+tp2794
+Rp2795
+sVexit
+p2796
+g1838
+(g1842
+S'h\x00\x00\x00\x00\x00\x00\x00'
+p2797
+tp2798
+Rp2799
+sVget
+p2800
+g1838
+(g1842
+S'{\x00\x00\x00\x00\x00\x00\x00'
+p2801
+tp2802
+Rp2803
+sVgov
+p2804
+g1838
+(g1842
+S'\x81\x00\x00\x00\x00\x00\x00\x00'
+p2805
+tp2806
+Rp2807
+sVissue
+p2808
+g1838
+(g1842
+S'\x9a\x00\x00\x00\x00\x00\x00\x00'
+p2809
+tp2810
+Rp2811
+sVbe
+p2812
+g1838
+(g1842
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p2813
+tp2814
+Rp2815
+sVshut
+p2816
+g1838
+(g1842
+S'\x06\x01\x00\x00\x00\x00\x00\x00'
+p2817
+tp2818
+Rp2819
+sVnoise
+p2820
+g1838
+(g1842
+S'\xc2\x00\x00\x00\x00\x00\x00\x00'
+p2821
+tp2822
+Rp2823
+sVbc
+p2824
+g1838
+(g1842
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p2825
+tp2826
+Rp2827
+sVfriday
+p2828
+g1838
+(g1842
+S'v\x00\x00\x00\x00\x00\x00\x00'
+p2829
+tp2830
+Rp2831
+sVfree
+p2832
+g1838
+(g1842
+S't\x00\x00\x00\x00\x00\x00\x00'
+p2833
+tp2834
+Rp2835
+sVbolt
+p2836
+g1838
+(g1842
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p2837
+tp2838
+Rp2839
+sVput
+p2840
+g1838
+(g1842
+S'\xee\x00\x00\x00\x00\x00\x00\x00'
+p2841
+tp2842
+Rp2843
+sVorg
+p2844
+g1838
+(g1842
+S'\xcf\x00\x00\x00\x00\x00\x00\x00'
+p2845
+tp2846
+Rp2847
+sVpost
+p2848
+g1838
+(g1842
+S'\xe1\x00\x00\x00\x00\x00\x00\x00'
+p2849
+tp2850
+Rp2851
+sVearliest
+p2852
+g1838
+(g1842
+S']\x00\x00\x00\x00\x00\x00\x00'
+p2853
+tp2854
+Rp2855
+sVby
+p2856
+g1838
+(g1842
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p2857
+tp2858
+Rp2859
+sVcard
+p2860
+g1838
+(g1842
+S',\x00\x00\x00\x00\x00\x00\x00'
+p2861
+tp2862
+Rp2863
+sVon
+p2864
+g1838
+(g1842
+S'\xcb\x00\x00\x00\x00\x00\x00\x00'
+p2865
+tp2866
+Rp2867
+sVabout
+p2868
+g1838
+(g1842
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p2869
+tp2870
+Rp2871
+sVanything
+p2872
+g1838
+(g1842
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p2873
+tp2874
+Rp2875
+sVof
+p2876
+g1838
+(g1842
+S'\xc6\x00\x00\x00\x00\x00\x00\x00'
+p2877
+tp2878
+Rp2879
+sVcould
+p2880
+g1838
+(g1842
+S'A\x00\x00\x00\x00\x00\x00\x00'
+p2881
+tp2882
+Rp2883
+sVcomputers
+p2884
+g1838
+(g1842
+S';\x00\x00\x00\x00\x00\x00\x00'
+p2885
+tp2886
+Rp2887
+sVtimes
+p2888
+g1838
+(g1842
+S'0\x01\x00\x00\x00\x00\x00\x00'
+p2889
+tp2890
+Rp2891
+sVturn
+p2892
+g1838
+(g1842
+S'>\x01\x00\x00\x00\x00\x00\x00'
+p2893
+tp2894
+Rp2895
+sVplace
+p2896
+g1838
+(g1842
+S'\xdd\x00\x00\x00\x00\x00\x00\x00'
+p2897
+tp2898
+Rp2899
+sVtestament
+p2900
+g1838
+(g1842
+S' \x01\x00\x00\x00\x00\x00\x00'
+p2901
+tp2902
+Rp2903
+sVthink
+p2904
+g1838
+(g1842
+S'*\x01\x00\x00\x00\x00\x00\x00'
+p2905
+tp2906
+Rp2907
+sVfirst
+p2908
+g1838
+(g1842
+S'q\x00\x00\x00\x00\x00\x00\x00'
+p2909
+tp2910
+Rp2911
+sVmajor
+p2912
+g1838
+(g1842
+S'\xb0\x00\x00\x00\x00\x00\x00\x00'
+p2913
+tp2914
+Rp2915
+sVown
+p2916
+g1838
+(g1842
+S'\xd3\x00\x00\x00\x00\x00\x00\x00'
+p2917
+tp2918
+Rp2919
+sVfeatures
+p2920
+g1838
+(g1842
+S'm\x00\x00\x00\x00\x00\x00\x00'
+p2921
+tp2922
+Rp2923
+sVinto
+p2924
+g1838
+(g1842
+S'\x97\x00\x00\x00\x00\x00\x00\x00'
+p2925
+tp2926
+Rp2927
+sVyourself
+p2928
+g1838
+(g1842
+S'^\x01\x00\x00\x00\x00\x00\x00'
+p2929
+tp2930
+Rp2931
+sVfeet
+p2932
+g1838
+(g1842
+S'n\x00\x00\x00\x00\x00\x00\x00'
+p2933
+tp2934
+Rp2935
+sVright
+p2936
+g1838
+(g1842
+S'\xfa\x00\x00\x00\x00\x00\x00\x00'
+p2937
+tp2938
+Rp2939
+sVreferences
+p2940
+g1838
+(g1842
+S'\xf6\x00\x00\x00\x00\x00\x00\x00'
+p2941
+tp2942
+Rp2943
+sVold
+p2944
+g1838
+(g1842
+S'\xca\x00\x00\x00\x00\x00\x00\x00'
+p2945
+tp2946
+Rp2947
+sVelectronic
+p2948
+g1838
+(g1842
+S'b\x00\x00\x00\x00\x00\x00\x00'
+p2949
+tp2950
+Rp2951
+sVtomorrow
+p2952
+g1838
+(g1842
+S'3\x01\x00\x00\x00\x00\x00\x00'
+p2953
+tp2954
+Rp2955
+sVcomputer
+p2956
+g1838
+(g1842
+S'9\x00\x00\x00\x00\x00\x00\x00'
+p2957
+tp2958
+Rp2959
+sVprivacy
+p2960
+g1838
+(g1842
+S'\xe6\x00\x00\x00\x00\x00\x00\x00'
+p2961
+tp2962
+Rp2963
+sVaren
+p2964
+g1838
+(g1842
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p2965
+tp2966
+Rp2967
+sVhousing
+p2968
+g1838
+(g1842
+S'\x90\x00\x00\x00\x00\x00\x00\x00'
+p2969
+tp2970
+Rp2971
+sVswipe
+p2972
+g1838
+(g1842
+S'\x1d\x01\x00\x00\x00\x00\x00\x00'
+p2973
+tp2974
+Rp2975
+sVquestion
+p2976
+g1838
+(g1842
+S'\xf0\x00\x00\x00\x00\x00\x00\x00'
+p2977
+tp2978
+Rp2979
+sVhey
+p2980
+g1838
+(g1842
+S'\x89\x00\x00\x00\x00\x00\x00\x00'
+p2981
+tp2982
+Rp2983
+sVlong
+p2984
+g1838
+(g1842
+S'\xac\x00\x00\x00\x00\x00\x00\x00'
+p2985
+tp2986
+Rp2987
+sVanyone
+p2988
+g1838
+(g1842
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p2989
+tp2990
+Rp2991
+sVtheir
+p2992
+g1838
+(g1842
+S'#\x01\x00\x00\x00\x00\x00\x00'
+p2993
+tp2994
+Rp2995
+sVtoo
+p2996
+g1838
+(g1842
+S'4\x01\x00\x00\x00\x00\x00\x00'
+p2997
+tp2998
+Rp2999
+sVstuffed
+p3000
+g1838
+(g1842
+S'\x19\x01\x00\x00\x00\x00\x00\x00'
+p3001
+tp3002
+Rp3003
+sVupwards
+p3004
+g1838
+(g1842
+S'D\x01\x00\x00\x00\x00\x00\x00'
+p3005
+tp3006
+Rp3007
+sVwas
+p3008
+g1838
+(g1842
+S'K\x01\x00\x00\x00\x00\x00\x00'
+p3009
+tp3010
+Rp3011
+sVdogs
+p3012
+g1838
+(g1842
+S'R\x00\x00\x00\x00\x00\x00\x00'
+p3013
+tp3014
+Rp3015
+sVstore
+p3016
+g1838
+(g1842
+S'\x16\x01\x00\x00\x00\x00\x00\x00'
+p3017
+tp3018
+Rp3019
+sVpretends
+p3020
+g1838
+(g1842
+S'\xe3\x00\x00\x00\x00\x00\x00\x00'
+p3021
+tp3022
+Rp3023
+sVan
+p3024
+g1838
+(g1842
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p3025
+tp3026
+Rp3027
+sVpassed
+p3028
+g1838
+(g1842
+S'\xd5\x00\x00\x00\x00\x00\x00\x00'
+p3029
+tp3030
+Rp3031
+sVthat
+p3032
+g1838
+(g1842
+S'!\x01\x00\x00\x00\x00\x00\x00'
+p3033
+tp3034
+Rp3035
+sVsome
+p3036
+g1838
+(g1842
+S'\x0e\x01\x00\x00\x00\x00\x00\x00'
+p3037
+tp3038
+Rp3039
+sVbut
+p3040
+g1838
+(g1842
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p3041
+tp3042
+Rp3043
+sVvolume
+p3044
+g1838
+(g1842
+S'J\x01\x00\x00\x00\x00\x00\x00'
+p3045
+tp3046
+Rp3047
+sVsickleshaped
+p3048
+g1838
+(g1842
+S'\x08\x01\x00\x00\x00\x00\x00\x00'
+p3049
+tp3050
+Rp3051
+sVundoubtedly
+p3052
+g1838
+(g1842
+S'A\x01\x00\x00\x00\x00\x00\x00'
+p3053
+tp3054
+Rp3055
+sVraising
+p3056
+g1838
+(g1842
+S'\xf3\x00\x00\x00\x00\x00\x00\x00'
+p3057
+tp3058
+Rp3059
+sVpull
+p3060
+g1838
+(g1842
+S'\xeb\x00\x00\x00\x00\x00\x00\x00'
+p3061
+tp3062
+Rp3063
+sVdefault
+p3064
+g1838
+(g1842
+S'J\x00\x00\x00\x00\x00\x00\x00'
+p3065
+tp3066
+Rp3067
+sVsee
+p3068
+g1838
+(g1842
+S'\x01\x01\x00\x00\x00\x00\x00\x00'
+p3069
+tp3070
+Rp3071
+sVfuture
+p3072
+g1838
+(g1842
+S'y\x00\x00\x00\x00\x00\x00\x00'
+p3073
+tp3074
+Rp3075
+sViron
+p3076
+g1838
+(g1842
+S'\x98\x00\x00\x00\x00\x00\x00\x00'
+p3077
+tp3078
+Rp3079
+sVwere
+p3080
+g1838
+(g1842
+S'P\x01\x00\x00\x00\x00\x00\x00'
+p3081
+tp3082
+Rp3083
+sVcards
+p3084
+g1838
+(g1842
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p3085
+tp3086
+Rp3087
+sVproblem
+p3088
+g1838
+(g1842
+S'\xe7\x00\x00\x00\x00\x00\x00\x00'
+p3089
+tp3090
+Rp3091
+sVoutcome
+p3092
+g1838
+(g1842
+S'\xd1\x00\x00\x00\x00\x00\x00\x00'
+p3093
+tp3094
+Rp3095
+sVbrowser
+p3096
+g1838
+(g1842
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p3097
+tp3098
+Rp3099
+sVand
+p3100
+g1838
+(g1842
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p3101
+tp3102
+Rp3103
+sVpin
+p3104
+g1838
+(g1842
+S'\xdb\x00\x00\x00\x00\x00\x00\x00'
+p3105
+tp3106
+Rp3107
+sVam
+p3108
+g1838
+(g1842
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p3109
+tp3110
+Rp3111
+sVevidence
+p3112
+g1838
+(g1842
+S'g\x00\x00\x00\x00\x00\x00\x00'
+p3113
+tp3114
+Rp3115
+sVbeats
+p3116
+g1838
+(g1842
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p3117
+tp3118
+Rp3119
+sVhave
+p3120
+g1838
+(g1842
+S'\x85\x00\x00\x00\x00\x00\x00\x00'
+p3121
+tp3122
+Rp3123
+sVstalls
+p3124
+g1838
+(g1842
+S'\x12\x01\x00\x00\x00\x00\x00\x00'
+p3125
+tp3126
+Rp3127
+sVcurved
+p3128
+g1838
+(g1842
+S'E\x00\x00\x00\x00\x00\x00\x00'
+p3129
+tp3130
+Rp3131
+sVcumbersome
+p3132
+g1838
+(g1842
+S'B\x00\x00\x00\x00\x00\x00\x00'
+p3133
+tp3134
+Rp3135
+sVany
+p3136
+g1838
+(g1842
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p3137
+tp3138
+Rp3139
+sVrelatively
+p3140
+g1838
+(g1842
+S'\xf7\x00\x00\x00\x00\x00\x00\x00'
+p3141
+tp3142
+Rp3143
+sVthese
+p3144
+g1838
+(g1842
+S"'\x01\x00\x00\x00\x00\x00\x00"
+p3145
+tp3146
+Rp3147
+sVquieter
+p3148
+g1838
+(g1842
+S'\xf2\x00\x00\x00\x00\x00\x00\x00'
+p3149
+tp3150
+Rp3151
+sV4000
+p3152
+g1838
+(g1842
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p3153
+tp3154
+Rp3155
+sVoffer
+p3156
+g1838
+(g1842
+S'\xc8\x00\x00\x00\x00\x00\x00\x00'
+p3157
+tp3158
+Rp3159
+sVwhen
+p3160
+g1838
+(g1842
+S'R\x01\x00\x00\x00\x00\x00\x00'
+p3161
+tp3162
+Rp3163
+sVsound
+p3164
+g1838
+(g1842
+S'\x10\x01\x00\x00\x00\x00\x00\x00'
+p3165
+tp3166
+Rp3167
+sVother
+p3168
+g1838
+(g1842
+S'\xd0\x00\x00\x00\x00\x00\x00\x00'
+p3169
+tp3170
+Rp3171
+sVwhich
+p3172
+g1838
+(g1842
+S'S\x01\x00\x00\x00\x00\x00\x00'
+p3173
+tp3174
+Rp3175
+sVyou
+p3176
+g1838
+(g1842
+S'\\\x01\x00\x00\x00\x00\x00\x00'
+p3177
+tp3178
+Rp3179
+sVplay
+p3180
+g1838
+(g1842
+S'\xde\x00\x00\x00\x00\x00\x00\x00'
+p3181
+tp3182
+Rp3183
+sVtowards
+p3184
+g1838
+(g1842
+S'5\x01\x00\x00\x00\x00\x00\x00'
+p3185
+tp3186
+Rp3187
+sVkinds
+p3188
+g1838
+(g1842
+S'\xa2\x00\x00\x00\x00\x00\x00\x00'
+p3189
+tp3190
+Rp3191
+sVmonday
+p3192
+g1838
+(g1842
+S'\xb7\x00\x00\x00\x00\x00\x00\x00'
+p3193
+tp3194
+Rp3195
+sVwho
+p3196
+g1838
+(g1842
+S'T\x01\x00\x00\x00\x00\x00\x00'
+p3197
+tp3198
+Rp3199
+sVproblems
+p3200
+g1838
+(g1842
+S'\xe8\x00\x00\x00\x00\x00\x00\x00'
+p3201
+tp3202
+Rp3203
+sVinserted
+p3204
+g1838
+(g1842
+S'\x96\x00\x00\x00\x00\x00\x00\x00'
+p3205
+tp3206
+Rp3207
+sVfreedthe
+p3208
+g1838
+(g1842
+S'u\x00\x00\x00\x00\x00\x00\x00'
+p3209
+tp3210
+Rp3211
+sVnight
+p3212
+g1838
+(g1842
+S'\xc1\x00\x00\x00\x00\x00\x00\x00'
+p3213
+tp3214
+Rp3215
+sVdon
+p3216
+g1838
+(g1842
+S'S\x00\x00\x00\x00\x00\x00\x00'
+p3217
+tp3218
+Rp3219
+sVprevalent
+p3220
+g1838
+(g1842
+S'\xe4\x00\x00\x00\x00\x00\x00\x00'
+p3221
+tp3222
+Rp3223
+sVbrackets
+p3224
+g1838
+(g1842
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p3225
+tp3226
+Rp3227
+sVmetal
+p3228
+g1838
+(g1842
+S'\xb5\x00\x00\x00\x00\x00\x00\x00'
+p3229
+tp3230
+Rp3231
+sVfitted
+p3232
+g1838
+(g1842
+S'r\x00\x00\x00\x00\x00\x00\x00'
+p3233
+tp3234
+Rp3235
+sVlatchstring
+p3236
+g1838
+(g1842
+S'\xa6\x00\x00\x00\x00\x00\x00\x00'
+p3237
+tp3238
+Rp3239
+sVtime
+p3240
+g1838
+(g1842
+S'/\x01\x00\x00\x00\x00\x00\x00'
+p3241
+tp3242
+Rp3243
+sVfasten
+p3244
+g1838
+(g1842
+S'k\x00\x00\x00\x00\x00\x00\x00'
+p3245
+tp3246
+Rp3247
+sVdot
+p3248
+g1838
+(g1842
+S'V\x00\x00\x00\x00\x00\x00\x00'
+p3249
+tp3250
+Rp3251
+ssS'binary'
+p3252
+I00
+sS'ngram_range'
+p3253
 (I1
-(I319
-tp2293
-g956
-(S'f8'
-p2294
+I1
+tp3254
+sg1812
+g1813
+sS'max_df'
+p3255
+F1.0
+sS'min_df'
+p3256
+I1
+sS'max_features'
+p3257
+NsS'fixed_vocabulary_'
+p3258
+I00
+sS'strip_accents'
+p3259
+NsS'dtype'
+p3260
+cnumpy
+int64
+p3261
+sS'stop_words_'
+p3262
+c__builtin__
+set
+p3263
+((lp3264
+tp3265
+Rp3266
+sS'preprocessor'
+p3267
+Nsbtp3268
+a(S'tfidf'
+p3269
+g1806
+(csklearn.feature_extraction.text
+TfidfTransformer
+p3270
+g1808
+Ntp3271
+Rp3272
+(dp3273
+S'smooth_idf'
+p3274
+I01
+sg1812
+g1813
+sS'_idf_diag'
+p3275
+g1806
+(cscipy.sparse.csr
+csr_matrix
+p3276
+g1808
+Ntp3277
+Rp3278
+(dp3279
+S'indices'
+p3280
+cnumpy.core.multiarray
+_reconstruct
+p3281
+(cnumpy
+ndarray
+p3282
+(I0
+tp3283
+S'b'
+p3284
+tp3285
+Rp3286
+(I1
+(I352
+tp3287
+g1839
+(S'i4'
+p3288
 I0
 I1
-tp2295
-Rp2296
+tp3289
+Rp3290
 (I3
 S'<'
-p2297
+p3291
 NNNI-1
 I-1
 I0
-tp2298
+tp3292
 bI00
-S'\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xd9\xb4&\\\xe3\xa3\x11@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@S\xc2@\xcdQ\xb0\x14@m\xca\x0e\xb9]\xed\x16@C\xbd\r\x9d|\xe1\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@^\xae\xf2\x9a\x15C\x13@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xe8\xd0Bz+N\x15@&\x18"\xda\xf3\x13\x18@d\xd7v;\xf9\xae\x13@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xe8\xd0Bz+N\x15@^\xae\xf2\x9a\x15C\x13@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@\xb2\xb3\xcc%\xa4\x01\x0e@m\xca\x0e\xb9]\xed\x16@\xab\x11\xee\x18&\xb3\x19@m\xca\x0e\xb9]\xed\x16@\xe8\xd0Bz+N\x15@\xab\x11\xee\x18&\xb3\x19@T\xf8Oo\x9f\xdb\x04@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x05v.=\xb4\x1b\x10@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@2\xd9E[\xf1\xbd\x08@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@m\xca\x0e\xb9]\xed\x16@\xab\x11\xee\x18&\xb3\x19@\xf1;P\xf9\xcca\x11@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@C\xbd\r\x9d|\xe1\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@/\x83/Y\x95\'\x14@\xab\x11\xee\x18&\xb3\x19@\xd9\xb4&\\\xe3\xa3\x11@\x14\xea_\x03\xb4\x0e\x0c@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@ g\x13;M}\x10@\xab\x11\xee\x18&\xb3\x19@\xe8\xd0Bz+N\x15@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x9e$\xad\xf9\x9a1\x0f@\xab\x11\xee\x18&\xb3\x19@m\xca\x0e\xb9]\xed\x16@\x05v.=\xb4\x1b\x10@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@/\x83/Y\x95\'\x14@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@^\xae\xf2\x9a\x15C\x13@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@C\xbd\r\x9d|\xe1\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@S\xc2@\xcdQ\xb0\x14@\xab\x11\xee\x18&\xb3\x19@\x04\x97\xaa\x06H\xe1\x0e@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xc0\x924cl6\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@f\xe9\xe12\t8\r@d\xd7v;\xf9\xae\x13@\xab\x11\xee\x18&\xb3\x19@\xe8\xd0Bz+N\x15@S\xc2@\xcdQ\xb0\x14@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@C\xbd\r\x9d|\xe1\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@^\xae\xf2\x9a\x15C\x13@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\x9c\xf5\xd1\xfa\xdd\x08\x16@\x14\xea_\x03\xb4\x0e\x0c@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@S\xc2@\xcdQ\xb0\x14@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@^\xae\xf2\x9a\x15C\x13@\xfb\xa3\x12\x89\xe3\xa2\x0b@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@/\x83/Y\x95\'\x14@6\xdb\x8e\xf85\xbc\r@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@,\x19\xd0\x97\xb8#\x11@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\x15{am\x89\xea\x11@&\x18"\xda\xf3\x13\x18@\x9c\x03\xb7\xf4\x95\xe2\xfb?&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@S\xc2@\xcdQ\xb0\x14@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xd9\xb4&\\\xe3\xa3\x11@\x05v.=\xb4\x1b\x10@\xab\x11\xee\x18&\xb3\x19@m\xca\x0e\xb9]\xed\x16@\xe8\xd0Bz+N\x15@m\xca\x0e\xb9]\xed\x16@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x14\xea_\x03\xb4\x0e\x0c@,\x19\xd0\x97\xb8#\x11@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xe8\xd0Bz+N\x15@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xcf\x91p\xf7\xd0F\x0c@\x90\x81\x95.WK\x10@2\xd9E[\xf1\xbd\x08@\xab\x11\xee\x18&\xb3\x19@\x04\x97\xaa\x06H\xe1\x0e@&\x18"\xda\xf3\x13\x18@\xaa\x89c\x1ac\x88\x12@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xde\xbeC#/\xa6\x00@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xc0\x924cl6\x12@\xab\x11\xee\x18&\xb3\x19@\x9c\xf5\xd1\xfa\xdd\x08\x16@\xab\x11\xee\x18&\xb3\x19@f\xe9\xe12\t8\r@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@S\xc2@\xcdQ\xb0\x14@&\x18"\xda\xf3\x13\x18@S\xc2@\xcdQ\xb0\x14@\x98[\xa1C#\x83\x06@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xfb\xa3\x12\x89\xe3\xa2\x0b@\xab\x11\xee\x18&\xb3\x19@m\xca\x0e\xb9]\xed\x16@m\xca\x0e\xb9]\xed\x16@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\x04\x97\xaa\x06H\xe1\x0e@/\x83/Y\x95\'\x14@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@\xa5tl\x9d\x1d\x0b\x0b@m\xca\x0e\xb9]\xed\x16@\xab\x11\xee\x18&\xb3\x19@&\x18"\xda\xf3\x13\x18@&\x18"\xda\xf3\x13\x18@\xab\x11\xee\x18&\xb3\x19@\x9f2K\x022\x99\x04@\x9c\xf5\xd1\xfa\xdd\x08\x16@\x9c\xf5\xd1\xfa\xdd\x08\x16@'
-p2299
-tp2300
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00\xbc\x00\x00\x00\xbd\x00\x00\x00\xbe\x00\x00\x00\xbf\x00\x00\x00\xc0\x00\x00\x00\xc1\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x00\xc4\x00\x00\x00\xc5\x00\x00\x00\xc6\x00\x00\x00\xc7\x00\x00\x00\xc8\x00\x00\x00\xc9\x00\x00\x00\xca\x00\x00\x00\xcb\x00\x00\x00\xcc\x00\x00\x00\xcd\x00\x00\x00\xce\x00\x00\x00\xcf\x00\x00\x00\xd0\x00\x00\x00\xd1\x00\x00\x00\xd2\x00\x00\x00\xd3\x00\x00\x00\xd4\x00\x00\x00\xd5\x00\x00\x00\xd6\x00\x00\x00\xd7\x00\x00\x00\xd8\x00\x00\x00\xd9\x00\x00\x00\xda\x00\x00\x00\xdb\x00\x00\x00\xdc\x00\x00\x00\xdd\x00\x00\x00\xde\x00\x00\x00\xdf\x00\x00\x00\xe0\x00\x00\x00\xe1\x00\x00\x00\xe2\x00\x00\x00\xe3\x00\x00\x00\xe4\x00\x00\x00\xe5\x00\x00\x00\xe6\x00\x00\x00\xe7\x00\x00\x00\xe8\x00\x00\x00\xe9\x00\x00\x00\xea\x00\x00\x00\xeb\x00\x00\x00\xec\x00\x00\x00\xed\x00\x00\x00\xee\x00\x00\x00\xef\x00\x00\x00\xf0\x00\x00\x00\xf1\x00\x00\x00\xf2\x00\x00\x00\xf3\x00\x00\x00\xf4\x00\x00\x00\xf5\x00\x00\x00\xf6\x00\x00\x00\xf7\x00\x00\x00\xf8\x00\x00\x00\xf9\x00\x00\x00\xfa\x00\x00\x00\xfb\x00\x00\x00\xfc\x00\x00\x00\xfd\x00\x00\x00\xfe\x00\x00\x00\xff\x00\x00\x00\x00\x01\x00\x00\x01\x01\x00\x00\x02\x01\x00\x00\x03\x01\x00\x00\x04\x01\x00\x00\x05\x01\x00\x00\x06\x01\x00\x00\x07\x01\x00\x00\x08\x01\x00\x00\t\x01\x00\x00\n\x01\x00\x00\x0b\x01\x00\x00\x0c\x01\x00\x00\r\x01\x00\x00\x0e\x01\x00\x00\x0f\x01\x00\x00\x10\x01\x00\x00\x11\x01\x00\x00\x12\x01\x00\x00\x13\x01\x00\x00\x14\x01\x00\x00\x15\x01\x00\x00\x16\x01\x00\x00\x17\x01\x00\x00\x18\x01\x00\x00\x19\x01\x00\x00\x1a\x01\x00\x00\x1b\x01\x00\x00\x1c\x01\x00\x00\x1d\x01\x00\x00\x1e\x01\x00\x00\x1f\x01\x00\x00 \x01\x00\x00!\x01\x00\x00"\x01\x00\x00#\x01\x00\x00$\x01\x00\x00%\x01\x00\x00&\x01\x00\x00\'\x01\x00\x00(\x01\x00\x00)\x01\x00\x00*\x01\x00\x00+\x01\x00\x00,\x01\x00\x00-\x01\x00\x00.\x01\x00\x00/\x01\x00\x000\x01\x00\x001\x01\x00\x002\x01\x00\x003\x01\x00\x004\x01\x00\x005\x01\x00\x006\x01\x00\x007\x01\x00\x008\x01\x00\x009\x01\x00\x00:\x01\x00\x00;\x01\x00\x00<\x01\x00\x00=\x01\x00\x00>\x01\x00\x00?\x01\x00\x00@\x01\x00\x00A\x01\x00\x00B\x01\x00\x00C\x01\x00\x00D\x01\x00\x00E\x01\x00\x00F\x01\x00\x00G\x01\x00\x00H\x01\x00\x00I\x01\x00\x00J\x01\x00\x00K\x01\x00\x00L\x01\x00\x00M\x01\x00\x00N\x01\x00\x00O\x01\x00\x00P\x01\x00\x00Q\x01\x00\x00R\x01\x00\x00S\x01\x00\x00T\x01\x00\x00U\x01\x00\x00V\x01\x00\x00W\x01\x00\x00X\x01\x00\x00Y\x01\x00\x00Z\x01\x00\x00[\x01\x00\x00\\\x01\x00\x00]\x01\x00\x00^\x01\x00\x00_\x01\x00\x00'
+p3293
+tp3294
+bsS'indptr'
+p3295
+g3281
+(g3282
+(I0
+tp3296
+g3284
+tp3297
+Rp3298
+(I1
+(I353
+tp3299
+g3290
+I00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00\xbc\x00\x00\x00\xbd\x00\x00\x00\xbe\x00\x00\x00\xbf\x00\x00\x00\xc0\x00\x00\x00\xc1\x00\x00\x00\xc2\x00\x00\x00\xc3\x00\x00\x00\xc4\x00\x00\x00\xc5\x00\x00\x00\xc6\x00\x00\x00\xc7\x00\x00\x00\xc8\x00\x00\x00\xc9\x00\x00\x00\xca\x00\x00\x00\xcb\x00\x00\x00\xcc\x00\x00\x00\xcd\x00\x00\x00\xce\x00\x00\x00\xcf\x00\x00\x00\xd0\x00\x00\x00\xd1\x00\x00\x00\xd2\x00\x00\x00\xd3\x00\x00\x00\xd4\x00\x00\x00\xd5\x00\x00\x00\xd6\x00\x00\x00\xd7\x00\x00\x00\xd8\x00\x00\x00\xd9\x00\x00\x00\xda\x00\x00\x00\xdb\x00\x00\x00\xdc\x00\x00\x00\xdd\x00\x00\x00\xde\x00\x00\x00\xdf\x00\x00\x00\xe0\x00\x00\x00\xe1\x00\x00\x00\xe2\x00\x00\x00\xe3\x00\x00\x00\xe4\x00\x00\x00\xe5\x00\x00\x00\xe6\x00\x00\x00\xe7\x00\x00\x00\xe8\x00\x00\x00\xe9\x00\x00\x00\xea\x00\x00\x00\xeb\x00\x00\x00\xec\x00\x00\x00\xed\x00\x00\x00\xee\x00\x00\x00\xef\x00\x00\x00\xf0\x00\x00\x00\xf1\x00\x00\x00\xf2\x00\x00\x00\xf3\x00\x00\x00\xf4\x00\x00\x00\xf5\x00\x00\x00\xf6\x00\x00\x00\xf7\x00\x00\x00\xf8\x00\x00\x00\xf9\x00\x00\x00\xfa\x00\x00\x00\xfb\x00\x00\x00\xfc\x00\x00\x00\xfd\x00\x00\x00\xfe\x00\x00\x00\xff\x00\x00\x00\x00\x01\x00\x00\x01\x01\x00\x00\x02\x01\x00\x00\x03\x01\x00\x00\x04\x01\x00\x00\x05\x01\x00\x00\x06\x01\x00\x00\x07\x01\x00\x00\x08\x01\x00\x00\t\x01\x00\x00\n\x01\x00\x00\x0b\x01\x00\x00\x0c\x01\x00\x00\r\x01\x00\x00\x0e\x01\x00\x00\x0f\x01\x00\x00\x10\x01\x00\x00\x11\x01\x00\x00\x12\x01\x00\x00\x13\x01\x00\x00\x14\x01\x00\x00\x15\x01\x00\x00\x16\x01\x00\x00\x17\x01\x00\x00\x18\x01\x00\x00\x19\x01\x00\x00\x1a\x01\x00\x00\x1b\x01\x00\x00\x1c\x01\x00\x00\x1d\x01\x00\x00\x1e\x01\x00\x00\x1f\x01\x00\x00 \x01\x00\x00!\x01\x00\x00"\x01\x00\x00#\x01\x00\x00$\x01\x00\x00%\x01\x00\x00&\x01\x00\x00\'\x01\x00\x00(\x01\x00\x00)\x01\x00\x00*\x01\x00\x00+\x01\x00\x00,\x01\x00\x00-\x01\x00\x00.\x01\x00\x00/\x01\x00\x000\x01\x00\x001\x01\x00\x002\x01\x00\x003\x01\x00\x004\x01\x00\x005\x01\x00\x006\x01\x00\x007\x01\x00\x008\x01\x00\x009\x01\x00\x00:\x01\x00\x00;\x01\x00\x00<\x01\x00\x00=\x01\x00\x00>\x01\x00\x00?\x01\x00\x00@\x01\x00\x00A\x01\x00\x00B\x01\x00\x00C\x01\x00\x00D\x01\x00\x00E\x01\x00\x00F\x01\x00\x00G\x01\x00\x00H\x01\x00\x00I\x01\x00\x00J\x01\x00\x00K\x01\x00\x00L\x01\x00\x00M\x01\x00\x00N\x01\x00\x00O\x01\x00\x00P\x01\x00\x00Q\x01\x00\x00R\x01\x00\x00S\x01\x00\x00T\x01\x00\x00U\x01\x00\x00V\x01\x00\x00W\x01\x00\x00X\x01\x00\x00Y\x01\x00\x00Z\x01\x00\x00[\x01\x00\x00\\\x01\x00\x00]\x01\x00\x00^\x01\x00\x00_\x01\x00\x00`\x01\x00\x00'
+p3300
+tp3301
+bsS'maxprint'
+p3302
+I50
+sS'_shape'
+p3303
+(I352
+I352
+tp3304
+sg12
+g3281
+(g3282
+(I0
+tp3305
+g3284
+tp3306
+Rp3307
+(I1
+(I352
+tp3308
+g1839
+(S'f8'
+p3309
+I0
+I1
+tp3310
+Rp3311
+(I3
+S'<'
+p3312
+NNNI-1
+I-1
+I0
+tp3313
+bI00
+S'\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@8\xe5\x00.\x0c\\\x14@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xb1\xf2\x1a\x9fzh\x17@\xcb\xfa\xe8\x8a\x86\xa5\x19@\xa1\xed\xe7n\xa5\x99\x15@\tB\xc8\xeaNk\x1c@\xff\xc6\xa5n\'\x02\x12@\tB\xc8\xeaNk\x1c@\xbc\xde\xccl>\xfb\x15@\tB\xc8\xeaNk\x1c@B\xcb\xba\xe0\xc4\xdd\x0c@\tB\xc8\xeaNk\x1c@D\x9d\xe8\x04\xdf&\t@\tB\xc8\xeaNk\x1c@\x12%Kk-T\x11@s\xab;?\xb2\xa2\x14@\x85H\xfc\xab\x1c\xcc\x1a@\xc2\x07Q\r"g\x16@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@G\x01\x1dLT\x06\x18@\xbc\xde\xccl>\xfb\x15@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@\xcb\xfa\xe8\x8a\x86\xa5\x19@G\x01\x1dLT\x06\x18@\tB\xc8\xeaNk\x1c@\xc8\x98S\x93\xd7\xf3\t@\x12Y\x04\x13\xf1K\n@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@<\xca@\xcd>\xd2\x07@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xcbr^\x8c\xc3z\x12@d\xa6\x08\x0f\xdd\xd3\x12@\tB\xc8\xeaNk\x1c@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xef9\xfa\xfeB.\x0e@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xde\xac<\xd0\xaa4\x11@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\xa1\xed\xe7n\xa5\x99\x15@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x94\xd5\xa7\x1b\x01\xa0\x06@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@B\xcb\xba\xe0\xc4\xdd\x0c@\x8d\xb3\t+\xbe\xdf\x16@\tB\xc8\xeaNk\x1c@8\xe5\x00.\x0c\\\x14@h%\x8a\xd3\x82\xbf\x10@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xe9e;|\x89&\x08@\tB\xc8\xeaNk\x1c@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@ch\xe4\x1d\xcb\x8a\t@\xff\xc6\xa5n\'\x02\x12@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@G\x01\x1dLT\x06\x18@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@d\xa6\x08\x0f\xdd\xd3\x12@\xae\xc2\xb0N\xf6P\x12@\tB\xc8\xeaNk\x1c@\xcb\xfa\xe8\x8a\x86\xa5\x19@7\xb8\x1c\xe7\xbb?\x0f@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@^T\xd6\xef\x10\xd5\x05@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x8d\xb3\t+\xbe\xdf\x16@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@#\xd0\xbe\xd7\x1f\xc1\x0f@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\xe4\xd5,-\x06\x9f\x0e@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@O\xaf\xbeKX\xa6\x12@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xb1\xf2\x1a\x9fzh\x17@\tB\xc8\xeaNk\x1c@\xe0{/\xd5\xcc(\x12@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\x1f\xc3\x0e5\x95\xee\x14@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x12%Kk-T\x11@\xc2\x07Q\r"g\x16@\tB\xc8\xeaNk\x1c@G\x01\x1dLT\x06\x18@\xb1\xf2\x1a\x9fzh\x17@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xa1\xed\xe7n\xa5\x99\x15@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@Pl*\xcb\xf5\x19\x14@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@8\x8a\xc0\xe4\xfa\xb8\x11@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\xfa%\xac\xcc\x06\xc1\x18@\x17\xae\xb6\x86\x11\xa2\x0b@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\xb1\xf2\x1a\x9fzh\x17@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@G\x01\x1dLT\x06\x18@\tB\xc8\xeaNk\x1c@\xbc\xde\xccl>\xfb\x15@\\\x82c\x96\x9a\x89\x10@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x80\x90\x07]\xd5\x89\x02@\xfa\x9d!\xceC\x96\x11@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x8aI\xaai\xe1\xdb\x13@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@s\xab;?\xb2\xa2\x14@\x85H\xfc\xab\x1c\xcc\x1a@\xa6\x1d\xfbO\xcc\xed\x01@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xb1\xf2\x1a\x9fzh\x17@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@Pl*\xcb\xf5\x19\x14@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xbc\xde\xccl>\xfb\x15@\xfa%\xac\xcc\x06\xc1\x18@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@8\xe5\x00.\x0c\\\x14@d\xa6\x08\x0f\xdd\xd3\x12@\tB\xc8\xeaNk\x1c@\xcb\xfa\xe8\x8a\x86\xa5\x19@G\x01\x1dLT\x06\x18@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@h%\x8a\xd3\x82\xbf\x10@\x8aI\xaai\xe1\xdb\x13@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@G\x01\x1dLT\x06\x18@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@Fy\x92M\x91\xdb\x10@\xee\xb1o\x00\x80\x03\x13@\xef9\xfa\xfeB.\x0e@\tB\xc8\xeaNk\x1c@\xe0{/\xd5\xcc(\x12@\x85H\xfc\xab\x1c\xcc\x1a@\t\xba=\xec\x8b@\x15@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@8\x8a\xc0\xe4\xfa\xb8\x11@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@":\x81\xd9\xd4R\x04@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xe4\xd5,-\x06\x9f\x0e@\xfa%\xac\xcc\x06\xc1\x18@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@x\xad\x84\xdc\xf6\xa0\r@\tB\xc8\xeaNk\x1c@\xfa%\xac\xcc\x06\xc1\x18@8\x8a\xc0\xe4\xfa\xb8\x11@\xb0j\x90\xa0\xb7=\x10@\tB\xc8\xeaNk\x1c@\xbb\xe4i\x12\xd4\xe2\x07@\xfa\x9d!\xceC\x96\x11@8\x8a\xc0\xe4\xfa\xb8\x11@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@\tB\xc8\xeaNk\x1c@\xb1\xf2\x1a\x9fzh\x17@\x85H\xfc\xab\x1c\xcc\x1a@\xb1\xf2\x1a\x9fzh\x17@U\xbcU\xe7t\xf3\x0b@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\\\x82c\x96\x9a\x89\x10@\tB\xc8\xeaNk\x1c@\xcb\xfa\xe8\x8a\x86\xa5\x19@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\xe0{/\xd5\xcc(\x12@\x8d\xb3\t+\xbe\xdf\x16@\xb1\xf2\x1a\x9fzh\x17@\tB\xc8\xeaNk\x1c@8\x8a\xc0\xe4\xfa\xb8\x11@8\x8a\xc0\xe4\xfa\xb8\x11@\tB\xc8\xeaNk\x1c@<v\x08m\xa4\x87\x0b@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\xb0j\x90\xa0\xb7=\x10@\xcb\xfa\xe8\x8a\x86\xa5\x19@\tB\xc8\xeaNk\x1c@\x85H\xfc\xab\x1c\xcc\x1a@\x85H\xfc\xab\x1c\xcc\x1a@\tB\xc8\xeaNk\x1c@\\\x93\xff\xa5\x83\t\n@\xb1\xf2\x1a\x9fzh\x17@\xfa%\xac\xcc\x06\xc1\x18@\xfa%\xac\xcc\x06\xc1\x18@'
+p3314
+tp3315
 bsbsS'use_idf'
-p2301
+p3316
 I01
 sS'sublinear_tf'
-p2302
+p3317
 I00
 sS'norm'
-p2303
+p3318
 Vl2
-p2304
-sbtp2305
+p3319
+sbtp3320
 a(S'clsfr'
-p2306
-g923
+p3321
+g1806
 (csklearn.linear_model.stochastic_gradient
 SGDClassifier
-p2307
-g925
-Ntp2308
-Rp2309
-(dp2310
+p3322
+g1808
+Ntp3323
+Rp3324
+(dp3325
 S't_'
-p2311
-F2266.0
+p3326
+F4476.0
 sS'n_jobs'
-p2312
+p3327
 I1
 sS'shuffle'
-p2313
+p3328
 I01
 sS'verbose'
-p2314
+p3329
 I0
 sS'classes_'
-p2315
-g2266
-(g2267
+p3330
+g3281
+(g3282
 (I0
-tp2316
-g2269
-tp2317
-Rp2318
+tp3331
+g3284
+tp3332
+Rp3333
 (I1
 (I2
-tp2319
-g956
+tp3334
+g1839
 (S'S5'
-p2320
+p3335
 I0
 I1
-tp2321
-Rp2322
+tp3336
+Rp3337
 (I3
 S'|'
-p2323
+p3338
 NNNI5
 I1
 I0
-tp2324
+tp3339
 bI00
 S'FalseTrue\x00'
-p2325
-tp2326
+p3340
+tp3341
 bsS'class_weight'
-p2327
+p3342
 NsS'fit_intercept'
-p2328
+p3343
 I01
 sg8
 g9
 sS'random_state'
-p2329
+p3344
 I42
-sg929
-g930
+sg1812
+g1813
 sS'loss_function'
-p2330
+p3345
 csklearn.linear_model.sgd_fast
 Hinge
-p2331
+p3346
 (F1.0
-tp2332
-Rp2333
+tp3347
+Rp3348
 sS'C'
-p2334
+p3349
 F1.0
 sg7
 I5
 sS'epsilon'
-p2335
+p3350
 F0.1
 sS'learning_rate'
-p2336
+p3351
 S'optimal'
-p2337
+p3352
 sS'coef_'
-p2338
-g2266
-(g2267
+p3353
+g3281
+(g3282
 (I0
-tp2339
-g2269
-tp2340
-Rp2341
+tp3354
+g3284
+tp3355
+Rp3356
 (I1
 (I1
-I319
-tp2342
-g2296
+I352
+tp3357
+g3311
 I00
-S'?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe4\x0fC\xae\xba\xaa\xb6\xbfJ\xef\xba?\xf6H\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00N\x03\xe9\xee\xd7=\xde\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd3R$\xa2\x035\xc0\xbf\xf7H\xd2\xd9\xc7\xed\xd4\xbf\x06\x05sA\xf5\x12\xd2\xbf\xd8-\xd9\x1c\x82\xca\xda\xbf4\n\xe8\x9f]\xb0\xd4\xbf@``3xf\xc5\xbf\xfad\x8e\x9e\xe9\xb1\xe3\xbf@``3xf\xc5\xbf=\xc4\xceQti\xbc\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf.\x14\xf5@Z\xcd\xd3\xbf\x00\x00\x00\x00\x00\x00\x00\x00#~\x92}*Y\xd3\xbfJ\xef\xba?\xf6H\xc9\xbfi\x0e\xffD#\x0e\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xaa\xdb\x1cP!\xe6\xef?\xdf\x1a\xd0PfX\xfc?8\xe3\x8aS\'\x04\xfa?\xd3R$\xa2\x035\xc0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x86`\xc8\x9bE\n\xd5\xbf1\xa78\xa8\xe0\xa5\xd1\xbf\x00\x00\x00\x00\x00\x00\x00\x003\x8a\xe5\xd2\x9a\xc2\xcb\xbf\x898\x9a\x99g\x14\xd5\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf<P\x8f=\xdbG\xca\xbf\xf7~W\xb2{\xf6\xd7\xbf\x1d\x9a!;\xba5\xda\xbf\xc02-! \xaf\xbf\xbf\x00\x00\x00\x00\x00\x00\x00\x00i\x0e\xffD#\x0e\xb5\xbf\x8e\xd7\x95\x88c\xdf\xc2\xbf\xbe\x05\xbd\xdccn\xc5\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\x8e\xd7\x95\x88c\xdf\xc2\xbf4~\'A\x0cT\xca\xbfi\x0e\xffD#\x0e\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbe\xbd\ti~\x88\xd2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x9f\xfe\xb1\x00\xd3\xeb\xf7\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbfi\x0e\xffD#\x0e\xb5\xbfi\x0e\xffD#\x0e\xb5\xbf\xe5\xf7+\x81\xff\x88\xc2\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb7\xd8skPu\xdb\xbfAsp,\xa67\xc8\xbf\xcd\xa3\xa2P\x01c\xde\xbf=\xc4\xceQti\xbc\xbf|\x97\x93o\xc7{\xc7\xbf)\xe0U\xae0/\xe5?\xe8\xd4\x02\xb7\x85\xc4\xcd\xbf\xf7\x9f\xc6\xb5\xa8w\xd1\xbfx>v\x02~>\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00J\xef\xba?\xf6H\xc9\xbf@``3xf\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb8\xb5E^ir\xd8\xbf\xbf\xbd\ti~\x88\xd2\xbf\xb3qR\xe0Yb\xd2\xbf\xd3R$\xa2\x035\xc0\xbf\xda\x11\xa2P\xf6\xc4\xd8\xbf\x99ML\x80\xe2&\xba?=\xc4\xceQti\xbc\xbf\xc3\xbd\ti~\x88\xd2\xbf\xfb\xdb\r\xd6,F\xb7\xbfi\x0e\xffD#\x0e\xb5\xbf@``3xf\xc5\xbf\xf0o\xacs[^\xbe\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe8\xd4\x02\xb7\x85\xc4\xcd\xbf|#E\x86V\x1a\xd3\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\x1a:\xca\xaei3\xb4\xbf\x02g\r\r2\xce\xd5\xbf\xe8%\xb9\x86\xbd5\xd0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1c\xe8\xfa\x0b\x981\xb8\xbf\x12\x1ad\xa2\x07\xa8\xe7\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf4\n\xe8\x9f]\xb0\xd4\xbf\xd3R$\xa2\x035\xc0\xbf4\n\xe8\x9f]\xb0\xd4\xbf4\n\xe8\x9f]\xb0\xd4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfb\xdb\r\xd6,F\xb7\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf5J\xcc\x90\xa4\x87\xcd\xbf\x9f]%\x1a\xa6-\xdc\xbf\x00\x00\x00\x00\x00\x00\x00\x00,\xd0\x1d\xb7e\x88\xe0\xbfRFSiK&\xe4??\xca\xf7\xb9\xc0\x8f\xb5\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\x8b\xf7\xcbR\x0et\xe1\xbfi\x0e\xffD#\x0e\xb5\xbf\x03\x05sA\xf5\x12\xd2\xbfB*\xe1\x89\x18P\xe3\xbf|\x97\x93o\xc7{\xc7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00J\xef\xba?\xf6H\xc9\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf}%K\xd8*\x0c\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe5\xf7+\x81\xff\x88\xc2\xbf\xfb\xdb\r\xd6,F\xc7\xbf"\x9ds\xf8/\xfb\xd2\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\xa9\xe9C\xa8\xad\xa1\xeb?\x00\x00\x00\x00\x00\x00\x00\x005J\xcc\x90\xa4\x87\xcd\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\x7fo!k^\xd2\xc1\xbf\xe5\xf7+\x81\xff\x88\xc2\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x1d\xe4\x01\xec\xce`\xc1\xbf\xc3\xa8r\xb3\x8f&\xe5\xbf\x92A\xa5Y\xe5\xa5\xe5?i\x0e\xffD#\x0e\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00v\xfa\xc6\x9d\xd3H\xd3\xbf\xfb\xdb\r\xd6,F\xb7\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\xbe\xbd\ti~\x88\xd2\xbfi\x0e\xffD#\x0e\xb5\xbfsd\x8c\xbdk\xc7\xfe?\xe8%\xb9\x86\xbd5\xd0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb37\xafTR3\xe4\xbf\x96\xe0^\xc3\x95\xfe\xc4\xbf\xf9\xb2\x88\x001\xdd\xc0\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00w)u\xfbf\xb0\xc6\xbf>\x9cH\xd0t\xab\xd4\xbf\x00\x00\x00\x00\x00\x00\x00\x00?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbf\xbd\ti~\x88\xd2\xbf\x1c\x10\x03o\x11\xc3\xee\xbfO0\xc8\xc5\x90\xa1\xe0\xbf\x00\x00\x00\x00\x00\x00\x00\x00"\xa6\x97\x0bI#\xff?eW7\xce\x1cw\xf0?\x00\x00\x00\x00\x00\x00\x00\x00=\xc4\xceQti\xbc\xbf\xf8\x0fk\xe6\xc5\xc2\xe4?\x00\x00\x00\x00\x00\x00\x00\x00\xbe\x05\xbd\xdccn\xc5\xbf\xf5\xdf\xa05Z~\xc7\xbfw)u\xfbf\xb0\xc6\xbf\xbe\x05\xbd\xdccn\xc5\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\xe5\xf7+\x81\xff\x88\xc2\xbf\x85\x7f\xc6\x19\x8f\xd8\xfa?\x7fp\xcd2\x828\x03@\x89\xd9Z\x0c\x1a,\xe0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb8\xb5E^ir\xd8\xbf\xb8\xc1\xd0O\xba~\xd6\xbf\x1f\x9ds\xf8/\xfb\xd2\xbf\x91A\xa5Y\xe5\xa5\xf5?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x95\x1c\xbaX~\xa0\xe4\xbf\xdd+\x1b\x05Wk\xf1\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\t\xb1\x85e\xfb\x9f\xd4\xbf\x1c\xe8\xfa\x0b\x981\xc8\xbfcJ\x11\xa1\x9cm\xdb\xbf\xd8\xf0\xce\xe3\xb9^\xe3\xbf\xca\t\xc0"q\x9e\xba\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\xc5\xea\xd7\x94\xd2\xec\xd2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb8\xb5E^ir\xd8\xbf\xa1\xc1Y+\x82.\xd6\xbf=\xc4\xceQti\xbc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xfb\xdb\r\xd6,F\xb7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xfa}\x13\x03\xae4\xe1\xbf&\xc4g\xc6\xb7_\xce\xbfi\x0e\xffD#\x0e\xb5\xbf&\xc4g\xc6\xb7_\xce\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x95f\xa5\xce*\xce\xb5\xbf\xfb\xdb\r\xd6,F\xb7\xbf"\x9a!;\xba5\xda\xbf\xf7\x10\xfb\xac\xe31\x04@\x16_\xb3\xcb\xcc\x0c\xd0\xbf\xb0\xb9\xfb\x8bE\xfb\xd0\xbfL\x99\\\x8d\xb3\xbe\xdf\xbfj\xf0\xfbT\xbc\x10\xe2\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf$\x03\xba\xec\x07\x9c\xd5\xbfi\x0e\xffD#\x0e\xb5\xbf|\x97\x93o\xc7{\xc7\xbf\x1d\xe4\x01\xec\xce`\xc1\xbf{\x95x\xf2\xe31\xed\xbf\xe8%\xb9\x86\xbd5\xd0\xbf\xa2A;\xd4\x91\xaa\xcb\xbf\x7fo!k^\xd2\xc1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00x>v\x02~>\xc6\xbf@``3xf\xc5\xbf\xc2\xd7ry\x93\xfa\xf7?7U7\xd9\x1dR\xd2?i\x0e\xffD#\x0e\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1c\xe8\xfa\x0b\x981\xb8\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf\xbe\x05\xbd\xdccn\xc5\xbf\x1d\xe4\x01\xec\xce`\xc1\xbf4\n\xe8\x9f]\xb0\xd4\xbf\x836\xab\x10$g\xe5\xbfB*\xe1\x89\x18P\xe3\xbf\x06\xd3\x8e\xf0A\xdd\xba\xbf87\xf1i\xc0\xfd\xe4\xbf\xfe\xb0A\x9aY\xfc\xc9\xbft\xf1\x82<\x9a8\xea?\x1c\xe8\xfa\x0b\x981\xb8\xbf|\x97\x93o\xc7{\xc7\xbf\xc9\x16\x98\xf4l\xab\xde\xbfS\xd6\xd8k\x19;\xe1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xc25y\xa7\rH\xc0\xbf\xd3R$\xa2\x035\xc0\xbf\x1e\x9a!;\xba5\xda\xbf\xfb\xdb\r\xd6,F\xb7\xbf\xfe\x02K\xaf\xa6\xe4\xe1?i\x0e\xffD#\x0e\xb5\xbf\xb6(\x82O\x12\xee\xf1\xbf\xfd\x00/\xd23,\x01@\xfd$GZ\x07*\xe2\xbf\xbe\x05\xbd\xdccn\xc5\xbfNt\xed\xa5e\xbe\xe0\xbf\xa7:\xd98F\x97\xcd\xbf=\xc7\x03\xe9\xe2J\xd2\xbfi\x0e\xffD#\x0e\xb5\xbf\xe8%\xb9\x86\xbd5\xd0\xbfaZ\xbc@\xed.\xd2\xbf\x96\xe0^\xc3\x95\xfe\xc4\xbfy\xa0\xd0\x8f?+\xb9\xbf\xc3\xbd\ti~\x88\xd2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00j\xf0\xfbT\xbc\x10\xe2\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf\xca\t\xc0"q\x9e\xba\xbf\xeb\xcc\x939\xdf\xda\xf1?=\xc4\xceQti\xbc\xbfi\x0e\xffD#\x0e\xb5\xbf\x96\xe0^\xc3\x95\xfe\xc4\xbf\xd16\xc8J\xa7P\xcc\xbf\x1a:\xca\xaei3\xb4\xbf\xd3R$\xa2\x035\xc0\xbf@``3xf\xc5\xbf\x10(\xc6\n\xf3a\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00:\xfd\xf3\xff\x83\x80\xd2\xbf\xd3R$\xa2\x035\xc0\xbf>|\xfbU\x99%\xe4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x06\xd3\x8e\xf0A\xdd\xba\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x8e\xd7\x95\x88c\xdf\xc2\xbf?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x8e\xd7\x95\x88c\xdf\xc2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xa8k\xb6\x1f[\x15\xf9?za\x15Zy.\xf3?\x03AnQa\x0b\xf7?\t\tt\xd5\\&\xea?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00?\xca\xf7\xb9\xc0\x8f\xb5\xbf\x00\x00\x00\x00\x00\x00\x00\x00V\x195\x88\xee\\\n@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00p\x81\x91\xe1\xb7\xd9\xc7\xbf4\n\xe8\x9f]\xb0\xd4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8e\n[\x1c\xa3\xf4\x00@\xdb\xfb\x01\x13}I\xe4\xbf\x1d\xe4\x01\xec\xce`\xc1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfb\xdb\r\xd6,F\xb7\xbfi\x0e\xffD#\x0e\xb5\xbf\x1a:\xca\xaei3\xb4\xbf\xfb\xfb\xc2\x0b\x00\xf0\xf2\xbf\x17@\r4>\xcc\xd4\xbf\xe8%\xb9\x86\xbd5\xd0\xbf\xc4\xa9\x9e\x82\xa2D\xcc\xbf$\x9ds\xf8/\xfb\xd2\xbf\x1c\xe8\xfa\x0b\x981\xb8\xbf\x0c\xa0n\xfe\xc0\xb5\xd4\xbf\x8ci.Q\xd8`\xe4\xbf\x95/jC\xbeT\xe7?'
-p2343
-tp2344
+S'\x94\x1d\x8bn\xad;\xa7\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbf\x00\x00\x00\x00\x00\x00\x00\x00E\x98\xeb\x83B\x0b\xa8\xbf\x0b\x145\xf4\xc8\xbc\xba\xbf\xbdm\x93\xfb\x91I\xaf\xbf\x9a\x99(\x88Na\xd7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xfb&\xad9`\xb7\xb1\xbfq6\xe6\x9a\xa2\xab\xc5\xbf\xfb\xa8\xe9AKE\xd7\xbf\x1f\x0b0\x9bad\xd6\xbf\x9f:\x14\\\x02\x91\xc5\xbf\x80#>\x8a\x01P\xcf\xbf0\xdfXo~w\xc6\xbf\x9a\xc36\xc5\xcc&\xd3\xbf0\xdfXo~w\xc6\xbf\x03\x9e\xbf|\x05\xaa\xcf\xbf\x00\x00\x00\x00\x00\x00\x00\x00PS\xa0\xa3\x86\xb8\xd2\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbfh\xe2rE\x8b\x82\xc3\xbf\xeb\xf2\x1fO.2\xbe\xbfJ?\xfbU\xa6\xa0\xa7\xbfF\xf1HS&\x93\xd4\xbf\x0b\x145\xf4\xc8\xbc\xba\xbfc\x9aJ\xdfF\x95\xa7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xc5!\xf9m\x93\xba\xef?.#r\xf5"\x94\xf6?J\xce\x16B\xcaP\xea?\xfb&\xad9`\xb7\xb1\xbf\x85e\xbab\xad\xd7\xc2\xbf\x18\xa0\xdfT7)\xd6\xbfTJ\xa6\xd8X\xe2\xcf\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb4\x00\xba;\xf5\xc4\xce\xbf\x9d\\\xb0S\xe7t\xc6\xbf\xe7\x82\x918\x8c\x99\xac\xbfB<\x91e\x15\xe6\xc5\xbf\xb2Cj\xae\xec)\xd7\xbfg\xa1\xff\xd5\x1c\x84\xdb\xbfOs<0\xc0r\xb9\xbfl\xbe\\ \x81\xfc\xaa?\x00\x00\x00\x00\x00\x00\x00\x00c\x9aJ\xdfF\x95\xa7\xbf\xed*-\x94r~\xb4\xbf\xc9\t\x9aC`o\xc6\xbf\x0fG\xfd\xad:\x80\xd4\xbf\xe7\x82\x918\x8c\x99\xac\xbf\xed*-\x94r~\xb4\xbffc\xe0\x95\x04\x12\xe4\xbf\x9f\xe2^05\x19\xc0\xbfc\x9aJ\xdfF\x95\xa7\xbf9d\xf6S$\x8e\xc1\xbf`\xa1\xbe\x97\xf0t\xd3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x85\x98\x1a\xec\x80v\xf3\xbf\x94\x1d\x8bn\xad;\xa7\xbfc\x9aJ\xdfF\x95\xa7\xbfc\x9aJ\xdfF\x95\xa7\xbf\xba\x01\x81N\xf2Z\xb3\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\xc0-\xe6\xbd\xdc\xf3\xd5\xbf\x00\x00\x00\x00\x00\x00\x00\x002y\xa65\xf5h\xcc\xbf-\xe8\xdeN\xf26\xd2\xbf\x00\x00\x00\x00\x00\x00\x00\x00K\xa9\xc1Pn.\xb8\xbf3y\x91y\xc7\x91\xc8\xbf\x97\x1f\xfd\xceAP\xe8?/\xad\xaeI\xfd\x8d\xbe\xbf\x00\x00\x00\x00\x00\x00\x00\x00~\xaaz\xb7\x03j\xb8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x145\xf4\xc8\xbc\xba\xbf0\xdfXo~w\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd8~\xdb\x08$\x81\xcb\xbfS?S\x7f\xf2\x19\xcb\xbfd\xa1\xbe\x97\xf0t\xd3\xbf\x19\xd4\xfe\xb6\x88\x05\xc2\xbf\xaf\xc3YD\xfe%\xcb\xbf\xfb&\xad9`\xb7\xb1\xbf\n\xafH1\xbe\x0b\xca\xbf\xd5\xc3]\x16\xb3\xe7\xd9?\x00\x00\x00\x00\x00\x00\x00\x00`\xa1\xbe\x97\xf0t\xd3\xbf"fp\x89lp\xa8\xbfc\x9aJ\xdfF\x95\xa7\xbf0\xdfXo~w\xc6\xbf\xb1,\xc3\xa2\x8b\xb4\xb0\xbf\x00\x00\x00\x00\x00\x00\x00\x00/\xad\xaeI\xfd\x8d\xbe\xbfB\x12mQ\xc0\xa2\xc4\xbf\xe7\x82\x918\x8c\x99\xac\xbfTR\xc2\xebr\xc4\xb6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe1q\x1bJ\xdc<\xc9\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\x17\xeffT\xc7}\xca\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbfq0P\xfeoW\xd8\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x9f:\x14\\\x02\x91\xc5\xbf\xfb&\xad9`\xb7\xb1\xbf\x9f:\x14\\\x02\x91\xc5\xbf\x9f:\x14\\\x02\x91\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbdm\x93\xfb\x91I\xaf\xbf"fp\x89lp\xa8\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbf\xf4c\xf82\xc9~\xce\xbf\xfa\xa3\xfe\xdb\xaa\xb2\xd1\xbf\x80#>\x8a\x01P\xcf\xbf\x00\x00\x00\x00\x00\x00\x00\x00E\xd3\xb8u_\x1e\xbe\xbf&\xec\xe4\xda`;\xdf\xbf\xb5\x8b\xa18cn\xe4?\x94\x1d\x8bn\xad;\xa7\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x13\x9d\xe3\x05^\x9d\xd0\xbf\x01r[\xf3\x0f\xe8\xd8\xbfc\x9aJ\xdfF\x95\xa7\xbf\x91\x8d$\xfb\xa7\x8d\xd3\xbf\xafr\x93+\xe0\xb8\xd3\xbf3y\x91y\xc7\x91\xc8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b\x145\xf4\xc8\xbc\xba\xbf\x94\x1d\x8bn\xad;\xa7\xbf\x91\x0c\xd73g\x15\xd3\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\xba\x01\x81N\xf2Z\xb3\xbf"fp\x89lp\xb8\xbf\x10\xc4\x9f\xd0\x01\xe1\xc3\xbf\xe7\x82\x918\x8c\x99\xac\xbf\xb3\xe7O0\x19\x8c\xed?\xbdm\x93\xfb\x91I\xaf\xbf\xf4c\xf82\xc9~\xce\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x08\xa4S\x93\t(\xc2\xbf\xba\x01\x81N\xf2Z\xb3\xbf\x94\x1d\x8bn\xad;\xa7\xbf$r\x93\x8d\xb7\t\xb3\xbf\x14\x92\xe6\xea\xa1/\xd5\xbf\x98\xe7\x82\x92h3\xe6?c\x9aJ\xdfF\x95\xa7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x0f\xe4;\x18\rB\xd1\xbf"fp\x89lp\xa8\xbf\xec\x00N\x0b\xfc\x10\xf0\xbf`\xa1\xbe\x97\xf0t\xd3\xbfc\x9aJ\xdfF\x95\xa7\xbf}\x8e\xf3\xfb\x8cm\xf4?\xe1q\x1bJ\xdc<\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00E\x84\xee\x05\xf1\xf3\xd6\xbf ;#a\x82\xb4\xc5\xbf\xd8\x0e\xa9`\xe5\xbd\xa5\xbf\x94\x1d\x8bn\xad;\xa7\xbf\x00\x00\x00\x00\x00\x00\x00\x00J?\xfbU\xa6\xa0\xb7\xbf\xd8\xea\xc0\xa5\x99\x15\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x94\x1d\x8bn\xad;\xa7\xbf\x00\x00\x00\x00\x00\x00\x00\x00d\xa1\xbe\x97\xf0t\xd3\xbfI\x13E+\xa5\xe3\xe3\xbf\xc9\xea\xc9\xfb\xda\xfc\xd7\xbf\x00\x00\x00\x00\x00\x00\x00\x00:\x83\x15\xee\x9b`\xfc?\xfa\x8b\xf0=H\x08\xf4?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x08\xb5\xc9:\x8c\xa3\xec?:i\xf8\xd2\xbb\x0e\xa9\xbf\xc9\t\x9aC`o\xc6\xbfeQ.\xdf\x19\x7f\xcc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xc9\t\x9aC`o\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x94\x1d\x8bn\xad;\xa7\xbf\xba\x01\x81N\xf2Z\xb3\xbf\x96\xef\xf7\x11\xf8?\xf9?\xa5\xfa\xe26\xack\x01@\x1b\xa5\x08\r\xed\xdd\xce\xbf\x00\x00\x00\x00\x00\x00\x00\x00S?S\x7f\xf2\x19\xcb\xbfF\xa1\xff\xd5\x1c\x84\xcb\xbf \xc4\x9f\xd0\x01\xe1\xc3\xbf{\xa1#\xb7B\xc0\xeb?\x00\x00\x00\x00\x00\x00\x00\x00 Z\x8dcy\xae\xbe\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\x9by\xf5_\x11H\xdc\xbf}\xb5;.\x9b\x08\xf3\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x12\x81\xca\xd9Hl\xc5\xbfi\xe9\x9f\xd0\xcb\x7f\xb9\xbf\xd3>\x85\xad\xb2\xed\xd0\xbf\x08\x08B\x8aO\xb3\xd6\xbfx\x97g_x\x80\xbd\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbdm\x93\xfb\x91I\xaf\xbfS?S\x7f\xf2\x19\xcb\xbf\xa8\x07>\x9f\x04\xf0\xd6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbdm\x93\xfb\x91I\xaf\xbf"fp\x89lp\xa8\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\xba[\t\r\x13\x9d\xd3\xbf\x8a\xf9\xb2\xe6$\xcc\xc7\xbfc\x9aJ\xdfF\x95\xa7\xbf\x8a\xf9\xb2\xe6$\xcc\xc7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xf5\x94\xed\xe8_\x0b\xa7\xbf"fp\x89lp\xa8\xbf\x93k\xb1\x1a\x15\xbc\xd1\xbf\x17\xd8u\x90b\xcd\xf9?\xef4b\x9cP\x06\xbe\xbf{\xd3\x1f\xa9N\xa3\xc2\xbfv\x08\xd5\xdb\xc2\x9b\xd1\xbf<u\x82\x98\xfa\xdc\xd2\xbf\x94\x1d\x8bn\xad;\xa7\xbf\xfb2\x86\xff\xbc\x03\xd6\xbfc\x9aJ\xdfF\x95\xa7\xbf3y\x91y\xc7\x91\xc8\xbf$r\x93\x8d\xb7\t\xb3\xbf\xf5\xdc\x8b\xf4\x02\x98\xdf\xbf\xe1q\x1bJ\xdc<\xc9\xbf\xdfb<6B\xc1\xcc\xbf\x08\xa4S\x93\t(\xc2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00~\xaaz\xb7\x03j\xb8\xbf0\xdfXo~w\xc6\xbf\xc3\xf7\xe1\xe8K\xab\xf6?\x98\x82\xc4\x99\x84\xc0\xd2?c\x9aJ\xdfF\x95\xa7\xbf_M\x06i\xe8\n\xdc\xbf\xbdm\x93\xfb\x91I\xaf\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbf\xe7\x82\x918\x8c\x99\xac\xbf\xc9\t\x9aC`o\xc6\xbf\x94D\xb11\x9d\n\xcf\xbfL\xc1\xdb\xe1\xe6\x9c\xbf\xbf$r\x93\x8d\xb7\t\xb3\xbf\x9f:\x14\\\x02\x91\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00-\x13\xf6 G\xa7\xd7\xbf\xd4\x81\x90\xb7\xbf$\xd7\xbf\xe7\x82\x918\x8c\x99\xac\xbf\xb4\xcf=.\xd6\xc7\xd5\xbf\xde\xb9\x9e^\x9b\x00\xbe\xbf\xd5q\x05\xb4){\xea?i\xe9\x9f\xd0\xcb\x7f\xa9\xbf3y\x91y\xc7\x91\xc8\xbf-1^\x0e\xd5\xeb\xe4\xbf+\xf8\x18\x89\xc6^\xe3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1b\xd5\xa2\xe4\x93\xf3\xb1\xbf\xfb&\xad9`\xb7\xb1\xbf_\xa1\xff\xd5\x1c\x84\xdb\xbf"fp\x89lp\xa8\xbfQ1\x97\x04\x1ei\xdb?c\x9aJ\xdfF\x95\xa7\xbfKv`t\xa5\xbe\xe6\xbf@\xce\x0b,\xc9X\xff?w\xacV\r&\xa8\xc5\xbf\xc9\t\x9aC`o\xc6\xbf{K\xb4\xcaX\xb5\xd5\xbf\x1b\xd5\xa2\xe4\x93\xf3\xb1\xbf2\xf6F\x0e\xb9J\xd9\xbfc\x9aJ\xdfF\x95\xa7\xbf\xe1q\x1bJ\xdc<\xc9\xbf\x8e\xfa$,\x17\xcb\xd2\xbf ;#a\x82\xb4\xc5\xbf:\x81\x01b.L\xb9\xbf\xd4u3T\xd3`\xc1\xbf`\xa1\xbe\x97\xf0t\xd3\xbf\x00\x00\x00\x00\x00\x00\x00\x00:i\xf8\xd2\xbb\x0e\xa9\xbf<u\x82\x98\xfa\xdc\xd2\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbfJ?\xfbU\xa6\xa0\xa7\xbf\x82\xb8\x16\x8f\xd4p\xeb?\x00\x00\x00\x00\x00\x00\x00\x00c\x9aJ\xdfF\x95\xa7\xbf ;#a\x82\xb4\xc5\xbf\xad\xf7;4ng\xb6\xbf\xa8A\x82\x8bEb\xbf\xbf_e\x89\x81?\xe8\xa5\xbf\xfb&\xad9`\xb7\xb1\xbf0\xdfXo~w\xc6\xbf\xe6\xca\x13\xc6\xa0\xbe\xbe\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbf\xef\xe1\x0b\xf3\\\xcd\xbf\x00\x00\x00\x00\x00\x00\x00\x00RV\xa4\x97\x0e\xa8\xe9\xbf\xfb&\xad9`\xb7\xb1\xbf{\x97\x93E\xe00\xd5\xbf\x1c\xe0\xc4SrE\xbf\xbfH|\xbc\xd6\x83.\xc2\xbf\xe7\x82\x918\x8c\x99\xac\xbf\x94\x1d\x8bn\xad;\xa7\xbf\xed*-\x94r~\xb4\xbf\x94\x1d\x8bn\xad;\xa7\xbf\xed*-\x94r~\xb4\xbf\xd5\x03\xd4\x04\xf9\xee\xb9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb9\xaa\xd9V\xc0\xae\xf2?\x03\xa1\xd0\xd9\xbf]\xe3?\x0e\\,\xeaT\x06\xf5?\xa5\xd2vS\x01G\xf5?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x94\x1d\x8bn\xad;\xa7\xbf:i\xf8\xd2\xbb\x0e\xa9\xbf\x1e0:J\xd3N\x08@\x00\x00\x00\x00\x00\x00\x00\x00\xf9cB\xb8\xe8\x9c\xa6\xbf\x13\xeb\xbdw\n\xa1\xba\xbf\x9f:\x14\\\x02\x91\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbdm\x93\xfb\x91I\xaf\xbfu\xe8-\x15\xdb\x1d\xff?\xf14i\xea\xb8Y\xd5\xbf\xce\x83W\xa8\xb1\xbd\xc1\xbf$r\x93\x8d\xb7\t\xb3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x004\xc1\x0ct\xd8O\xde\xbf\xb4\xb7\xea\xf0\xbeF\xe8\xbf"fp\x89lp\xa8\xbfc\x9aJ\xdfF\x95\xa7\xbf_e\x89\x81?\xe8\xa5\xbf$\x84\x1b\xa5\x83\xa5\xea\xbf[\xd2\xdc\xe8\x92\xd5\xcd\xbf\xe1q\x1bJ\xdc<\xc9\xbf\xb3"k\xdc\xdb\xc5\xbd\xbf\x03\xc4\x9f\xd0\x01\xe1\xc3\xbfi\xe9\x9f\xd0\xcb\x7f\xa9\xbf\xeb\x13T\xeb;.\xaf\xbf\xce\x83W\xa8\xb1\xbd\xc1\xbf\xc3\xd6&\x13\x10\xb6\xe7\xbf\xa5\x89\x04\xba\x05$\xe4?'
+p3358
+tp3359
 bsg11
 F0.001
 sS'intercept_'
-p2345
-g2266
-(g2267
+p3360
+g3281
+(g3282
 (I0
-tp2346
-g2269
-tp2347
-Rp2348
+tp3361
+g3284
+tp3362
+Rp3363
 (I1
 (I1
-tp2349
-g2296
+tp3364
+g3311
 I00
-S'\x8c\xa3\xdb\xe0:e\xe5\xbf'
-p2350
-tp2351
+S'a8\x8fP\xf7$\xe8\xbf'
+p3365
+tp3366
 bsS'_expanded_class_weight'
-p2352
-g2266
-(g2267
+p3367
+g3281
+(g3282
 (I0
-tp2353
-g2269
-tp2354
-Rp2355
+tp3368
+g3284
+tp3369
+Rp3370
 (I1
 (I2
-tp2356
-g2296
+tp3371
+g3311
 I00
 S'\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?'
-p2357
-tp2358
+p3372
+tp3373
 bsS'warm_start'
-p2359
+p3374
 I00
 sg2
 g3
 sS'eta0'
-p2360
+p3375
 F0.0
 sS'l1_ratio'
-p2361
+p3376
 F0.15
 sS'average'
-p2362
+p3377
 I00
 sS'power_t'
-p2363
+p3378
 F0.5
-sbtp2364
+sbtp3379
 asbsb.
