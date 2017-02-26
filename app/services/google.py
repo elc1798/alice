@@ -1,5 +1,5 @@
 from __future__ import print_function
-import httplib2, os
+import httplib2, os, sys
 
 from apiclient import discovery
 from oauth2client import client
@@ -9,6 +9,8 @@ from oauth2client.file import Storage
 import datetime
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
+import commands as COMMANDS
 
 SCOPES = 'https://www.googleapis.com/auth/'
 CLIENT_SECRET_FILE = os.path.join(CURRENT_DIR, '../../API_KEYS/google_creds.json')
@@ -37,7 +39,7 @@ def get_credentials(scope_detail):
         credential_path = os.path.join(credential_dir, 'calendar-python-quickstart.json')
     if scope_detail == "mail":
         credential_path = os.path.join(credential_dir, 'gmail-python-quickstart.json')
-    
+
     store = Storage(credential_path)
     credentials = store.get()
     if not credentials or credentials.invalid:
@@ -150,6 +152,8 @@ def ListMail(s):
 
     if not messages:
         print("No mail found.")
+    elif len(messages) > 0:
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % ("You have unread messages in your inbox!",))
     for message in messages:
         message_id = message.get("id")
         message_content = service.users().messages().get(userId='me',
@@ -163,12 +167,10 @@ def ListMail(s):
             if headers.get("name") == "From":
                 message_from = headers.get("value")
             if headers.get("name") == "Subject":
-                message_subject = str(headers.get("value"))
+                message_subject = headers.get("value")
         if len(message_subject) > 70:
             print("%-30s%-85s%-50s" % ("Time: " + message_time_str, " Subject: " + message_subject[:70], " From: " + message_from))
             print("%-30s%-85s" % ("", "          " + message_subject[70:]))
         else:
             print("%-30s%-85s%-50s" % ("Time: " + message_time_str, " Subject: " + message_subject, " From: " + message_from))
 
-#if __name__ == '__main__':
-#    main()

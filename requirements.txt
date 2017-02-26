@@ -1,10 +1,11 @@
 google-api-python-client
 matplotlib
 numpy
-oauth2client
+oauth2client==1.4.12
 pandas
 scipy
 sklearn
 spacy
 fbchat
 httplib2
+python-gflags
