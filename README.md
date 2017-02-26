@@ -26,6 +26,7 @@ It can:
  - Checking the time
  - Google service integration for Gmail (checking inbox) and Calendar (checking
    events)
+ - Being able to create Google Calendar events
  - Checking the weather
  - Checking the news
 
@@ -38,7 +39,6 @@ The planned features are:
  - Run system commands that you tell it to
  - Setting alarms
  - Launching Google maps and getting directions on the fly
- - Being able to create Google Calendar events
  - Able to send emails
  - Changing your screen brightness
  - Really anything else that I feel like adding...
