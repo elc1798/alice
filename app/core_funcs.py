@@ -149,7 +149,6 @@ class DummyActuator:
 class SpotifyController:
 
     def __init__(self, spotify_ordinal_scale_model):
-        print("init")
         self.model = spotify_ordinal_scale_model
 
     def perform_action(self, sentence):
