@@ -35,7 +35,6 @@ please dont tell me the latest events,False
 how long can this data set get,False
 at this point i am writting random stuff ,False
 that should not call the function get news,False
-
 don't get news,False
 don't get the news,False
 don't get current news,False
@@ -46,7 +45,6 @@ don't get live newsfeed,False
 don't get news feed,False
 don't get live news feed,False
 don't get headlines,False
-
 don't find news,False
 don't find the news,False
 don't find current news,False
@@ -57,7 +55,6 @@ don't find live newsfeed,False
 don't find news feed,False
 don't find live news feed,False
 don't find headlines,False
-
 don't tell me news,False
 don't tell me the news,False
 don't tell me current news,False
@@ -68,7 +65,6 @@ don't tell me live newsfeed,False
 don't tell me news feed,False
 don't tell me live news feed,False
 don't tell me headlines,False
-
 what isn't news,False
 what isn't the news,False
 what isn't current news,False
@@ -79,7 +75,6 @@ what isn't live newsfeed,False
 what isn't news feed,False
 what isn't live news feed,False
 what isn't headlines,False
-
 what's not the news,False
 what's not the the news,False
 what's not the current news,False
@@ -90,7 +85,6 @@ what's not the live newsfeed,False
 what's not the news feed,False
 what's not the live news feed,False
 what's not the headlines,False
-
 what aren't the news,False
 what aren't the the news,False
 what aren't the current news,False
@@ -101,7 +95,6 @@ what aren't the live newsfeed,False
 what aren't the news feed,False
 what aren't the live news feed,False
 what aren't the headlines,False
-
 what're not the news,False
 what're not the the news,False
 what're not the current news,False
@@ -112,7 +105,6 @@ what're not the live newsfeed,False
 what're not the news feed,False
 what're not the live news feed,False
 what're not the headlines,False
-
 what's not in news,False
 what's not in the news,False
 what's not in current news,False
@@ -123,7 +115,6 @@ what's not in live newsfeed,False
 what's not in news feed,False
 what's not in live news feed,False
 what's not in headlines,False
-
 not today's news,False
 not today's current news ,False
 not today's current events,False
@@ -133,7 +124,6 @@ not today's live newsfeed,False
 not today's news feed,False
 not today's live news feed,False
 not today's headlines,False
-
 not news,False
 not the news,False
 not current news,False
@@ -144,7 +134,6 @@ not live newsfeed,False
 not news feed,False
 not live news feed,False
 not headlines,False
-
 don't gather the latest headlines please,False
 don't give me intel on current events,False
 don't give me intel,False
@@ -186,19 +175,14 @@ what isn't going on in the world today,False
 what aren't the current events today,False
 what isn't the news today,False
 what aren't the latest events,False
-what events are going on right now,False
+what events are going on right now,True
 what isn't in the news today,False
-
 not intel,False
 not intelligence report,False
 don't debrief me,False
 not briefing,False
 don't brief me,False
 real not fake news,False
-
-
-
-
 get news,True,True
 get the news,True
 get current news,True
@@ -208,8 +192,7 @@ get newsfeed,True
 get live newsfeed,True
 get news feed,True
 get live news feed,True
-get headlines,True 
-
+get headlines,True
 find news,True
 find the news,True
 find current news,True
@@ -219,8 +202,7 @@ find newsfeed,True
 find live newsfeed,True
 find news feed,True
 find live news feed,True
-find headlines,True 
-
+find headlines,True
 tell me news,True
 tell me the news,True
 tell me current news,True
@@ -230,19 +212,16 @@ tell me newsfeed,True
 tell me live newsfeed,True
 tell me news feed,True
 tell me live news feed,True
-tell me headlines,True 
-
-what is news,True
+tell me headlines,True
 what is the news,True
 what is current news,True
 what is current events,True
 what is live news,True
-what is newsfeed,True
+what is in the newsfeed,True
 what is live newsfeed,True
-what is news feed,True
+what is in the news feed,True
 what is live news feed,True
-what is headlines,True 
-
+what is headlines,True
 what's the news,True
 what's the the news,True
 what's the current news,True
@@ -252,8 +231,7 @@ what's the newsfeed,True
 what's the live newsfeed,True
 what's the news feed,True
 what's the live news feed,True
-what's the headlines,True 
-
+what's the headlines,True
 what are the news,True
 what are the the news,True
 what are the current news,True
@@ -263,8 +241,7 @@ what are the newsfeed,True
 what are the live newsfeed,True
 what are the news feed,True
 what are the live news feed,True
-what are the headlines,True 
-
+what are the headlines,True
 what're the news,True
 what're the the news,True
 what're the current news,True
@@ -274,8 +251,7 @@ what're the newsfeed,True
 what're the live newsfeed,True
 what're the news feed,True
 what're the live news feed,True
-what're the headlines,True 
-
+what're the headlines,True
 what's in news,True
 what's in the news,True
 what's in current news,True
@@ -285,8 +261,7 @@ what's in newsfeed,True
 what's in live newsfeed,True
 what's in news feed,True
 what's in live news feed,True
-what's in headlines,True 
-
+what's in headlines,True
 today's news,True
 today's current news
 today's current events,True
@@ -295,19 +270,17 @@ today's newsfeed,True
 today's live newsfeed,True
 today's news feed,True
 today's live news feed,True
-today's headlines,True 
-
-news today,True 
-the news today,True 
-current news today,True 
-current events today,True 
-live news today,True 
-newsfeed today,True 
-live newsfeed today,True 
-news feed today,True 
-live news feed today,True 
+today's headlines,True
+news today,True
+the news today,True
+current news today,True
+current events today,True
+live news today,True
+newsfeed today,True
+live newsfeed today,True
+news feed today,True
+live news feed today,True
 headlines today,True 
-
 news,True
 the news,True
 current news,True
@@ -317,55 +290,36 @@ newsfeed,True
 live newsfeed,True
 news feed,True
 live news feed,True
-headlines,True 
-
-gather the latest headlines please,True 
-give me intel on current events,True
-give me intel,True 
-give me the news,True
+headlines,True
+gather the latest headlines please,True
 get the current events,True
-gather information on,True 
-will you get the current headlines,True 
-get the information,True 
+gather information on,True
+will you get the current headlines,True
+get the information,True
 get the current events,True
 will you get the current events,True
-will you get the headlines,True 
-can you get the latest headlines,True 
+will you get the headlines,True
+can you get the latest headlines,True
 can you get the current events,True
 can you get information on the current events,True
-will you get the new for ,True 
-will you get the current events for me,True 
+will you get the new for ,True
+will you get the current events for me,True
 please give me the news,True
 please give me current events,True
 please get the current events,True
 please get the news,True
 please find out the latest headlines,True 
 find the current events,True
-current events,True
-get me the news todays,True 
-get news now,True 
-gimme the news,True
-news now please,True 
-current events please,True 
-todays headlines,True 
-gather information on todays current events please,True 
-whats going on in the world todays please,True 
-give me the news please,True 
-give me the current events please,True 
-please give me the current events please,True 
-please tell me whats going on in the news please,True 
+gather information on todays current events please,True
+whats going on in the world todays please,True
+give me the news please,True
+give me the current events please,True
+please give me the current events please,True
+please tell me whats going on in the news please,True
 give me the current events,True
-get the the latest headlines,True 
-what is going on in the world today,True 
-what are the current events today,True 
-what is the news today,True 
-what are the latest events,True 
+get the the latest headlines,True
+what is going on in the world today,True
+what are the current events today,True
+what is the news today,True
 what events are going on right now,True 
-what is in the news today,True 
-
-intel,True 
-intelligence report,True 
-debrief me,True 
-briefing,True 
-brief me,True 
-fake news,True
+what is in the news today,True

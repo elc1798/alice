@@ -9,3 +9,4 @@ spacy
 fbchat
 httplib2
 python-gflags
+pyowm
