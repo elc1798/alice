@@ -75,6 +75,8 @@ def ShowEvents(s):
 
     if not events:
         print('No upcoming events found.')
+    else:
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % ("You have upcoming events today!",))
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
