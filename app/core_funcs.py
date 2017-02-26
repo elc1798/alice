@@ -1,7 +1,7 @@
 import os, sys
 import urllib
 import commands as COMMANDS
-import datetime
+from datetime import datetime
 from services import google as goog
 import subprocess
 
@@ -97,9 +97,6 @@ class CommandActuator:
         else :
             curr_time += "P.M."
 
-        os.system(COMMANDS.SAY % (curr_time,))
-
-        curr_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:
