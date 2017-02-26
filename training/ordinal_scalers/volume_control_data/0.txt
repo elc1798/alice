@@ -14,4 +14,9 @@ make the volume zero
 set the volume zero
 turn the volume to zero
 set the volume to zero
+turn it off
+turn it down
+please turn it off
+please turn it down
+
 

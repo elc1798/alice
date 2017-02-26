@@ -5,13 +5,25 @@ SAY = "spd-say -w -t child_female -p +50 \"%s\""
 OPEN_FILE_BROWSER = "nautilus ~ &"
 VOLUME_CONTROL = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
 OPEN_WEB_BROWSER = "sensible-browser \"%s\" 2>&1 /dev/null &"
-SPOTIFY_PLAY = "osascript -e 'tell application \"Spotify\" to play'"
-SPOTIFY_PAUSE = "osascript -e 'tell application \"Spotify\" to pause'"
-SPOTIFY_NEXT_SONG = "osascript -e 'tell application \"Spotify\" to next track'"
-SPOTIFY_LAST_SONG = """
-            osascript -e '
-            tell application "Spotify"
-                set player position to 0
-                previous track
-            end tell';
-            """
+SPOTIFY_PLAY = None
+SPOTIFY_PAUSE = None
+SPOTIFY_NEXT_SONG = None
+SPOTIFY_LAST_SONG = None
+
+import sys
+print(sys.platform)
+if sys.platform == "darwin":
+    print("hi")
+    SPOTIFY_PLAY = "osascript -e 'tell application \"Spotify\" to play'"
+    SPOTIFY_PAUSE = "osascript -e 'tell application \"Spotify\" to pause'"
+    SPOTIFY_NEXT_SONG = "osascript -e 'tell application \"Spotify\" to next track'"
+    SPOTIFY_LAST_SONG = """
+                osascript -e '
+                tell application "Spotify"
+                    set player position to 0
+                    previous track
+                end tell';
+                """
+    OPEN_WEB_BROWSER = "open \"%s\" 2>&1 /dev/null &"
+    SAY = "xsay -t child_female -p +50 -r -30 \"%s\""    
+
