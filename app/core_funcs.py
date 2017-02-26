@@ -68,13 +68,13 @@ class CommandActuator:
 
     def get_news(self, s):
         url = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=3ca58b6ade8f4fc69988ed4d497a5d79"
-        jstr = urllib2.urlopen(url).read()  
+        jstr = urllib2.urlopen(url).read()
         ts = json.loads( jstr )
         for i in range(10):
             headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
             headline = ''.join([i if ord(i) < 128 else ' ' for i in headline])
             print headline
-            os.system(COMMANDS.NEWS_SAY % headline)
+            os.system(COMMANDS.DISPLAY_NOTIFICATION % (headline,))
 
     def get_weather(self,s):
         f = urllib2.urlopen('http://freegeoip.net/json/')
@@ -137,17 +137,20 @@ class CommandActuator:
         goog.ListMail(s)
 
     def get_time(self, s):
+        hour = datetime.now().hour
+        minutes = datetime.now().minute
+        is_morning = hour < 12
+        hour = (hour % 12)
+        if hour == 0:
+            hour = 12
 
-        hour = (int(datetime.now().strftime('%H')) / 12)
-        minutes = datetime.now().strftime('%M')
-        is_morning = (hour % 12) == 0
-
-        curr_time = "" + hour + " " + minutes
-        if (is_morning) :
+        curr_time = "%d %d" % (hour, minutes)
+        if is_morning:
             curr_time += "A.M."
         else :
             curr_time += "P.M."
 
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (curr_time,))
         os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:
@@ -166,7 +169,6 @@ class DummyActuator:
 class SpotifyController:
 
     def __init__(self, spotify_ordinal_scale_model):
-        print("init")
         self.model = spotify_ordinal_scale_model
 
     def perform_action(self, sentence):
@@ -194,7 +196,7 @@ class VolumeController:
             return int(matches.group(1)[:-1])
         elif sys.platform.startswith("darwin"):
             s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
-            return int(s.split(", ")[0].split(":")[1])
+            return int(s.split(", ")[0].split(":")[1]) / 10
         else:
             return -1
 
@@ -215,7 +217,7 @@ class VolumeController:
             modifier = ""
             num = self.volume_before_mute
 
-        if sys.platform == "darwin":
+        if sys.platform == "darwin" and myid != 3:
             modifier = ""
             # Find the current volume and calculates a lower and higher volume
             num = self.get_current_volume()
