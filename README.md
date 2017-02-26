@@ -21,6 +21,7 @@ It can:
  - Open your web browser and URLs
  - Monitor incoming Facebook Messenger messages
  - Monitor CPU activity, memory usage, and temperatures
+ - Monitors outdated packages in Apt and Pip
 
 ### Please expand the list of features!
 
@@ -30,7 +31,6 @@ The planned features are:
  - Closing arbitrary windows that are open on your computer
  - Run system commands that you tell it to
  - Google service integration
- - Monitoring and updating outdated packages
  - Setting alarms
  - Checking the time
  - Checking the weather
