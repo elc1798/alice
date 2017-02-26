@@ -26,7 +26,7 @@ def get_credentials(scope_detail):
         Credentials, the obtained credential.
     """
     if scope_detail == "calendar":
-        FULL_SCOPE = "https://www.googleapis.com/auth/calendar.readonly"
+        FULL_SCOPE = "https://www.googleapis.com/auth/calendar"
     if scope_detail == "mail":
         #FULL_SCOPE = "https://www.googleapis.com/auth/mail.readonly"
         FULL_SCOPE = "https://mail.google.com/"
@@ -48,6 +48,16 @@ def get_credentials(scope_detail):
         credentials = tools.run(flow, store)
         print('Storing credentials to ' + credential_path)
     return credentials
+
+def AddEvent(s):
+    credentials = get_credentials("calendar")
+    http = credentials.authorize(httplib2.Http())
+    service = discovery.build("calendar", "v3", http=http)
+    eventsResult = service.events().quickAdd(calendarId='primary',
+            text=s).execute()
+
+    print('successfully created event on calendar: ')
+    ShowEvents("next month")
 
 def ShowEvents(s):
     time_max = GetTimeMax(s)
