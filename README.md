@@ -26,6 +26,8 @@ It can:
  - Checking the time
  - Google service integration for Gmail (checking inbox) and Calendar (checking
    events)
+ - Checking the weather
+ - Checking the news
 
 ### Please expand the list of features!
 
@@ -38,8 +40,6 @@ The planned features are:
  - Launching Google maps and getting directions on the fly
  - Being able to create Google Calendar events
  - Able to send emails
- - Checking the weather
- - Checking the news
  - Changing your screen brightness
  - Really anything else that I feel like adding...
 
