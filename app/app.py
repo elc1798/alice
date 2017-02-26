@@ -139,5 +139,7 @@ if __name__ == "__main__":
 
     if args.monitor:
         from services import system_monitor
+
+    from services import package_checker
     main()
 
