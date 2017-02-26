@@ -87,12 +87,12 @@ class CommandActuator:
 
     def get_time(self, s):
 
-        hour = (datetime.now().strftime('%H') / 12)
+        hour = (int(datetime.now().strftime('%H')) / 12)
         minutes = datetime.now().strftime('%M')
-        isMorning = (hour % 12) == 0
+        is_morning = (hour % 12) == 0
 
-        curr_time = hour + " " + minutes
-        if (isMorning) :
+        curr_time = "" + hour + " " + minutes
+        if (is_morning) :
             curr_time += "A.M."
         else :
             curr_time += "P.M."
