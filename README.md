@@ -13,8 +13,13 @@ Google Speech Recognition.
 
 ### What can it do so far?
 
-It can shut down your computer, lock your computer, close whatever window you
-have currently active, and change your volume.
+It can:
+ - Shut down your computer
+ - Lock your computer
+ - Close whatever window you have currently active
+ - Change your volume.
+ - Open your web browser and URLs
+ - Monitor incoming Facebook Messenger messages
 
 ### That's a pretty small list of features...
 
@@ -23,12 +28,15 @@ work on it with school and stuff. The planned features are:
 
  - Opening files
  - Closing arbitrary windows that are open on your computer
- - Opening URLs
  - Monitor CPU activity, memory usage, and temperatures
  - Run system commands that you tell it to
- - Facebook integration
  - Google service integration
  - Monitoring and updating outdated packages
+ - Setting alarms
+ - Checking the time
+ - Checking the weather
+ - Checking the news
+ - Changing your screen brightness
  - Really anything else that I feel like adding...
 
 ### Why is it named Alice?

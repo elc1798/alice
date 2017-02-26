@@ -105,7 +105,6 @@ def main():
     if use_voice:
         recognize = sr.Recognizer()
 
-    # import services.facebook
     query = ""
     while True:
         query = capture_voice(recognize) if use_voice else str(raw_input("alice > "))
@@ -116,6 +115,8 @@ if __name__ == "__main__":
     parser.add_argument("--use-voice", "-V", action="store_true")
     parser.add_argument("--talk", "-t", action="store_true")
     parser.add_argument("--test", "-T", action="store_true")
+    parser.add_argument("--facebook", "-f", action="store_true")
+    parser.add_argument("--monitor", "-m", action="store_true")
     parser.add_argument('--verbose', '-v', action='count')
     parser.add_argument('--version', action='version', version="%s %d.%d" %
             (APPLICATION_NAME, APPLICATION_RELEASE, APPLICATION_REVISION))
@@ -133,5 +134,10 @@ if __name__ == "__main__":
                     volume_controller=volume_controller
                 )
 
+    if args.facebook:
+        from services import facebook
+
+    if args.monitor:
+        from services import system_monitor
     main()
 
