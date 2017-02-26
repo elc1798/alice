@@ -34,3 +34,4 @@ if sys.platform == "darwin":
     VOLUME_GET = "osascript -e 'get volume settings'"
     DISPLAY_NOTIFICATION = "osascript -e 'display notification \"%s\" with title \"Alice - Digital Assistant\"'"
     NEWS_SAY = "echo \"%s\""
+    SHUTDOWN = "osascript -e 'tell app \"System Events\" to shut down'"
