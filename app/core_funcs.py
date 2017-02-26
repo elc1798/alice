@@ -176,7 +176,7 @@ class VolumeController:
             return int(matches.group(1)[:-1])
         elif sys.platform.startswith("darwin"):
             s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
-            return int(s.split(", ")[0].split(":")[1])
+            return int(s.split(", ")[0].split(":")[1]) / 10
         else:
             return -1
 
@@ -197,7 +197,7 @@ class VolumeController:
             modifier = ""
             num = self.volume_before_mute
 
-        if sys.platform == "darwin":
+        if sys.platform == "darwin" and myid != 3:
             modifier = ""
             # Find the current volume and calculates a lower and higher volume
             num = self.get_current_volume()
