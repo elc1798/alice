@@ -9,7 +9,7 @@ Because I got bored one day and started writing it.
 ### What technologies is this built on?
 
 Alice is written in Python, with the libraries Numpy, Scikit, Scikit-learn, and
-Google Speech Recognition.
+Google Speech Recognition (on Android).
 
 ### What can it do so far?
 
@@ -22,6 +22,7 @@ It can:
  - Monitor incoming Facebook Messenger messages
  - Monitor CPU activity, memory usage, and temperatures
  - Monitors outdated packages in Apt and Pip
+ - Checking the time
 
 ### Please expand the list of features!
 
@@ -32,7 +33,6 @@ The planned features are:
  - Run system commands that you tell it to
  - Google service integration
  - Setting alarms
- - Checking the time
  - Checking the weather
  - Checking the news
  - Changing your screen brightness
