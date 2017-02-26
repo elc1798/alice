@@ -60,6 +60,9 @@ them in a queue. Sorry, it's not my fault :(
 
 ### For development!
 
+To install dependencies, you'll want to `pip install -r requirements.txt` and
+run `setup.sh`.
+
 To create a new command and it's training library you have to do 4 major steps:
 
  - Create a folder in `training/` with the naming scheme `COMMAND_NAME_DATA`
@@ -73,4 +76,13 @@ To create a new command and it's training library you have to do 4 major steps:
 To create a new monitor or background process, create a new file in
 `app/services` and run a new thread in the global scope. To add it to alice,
 import it in the `main` function in `app/app.py`.
+
+### Licensing
+
+This project has been licensed with the MIT license due to its simplicity,
+simple language, and the fact that the point of the project was to provide a
+free alternative to the digital assistants that are available on the rest of the
+popular operating systems. Due to this project's open source nature, there
+should be no warranty or guarantees of some working product, as changes will be
+constantly made.
 
