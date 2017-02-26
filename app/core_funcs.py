@@ -83,6 +83,24 @@ class CommandActuator:
         os.system(COMMANDS.OPEN_WEB_BROWSER % (site,))
 
     def google_calendar_show_events(self, s):
+        s = s.split(' ')
+        date = 'today'
+
+        if 'on' in s:
+            index = s.index('on') + 1
+            s = s[index:]
+        elif 'for' in s:
+            index = s.index('for') + 1
+            s = s[index:]
+        elif 'in' in s:
+            index = s.index('in') + 1
+            s = s[index:]
+        elif 'to do' in s:
+            index = s.index('to do') + 1
+            s = s[index:]
+        else:
+            s = 'today'
+
         goog.ShowEvents(s)
 
     def get_time(self, s):
