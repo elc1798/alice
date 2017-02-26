@@ -11,9 +11,9 @@ SPOTIFY_PAUSE = None
 SPOTIFY_NEXT_SONG = None
 SPOTIFY_LAST_SONG = None
 
-import sys
+import sys, os, subprocess
+
 if sys.platform == "darwin":
-    print("hi")
     SPOTIFY_PLAY = "osascript -e 'tell application \"Spotify\" to play'"
     SPOTIFY_PAUSE = "osascript -e 'tell application \"Spotify\" to pause'"
     SPOTIFY_NEXT_SONG = "osascript -e 'tell application \"Spotify\" to next track'"
@@ -26,4 +26,8 @@ if sys.platform == "darwin":
                 """
     OPEN_WEB_BROWSER = "open \"%s\" 2>&1 /dev/null &"
     SAY = "xsay -t child_female -p +50 -r -30 \"%s\""
+    VOLUME_CHANGE = "osascript -e 'set volume  \"%s\"  '"
+    MUTE = "osascript -e 'set volume 0'"
+    # DISPLAY_NOTIFICATION = "notify-send --urgency=critical -t 2000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
+    # DISPLAY_NOTIFICATION = "osascript -e 'display notification \"Lorem ipsum dolor sit amet\" with title \"Title\"'""
 

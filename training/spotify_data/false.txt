@@ -19,4 +19,3 @@ the cards can have a bar code on them and computers can be used to store informa
 other hightech locks open with voice activation or palm or fingerprint recognition
 such locks offer relatively high security but are generally too expensive and elaborate for the ordinary citizen's home
 however the trend towards these kinds of electronic and computercontrolled locks is growing in the late 1990s and they will undoubtedly be more prevalent in the future
-

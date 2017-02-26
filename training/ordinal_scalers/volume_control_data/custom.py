@@ -3,3 +3,6 @@ def get_config():
         "loss" : "hinge",
         "penalty" : "l2"
     }
+
+
+#hing l1

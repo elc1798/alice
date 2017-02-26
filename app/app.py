@@ -90,6 +90,8 @@ def cross_check_models(sentence):
             log("Matched with %s" % (model.name,))
             if  model.name == "SPOTIFY.model":
                 spotify_controller.perform_action(sentence)
+            elif  model.name == "VOLUME_CONTROL.model":
+                volume_controller.perform_action(sentence)
             elif matched == None:
                 matched = alice.command_mapping[model.name]
             else:
