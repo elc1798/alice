@@ -4,3 +4,5 @@ scrap/
 *~
 API_KEYS
 */google_creds.json
+.idea/
+.DS_Store
