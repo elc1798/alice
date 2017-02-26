@@ -176,7 +176,7 @@ class VolumeController:
             s = subprocess.check_output(COMMANDS.VOLUME_GET.split(" ")).strip().split("\n")
             matches = __import__("re").search(r"\[([A-Za-z0-9_%]+)\]", s[-2])
             return int(matches.group(1)[:-1])
-        elif sys.playform.startwith("darwin"):
+        elif sys.platform.startswith("darwin"):
             s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
             return int(s.split(", ")[0].split(":")[1])
         else:

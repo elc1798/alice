@@ -32,4 +32,5 @@ if sys.platform == "darwin":
     LOCK = "pmset displaysleepnow"
     VOLUME_CONTROL = "osascript -e 'set volume  \"%d\"'%s"
     VOLUME_GET = "osascript -e 'get volume settings'"
+    DISPLAY_NOTIFICATION = "osascript -e 'display notification \"%s\" with title \"Alice - Digital Assistant\"'"
     NEWS_SAY = "echo \"%s\""
