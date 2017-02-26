@@ -2,4 +2,5 @@ scrap/
 *.pyc
 *.swp
 *~
-
+API_KEYS
+*/google_creds.json

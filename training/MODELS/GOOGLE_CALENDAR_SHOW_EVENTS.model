@@ -1,0 +1,5989 @@
+(ialicized_models
+CommandMatchingModel
+p0
+(dp1
+S'loss'
+p2
+S'squared_hinge'
+p3
+sS'grammar'
+p4
+NsS'name'
+p5
+S'GOOGLE_CALENDAR_SHOW_EVENTS.model'
+p6
+sS'n_iter'
+p7
+I5
+sS'penalty'
+p8
+S'elasticnet'
+p9
+sS'trained'
+p10
+I01
+sS'alpha'
+p11
+F0.001
+sS'data'
+p12
+(lp13
+(S'check my calendar on today'
+p14
+S'True'
+p15
+tp16
+a(S'send me to the lock screen please'
+p17
+S'False'
+p18
+tp19
+a(S'make the music quieter please'
+p20
+g18
+tp21
+a(S'what do i have to do in a week'
+p22
+g15
+tp23
+a(S'do i have anything on friday'
+p24
+g15
+tp25
+a(S'can you turn down the tune'
+p26
+g18
+tp27
+a(S'check google calendar for tomorrow'
+p28
+g15
+tp29
+a(S'check my calendar on tomorrow'
+p30
+g15
+tp31
+a(S'spotify next song '
+p32
+g18
+tp33
+a(S'can you shutdown'
+p34
+g18
+tp35
+a(S'can you please make the tunez lower'
+p36
+g18
+tp37
+a(S'can you please kill current window'
+p38
+g18
+tp39
+a(S'please spotify last song'
+p40
+g18
+tp41
+a(S'search please for'
+p42
+g18
+tp43
+a(S'can you open browser please'
+p44
+g18
+tp45
+a(S'spotify play previous song please'
+p46
+g18
+tp47
+a(S'decrease the tunes'
+p48
+g18
+tp49
+a(S'google'
+p50
+g18
+tp51
+a(S'stop spotify'
+p52
+g18
+tp53
+a(S'is there anything i have to do on friday'
+p54
+g15
+tp55
+a(S'close this window'
+p56
+g18
+tp57
+a(S'can you turn the tunez up'
+p58
+g18
+tp59
+a(S'am i free on tomorrow'
+p60
+g15
+tp61
+a(S'what is on my calendar for monday'
+p62
+g15
+tp63
+a(S'make the tunez softer'
+p64
+g18
+tp65
+a(S'are there any events on tuesday'
+p66
+g15
+tp67
+a(S'go spotify please'
+p68
+g18
+tp69
+a(S'can you please turn my computer off'
+p70
+g18
+tp71
+a(S'can you turn the volume down'
+p72
+g18
+tp73
+a(S'make the music quieter'
+p74
+g18
+tp75
+a(S'check calendar on friday'
+p76
+g15
+tp77
+a(S'decrease the tune'
+p78
+g18
+tp79
+a(S"don't i have to do anything today"
+p80
+g15
+tp81
+a(S'stop the song'
+p82
+g18
+tp83
+a(S'what do i have on saturday'
+p84
+g15
+tp85
+a(S'make the beat higher'
+p86
+g18
+tp87
+a(S'make the song quieter please'
+p88
+g18
+tp89
+a(S'are there any events on this day'
+p90
+g15
+tp91
+a(S'turn up the sound'
+p92
+g18
+tp93
+a(S'we stick to simple problems in this post for the sake of illustration'
+p94
+g18
+tp95
+a(S'am i free on friday'
+p96
+g15
+tp97
+a(S'spotify start please'
+p98
+g18
+tp99
+a(S'am i free for today'
+p100
+g15
+tp101
+a(S'stop'
+p102
+g18
+tp103
+a(S'what do i have to do on thursday'
+p104
+g15
+tp105
+a(S'can you please exit'
+p106
+g18
+tp107
+a(S'do i have anything on sunday'
+p108
+g15
+tp109
+a(S'can you mute'
+p110
+g18
+tp111
+a(S'check calendar for this week'
+p112
+g15
+tp113
+a(S'go to dot ee dee you'
+p114
+g18
+tp115
+a(S'shut down the computer please'
+p116
+g18
+tp117
+a(S'can you please turn the song down'
+p118
+g18
+tp119
+a(S'check my calendar on friday'
+p120
+g15
+tp121
+a(S'search for please'
+p122
+g18
+tp123
+a(S''
+p124
+g18
+tp125
+a(S'please turn off the computer'
+p126
+g18
+tp127
+a(S'turn off please'
+p128
+g18
+tp129
+a(S'check my calendar for tomorrow'
+p130
+g15
+tp131
+a(S'what is on my calendar for wednesday'
+p132
+g15
+tp133
+a(S'start the song'
+p134
+g18
+tp135
+a(S'can you make the song lower'
+p136
+g18
+tp137
+a(S'turn down the volume'
+p138
+g18
+tp139
+a(S"aren't there any events on this day"
+p140
+g15
+tp141
+a(S'make the volume softer please'
+p142
+g18
+tp143
+a(S'check my calendar for friday'
+p144
+g15
+tp145
+a(S"don't i have any events on today"
+p146
+g15
+tp147
+a(S'emergency shutdown'
+p148
+g18
+tp149
+a(S'make the volume lower'
+p150
+g18
+tp151
+a(S'am i free'
+p152
+g15
+tp153
+a(S'increase the tune please'
+p154
+g18
+tp155
+a(S'can you turn the tunez down'
+p156
+g18
+tp157
+a(S'can you make the tunes higher'
+p158
+g18
+tp159
+a(S'spotify skip'
+p160
+g18
+tp161
+a(S'do i have anything to do on monday'
+p162
+g15
+tp163
+a(S'close current program'
+p164
+g18
+tp165
+a(S'are there any events on friday'
+p166
+g15
+tp167
+a(S'turn down the beat please'
+p168
+g18
+tp169
+a(S'shut down my computer please'
+p170
+g18
+tp171
+a(S'make the sound louder please'
+p172
+g18
+tp173
+a(S"aren't there any events"
+p174
+g15
+tp175
+a(S'can you close this window'
+p176
+g18
+tp177
+a(S'make the song softer'
+p178
+g18
+tp179
+a(S'make the beat higher please'
+p180
+g18
+tp181
+a(S'can you please turn off the computer'
+p182
+g18
+tp183
+a(S'is there anything to do on this day'
+p184
+g15
+tp185
+a(S'close window'
+p186
+g18
+tp187
+a(S'pause the song please'
+p188
+g18
+tp189
+a(S'pause spotify please'
+p190
+g18
+tp191
+a(S'turn down the tune'
+p192
+g18
+tp193
+a(S'can you please turn the volume up'
+p194
+g18
+tp195
+a(S'turn yourself off please'
+p196
+g18
+tp197
+a(S'check calendar on sunday'
+p198
+g15
+tp199
+a(S"don't i have to do anything on thursday"
+p200
+g15
+tp201
+a(S'can you please make the tunes louder'
+p202
+g18
+tp203
+a(S'can you please increase the tune'
+p204
+g18
+tp205
+a(S'check google calendar for'
+p206
+g15
+tp207
+a(S'shut off my computer'
+p208
+g18
+tp209
+a(S'alice next please'
+p210
+g18
+tp211
+a(S'turn the sound down'
+p212
+g18
+tp213
+a(S"aren't there any events on sunday"
+p214
+g15
+tp215
+a(S'please spotify pause the song'
+p216
+g18
+tp217
+a(S'what is on my calendar for this day'
+p218
+g15
+tp219
+a(S'can you please make the sound quieter'
+p220
+g18
+tp221
+a(S'please spotify start'
+p222
+g18
+tp223
+a(S'check events for friday'
+p224
+g15
+tp225
+a(S'please open a browser'
+p226
+g18
+tp227
+a(S'can you please turn the tune down'
+p228
+g18
+tp229
+a(S'please lock the screen'
+p230
+g18
+tp231
+a(S'check events for thursday'
+p232
+g15
+tp233
+a(S'check events on wednesday'
+p234
+g15
+tp235
+a(S'check google calendar for friday'
+p236
+g15
+tp237
+a(S'do i have anything to do on saturday'
+p238
+g15
+tp239
+a(S'lock my computer'
+p240
+g18
+tp241
+a(S'kill window'
+p242
+g18
+tp243
+a(S'can you please make the tune quieter'
+p244
+g18
+tp245
+a(S'can you shut down my computer'
+p246
+g18
+tp247
+a(S'can you kill this window'
+p248
+g18
+tp249
+a(S"don't i have to do anything tomorrow"
+p250
+g15
+tp251
+a(S'make the tunez louder'
+p252
+g18
+tp253
+a(S'please go back'
+p254
+g18
+tp255
+a(S'do i have anything to do on thursday'
+p256
+g15
+tp257
+a(S'make the sound lower please'
+p258
+g18
+tp259
+a(S'a releasing moderate stalls beside the material cell'
+p260
+g18
+tp261
+a(S"don't i have to do anything on friday"
+p262
+g15
+tp263
+a(S'sweet dreams alice'
+p264
+g18
+tp265
+a(S'kill the current window'
+p266
+g18
+tp267
+a(S"don't i have any events on saturday"
+p268
+g15
+tp269
+a(S'any events in a month'
+p270
+g15
+tp271
+a(S'make the beat softer'
+p272
+g18
+tp273
+a(S'can you please make the sound louder'
+p274
+g18
+tp275
+a(S'can you please make the sound softer'
+p276
+g18
+tp277
+a(S'can you please make the volume lower'
+p278
+g18
+tp279
+a(S"don't i have anything to do"
+p280
+g15
+tp281
+a(S'do i have anything today'
+p282
+g15
+tp283
+a(S'do i have anything to do on wednesday'
+p284
+g15
+tp285
+a(S'please turn off my computer'
+p286
+g18
+tp287
+a(S'can you turn up the song'
+p288
+g18
+tp289
+a(S'search'
+p290
+g18
+tp291
+a(S'check events for tuesday'
+p292
+g15
+tp293
+a(S'can you please make the music higher'
+p294
+g18
+tp295
+a(S'make the sound higher'
+p296
+g18
+tp297
+a(S'can you turn up the tunes'
+p298
+g18
+tp299
+a(S'check calendar for tuesday'
+p300
+g15
+tp301
+a(S'can you please turn up the music'
+p302
+g18
+tp303
+a(S'what do i have to do in a month'
+p304
+g15
+tp305
+a(S"don't i have anything in a week"
+p306
+g15
+tp307
+a(S'start default browser'
+p308
+g18
+tp309
+a(S'make the tunez louder please'
+p310
+g18
+tp311
+a(S'please close current window'
+p312
+g18
+tp313
+a(S'start a default browser'
+p314
+g18
+tp315
+a(S'please go to dot com'
+p316
+g18
+tp317
+a(S'can you please turn the music up'
+p318
+g18
+tp319
+a(S'make the volume higher'
+p320
+g18
+tp321
+a(S'can you please make the volume softer'
+p322
+g18
+tp323
+a(S'what events do i have on monday'
+p324
+g15
+tp325
+a(S'can you turn down the sound'
+p326
+g18
+tp327
+a(S'increase the sound'
+p328
+g18
+tp329
+a(S"aren't there any events on saturday"
+p330
+g15
+tp331
+a(S'can you please kill the window'
+p332
+g18
+tp333
+a(S'please search for'
+p334
+g18
+tp335
+a(S'please shut down the computer'
+p336
+g18
+tp337
+a(S'spotify go to the last song'
+p338
+g18
+tp339
+a(S'check google calendar on friday'
+p340
+g15
+tp341
+a(S"don't i have anything on tuesday"
+p342
+g15
+tp343
+a(S'make the tune higher'
+p344
+g18
+tp345
+a(S'is there anything to do'
+p346
+g15
+tp347
+a(S"don't i have anything on friday"
+p348
+g15
+tp349
+a(S"don't i have to do anything on friday"
+p350
+g15
+tp351
+a(S'turn up the tunez please'
+p352
+g18
+tp353
+a(S'any events on friday'
+p354
+g15
+tp355
+a(S'search please'
+p356
+g18
+tp357
+a(S'do i have anything in a week'
+p358
+g15
+tp359
+a(S'can you close the active window'
+p360
+g18
+tp361
+a(S'spotify previous song please'
+p362
+g18
+tp363
+a(S'can you please decrease the volume'
+p364
+g18
+tp365
+a(S'any events on this day'
+p366
+g15
+tp367
+a(S'any events on sunday'
+p368
+g15
+tp369
+a(S'can you please turn the music down'
+p370
+g18
+tp371
+a(S"don't i have to do anything in a month"
+p372
+g15
+tp373
+a(S"don't i have to do anything in a week"
+p374
+g15
+tp375
+a(S'open default browser'
+p376
+g18
+tp377
+a(S'can you please make the tunez quieter'
+p378
+g18
+tp379
+a(S'next spotify please'
+p380
+g18
+tp381
+a(S'turn down the volume please'
+p382
+g18
+tp383
+a(S'what do i have to do on this day'
+p384
+g15
+tp385
+a(S'shut my computer down please'
+p386
+g18
+tp387
+a(S'please spotify play previous song'
+p388
+g18
+tp389
+a(S"don't i have to do anything in a week"
+p390
+g15
+tp391
+a(S'make the beat quieter'
+p392
+g18
+tp393
+a(S'increase the tunez please'
+p394
+g18
+tp395
+a(S"aren't there any events in a week"
+p396
+g15
+tp397
+a(S'check google calendar for this month'
+p398
+g15
+tp399
+a(S'make the volume lower please'
+p400
+g18
+tp401
+a(S'do i have anything to do'
+p402
+g15
+tp403
+a(S'go to dot gov'
+p404
+g18
+tp405
+a(S'do i have anything on saturday'
+p406
+g15
+tp407
+a(S'please send me to the lock screen'
+p408
+g18
+tp409
+a(S'check events on thursday'
+p410
+g15
+tp411
+a(S'can you increase the beat'
+p412
+g18
+tp413
+a(S'check calendar for friday'
+p414
+g15
+tp415
+a(S'what do i have on this day'
+p416
+g15
+tp417
+a(S'please close the window'
+p418
+g18
+tp419
+a(S'make the sound louder'
+p420
+g18
+tp421
+a(S'can you send me to the lock screen'
+p422
+g18
+tp423
+a(S'increase the sound please'
+p424
+g18
+tp425
+a(S'are there any events on sunday'
+p426
+g15
+tp427
+a(S"don't i have to do anything on this day"
+p428
+g15
+tp429
+a(S'okay alice'
+p430
+g18
+tp431
+a(S'check my calendar on monday'
+p432
+g15
+tp433
+a(S'please start spotify'
+p434
+g18
+tp435
+a(S'turn down the music'
+p436
+g18
+tp437
+a(S'can you make the sound softer'
+p438
+g18
+tp439
+a(S'can you increase the volume'
+p440
+g18
+tp441
+a(S'can you increase the sound'
+p442
+g18
+tp443
+a(S'turn the tunes down'
+p444
+g18
+tp445
+a(S'what do i have on tuesday'
+p446
+g15
+tp447
+a(S'can you make the music louder'
+p448
+g18
+tp449
+a(S'can you please make the tunes softer'
+p450
+g18
+tp451
+a(S'please start'
+p452
+g18
+tp453
+a(S'turn off my computer please'
+p454
+g18
+tp455
+a(S'can you close the current window'
+p456
+g18
+tp457
+a(S'the tale pretends'
+p458
+g18
+tp459
+a(S'make the sound lower'
+p460
+g18
+tp461
+a(S'turn the volume down'
+p462
+g18
+tp463
+a(S"don't i have anything to do today"
+p464
+g15
+tp465
+a(S'what is on my calendar for friday'
+p466
+g15
+tp467
+a(S'please start browser'
+p468
+g18
+tp469
+a(S'turn the volume down please'
+p470
+g18
+tp471
+a(S'is there anything to do in a month'
+p472
+g15
+tp473
+a(S'can you lock the screen'
+p474
+g18
+tp475
+a(S'check my calendar on'
+p476
+g15
+tp477
+a(S'check google calendar for wednesday'
+p478
+g15
+tp479
+a(S"don't i have anything"
+p480
+g15
+tp481
+a(S'can you please close the current window'
+p482
+g18
+tp483
+a(S'can you make the beat lower'
+p484
+g18
+tp485
+a(S'check my calendar for tuesday'
+p486
+g15
+tp487
+a(S'sweet dreams'
+p488
+g18
+tp489
+a(S'can you make the tunez softer'
+p490
+g18
+tp491
+a(S'check my calendar on this month'
+p492
+g15
+tp493
+a(S'can you please turn down the volume'
+p494
+g18
+tp495
+a(S'spotify last please'
+p496
+g18
+tp497
+a(S'can you please turn up the volume'
+p498
+g18
+tp499
+a(S'any events on saturday'
+p500
+g15
+tp501
+a(S'can you make the music lower'
+p502
+g18
+tp503
+a(S'turn the sound down please'
+p504
+g18
+tp505
+a(S'can you shutdown the computer'
+p506
+g18
+tp507
+a(S'turn the tune up'
+p508
+g18
+tp509
+a(S'what events are on wednesday'
+p510
+g15
+tp511
+a(S'can you increase the tunez'
+p512
+g18
+tp513
+a(S'can you please make the tune lower'
+p514
+g18
+tp515
+a(S'increase the tune'
+p516
+g18
+tp517
+a(S'google search for please'
+p518
+g18
+tp519
+a(S'do i have anything in a month'
+p520
+g15
+tp521
+a(S'please shut my computer down'
+p522
+g18
+tp523
+a(S'kill this window'
+p524
+g18
+tp525
+a(S'what events are on friday'
+p526
+g15
+tp527
+a(S'can you lock the screen please'
+p528
+g18
+tp529
+a(S'check calendar for today'
+p530
+g15
+tp531
+a(S'start default browser please'
+p532
+g18
+tp533
+a(S'what events do i have on this day'
+p534
+g15
+tp535
+a(S'shutdown please'
+p536
+g18
+tp537
+a(S'good bye'
+p538
+g18
+tp539
+a(S'can you turn off'
+p540
+g18
+tp541
+a(S'make the tune softer please'
+p542
+g18
+tp543
+a(S'go to dot org'
+p544
+g18
+tp545
+a(S'can you please turn down the sound'
+p546
+g18
+tp547
+a(S'what is on my calendar for saturday'
+p548
+g15
+tp549
+a(S"don't i have any events"
+p550
+g15
+tp551
+a(S'can you decrease the music'
+p552
+g18
+tp553
+a(S'can you please kill the active window'
+p554
+g18
+tp555
+a(S'check events on this day'
+p556
+g15
+tp557
+a(S'can you shut down'
+p558
+g18
+tp559
+a(S'can you please turn the tunes down'
+p560
+g18
+tp561
+a(S"don't i have any events on thursday"
+p562
+g15
+tp563
+a(S'can you please turn up the tunez'
+p564
+g18
+tp565
+a(S'bye'
+p566
+g18
+tp567
+a(S'can you please turn the tunes up'
+p568
+g18
+tp569
+a(S'turn down the sound'
+p570
+g18
+tp571
+a(S"aren't there any events on today"
+p572
+g15
+tp573
+a(S'can you make the tunes quieter'
+p574
+g18
+tp575
+a(S'check events on sunday'
+p576
+g15
+tp577
+a(S'check my calendar for today'
+p578
+g15
+tp579
+a(S'turn my computer off please'
+p580
+g18
+tp581
+a(S'increase the tunes please'
+p582
+g18
+tp583
+a(S'make the song louder please'
+p584
+g18
+tp585
+a(S'put me on the lock screen'
+p586
+g18
+tp587
+a(S'make the song quieter'
+p588
+g18
+tp589
+a(S'can you please make the music quieter'
+p590
+g18
+tp591
+a(S'any events on tomorrow'
+p592
+g15
+tp593
+a(S'make the music louder'
+p594
+g18
+tp595
+a(S'check events for monday'
+p596
+g15
+tp597
+a(S'can you please make the song quieter'
+p598
+g18
+tp599
+a(S'open dot ee dee you'
+p600
+g18
+tp601
+a(S'check calendar for this day'
+p602
+g15
+tp603
+a(S'check calendar on saturday'
+p604
+g15
+tp605
+a(S'please stop song'
+p606
+g18
+tp607
+a(S'next'
+p608
+g18
+tp609
+a(S'decrease the music'
+p610
+g18
+tp611
+a(S'what events do i have on tuesday'
+p612
+g15
+tp613
+a(S'can you please decrease the beat'
+p614
+g18
+tp615
+a(S'can you please make the music louder'
+p616
+g18
+tp617
+a(S'play spotify please'
+p618
+g18
+tp619
+a(S'can you please turn up the song'
+p620
+g18
+tp621
+a(S'check google calendar on thursday'
+p622
+g15
+tp623
+a(S'what do i have in a week'
+p624
+g15
+tp625
+a(S'decrease the tunes please'
+p626
+g18
+tp627
+a(S'please spotify last'
+p628
+g18
+tp629
+a(S'please lock computer'
+p630
+g18
+tp631
+a(S'make the music higher'
+p632
+g18
+tp633
+a(S'turn up the song'
+p634
+g18
+tp635
+a(S'kill current window'
+p636
+g18
+tp637
+a(S'shutdown the computer'
+p638
+g18
+tp639
+a(S'what do i have'
+p640
+g15
+tp641
+a(S'please shut down my computer'
+p642
+g18
+tp643
+a(S'are there any events on wednesday'
+p644
+g15
+tp645
+a(S'can you please turn down the beat'
+p646
+g18
+tp647
+a(S'is there anything to do on sunday'
+p648
+g15
+tp649
+a(S'can you send me to the lock screen please'
+p650
+g18
+tp651
+a(S'do i have any events on tomorrow'
+p652
+g15
+tp653
+a(S'can you turn up the volume'
+p654
+g18
+tp655
+a(S'what do i have on today'
+p656
+g15
+tp657
+a(S'is there anything i have to do on thursday'
+p658
+g15
+tp659
+a(S'any events on monday'
+p660
+g15
+tp661
+a(S"don't i have any events on wednesday"
+p662
+g15
+tp663
+a(S'do i have any events on this day'
+p664
+g15
+tp665
+a(S'turn up the song please'
+p666
+g18
+tp667
+a(S'pause spotify'
+p668
+g18
+tp669
+a(S'check calendar for wednesday'
+p670
+g15
+tp671
+a(S'can you make the tunez louder'
+p672
+g18
+tp673
+a(S'do i have any events on tuesday'
+p674
+g15
+tp675
+a(S'do i have anything on tuesday'
+p676
+g15
+tp677
+a(S'make the music softer please'
+p678
+g18
+tp679
+a(S'can you please shut up'
+p680
+g18
+tp681
+a(S'send me to the lock screen'
+p682
+g18
+tp683
+a(S'mute'
+p684
+g18
+tp685
+a(S'please start default browser'
+p686
+g18
+tp687
+a(S'can you please make the tunes quieter'
+p688
+g18
+tp689
+a(S'turn the tune down please'
+p690
+g18
+tp691
+a(S'can you please turn off my computer'
+p692
+g18
+tp693
+a(S'hey alex'
+p694
+g18
+tp695
+a(S'is there anything i have to do in a month'
+p696
+g15
+tp697
+a(S'please shutdown'
+p698
+g18
+tp699
+a(S'spotify play the song before'
+p700
+g18
+tp701
+a(S'can you please make the beat lower'
+p702
+g18
+tp703
+a(S"don't i have anything on monday"
+p704
+g15
+tp705
+a(S'please spotify previous'
+p706
+g18
+tp707
+a(S'check events on monday'
+p708
+g15
+tp709
+a(S'am i free for friday'
+p710
+g15
+tp711
+a(S'can you please turn up the beat'
+p712
+g18
+tp713
+a(S'can you shut off'
+p714
+g18
+tp715
+a(S'start a default browser please'
+p716
+g18
+tp717
+a(S'can you decrease the beat'
+p718
+g18
+tp719
+a(S'turn the tunez down please'
+p720
+g18
+tp721
+a(S"don't i have anything in a month"
+p722
+g15
+tp723
+a(S'close the active window'
+p724
+g18
+tp725
+a(S'please close active window'
+p726
+g18
+tp727
+a(S'can you make the tune quieter'
+p728
+g18
+tp729
+a(S'train a classifier to try to predict the category of a post'
+p730
+g18
+tp731
+a(S'what events do i have on sunday'
+p732
+g15
+tp733
+a(S'can you please kill this window'
+p734
+g18
+tp735
+a(S'go back to the last song '
+p736
+g18
+tp737
+a(S'can you please increase the volume'
+p738
+g18
+tp739
+a(S'open a browser'
+p740
+g18
+tp741
+a(S'what events are on saturday'
+p742
+g15
+tp743
+a(S'what is on my calendar for this week'
+p744
+g15
+tp745
+a(S'is there anything to do on wednesday'
+p746
+g15
+tp747
+a(S'can you please turn the beat down'
+p748
+g18
+tp749
+a(S'exit please'
+p750
+g18
+tp751
+a(S'start browsing please'
+p752
+g18
+tp753
+a(S'check calendar for'
+p754
+g15
+tp755
+a(S'please open'
+p756
+g18
+tp757
+a(S'turn the sound up'
+p758
+g18
+tp759
+a(S'can you please increase the song'
+p760
+g18
+tp761
+a(S'please pause'
+p762
+g18
+tp763
+a(S'spotify play'
+p764
+g18
+tp765
+a(S'please kill this window'
+p766
+g18
+tp767
+a(S'turn the tune down'
+p768
+g18
+tp769
+a(S'check google calendar on'
+p770
+g15
+tp771
+a(S'shut down please'
+p772
+g18
+tp773
+a(S'what is on my calendar'
+p774
+g15
+tp775
+a(S"don't i have anything to do on thursday"
+p776
+g15
+tp777
+a(S"don't i have anything to do on monday"
+p778
+g15
+tp779
+a(S'turn the tunez up please'
+p780
+g18
+tp781
+a(S'check events on'
+p782
+g15
+tp783
+a(S'can you please turn the tune up'
+p784
+g18
+tp785
+a(S'check google calendar for monday'
+p786
+g15
+tp787
+a(S'turn the tunez down'
+p788
+g18
+tp789
+a(S'byebye'
+p790
+g18
+tp791
+a(S'is there anything i have to do on today'
+p792
+g15
+tp793
+a(S"don't i have to do anything today"
+p794
+g15
+tp795
+a(S'open default browser please'
+p796
+g18
+tp797
+a(S'please shut down'
+p798
+g18
+tp799
+a(S'can you make the song higher'
+p800
+g18
+tp801
+a(S'put me on the lock screen please'
+p802
+g18
+tp803
+a(S'go back'
+p804
+g18
+tp805
+a(S'please open a browser'
+p806
+g18
+tp807
+a(S'make the tunes lower please'
+p808
+g18
+tp809
+a(S'hey alice'
+p810
+g18
+tp811
+a(S'turn down the song'
+p812
+g18
+tp813
+a(S'can you turn the music up'
+p814
+g18
+tp815
+a(S'what do i have on friday'
+p816
+g15
+tp817
+a(S'can you make the sound quieter'
+p818
+g18
+tp819
+a(S'google search please for'
+p820
+g18
+tp821
+a(S'do i have any events on saturday'
+p822
+g15
+tp823
+a(S'make the music lower'
+p824
+g18
+tp825
+a(S'can you make the tune softer'
+p826
+g18
+tp827
+a(S'can you please make the tune softer'
+p828
+g18
+tp829
+a(S'check my calendar for thursday'
+p830
+g15
+tp831
+a(S'check events on tomorrow'
+p832
+g15
+tp833
+a(S'kill the active window'
+p834
+g18
+tp835
+a(S'turn down the tune please'
+p836
+g18
+tp837
+a(S'am i free for this day'
+p838
+g15
+tp839
+a(S'can you increase the song'
+p840
+g18
+tp841
+a(S'what do i have on sunday'
+p842
+g15
+tp843
+a(S'what do i have to do on tomorrow'
+p844
+g15
+tp845
+a(S'increase the tunez'
+p846
+g18
+tp847
+a(S'please spotify start the song'
+p848
+g18
+tp849
+a(S'make the tunez lower'
+p850
+g18
+tp851
+a(S'can you please close current window'
+p852
+g18
+tp853
+a(S'shut down the computer'
+p854
+g18
+tp855
+a(S'can you open a browser please'
+p856
+g18
+tp857
+a(S'turn the beat up please'
+p858
+g18
+tp859
+a(S'can you put me on the lock screen'
+p860
+g18
+tp861
+a(S'make the song lower'
+p862
+g18
+tp863
+a(S'can you turn down the volume'
+p864
+g18
+tp865
+a(S'stop song please'
+p866
+g18
+tp867
+a(S'please shutdown the computer'
+p868
+g18
+tp869
+a(S'is there anything i have to do on saturday'
+p870
+g15
+tp871
+a(S'can you please make the music lower'
+p872
+g18
+tp873
+a(S'can you please turn the tunez up'
+p874
+g18
+tp875
+a(S'do i have anything on monday'
+p876
+g15
+tp877
+a(S'go to'
+p878
+g18
+tp879
+a(S'can you put me on the lock screen please'
+p880
+g18
+tp881
+a(S'google please'
+p882
+g18
+tp883
+a(S'can you make the volume softer'
+p884
+g18
+tp885
+a(S'what do i have to do on today'
+p886
+g15
+tp887
+a(S'please pause song'
+p888
+g18
+tp889
+a(S"don't i have to do anything on sunday"
+p890
+g15
+tp891
+a(S'please spotify pause'
+p892
+g18
+tp893
+a(S'turn the song up please'
+p894
+g18
+tp895
+a(S'check calendar on monday'
+p896
+g15
+tp897
+a(S'can you turn the music down'
+p898
+g18
+tp899
+a(S'go to dot net'
+p900
+g18
+tp901
+a(S'can you please close active window'
+p902
+g18
+tp903
+a(S'open dot com'
+p904
+g18
+tp905
+a(S'can you turn the tunes up'
+p906
+g18
+tp907
+a(S'turn the tune up please'
+p908
+g18
+tp909
+a(S'play '
+p910
+g18
+tp911
+a(S'do i have anything on this day'
+p912
+g15
+tp913
+a(S'turn down the beat'
+p914
+g18
+tp915
+a(S'start a browser'
+p916
+g18
+tp917
+a(S'decrease the tunez'
+p918
+g18
+tp919
+a(S'turn the song down'
+p920
+g18
+tp921
+a(S'can you please make the sound higher'
+p922
+g18
+tp923
+a(S'turn up the tune please'
+p924
+g18
+tp925
+a(S'please search google for'
+p926
+g18
+tp927
+a(S'can you make the tune higher'
+p928
+g18
+tp929
+a(S'turn up the beat please'
+p930
+g18
+tp931
+a(S'make the tunes softer please'
+p932
+g18
+tp933
+a(S'am i free in a month'
+p934
+g15
+tp935
+a(S'can you turn the volume up'
+p936
+g18
+tp937
+a(S'check calendar for tomorrow'
+p938
+g15
+tp939
+a(S'can you exit'
+p940
+g18
+tp941
+a(S'check calendar on today'
+p942
+g15
+tp943
+a(S'decrease the song please'
+p944
+g18
+tp945
+a(S'am i free today'
+p946
+g15
+tp947
+a(S'make the song higher'
+p948
+g18
+tp949
+a(S'turn the beat up'
+p950
+g18
+tp951
+a(S'check my calendar for saturday'
+p952
+g15
+tp953
+a(S'can you turn off my computer'
+p954
+g18
+tp955
+a(S'do i have anything to do tomorrow'
+p956
+g15
+tp957
+a(S'increase the music'
+p958
+g18
+tp959
+a(S"don't i have to do anything on tuesday"
+p960
+g15
+tp961
+a(S'check my calendar on this week'
+p962
+g15
+tp963
+a(S'turn the music up please'
+p964
+g18
+tp965
+a(S'check my calendar on saturday'
+p966
+g15
+tp967
+a(S'check my calendar for monday'
+p968
+g15
+tp969
+a(S'kill the active program'
+p970
+g18
+tp971
+a(S"don't i have to do anything on monday"
+p972
+g15
+tp973
+a(S'what events do i have on friday'
+p974
+g15
+tp975
+a(S'make the song louder'
+p976
+g18
+tp977
+a(S'what do i have in a month'
+p978
+g15
+tp979
+a(S"aren't there any events on friday"
+p980
+g15
+tp981
+a(S'turn up the music please'
+p982
+g18
+tp983
+a(S'can you turn yourself off'
+p984
+g18
+tp985
+a(S'make the song softer please'
+p986
+g18
+tp987
+a(S'do i have any events on sunday'
+p988
+g15
+tp989
+a(S'spotify previous please'
+p990
+g18
+tp991
+a(S'shut up'
+p992
+g18
+tp993
+a(S'lock the screen please'
+p994
+g18
+tp995
+a(S'can you please shutdown'
+p996
+g18
+tp997
+a(S'am i free for tuesday'
+p998
+g15
+tp999
+a(S'can you please make the volume quieter'
+p1000
+g18
+tp1001
+a(S'what events do i have on saturday'
+p1002
+g15
+tp1003
+a(S"aren't there any events on wednesday"
+p1004
+g15
+tp1005
+a(S'can you please make the tunez softer'
+p1006
+g18
+tp1007
+a(S'what is on my calendar for thursday'
+p1008
+g15
+tp1009
+a(S'turn up the music'
+p1010
+g18
+tp1011
+a(S'spotify stop the song '
+p1012
+g18
+tp1013
+a(S'last song please'
+p1014
+g18
+tp1015
+a(S"aren't there any events on monday"
+p1016
+g15
+tp1017
+a(S'turn the sound up please'
+p1018
+g18
+tp1019
+a(S'check events for tomorrow'
+p1020
+g15
+tp1021
+a(S'what is on my calendar for tomorrow'
+p1022
+g15
+tp1023
+a(S'is there anything to do on friday'
+p1024
+g15
+tp1025
+a(S'mute please'
+p1026
+g18
+tp1027
+a(S'lock computer please'
+p1028
+g18
+tp1029
+a(S'go to dot edu'
+p1030
+g18
+tp1031
+a(S'check google calendar on sunday'
+p1032
+g15
+tp1033
+a(S'go ahead'
+p1034
+g18
+tp1035
+a(S'see ya'
+p1036
+g18
+tp1037
+a(S'please shutdown my computer'
+p1038
+g18
+tp1039
+a(S'check events for this day'
+p1040
+g15
+tp1041
+a(S'bye bye'
+p1042
+g18
+tp1043
+a(S'can you make the tunes lower'
+p1044
+g18
+tp1045
+a(S'can you make the sound higher'
+p1046
+g18
+tp1047
+a(S'decrease the tune please'
+p1048
+g18
+tp1049
+a(S'check google calendar for this day'
+p1050
+g15
+tp1051
+a(S"don't i have any events on tuesday"
+p1052
+g15
+tp1053
+a(S'is there anything i have to do'
+p1054
+g15
+tp1055
+a(S'can you make the volume quieter'
+p1056
+g18
+tp1057
+a(S'am i free on sunday'
+p1058
+g15
+tp1059
+a(S'is there anything i have to do in a week'
+p1060
+g15
+tp1061
+a(S'what events are in a month'
+p1062
+g15
+tp1063
+a(S'is there anything to do in a week'
+p1064
+g15
+tp1065
+a(S'make the tunez quieter'
+p1066
+g18
+tp1067
+a(S'lock'
+p1068
+g18
+tp1069
+a(S'please open browser'
+p1070
+g18
+tp1071
+a(S'please play spotify '
+p1072
+g18
+tp1073
+a(S'can you make the volume lower'
+p1074
+g18
+tp1075
+a(S'what is on my calendar for sunday'
+p1076
+g15
+tp1077
+a(S"don't i have any events on monday"
+p1078
+g15
+tp1079
+a(S"don't i have to do anything on monday"
+p1080
+g15
+tp1081
+a(S'can you make the song louder'
+p1082
+g18
+tp1083
+a(S'increase the song'
+p1084
+g18
+tp1085
+a(S'make the sound quieter please'
+p1086
+g18
+tp1087
+a(S'shut down'
+p1088
+g18
+tp1089
+a(S'alex'
+p1090
+g18
+tp1091
+a(S'check google calendar for today'
+p1092
+g15
+tp1093
+a(S'can you make the sound louder'
+p1094
+g18
+tp1095
+a(S'please kill the window'
+p1096
+g18
+tp1097
+a(S"don't i have any events in a week"
+p1098
+g15
+tp1099
+a(S'can you increase the music'
+p1100
+g18
+tp1101
+a(S'any events'
+p1102
+g15
+tp1103
+a(S'shut up please'
+p1104
+g18
+tp1105
+a(S'can you make the tunes louder'
+p1106
+g18
+tp1107
+a(S'google search please'
+p1108
+g18
+tp1109
+a(S'do i have anything to do on tuesday'
+p1110
+g15
+tp1111
+a(S'can you turn the sound up'
+p1112
+g18
+tp1113
+a(S'shut off please'
+p1114
+g18
+tp1115
+a(S'make the tunes louder'
+p1116
+g18
+tp1117
+a(S'exit'
+p1118
+g18
+tp1119
+a(S'can you make the song quieter'
+p1120
+g18
+tp1121
+a(S'turn off the computer'
+p1122
+g18
+tp1123
+a(S'are there any events on thursday'
+p1124
+g15
+tp1125
+a(S'do i have any events'
+p1126
+g15
+tp1127
+a(S'open browser please'
+p1128
+g18
+tp1129
+a(S'make the beat lower'
+p1130
+g18
+tp1131
+a(S'will you open a browser'
+p1132
+g18
+tp1133
+a(S'increase the volume'
+p1134
+g18
+tp1135
+a(S'am i free for tomorrow'
+p1136
+g15
+tp1137
+a(S'do i have any events in a week'
+p1138
+g15
+tp1139
+a(S'increase the music please'
+p1140
+g18
+tp1141
+a(S'can you please kill active window'
+p1142
+g18
+tp1143
+a(S"don't i have anything to do on saturday"
+p1144
+g15
+tp1145
+a(S'check google calendar on wednesday'
+p1146
+g15
+tp1147
+a(S'shutdown my computer please'
+p1148
+g18
+tp1149
+a(S"don't i have anything to do in a week"
+p1150
+g15
+tp1151
+a(S'can you make the tune lower'
+p1152
+g18
+tp1153
+a(S'please google search'
+p1154
+g18
+tp1155
+a(S'turn up the tunes please'
+p1156
+g18
+tp1157
+a(S'search google please for'
+p1158
+g18
+tp1159
+a(S'open a browser please'
+p1160
+g18
+tp1161
+a(S'please shut off'
+p1162
+g18
+tp1163
+a(S'what events do i have on tomorrow'
+p1164
+g15
+tp1165
+a(S'please close the active window'
+p1166
+g18
+tp1167
+a(S"don't i have to do anything on tuesday"
+p1168
+g15
+tp1169
+a(S'do i have anything to do on sunday'
+p1170
+g15
+tp1171
+a(S'can you please make the tunes higher'
+p1172
+g18
+tp1173
+a(S'search for'
+p1174
+g18
+tp1175
+a(S'i like dogs'
+p1176
+g18
+tp1177
+a(S'please go to'
+p1178
+g18
+tp1179
+a(S'turn the volume up'
+p1180
+g18
+tp1181
+a(S'go to dot com'
+p1182
+g18
+tp1183
+a(S'can you lock my computer please'
+p1184
+g18
+tp1185
+a(S'turn the music up'
+p1186
+g18
+tp1187
+a(S'spotify skip ahead'
+p1188
+g18
+tp1189
+a(S"don't i have to do anything tomorrow"
+p1190
+g15
+tp1191
+a(S'what events do i have in a week'
+p1192
+g15
+tp1193
+a(S'decrease the volume'
+p1194
+g18
+tp1195
+a(S'start browsing'
+p1196
+g18
+tp1197
+a(S'can you please turn the sound up'
+p1198
+g18
+tp1199
+a(S'make the sound softer'
+p1200
+g18
+tp1201
+a(S'please start browsing'
+p1202
+g18
+tp1203
+a(S'is there anything i have to do on monday'
+p1204
+g15
+tp1205
+a(S'am i free for monday'
+p1206
+g15
+tp1207
+a(S'am i free on this day'
+p1208
+g15
+tp1209
+a(S'make the tune quieter'
+p1210
+g18
+tp1211
+a(S'are there any events in a week'
+p1212
+g15
+tp1213
+a(S"don't i have anything on thursday"
+p1214
+g15
+tp1215
+a(S'please kill active window'
+p1216
+g18
+tp1217
+a(S'make the music softer'
+p1218
+g18
+tp1219
+a(S'make the volume quieter'
+p1220
+g18
+tp1221
+a(S'turn down the song please'
+p1222
+g18
+tp1223
+a(S'can you open this program'
+p1224
+g18
+tp1225
+a(S'can you please shut down my computer'
+p1226
+g18
+tp1227
+a(S'make the volume higher please'
+p1228
+g18
+tp1229
+a(S'can you please shutdown my computer'
+p1230
+g18
+tp1231
+a(S'make the tune louder'
+p1232
+g18
+tp1233
+a(S'turn down the music please'
+p1234
+g18
+tp1235
+a(S'can you lock computer please'
+p1236
+g18
+tp1237
+a(S'please search'
+p1238
+g18
+tp1239
+a(S'what events do i have on today'
+p1240
+g15
+tp1241
+a(S"don't i have to do anything on saturday"
+p1242
+g15
+tp1243
+a(S'can you turn the tunes down'
+p1244
+g18
+tp1245
+a(S'am i free'
+p1246
+g15
+tp1247
+a(S"don't i have any events on this day"
+p1248
+g15
+tp1249
+a(S'turn off my computer'
+p1250
+g18
+tp1251
+a(S'can you please turn the song up'
+p1252
+g18
+tp1253
+a(S'close current window'
+p1254
+g18
+tp1255
+a(S'is there anything i have to do on tomorrow'
+p1256
+g15
+tp1257
+a(S'am i free on tuesday'
+p1258
+g15
+tp1259
+a(S"aren't there any events on tuesday"
+p1260
+g15
+tp1261
+a(S'start browser please'
+p1262
+g18
+tp1263
+a(S"don't i have any events on friday"
+p1264
+g15
+tp1265
+a(S"don't i have to do anything on saturday"
+p1266
+g15
+tp1267
+a(S'check google calendar for sunday'
+p1268
+g15
+tp1269
+a(S'turn up the tune'
+p1270
+g18
+tp1271
+a(S'google search'
+p1272
+g18
+tp1273
+a(S'make the tunes quieter please'
+p1274
+g18
+tp1275
+a(S'google for'
+p1276
+g18
+tp1277
+a(S'good night'
+p1278
+g18
+tp1279
+a(S'can you make the tunez quieter'
+p1280
+g18
+tp1281
+a(S'check google calendar on tuesday'
+p1282
+g15
+tp1283
+a(S'turn up the sound please'
+p1284
+g18
+tp1285
+a(S'open dot edu'
+p1286
+g18
+tp1287
+a(S'check calendar for saturday'
+p1288
+g15
+tp1289
+a(S'check calendar for thursday'
+p1290
+g15
+tp1291
+a(S'check my calendar for this month'
+p1292
+g15
+tp1293
+a(S'a backbone dictates above my grief'
+p1294
+g18
+tp1295
+a(S'check my calendar for this day'
+p1296
+g15
+tp1297
+a(S'turn up the beat'
+p1298
+g18
+tp1299
+a(S'is there anything to do on thursday'
+p1300
+g15
+tp1301
+a(S'pause please'
+p1302
+g18
+tp1303
+a(S'check google calendar on tomorrow'
+p1304
+g15
+tp1305
+a(S"don't i have to do anything"
+p1306
+g15
+tp1307
+a(S'alice'
+p1308
+g18
+tp1309
+a(S'check google calendar for saturday'
+p1310
+g15
+tp1311
+a(S'are there any events'
+p1312
+g15
+tp1313
+a(S'make the song higher please'
+p1314
+g18
+tp1315
+a(S'can you please make the beat quieter'
+p1316
+g18
+tp1317
+a(S'can you make the song softer'
+p1318
+g18
+tp1319
+a(S'check my calendar for wednesday'
+p1320
+g15
+tp1321
+a(S'make the tune higher please'
+p1322
+g18
+tp1323
+a(S'what do i have to do on friday'
+p1324
+g15
+tp1325
+a(S'can you please make the music softer'
+p1326
+g18
+tp1327
+a(S'please google for'
+p1328
+g18
+tp1329
+a(S'what events do i have on thursday'
+p1330
+g15
+tp1331
+a(S'what do i have to do'
+p1332
+g15
+tp1333
+a(S'can you turn the tune down'
+p1334
+g18
+tp1335
+a(S'decrease the sound'
+p1336
+g18
+tp1337
+a(S'can you please close the active window'
+p1338
+g18
+tp1339
+a(S'am i free on wednesday'
+p1340
+g15
+tp1341
+a(S'what events are on tuesday'
+p1342
+g15
+tp1343
+a(S'turn the volume up please'
+p1344
+g18
+tp1345
+a(S'can you decrease the tunez'
+p1346
+g18
+tp1347
+a(S"don't i have any events on sunday"
+p1348
+g15
+tp1349
+a(S'can you please turn the beat up'
+p1350
+g18
+tp1351
+a(S'what events are on this day'
+p1352
+g15
+tp1353
+a(S'is there anything i have to do on tuesday'
+p1354
+g15
+tp1355
+a(S'check calendar for this day'
+p1356
+g15
+tp1357
+a(S'can you please make the volume louder'
+p1358
+g18
+tp1359
+a(S'predict the outcome on a new document'
+p1360
+g18
+tp1361
+a(S'make the beat lower please'
+p1362
+g18
+tp1363
+a(S'start song'
+p1364
+g18
+tp1365
+a(S'can you make the music higher'
+p1366
+g18
+tp1367
+a(S'check events for today'
+p1368
+g15
+tp1369
+a(S'am i free for thursday'
+p1370
+g15
+tp1371
+a(S'search google for'
+p1372
+g18
+tp1373
+a(S'am i free for saturday'
+p1374
+g15
+tp1375
+a(S'make the volume louder please'
+p1376
+g18
+tp1377
+a(S'what events are on thursday'
+p1378
+g15
+tp1379
+a(S'decrease the tunez please'
+p1380
+g18
+tp1381
+a(S'can you please shut down'
+p1382
+g18
+tp1383
+a(S'shut off'
+p1384
+g18
+tp1385
+a(S'check calendar for sunday'
+p1386
+g15
+tp1387
+a(S'increase the beat please'
+p1388
+g18
+tp1389
+a(S'good night alice'
+p1390
+g18
+tp1391
+a(S'can you please turn down the song'
+p1392
+g18
+tp1393
+a(S'can you increase the tunes'
+p1394
+g18
+tp1395
+a(S'kill active window'
+p1396
+g18
+tp1397
+a(S'check google calendar on this week'
+p1398
+g15
+tp1399
+a(S'what do i have to do on wednesday'
+p1400
+g15
+tp1401
+a(S"don't i have to do anything on wednesday"
+p1402
+g15
+tp1403
+a(S'can you please make the tunez louder'
+p1404
+g18
+tp1405
+a(S'can you make the beat louder'
+p1406
+g18
+tp1407
+a(S'can you please turn down the tune'
+p1408
+g18
+tp1409
+a(S'make the tunes softer'
+p1410
+g18
+tp1411
+a(S'do i have anything on thursday'
+p1412
+g15
+tp1413
+a(S'lock computer'
+p1414
+g18
+tp1415
+a(S'can you make the beat softer'
+p1416
+g18
+tp1417
+a(S'can you turn up the tune'
+p1418
+g18
+tp1419
+a(S'spotify go please'
+p1420
+g18
+tp1421
+a(S'can you make the volume higher'
+p1422
+g18
+tp1423
+a(S'what do i have to do on sunday'
+p1424
+g15
+tp1425
+a(S'is there anything i have to do on sunday'
+p1426
+g15
+tp1427
+a(S'make the music higher please'
+p1428
+g18
+tp1429
+a(S'check calendar for this month'
+p1430
+g15
+tp1431
+a(S'can you turn down the beat'
+p1432
+g18
+tp1433
+a(S"don't i have anything on saturday"
+p1434
+g15
+tp1435
+a(S'make the tunez lower please'
+p1436
+g18
+tp1437
+a(S'song stop'
+p1438
+g18
+tp1439
+a(S'turn the music down'
+p1440
+g18
+tp1441
+a(S'start a browser please'
+p1442
+g18
+tp1443
+a(S'what events do i have in a month'
+p1444
+g15
+tp1445
+a(S'increase the song please'
+p1446
+g18
+tp1447
+a(S'can you please shutdown the computer'
+p1448
+g18
+tp1449
+a(S'any events on wednesday'
+p1450
+g15
+tp1451
+a(S'spotify pause please'
+p1452
+g18
+tp1453
+a(S'am i free for a week'
+p1454
+g15
+tp1455
+a(S'can you please increase the music'
+p1456
+g18
+tp1457
+a(S'can you please make the beat softer'
+p1458
+g18
+tp1459
+a(S'check calendar on this day'
+p1460
+g15
+tp1461
+a(S'can you lock computer'
+p1462
+g18
+tp1463
+a(S'do i have any events on monday'
+p1464
+g15
+tp1465
+a(S"i think i didn't answer an earlier question"
+p1466
+g18
+tp1467
+a(S'can you please make the song higher'
+p1468
+g18
+tp1469
+a(S'can you please decrease the tunes'
+p1470
+g18
+tp1471
+a(S'am i free on monday'
+p1472
+g15
+tp1473
+a(S'decrease the sound please'
+p1474
+g18
+tp1475
+a(S'shutdown the computer please'
+p1476
+g18
+tp1477
+a(S'can you lock my computer please'
+p1478
+g18
+tp1479
+a(S'a decent problem gossips beside the shoulder'
+p1480
+g18
+tp1481
+a(S'can you please make the beat higher'
+p1482
+g18
+tp1483
+a(S'check events for wednesday'
+p1484
+g15
+tp1485
+a(S'open'
+p1486
+g18
+tp1487
+a(S'can you please decrease the tune'
+p1488
+g18
+tp1489
+a(S'please spotify previous song'
+p1490
+g18
+tp1491
+a(S'see ya alice'
+p1492
+g18
+tp1493
+a(S'do i have anything to do today'
+p1494
+g15
+tp1495
+a(S'turn the tunes up please'
+p1496
+g18
+tp1497
+a(S'can you make the sound lower'
+p1498
+g18
+tp1499
+a(S'next song'
+p1500
+g18
+tp1501
+a(S'decrease the song'
+p1502
+g18
+tp1503
+a(S'shutdown my computer'
+p1504
+g18
+tp1505
+a(S'can you make the tune louder'
+p1506
+g18
+tp1507
+a(S'can you please make the tune higher'
+p1508
+g18
+tp1509
+a(S"don't i have anything to do on sunday"
+p1510
+g15
+tp1511
+a(S'what events do i have on wednesday'
+p1512
+g15
+tp1513
+a(S'can you please turn down the tunes'
+p1514
+g18
+tp1515
+a(S'can you please close this window'
+p1516
+g18
+tp1517
+a(S'check events for this week'
+p1518
+g15
+tp1519
+a(S'make the tunes lower'
+p1520
+g18
+tp1521
+a(S'please last song'
+p1522
+g18
+tp1523
+a(S'please turn off'
+p1524
+g18
+tp1525
+a(S'issue commands'
+p1526
+g18
+tp1527
+a(S'can you please shut off'
+p1528
+g18
+tp1529
+a(S'turn the song down please'
+p1530
+g18
+tp1531
+a(S'can you turn yourself off please'
+p1532
+g18
+tp1533
+a(S'what do i have on wednesday'
+p1534
+g15
+tp1535
+a(S'check my calendar for this day'
+p1536
+g15
+tp1537
+a(S'extract the features using almost the same feature'
+p1538
+g18
+tp1539
+a(S'spotify stop'
+p1540
+g18
+tp1541
+a(S'can you please shut my computer down'
+p1542
+g18
+tp1543
+a(S'can you turn down the song'
+p1544
+g18
+tp1545
+a(S'decrease the music please'
+p1546
+g18
+tp1547
+a(S'please turn my computer off'
+p1548
+g18
+tp1549
+a(S'please go spotify '
+p1550
+g18
+tp1551
+a(S'what is on my calendar for today'
+p1552
+g15
+tp1553
+a(S'do i have any events in a month'
+p1554
+g15
+tp1555
+a(S'any events in a week'
+p1556
+g15
+tp1557
+a(S'can you please make the song lower'
+p1558
+g18
+tp1559
+a(S'can you turn up the music'
+p1560
+g18
+tp1561
+a(S'check calendar for monday'
+p1562
+g15
+tp1563
+a(S'make the beat softer please'
+p1564
+g18
+tp1565
+a(S'do i have any events on today'
+p1566
+g15
+tp1567
+a(S'can you decrease the song'
+p1568
+g18
+tp1569
+a(S'turn up the volume please'
+p1570
+g18
+tp1571
+a(S'make the tunes quieter'
+p1572
+g18
+tp1573
+a(S"don't i have to do anything on wednesday"
+p1574
+g15
+tp1575
+a(S'are there any events on saturday'
+p1576
+g15
+tp1577
+a(S'close the current window'
+p1578
+g18
+tp1579
+a(S'check google calendar on this day'
+p1580
+g15
+tp1581
+a(S'do i have any events on wednesday'
+p1582
+g15
+tp1583
+a(S'can you shutdown my computer'
+p1584
+g18
+tp1585
+a(S'make the tunes louder please'
+p1586
+g18
+tp1587
+a(S'pause song please'
+p1588
+g18
+tp1589
+a(S"don't i have anything on this day"
+p1590
+g15
+tp1591
+a(S'what events are in a week'
+p1592
+g15
+tp1593
+a(S'check my calendar on wednesday'
+p1594
+g15
+tp1595
+a(S'check my calendar for this week'
+p1596
+g15
+tp1597
+a(S'what events are'
+p1598
+g15
+tp1599
+a(S'turn the beat down please'
+p1600
+g18
+tp1601
+a(S'check events on today'
+p1602
+g15
+tp1603
+a(S'make the volume quieter please'
+p1604
+g18
+tp1605
+a(S'can you turn up the tunez'
+p1606
+g18
+tp1607
+a(S'check events on friday'
+p1608
+g15
+tp1609
+a(S'can you decrease the volume'
+p1610
+g18
+tp1611
+a(S"aren't there any events on thursday"
+p1612
+g15
+tp1613
+a(S"don't i have to do anything on this day"
+p1614
+g15
+tp1615
+a(S'see you'
+p1616
+g18
+tp1617
+a(S'can you turn the song down'
+p1618
+g18
+tp1619
+a(S'can you decrease the tune'
+p1620
+g18
+tp1621
+a(S'turn up the volume'
+p1622
+g18
+tp1623
+a(S'do i have anything to do on friday'
+p1624
+g15
+tp1625
+a(S'any events on today'
+p1626
+g15
+tp1627
+a(S'please lock my computer'
+p1628
+g18
+tp1629
+a(S'can you turn up the beat'
+p1630
+g18
+tp1631
+a(S"don't i have anything to do on tuesday"
+p1632
+g15
+tp1633
+a(S'go ahead spotify please'
+p1634
+g18
+tp1635
+a(S'check google calendar on today'
+p1636
+g15
+tp1637
+a(S'shut off my computer please'
+p1638
+g18
+tp1639
+a(S"aren't there any events on tomorrow"
+p1640
+g15
+tp1641
+a(S'can you shut off my computer'
+p1642
+g18
+tp1643
+a(S'make the tunez higher'
+p1644
+g18
+tp1645
+a(S'turn down the sound please'
+p1646
+g18
+tp1647
+a(S'can you please kill the current window'
+p1648
+g18
+tp1649
+a(S'can you please make the song softer'
+p1650
+g18
+tp1651
+a(S'do i have anything to do on this day'
+p1652
+g15
+tp1653
+a(S'are there any events on today'
+p1654
+g15
+tp1655
+a(S'can you please make the song louder'
+p1656
+g18
+tp1657
+a(S'am i free for sunday'
+p1658
+g15
+tp1659
+a(S'decrease the volume please'
+p1660
+g18
+tp1661
+a(S'can you turn the song up'
+p1662
+g18
+tp1663
+a(S"don't i have anything to do in a month"
+p1664
+g15
+tp1665
+a(S'spotify go ahead'
+p1666
+g18
+tp1667
+a(S'am i free on saturday'
+p1668
+g15
+tp1669
+a(S'spotify pause the song please'
+p1670
+g18
+tp1671
+a(S'can you please mute'
+p1672
+g18
+tp1673
+a(S"don't i have anything on sunday"
+p1674
+g15
+tp1675
+a(S'decrease the beat please'
+p1676
+g18
+tp1677
+a(S'do i have anything tomorrow'
+p1678
+g15
+tp1679
+a(S'make the tunes higher please'
+p1680
+g18
+tp1681
+a(S'make the volume louder'
+p1682
+g18
+tp1683
+a(S'can you turn down the tunes'
+p1684
+g18
+tp1685
+a(S'what events are on tomorrow'
+p1686
+g15
+tp1687
+a(S'what events are on today'
+p1688
+g15
+tp1689
+a(S'please kill the current window'
+p1690
+g18
+tp1691
+a(S'can you turn the beat up'
+p1692
+g18
+tp1693
+a(S'check my calendar on this day'
+p1694
+g15
+tp1695
+a(S'can you please make the tune louder'
+p1696
+g18
+tp1697
+a(S'make the music louder please'
+p1698
+g18
+tp1699
+a(S'turn off'
+p1700
+g18
+tp1701
+a(S'google please for'
+p1702
+g18
+tp1703
+a(S'can you please increase the sound'
+p1704
+g18
+tp1705
+a(S'turn down the tunez please'
+p1706
+g18
+tp1707
+a(S'turn yourself off'
+p1708
+g18
+tp1709
+a(S'open a default browser'
+p1710
+g18
+tp1711
+a(S'spotify skip ahead please'
+p1712
+g18
+tp1713
+a(S'spotify play the last song'
+p1714
+g18
+tp1715
+a(S'make the tune lower'
+p1716
+g18
+tp1717
+a(S'can you please turn up the tunes'
+p1718
+g18
+tp1719
+a(S'check my calendar on sunday'
+p1720
+g15
+tp1721
+a(S'can you open a browser'
+p1722
+g18
+tp1723
+a(S'any events on thursday'
+p1724
+g15
+tp1725
+a(S'spotify go back'
+p1726
+g18
+tp1727
+a(S"don't i have to do anything on thursday"
+p1728
+g15
+tp1729
+a(S'check calendar on tuesday'
+p1730
+g15
+tp1731
+a(S'check events for this month'
+p1732
+g15
+tp1733
+a(S'make the beat louder'
+p1734
+g18
+tp1735
+a(S'what do i have on tomorrow'
+p1736
+g15
+tp1737
+a(S'what do i have to do on tuesday'
+p1738
+g15
+tp1739
+a(S'turn the song up'
+p1740
+g18
+tp1741
+a(S"don't i have any events in a month"
+p1742
+g15
+tp1743
+a(S'are there any events in a month'
+p1744
+g15
+tp1745
+a(S'can you make the music softer'
+p1746
+g18
+tp1747
+a(S'check google calendar for this day'
+p1748
+g15
+tp1749
+a(S'please pause spotify'
+p1750
+g18
+tp1751
+a(S'can you shut my computer down'
+p1752
+g18
+tp1753
+a(S'can you turn the beat down'
+p1754
+g18
+tp1755
+a(S'can you decrease the tunes'
+p1756
+g18
+tp1757
+a(S"don't i have any events on tomorrow"
+p1758
+g15
+tp1759
+a(S'please spotify pause'
+p1760
+g18
+tp1761
+a(S'is there anything i have to do on wednesday'
+p1762
+g15
+tp1763
+a(S'start'
+p1764
+g18
+tp1765
+a(S'can you please make the beat louder'
+p1766
+g18
+tp1767
+a(S'go back please'
+p1768
+g18
+tp1769
+a(S'am i free for wednesday'
+p1770
+g15
+tp1771
+a(S'is there anything to do on today'
+p1772
+g15
+tp1773
+a(S'please kill current window'
+p1774
+g18
+tp1775
+a(S'open a default browser please'
+p1776
+g18
+tp1777
+a(S'please start a default browser'
+p1778
+g18
+tp1779
+a(S'please spotify play last song'
+p1780
+g18
+tp1781
+a(S'do i have anything'
+p1782
+g15
+tp1783
+a(S'make the tunez quieter please'
+p1784
+g18
+tp1785
+a(S'skip spotify please'
+p1786
+g18
+tp1787
+a(S'please spotify go '
+p1788
+g18
+tp1789
+a(S'can you please make the tunez higher'
+p1790
+g18
+tp1791
+a(S'can you please make the tunes lower'
+p1792
+g18
+tp1793
+a(S'make the beat quieter please'
+p1794
+g18
+tp1795
+a(S'what do i have to do on monday'
+p1796
+g15
+tp1797
+a(S'turn the tunez up'
+p1798
+g18
+tp1799
+a(S'spotify go back to the last song '
+p1800
+g18
+tp1801
+a(S'do i have anything to do in a month'
+p1802
+g15
+tp1803
+a(S'check events for saturday'
+p1804
+g15
+tp1805
+a(S'can you make the music quieter'
+p1806
+g18
+tp1807
+a(S'can you turn off the computer'
+p1808
+g18
+tp1809
+a(S'spotify start the song please'
+p1810
+g18
+tp1811
+a(S'please start a browser'
+p1812
+g18
+tp1813
+a(S'please search google'
+p1814
+g18
+tp1815
+a(S'make the tune louder please'
+p1816
+g18
+tp1817
+a(S'can you please turn up the tune'
+p1818
+g18
+tp1819
+a(S'google for please'
+p1820
+g18
+tp1821
+a(S'can you please increase the tunez'
+p1822
+g18
+tp1823
+a(S"don't i have to do anything in a month"
+p1824
+g15
+tp1825
+a(S'lock my computer please'
+p1826
+g18
+tp1827
+a(S'what do i have on thursday'
+p1828
+g15
+tp1829
+a(S'make the tune quieter please'
+p1830
+g18
+tp1831
+a(S"aren't there any events in a month"
+p1832
+g15
+tp1833
+a(S'can you please open a browser'
+p1834
+g18
+tp1835
+a(S'can you please turn up the sound'
+p1836
+g18
+tp1837
+a(S'make the tunes higher'
+p1838
+g18
+tp1839
+a(S'close active window'
+p1840
+g18
+tp1841
+a(S"don't i have anything on wednesday"
+p1842
+g15
+tp1843
+a(S'spotify last song please'
+p1844
+g18
+tp1845
+a(S'can you please make the volume higher'
+p1846
+g18
+tp1847
+a(S'can you decrease the sound'
+p1848
+g18
+tp1849
+a(S'check my calendar for'
+p1850
+g15
+tp1851
+a(S'can you increase the tune'
+p1852
+g18
+tp1853
+a(S'lock the screen'
+p1854
+g18
+tp1855
+a(S'can you please turn off'
+p1856
+g18
+tp1857
+a(S'can you make the tunez lower'
+p1858
+g18
+tp1859
+a(S'check my calendar for sunday'
+p1860
+g15
+tp1861
+a(S'make the song lower please'
+p1862
+g18
+tp1863
+a(S'check events for sunday'
+p1864
+g15
+tp1865
+a(S'turn my computer off'
+p1866
+g18
+tp1867
+a(S'search google for please'
+p1868
+g18
+tp1869
+a(S'open dot net'
+p1870
+g18
+tp1871
+a(S'search google'
+p1872
+g18
+tp1873
+a(S'check events for'
+p1874
+g15
+tp1875
+a(S'please shut off my computer'
+p1876
+g18
+tp1877
+a(S'please google'
+p1878
+g18
+tp1879
+a(S'what is on my calendar for this month'
+p1880
+g15
+tp1881
+a(S'can you please turn down the music'
+p1882
+g18
+tp1883
+a(S'can you please decrease the music'
+p1884
+g18
+tp1885
+a(S'do i have anything to do in a week'
+p1886
+g15
+tp1887
+a(S'turn down the tunes'
+p1888
+g18
+tp1889
+a(S'check events on month'
+p1890
+g15
+tp1891
+a(S'play the song before'
+p1892
+g18
+tp1893
+a(S'please open dot com'
+p1894
+g18
+tp1895
+a(S'kill the program'
+p1896
+g18
+tp1897
+a(S'make the music lower please'
+p1898
+g18
+tp1899
+a(S'spotify play the song'
+p1900
+g18
+tp1901
+a(S'turn up the tunez'
+p1902
+g18
+tp1903
+a(S'increase the volume please'
+p1904
+g18
+tp1905
+a(S'make the tunez softer please'
+p1906
+g18
+tp1907
+a(S"don't i have anything today"
+p1908
+g15
+tp1909
+a(S'are there any events on monday'
+p1910
+g15
+tp1911
+a(S'check events on this week'
+p1912
+g15
+tp1913
+a(S'shut my computer down'
+p1914
+g18
+tp1915
+a(S"don't i have anything to do on friday"
+p1916
+g15
+tp1917
+a(S'can you please shut off my computer'
+p1918
+g18
+tp1919
+a(S'bye bye alice'
+p1920
+g18
+tp1921
+a(S'turn the music down please'
+p1922
+g18
+tp1923
+a(S'check calendar on this week'
+p1924
+g15
+tp1925
+a(S'check calendar on'
+p1926
+g15
+tp1927
+a(S'do i have any events on friday'
+p1928
+g15
+tp1929
+a(S'what events are on monday'
+p1930
+g15
+tp1931
+a(S'turn down the tunez'
+p1932
+g18
+tp1933
+a(S'check calendar on thursday'
+p1934
+g15
+tp1935
+a(S'check google calendar on saturday'
+p1936
+g15
+tp1937
+a(S'can you shut down the computer'
+p1938
+g18
+tp1939
+a(S'what events are on sunday'
+p1940
+g15
+tp1941
+a(S'make the tune lower please'
+p1942
+g18
+tp1943
+a(S'am i free on thursday'
+p1944
+g15
+tp1945
+a(S'check calendar on tomorrow'
+p1946
+g15
+tp1947
+a(S'is there anything to do on monday'
+p1948
+g15
+tp1949
+a(S'can you turn down the tunez'
+p1950
+g18
+tp1951
+a(S'please kill the active window'
+p1952
+g18
+tp1953
+a(S'increase the tunes'
+p1954
+g18
+tp1955
+a(S'skip'
+p1956
+g18
+tp1957
+a(S'google search for'
+p1958
+g18
+tp1959
+a(S'check calendar on wednesday'
+p1960
+g15
+tp1961
+a(S'can you turn the tune up'
+p1962
+g18
+tp1963
+a(S'make the volume softer'
+p1964
+g18
+tp1965
+a(S'check events on tuesday'
+p1966
+g15
+tp1967
+a(S'can you turn the sound down'
+p1968
+g18
+tp1969
+a(S'can you kill the current window'
+p1970
+g18
+tp1971
+a(S'can you turn down the music'
+p1972
+g18
+tp1973
+a(S'check my calendar on tuesday'
+p1974
+g15
+tp1975
+a(S'increase the beat'
+p1976
+g18
+tp1977
+a(S'check google calendar for thursday'
+p1978
+g15
+tp1979
+a(S'please close the current window'
+p1980
+g18
+tp1981
+a(S'can you make the tunez higher'
+p1982
+g18
+tp1983
+a(S'do i have any events on thursday'
+p1984
+g15
+tp1985
+a(S'turn off the computer please'
+p1986
+g18
+tp1987
+a(S'can you please turn the tunez down'
+p1988
+g18
+tp1989
+a(S'open browser'
+p1990
+g18
+tp1991
+a(S'am i free in a week'
+p1992
+g15
+tp1993
+a(S'can you make the beat higher'
+p1994
+g18
+tp1995
+a(S'is there anything to do on saturday'
+p1996
+g15
+tp1997
+a(S'make the tunez higher please'
+p1998
+g18
+tp1999
+a(S'make the sound higher please'
+p2000
+g18
+tp2001
+a(S'turn up the tunes'
+p2002
+g18
+tp2003
+a(S'check calendar on month'
+p2004
+g15
+tp2005
+a(S'shut down my computer'
+p2006
+g18
+tp2007
+a(S'spotify play last song please'
+p2008
+g18
+tp2009
+a(S'spotify pause please'
+p2010
+g18
+tp2011
+a(S'open dot org'
+p2012
+g18
+tp2013
+a(S'can you make the volume louder'
+p2014
+g18
+tp2015
+a(S'decrease the beat'
+p2016
+g18
+tp2017
+a(S"don't i have anything to do on wednesday"
+p2018
+g15
+tp2019
+a(S'what is on my calendar for tuesday'
+p2020
+g15
+tp2021
+a(S'turn the beat down'
+p2022
+g18
+tp2023
+a(S'make the tune softer'
+p2024
+g18
+tp2025
+a(S'check my calendar on thursday'
+p2026
+g15
+tp2027
+a(S'check google calendar on month'
+p2028
+g15
+tp2029
+a(S'can you please shut down the computer'
+p2030
+g18
+tp2031
+a(S'any events on tuesday'
+p2032
+g15
+tp2033
+a(S"don't i have anything to do on this day"
+p2034
+g15
+tp2035
+a(S"don't i have to do anything on sunday"
+p2036
+g15
+tp2037
+a(S'search google please'
+p2038
+g18
+tp2039
+a(S'play song'
+p2040
+g18
+tp2041
+a(S'spotify next'
+p2042
+g18
+tp2043
+a(S'start spotify please'
+p2044
+g18
+tp2045
+a(S'make the beat louder please'
+p2046
+g18
+tp2047
+a(S"don't i have anything tomorrow"
+p2048
+g15
+tp2049
+a(S'check events for this day'
+p2050
+g15
+tp2051
+a(S'are there any events on tomorrow'
+p2052
+g15
+tp2053
+a(S'what do i have on monday'
+p2054
+g15
+tp2055
+a(S'shutdown'
+p2056
+g18
+tp2057
+a(S'alice go ahead please'
+p2058
+g18
+tp2059
+a(S'check google calendar on monday'
+p2060
+g15
+tp2061
+a(S'please close this window'
+p2062
+g18
+tp2063
+a(S'is there anything to do on tuesday'
+p2064
+g15
+tp2065
+a(S'turn down the tunes please'
+p2066
+g18
+tp2067
+a(S'do i have anything on wednesday'
+p2068
+g15
+tp2069
+a(S'what events do i have'
+p2070
+g15
+tp2071
+a(S'can you please decrease the song'
+p2072
+g18
+tp2073
+a(S'turn the tunes up'
+p2074
+g18
+tp2075
+a(S'check google calendar for this week'
+p2076
+g15
+tp2077
+a(S'can you please increase the beat'
+p2078
+g18
+tp2079
+a(S'can you shut up'
+p2080
+g18
+tp2081
+a(S'can you make the tunes softer'
+p2082
+g18
+tp2083
+a(S'can you please decrease the tunez'
+p2084
+g18
+tp2085
+a(S'am i free for a month'
+p2086
+g15
+tp2087
+a(S'turn the tunes down please'
+p2088
+g18
+tp2089
+a(S'can you please make the sound lower'
+p2090
+g18
+tp2091
+a(S'is there anything i have to do on this day'
+p2092
+g15
+tp2093
+a(S'can you please turn down the tunez'
+p2094
+g18
+tp2095
+a(S'okay alex'
+p2096
+g18
+tp2097
+a(S'make the sound quieter'
+p2098
+g18
+tp2099
+a(S'can you please decrease the sound'
+p2100
+g18
+tp2101
+a(S'open dot gov'
+p2102
+g18
+tp2103
+a(S'please google search for'
+p2104
+g18
+tp2105
+a(S'bye alice'
+p2106
+g18
+tp2107
+a(S'can you please increase the tunes'
+p2108
+g18
+tp2109
+a(S'please pause the song'
+p2110
+g18
+tp2111
+a(S'is there anything to do on tomorrow'
+p2112
+g15
+tp2113
+a(S"don't i have anything to do tomorrow"
+p2114
+g15
+tp2115
+a(S"don't i have to do anything"
+p2116
+g15
+tp2117
+a(S'what do i have to do on saturday'
+p2118
+g15
+tp2119
+a(S'can you please turn the volume down'
+p2120
+g18
+tp2121
+a(S'can you make the beat quieter'
+p2122
+g18
+tp2123
+a(S'spotify pause'
+p2124
+g18
+tp2125
+a(S'can you turn up the sound'
+p2126
+g18
+tp2127
+a(S'check google calendar for tuesday'
+p2128
+g15
+tp2129
+a(S'start browser'
+p2130
+g18
+tp2131
+a(S'can you turn my computer off'
+p2132
+g18
+tp2133
+a(S'check events on saturday'
+p2134
+g15
+tp2135
+a(S'can you kill the window'
+p2136
+g18
+tp2137
+a(S'make the sound softer please'
+p2138
+g18
+tp2139
+a(S'can you please turn the sound down'
+p2140
+g18
+tp2141
+asS'classifier'
+p2142
+ccopy_reg
+_reconstructor
+p2143
+(csklearn.pipeline
+Pipeline
+p2144
+c__builtin__
+object
+p2145
+Ntp2146
+Rp2147
+(dp2148
+S'_sklearn_version'
+p2149
+S'0.18.1'
+p2150
+sS'steps'
+p2151
+(lp2152
+(S'vect'
+p2153
+g2143
+(csklearn.feature_extraction.text
+CountVectorizer
+p2154
+g2145
+Ntp2155
+Rp2156
+(dp2157
+S'decode_error'
+p2158
+Vstrict
+p2159
+sS'lowercase'
+p2160
+I01
+sS'stop_words'
+p2161
+NsS'vocabulary'
+p2162
+NsS'tokenizer'
+p2163
+NsS'encoding'
+p2164
+Vutf-8
+p2165
+sS'token_pattern'
+p2166
+V(?u)\u005cb\u005cw\u005cw+\u005cb
+p2167
+sS'input'
+p2168
+Vcontent
+p2169
+sS'analyzer'
+p2170
+Vword
+p2171
+sS'vocabulary_'
+p2172
+(dp2173
+Vmute
+p2174
+cnumpy.core.multiarray
+scalar
+p2175
+(cnumpy
+dtype
+p2176
+(S'i8'
+p2177
+I0
+I1
+tp2178
+Rp2179
+(I3
+S'<'
+p2180
+NNNI-1
+I-1
+I0
+tp2181
+bS'V\x00\x00\x00\x00\x00\x00\x00'
+p2182
+tp2183
+Rp2184
+sVskip
+p2185
+g2175
+(g2179
+S'|\x00\x00\x00\x00\x00\x00\x00'
+p2186
+tp2187
+Rp2188
+sVmonth
+p2189
+g2175
+(g2179
+S'T\x00\x00\x00\x00\x00\x00\x00'
+p2190
+tp2191
+Rp2192
+sVsofter
+p2193
+g2175
+(g2179
+S'}\x00\x00\x00\x00\x00\x00\x00'
+p2194
+tp2195
+Rp2196
+sVkill
+p2197
+g2175
+(g2179
+S'I\x00\x00\x00\x00\x00\x00\x00'
+p2198
+tp2199
+Rp2200
+sVedu
+p2201
+g2175
+(g2179
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p2202
+tp2203
+Rp2204
+sVgo
+p2205
+g2175
+(g2179
+S';\x00\x00\x00\x00\x00\x00\x00'
+p2206
+tp2207
+Rp2208
+sVprevious
+p2209
+g2175
+(g2179
+S'i\x00\x00\x00\x00\x00\x00\x00'
+p2210
+tp2211
+Rp2212
+sVspotify
+p2213
+g2175
+(g2179
+S'\x80\x00\x00\x00\x00\x00\x00\x00'
+p2214
+tp2215
+Rp2216
+sVpause
+p2217
+g2175
+(g2179
+S'c\x00\x00\x00\x00\x00\x00\x00'
+p2218
+tp2219
+Rp2220
+sVsend
+p2221
+g2175
+(g2179
+S'w\x00\x00\x00\x00\x00\x00\x00'
+p2222
+tp2223
+Rp2224
+sVto
+p2225
+g2175
+(g2179
+S'\x8d\x00\x00\x00\x00\x00\x00\x00'
+p2226
+tp2227
+Rp2228
+sVwindow
+p2229
+g2175
+(g2179
+S'\x9f\x00\x00\x00\x00\x00\x00\x00'
+p2230
+tp2231
+Rp2232
+sVprogram
+p2233
+g2175
+(g2179
+S'l\x00\x00\x00\x00\x00\x00\x00'
+p2234
+tp2235
+Rp2236
+sVbye
+p2237
+g2175
+(g2179
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p2238
+tp2239
+Rp2240
+sVdo
+p2241
+g2175
+(g2179
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p2242
+tp2243
+Rp2244
+sVpredict
+p2245
+g2175
+(g2179
+S'g\x00\x00\x00\x00\x00\x00\x00'
+p2246
+tp2247
+Rp2248
+sVgood
+p2249
+g2175
+(g2179
+S'<\x00\x00\x00\x00\x00\x00\x00'
+p2250
+tp2251
+Rp2252
+sVemergency
+p2253
+g2175
+(g2179
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p2254
+tp2255
+Rp2256
+sVsong
+p2257
+g2175
+(g2179
+S'~\x00\x00\x00\x00\x00\x00\x00'
+p2258
+tp2259
+Rp2260
+sVya
+p2261
+g2175
+(g2179
+S'\xa0\x00\x00\x00\x00\x00\x00\x00'
+p2262
+tp2263
+Rp2264
+sVmaterial
+p2265
+g2175
+(g2179
+S'P\x00\x00\x00\x00\x00\x00\x00'
+p2266
+tp2267
+Rp2268
+sVstop
+p2269
+g2175
+(g2179
+S'\x84\x00\x00\x00\x00\x00\x00\x00'
+p2270
+tp2271
+Rp2272
+sVusing
+p2273
+g2175
+(g2179
+S'\x98\x00\x00\x00\x00\x00\x00\x00'
+p2274
+tp2275
+Rp2276
+sVday
+p2277
+g2175
+(g2179
+S'!\x00\x00\x00\x00\x00\x00\x00'
+p2278
+tp2279
+Rp2280
+sVdreams
+p2281
+g2175
+(g2179
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p2282
+tp2283
+Rp2284
+sVshoulder
+p2285
+g2175
+(g2179
+S'x\x00\x00\x00\x00\x00\x00\x00'
+p2286
+tp2287
+Rp2288
+sVmoderate
+p2289
+g2175
+(g2179
+S'R\x00\x00\x00\x00\x00\x00\x00'
+p2290
+tp2291
+Rp2292
+sValex
+p2293
+g2175
+(g2179
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p2294
+tp2295
+Rp2296
+sVlike
+p2297
+g2175
+(g2179
+S'K\x00\x00\x00\x00\x00\x00\x00'
+p2298
+tp2299
+Rp2300
+sVgossips
+p2301
+g2175
+(g2179
+S'>\x00\x00\x00\x00\x00\x00\x00'
+p2302
+tp2303
+Rp2304
+sVdidn
+p2305
+g2175
+(g2179
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p2306
+tp2307
+Rp2308
+sVwednesday
+p2309
+g2175
+(g2179
+S'\x9b\x00\x00\x00\x00\x00\x00\x00'
+p2310
+tp2311
+Rp2312
+sVtry
+p2313
+g2175
+(g2179
+S'\x91\x00\x00\x00\x00\x00\x00\x00'
+p2314
+tp2315
+Rp2316
+sVtunez
+p2317
+g2175
+(g2179
+S'\x95\x00\x00\x00\x00\x00\x00\x00'
+p2318
+tp2319
+Rp2320
+sVnight
+p2321
+g2175
+(g2179
+S'[\x00\x00\x00\x00\x00\x00\x00'
+p2322
+tp2323
+Rp2324
+sVtunes
+p2325
+g2175
+(g2179
+S'\x94\x00\x00\x00\x00\x00\x00\x00'
+p2326
+tp2327
+Rp2328
+sVclassifier
+p2329
+g2175
+(g2179
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p2330
+tp2331
+Rp2332
+sVgoogle
+p2333
+g2175
+(g2179
+S'=\x00\x00\x00\x00\x00\x00\x00'
+p2334
+tp2335
+Rp2336
+sVee
+p2337
+g2175
+(g2179
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p2338
+tp2339
+Rp2340
+sVwe
+p2341
+g2175
+(g2179
+S'\x9a\x00\x00\x00\x00\x00\x00\x00'
+p2342
+tp2343
+Rp2344
+sValice
+p2345
+g2175
+(g2179
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p2346
+tp2347
+Rp2348
+sVsee
+p2349
+g2175
+(g2179
+S'v\x00\x00\x00\x00\x00\x00\x00'
+p2350
+tp2351
+Rp2352
+sVcomputer
+p2353
+g2175
+(g2179
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p2354
+tp2355
+Rp2356
+sVare
+p2357
+g2175
+(g2179
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p2358
+tp2359
+Rp2360
+sVclose
+p2361
+g2175
+(g2179
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p2362
+tp2363
+Rp2364
+sVcalendar
+p2365
+g2175
+(g2179
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p2366
+tp2367
+Rp2368
+sVextract
+p2369
+g2175
+(g2179
+S'5\x00\x00\x00\x00\x00\x00\x00'
+p2370
+tp2371
+Rp2372
+sVsaturday
+p2373
+g2175
+(g2179
+S's\x00\x00\x00\x00\x00\x00\x00'
+p2374
+tp2375
+Rp2376
+sVcategory
+p2377
+g2175
+(g2179
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p2378
+tp2379
+Rp2380
+sVwhat
+p2381
+g2175
+(g2179
+S'\x9d\x00\x00\x00\x00\x00\x00\x00'
+p2382
+tp2383
+Rp2384
+sVfor
+p2385
+g2175
+(g2179
+S'8\x00\x00\x00\x00\x00\x00\x00'
+p2386
+tp2387
+Rp2388
+sVplease
+p2389
+g2175
+(g2179
+S'e\x00\x00\x00\x00\x00\x00\x00'
+p2390
+tp2391
+Rp2392
+sVcell
+p2393
+g2175
+(g2179
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p2394
+tp2395
+Rp2396
+sVexit
+p2397
+g2175
+(g2179
+S'4\x00\x00\x00\x00\x00\x00\x00'
+p2398
+tp2399
+Rp2400
+sVabove
+p2401
+g2175
+(g2179
+S'\x00\x00\x00\x00\x00\x00\x00\x00'
+p2402
+tp2403
+Rp2404
+sVnew
+p2405
+g2175
+(g2179
+S'Y\x00\x00\x00\x00\x00\x00\x00'
+p2406
+tp2407
+Rp2408
+sVnet
+p2409
+g2175
+(g2179
+S'X\x00\x00\x00\x00\x00\x00\x00'
+p2410
+tp2411
+Rp2412
+sVgov
+p2413
+g2175
+(g2179
+S'?\x00\x00\x00\x00\x00\x00\x00'
+p2414
+tp2415
+Rp2416
+sVissue
+p2417
+g2175
+(g2179
+S'H\x00\x00\x00\x00\x00\x00\x00'
+p2418
+tp2419
+Rp2420
+sVshut
+p2421
+g2175
+(g2179
+S'y\x00\x00\x00\x00\x00\x00\x00'
+p2422
+tp2423
+Rp2424
+sVfriday
+p2425
+g2175
+(g2179
+S':\x00\x00\x00\x00\x00\x00\x00'
+p2426
+tp2427
+Rp2428
+sVscreen
+p2429
+g2175
+(g2179
+S't\x00\x00\x00\x00\x00\x00\x00'
+p2430
+tp2431
+Rp2432
+sVdictates
+p2433
+g2175
+(g2179
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p2434
+tp2435
+Rp2436
+sVfree
+p2437
+g2175
+(g2179
+S'9\x00\x00\x00\x00\x00\x00\x00'
+p2438
+tp2439
+Rp2440
+sVillustration
+p2441
+g2175
+(g2179
+S'D\x00\x00\x00\x00\x00\x00\x00'
+p2442
+tp2443
+Rp2444
+sVactive
+p2445
+g2175
+(g2179
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p2446
+tp2447
+Rp2448
+sVorg
+p2449
+g2175
+(g2179
+S'a\x00\x00\x00\x00\x00\x00\x00'
+p2450
+tp2451
+Rp2452
+sVpost
+p2453
+g2175
+(g2179
+S'f\x00\x00\x00\x00\x00\x00\x00'
+p2454
+tp2455
+Rp2456
+sVon
+p2457
+g2175
+(g2179
+S'_\x00\x00\x00\x00\x00\x00\x00'
+p2458
+tp2459
+Rp2460
+sVsearch
+p2461
+g2175
+(g2179
+S'u\x00\x00\x00\x00\x00\x00\x00'
+p2462
+tp2463
+Rp2464
+sVlast
+p2465
+g2175
+(g2179
+S'J\x00\x00\x00\x00\x00\x00\x00'
+p2466
+tp2467
+Rp2468
+sVanything
+p2469
+g2175
+(g2179
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p2470
+tp2471
+Rp2472
+sVof
+p2473
+g2175
+(g2179
+S'\\\x00\x00\x00\x00\x00\x00\x00'
+p2474
+tp2475
+Rp2476
+sVcurrent
+p2477
+g2175
+(g2179
+S' \x00\x00\x00\x00\x00\x00\x00'
+p2478
+tp2479
+Rp2480
+sVturn
+p2481
+g2175
+(g2179
+S'\x96\x00\x00\x00\x00\x00\x00\x00'
+p2482
+tp2483
+Rp2484
+sVbrowsing
+p2485
+g2175
+(g2179
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p2486
+tp2487
+Rp2488
+sVcom
+p2489
+g2175
+(g2179
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p2490
+tp2491
+Rp2492
+sVthink
+p2493
+g2175
+(g2179
+S'\x8a\x00\x00\x00\x00\x00\x00\x00'
+p2494
+tp2495
+Rp2496
+sVsake
+p2497
+g2175
+(g2179
+S'q\x00\x00\x00\x00\x00\x00\x00'
+p2498
+tp2499
+Rp2500
+sVthis
+p2501
+g2175
+(g2179
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+p2502
+tp2503
+Rp2504
+sVfeatures
+p2505
+g2175
+(g2179
+S'7\x00\x00\x00\x00\x00\x00\x00'
+p2506
+tp2507
+Rp2508
+sVsimple
+p2509
+g2175
+(g2179
+S'{\x00\x00\x00\x00\x00\x00\x00'
+p2510
+tp2511
+Rp2512
+sVsweet
+p2513
+g2175
+(g2179
+S'\x86\x00\x00\x00\x00\x00\x00\x00'
+p2514
+tp2515
+Rp2516
+sVtuesday
+p2517
+g2175
+(g2179
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
+p2518
+tp2519
+Rp2520
+sVyourself
+p2521
+g2175
+(g2179
+S'\xa2\x00\x00\x00\x00\x00\x00\x00'
+p2522
+tp2523
+Rp2524
+sVdown
+p2525
+g2175
+(g2179
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p2526
+tp2527
+Rp2528
+sVput
+p2529
+g2175
+(g2179
+S'm\x00\x00\x00\x00\x00\x00\x00'
+p2530
+tp2531
+Rp2532
+sVdecrease
+p2533
+g2175
+(g2179
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p2534
+tp2535
+Rp2536
+sVthursday
+p2537
+g2175
+(g2179
+S'\x8c\x00\x00\x00\x00\x00\x00\x00'
+p2538
+tp2539
+Rp2540
+sVshutdown
+p2541
+g2175
+(g2179
+S'z\x00\x00\x00\x00\x00\x00\x00'
+p2542
+tp2543
+Rp2544
+sVopen
+p2545
+g2175
+(g2179
+S'`\x00\x00\x00\x00\x00\x00\x00'
+p2546
+tp2547
+Rp2548
+sVtomorrow
+p2549
+g2175
+(g2179
+S'\x8f\x00\x00\x00\x00\x00\x00\x00'
+p2550
+tp2551
+Rp2552
+sVaren
+p2553
+g2175
+(g2179
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p2554
+tp2555
+Rp2556
+sVdecent
+p2557
+g2175
+(g2179
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p2558
+tp2559
+Rp2560
+sVthere
+p2561
+g2175
+(g2179
+S'\x89\x00\x00\x00\x00\x00\x00\x00'
+p2562
+tp2563
+Rp2564
+sVquestion
+p2565
+g2175
+(g2179
+S'n\x00\x00\x00\x00\x00\x00\x00'
+p2566
+tp2567
+Rp2568
+sVhey
+p2569
+g2175
+(g2179
+S'B\x00\x00\x00\x00\x00\x00\x00'
+p2570
+tp2571
+Rp2572
+sVnext
+p2573
+g2175
+(g2179
+S'Z\x00\x00\x00\x00\x00\x00\x00'
+p2574
+tp2575
+Rp2576
+sVstart
+p2577
+g2175
+(g2179
+S'\x82\x00\x00\x00\x00\x00\x00\x00'
+p2578
+tp2579
+Rp2580
+sVmusic
+p2581
+g2175
+(g2179
+S'U\x00\x00\x00\x00\x00\x00\x00'
+p2582
+tp2583
+Rp2584
+sVdogs
+p2585
+g2175
+(g2179
+S'*\x00\x00\x00\x00\x00\x00\x00'
+p2586
+tp2587
+Rp2588
+sVtoday
+p2589
+g2175
+(g2179
+S'\x8e\x00\x00\x00\x00\x00\x00\x00'
+p2590
+tp2591
+Rp2592
+sVpretends
+p2593
+g2175
+(g2179
+S'h\x00\x00\x00\x00\x00\x00\x00'
+p2594
+tp2595
+Rp2596
+sVsound
+p2597
+g2175
+(g2179
+S'\x7f\x00\x00\x00\x00\x00\x00\x00'
+p2598
+tp2599
+Rp2600
+sVreleasing
+p2601
+g2175
+(g2179
+S'p\x00\x00\x00\x00\x00\x00\x00'
+p2602
+tp2603
+Rp2604
+sVcommands
+p2605
+g2175
+(g2179
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p2606
+tp2607
+Rp2608
+sVback
+p2609
+g2175
+(g2179
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p2610
+tp2611
+Rp2612
+sVvolume
+p2613
+g2175
+(g2179
+S'\x99\x00\x00\x00\x00\x00\x00\x00'
+p2614
+tp2615
+Rp2616
+sVtrain
+p2617
+g2175
+(g2179
+S'\x90\x00\x00\x00\x00\x00\x00\x00'
+p2618
+tp2619
+Rp2620
+sVstick
+p2621
+g2175
+(g2179
+S'\x83\x00\x00\x00\x00\x00\x00\x00'
+p2622
+tp2623
+Rp2624
+sVoff
+p2625
+g2175
+(g2179
+S']\x00\x00\x00\x00\x00\x00\x00'
+p2626
+tp2627
+Rp2628
+sVme
+p2629
+g2175
+(g2179
+S'Q\x00\x00\x00\x00\x00\x00\x00'
+p2630
+tp2631
+Rp2632
+sVahead
+p2633
+g2175
+(g2179
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p2634
+tp2635
+Rp2636
+sVdefault
+p2637
+g2175
+(g2179
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p2638
+tp2639
+Rp2640
+sVup
+p2641
+g2175
+(g2179
+S'\x97\x00\x00\x00\x00\x00\x00\x00'
+p2642
+tp2643
+Rp2644
+sVwill
+p2645
+g2175
+(g2179
+S'\x9e\x00\x00\x00\x00\x00\x00\x00'
+p2646
+tp2647
+Rp2648
+sVlouder
+p2649
+g2175
+(g2179
+S'M\x00\x00\x00\x00\x00\x00\x00'
+p2650
+tp2651
+Rp2652
+sVcan
+p2653
+g2175
+(g2179
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p2654
+tp2655
+Rp2656
+sVproblem
+p2657
+g2175
+(g2179
+S'j\x00\x00\x00\x00\x00\x00\x00'
+p2658
+tp2659
+Rp2660
+sVoutcome
+p2661
+g2175
+(g2179
+S'b\x00\x00\x00\x00\x00\x00\x00'
+p2662
+tp2663
+Rp2664
+sVmy
+p2665
+g2175
+(g2179
+S'W\x00\x00\x00\x00\x00\x00\x00'
+p2666
+tp2667
+Rp2668
+sVdee
+p2669
+g2175
+(g2179
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p2670
+tp2671
+Rp2672
+sVbrowser
+p2673
+g2175
+(g2179
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p2674
+tp2675
+Rp2676
+sVbefore
+p2677
+g2175
+(g2179
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p2678
+tp2679
+Rp2680
+sValmost
+p2681
+g2175
+(g2179
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p2682
+tp2683
+Rp2684
+sVlock
+p2685
+g2175
+(g2179
+S'L\x00\x00\x00\x00\x00\x00\x00'
+p2686
+tp2687
+Rp2688
+sVis
+p2689
+g2175
+(g2179
+S'G\x00\x00\x00\x00\x00\x00\x00'
+p2690
+tp2691
+Rp2692
+sVin
+p2693
+g2175
+(g2179
+S'E\x00\x00\x00\x00\x00\x00\x00'
+p2694
+tp2695
+Rp2696
+sVam
+p2697
+g2175
+(g2179
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p2698
+tp2699
+Rp2700
+sVbackbone
+p2701
+g2175
+(g2179
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p2702
+tp2703
+Rp2704
+sVan
+p2705
+g2175
+(g2179
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p2706
+tp2707
+Rp2708
+sVhave
+p2709
+g2175
+(g2179
+S'A\x00\x00\x00\x00\x00\x00\x00'
+p2710
+tp2711
+Rp2712
+sVstalls
+p2713
+g2175
+(g2179
+S'\x81\x00\x00\x00\x00\x00\x00\x00'
+p2714
+tp2715
+Rp2716
+sVcheck
+p2717
+g2175
+(g2179
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p2718
+tp2719
+Rp2720
+sVquieter
+p2721
+g2175
+(g2179
+S'o\x00\x00\x00\x00\x00\x00\x00'
+p2722
+tp2723
+Rp2724
+sVmake
+p2725
+g2175
+(g2179
+S'O\x00\x00\x00\x00\x00\x00\x00'
+p2726
+tp2727
+Rp2728
+sVfeature
+p2729
+g2175
+(g2179
+S'6\x00\x00\x00\x00\x00\x00\x00'
+p2730
+tp2731
+Rp2732
+sVsame
+p2733
+g2175
+(g2179
+S'r\x00\x00\x00\x00\x00\x00\x00'
+p2734
+tp2735
+Rp2736
+sVany
+p2737
+g2175
+(g2179
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p2738
+tp2739
+Rp2740
+sVbeside
+p2741
+g2175
+(g2179
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p2742
+tp2743
+Rp2744
+sVbeat
+p2745
+g2175
+(g2179
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p2746
+tp2747
+Rp2748
+sVsunday
+p2749
+g2175
+(g2179
+S'\x85\x00\x00\x00\x00\x00\x00\x00'
+p2750
+tp2751
+Rp2752
+sVanswer
+p2753
+g2175
+(g2179
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p2754
+tp2755
+Rp2756
+sVyou
+p2757
+g2175
+(g2179
+S'\xa1\x00\x00\x00\x00\x00\x00\x00'
+p2758
+tp2759
+Rp2760
+sVdocument
+p2761
+g2175
+(g2179
+S')\x00\x00\x00\x00\x00\x00\x00'
+p2762
+tp2763
+Rp2764
+sVevents
+p2765
+g2175
+(g2179
+S'3\x00\x00\x00\x00\x00\x00\x00'
+p2766
+tp2767
+Rp2768
+sVhigher
+p2769
+g2175
+(g2179
+S'C\x00\x00\x00\x00\x00\x00\x00'
+p2770
+tp2771
+Rp2772
+sVweek
+p2773
+g2175
+(g2179
+S'\x9c\x00\x00\x00\x00\x00\x00\x00'
+p2774
+tp2775
+Rp2776
+sVplay
+p2777
+g2175
+(g2179
+S'd\x00\x00\x00\x00\x00\x00\x00'
+p2778
+tp2779
+Rp2780
+sVokay
+p2781
+g2175
+(g2179
+S'^\x00\x00\x00\x00\x00\x00\x00'
+p2782
+tp2783
+Rp2784
+sVmonday
+p2785
+g2175
+(g2179
+S'S\x00\x00\x00\x00\x00\x00\x00'
+p2786
+tp2787
+Rp2788
+sVearlier
+p2789
+g2175
+(g2179
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p2790
+tp2791
+Rp2792
+sVproblems
+p2793
+g2175
+(g2179
+S'k\x00\x00\x00\x00\x00\x00\x00'
+p2794
+tp2795
+Rp2796
+sVbyebye
+p2797
+g2175
+(g2179
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p2798
+tp2799
+Rp2800
+sVtune
+p2801
+g2175
+(g2179
+S'\x93\x00\x00\x00\x00\x00\x00\x00'
+p2802
+tp2803
+Rp2804
+sVgrief
+p2805
+g2175
+(g2179
+S'@\x00\x00\x00\x00\x00\x00\x00'
+p2806
+tp2807
+Rp2808
+sVlower
+p2809
+g2175
+(g2179
+S'N\x00\x00\x00\x00\x00\x00\x00'
+p2810
+tp2811
+Rp2812
+sVdon
+p2813
+g2175
+(g2179
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p2814
+tp2815
+Rp2816
+sVtale
+p2817
+g2175
+(g2179
+S'\x87\x00\x00\x00\x00\x00\x00\x00'
+p2818
+tp2819
+Rp2820
+sVthe
+p2821
+g2175
+(g2179
+S'\x88\x00\x00\x00\x00\x00\x00\x00'
+p2822
+tp2823
+Rp2824
+sVincrease
+p2825
+g2175
+(g2179
+S'F\x00\x00\x00\x00\x00\x00\x00'
+p2826
+tp2827
+Rp2828
+sVdot
+p2829
+g2175
+(g2179
+S',\x00\x00\x00\x00\x00\x00\x00'
+p2830
+tp2831
+Rp2832
+ssS'binary'
+p2833
+I00
+sS'ngram_range'
+p2834
+(I1
+I1
+tp2835
+sg2149
+g2150
+sS'max_df'
+p2836
+F1.0
+sS'min_df'
+p2837
+I1
+sS'max_features'
+p2838
+NsS'fixed_vocabulary_'
+p2839
+I00
+sS'strip_accents'
+p2840
+NsS'dtype'
+p2841
+cnumpy
+int64
+p2842
+sS'stop_words_'
+p2843
+c__builtin__
+set
+p2844
+((lp2845
+tp2846
+Rp2847
+sS'preprocessor'
+p2848
+Nsbtp2849
+a(S'tfidf'
+p2850
+g2143
+(csklearn.feature_extraction.text
+TfidfTransformer
+p2851
+g2145
+Ntp2852
+Rp2853
+(dp2854
+S'smooth_idf'
+p2855
+I01
+sg2149
+g2150
+sS'_idf_diag'
+p2856
+g2143
+(cscipy.sparse.csr
+csr_matrix
+p2857
+g2145
+Ntp2858
+Rp2859
+(dp2860
+S'indices'
+p2861
+cnumpy.core.multiarray
+_reconstruct
+p2862
+(cnumpy
+ndarray
+p2863
+(I0
+tp2864
+S'b'
+p2865
+tp2866
+Rp2867
+(I1
+(I163
+tp2868
+g2176
+(S'i4'
+p2869
+I0
+I1
+tp2870
+Rp2871
+(I3
+S'<'
+p2872
+NNNI-1
+I-1
+I0
+tp2873
+bI00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00'
+p2874
+tp2875
+bsS'indptr'
+p2876
+g2862
+(g2863
+(I0
+tp2877
+g2865
+tp2878
+Rp2879
+(I1
+(I164
+tp2880
+g2871
+I00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00'
+p2881
+tp2882
+bsS'maxprint'
+p2883
+I50
+sS'_shape'
+p2884
+(I163
+I163
+tp2885
+sg12
+g2862
+(g2863
+(I0
+tp2886
+g2865
+tp2887
+Rp2888
+(I1
+(I163
+tp2889
+g2176
+(S'f8'
+p2890
+I0
+I1
+tp2891
+Rp2892
+(I3
+S'<'
+p2893
+NNNI-1
+I-1
+I0
+tp2894
+bI00
+S'\xa8~MnH\x1b\x1d@\xd6!\x86\xb1\x05\x0c\x15@P/\xa0"t\x18\x18@j7n\x0e\x80U\x1a@@*m\xf2\x9eI\x16@\xa8~MnH\x1b\x1d@\x9e\x03+\xf2 \xb2\x12@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\x7fD\xc5\xe7\xb7=\x0e@\x81\x16\xf3\x0b\xd2\x86\n@\x9e\x03+\xf2 \xb2\x12@\x12\xe8\xc0\xc2\xabR\x15@P/\xa0"t\x18\x18@\xa8~MnH\x1b\x1d@\x14\xe1\xda\x12\x0b\xa7\x10@#\x85\x81/\x16|\x1b@#\x85\x81/\x16|\x1b@\xd6\xc6Eh\xf4h\x12@j7n\x0e\x80U\x1a@\xe5=\xa2\xcfM\xb6\x18@\xa8~MnH\x1b\x1d@\x05\x12^\x9a\xcaS\x0b@1\x04\xa9iW\xd0\x03@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xbf\xe1V6@:\n@\xa8~MnH\x1b\x1d@\x02\xe3\x8d\x92\xd6\x83\x13@\x99b1P\x00q\x19@\xa8~MnH\x1b\x1d@,\xb3\x04\x066\x8e\x0f@\xee\xa8\xafN\xef\xc9\x14@}\xe9\xc1S\xa4\xe4\x11@\xa8~MnH\x1b\x1d@}\xe9\xc1S\xa4\xe4\x11@#\x85\x81/\x16|\x1b@@*m\xf2\x9eI\x16@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xd2N\xb2"\xf4\xff\x07@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\x7fD\xc5\xe7\xb7=\x0e@\xd6!\x86\xb1\x05\x0c\x15@\xb8Eh\xde\x947\x0c@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@#\x85\x81/\x16|\x1b@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@&\xdfE\x83|\x86\t@\x99b1P\x00q\x19@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xf8\xa2h.\x1e\x14\x0b@\x9e\x03+\xf2 \xb2\x12@\xd6\xc6Eh\xf4h\x12@L\xff5\xd2\xef\x00\x13@j7n\x0e\x80U\x1a@\xba\x98\x13w\xd7O\x10@\xa8~MnH\x1b\x1d@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@\x13{%\x9c\xf0N\x07@#\x85\x81/\x16|\x1b@}\xe9\xc1S\xa4\xe4\x11@\xa8~MnH\x1b\x1d@\x12%Kk-T\x11@}\xe9\xc1S\xa4\xe4\x11@\xe0\x8c\x930\xa7\x1f\x11@\xa8~MnH\x1b\x1d@j\xaf\xe3\x0f\xbd*\x13@\xbd\xff\x93\xb8\x8e\x9e\x15@\xa8~MnH\x1b\x1d@\x80\xb8\xb4X\xc6\xd8\x12@}\xe9\xc1S\xa4\xe4\x11@}\xe9\xc1S\xa4\xe4\x11@\xb0\xaanGj\x1b\x07@\xa8~MnH\x1b\x1d@[\x1bR\xf07\xab\x16@\xa8~MnH\x1b\x1d@\xd6\xc6Eh\xf4h\x12@\xd6\xc6Eh\xf4h\x12@\x14\xe1\xda\x12\x0b\xa7\x10@\x99b1P\x00q\x19@T\'\xc1\x8d\x04\x02\r@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@P/\xa0"t\x18\x18@#\x85\x81/\x16|\x1b@#\x85\x81/\x16|\x1b@\x03\xcc\xa4\xa4c\xa8\x11@#\x85\x81/\x16|\x1b@\xaaP\x87\xc3\xeb\xfa\x03@\x9e\x03+\xf2 \xb2\x12@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@)\x86/\xed\xda\x8b\x14@\x12\xe8\xc0\xc2\xabR\x15@\xa1]\xefE\x87\xbc\x00@#\x85\x81/\x16|\x1b@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@P/\xa0"t\x18\x18@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\x99b1P\x00q\x19@\x99b1P\x00q\x19@\xa8~MnH\x1b\x1d@}\xe9\xc1S\xa4\xe4\x11@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xd6\xc6Eh\xf4h\x12@\xd6!\x86\xb1\x05\x0c\x15@\x02\xe3\x8d\x92\xd6\x83\x13@j7n\x0e\x80U\x1a@\xe5=\xa2\xcfM\xb6\x18@\xa8~MnH\x1b\x1d@\x03\xcc\xa4\xa4c\xa8\x11@)\x86/\xed\xda\x8b\x14@\xa8~MnH\x1b\x1d@\xe5=\xa2\xcfM\xb6\x18@}\xe9\xc1S\xa4\xe4\x11@C\x8bh\xa1\xbd\xb3\x0c@\x14\xe1\xda\x12\x0b\xa7\x10@\xc0x\x97$\xb1\xd8\x0f@\xa8~MnH\x1b\x1d@\x80\xb8\xb4X\xc6\xd8\x12@\xa8~MnH\x1b\x1d@aD\xd6\x90\x1b\x17\x17@\xd6\xc6Eh\xf4h\x12@#\x85\x81/\x16|\x1b@\xa8~MnH\x1b\x1d@q\x9c\xf5mG\xa5\xfe?!O74\xf9\xfe\x0f@\xa8~MnH\x1b\x1d@1\xff\xcc\x10XF\x0f@\xd6\xc6Eh\xf4h\x12@\x89B\xc8p\x03\x15\n@\xd6\xc6Eh\xf4h\x12@\xd6\xc6Eh\xf4h\x12@\xa8~MnH\x1b\x1d@\xa8~MnH\x1b\x1d@\xd6\xc6Eh\xf4h\x12@\x14\xe1\xda\x12\x0b\xa7\x10@\x14\xe1\xda\x12\x0b\xa7\x10@\x14\xe1\xda\x12\x0b\xa7\x10@G\t\xb2_\xcb\x83\x07@VV1a\xae\xe2\r@\xa8~MnH\x1b\x1d@\x14\xe1\xda\x12\x0b\xa7\x10@\xa8~MnH\x1b\x1d@\xd6\xc6Eh\xf4h\x12@\xd6\xc6Eh\xf4h\x12@\x7fD\xc5\xe7\xb7=\x0e@\xa8~MnH\x1b\x1d@P\xa7\x15$\xb1\xed\x10@#\x85\x81/\x16|\x1b@NL#k\xe7\xae\x03@\x99b1P\x00q\x19@'
+p2895
+tp2896
+bsbsS'use_idf'
+p2897
+I01
+sS'sublinear_tf'
+p2898
+I00
+sS'norm'
+p2899
+Vl2
+p2900
+sbtp2901
+a(S'clsfr'
+p2902
+g2143
+(csklearn.linear_model.stochastic_gradient
+SGDClassifier
+p2903
+g2145
+Ntp2904
+Rp2905
+(dp2906
+S't_'
+p2907
+F5316.0
+sS'n_jobs'
+p2908
+I1
+sS'shuffle'
+p2909
+I01
+sS'verbose'
+p2910
+I0
+sS'classes_'
+p2911
+g2862
+(g2863
+(I0
+tp2912
+g2865
+tp2913
+Rp2914
+(I1
+(I2
+tp2915
+g2176
+(S'S5'
+p2916
+I0
+I1
+tp2917
+Rp2918
+(I3
+S'|'
+p2919
+NNNI5
+I1
+I0
+tp2920
+bI00
+S'FalseTrue\x00'
+p2921
+tp2922
+bsS'class_weight'
+p2923
+NsS'fit_intercept'
+p2924
+I01
+sg8
+g9
+sS'random_state'
+p2925
+I42
+sg2149
+g2150
+sS'loss_function'
+p2926
+csklearn.linear_model.sgd_fast
+SquaredHinge
+p2927
+(F1.0
+tp2928
+Rp2929
+sS'C'
+p2930
+F1.0
+sg7
+I5
+sS'epsilon'
+p2931
+F0.1
+sS'learning_rate'
+p2932
+S'optimal'
+p2933
+sS'coef_'
+p2934
+g2862
+(g2863
+(I0
+tp2935
+g2865
+tp2936
+Rp2937
+(I1
+(I1
+I163
+tp2938
+g2892
+I00
+S'\xd0\xea\x89\x00\xed\xc0\xb5\xbf\xf5\x0b=!B\xec\xc1\xbfl\xbe\xce\xa5\xa1\xdb\xa2\xbfX~\xeb!\xa5\xcf\xcf\xbf\x03z\xd7\xba6\xe1\xd0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe4S\xff\x8dqc\xf3?\xff9\x83q\x08V\x87\xbf\xff9\x83q\x08V\x87\xbf3\x1b}\xcd\xcfc\xe1?\x08\x83c\x075\xd1\xf1?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0\xea\x89\x00\xed\xc0\xb5\xbf\x97\xd9=\x8fiY\x91\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xdd;\xe2o\xfb\xbd\xb4\xbf\x8e)\xe9i\xeb\xbe\xc8\xbf\r\x80V\'\x19G\x8d\xbf\xb6K\x9b;:3\xd2\xbf\x10\xa0\xb8\xd0\x10P\xc1\xbf\x90\x05\xb1%4\\\xf6?vQme <\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x81\xfc>>\x07&\t@\x00\x00\x00\x00\x00\x00\x00\x00\x16F\xba\xb2\xdc\x95\xcb\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd65\x08Kk?\xba\xbf\xc2\xe9\xc6f|n\xd0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x0b\xab\xeb\xc0*\xab\xd7?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0\xea\x89\x00\xed\xc0\xb5\xbf\xff9\x83q\x08V\x87\xbf\x83\xf4\xb2\x91Y\x13\xf1?\xcf\xfa\x1de\x1e\xb7\xbb\xbf\xb1J\xd2\x8br\xd4\xba\xbf\x8a\xb3"\xd3\x90Y\xe7?\x1a\x1aC\xb7|\n\xce\xbf\xf2\xe7\xd2C(\xe4\xae\xbf\x16\xa9\x911\x91(\xb9\xbf\xff9\x83q\x08V\x87\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00 \x9e\xcc\xd8\x901\xb1\xbf\x81t\x8a\xdb\xdat\x06@\xb1\xcf\xaeQ\x07\xab\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfc/~&C\x1c\xe5?\xe4S\xff\x8dqc\xf3?\x99|\xd8$\xe3I\xc2?\x88Z\xd8\x9cte\xd6\xbf(\x03\xe4m\xd8\xe6\xc0\xbf%2\x1b\x89\x0e7\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0\xea\x89\x00\xed\xc0\xb5\xbfzR\x96\x85\xc7\xb2\xf2?\xda\x1b\x82RBL\xae\xbf\x00\x00\x00\x00\x00\x00\x00\x00>\xe2\x039:\xad|\xbf2!&\x9c.\r\xe0?\x00\x00\x00\x00\x00\x00\x00\x00\x19\xfa\xa2\xd8\xd1\xc4\xee?\xd65\x08Kk?\xba\xbfFh\x93\x1c\x18\x8d\xab\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb1J\xd2\x8br\xd4\xba\xbf\x07\x89\xfeRM\x95\xce\xbf\xa5V/\xd7\x1a\xcc\x82\xbf\x00\x00\x00\x00\x00\x00\x00\x00u4\xae\xe2\xef\x99\xbe\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xa5\x9a\xf4\xfd\xfc\x9e\xb4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xee|\xdbQ%m\xc7?\x97\xca}\x90Z\xbe\xd9?\x00\x00\x00\x00\x00\x00\x00\x00\'\xa2a)\xb9e\xc7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xcf\xfa\x1de\x1e\xb7\xbb\xbf\x98\x01B\xa2\xf8\xe9\xd5\xbf\xb2\x00\x18\xe5\xa6@\xc0\xbf\xd1\xdd!v=_\xaf\xbf\xaaN\xa5\x9e^\xce\xca\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd6\xfb\xf0\xfa\xcch\xee?\x9b\xc98yZ2\xd2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xcf\xfa\x1de\x1e\xb7\xbb\xbf4\xe3\xdb+\x12q\xb0\xbfo\x8fo8`\x83\xca\xbf\xb8h\x9an-\xac\xf5\xbf\xd1\xdd!v=_\xaf\xbf\x97\x89\x06c\xad\xb3\xc5\xbf\x0b"c\xae\xbf\xf9\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>\xe2\x039:\xad|\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb6\xb8\xb4\xa0\xd9\xe1\xb5\xbf\xff9\x83q\x08V\x87\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>\xe2\x039:\xad|\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe3\xdb\xf0=\xaa\xde\xc3?|\xac`\x1c\x85\xeb\xb0\xbf$\x98 \x05Q\xee\x07\xc0O\x80(&k\x04\xc5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xbc=\xb1\xbd\xd5\xfe\xcb\xbf\x0cA\xba\x0f\xa5\xb8\xcb\xbf>\xe2\x039:\xad|\xbf\xe1\x90z\xaa\x06\xb5\xc7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xc9\xaf\x0b\nz9\xb8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb4\'\xd8W\xfd\x16\xd0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe5Y\xceE\x05\xd9\xcf\xbf>\xe2\x039:\xad|\xbf\xbb[?5\xbd\xb2\xca\xbfI\x90>!\xfe\xd4\xe6?\x16\xa9\x911\x91(\xb9\xbf\x0b"c\xae\xbf\xf9\xc6\xbf|\xa5R\xe4\xe0\xf2\xea\xbfO\xc2\xd3q\xb7\xd1\xd7?\xff9\x83q\x08V\x87\xbf,\x90\xbdZ\xee\xa8\xb2?N\xd1\xb3\xc0!\xa5\xce?G\xa6\x8a\xc54\x1d\xae?\xb7\xfb\x9a\xd7\x9bS\xd4?\x94\t\x8f\xb0?\x90\xd6?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x98\x0b\xd1\'7@\xc2?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc0&4s\xb9\xb2\xbc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00>\xe2\x039:\xad|\xbfv\xe1\xbb\xc8P\x7f\xc3?\x81QsA\x82\xba\xda?\x06\x95:6*:\xe9?\x00\x00\x00\x00\x00\x00\x00\x00\x9c\xa3\r\xed\xbd8\xd4\xbf\\\xee\xe4\xa23\xdd\xb5\xbf\xff\x89\xa9\xe3\xf1y\xcd\xbf\x00\x00\x00\x00\x00\x00\x00\x00'
+p2939
+tp2940
+bsg11
+F0.001
+sS'intercept_'
+p2941
+g2862
+(g2863
+(I0
+tp2942
+g2865
+tp2943
+Rp2944
+(I1
+(I1
+tp2945
+g2892
+I00
+S'\xdb`\xee\xd6\x9c\xde\xe6\xbf'
+p2946
+tp2947
+bsS'_expanded_class_weight'
+p2948
+g2862
+(g2863
+(I0
+tp2949
+g2865
+tp2950
+Rp2951
+(I1
+(I2
+tp2952
+g2892
+I00
+S'\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?'
+p2953
+tp2954
+bsS'warm_start'
+p2955
+I00
+sg2
+g3
+sS'eta0'
+p2956
+F0.0
+sS'l1_ratio'
+p2957
+F0.15
+sS'average'
+p2958
+I00
+sS'power_t'
+p2959
+F0.5
+sbtp2960
+asbsb.

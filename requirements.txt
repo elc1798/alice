@@ -1,7 +1,9 @@
-numpy
-sklearn
+google-api-python-client
 matplotlib
+numpy
+oauth2client
 pandas
 scipy
+sklearn
 spacy
 fbchat

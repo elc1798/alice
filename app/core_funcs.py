@@ -1,6 +1,7 @@
 import os, sys
 import urllib
 import commands as COMMANDS
+from services import google as goog
 
 class CommandActuator:
 
@@ -14,7 +15,8 @@ class CommandActuator:
             "VOLUME_CONTROL.model" : self.volume,
             "LOCK_COMPUTER.model" : self.lock,
             "OPEN_WEB_BROWSER.model" : self.open_web_browser,
-            "GOOGLE_SEARCH.model" : self.google_search
+            "GOOGLE_SEARCH.model" : self.google_search,
+            "GOOGLE_CALENDAR_SHOW_EVENTS.model" : self.google_calendar_show_events,
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -76,6 +78,9 @@ class CommandActuator:
         s = s.lstrip(' ').replace("'", "\\'").replace("\"", "\\\"")
         site = CommandActuator.GOOGLE_QUERY_URL % (s.replace(" ", "+"),)
         os.system(COMMANDS.OPEN_WEB_BROWSER % (site,))
+
+    def google_calendar_show_events(self, s):
+        goog.ShowEvents(s)
 
 class DummyActuator:
     def __init__(self, talk=True):
