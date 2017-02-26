@@ -66,13 +66,13 @@ class CommandActuator:
 
     def get_news(self, s):
         url = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=3ca58b6ade8f4fc69988ed4d497a5d79"
-        jstr = urllib2.urlopen(url).read()  
+        jstr = urllib2.urlopen(url).read()
         ts = json.loads( jstr )
         for i in range(2,10):
             headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
             headline = ''.join([i if ord(i) < 128 else ' ' for i in headline])
             print headline
-            os.system(COMMANDS.NEWS_SAY % headline)
+            os.system(COMMANDS.DISPLAY_NOTIFICATION % (headline,))
 
     def open_web_browser(self, s):
         command = s.split(" dot ")
@@ -121,7 +121,6 @@ class CommandActuator:
         goog.ListMail(s)
 
     def get_time(self, s):
-
         hour = (int(datetime.now().strftime('%H')) / 12)
         minutes = datetime.now().strftime('%M')
         is_morning = (hour % 12) == 0
