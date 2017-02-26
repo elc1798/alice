@@ -95,7 +95,8 @@ class CommandActuator:
         command = s.split(" dot ")
         site = command[0].split(" ")[-1]
         top_level_domain = command[-1]
-        if top_level_domain is not None or not top_level_domain:
+        if top_level_domain is None:
+        #if top_level_domain is not None or not top_level_domain:
             top_level_domain = "com"
         second_level_domain = site + "." + top_level_domain
         os.system(COMMANDS.OPEN_WEB_BROWSER % (second_level_domain,))
