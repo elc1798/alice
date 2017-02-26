@@ -48,3 +48,12 @@ sentient AI that truly mimics human-ness.
 I know :( If you want to make any improvements / fixes, make a pull request
 please!
 
+### Ubuntu Notifications are broken...
+
+Replace them with the default Gnome Notification Daemon:
+
+1. Install notification-deamon (`sudo apt-get install notification-deamon`)
+2. Open `/usr/share/dbus-1/services/org.freedesktop.Notifications.service` (Youcan backup this file if you plan to return to notify-osd later)
+3. Change the 'Exec' line to `Exec = /usr/lib/notification-daemon/notification-daemon`
+4. Save the file and restart computer
+

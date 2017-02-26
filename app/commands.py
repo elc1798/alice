@@ -5,7 +5,7 @@ SAY = "spd-say -w -t child_female -p +50 \"%s\""
 OPEN_FILE_BROWSER = "nautilus ~ &"
 VOLUME_CONTROL = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
 OPEN_WEB_BROWSER = "sensible-browser \"%s\" 2>&1 /dev/null &"
-DISPLAY_NOTIFICATION = "notify-send --urgency=critical -t 2000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
+DISPLAY_NOTIFICATION = "notify-send --urgency=critical --expire-time=5000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
 SPOTIFY_PLAY = None
 SPOTIFY_PAUSE = None
 SPOTIFY_NEXT_SONG = None
