@@ -155,23 +155,40 @@ class VolumeController:
 
     def __init__(self, volume_ordinal_scale_model):
         self.model = volume_ordinal_scale_model
+        self.volume_before_mute = self.get_current_volume()
+
+    def get_current_volume(self):
+        if sys.platform.startswith("linux"):
+            s = subprocess.check_output(COMMANDS.VOLUME_GET.split(" ")).strip().split("\n")
+            matches = __import__("re").search(r"\[([A-Za-z0-9_%]+)\]", s[-2])
+            return int(matches.group(1)[:-1])
+        elif sys.playform.startwith("darwin"):
+            s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
+            return int(s.split(", ")[0].split(":")[1])
+        else:
+            return -1
 
     def perform_action(self, sentence):
         myid = self.model.rate(sentence)
         modifier = ""
-        num = 0 if myid == 0 else 5
+        num = 5
 
-        if myid == 1:
+        if myid == 0:
+            if self.get_current_volume() != 0:
+                self.volume_before_mute = self.get_current_volume()
+            num = 0
+        elif myid == 1:
             modifier = "-"
         elif myid == 2:
             modifier = "+"
+        elif myid == 3:
+            modifier = ""
+            num = self.volume_before_mute
 
         if sys.platform == "darwin":
             modifier = ""
             # Find the current volume and calculates a lower and higher volume
-            current_volume  = "osascript -e 'get volume settings' | cut -d':' -f2 | cut -d',' -f1"
-            s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
-            num = int(s.split(", ")[0].split(":")[1])
+            num = self.get_current_volume()
             # Janky Mac OS: Get volume gives 0-100, but set volume must be
             # between 0 and 10???? wtf Apple?
             num = (num / 10)
@@ -183,6 +200,4 @@ class VolumeController:
                 num += 1
 
         os.system(COMMANDS.VOLUME_CONTROL % (num, modifier))
-
-
 

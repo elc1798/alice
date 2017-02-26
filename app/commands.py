@@ -4,6 +4,7 @@ LOCK = "gnome-screensaver-command -l"
 SAY = "spd-say -w -t child_female -p +50 \"%s\""
 OPEN_FILE_BROWSER = "nautilus ~ &"
 VOLUME_CONTROL = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
+VOLUME_GET = "amixer -D pulse get Master"
 OPEN_WEB_BROWSER = "sensible-browser \"%s\" 2>&1 /dev/null &"
 DISPLAY_NOTIFICATION = "notify-send --urgency=critical --expire-time=5000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
 SPOTIFY_PLAY = None
@@ -29,4 +30,5 @@ if sys.platform == "darwin":
     # The second %s is for compatibility purposes. It will always be
     # substituted with an empty string
     VOLUME_CONTROL = "osascript -e 'set volume  \"%d\"'%s"
+    VOLUME_GET = "osascript -e 'get volume settings'"
 
