@@ -19,6 +19,7 @@ class CommandActuator:
             "OPEN_WEB_BROWSER.model" : self.open_web_browser,
             "GOOGLE_SEARCH.model" : self.google_search,
             "GOOGLE_CALENDAR_SHOW_EVENTS.model" : self.google_calendar_show_events,
+            "GET_TIME.model" : self.get_time
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -54,7 +55,7 @@ class CommandActuator:
                 t = (5, "-")
             os.system(COMMANDS.VOLUME_CONTROL % t)
         else:
-            volume_controller.adjust(s)
+            self.volume_controller.adjust(s)
 
     def lock(self, s):
         os.system(COMMANDS.LOCK)
@@ -85,7 +86,21 @@ class CommandActuator:
         goog.ShowEvents(s)
 
     def get_time(self, s):
-        datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+        hour = (datetime.now().strftime('%H') / 12)
+        minutes = datetime.now().strftime('%M')
+        isMorning = (hour % 12) == 0
+
+        curr_time = hour + " " + minutes
+        if (isMorning) :
+            curr_time += "A.M."
+        else :
+            curr_time += "P.M."
+
+        os.system(COMMANDS.SAY % (curr_time,))
+
+        curr_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:
     def __init__(self, talk=True):
