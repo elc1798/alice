@@ -35,11 +35,6 @@ please dont tell me the latest events
 how long can this data set get
 at this point i am writting random stuff 
 that should not call the function get news
-
-
-
-
-
 don't get news
 don't get the news
 don't get current news
@@ -50,7 +45,6 @@ don't get live newsfeed
 don't get news feed
 don't get live news feed
 don't get headlines
-
 don't find news
 don't find the news
 don't find current news
@@ -61,7 +55,6 @@ don't find live newsfeed
 don't find news feed
 don't find live news feed
 don't find headlines
-
 don't tell me news
 don't tell me the news
 don't tell me current news
@@ -72,7 +65,6 @@ don't tell me live newsfeed
 don't tell me news feed
 don't tell me live news feed
 don't tell me headlines
-
 what isn't news
 what isn't the news
 what isn't current news
@@ -83,7 +75,6 @@ what isn't live newsfeed
 what isn't news feed
 what isn't live news feed
 what isn't headlines
-
 what's not the news
 what's not the the news
 what's not the current news
@@ -94,7 +85,6 @@ what's not the live newsfeed
 what's not the news feed
 what's not the live news feed
 what's not the headlines
-
 what aren't the news
 what aren't the the news
 what aren't the current news
@@ -105,7 +95,6 @@ what aren't the live newsfeed
 what aren't the news feed
 what aren't the live news feed
 what aren't the headlines
-
 what're not the news
 what're not the the news
 what're not the current news
@@ -116,7 +105,6 @@ what're not the live newsfeed
 what're not the news feed
 what're not the live news feed
 what're not the headlines
-
 what's not in news
 what's not in the news
 what's not in current news
@@ -127,9 +115,8 @@ what's not in live newsfeed
 what's not in news feed
 what's not in live news feed
 what's not in headlines
-
 not today's news
-not today's current news 
+not today's current news
 not today's current events
 not today's live news
 not today's newsfeed
@@ -137,7 +124,6 @@ not today's live newsfeed
 not today's news feed
 not today's live news feed
 not today's headlines
-
 not news
 not the news
 not current news
@@ -148,7 +134,6 @@ not live newsfeed
 not news feed
 not live news feed
 not headlines
-
 don't gather the latest headlines please
 don't give me intel on current events
 don't give me intel
@@ -192,8 +177,6 @@ what isn't the news today
 what aren't the latest events 
 what events are going on right now
 what isn't in the news today
-
-
 not intel
 not intelligence report
 don't debrief me

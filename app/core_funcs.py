@@ -6,6 +6,7 @@ from services import google as goog
 import subprocess
 import urllib2
 import json
+import pyowm
 
 class CommandActuator:
 
@@ -24,7 +25,8 @@ class CommandActuator:
             "GOOGLE_CALENDAR_ADD_EVENT.model" : self.google_calendar_add_event,
             "GOOGLE_MAIL_LIST_MAIL.model" : self.google_mail_list_mail,
             "GET_TIME.model" : self.get_time,
-            "GET_NEWS.model" : self.get_news
+            "GET_NEWS.model" : self.get_news, 
+            "GET_WEATHER.model" : self.get_weather
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -69,11 +71,25 @@ class CommandActuator:
         url = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=3ca58b6ade8f4fc69988ed4d497a5d79"
         jstr = urllib2.urlopen(url).read()
         ts = json.loads( jstr )
-        for i in range(2,10):
+        for i in range(10):
             headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
             headline = ''.join([i if ord(i) < 128 else ' ' for i in headline])
             print headline
             os.system(COMMANDS.DISPLAY_NOTIFICATION % (headline,))
+
+    def get_weather(self,s):
+        f = urllib2.urlopen('http://freegeoip.net/json/')
+        json_string = f.read()
+        f.close()
+        location = json.loads(json_string)
+        location_city = location['city']
+        place = 'location[\'city\']' + ", " + location['country_code']
+        api_key = "70e52321050523bb149227183e2ec5e5"
+        owm = pyowm.OWM(api_key)
+        w = owm.weather_at_place(place).get_weather()
+        temp = (w.get_temperature('fahrenheit')['temp_max'] +w.get_temperature('fahrenheit')['temp_min']) / 2 
+        weather = "The weather today is " + str(temp) + " degrees fahrenheit"
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (weather,))
 
     def open_web_browser(self, s):
         command = s.split(" dot ")
@@ -143,16 +159,20 @@ class CommandActuator:
         goog.ListMail(s)
 
     def get_time(self, s):
-        hour = (int(datetime.now().strftime('%H')) / 12)
-        minutes = datetime.now().strftime('%M')
-        is_morning = (hour % 12) == 0
+        hour = datetime.now().hour
+        minutes = datetime.now().minute
+        is_morning = hour < 12
+        hour = (hour % 12)
+        if hour == 0:
+            hour = 12
 
-        curr_time = "" + hour + " " + minutes
-        if (is_morning) :
+        curr_time = "%d %d" % (hour, minutes)
+        if is_morning:
             curr_time += "A.M."
         else :
             curr_time += "P.M."
 
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (curr_time,))
         os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:
@@ -198,7 +218,7 @@ class VolumeController:
             return int(matches.group(1)[:-1])
         elif sys.platform.startswith("darwin"):
             s = subprocess.check_output(["osascript", "-e", 'get volume settings'])
-            return int(s.split(", ")[0].split(":")[1])
+            return int(s.split(", ")[0].split(":")[1]) / 10
         else:
             return -1
 
@@ -219,7 +239,7 @@ class VolumeController:
             modifier = ""
             num = self.volume_before_mute
 
-        if sys.platform == "darwin":
+        if sys.platform == "darwin" and myid != 3:
             modifier = ""
             # Find the current volume and calculates a lower and higher volume
             num = self.get_current_volume()
