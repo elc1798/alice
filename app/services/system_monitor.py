@@ -22,6 +22,7 @@ class CPUMonitor(Monitor):
 
     def __init__(self):
         self.running = False
+        self.warned = False
 
     def warn(self):
         truncated = "%d" % (int(self.current_cpu_usage),)
@@ -33,22 +34,53 @@ class CPUMonitor(Monitor):
         while self.running:
             self.current_cpu_usage = psutil.cpu_percent()
             if self.current_cpu_usage > CPUMonitor.threshold:
-                self.warn()
+                if not self.warned:
+                    self.warn()
+                    self.warned = True
+            else:
+                self.warned = False
             time.sleep(1)
 
     def stop(self):
         self.running = False
 
-if __name__ == "__main__":
-    cpu_mon = CPUMonitor()
-    cpu_mon.monitor()
-else:
-    monitor_threads = {}
-    cpu_mon = CPUMonitor()
+class MemoryMonitor(Monitor):
 
-    monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
+    message = "Your memory usage is %s percent"
+    threshold = 80
 
-    for thread in monitor_threads:
-        monitor_threads[thread].daemon = True
-        monitor_threads[thread].start()
+    def __init__(self):
+        self.running = False
+        self.warned = False
+
+    def warn(self):
+        truncated = "%d" % (int(self.current_mem_usage),)
+        message = MemoryMonitor.message % (truncated,)
+        os.system(COMMANDS.SAY % (message,))
+
+    def monitor(self):
+        self.running = True
+        while self.running:
+            self.current_mem_usage = psutil.virtual_memory()[2]
+            if self.current_mem_usage > MemoryMonitor.threshold:
+                if not self.warned:
+                    self.warn()
+                    self.warned = True
+            else:
+                self.warned = False
+            time.sleep(1)
+
+    def stop(self):
+        self.running = False
+
+monitor_threads = {}
+cpu_mon = CPUMonitor()
+mem_mon = MemoryMonitor()
+
+monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
+monitor_threads["mem_mon"] = threading.Thread(target=mem_mon.monitor)
+
+for thread in monitor_threads:
+    monitor_threads[thread].daemon = True
+    monitor_threads[thread].start()
 
