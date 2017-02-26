@@ -27,7 +27,7 @@ class CPUMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_cpu_usage),)
         message = CPUMonitor.message % (truncated,)
-        os.system(COMMANDS.SAY % (message,))
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -56,7 +56,7 @@ class MemoryMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_mem_usage),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.SAY % (message,))
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -86,7 +86,7 @@ class TempMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_temp),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.SAY % (message,))
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True

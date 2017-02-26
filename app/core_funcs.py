@@ -109,7 +109,7 @@ class SpotifyController:
 
     def __init__(self, spotify_ordinal_scale_model):
         self.model = spotify_ordinal_scale_model
-    
+
     def perform_action(self, sentence):
         myid = self.model.rate(sentence)
 
@@ -121,5 +121,5 @@ class SpotifyController:
             os.system(COMMANDS.SPOTIFY_NEXT_SONG)
         elif (myid == 3 and COMMANDS.SPOTIFY_LAST_SONG!= None):
             os.system(COMMANDS.SPOTIFY_LAST_SONG)
-            
+
 

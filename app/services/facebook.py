@@ -16,7 +16,7 @@ class FBListenerBot(fbchat.Client):
 
         if str(author_id) != str(self.uid):
             feedback = "%s said: %s" % (self.knownfriends[author_id], message)
-            os.system(COMMANDS.SAY % (feedback,))
+            os.system(COMMANDS.DISPLAY_NOTIFICATION % (feedback,))
 
 bot = FBListenerBot(str(raw_input("Username: ")), str(getpass.getpass()), debug=False)
 t = threading.Thread(target=bot.listen)
