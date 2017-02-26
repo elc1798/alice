@@ -114,11 +114,12 @@ class SpotifyController:
         myid = self.model.rate(sentence)
 
         if (myid == 0):
-            os.system(COMMANDS.SPOTIFY_PLAY_PAUSE)
-        # elif (myid == 1):
-
-        # elif (myid == 2):
-
-        # elif (myid == 3):
+            os.system(COMMANDS.SPOTIFY_PLAY)
+        elif (myid == 1):
+            os.system(COMMANDS.SPOTIFY_PAUSE)
+        elif (myid == 2):
+            os.system(COMMANDS.SPOTIFY_NEXT_SONG)
+        elif (myid == 3):
+            os.system(COMMANDS.SPOTIFY_LAST_SONG)
             
 
