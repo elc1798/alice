@@ -70,18 +70,21 @@ def cross_check_models(sentence):
     for model in models:
         if model.match(sentence):
             log("Matched with %s" % (model.name,))
-            if  model.name == "SPOTIFY.model":
-                spotify_controller.perform_action(sentence)
-            elif  model.name == "VOLUME_CONTROL.model":
-                volume_controller.perform_action(sentence)
-            elif matched == None:
-                matched = alice.command_mapping[model.name]
+            if matched == None:
+                matched = model.name
             else:
                 log("Error: MULTIPLE MATCHES")
                 return None
         else:
             log("Did not match with %s" % (model.name,), tolerance=2)
-    return None if matched == None else matched(sentence)
+    if matched == None:
+        return None
+    if matched == "SPOTIFY.model":
+        spotify_controller.perform_action(sentence)
+    elif matched == "VOLUME_CONTROL.model":
+        volume_controller.perform_action(sentence)
+    else:
+        alice.command_mapping[matched](sentence)
 
 def main():
     global use_voice
