@@ -121,16 +121,20 @@ class CommandActuator:
         goog.ListMail(s)
 
     def get_time(self, s):
-        hour = (int(datetime.now().strftime('%H')) / 12)
-        minutes = datetime.now().strftime('%M')
-        is_morning = (hour % 12) == 0
+        hour = datetime.now().hour
+        minutes = datetime.now().minute
+        is_morning = hour < 12
+        hour = (hour % 12)
+        if hour == 0:
+            hour = 12
 
-        curr_time = "" + hour + " " + minutes
-        if (is_morning) :
+        curr_time = "%d %d" % (hour, minutes)
+        if is_morning:
             curr_time += "A.M."
         else :
             curr_time += "P.M."
 
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (curr_time,))
         os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:
