@@ -31,7 +31,7 @@ def display_notification(service, num):
 
 def check_every_10_min():
     while True:
-        if datetime.now().minute == 47:
+        if datetime.now().minute == 0:
             apt_num = get_num_apt_upgrades()
             pip_num = get_num_pip_upgrades()
             if apt_num > 0:
