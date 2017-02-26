@@ -20,15 +20,14 @@ It can:
  - Change your volume.
  - Open your web browser and URLs
  - Monitor incoming Facebook Messenger messages
+ - Monitor CPU activity, memory usage, and temperatures
 
-### That's a pretty small list of features...
+### Please expand the list of features!
 
-I know... It's a hobby project that's fairly new and I don't have much time to
-work on it with school and stuff. The planned features are:
+The planned features are:
 
  - Opening files
  - Closing arbitrary windows that are open on your computer
- - Monitor CPU activity, memory usage, and temperatures
  - Run system commands that you tell it to
  - Google service integration
  - Monitoring and updating outdated packages
