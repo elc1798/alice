@@ -134,6 +134,8 @@ if __name__ == "__main__":
         with open(os.path.join("ordinal_scalers", trainee, "test.csv")) as csvfile:
             tests = csv.reader(csvfile)
             for test in tests:
+                if len(test) != 2:
+                    continue
                 num_tests += 1
                 res = str(model.rate(test[0]))
                 if res != test[1]:
@@ -155,6 +157,8 @@ if __name__ == "__main__":
         with open(os.path.join(trainee, "test.csv")) as csvfile:
             tests = csv.reader(csvfile)
             for test in tests:
+                if len(test) != 2:
+                    continue
                 num_tests += 1
                 res = str(model.match(test[0]))
                 if res != test[1]:
@@ -164,6 +168,8 @@ if __name__ == "__main__":
         with open(os.path.join(trainee, "true.txt")) as f:
             tests = f.read().strip().split("\n")
             for test in tests:
+                if len(test) != 2:
+                    continue
                 num_tests += 1
                 res = model.match(test)
                 if res != True:
@@ -173,6 +179,8 @@ if __name__ == "__main__":
         with open(os.path.join(trainee, "false.txt")) as f:
             tests = f.read().strip().split("\n")
             for test in tests:
+                if len(test) != 2:
+                    continue
                 num_tests += 1
                 res = model.match(test)
                 if res != False:
