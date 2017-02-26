@@ -159,7 +159,7 @@ class VolumeController:
     def perform_action(self, sentence):
         myid = self.model.rate(sentence)
         modifier = ""
-        num = 5
+        num = 0 if myid == 0 else 5
 
         if myid == 1:
             modifier = "-"
