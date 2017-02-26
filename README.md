@@ -1,6 +1,6 @@
 # Alice
 
-Digital Assistant for Linux, inspired by Cortana, Siri, Alexa, and Google Assistant
+Digital Assistant for Linux (and Mac!), inspired by Cortana, Siri, Alexa, and Google Assistant
 
 ### Why did I decide to do this?
 
@@ -18,6 +18,7 @@ It can:
  - Lock your computer
  - Close whatever window you have currently active
  - Change your volume.
+ - Control the music that's playing (Rhythmbox on Ubuntu, Spotify on Mac OSX)
  - Open your web browser and URLs
  - Monitor incoming Facebook Messenger messages
  - Monitor CPU activity, memory usage, and temperatures

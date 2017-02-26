@@ -7,10 +7,10 @@ VOLUME_CONTROL = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
 VOLUME_GET = "amixer -D pulse get Master"
 OPEN_WEB_BROWSER = "sensible-browser \"%s\" 2>&1 /dev/null &"
 DISPLAY_NOTIFICATION = "notify-send --urgency=critical --expire-time=5000 --icon=\"face-angel\" \"Alice - Digital Assistant\" \"%s\""
-SPOTIFY_PLAY = None
-SPOTIFY_PAUSE = None
-SPOTIFY_NEXT_SONG = None
-SPOTIFY_LAST_SONG = None
+SPOTIFY_PLAY = "rhythmbox-client --play"
+SPOTIFY_PAUSE = "rhythmbox-client --pause"
+SPOTIFY_NEXT_SONG = "rhythmbox-client --next"
+SPOTIFY_LAST_SONG = "rhythmbox-client --previous"
 
 import sys, os, subprocess
 
