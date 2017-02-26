@@ -3,6 +3,10 @@
 To install dependencies, you'll want to `pip install -r requirements.txt` and
 run `setup.sh`.
 
+You'll also need to make a directory in the root of the project called
+`API_KEYS` and put a file called `google_creds.json` with your Google
+credentials file inside (from the Google Developer Console)
+
 To create a new command and it's training library you have to do 4 major steps:
 
  - Create a folder in `training/` with the naming scheme `COMMAND_NAME_DATA`
