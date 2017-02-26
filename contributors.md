@@ -26,3 +26,5 @@
 ### Kyle Begovich
  - Plugin to check the current time
 
+### Alex Mackowiak
+ - Unmute command
