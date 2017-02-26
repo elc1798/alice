@@ -1,0 +1,6647 @@
+(ialicized_models
+CommandMatchingModel
+p0
+(dp1
+S'loss'
+p2
+S'squared_hinge'
+p3
+sS'grammar'
+p4
+NsS'name'
+p5
+S'GOOGLE_MAIL_LIST_MAIL.model'
+p6
+sS'n_iter'
+p7
+I5
+sS'penalty'
+p8
+S'elasticnet'
+p9
+sS'trained'
+p10
+I01
+sS'alpha'
+p11
+F0.001
+sS'data'
+p12
+(lp13
+(S'send me to the lock screen'
+p14
+S'False'
+p15
+tp16
+a(S'please get time'
+p17
+g15
+tp18
+a(S'kill the active window'
+p19
+g15
+tp20
+a(S'am i free for saturday'
+p21
+g15
+tp22
+a(S'could you open my inbox'
+p23
+S'True'
+p24
+tp25
+a(S"don't i have anything on this day"
+p26
+g15
+tp27
+a(S'do i have anything to do on this day'
+p28
+g15
+tp29
+a(S'please shut off'
+p30
+g15
+tp31
+a(S"don't i have anything on wednesday"
+p32
+g15
+tp33
+a(S'open inbox'
+p34
+g24
+tp35
+a(S'please would you open my mail'
+p36
+g24
+tp37
+a(S'am i free in a week'
+p38
+g15
+tp39
+a(S'google please for'
+p40
+g15
+tp41
+a(S'check calendar for wednesday'
+p42
+g15
+tp43
+a(S'please check new mail'
+p44
+g24
+tp45
+a(S'open mail please'
+p46
+g24
+tp47
+a(S'shut off my computer please'
+p48
+g15
+tp49
+a(S'am i free for a month'
+p50
+g15
+tp51
+a(S'please what is new in new gmail'
+p52
+g24
+tp53
+a(S'what is in my mail please'
+p54
+g24
+tp55
+a(S'put me on the lock screen'
+p56
+g15
+tp57
+a(S'what do i have on friday'
+p58
+g15
+tp59
+a(S'see ya alice'
+p60
+g15
+tp61
+a(S'what is new in gmail please'
+p62
+g24
+tp63
+a(S'am i free on thursday'
+p64
+g15
+tp65
+a(S'what is new in gmail'
+p66
+g24
+tp67
+a(S'get time'
+p68
+g15
+tp69
+a(S'can you lock my computer please'
+p70
+g15
+tp71
+a(S'can you lock computer'
+p72
+g15
+tp73
+a(S'please get the clock'
+p74
+g15
+tp75
+a(S'google for please'
+p76
+g15
+tp77
+a(S'check google calendar on this day'
+p78
+g15
+tp79
+a(S'are there any events on thursday'
+p80
+g15
+tp81
+a(S'please open a browser'
+p82
+g15
+tp83
+a(S'can you lock the screen'
+p84
+g15
+tp85
+a(S'would you open my inbox please'
+p86
+g24
+tp87
+a(S'do i have any events on today'
+p88
+g15
+tp89
+a(S'can you please close active window'
+p90
+g15
+tp91
+a(S'is there anything i have to do on saturday'
+p92
+g15
+tp93
+a(S'anything in my mail'
+p94
+g24
+tp95
+a(S'close active window'
+p96
+g15
+tp97
+a(S'can you please turn off my computer'
+p98
+g15
+tp99
+a(S'louder please'
+p100
+g15
+tp101
+a(S'google search'
+p102
+g15
+tp103
+a(S'good night alice'
+p104
+g15
+tp105
+a(S'please would you open my inbox'
+p106
+g24
+tp107
+a(S'is there anything i have to do on tomorrow'
+p108
+g15
+tp109
+a(S'check google calendar on tuesday'
+p110
+g15
+tp111
+a(S'is there anything i have to do in a month'
+p112
+g15
+tp113
+a(S'okay alex'
+p114
+g15
+tp115
+a(S"please what's new in new gmail"
+p116
+g24
+tp117
+a(S'could you open mail'
+p118
+g24
+tp119
+a(S'start a browser please'
+p120
+g15
+tp121
+a(S'make the sound quieter'
+p122
+g15
+tp123
+a(S'would you check new mail'
+p124
+g24
+tp125
+a(S'check my calendar on this day'
+p126
+g15
+tp127
+a(S'what is on my calendar for monday'
+p128
+g15
+tp129
+a(S'what events are on sunday'
+p130
+g15
+tp131
+a(S'check google calendar on month'
+p132
+g15
+tp133
+a(S'go spotify please'
+p134
+g15
+tp135
+a(S'check new gmail'
+p136
+g24
+tp137
+a(S'please check what time it is'
+p138
+g15
+tp139
+a(S'spotify pause please'
+p140
+g15
+tp141
+a(S'lower the tunez please'
+p142
+g15
+tp143
+a(S'shut down the computer'
+p144
+g15
+tp145
+a(S'please read the clock'
+p146
+g15
+tp147
+a(S'please will you check my gmail'
+p148
+g24
+tp149
+a(S'would you check new gmail please'
+p150
+g24
+tp151
+a(S'please start a default browser'
+p152
+g15
+tp153
+a(S'turn the sound down please'
+p154
+g15
+tp155
+a(S'please retrieve the time'
+p156
+g15
+tp157
+a(S'what do i have to do on today'
+p158
+g15
+tp159
+a(S'could you check mail please'
+p160
+g24
+tp161
+a(S'anything new in my gmail'
+p162
+g24
+tp163
+a(S'emergency shutdown'
+p164
+g15
+tp165
+a(S'google search for please'
+p166
+g15
+tp167
+a(S'alex'
+p168
+g15
+tp169
+a(S'please what is in my inbox'
+p170
+g24
+tp171
+a(S'what do i have on thursday'
+p172
+g15
+tp173
+a(S'read the clock please'
+p174
+g15
+tp175
+a(S'please google'
+p176
+g15
+tp177
+a(S'get me the clock'
+p178
+g15
+tp179
+a(S"don't i have to do anything on saturday"
+p180
+g15
+tp181
+a(S'can you kill this window'
+p182
+g15
+tp183
+a(S'am i free on wednesday'
+p184
+g15
+tp185
+a(S"don't i have anything"
+p186
+g15
+tp187
+a(S"what's in my gmail"
+p188
+g24
+tp189
+a(S'please retrieve what time it is'
+p190
+g15
+tp191
+a(S'sweet dreams'
+p192
+g15
+tp193
+a(S'check calendar on monday'
+p194
+g15
+tp195
+a(S'please what is new in inbox'
+p196
+g24
+tp197
+a(S'turn up the beat please'
+p198
+g15
+tp199
+a(S'bye bye alice'
+p200
+g15
+tp201
+a(S"don't i have to do anything on wednesday"
+p202
+g15
+tp203
+a(S'can you please turn up the beat'
+p204
+g15
+tp205
+a(S'what is in gmail please'
+p206
+g24
+tp207
+a(S'please pause spotify'
+p208
+g15
+tp209
+a(S'check google calendar on wednesday'
+p210
+g15
+tp211
+a(S'am i free for sunday'
+p212
+g15
+tp213
+a(S'check calendar on sunday'
+p214
+g15
+tp215
+a(S'what is in gmail'
+p216
+g24
+tp217
+a(S'will you check my gmail'
+p218
+g24
+tp219
+a(S'would you open my gmail'
+p220
+g24
+tp221
+a(S'turn off my computer please'
+p222
+g15
+tp223
+a(S'please read me the clock'
+p224
+g15
+tp225
+a(S'will you open my gmail please'
+p226
+g24
+tp227
+a(S'what do i have on tuesday'
+p228
+g15
+tp229
+a(S'make the volume 0'
+p230
+g15
+tp231
+a(S'please go to dot com'
+p232
+g15
+tp233
+a(S"aren't there any events on today"
+p234
+g15
+tp235
+a(S'read your watch'
+p236
+g15
+tp237
+a(S'open gmail'
+p238
+g24
+tp239
+a(S'open default browser'
+p240
+g15
+tp241
+a(S'do i have anything to do in a week'
+p242
+g15
+tp243
+a(S'check my calendar on tomorrow'
+p244
+g15
+tp245
+a(S'can you check gmail'
+p246
+g24
+tp247
+a(S"what's new in gmail please"
+p248
+g24
+tp249
+a(S'start spotify please'
+p250
+g15
+tp251
+a(S"don't i have to do anything in a week"
+p252
+g15
+tp253
+a(S'do i have any events on saturday'
+p254
+g15
+tp255
+a(S'spotify go to the last song'
+p256
+g15
+tp257
+a(S'will you open inbox'
+p258
+g24
+tp259
+a(S'check the clock right now'
+p260
+g15
+tp261
+a(S'check google calendar for'
+p262
+g15
+tp263
+a(S'is there anything to do on sunday'
+p264
+g15
+tp265
+a(S'start browsing please'
+p266
+g15
+tp267
+a(S'please kill this window'
+p268
+g15
+tp269
+a(S'what is on my calendar for this week'
+p270
+g15
+tp271
+a(S'open dot edu'
+p272
+g15
+tp273
+a(S'any events on monday'
+p274
+g15
+tp275
+a(S'please start browsing'
+p276
+g15
+tp277
+a(S'please could you open mail'
+p278
+g24
+tp279
+a(S'turn yourself off'
+p280
+g15
+tp281
+a(S'check my calendar on sunday'
+p282
+g15
+tp283
+a(S'will you check my inbox please'
+p284
+g24
+tp285
+a(S'please will you check inbox'
+p286
+g24
+tp287
+a(S'do i have any events on thursday'
+p288
+g15
+tp289
+a(S'can you lock my computer please'
+p290
+g15
+tp291
+a(S'please what is new in my gmail'
+p292
+g24
+tp293
+a(S'will you open a browser'
+p294
+g15
+tp295
+a(S'please can you make it louder'
+p296
+g15
+tp297
+a(S"please what's new in my inbox"
+p298
+g24
+tp299
+a(S"please what's in my inbox"
+p300
+g24
+tp301
+a(S'shut up'
+p302
+g15
+tp303
+a(S"what's in inbox please"
+p304
+g24
+tp305
+a(S'start default browser please'
+p306
+g15
+tp307
+a(S'check events on'
+p308
+g15
+tp309
+a(S'are there any events on tomorrow'
+p310
+g15
+tp311
+a(S'could you check my inbox please'
+p312
+g24
+tp313
+a(S'turn off the computer please'
+p314
+g15
+tp315
+a(S'check events for monday'
+p316
+g15
+tp317
+a(S'what events do i have on wednesday'
+p318
+g15
+tp319
+a(S'turn up the volume'
+p320
+g15
+tp321
+a(S"don't i have any events in a week"
+p322
+g15
+tp323
+a(S"don't i have any events on wednesday"
+p324
+g15
+tp325
+a(S'can you shut my computer down'
+p326
+g15
+tp327
+a(S'volume higher please'
+p328
+g15
+tp329
+a(S'check google calendar on saturday'
+p330
+g15
+tp331
+a(S'any events'
+p332
+g15
+tp333
+a(S'retrieve the current time please'
+p334
+g15
+tp335
+a(S'am i free on this day'
+p336
+g15
+tp337
+a(S'go ahead spotify please'
+p338
+g15
+tp339
+a(S'could you open inbox'
+p340
+g24
+tp341
+a(S'is there anything to do in a week'
+p342
+g15
+tp343
+a(S'retrieve the time'
+p344
+g15
+tp345
+a(S'please shut down'
+p346
+g15
+tp347
+a(S'please could you check gmail'
+p348
+g24
+tp349
+a(S'check what time it is please'
+p350
+g15
+tp351
+a(S'can you turn up the beat'
+p352
+g15
+tp353
+a(S'what is in my inbox please'
+p354
+g24
+tp355
+a(S'lower the volume'
+p356
+g15
+tp357
+a(S'anything new in inbox'
+p358
+g24
+tp359
+a(S'will you check new mail please'
+p360
+g24
+tp361
+a(S'check my mail'
+p362
+g24
+tp363
+a(S'last song please'
+p364
+g15
+tp365
+a(S'turn off'
+p366
+g15
+tp367
+a(S"don't i have anything on tuesday"
+p368
+g15
+tp369
+a(S'what events do i have on saturday'
+p370
+g15
+tp371
+a(S'am i free for this day'
+p372
+g15
+tp373
+a(S'please close the current window'
+p374
+g15
+tp375
+a(S'please get the time'
+p376
+g15
+tp377
+a(S'check gmail please'
+p378
+g24
+tp379
+a(S'time please'
+p380
+g15
+tp381
+a(S'get the clock please'
+p382
+g15
+tp383
+a(S'can you turn up the tune'
+p384
+g15
+tp385
+a(S'please will you open gmail'
+p386
+g24
+tp387
+a(S'would you open mail'
+p388
+g24
+tp389
+a(S'turn down the volume'
+p390
+g15
+tp391
+a(S'can you check my gmail please'
+p392
+g24
+tp393
+a(S'please could you check my mail'
+p394
+g24
+tp395
+a(S'is there anything i have to do on sunday'
+p396
+g15
+tp397
+a(S"what's new in my inbox please"
+p398
+g24
+tp399
+a(S'can you make it louder please'
+p400
+g15
+tp401
+a(S'please louder'
+p402
+g15
+tp403
+a(S'am i free for friday'
+p404
+g15
+tp405
+a(S'please spotify play previous song'
+p406
+g15
+tp407
+a(S'what is on my calendar for sunday'
+p408
+g15
+tp409
+a(S'do i have anything in a month'
+p410
+g15
+tp411
+a(S'do i have anything to do today'
+p412
+g15
+tp413
+a(S'please would you check my gmail'
+p414
+g24
+tp415
+a(S'okay alice'
+p416
+g15
+tp417
+a(S'check my calendar on today'
+p418
+g15
+tp419
+a(S"don't i have to do anything on thursday"
+p420
+g15
+tp421
+a(S'please spotify go '
+p422
+g15
+tp423
+a(S'please could you open gmail'
+p424
+g24
+tp425
+a(S'check calendar for monday'
+p426
+g15
+tp427
+a(S'get time please'
+p428
+g15
+tp429
+a(S'can you please open a browser'
+p430
+g15
+tp431
+a(S'please check inbox'
+p432
+g24
+tp433
+a(S'what is on my calendar'
+p434
+g15
+tp435
+a(S"what's new in my inbox"
+p436
+g24
+tp437
+a(S'retrieve what time it is'
+p438
+g15
+tp439
+a(S'check calendar on thursday'
+p440
+g15
+tp441
+a(S'can you mute'
+p442
+g15
+tp443
+a(S'spotify shut up'
+p444
+g15
+tp445
+a(S'would you open gmail please'
+p446
+g24
+tp447
+a(S"don't i have anything on saturday"
+p448
+g15
+tp449
+a(S'turn up the sound'
+p450
+g15
+tp451
+a(S'what is in new gmail please'
+p452
+g24
+tp453
+a(S"aren't there any events in a month"
+p454
+g15
+tp455
+a(S'will you check my mail'
+p456
+g24
+tp457
+a(S"what's the time"
+p458
+g15
+tp459
+a(S'can you please close this window'
+p460
+g15
+tp461
+a(S'what is new in inbox'
+p462
+g24
+tp463
+a(S'what is new in my mail please'
+p464
+g24
+tp465
+a(S'please would you check my inbox'
+p466
+g24
+tp467
+a(S'check my calendar for sunday'
+p468
+g15
+tp469
+a(S'turn off please'
+p470
+g15
+tp471
+a(S'please shut down my computer'
+p472
+g15
+tp473
+a(S'please can you check my inbox'
+p474
+g24
+tp475
+a(S'can you please turn my computer off'
+p476
+g15
+tp477
+a(S'please check my inbox'
+p478
+g24
+tp479
+a(S'turn up the tunez'
+p480
+g15
+tp481
+a(S'can you please turn off the computer'
+p482
+g15
+tp483
+a(S'would you open my mail'
+p484
+g24
+tp485
+a(S'please will you check new mail'
+p486
+g24
+tp487
+a(S'will you check new gmail'
+p488
+g24
+tp489
+a(S'is there anything i have to do on tuesday'
+p490
+g15
+tp491
+a(S'check my calendar for tomorrow'
+p492
+g15
+tp493
+a(S'please will you check my inbox'
+p494
+g24
+tp495
+a(S'lock computer'
+p496
+g15
+tp497
+a(S'please could you check new mail'
+p498
+g24
+tp499
+a(S'what is new in new gmail please'
+p500
+g24
+tp501
+a(S'what is in new mail'
+p502
+g24
+tp503
+a(S'do i have any events in a month'
+p504
+g15
+tp505
+a(S'open browser please'
+p506
+g15
+tp507
+a(S"don't i have any events on tuesday"
+p508
+g15
+tp509
+a(S'off'
+p510
+g15
+tp511
+a(S'lock my computer'
+p512
+g15
+tp513
+a(S'anything in gmail'
+p514
+g24
+tp515
+a(S'will you check inbox please'
+p516
+g24
+tp517
+a(S'what is new in new mail please'
+p518
+g24
+tp519
+a(S"what's new in my mail"
+p520
+g24
+tp521
+a(S'do i have anything to do on tuesday'
+p522
+g15
+tp523
+a(S'open my gmail please'
+p524
+g24
+tp525
+a(S'song stop'
+p526
+g15
+tp527
+a(S'what events are'
+p528
+g15
+tp529
+a(S'could you open mail please'
+p530
+g24
+tp531
+a(S'any events on tuesday'
+p532
+g15
+tp533
+a(S'play song'
+p534
+g15
+tp535
+a(S'check calendar on this day'
+p536
+g15
+tp537
+a(S'please open dot com'
+p538
+g15
+tp539
+a(S'check events for thursday'
+p540
+g15
+tp541
+a(S"what's in my mail please"
+p542
+g24
+tp543
+a(S'check events for sunday'
+p544
+g15
+tp545
+a(S'can you check gmail please'
+p546
+g24
+tp547
+a(S'check events for friday'
+p548
+g15
+tp549
+a(S'check calendar for sunday'
+p550
+g15
+tp551
+a(S'can you check new gmail please'
+p552
+g24
+tp553
+a(S'could you open my gmail'
+p554
+g24
+tp555
+a(S'can you turn my computer off'
+p556
+g15
+tp557
+a(S'play spotify please'
+p558
+g15
+tp559
+a(S'what is in new gmail'
+p560
+g24
+tp561
+a(S"aren't there any events on tuesday"
+p562
+g15
+tp563
+a(S'can you shut down the computer'
+p564
+g15
+tp565
+a(S'will you check my mail please'
+p566
+g24
+tp567
+a(S'can you turn yourself off'
+p568
+g15
+tp569
+a(S'please send me to the lock screen'
+p570
+g15
+tp571
+a(S'make the sound higher'
+p572
+g15
+tp573
+a(S'check my calendar for this month'
+p574
+g15
+tp575
+a(S'can you please exit'
+p576
+g15
+tp577
+a(S'check google calendar for thursday'
+p578
+g15
+tp579
+a(S'read me the clock please'
+p580
+g15
+tp581
+a(S'any events on tomorrow'
+p582
+g15
+tp583
+a(S'search'
+p584
+g15
+tp585
+a(S'turn my computer off'
+p586
+g15
+tp587
+a(S"aren't there any events on this day"
+p588
+g15
+tp589
+a(S'would you open inbox please'
+p590
+g24
+tp591
+a(S'what events are on thursday'
+p592
+g15
+tp593
+a(S'what do i have to do on tomorrow'
+p594
+g15
+tp595
+a(S'lock computer please'
+p596
+g15
+tp597
+a(S'check the clock please'
+p598
+g15
+tp599
+a(S'could you check new mail'
+p600
+g24
+tp601
+a(S'please will you open my inbox'
+p602
+g24
+tp603
+a(S'lock the screen'
+p604
+g15
+tp605
+a(S'is there anything i have to do on friday'
+p606
+g15
+tp607
+a(S'open browser'
+p608
+g15
+tp609
+a(S'please get current time'
+p610
+g15
+tp611
+a(S'sound higher please'
+p612
+g15
+tp613
+a(S'go back please'
+p614
+g15
+tp615
+a(S'get the time'
+p616
+g15
+tp617
+a(S"what's in my mail"
+p618
+g24
+tp619
+a(S'please kill the active window'
+p620
+g15
+tp621
+a(S'can you open a browser please'
+p622
+g15
+tp623
+a(S'check calendar for this day'
+p624
+g15
+tp625
+a(S'please open mail'
+p626
+g24
+tp627
+a(S'close the active window'
+p628
+g15
+tp629
+a(S'can you open this program'
+p630
+g15
+tp631
+a(S'check google calendar on today'
+p632
+g15
+tp633
+a(S'what events do i have'
+p634
+g15
+tp635
+a(S'spotify stop playing'
+p636
+g15
+tp637
+a(S'check inbox'
+p638
+g24
+tp639
+a(S'see you'
+p640
+g15
+tp641
+a(S"don't i have to do anything on this day"
+p642
+g15
+tp643
+a(S'see ya'
+p644
+g15
+tp645
+a(S'please could you check new gmail'
+p646
+g24
+tp647
+a(S'please can you turn the volume higher'
+p648
+g15
+tp649
+a(S'please will you check mail'
+p650
+g24
+tp651
+a(S'can you turn up the volume'
+p652
+g15
+tp653
+a(S'please would you check inbox'
+p654
+g24
+tp655
+a(S'bye'
+p656
+g15
+tp657
+a(S"don't i have anything to do tomorrow"
+p658
+g15
+tp659
+a(S'check calendar for tomorrow'
+p660
+g15
+tp661
+a(S'check events for tomorrow'
+p662
+g15
+tp663
+a(S'stop spotify'
+p664
+g15
+tp665
+a(S'could you open my mail please'
+p666
+g24
+tp667
+a(S'stop the tunez'
+p668
+g15
+tp669
+a(S'can you please shut up'
+p670
+g15
+tp671
+a(S'google search please for'
+p672
+g15
+tp673
+a(S'what do i have'
+p674
+g15
+tp675
+a(S'could you open my gmail please'
+p676
+g24
+tp677
+a(S'check events on thursday'
+p678
+g15
+tp679
+a(S'please open my mail'
+p680
+g24
+tp681
+a(S'please close active window'
+p682
+g15
+tp683
+a(S"please what's in new gmail"
+p684
+g24
+tp685
+a(S'check google calendar on tomorrow'
+p686
+g15
+tp687
+a(S'what is on my calendar for tuesday'
+p688
+g15
+tp689
+a(S'would you check inbox'
+p690
+g24
+tp691
+a(S'start'
+p692
+g15
+tp693
+a(S'please volume higher'
+p694
+g15
+tp695
+a(S'can you turn the volume higher please'
+p696
+g15
+tp697
+a(S'start song'
+p698
+g15
+tp699
+a(S'open a default browser please'
+p700
+g15
+tp701
+a(S'check calendar for thursday'
+p702
+g15
+tp703
+a(S'can you turn yourself off please'
+p704
+g15
+tp705
+a(S'please spotify pause'
+p706
+g15
+tp707
+a(S'please could you check my gmail'
+p708
+g24
+tp709
+a(S'hey alex'
+p710
+g15
+tp711
+a(S"what's new in my mail please"
+p712
+g24
+tp713
+a(S'turn off the sound please'
+p714
+g15
+tp715
+a(S'please pause song'
+p716
+g15
+tp717
+a(S'is there anything to do on monday'
+p718
+g15
+tp719
+a(S'would you open my inbox'
+p720
+g24
+tp721
+a(S'check google calendar for tomorrow'
+p722
+g15
+tp723
+a(S'do i have any events on monday'
+p724
+g15
+tp725
+a(S'what is new in new mail'
+p726
+g24
+tp727
+a(S'what is in mail please'
+p728
+g24
+tp729
+a(S'pause spotify'
+p730
+g15
+tp731
+a(S'search google for'
+p732
+g15
+tp733
+a(S'do i have anything'
+p734
+g15
+tp735
+a(S'shutdown please'
+p736
+g15
+tp737
+a(S"what's in my gmail please"
+p738
+g24
+tp739
+a(S'am i free on tuesday'
+p740
+g15
+tp741
+a(S'set volume 0'
+p742
+g15
+tp743
+a(S'is there anything to do on today'
+p744
+g15
+tp745
+a(S'turn up'
+p746
+g15
+tp747
+a(S'could you open gmail please'
+p748
+g24
+tp749
+a(S'will you check gmail'
+p750
+g24
+tp751
+a(S'what do i have to do on saturday'
+p752
+g15
+tp753
+a(S'please read your watch'
+p754
+g15
+tp755
+a(S'please play spotify '
+p756
+g15
+tp757
+a(S'please kill active window'
+p758
+g15
+tp759
+a(S'anything in my inbox'
+p760
+g24
+tp761
+a(S'check my calendar on monday'
+p762
+g15
+tp763
+a(S'are there any events in a week'
+p764
+g15
+tp765
+a(S'could you check inbox'
+p766
+g24
+tp767
+a(S'could you open my mail'
+p768
+g24
+tp769
+a(S'please read time'
+p770
+g15
+tp771
+a(S'please shutdown my computer'
+p772
+g15
+tp773
+a(S'train a classifier to try to predict the category of a post'
+p774
+g15
+tp775
+a(S"aren't there any events on thursday"
+p776
+g15
+tp777
+a(S'kill window'
+p778
+g15
+tp779
+a(S'do i have anything on thursday'
+p780
+g15
+tp781
+a(S"what's new in new mail"
+p782
+g24
+tp783
+a(S'check new gmail please'
+p784
+g24
+tp785
+a(S'please can you turn up the volume'
+p786
+g15
+tp787
+a(S'what is on my calendar for thursday'
+p788
+g15
+tp789
+a(S'what do i have on wednesday'
+p790
+g15
+tp791
+a(S'check the clock'
+p792
+g15
+tp793
+a(S'please spotify play last song'
+p794
+g15
+tp795
+a(S'send me to the lock screen please'
+p796
+g15
+tp797
+a(S'make the sound louder'
+p798
+g15
+tp799
+a(S'increase the volume'
+p800
+g15
+tp801
+a(S'any events on today'
+p802
+g15
+tp803
+a(S'will you check my gmail please'
+p804
+g24
+tp805
+a(S'do i have any events on wednesday'
+p806
+g15
+tp807
+a(S'can you check my gmail'
+p808
+g24
+tp809
+a(S'check my calendar for wednesday'
+p810
+g15
+tp811
+a(S"don't i have any events on sunday"
+p812
+g15
+tp813
+a(S"please what's new in gmail"
+p814
+g24
+tp815
+a(S"don't i have to do anything on thursday"
+p816
+g15
+tp817
+a(S'turn off my computer'
+p818
+g15
+tp819
+a(S"don't i have anything to do"
+p820
+g15
+tp821
+a(S'open my inbox please'
+p822
+g24
+tp823
+a(S'is there anything to do on this day'
+p824
+g15
+tp825
+a(S"what's in gmail"
+p826
+g24
+tp827
+a(S"what's new in my gmail please"
+p828
+g24
+tp829
+a(S'what events do i have on tomorrow'
+p830
+g15
+tp831
+a(S'spotify next song '
+p832
+g15
+tp833
+a(S'please shut off my computer'
+p834
+g15
+tp835
+a(S'spotify skip ahead'
+p836
+g15
+tp837
+a(S'please lock my computer'
+p838
+g15
+tp839
+a(S'please turn it down'
+p840
+g15
+tp841
+a(S'could you check new gmail please'
+p842
+g24
+tp843
+a(S'do i have anything to do on monday'
+p844
+g15
+tp845
+a(S"don't i have anything to do on wednesday"
+p846
+g15
+tp847
+a(S"aren't there any events on saturday"
+p848
+g15
+tp849
+a(S'spotify pause the song please'
+p850
+g15
+tp851
+a(S'what is new in new gmail'
+p852
+g24
+tp853
+a(S'do i have anything to do on sunday'
+p854
+g15
+tp855
+a(S"don't i have anything to do in a month"
+p856
+g15
+tp857
+a(S'go to dot org'
+p858
+g15
+tp859
+a(S'can you check mail please'
+p860
+g24
+tp861
+a(S'go to'
+p862
+g15
+tp863
+a(S'please could you open inbox'
+p864
+g24
+tp865
+a(S'could you check gmail please'
+p866
+g24
+tp867
+a(S"don't i have to do anything on saturday"
+p868
+g15
+tp869
+a(S'could you check my gmail please'
+p870
+g24
+tp871
+a(S"what's in new mail"
+p872
+g24
+tp873
+a(S'check google calendar for this day'
+p874
+g15
+tp875
+a(S'please when is it'
+p876
+g15
+tp877
+a(S'would you open mail please'
+p878
+g24
+tp879
+a(S'stop playing'
+p880
+g15
+tp881
+a(S'could you check my mail'
+p882
+g24
+tp883
+a(S'please get the current time'
+p884
+g15
+tp885
+a(S'start a browser'
+p886
+g15
+tp887
+a(S'shutdown my computer'
+p888
+g15
+tp889
+a(S'read your watch please'
+p890
+g15
+tp891
+a(S'can you check new mail please'
+p892
+g24
+tp893
+a(S'check google calendar on this week'
+p894
+g15
+tp895
+a(S'clock'
+p896
+g15
+tp897
+a(S"what's in mail"
+p898
+g24
+tp899
+a(S'can you turn the beat down'
+p900
+g15
+tp901
+a(S"please what's new in my mail"
+p902
+g24
+tp903
+a(S'please could you check inbox'
+p904
+g24
+tp905
+a(S'are there any events on today'
+p906
+g15
+tp907
+a(S'please would you check new gmail'
+p908
+g24
+tp909
+a(S'what do i have on this day'
+p910
+g15
+tp911
+a(S'any mail'
+p912
+g24
+tp913
+a(S'would you check my gmail please'
+p914
+g24
+tp915
+a(S"aren't there any events in a week"
+p916
+g15
+tp917
+a(S'do i have any events on tomorrow'
+p918
+g15
+tp919
+a(S'please can you check my mail'
+p920
+g24
+tp921
+a(S'byebye'
+p922
+g15
+tp923
+a(S'what do i have on tomorrow'
+p924
+g15
+tp925
+a(S'check calendar for'
+p926
+g15
+tp927
+a(S'open my inbox'
+p928
+g24
+tp929
+a(S'what events are on today'
+p930
+g15
+tp931
+a(S'would you check gmail'
+p932
+g24
+tp933
+a(S'read time'
+p934
+g15
+tp935
+a(S'am i free for tomorrow'
+p936
+g15
+tp937
+a(S'please can you check new gmail'
+p938
+g24
+tp939
+a(S'would you check my mail please'
+p940
+g24
+tp941
+a(S'please open my inbox'
+p942
+g24
+tp943
+a(S'shut the fuck up'
+p944
+g15
+tp945
+a(S"what's new in new gmail please"
+p946
+g24
+tp947
+a(S'shut down'
+p948
+g15
+tp949
+a(S'please could you open my inbox'
+p950
+g24
+tp951
+a(S'what do i have to do on monday'
+p952
+g15
+tp953
+a(S'please can you check gmail'
+p954
+g24
+tp955
+a(S'check my inbox please'
+p956
+g24
+tp957
+a(S'check google calendar for saturday'
+p958
+g15
+tp959
+a(S"don't i have any events on saturday"
+p960
+g15
+tp961
+a(S'shut down please'
+p962
+g15
+tp963
+a(S'any events on thursday'
+p964
+g15
+tp965
+a(S'can you please kill current window'
+p966
+g15
+tp967
+a(S"what's in gmail please"
+p968
+g24
+tp969
+a(S'shut my computer down'
+p970
+g15
+tp971
+a(S'check calendar on'
+p972
+g15
+tp973
+a(S'shutdown the computer please'
+p974
+g15
+tp975
+a(S'anything in mail'
+p976
+g24
+tp977
+a(S'is there anything to do on tuesday'
+p978
+g15
+tp979
+a(S'what is on my calendar for tomorrow'
+p980
+g15
+tp981
+a(S'read me the clock'
+p982
+g15
+tp983
+a(S'please close this window'
+p984
+g15
+tp985
+a(S'what do i have to do on this day'
+p986
+g15
+tp987
+a(S'spotify play the last song'
+p988
+g15
+tp989
+a(S'close current window'
+p990
+g15
+tp991
+a(S'pause the song please'
+p992
+g15
+tp993
+a(S'turn off the computer'
+p994
+g15
+tp995
+a(S'can you open a browser'
+p996
+g15
+tp997
+a(S"what's new in inbox please"
+p998
+g24
+tp999
+a(S'any events on sunday'
+p1000
+g15
+tp1001
+a(S'can you turn the sound down'
+p1002
+g15
+tp1003
+a(S'can you check my inbox'
+p1004
+g24
+tp1005
+a(S'please shut my computer down'
+p1006
+g15
+tp1007
+a(S'check calendar for saturday'
+p1008
+g15
+tp1009
+a(S'please what is new in mail'
+p1010
+g24
+tp1011
+a(S'what is on my calendar for this day'
+p1012
+g15
+tp1013
+a(S'can you please turn up the sound'
+p1014
+g15
+tp1015
+a(S'please would you open mail'
+p1016
+g24
+tp1017
+a(S'read the time'
+p1018
+g15
+tp1019
+a(S'please what is new in new mail'
+p1020
+g24
+tp1021
+a(S'can you please shut down the computer'
+p1022
+g15
+tp1023
+a(S'please check my gmail'
+p1024
+g24
+tp1025
+a(S'google search for'
+p1026
+g15
+tp1027
+a(S"please what's new in new mail"
+p1028
+g24
+tp1029
+a(S'check events for this month'
+p1030
+g15
+tp1031
+a(S'check events on wednesday'
+p1032
+g15
+tp1033
+a(S'hey alice'
+p1034
+g15
+tp1035
+a(S'do i have anything tomorrow'
+p1036
+g15
+tp1037
+a(S'please open inbox'
+p1038
+g24
+tp1039
+a(S'any events on friday'
+p1040
+g15
+tp1041
+a(S'would you check new mail please'
+p1042
+g24
+tp1043
+a(S"aren't there any events on monday"
+p1044
+g15
+tp1045
+a(S'next spotify please'
+p1046
+g15
+tp1047
+a(S'what is in new mail please'
+p1048
+g24
+tp1049
+a(S'issue commands'
+p1050
+g15
+tp1051
+a(S'what do i have to do on tuesday'
+p1052
+g15
+tp1053
+a(S'mute please'
+p1054
+g15
+tp1055
+a(S'check the current time'
+p1056
+g15
+tp1057
+a(S'volume up'
+p1058
+g15
+tp1059
+a(S'spotify skip ahead please'
+p1060
+g15
+tp1061
+a(S"i think i didn't answer an earlier question"
+p1062
+g15
+tp1063
+a(S'can you turn up the volume please'
+p1064
+g15
+tp1065
+a(S'what events are on saturday'
+p1066
+g15
+tp1067
+a(S"don't i have to do anything today"
+p1068
+g15
+tp1069
+a(S'turn it up please'
+p1070
+g15
+tp1071
+a(S'shut off please'
+p1072
+g15
+tp1073
+a(S"don't i have to do anything on sunday"
+p1074
+g15
+tp1075
+a(S'can you please turn the tune down'
+p1076
+g15
+tp1077
+a(S'please stop song'
+p1078
+g15
+tp1079
+a(S'is there anything i have to do on monday'
+p1080
+g15
+tp1081
+a(S'what events are on tuesday'
+p1082
+g15
+tp1083
+a(S'spotify stop'
+p1084
+g15
+tp1085
+a(S"please what's new in my gmail"
+p1086
+g24
+tp1087
+a(S'what is in mail'
+p1088
+g24
+tp1089
+a(S'what do i have to do on wednesday'
+p1090
+g15
+tp1091
+a(S'could you check my inbox'
+p1092
+g24
+tp1093
+a(S'what events are on wednesday'
+p1094
+g15
+tp1095
+a(S'what is on my calendar for today'
+p1096
+g15
+tp1097
+a(S'open dot gov'
+p1098
+g15
+tp1099
+a(S'please close current window'
+p1100
+g15
+tp1101
+a(S'please what is new in my mail'
+p1102
+g24
+tp1103
+a(S'please read the time'
+p1104
+g15
+tp1105
+a(S"aren't there any events on wednesday"
+p1106
+g15
+tp1107
+a(S'what is new in mail please'
+p1108
+g24
+tp1109
+a(S'can you close the active window'
+p1110
+g15
+tp1111
+a(S'please what is new in my inbox'
+p1112
+g24
+tp1113
+a(S'are there any events'
+p1114
+g15
+tp1115
+a(S'kill the current window'
+p1116
+g15
+tp1117
+a(S"don't i have to do anything on sunday"
+p1118
+g15
+tp1119
+a(S'am i free on friday'
+p1120
+g15
+tp1121
+a(S'turn up the volume please'
+p1122
+g15
+tp1123
+a(S'would you open my gmail please'
+p1124
+g24
+tp1125
+a(S"don't i have to do anything in a month"
+p1126
+g15
+tp1127
+a(S'shut off'
+p1128
+g15
+tp1129
+a(S'do i have any events on this day'
+p1130
+g15
+tp1131
+a(S'search for please'
+p1132
+g15
+tp1133
+a(S'good bye'
+p1134
+g15
+tp1135
+a(S'can you please turn the sound down'
+p1136
+g15
+tp1137
+a(S'please will you open my mail'
+p1138
+g24
+tp1139
+a(S'please spotify last'
+p1140
+g15
+tp1141
+a(S'get me the clock please'
+p1142
+g15
+tp1143
+a(S'please turn it up'
+p1144
+g15
+tp1145
+a(S'check my calendar on friday'
+p1146
+g15
+tp1147
+a(S'put me on the lock screen please'
+p1148
+g15
+tp1149
+a(S'please could you check mail'
+p1150
+g24
+tp1151
+a(S'could you check new gmail'
+p1152
+g24
+tp1153
+a(S'please spotify start'
+p1154
+g15
+tp1155
+a(S'can you kill the current window'
+p1156
+g15
+tp1157
+a(S"don't i have anything to do today"
+p1158
+g15
+tp1159
+a(S'do i have anything in a week'
+p1160
+g15
+tp1161
+a(S'can you please kill the window'
+p1162
+g15
+tp1163
+a(S'please lock computer'
+p1164
+g15
+tp1165
+a(S'check calendar for friday'
+p1166
+g15
+tp1167
+a(S'shutdown the computer'
+p1168
+g15
+tp1169
+a(S"don't i have to do anything on monday"
+p1170
+g15
+tp1171
+a(S'would you open my mail please'
+p1172
+g24
+tp1173
+a(S'pause song please'
+p1174
+g15
+tp1175
+a(S'check my calendar on this month'
+p1176
+g15
+tp1177
+a(S"don't i have to do anything on friday"
+p1178
+g15
+tp1179
+a(S'please would you open gmail'
+p1180
+g24
+tp1181
+a(S'what events do i have on today'
+p1182
+g15
+tp1183
+a(S'the tale pretends'
+p1184
+g15
+tp1185
+a(S'check events for'
+p1186
+g15
+tp1187
+a(S'what is on my calendar for friday'
+p1188
+g15
+tp1189
+a(S'open a default browser'
+p1190
+g15
+tp1191
+a(S'turn up the tunez please'
+p1192
+g15
+tp1193
+a(S'check events for today'
+p1194
+g15
+tp1195
+a(S'turn down the sound'
+p1196
+g15
+tp1197
+a(S'what do i have to do in a month'
+p1198
+g15
+tp1199
+a(S'please what is in gmail'
+p1200
+g24
+tp1201
+a(S'would you check my inbox'
+p1202
+g24
+tp1203
+a(S'is there anything to do on saturday'
+p1204
+g15
+tp1205
+a(S'check my calendar for monday'
+p1206
+g15
+tp1207
+a(S'go to dot net'
+p1208
+g15
+tp1209
+a(S'check what time it is'
+p1210
+g15
+tp1211
+a(S'make the volume zero'
+p1212
+g15
+tp1213
+a(S'check google calendar for monday'
+p1214
+g15
+tp1215
+a(S'check calendar for this day'
+p1216
+g15
+tp1217
+a(S'what is on my calendar for wednesday'
+p1218
+g15
+tp1219
+a(S'turn the beat down please'
+p1220
+g15
+tp1221
+a(S"don't i have anything in a week"
+p1222
+g15
+tp1223
+a(S'please kill the window'
+p1224
+g15
+tp1225
+a(S'what events do i have in a week'
+p1226
+g15
+tp1227
+a(S'do i have any events on tuesday'
+p1228
+g15
+tp1229
+a(S'please will you open mail'
+p1230
+g24
+tp1231
+a(S'please google for'
+p1232
+g15
+tp1233
+a(S'please will you check my mail'
+p1234
+g24
+tp1235
+a(S'get the current time please'
+p1236
+g15
+tp1237
+a(S'please open my gmail'
+p1238
+g24
+tp1239
+a(S'go to dot gov'
+p1240
+g15
+tp1241
+a(S'check my calendar for this week'
+p1242
+g15
+tp1243
+a(S'current time'
+p1244
+g15
+tp1245
+a(S'will you open my gmail'
+p1246
+g24
+tp1247
+a(S'will you open mail please'
+p1248
+g24
+tp1249
+a(S'check your watch please'
+p1250
+g15
+tp1251
+a(S'please turn off'
+p1252
+g15
+tp1253
+a(S'pause please'
+p1254
+g15
+tp1255
+a(S'will you open inbox please'
+p1256
+g24
+tp1257
+a(S'am i free for thursday'
+p1258
+g15
+tp1259
+a(S'decrease the volume'
+p1260
+g15
+tp1261
+a(S'turn the tune down'
+p1262
+g15
+tp1263
+a(S'check my calendar for tuesday'
+p1264
+g15
+tp1265
+a(S'please check the clock'
+p1266
+g15
+tp1267
+a(S'what is new in inbox please'
+p1268
+g24
+tp1269
+a(S'are there any events on monday'
+p1270
+g15
+tp1271
+a(S'am i free for wednesday'
+p1272
+g15
+tp1273
+a(S'am i free for tuesday'
+p1274
+g15
+tp1275
+a(S'can you shut down'
+p1276
+g15
+tp1277
+a(S'please turn my computer off'
+p1278
+g15
+tp1279
+a(S'please will you open my gmail'
+p1280
+g24
+tp1281
+a(S'can you please shutdown my computer'
+p1282
+g15
+tp1283
+a(S'can you please shutdown'
+p1284
+g15
+tp1285
+a(S'please what is in inbox'
+p1286
+g24
+tp1287
+a(S'please sound higher'
+p1288
+g15
+tp1289
+a(S'retrieve what time it is please'
+p1290
+g15
+tp1291
+a(S'check calendar on tomorrow'
+p1292
+g15
+tp1293
+a(S'is there anything i have to do'
+p1294
+g15
+tp1295
+a(S'can you turn up the sound'
+p1296
+g15
+tp1297
+a(S'please get clock'
+p1298
+g15
+tp1299
+a(S'spotify go ahead'
+p1300
+g15
+tp1301
+a(S'please would you open inbox'
+p1302
+g24
+tp1303
+a(S'check the clock right now please'
+p1304
+g15
+tp1305
+a(S'can you please shut down'
+p1306
+g15
+tp1307
+a(S'please google search'
+p1308
+g15
+tp1309
+a(S'please what is in new gmail'
+p1310
+g24
+tp1311
+a(S'is there anything to do on wednesday'
+p1312
+g15
+tp1313
+a(S"don't i have anything on thursday"
+p1314
+g15
+tp1315
+a(S'turn up the sound'
+p1316
+g15
+tp1317
+a(S'please will you check new gmail'
+p1318
+g24
+tp1319
+a(S'are there any events on sunday'
+p1320
+g15
+tp1321
+a(S'spotify last song please'
+p1322
+g15
+tp1323
+a(S'can you shut off'
+p1324
+g15
+tp1325
+a(S'what is in inbox'
+p1326
+g24
+tp1327
+a(S"don't i have to do anything on this day"
+p1328
+g15
+tp1329
+a(S'can you check mail'
+p1330
+g24
+tp1331
+a(S'lower the tunes please'
+p1332
+g15
+tp1333
+a(S'open dot com'
+p1334
+g15
+tp1335
+a(S'anything in inbox'
+p1336
+g24
+tp1337
+a(S"please what's in gmail"
+p1338
+g24
+tp1339
+a(S'get the current time'
+p1340
+g15
+tp1341
+a(S'can you please shut off my computer'
+p1342
+g15
+tp1343
+a(S'do i have anything on sunday'
+p1344
+g15
+tp1345
+a(S'what events do i have on sunday'
+p1346
+g15
+tp1347
+a(S'spotify go back'
+p1348
+g15
+tp1349
+a(S'please check your watch'
+p1350
+g15
+tp1351
+a(S'can you check inbox please'
+p1352
+g24
+tp1353
+a(S'are there any events on friday'
+p1354
+g15
+tp1355
+a(S'close the current window'
+p1356
+g15
+tp1357
+a(S'check events for this day'
+p1358
+g15
+tp1359
+a(S'can you decrease the sound'
+p1360
+g15
+tp1361
+a(S'we stick to simple problems in this post for the sake of illustration'
+p1362
+g15
+tp1363
+a(S'am i free on saturday'
+p1364
+g15
+tp1365
+a(S'a releasing moderate stalls beside the material cell'
+p1366
+g15
+tp1367
+a(S"aren't there any events on tomorrow"
+p1368
+g15
+tp1369
+a(S"what's new in new mail please"
+p1370
+g24
+tp1371
+a(S'any events on wednesday'
+p1372
+g15
+tp1373
+a(S'please close the window'
+p1374
+g15
+tp1375
+a(S'make the volume lower'
+p1376
+g15
+tp1377
+a(S'what is on my calendar for saturday'
+p1378
+g15
+tp1379
+a(S'do i have anything to do on friday'
+p1380
+g15
+tp1381
+a(S'what is new in my mail'
+p1382
+g24
+tp1383
+a(S'open a browser please'
+p1384
+g15
+tp1385
+a(S'spotify play the song before'
+p1386
+g15
+tp1387
+a(S'check calendar on saturday'
+p1388
+g15
+tp1389
+a(S'please shutdown'
+p1390
+g15
+tp1391
+a(S'what events are on monday'
+p1392
+g15
+tp1393
+a(S'is there anything i have to do on this day'
+p1394
+g15
+tp1395
+a(S'open mail'
+p1396
+g24
+tp1397
+a(S'would you check my inbox please'
+p1398
+g24
+tp1399
+a(S'do i have anything on this day'
+p1400
+g15
+tp1401
+a(S'check events on tuesday'
+p1402
+g15
+tp1403
+a(S'any events on saturday'
+p1404
+g15
+tp1405
+a(S'please will you check gmail'
+p1406
+g24
+tp1407
+a(S'please would you check mail'
+p1408
+g24
+tp1409
+a(S'any events in a month'
+p1410
+g15
+tp1411
+a(S'any new gmail'
+p1412
+g24
+tp1413
+a(S'make the volume softer'
+p1414
+g15
+tp1415
+a(S'check calendar on wednesday'
+p1416
+g15
+tp1417
+a(S"don't i have to do anything on tuesday"
+p1418
+g15
+tp1419
+a(S'check google calendar for this month'
+p1420
+g15
+tp1421
+a(S'am i free for monday'
+p1422
+g15
+tp1423
+a(S'am i free for today'
+p1424
+g15
+tp1425
+a(S'check events on sunday'
+p1426
+g15
+tp1427
+a(S'check events for this week'
+p1428
+g15
+tp1429
+a(S'check events on tomorrow'
+p1430
+g15
+tp1431
+a(S'can you check new mail'
+p1432
+g24
+tp1433
+a(S'do i have anything to do on thursday'
+p1434
+g15
+tp1435
+a(S'can you kill the window'
+p1436
+g15
+tp1437
+a(S'would you check my gmail'
+p1438
+g24
+tp1439
+a(S"what's in my inbox please"
+p1440
+g24
+tp1441
+a(S'please check the clock right now'
+p1442
+g15
+tp1443
+a(S'what is in my gmail'
+p1444
+g24
+tp1445
+a(S"don't i have anything to do on tuesday"
+p1446
+g15
+tp1447
+a(S'check events on monday'
+p1448
+g15
+tp1449
+a(S'can you please shutdown the computer'
+p1450
+g15
+tp1451
+a(S'do i have any events on friday'
+p1452
+g15
+tp1453
+a(S"what's in my inbox"
+p1454
+g24
+tp1455
+a(S'what do i have to do'
+p1456
+g15
+tp1457
+a(S'please go back'
+p1458
+g15
+tp1459
+a(S'stop song please'
+p1460
+g15
+tp1461
+a(S'please check my mail'
+p1462
+g24
+tp1463
+a(S'open gmail please'
+p1464
+g24
+tp1465
+a(S'check calendar for this week'
+p1466
+g15
+tp1467
+a(S'open dot ee dee you'
+p1468
+g15
+tp1469
+a(S'what do i have to do on friday'
+p1470
+g15
+tp1471
+a(S'are there any events in a month'
+p1472
+g15
+tp1473
+a(S'next song'
+p1474
+g15
+tp1475
+a(S'check my calendar for friday'
+p1476
+g15
+tp1477
+a(S'check events for this day'
+p1478
+g15
+tp1479
+a(S'open my gmail'
+p1480
+g24
+tp1481
+a(S'lower the volume'
+p1482
+g15
+tp1483
+a(S"what's the clock"
+p1484
+g15
+tp1485
+a(S'do i have anything to do on wednesday'
+p1486
+g15
+tp1487
+a(S'start the song'
+p1488
+g15
+tp1489
+a(S'am i free for a week'
+p1490
+g15
+tp1491
+a(S'please check the current time'
+p1492
+g15
+tp1493
+a(S"don't i have to do anything tomorrow"
+p1494
+g15
+tp1495
+a(S'any gmail'
+p1496
+g24
+tp1497
+a(S'please open'
+p1498
+g15
+tp1499
+a(S'please search google'
+p1500
+g15
+tp1501
+a(S'check calendar for today'
+p1502
+g15
+tp1503
+a(S'get clock please'
+p1504
+g15
+tp1505
+a(S'what events do i have on this day'
+p1506
+g15
+tp1507
+a(S"what's in inbox"
+p1508
+g24
+tp1509
+a(S"please what's new in inbox"
+p1510
+g24
+tp1511
+a(S"don't i have to do anything today"
+p1512
+g15
+tp1513
+a(S''
+p1514
+g15
+tp1515
+a(S'what do i have in a week'
+p1516
+g15
+tp1517
+a(S"don't i have to do anything in a week"
+p1518
+g15
+tp1519
+a(S'check google calendar for today'
+p1520
+g15
+tp1521
+a(S'be quiet'
+p1522
+g15
+tp1523
+a(S"what's new in mail"
+p1524
+g24
+tp1525
+a(S"don't i have to do anything"
+p1526
+g15
+tp1527
+a(S'mute'
+p1528
+g15
+tp1529
+a(S'could you open gmail'
+p1530
+g24
+tp1531
+a(S"what's in new gmail"
+p1532
+g24
+tp1533
+a(S'sweet dreams alice'
+p1534
+g15
+tp1535
+a(S'please what is in my mail'
+p1536
+g24
+tp1537
+a(S'please be quiet'
+p1538
+g15
+tp1539
+a(S"don't i have to do anything on wednesday"
+p1540
+g15
+tp1541
+a(S"don't i have any events on tomorrow"
+p1542
+g15
+tp1543
+a(S'can you please mute'
+p1544
+g15
+tp1545
+a(S'is there anything to do on thursday'
+p1546
+g15
+tp1547
+a(S'would you check my mail'
+p1548
+g24
+tp1549
+a(S'could you check mail'
+p1550
+g24
+tp1551
+a(S'please spotify pause'
+p1552
+g15
+tp1553
+a(S'please what is in my gmail'
+p1554
+g24
+tp1555
+a(S'what events do i have on monday'
+p1556
+g15
+tp1557
+a(S'stop'
+p1558
+g15
+tp1559
+a(S'can you close this window'
+p1560
+g15
+tp1561
+a(S'check my calendar on tuesday'
+p1562
+g15
+tp1563
+a(S'please can you check my gmail'
+p1564
+g24
+tp1565
+a(S'spotify play previous song please'
+p1566
+g15
+tp1567
+a(S'turn my computer off please'
+p1568
+g15
+tp1569
+a(S'check my calendar on'
+p1570
+g15
+tp1571
+a(S'google please'
+p1572
+g15
+tp1573
+a(S'alice'
+p1574
+g15
+tp1575
+a(S'can you shutdown my computer'
+p1576
+g15
+tp1577
+a(S'can you turn off the computer'
+p1578
+g15
+tp1579
+a(S'will you check mail please'
+p1580
+g24
+tp1581
+a(S'start browser please'
+p1582
+g15
+tp1583
+a(S"what's new in gmail"
+p1584
+g24
+tp1585
+a(S"don't i have any events on friday"
+p1586
+g15
+tp1587
+a(S'is there anything i have to do on thursday'
+p1588
+g15
+tp1589
+a(S'open dot org'
+p1590
+g15
+tp1591
+a(S'check my calendar for saturday'
+p1592
+g15
+tp1593
+a(S"don't i have any events on monday"
+p1594
+g15
+tp1595
+a(S'can you please kill this window'
+p1596
+g15
+tp1597
+a(S'sound up please'
+p1598
+g15
+tp1599
+a(S'when is it please'
+p1600
+g15
+tp1601
+a(S'check mail'
+p1602
+g24
+tp1603
+a(S'any events in a week'
+p1604
+g15
+tp1605
+a(S"don't i have anything on friday"
+p1606
+g15
+tp1607
+a(S'am i free'
+p1608
+g15
+tp1609
+a(S'what do i have on monday'
+p1610
+g15
+tp1611
+a(S'play the song before'
+p1612
+g15
+tp1613
+a(S'shut my computer down please'
+p1614
+g15
+tp1615
+a(S'please check new gmail'
+p1616
+g24
+tp1617
+a(S'can you check my inbox please'
+p1618
+g24
+tp1619
+a(S'open'
+p1620
+g15
+tp1621
+a(S"don't i have anything tomorrow"
+p1622
+g15
+tp1623
+a(S'what time is it'
+p1624
+g15
+tp1625
+a(S'check google calendar on sunday'
+p1626
+g15
+tp1627
+a(S'please sound up'
+p1628
+g15
+tp1629
+a(S'what is in my inbox'
+p1630
+g24
+tp1631
+a(S'please go to'
+p1632
+g15
+tp1633
+a(S'do i have anything on wednesday'
+p1634
+g15
+tp1635
+a(S'alice go ahead please'
+p1636
+g15
+tp1637
+a(S'please last song'
+p1638
+g15
+tp1639
+a(S'make the sound softer'
+p1640
+g15
+tp1641
+a(S'spotify go back to the last song '
+p1642
+g15
+tp1643
+a(S'read the time please'
+p1644
+g15
+tp1645
+a(S'lock'
+p1646
+g15
+tp1647
+a(S"don't i have to do anything on monday"
+p1648
+g15
+tp1649
+a(S'set the volume zero'
+p1650
+g15
+tp1651
+a(S"what's new in inbox"
+p1652
+g24
+tp1653
+a(S'spotify go please'
+p1654
+g15
+tp1655
+a(S'what do i have to do on sunday'
+p1656
+g15
+tp1657
+a(S'do i have anything on tuesday'
+p1658
+g15
+tp1659
+a(S'turn up the tune'
+p1660
+g15
+tp1661
+a(S'a decent problem gossips beside the shoulder'
+p1662
+g15
+tp1663
+a(S'can you check my mail'
+p1664
+g24
+tp1665
+a(S"don't i have to do anything in a month"
+p1666
+g15
+tp1667
+a(S'kill the noise'
+p1668
+g15
+tp1669
+a(S'check calendar for tuesday'
+p1670
+g15
+tp1671
+a(S'check my calendar on thursday'
+p1672
+g15
+tp1673
+a(S'what is new in my inbox'
+p1674
+g24
+tp1675
+a(S'turn it down'
+p1676
+g15
+tp1677
+a(S'what is new in mail'
+p1678
+g24
+tp1679
+a(S'check calendar for this month'
+p1680
+g15
+tp1681
+a(S'any new mail'
+p1682
+g24
+tp1683
+a(S'is there anything to do in a month'
+p1684
+g15
+tp1685
+a(S'spotify last please'
+p1686
+g15
+tp1687
+a(S'please start browser'
+p1688
+g15
+tp1689
+a(S'please open a browser'
+p1690
+g15
+tp1691
+a(S'turn the volume to zero'
+p1692
+g15
+tp1693
+a(S'search for'
+p1694
+g15
+tp1695
+a(S'get current time please'
+p1696
+g15
+tp1697
+a(S"aren't there any events"
+p1698
+g15
+tp1699
+a(S'search please'
+p1700
+g15
+tp1701
+a(S'check google calendar for wednesday'
+p1702
+g15
+tp1703
+a(S'please pause the song'
+p1704
+g15
+tp1705
+a(S'check my gmail please'
+p1706
+g24
+tp1707
+a(S'search google'
+p1708
+g15
+tp1709
+a(S"aren't there any events on sunday"
+p1710
+g15
+tp1711
+a(S'turn up the volume'
+p1712
+g15
+tp1713
+a(S'please what is in mail'
+p1714
+g24
+tp1715
+a(S'what is on my calendar for this month'
+p1716
+g15
+tp1717
+a(S'check my calendar on saturday'
+p1718
+g15
+tp1719
+a(S'what events do i have on friday'
+p1720
+g15
+tp1721
+a(S'shut off my computer'
+p1722
+g15
+tp1723
+a(S'check calendar on today'
+p1724
+g15
+tp1725
+a(S'check gmail'
+p1726
+g24
+tp1727
+a(S'check my gmail'
+p1728
+g24
+tp1729
+a(S'will you open mail'
+p1730
+g24
+tp1731
+a(S'can you please turn up the volume'
+p1732
+g15
+tp1733
+a(S'shutdown my computer please'
+p1734
+g15
+tp1735
+a(S'can you please turn off'
+p1736
+g15
+tp1737
+a(S'turn the beat down'
+p1738
+g15
+tp1739
+a(S'what do i have to do on thursday'
+p1740
+g15
+tp1741
+a(S'lower the sound'
+p1742
+g15
+tp1743
+a(S'check mail please'
+p1744
+g24
+tp1745
+a(S'open dot net'
+p1746
+g15
+tp1747
+a(S'do i have anything to do in a month'
+p1748
+g15
+tp1749
+a(S'can you please close current window'
+p1750
+g15
+tp1751
+a(S'would you check gmail please'
+p1752
+g24
+tp1753
+a(S'skip spotify please'
+p1754
+g15
+tp1755
+a(S'please spotify previous song'
+p1756
+g15
+tp1757
+a(S"please what's in mail"
+p1758
+g24
+tp1759
+a(S'read time please'
+p1760
+g15
+tp1761
+a(S'please google search for'
+p1762
+g15
+tp1763
+a(S"what's new in mail please"
+p1764
+g24
+tp1765
+a(S'shut down my computer'
+p1766
+g15
+tp1767
+a(S'please start'
+p1768
+g15
+tp1769
+a(S'open my mail'
+p1770
+g24
+tp1771
+a(S'read the clock'
+p1772
+g15
+tp1773
+a(S'please would you check gmail'
+p1774
+g24
+tp1775
+a(S'what events do i have on thursday'
+p1776
+g15
+tp1777
+a(S'check events on saturday'
+p1778
+g15
+tp1779
+a(S'spotify play last song please'
+p1780
+g15
+tp1781
+a(S'can you please turn the beat down'
+p1782
+g15
+tp1783
+a(S'do i have anything on saturday'
+p1784
+g15
+tp1785
+a(S'start a default browser please'
+p1786
+g15
+tp1787
+a(S'please check gmail'
+p1788
+g24
+tp1789
+a(S'do i have anything on monday'
+p1790
+g15
+tp1791
+a(g1514
+g15
+tp1792
+a(S'what events are on tomorrow'
+p1793
+g15
+tp1794
+a(S'can you please close the current window'
+p1795
+g15
+tp1796
+a(S'turn up the tunes'
+p1797
+g15
+tp1798
+a(S'check calendar on month'
+p1799
+g15
+tp1800
+a(S'spotify previous song please'
+p1801
+g15
+tp1802
+a(S'please can you check mail'
+p1803
+g24
+tp1804
+a(S'google for'
+p1805
+g15
+tp1806
+a(S'can you check inbox'
+p1807
+g24
+tp1808
+a(S'anything new in mail'
+p1809
+g24
+tp1810
+a(S'what do i have in a month'
+p1811
+g15
+tp1812
+a(S'please spotify start the song'
+p1813
+g15
+tp1814
+a(S'check google calendar on thursday'
+p1815
+g15
+tp1816
+a(S"don't i have any events on thursday"
+p1817
+g15
+tp1818
+a(S'kill the active program'
+p1819
+g15
+tp1820
+a(S'please start spotify'
+p1821
+g15
+tp1822
+a(S'please what is new in gmail'
+p1823
+g24
+tp1824
+a(S'can you close the current window'
+p1825
+g15
+tp1826
+a(S'time'
+p1827
+g15
+tp1828
+a(S'check the current time please'
+p1829
+g15
+tp1830
+a(S'can you please shut my computer down'
+p1831
+g15
+tp1832
+a(S'can you shut up'
+p1833
+g15
+tp1834
+a(S'what do i have to do in a week'
+p1835
+g15
+tp1836
+a(S'what time is it right now'
+p1837
+g15
+tp1838
+a(S'can you turn off'
+p1839
+g15
+tp1840
+a(S'kill the program'
+p1841
+g15
+tp1842
+a(S'check my inbox'
+p1843
+g24
+tp1844
+a(S"don't i have any events"
+p1845
+g15
+tp1846
+a(S'please could you open my mail'
+p1847
+g24
+tp1848
+a(S'please turn off my computer'
+p1849
+g15
+tp1850
+a(S'lock my computer please'
+p1851
+g15
+tp1852
+a(S"please what's in my mail"
+p1853
+g24
+tp1854
+a(S'could you open inbox please'
+p1855
+g24
+tp1856
+a(S'would you check inbox please'
+p1857
+g24
+tp1858
+a(S'can you exit'
+p1859
+g15
+tp1860
+a(S'go back to the last song '
+p1861
+g15
+tp1862
+a(S"don't i have anything in a month"
+p1863
+g15
+tp1864
+a(S'please check mail'
+p1865
+g24
+tp1866
+a(S"don't i have anything to do on thursday"
+p1867
+g15
+tp1868
+a(S'please get me the clock'
+p1869
+g15
+tp1870
+a(S'what is in inbox please'
+p1871
+g24
+tp1872
+a(S'check events for wednesday'
+p1873
+g15
+tp1874
+a(S'skip'
+p1875
+g15
+tp1876
+a(S'can you please kill the current window'
+p1877
+g15
+tp1878
+a(S'bye bye'
+p1879
+g15
+tp1880
+a(S"don't i have anything today"
+p1881
+g15
+tp1882
+a(S'what events are on this day'
+p1883
+g15
+tp1884
+a(S'please would you check new mail'
+p1885
+g24
+tp1886
+a(S'check events on today'
+p1887
+g15
+tp1888
+a(S'i like dogs'
+p1889
+g15
+tp1890
+a(S'please would you check my mail'
+p1891
+g24
+tp1892
+a(S'could you check new mail please'
+p1893
+g24
+tp1894
+a(S'spotify previous please'
+p1895
+g15
+tp1896
+a(S'can you lock the screen please'
+p1897
+g15
+tp1898
+a(S'what is new in my inbox please'
+p1899
+g24
+tp1900
+a(S'is there anything to do'
+p1901
+g15
+tp1902
+a(S'check events on month'
+p1903
+g15
+tp1904
+a(S'will you check my inbox'
+p1905
+g24
+tp1906
+a(S"don't i have any events on today"
+p1907
+g15
+tp1908
+a(S'will you check new mail'
+p1909
+g24
+tp1910
+a(S'retrieve the time please'
+p1911
+g15
+tp1912
+a(S'search please for'
+p1913
+g15
+tp1914
+a(S'check google calendar on friday'
+p1915
+g15
+tp1916
+a(S'close current program'
+p1917
+g15
+tp1918
+a(S'please will you open inbox'
+p1919
+g24
+tp1920
+a(S'check inbox please'
+p1921
+g24
+tp1922
+a(S'do i have anything today'
+p1923
+g15
+tp1924
+a(S'check my calendar on wednesday'
+p1925
+g15
+tp1926
+a(S'check calendar on friday'
+p1927
+g15
+tp1928
+a(S'check my calendar for'
+p1929
+g15
+tp1930
+a(S'could you open my inbox please'
+p1931
+g24
+tp1932
+a(S'please kill the current window'
+p1933
+g15
+tp1934
+a(S'do i have anything to do tomorrow'
+p1935
+g15
+tp1936
+a(S'can you turn the tune down'
+p1937
+g15
+tp1938
+a(S'turn off the beats'
+p1939
+g15
+tp1940
+a(S'please kill current window'
+p1941
+g15
+tp1942
+a(S"don't i have anything on sunday"
+p1943
+g15
+tp1944
+a(S"don't i have anything to do on sunday"
+p1945
+g15
+tp1946
+a(S'will you check inbox'
+p1947
+g24
+tp1948
+a(S'anything in my gmail'
+p1949
+g24
+tp1950
+a(S'go ahead'
+p1951
+g15
+tp1952
+a(S'would you check mail'
+p1953
+g24
+tp1954
+a(S'will you open gmail please'
+p1955
+g24
+tp1956
+a(S'spotify next'
+p1957
+g15
+tp1958
+a(S'kill the music'
+p1959
+g15
+tp1960
+a(S'extract the features using almost the same feature'
+p1961
+g15
+tp1962
+a(S'stop the song'
+p1963
+g15
+tp1964
+a(S"don't i have to do anything on friday"
+p1965
+g15
+tp1966
+a(S'please search'
+p1967
+g15
+tp1968
+a(S'what time is it currently'
+p1969
+g15
+tp1970
+a(S'can you please kill the active window'
+p1971
+g15
+tp1972
+a(S'do i have any events on sunday'
+p1973
+g15
+tp1974
+a(S'can you please close the active window'
+p1975
+g15
+tp1976
+a(S'can you shut down my computer'
+p1977
+g15
+tp1978
+a(S"don't i have to do anything"
+p1979
+g15
+tp1980
+a(S"don't i have any events on this day"
+p1981
+g15
+tp1982
+a(S'please turn off the computer'
+p1983
+g15
+tp1984
+a(S'are there any events on wednesday'
+p1985
+g15
+tp1986
+a(S'could you check inbox please'
+p1987
+g24
+tp1988
+a(S'exit'
+p1989
+g15
+tp1990
+a(S'start browser'
+p1991
+g15
+tp1992
+a(S'google'
+p1993
+g15
+tp1994
+a(S'pause spotify please'
+p1995
+g15
+tp1996
+a(S'open default browser please'
+p1997
+g15
+tp1998
+a(S'retrieve the current time'
+p1999
+g15
+tp2000
+a(S'can you shutdown the computer'
+p2001
+g15
+tp2002
+a(S'what is new in my gmail please'
+p2003
+g24
+tp2004
+a(S'what is in my gmail please'
+p2005
+g24
+tp2006
+a(S'check google calendar on'
+p2007
+g15
+tp2008
+a(S'please spotify pause the song'
+p2009
+g15
+tp2010
+a(S'am i free in a month'
+p2011
+g15
+tp2012
+a(S'would you open inbox'
+p2013
+g24
+tp2014
+a(S'check events for saturday'
+p2015
+g15
+tp2016
+a(S'will you check gmail please'
+p2017
+g24
+tp2018
+a(S'please spotify last song'
+p2019
+g15
+tp2020
+a(S'please could you open my gmail'
+p2021
+g24
+tp2022
+a(S'please go spotify '
+p2023
+g15
+tp2024
+a(S'please could you check my inbox'
+p2025
+g24
+tp2026
+a(g1514
+g15
+tp2027
+a(S'search google please'
+p2028
+g15
+tp2029
+a(S'what is in my mail'
+p2030
+g24
+tp2031
+a(S'start browsing'
+p2032
+g15
+tp2033
+a(S'anything new in my inbox'
+p2034
+g24
+tp2035
+a(S'can you turn up the tunez'
+p2036
+g15
+tp2037
+a(S'shutdown'
+p2038
+g15
+tp2039
+a(S'check your watch'
+p2040
+g15
+tp2041
+a(S'start default browser'
+p2042
+g15
+tp2043
+a(S'are there any events on this day'
+p2044
+g15
+tp2045
+a(S'please would you open my gmail'
+p2046
+g24
+tp2047
+a(S'bye alice'
+p2048
+g15
+tp2049
+a(S'what events are in a month'
+p2050
+g15
+tp2051
+a(S'check my calendar for this day'
+p2052
+g15
+tp2053
+a(S"aren't there any events on friday"
+p2054
+g15
+tp2055
+a(S'go back'
+p2056
+g15
+tp2057
+a(S'get the time please'
+p2058
+g15
+tp2059
+a(S'do i have anything to do on saturday'
+p2060
+g15
+tp2061
+a(S'can you shutdown'
+p2062
+g15
+tp2063
+a(S'check new mail please'
+p2064
+g24
+tp2065
+a(S"what's new in my gmail"
+p2066
+g24
+tp2067
+a(S'will you check new gmail please'
+p2068
+g24
+tp2069
+a(S'shut up please'
+p2070
+g15
+tp2071
+a(S'go to dot ee dee you'
+p2072
+g15
+tp2073
+a(S'what do i have on sunday'
+p2074
+g15
+tp2075
+a(S'please start a browser'
+p2076
+g15
+tp2077
+a(S'will you open my inbox please'
+p2078
+g24
+tp2079
+a(S'please can you check inbox'
+p2080
+g24
+tp2081
+a(S'exit please'
+p2082
+g15
+tp2083
+a(S'music down'
+p2084
+g15
+tp2085
+a(S"don't i have anything to do in a week"
+p2086
+g15
+tp2087
+a(S'is there anything i have to do on today'
+p2088
+g15
+tp2089
+a(S'alice next please'
+p2090
+g15
+tp2091
+a(S'spotify stop the song '
+p2092
+g15
+tp2093
+a(S'would you check new gmail'
+p2094
+g24
+tp2095
+a(S'can you lock computer please'
+p2096
+g15
+tp2097
+a(S'can you please turn up the tunez'
+p2098
+g15
+tp2099
+a(S'check events for tuesday'
+p2100
+g15
+tp2101
+a(S'what events are in a week'
+p2102
+g15
+tp2103
+a(S'check my calendar on this week'
+p2104
+g15
+tp2105
+a(S'spotify pause please'
+p2106
+g15
+tp2107
+a(S'please close the active window'
+p2108
+g15
+tp2109
+a(S'go to dot edu'
+p2110
+g15
+tp2111
+a(S'check calendar on tuesday'
+p2112
+g15
+tp2113
+a(S'please open browser'
+p2114
+g15
+tp2115
+a(S'google search please'
+p2116
+g15
+tp2117
+a(S"don't i have to do anything on tuesday"
+p2118
+g15
+tp2119
+a(S'turn it down'
+p2120
+g15
+tp2121
+a(S'what events do i have in a month'
+p2122
+g15
+tp2123
+a(S'check google calendar for this week'
+p2124
+g15
+tp2125
+a(S"please what's in new mail"
+p2126
+g24
+tp2127
+a(S'turn yourself off please'
+p2128
+g15
+tp2129
+a(S'good night'
+p2130
+g15
+tp2131
+a(S'can you please turn up the tune'
+p2132
+g15
+tp2133
+a(S'check events on this week'
+p2134
+g15
+tp2135
+a(S"don't i have anything to do on this day"
+p2136
+g15
+tp2137
+a(S'turn up the the beat'
+p2138
+g15
+tp2139
+a(S'spotify start please'
+p2140
+g15
+tp2141
+a(S'spotify play'
+p2142
+g15
+tp2143
+a(S'please open gmail'
+p2144
+g24
+tp2145
+a(S'please search for'
+p2146
+g15
+tp2147
+a(S'am i free'
+p2148
+g15
+tp2149
+a(S'please lock the screen'
+p2150
+g15
+tp2151
+a(S'will you open my mail please'
+p2152
+g24
+tp2153
+a(S'will you open my mail'
+p2154
+g24
+tp2155
+a(S"what's in mail please"
+p2156
+g24
+tp2157
+a(S'can you put me on the lock screen'
+p2158
+g15
+tp2159
+a(S'will you open gmail'
+p2160
+g24
+tp2161
+a(S'a backbone dictates above my grief'
+p2162
+g15
+tp2163
+a(S'shut down my computer please'
+p2164
+g15
+tp2165
+a(S'is there anything i have to do on wednesday'
+p2166
+g15
+tp2167
+a(S'are there any events on tuesday'
+p2168
+g15
+tp2169
+a(S'can you please shut off'
+p2170
+g15
+tp2171
+a(S'play '
+p2172
+g15
+tp2173
+a(S'will you check mail'
+p2174
+g24
+tp2175
+a(S'please start default browser'
+p2176
+g15
+tp2177
+a(S'please spotify previous'
+p2178
+g15
+tp2179
+a(S"don't i have anything to do on friday"
+p2180
+g15
+tp2181
+a(S"what's in new gmail please"
+p2182
+g24
+tp2183
+a(S'please can you check new mail'
+p2184
+g24
+tp2185
+a(S"please what's in inbox"
+p2186
+g24
+tp2187
+a(S'open inbox please'
+p2188
+g24
+tp2189
+a(S'turn it off'
+p2190
+g15
+tp2191
+a(S'spotify skip'
+p2192
+g15
+tp2193
+a(S'can you open browser please'
+p2194
+g15
+tp2195
+a(S'check calendar on this week'
+p2196
+g15
+tp2197
+a(S'spotify play the song'
+p2198
+g15
+tp2199
+a(S'please pause'
+p2200
+g15
+tp2201
+a(S'do i have any events in a week'
+p2202
+g15
+tp2203
+a(S'can you send me to the lock screen'
+p2204
+g15
+tp2205
+a(S'search google please for'
+p2206
+g15
+tp2207
+a(S'could you check my mail please'
+p2208
+g24
+tp2209
+a(S'check google calendar for sunday'
+p2210
+g15
+tp2211
+a(S'check google calendar on monday'
+p2212
+g15
+tp2213
+a(S'can you put me on the lock screen please'
+p2214
+g15
+tp2215
+a(S'search google for please'
+p2216
+g15
+tp2217
+a(S'do i have anything on friday'
+p2218
+g15
+tp2219
+a(S'go to dot com'
+p2220
+g15
+tp2221
+a(S'get clock'
+p2222
+g15
+tp2223
+a(S'check google calendar for friday'
+p2224
+g15
+tp2225
+a(S'kill active window'
+p2226
+g15
+tp2227
+a(S'spotify pause'
+p2228
+g15
+tp2229
+a(S'will you open my inbox'
+p2230
+g24
+tp2231
+a(S"don't i have anything to do on saturday"
+p2232
+g15
+tp2233
+a(S'what events are on friday'
+p2234
+g15
+tp2235
+a(S'turn up the sound please'
+p2236
+g15
+tp2237
+a(S'can you send me to the lock screen please'
+p2238
+g15
+tp2239
+a(S'lock the screen please'
+p2240
+g15
+tp2241
+a(S'can you please shut down my computer'
+p2242
+g15
+tp2243
+a(S'could you check my gmail'
+p2244
+g24
+tp2245
+a(S'what events do i have on tuesday'
+p2246
+g15
+tp2247
+a(S"don't i have to do anything tomorrow"
+p2248
+g15
+tp2249
+a(S"what's new in new gmail"
+p2250
+g24
+tp2251
+a(S'please search google for'
+p2252
+g15
+tp2253
+a(S'what is new in my gmail'
+p2254
+g24
+tp2255
+a(S'open a browser'
+p2256
+g15
+tp2257
+a(S'spotify start the song please'
+p2258
+g15
+tp2259
+a(S'can you turn off my computer'
+p2260
+g15
+tp2261
+a(S'check events on this day'
+p2262
+g15
+tp2263
+a(S'anything new in my mail'
+p2264
+g24
+tp2265
+a(S'please retrieve the current time'
+p2266
+g15
+tp2267
+a(S'would you check mail please'
+p2268
+g24
+tp2269
+a(S'can you shut off my computer'
+p2270
+g15
+tp2271
+a(S'close this window'
+p2272
+g15
+tp2273
+a(S'check events on friday'
+p2274
+g15
+tp2275
+a(S'check my mail please'
+p2276
+g24
+tp2277
+a(S'do i have any events'
+p2278
+g15
+tp2279
+a(S'check my calendar for thursday'
+p2280
+g15
+tp2281
+a(S"what's in new mail please"
+p2282
+g24
+tp2283
+a(S'is there anything i have to do in a week'
+p2284
+g15
+tp2285
+a(S'what do i have on today'
+p2286
+g15
+tp2287
+a(S'can you check new gmail'
+p2288
+g24
+tp2289
+a(S'please shut down the computer'
+p2290
+g15
+tp2291
+a(S'close window'
+p2292
+g15
+tp2293
+a(S'am i free today'
+p2294
+g15
+tp2295
+a(S"don't i have any events in a month"
+p2296
+g15
+tp2297
+a(S'check google calendar for this day'
+p2298
+g15
+tp2299
+a(S'check google calendar for tuesday'
+p2300
+g15
+tp2301
+a(S'shut down the computer please'
+p2302
+g15
+tp2303
+a(S'do i have anything to do'
+p2304
+g15
+tp2305
+a(S'is there anything to do on friday'
+p2306
+g15
+tp2307
+a(S'what do i have on saturday'
+p2308
+g15
+tp2309
+a(S'am i free on monday'
+p2310
+g15
+tp2311
+a(S'can you check my mail please'
+p2312
+g24
+tp2313
+a(S'open my mail please'
+p2314
+g24
+tp2315
+a(S'get the clock'
+p2316
+g15
+tp2317
+a(S'please what is in new mail'
+p2318
+g24
+tp2319
+a(S'can you please kill active window'
+p2320
+g15
+tp2321
+a(S'kill current window'
+p2322
+g15
+tp2323
+a(S'any events on this day'
+p2324
+g15
+tp2325
+a(S'are there any events on saturday'
+p2326
+g15
+tp2327
+a(S'turn up the beat'
+p2328
+g15
+tp2329
+a(S"please what's new in mail"
+p2330
+g24
+tp2331
+a(S'kill this window'
+p2332
+g15
+tp2333
+a(S'is there anything to do on tomorrow'
+p2334
+g15
+tp2335
+a(S'get current time'
+p2336
+g15
+tp2337
+a(S"don't i have anything on monday"
+p2338
+g15
+tp2339
+a(S"don't i have anything to do on monday"
+p2340
+g15
+tp2341
+a(S'please shutdown the computer'
+p2342
+g15
+tp2343
+a(S'check new mail'
+p2344
+g24
+tp2345
+a(S'check my calendar for this day'
+p2346
+g15
+tp2347
+a(S'next'
+p2348
+g15
+tp2349
+a(S'what time is it now'
+p2350
+g15
+tp2351
+a(S'predict the outcome on a new document'
+p2352
+g15
+tp2353
+a(S'anything new in gmail'
+p2354
+g24
+tp2355
+a(S'am i free on tomorrow'
+p2356
+g15
+tp2357
+a(S'would you open gmail'
+p2358
+g24
+tp2359
+a(S'check my calendar for today'
+p2360
+g15
+tp2361
+a(S'start a default browser'
+p2362
+g15
+tp2363
+a(S"please what's in my gmail"
+p2364
+g24
+tp2365
+a(S'am i free on sunday'
+p2366
+g15
+tp2367
+a(S'set the volume to zero'
+p2368
+g15
+tp2369
+asS'classifier'
+p2370
+ccopy_reg
+_reconstructor
+p2371
+(csklearn.pipeline
+Pipeline
+p2372
+c__builtin__
+object
+p2373
+Ntp2374
+Rp2375
+(dp2376
+S'_sklearn_version'
+p2377
+S'0.18.1'
+p2378
+sS'steps'
+p2379
+(lp2380
+(S'vect'
+p2381
+g2371
+(csklearn.feature_extraction.text
+CountVectorizer
+p2382
+g2373
+Ntp2383
+Rp2384
+(dp2385
+S'decode_error'
+p2386
+Vstrict
+p2387
+sS'lowercase'
+p2388
+I01
+sS'stop_words'
+p2389
+NsS'vocabulary'
+p2390
+NsS'tokenizer'
+p2391
+NsS'encoding'
+p2392
+Vutf-8
+p2393
+sS'token_pattern'
+p2394
+V(?u)\u005cb\u005cw\u005cw+\u005cb
+p2395
+sS'input'
+p2396
+Vcontent
+p2397
+sS'analyzer'
+p2398
+Vword
+p2399
+sS'vocabulary_'
+p2400
+(dp2401
+Vdefault
+p2402
+cnumpy.core.multiarray
+scalar
+p2403
+(cnumpy
+dtype
+p2404
+(S'i8'
+p2405
+I0
+I1
+tp2406
+Rp2407
+(I3
+S'<'
+p2408
+NNNI-1
+I-1
+I0
+tp2409
+bS'*\x00\x00\x00\x00\x00\x00\x00'
+p2410
+tp2411
+Rp2412
+sVmute
+p2413
+g2403
+(g2407
+S'a\x00\x00\x00\x00\x00\x00\x00'
+p2414
+tp2415
+Rp2416
+sVskip
+p2417
+g2403
+(g2407
+S'\x8f\x00\x00\x00\x00\x00\x00\x00'
+p2418
+tp2419
+Rp2420
+sVmonth
+p2421
+g2403
+(g2407
+S'_\x00\x00\x00\x00\x00\x00\x00'
+p2422
+tp2423
+Rp2424
+sVsofter
+p2425
+g2403
+(g2407
+S'\x90\x00\x00\x00\x00\x00\x00\x00'
+p2426
+tp2427
+Rp2428
+sVkill
+p2429
+g2403
+(g2407
+S'S\x00\x00\x00\x00\x00\x00\x00'
+p2430
+tp2431
+Rp2432
+sVedu
+p2433
+g2403
+(g2407
+S'5\x00\x00\x00\x00\x00\x00\x00'
+p2434
+tp2435
+Rp2436
+sVgo
+p2437
+g2403
+(g2407
+S'C\x00\x00\x00\x00\x00\x00\x00'
+p2438
+tp2439
+Rp2440
+sVprevious
+p2441
+g2403
+(g2407
+S'w\x00\x00\x00\x00\x00\x00\x00'
+p2442
+tp2443
+Rp2444
+sVspotify
+p2445
+g2403
+(g2407
+S'\x93\x00\x00\x00\x00\x00\x00\x00'
+p2446
+tp2447
+Rp2448
+sVpause
+p2449
+g2403
+(g2407
+S'p\x00\x00\x00\x00\x00\x00\x00'
+p2450
+tp2451
+Rp2452
+sVsend
+p2453
+g2403
+(g2407
+S'\x89\x00\x00\x00\x00\x00\x00\x00'
+p2454
+tp2455
+Rp2456
+sVaren
+p2457
+g2403
+(g2407
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p2458
+tp2459
+Rp2460
+sVto
+p2461
+g2403
+(g2407
+S'\xa1\x00\x00\x00\x00\x00\x00\x00'
+p2462
+tp2463
+Rp2464
+sVwindow
+p2465
+g2403
+(g2407
+S'\xb5\x00\x00\x00\x00\x00\x00\x00'
+p2466
+tp2467
+Rp2468
+sVprogram
+p2469
+g2403
+(g2407
+S'z\x00\x00\x00\x00\x00\x00\x00'
+p2470
+tp2471
+Rp2472
+sVmail
+p2473
+g2403
+(g2407
+S'Y\x00\x00\x00\x00\x00\x00\x00'
+p2474
+tp2475
+Rp2476
+sVbye
+p2477
+g2403
+(g2407
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p2478
+tp2479
+Rp2480
+sVdo
+p2481
+g2403
+(g2407
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p2482
+tp2483
+Rp2484
+sVpredict
+p2485
+g2403
+(g2407
+S'u\x00\x00\x00\x00\x00\x00\x00'
+p2486
+tp2487
+Rp2488
+sVgood
+p2489
+g2403
+(g2407
+S'D\x00\x00\x00\x00\x00\x00\x00'
+p2490
+tp2491
+Rp2492
+sVemergency
+p2493
+g2403
+(g2407
+S'7\x00\x00\x00\x00\x00\x00\x00'
+p2494
+tp2495
+Rp2496
+sVget
+p2497
+g2403
+(g2407
+S'A\x00\x00\x00\x00\x00\x00\x00'
+p2498
+tp2499
+Rp2500
+sVya
+p2501
+g2403
+(g2407
+S'\xb7\x00\x00\x00\x00\x00\x00\x00'
+p2502
+tp2503
+Rp2504
+sVmaterial
+p2505
+g2403
+(g2407
+S'[\x00\x00\x00\x00\x00\x00\x00'
+p2506
+tp2507
+Rp2508
+sVwatch
+p2509
+g2403
+(g2407
+S'\xae\x00\x00\x00\x00\x00\x00\x00'
+p2510
+tp2511
+Rp2512
+sVanswer
+p2513
+g2403
+(g2407
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p2514
+tp2515
+Rp2516
+sVusing
+p2517
+g2403
+(g2407
+S'\xac\x00\x00\x00\x00\x00\x00\x00'
+p2518
+tp2519
+Rp2520
+sVnow
+p2521
+g2403
+(g2407
+S'h\x00\x00\x00\x00\x00\x00\x00'
+p2522
+tp2523
+Rp2524
+sVday
+p2525
+g2403
+(g2407
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p2526
+tp2527
+Rp2528
+sVdreams
+p2529
+g2403
+(g2407
+S'3\x00\x00\x00\x00\x00\x00\x00'
+p2530
+tp2531
+Rp2532
+sVshoulder
+p2533
+g2403
+(g2407
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+p2534
+tp2535
+Rp2536
+sVgov
+p2537
+g2403
+(g2407
+S'G\x00\x00\x00\x00\x00\x00\x00'
+p2538
+tp2539
+Rp2540
+sValex
+p2541
+g2403
+(g2407
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p2542
+tp2543
+Rp2544
+sVlike
+p2545
+g2403
+(g2407
+S'U\x00\x00\x00\x00\x00\x00\x00'
+p2546
+tp2547
+Rp2548
+sVgossips
+p2549
+g2403
+(g2407
+S'F\x00\x00\x00\x00\x00\x00\x00'
+p2550
+tp2551
+Rp2552
+sVdidn
+p2553
+g2403
+(g2407
+S',\x00\x00\x00\x00\x00\x00\x00'
+p2554
+tp2555
+Rp2556
+sVwednesday
+p2557
+g2403
+(g2407
+S'\xb0\x00\x00\x00\x00\x00\x00\x00'
+p2558
+tp2559
+Rp2560
+sVtry
+p2561
+g2403
+(g2407
+S'\xa5\x00\x00\x00\x00\x00\x00\x00'
+p2562
+tp2563
+Rp2564
+sVtunez
+p2565
+g2403
+(g2407
+S'\xa9\x00\x00\x00\x00\x00\x00\x00'
+p2566
+tp2567
+Rp2568
+sVnight
+p2569
+g2403
+(g2407
+S'f\x00\x00\x00\x00\x00\x00\x00'
+p2570
+tp2571
+Rp2572
+sVtunes
+p2573
+g2403
+(g2407
+S'\xa8\x00\x00\x00\x00\x00\x00\x00'
+p2574
+tp2575
+Rp2576
+sVclassifier
+p2577
+g2403
+(g2407
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p2578
+tp2579
+Rp2580
+sVinbox
+p2581
+g2403
+(g2407
+S'N\x00\x00\x00\x00\x00\x00\x00'
+p2582
+tp2583
+Rp2584
+sVset
+p2585
+g2403
+(g2407
+S'\x8a\x00\x00\x00\x00\x00\x00\x00'
+p2586
+tp2587
+Rp2588
+sVretrieve
+p2589
+g2403
+(g2407
+S'\x81\x00\x00\x00\x00\x00\x00\x00'
+p2590
+tp2591
+Rp2592
+sVee
+p2593
+g2403
+(g2407
+S'6\x00\x00\x00\x00\x00\x00\x00'
+p2594
+tp2595
+Rp2596
+sVback
+p2597
+g2403
+(g2407
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p2598
+tp2599
+Rp2600
+sValice
+p2601
+g2403
+(g2407
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p2602
+tp2603
+Rp2604
+sVsee
+p2605
+g2403
+(g2407
+S'\x88\x00\x00\x00\x00\x00\x00\x00'
+p2606
+tp2607
+Rp2608
+sVcomputer
+p2609
+g2403
+(g2407
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p2610
+tp2611
+Rp2612
+sVare
+p2613
+g2403
+(g2407
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p2614
+tp2615
+Rp2616
+sVclose
+p2617
+g2403
+(g2407
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p2618
+tp2619
+Rp2620
+sVcalendar
+p2621
+g2403
+(g2407
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p2622
+tp2623
+Rp2624
+sVextract
+p2625
+g2403
+(g2407
+S':\x00\x00\x00\x00\x00\x00\x00'
+p2626
+tp2627
+Rp2628
+sVsaturday
+p2629
+g2403
+(g2407
+S'\x85\x00\x00\x00\x00\x00\x00\x00'
+p2630
+tp2631
+Rp2632
+sVgmail
+p2633
+g2403
+(g2407
+S'B\x00\x00\x00\x00\x00\x00\x00'
+p2634
+tp2635
+Rp2636
+sVcategory
+p2637
+g2403
+(g2407
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p2638
+tp2639
+Rp2640
+sVwhat
+p2641
+g2403
+(g2407
+S'\xb2\x00\x00\x00\x00\x00\x00\x00'
+p2642
+tp2643
+Rp2644
+sVfor
+p2645
+g2403
+(g2407
+S'=\x00\x00\x00\x00\x00\x00\x00'
+p2646
+tp2647
+Rp2648
+sVclock
+p2649
+g2403
+(g2407
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p2650
+tp2651
+Rp2652
+sVcurrently
+p2653
+g2403
+(g2407
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p2654
+tp2655
+Rp2656
+sVplease
+p2657
+g2403
+(g2407
+S's\x00\x00\x00\x00\x00\x00\x00'
+p2658
+tp2659
+Rp2660
+sVtomorrow
+p2661
+g2403
+(g2407
+S'\xa3\x00\x00\x00\x00\x00\x00\x00'
+p2662
+tp2663
+Rp2664
+sVcurrent
+p2665
+g2403
+(g2407
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p2666
+tp2667
+Rp2668
+sVexit
+p2669
+g2403
+(g2407
+S'9\x00\x00\x00\x00\x00\x00\x00'
+p2670
+tp2671
+Rp2672
+sVabove
+p2673
+g2403
+(g2407
+S'\x00\x00\x00\x00\x00\x00\x00\x00'
+p2674
+tp2675
+Rp2676
+sVnew
+p2677
+g2403
+(g2407
+S'd\x00\x00\x00\x00\x00\x00\x00'
+p2678
+tp2679
+Rp2680
+sVnet
+p2681
+g2403
+(g2407
+S'c\x00\x00\x00\x00\x00\x00\x00'
+p2682
+tp2683
+Rp2684
+sVmoderate
+p2685
+g2403
+(g2407
+S']\x00\x00\x00\x00\x00\x00\x00'
+p2686
+tp2687
+Rp2688
+sVissue
+p2689
+g2403
+(g2407
+S'Q\x00\x00\x00\x00\x00\x00\x00'
+p2690
+tp2691
+Rp2692
+sVbe
+p2693
+g2403
+(g2407
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p2694
+tp2695
+Rp2696
+sVshut
+p2697
+g2403
+(g2407
+S'\x8c\x00\x00\x00\x00\x00\x00\x00'
+p2698
+tp2699
+Rp2700
+sVnoise
+p2701
+g2403
+(g2407
+S'g\x00\x00\x00\x00\x00\x00\x00'
+p2702
+tp2703
+Rp2704
+sVscreen
+p2705
+g2403
+(g2407
+S'\x86\x00\x00\x00\x00\x00\x00\x00'
+p2706
+tp2707
+Rp2708
+sVdictates
+p2709
+g2403
+(g2407
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p2710
+tp2711
+Rp2712
+sVfree
+p2713
+g2403
+(g2407
+S'>\x00\x00\x00\x00\x00\x00\x00'
+p2714
+tp2715
+Rp2716
+sVillustration
+p2717
+g2403
+(g2407
+S'L\x00\x00\x00\x00\x00\x00\x00'
+p2718
+tp2719
+Rp2720
+sVput
+p2721
+g2403
+(g2407
+S'{\x00\x00\x00\x00\x00\x00\x00'
+p2722
+tp2723
+Rp2724
+sVorg
+p2725
+g2403
+(g2407
+S'n\x00\x00\x00\x00\x00\x00\x00'
+p2726
+tp2727
+Rp2728
+sVpost
+p2729
+g2403
+(g2407
+S't\x00\x00\x00\x00\x00\x00\x00'
+p2730
+tp2731
+Rp2732
+sVearlier
+p2733
+g2403
+(g2407
+S'4\x00\x00\x00\x00\x00\x00\x00'
+p2734
+tp2735
+Rp2736
+sVon
+p2737
+g2403
+(g2407
+S'l\x00\x00\x00\x00\x00\x00\x00'
+p2738
+tp2739
+Rp2740
+sVsearch
+p2741
+g2403
+(g2407
+S'\x87\x00\x00\x00\x00\x00\x00\x00'
+p2742
+tp2743
+Rp2744
+sVlast
+p2745
+g2403
+(g2407
+S'T\x00\x00\x00\x00\x00\x00\x00'
+p2746
+tp2747
+Rp2748
+sVanything
+p2749
+g2403
+(g2407
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p2750
+tp2751
+Rp2752
+sVof
+p2753
+g2403
+(g2407
+S'i\x00\x00\x00\x00\x00\x00\x00'
+p2754
+tp2755
+Rp2756
+sVcould
+p2757
+g2403
+(g2407
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p2758
+tp2759
+Rp2760
+sVquiet
+p2761
+g2403
+(g2407
+S'}\x00\x00\x00\x00\x00\x00\x00'
+p2762
+tp2763
+Rp2764
+sVturn
+p2765
+g2403
+(g2407
+S'\xaa\x00\x00\x00\x00\x00\x00\x00'
+p2766
+tp2767
+Rp2768
+sVbrowsing
+p2769
+g2403
+(g2407
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p2770
+tp2771
+Rp2772
+sVcom
+p2773
+g2403
+(g2407
+S' \x00\x00\x00\x00\x00\x00\x00'
+p2774
+tp2775
+Rp2776
+sVthink
+p2777
+g2403
+(g2407
+S'\x9d\x00\x00\x00\x00\x00\x00\x00'
+p2778
+tp2779
+Rp2780
+sVfeatures
+p2781
+g2403
+(g2407
+S'<\x00\x00\x00\x00\x00\x00\x00'
+p2782
+tp2783
+Rp2784
+sVsimple
+p2785
+g2403
+(g2407
+S'\x8e\x00\x00\x00\x00\x00\x00\x00'
+p2786
+tp2787
+Rp2788
+sVsweet
+p2789
+g2403
+(g2407
+S'\x99\x00\x00\x00\x00\x00\x00\x00'
+p2790
+tp2791
+Rp2792
+sVtuesday
+p2793
+g2403
+(g2407
+S'\xa6\x00\x00\x00\x00\x00\x00\x00'
+p2794
+tp2795
+Rp2796
+sVyourself
+p2797
+g2403
+(g2407
+S'\xba\x00\x00\x00\x00\x00\x00\x00'
+p2798
+tp2799
+Rp2800
+sVdown
+p2801
+g2403
+(g2407
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p2802
+tp2803
+Rp2804
+sVactive
+p2805
+g2403
+(g2407
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p2806
+tp2807
+Rp2808
+sVgoogle
+p2809
+g2403
+(g2407
+S'E\x00\x00\x00\x00\x00\x00\x00'
+p2810
+tp2811
+Rp2812
+sVdecrease
+p2813
+g2403
+(g2407
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p2814
+tp2815
+Rp2816
+sVthursday
+p2817
+g2403
+(g2407
+S'\x9f\x00\x00\x00\x00\x00\x00\x00'
+p2818
+tp2819
+Rp2820
+sVshutdown
+p2821
+g2403
+(g2407
+S'\x8d\x00\x00\x00\x00\x00\x00\x00'
+p2822
+tp2823
+Rp2824
+sVopen
+p2825
+g2403
+(g2407
+S'm\x00\x00\x00\x00\x00\x00\x00'
+p2826
+tp2827
+Rp2828
+sVyour
+p2829
+g2403
+(g2407
+S'\xb9\x00\x00\x00\x00\x00\x00\x00'
+p2830
+tp2831
+Rp2832
+sVwould
+p2833
+g2403
+(g2407
+S'\xb6\x00\x00\x00\x00\x00\x00\x00'
+p2834
+tp2835
+Rp2836
+sVsake
+p2837
+g2403
+(g2407
+S'\x83\x00\x00\x00\x00\x00\x00\x00'
+p2838
+tp2839
+Rp2840
+sVdecent
+p2841
+g2403
+(g2407
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p2842
+tp2843
+Rp2844
+sVthere
+p2845
+g2403
+(g2407
+S'\x9c\x00\x00\x00\x00\x00\x00\x00'
+p2846
+tp2847
+Rp2848
+sVquestion
+p2849
+g2403
+(g2407
+S'|\x00\x00\x00\x00\x00\x00\x00'
+p2850
+tp2851
+Rp2852
+sVhey
+p2853
+g2403
+(g2407
+S'J\x00\x00\x00\x00\x00\x00\x00'
+p2854
+tp2855
+Rp2856
+sVnext
+p2857
+g2403
+(g2407
+S'e\x00\x00\x00\x00\x00\x00\x00'
+p2858
+tp2859
+Rp2860
+sVstart
+p2861
+g2403
+(g2407
+S'\x95\x00\x00\x00\x00\x00\x00\x00'
+p2862
+tp2863
+Rp2864
+sVmusic
+p2865
+g2403
+(g2407
+S'`\x00\x00\x00\x00\x00\x00\x00'
+p2866
+tp2867
+Rp2868
+sVdogs
+p2869
+g2403
+(g2407
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p2870
+tp2871
+Rp2872
+sVtoday
+p2873
+g2403
+(g2407
+S'\xa2\x00\x00\x00\x00\x00\x00\x00'
+p2874
+tp2875
+Rp2876
+sVpretends
+p2877
+g2403
+(g2407
+S'v\x00\x00\x00\x00\x00\x00\x00'
+p2878
+tp2879
+Rp2880
+sVsound
+p2881
+g2403
+(g2407
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
+p2882
+tp2883
+Rp2884
+sVreleasing
+p2885
+g2403
+(g2407
+S'\x80\x00\x00\x00\x00\x00\x00\x00'
+p2886
+tp2887
+Rp2888
+sVcommands
+p2889
+g2403
+(g2407
+S'!\x00\x00\x00\x00\x00\x00\x00'
+p2890
+tp2891
+Rp2892
+sVit
+p2893
+g2403
+(g2407
+S'R\x00\x00\x00\x00\x00\x00\x00'
+p2894
+tp2895
+Rp2896
+sVvolume
+p2897
+g2403
+(g2407
+S'\xad\x00\x00\x00\x00\x00\x00\x00'
+p2898
+tp2899
+Rp2900
+sVtrain
+p2901
+g2403
+(g2407
+S'\xa4\x00\x00\x00\x00\x00\x00\x00'
+p2902
+tp2903
+Rp2904
+sVstick
+p2905
+g2403
+(g2407
+S'\x96\x00\x00\x00\x00\x00\x00\x00'
+p2906
+tp2907
+Rp2908
+sVoff
+p2909
+g2403
+(g2407
+S'j\x00\x00\x00\x00\x00\x00\x00'
+p2910
+tp2911
+Rp2912
+sVme
+p2913
+g2403
+(g2407
+S'\\\x00\x00\x00\x00\x00\x00\x00'
+p2914
+tp2915
+Rp2916
+sVahead
+p2917
+g2403
+(g2407
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p2918
+tp2919
+Rp2920
+sVfriday
+p2921
+g2403
+(g2407
+S'?\x00\x00\x00\x00\x00\x00\x00'
+p2922
+tp2923
+Rp2924
+sVthis
+p2925
+g2403
+(g2407
+S'\x9e\x00\x00\x00\x00\x00\x00\x00'
+p2926
+tp2927
+Rp2928
+sVup
+p2929
+g2403
+(g2407
+S'\xab\x00\x00\x00\x00\x00\x00\x00'
+p2930
+tp2931
+Rp2932
+sVwill
+p2933
+g2403
+(g2407
+S'\xb4\x00\x00\x00\x00\x00\x00\x00'
+p2934
+tp2935
+Rp2936
+sVlouder
+p2937
+g2403
+(g2407
+S'W\x00\x00\x00\x00\x00\x00\x00'
+p2938
+tp2939
+Rp2940
+sVcan
+p2941
+g2403
+(g2407
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p2942
+tp2943
+Rp2944
+sVproblem
+p2945
+g2403
+(g2407
+S'x\x00\x00\x00\x00\x00\x00\x00'
+p2946
+tp2947
+Rp2948
+sVoutcome
+p2949
+g2403
+(g2407
+S'o\x00\x00\x00\x00\x00\x00\x00'
+p2950
+tp2951
+Rp2952
+sVmy
+p2953
+g2403
+(g2407
+S'b\x00\x00\x00\x00\x00\x00\x00'
+p2954
+tp2955
+Rp2956
+sVdee
+p2957
+g2403
+(g2407
+S')\x00\x00\x00\x00\x00\x00\x00'
+p2958
+tp2959
+Rp2960
+sVbrowser
+p2961
+g2403
+(g2407
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p2962
+tp2963
+Rp2964
+sVcell
+p2965
+g2403
+(g2407
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p2966
+tp2967
+Rp2968
+sValmost
+p2969
+g2403
+(g2407
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p2970
+tp2971
+Rp2972
+sVlock
+p2973
+g2403
+(g2407
+S'V\x00\x00\x00\x00\x00\x00\x00'
+p2974
+tp2975
+Rp2976
+sVis
+p2977
+g2403
+(g2407
+S'P\x00\x00\x00\x00\x00\x00\x00'
+p2978
+tp2979
+Rp2980
+sVin
+p2981
+g2403
+(g2407
+S'M\x00\x00\x00\x00\x00\x00\x00'
+p2982
+tp2983
+Rp2984
+sVam
+p2985
+g2403
+(g2407
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p2986
+tp2987
+Rp2988
+sVfuck
+p2989
+g2403
+(g2407
+S'@\x00\x00\x00\x00\x00\x00\x00'
+p2990
+tp2991
+Rp2992
+sVan
+p2993
+g2403
+(g2407
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p2994
+tp2995
+Rp2996
+sVbeats
+p2997
+g2403
+(g2407
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p2998
+tp2999
+Rp3000
+sVright
+p3001
+g2403
+(g2407
+S'\x82\x00\x00\x00\x00\x00\x00\x00'
+p3002
+tp3003
+Rp3004
+sVhave
+p3005
+g2403
+(g2407
+S'I\x00\x00\x00\x00\x00\x00\x00'
+p3006
+tp3007
+Rp3008
+sVstalls
+p3009
+g2403
+(g2407
+S'\x94\x00\x00\x00\x00\x00\x00\x00'
+p3010
+tp3011
+Rp3012
+sVany
+p3013
+g2403
+(g2407
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p3014
+tp3015
+Rp3016
+sVquieter
+p3017
+g2403
+(g2407
+S'~\x00\x00\x00\x00\x00\x00\x00'
+p3018
+tp3019
+Rp3020
+sVzero
+p3021
+g2403
+(g2407
+S'\xbb\x00\x00\x00\x00\x00\x00\x00'
+p3022
+tp3023
+Rp3024
+sVmake
+p3025
+g2403
+(g2407
+S'Z\x00\x00\x00\x00\x00\x00\x00'
+p3026
+tp3027
+Rp3028
+sVsong
+p3029
+g2403
+(g2407
+S'\x91\x00\x00\x00\x00\x00\x00\x00'
+p3030
+tp3031
+Rp3032
+sVwhen
+p3033
+g2403
+(g2407
+S'\xb3\x00\x00\x00\x00\x00\x00\x00'
+p3034
+tp3035
+Rp3036
+sVfeature
+p3037
+g2403
+(g2407
+S';\x00\x00\x00\x00\x00\x00\x00'
+p3038
+tp3039
+Rp3040
+sVsame
+p3041
+g2403
+(g2407
+S'\x84\x00\x00\x00\x00\x00\x00\x00'
+p3042
+tp3043
+Rp3044
+sVcheck
+p3045
+g2403
+(g2407
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p3046
+tp3047
+Rp3048
+sVbeside
+p3049
+g2403
+(g2407
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p3050
+tp3051
+Rp3052
+sVbeat
+p3053
+g2403
+(g2407
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p3054
+tp3055
+Rp3056
+sVsunday
+p3057
+g2403
+(g2407
+S'\x98\x00\x00\x00\x00\x00\x00\x00'
+p3058
+tp3059
+Rp3060
+sVread
+p3061
+g2403
+(g2407
+S'\x7f\x00\x00\x00\x00\x00\x00\x00'
+p3062
+tp3063
+Rp3064
+sVbefore
+p3065
+g2403
+(g2407
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p3066
+tp3067
+Rp3068
+sVyou
+p3069
+g2403
+(g2407
+S'\xb8\x00\x00\x00\x00\x00\x00\x00'
+p3070
+tp3071
+Rp3072
+sVdocument
+p3073
+g2403
+(g2407
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p3074
+tp3075
+Rp3076
+sVevents
+p3077
+g2403
+(g2407
+S'8\x00\x00\x00\x00\x00\x00\x00'
+p3078
+tp3079
+Rp3080
+sVhigher
+p3081
+g2403
+(g2407
+S'K\x00\x00\x00\x00\x00\x00\x00'
+p3082
+tp3083
+Rp3084
+sVweek
+p3085
+g2403
+(g2407
+S'\xb1\x00\x00\x00\x00\x00\x00\x00'
+p3086
+tp3087
+Rp3088
+sVplay
+p3089
+g2403
+(g2407
+S'q\x00\x00\x00\x00\x00\x00\x00'
+p3090
+tp3091
+Rp3092
+sVokay
+p3093
+g2403
+(g2407
+S'k\x00\x00\x00\x00\x00\x00\x00'
+p3094
+tp3095
+Rp3096
+sVmonday
+p3097
+g2403
+(g2407
+S'^\x00\x00\x00\x00\x00\x00\x00'
+p3098
+tp3099
+Rp3100
+sVstop
+p3101
+g2403
+(g2407
+S'\x97\x00\x00\x00\x00\x00\x00\x00'
+p3102
+tp3103
+Rp3104
+sVbackbone
+p3105
+g2403
+(g2407
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p3106
+tp3107
+Rp3108
+sVproblems
+p3109
+g2403
+(g2407
+S'y\x00\x00\x00\x00\x00\x00\x00'
+p3110
+tp3111
+Rp3112
+sVbyebye
+p3113
+g2403
+(g2407
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p3114
+tp3115
+Rp3116
+sVtune
+p3117
+g2403
+(g2407
+S'\xa7\x00\x00\x00\x00\x00\x00\x00'
+p3118
+tp3119
+Rp3120
+sVgrief
+p3121
+g2403
+(g2407
+S'H\x00\x00\x00\x00\x00\x00\x00'
+p3122
+tp3123
+Rp3124
+sVlower
+p3125
+g2403
+(g2407
+S'X\x00\x00\x00\x00\x00\x00\x00'
+p3126
+tp3127
+Rp3128
+sVdon
+p3129
+g2403
+(g2407
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p3130
+tp3131
+Rp3132
+sVwe
+p3133
+g2403
+(g2407
+S'\xaf\x00\x00\x00\x00\x00\x00\x00'
+p3134
+tp3135
+Rp3136
+sVtale
+p3137
+g2403
+(g2407
+S'\x9a\x00\x00\x00\x00\x00\x00\x00'
+p3138
+tp3139
+Rp3140
+sVtime
+p3141
+g2403
+(g2407
+S'\xa0\x00\x00\x00\x00\x00\x00\x00'
+p3142
+tp3143
+Rp3144
+sVthe
+p3145
+g2403
+(g2407
+S'\x9b\x00\x00\x00\x00\x00\x00\x00'
+p3146
+tp3147
+Rp3148
+sVincrease
+p3149
+g2403
+(g2407
+S'O\x00\x00\x00\x00\x00\x00\x00'
+p3150
+tp3151
+Rp3152
+sVplaying
+p3153
+g2403
+(g2407
+S'r\x00\x00\x00\x00\x00\x00\x00'
+p3154
+tp3155
+Rp3156
+sVdot
+p3157
+g2403
+(g2407
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p3158
+tp3159
+Rp3160
+ssS'binary'
+p3161
+I00
+sS'ngram_range'
+p3162
+(I1
+I1
+tp3163
+sg2377
+g2378
+sS'max_df'
+p3164
+F1.0
+sS'min_df'
+p3165
+I1
+sS'max_features'
+p3166
+NsS'fixed_vocabulary_'
+p3167
+I00
+sS'strip_accents'
+p3168
+NsS'dtype'
+p3169
+cnumpy
+int64
+p3170
+sS'stop_words_'
+p3171
+c__builtin__
+set
+p3172
+((lp3173
+tp3174
+Rp3175
+sS'preprocessor'
+p3176
+Nsbtp3177
+a(S'tfidf'
+p3178
+g2371
+(csklearn.feature_extraction.text
+TfidfTransformer
+p3179
+g2373
+Ntp3180
+Rp3181
+(dp3182
+S'smooth_idf'
+p3183
+I01
+sg2377
+g2378
+sS'_idf_diag'
+p3184
+g2371
+(cscipy.sparse.csr
+csr_matrix
+p3185
+g2373
+Ntp3186
+Rp3187
+(dp3188
+S'indices'
+p3189
+cnumpy.core.multiarray
+_reconstruct
+p3190
+(cnumpy
+ndarray
+p3191
+(I0
+tp3192
+S'b'
+p3193
+tp3194
+Rp3195
+(I1
+(I188
+tp3196
+g2404
+(S'i4'
+p3197
+I0
+I1
+tp3198
+Rp3199
+(I3
+S'<'
+p3200
+NNNI-1
+I-1
+I0
+tp3201
+bI00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00'
+p3202
+tp3203
+bsS'indptr'
+p3204
+g3190
+(g3191
+(I0
+tp3205
+g3193
+tp3206
+Rp3207
+(I1
+(I189
+tp3208
+g3199
+I00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x004\x00\x00\x005\x00\x00\x006\x00\x00\x007\x00\x00\x008\x00\x00\x009\x00\x00\x00:\x00\x00\x00;\x00\x00\x00<\x00\x00\x00=\x00\x00\x00>\x00\x00\x00?\x00\x00\x00@\x00\x00\x00A\x00\x00\x00B\x00\x00\x00C\x00\x00\x00D\x00\x00\x00E\x00\x00\x00F\x00\x00\x00G\x00\x00\x00H\x00\x00\x00I\x00\x00\x00J\x00\x00\x00K\x00\x00\x00L\x00\x00\x00M\x00\x00\x00N\x00\x00\x00O\x00\x00\x00P\x00\x00\x00Q\x00\x00\x00R\x00\x00\x00S\x00\x00\x00T\x00\x00\x00U\x00\x00\x00V\x00\x00\x00W\x00\x00\x00X\x00\x00\x00Y\x00\x00\x00Z\x00\x00\x00[\x00\x00\x00\\\x00\x00\x00]\x00\x00\x00^\x00\x00\x00_\x00\x00\x00`\x00\x00\x00a\x00\x00\x00b\x00\x00\x00c\x00\x00\x00d\x00\x00\x00e\x00\x00\x00f\x00\x00\x00g\x00\x00\x00h\x00\x00\x00i\x00\x00\x00j\x00\x00\x00k\x00\x00\x00l\x00\x00\x00m\x00\x00\x00n\x00\x00\x00o\x00\x00\x00p\x00\x00\x00q\x00\x00\x00r\x00\x00\x00s\x00\x00\x00t\x00\x00\x00u\x00\x00\x00v\x00\x00\x00w\x00\x00\x00x\x00\x00\x00y\x00\x00\x00z\x00\x00\x00{\x00\x00\x00|\x00\x00\x00}\x00\x00\x00~\x00\x00\x00\x7f\x00\x00\x00\x80\x00\x00\x00\x81\x00\x00\x00\x82\x00\x00\x00\x83\x00\x00\x00\x84\x00\x00\x00\x85\x00\x00\x00\x86\x00\x00\x00\x87\x00\x00\x00\x88\x00\x00\x00\x89\x00\x00\x00\x8a\x00\x00\x00\x8b\x00\x00\x00\x8c\x00\x00\x00\x8d\x00\x00\x00\x8e\x00\x00\x00\x8f\x00\x00\x00\x90\x00\x00\x00\x91\x00\x00\x00\x92\x00\x00\x00\x93\x00\x00\x00\x94\x00\x00\x00\x95\x00\x00\x00\x96\x00\x00\x00\x97\x00\x00\x00\x98\x00\x00\x00\x99\x00\x00\x00\x9a\x00\x00\x00\x9b\x00\x00\x00\x9c\x00\x00\x00\x9d\x00\x00\x00\x9e\x00\x00\x00\x9f\x00\x00\x00\xa0\x00\x00\x00\xa1\x00\x00\x00\xa2\x00\x00\x00\xa3\x00\x00\x00\xa4\x00\x00\x00\xa5\x00\x00\x00\xa6\x00\x00\x00\xa7\x00\x00\x00\xa8\x00\x00\x00\xa9\x00\x00\x00\xaa\x00\x00\x00\xab\x00\x00\x00\xac\x00\x00\x00\xad\x00\x00\x00\xae\x00\x00\x00\xaf\x00\x00\x00\xb0\x00\x00\x00\xb1\x00\x00\x00\xb2\x00\x00\x00\xb3\x00\x00\x00\xb4\x00\x00\x00\xb5\x00\x00\x00\xb6\x00\x00\x00\xb7\x00\x00\x00\xb8\x00\x00\x00\xb9\x00\x00\x00\xba\x00\x00\x00\xbb\x00\x00\x00\xbc\x00\x00\x00'
+p3209
+tp3210
+bsS'maxprint'
+p3211
+I50
+sS'_shape'
+p3212
+(I188
+I188
+tp3213
+sg12
+g3190
+(g3191
+(I0
+tp3214
+g3193
+tp3215
+Rp3216
+(I1
+(I188
+tp3217
+g2404
+(S'f8'
+p3218
+I0
+I1
+tp3219
+Rp3220
+(I3
+S'<'
+p3221
+NNNI-1
+I-1
+I0
+tp3222
+bI00
+S'\xaa\x02\x9a\x97`\x84\x1d@\xd8\xa5\xd2\xda\x1du\x15@R\xb3\xecK\x8c\x81\x18@l\xbb\xba7\x98\xbe\x1a@B\xae\xb9\x1b\xb7\xb2\x16@\xaa\x02\x9a\x97`\x84\x1d@\xa0\x87w\x1b9\x1b\x13@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\x8e\x11$\xdcf\x97\x0e@t\x04\x14Ic{\n@\xa0\x87w\x1b9\x1b\x13@\x14l\r\xec\xc3\xbb\x15@R\xb3\xecK\x8c\x81\x18@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@]\x9f\x9e\x19P\x14\x17@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@%\t\xceX.\xe5\x1b@\xd8J\x92\x91\x0c\xd2\x12@l\xbb\xba7\x98\xbe\x1a@\xe7\xc1\xee\xf8e\x1f\x19@\xaa\x02\x9a\x97`\x84\x1d@\t\x1a\xf7\xec\xfa%\x0c@\xa2\xd0\xd8\xeb\x95\xb0\n@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@5\x0cB\xbc\x87\xa2\x04@\xaa\x02\x9a\x97`\x84\x1d@l309\xd5\x93\x13@\x04g\xda\xbb\xee\xec\x13@\x9b\xe6}y\x18\xda\x19@\xaa\x02\x9a\x97`\x84\x1d@\x98\xddN,30\x10@R+bM\xc9V\x11@\xd8J\x92\x91\x0c\xd2\x12@\xaa\x02\x9a\x97`\x84\x1d@\x7fm\x0e}\xbcM\x12@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@%\t\xceX.\xe5\x1b@B\xae\xb9\x1b\xb7\xb2\x16@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\xd6VKu$\xd2\x08@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\x83L^:\xe8\x0f\x0f@\xd8\xa5\xd2\xda\x1du\x15@\t\xe6[\x80\x94\xd8\x11@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@*\xe7\xde\xd5\xacX\n@\x9b\xe6}y\x18\xda\x19@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\xfc\xaa\x01\x81N\xe6\x0b@\xa0\x87w\x1b9\x1b\x13@\xd8J\x92\x91\x0c\xd2\x12@\xaa\x02\x9a\x97`\x84\x1d@\x04g\xda\xbb\xee\xec\x13@\x8dJa\xc33\xe7\n@N\x83\x82\xfb\x07j\x13@l\xbb\xba7\x98\xbe\x1a@\xbc\x1c`\xa0\xef\xb8\x10@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@\x17\x83\xbe\xee !\x08@%\t\xceX.\xe5\x1b@.t\xdb\xd7\xcf\xf8\x17@\xaa\x02\x9a\x97`\x84\x1d@\x87\xa5\xef\xc8\xe4\xb5\x08@\xcc\xca,\xd4\x88:\r@\xaa\x02\x9a\x97`\x84\x1d@\xa4\xe9\x87w\xee\xbc\x0b@\xaa\x02\x9a\x97`\x84\x1d@\x8frA\xad\x91\x1c\x14@\x82<\x01\x82\xdeA\x13@\xbf\x83\xe0\xe1\xa6\x07\x16@\xaa\x02\x9a\x97`\x84\x1d@\x82<\x01\x82\xdeA\x13@\xe7\xc1\xee\xf8e\x1f\x19@R\xb3\xecK\x8c\x81\x18@\xb4,\xdf\x98\xd5\xd4\n@B\xae\xb9\x1b\xb7\xb2\x16@\xaa\x02\x9a\x97`\x84\x1d@\xf0,\xfcw\x073\x15@\xaa\x02\x9a\x97`\x84\x1d@\xd8J\x92\x91\x0c\xd2\x12@\xd8J\x92\x91\x0c\xd2\x12@%\t\xceX.\xe5\x1b@\x9b\xe6}y\x18\xda\x19@([\xc9\xb7]1\x06@%\t\xceX.\xe5\x1b@\xa4\xe9\x87w\xee\xbc\x0b@R\xb3\xecK\x8c\x81\x18@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@\xe7\xc1\xee\xf8e\x1f\x19@%\t\xceX.\xe5\x1b@\xfcB5C\xac\xa2\x11@%\t\xceX.\xe5\x1b@\xaeX \x16\x1c\xcd\x04@yY\xc6\xbc\x83\xd1\x0b@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@+\n|\x16\xf3\xf4\x14@\x14l\r\xec\xc3\xbb\x15@%\t\xceX.\xe5\x1b@l`\xc9\xe3\x11`\xff?%\t\xceX.\xe5\x1b@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@R\xb3\xecK\x8c\x81\x18@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\x9b\xe6}y\x18\xda\x19@\x9b\xe6}y\x18\xda\x19@\xaa\x02\x9a\x97`\x84\x1d@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@\xf0,\xfcw\x073\x15@\xaa\x02\x9a\x97`\x84\x1d@]\x9f\x9e\x19P\x14\x17@\x9b\xe6}y\x18\xda\x19@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\xd8J\x92\x91\x0c\xd2\x12@\xd8\xa5\xd2\xda\x1du\x15@\x04g\xda\xbb\xee\xec\x13@l\xbb\xba7\x98\xbe\x1a@\xe7\xc1\xee\xf8e\x1f\x19@l\xbb\xba7\x98\xbe\x1a@\xaa\x02\x9a\x97`\x84\x1d@\t\xe6[\x80\x94\xd8\x11@+\n|\x16\xf3\xf4\x14@\xaa\x02\x9a\x97`\x84\x1d@\xe7\xc1\xee\xf8e\x1f\x19@%\t\xceX.\xe5\x1b@\xe69d\xfa\xa2\xf4\x11@\x8frA\xad\x91\x1c\x14@\x98\xddN,30\x10@\xaa\x02\x9a\x97`\x84\x1d@\x82<\x01\x82\xdeA\x13@\xaa\x02\x9a\x97`\x84\x1d@\xa9z\x0f\x99\x9dY\x16@\xd8J\x92\x91\x0c\xd2\x12@%\t\xceX.\xe5\x1b@\xaa\x02\x9a\x97`\x84\x1d@\x94"y8+7\x07@\x92+h\xc3\x94h\x10@\xaa\x02\x9a\x97`\x84\x1d@\x9a\x03\xb31D\x0c\x10@\xd8J\x92\x91\x0c\xd2\x12@R+bM\xc9V\x11@\x18\x8d\x8b:\xa1\xc2\n@\xd8J\x92\x91\x0c\xd2\x12@\xd8J\x92\x91\x0c\xd2\x12@\xaa\x02\x9a\x97`\x84\x1d@\xaa\x02\x9a\x97`\x84\x1d@\xd8J\x92\x91\x0c\xd2\x12@R\xb3\xecK\x8c\x81\x18@%\t\xceX.\xe5\x1b@R\xb3\xecK\x8c\x81\x18@\x96=\xf9@\x98%\x0e@\x14\xa9\x97\x94E\xbd\x11@\xaa\x02\x9a\x97`\x84\x1d@\x82<\x01\x82\xdeA\x13@R\xb3\xecK\x8c\x81\x18@\xaa\x02\x9a\x97`\x84\x1d@\xd8J\x92\x91\x0c\xd2\x12@\xd8J\x92\x91\x0c\xd2\x12@\xb0\x85\x0f&\x93N\x07@%\t\xceX.\xe5\x1b@\xc6\x1f\xfb[&\'\x11@R+bM\xc9V\x11@\xdf\xd3n\xec\xb0>\x11@%\t\xceX.\xe5\x1b@5\x0cB\xbc\x87\xa2\x04@R\xb3\xecK\x8c\x81\x18@\x9b\xe6}y\x18\xda\x19@\x9b\xe6}y\x18\xda\x19@'
+p3223
+tp3224
+bsbsS'use_idf'
+p3225
+I01
+sS'sublinear_tf'
+p3226
+I00
+sS'norm'
+p3227
+Vl2
+p3228
+sbtp3229
+a(S'clsfr'
+p3230
+g2371
+(csklearn.linear_model.stochastic_gradient
+SGDClassifier
+p3231
+g2373
+Ntp3232
+Rp3233
+(dp3234
+S't_'
+p3235
+F5891.0
+sS'n_jobs'
+p3236
+I1
+sS'shuffle'
+p3237
+I01
+sS'verbose'
+p3238
+I0
+sS'classes_'
+p3239
+g3190
+(g3191
+(I0
+tp3240
+g3193
+tp3241
+Rp3242
+(I1
+(I2
+tp3243
+g2404
+(S'S5'
+p3244
+I0
+I1
+tp3245
+Rp3246
+(I3
+S'|'
+p3247
+NNNI5
+I1
+I0
+tp3248
+bI00
+S'FalseTrue\x00'
+p3249
+tp3250
+bsS'class_weight'
+p3251
+NsS'fit_intercept'
+p3252
+I01
+sg8
+g9
+sS'random_state'
+p3253
+I42
+sg2377
+g2378
+sS'loss_function'
+p3254
+csklearn.linear_model.sgd_fast
+SquaredHinge
+p3255
+(F1.0
+tp3256
+Rp3257
+sS'C'
+p3258
+F1.0
+sg7
+I5
+sS'epsilon'
+p3259
+F0.1
+sS'learning_rate'
+p3260
+S'optimal'
+p3261
+sS'coef_'
+p3262
+g3190
+(g3191
+(I0
+tp3263
+g3193
+tp3264
+Rp3265
+(I1
+(I1
+I188
+tp3266
+g3220
+I00
+S'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa4\x01\x98P\xf6\x8c\x99\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa6V\x83lq\x07\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00%\x17\x1b\xbb\xadZm\xbf\x1cPn\xe1\x98\xf7\xf8\xbfG\xee\xd0\xcd\x83\xa4\xd6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x152hI,\xc4\xde?\x00\x00\x00\x00\x00\x00\x00\x00\xcbii\xb9gb\xc8\xbf\xe6\xa7\xcd\x18#\xa7\xda\xbf\xde\xf4f:9\x9c\x8a\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x8b\x0e2\xa2\xe5\x8d\xde\xbf>\xed`B\xa9\xd0\x04@8\x9a\xba\xdf\x10\x97\x91\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xbe\x17\xd6\xf5\x9d\x9f\xae\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00qpU\xd8\xe9\x84\xd0\xbfy\xe7(=RO\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Z\x9c\xd5\x9d5\x9e\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb9HnX\x99\x07\xfb\xbf\xa4\x01\x98P\xf6\x8c\x99\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0b.\xb3\x1dtt\x08@\x01\xa3j\xb5\x12\x87\xb4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00M\x19\x97\x9e$q\xab\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe8\xbd\x98\xc5\xfa\xc7\xe7?\xdf!\xc6\xce\xbb\xd9\x06@\x00\x00\x00\x00\x00\x00\x00\x00\x9c\x06%f\x00\xc1\xdb?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00E\x8f&<2\x1a\xe3\xbf\x00\x00\x00\x00\x00\x00\x00\x00e\xeeKO`\'\xc3\xbf\xb2\xbb\xe2\xc6as\t@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00e\x07O\xce\xac\x01\xf0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\xb2\xcd\xb0C\x0f\xe8?\x9f\xbe\x96\xd5\xed8\xc3\xbf\xb5\xa8\x01\x17\xf7Z\xee?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x18\x18rh\xb0\x9d\xe7\xbf?\xa5\x90!]%\xd9?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00p"A\x0c\xb5\xf3\xd2?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe6#\x98r\x12\xac\xa9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00L\xb8q\xf64+\xc6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00r\\\xd0\xacW\xe3\xdc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x95\xea\xbe\xfd\x06Q\x03\xc0\x90\xc6$2g\x0f\xc0\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x15JJ\x1bk\x88\x98\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0\x19,\x93\x0e:\xd4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x81\x00\xdc\xfb\xd5~\xd3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xab\xbd\xdc\xba\xd7y\x9f\xbf\t\xbd\xbcF\xee\x0bt\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xee\xa5=6\x14\x00\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00s\xc10\xbc\xd9?\xc2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00v\xe4\xb8\xda"\x18\xda?\x00\x00\x00\x00\x00\x00\x00\x00A\xa8\'\xf6\x9d"\xd9?\xbd1L\xf6}\xe3\xd5\xbf\x11\xf8:\xd4\x12\xc1\xd1?\x00\x00\x00\x00\x00\x00\x00\x00\x9a3\x1c(/\xf3\xf6?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+p3267
+tp3268
+bsg11
+F0.001
+sS'intercept_'
+p3269
+g3190
+(g3191
+(I0
+tp3270
+g3193
+tp3271
+Rp3272
+(I1
+(I1
+tp3273
+g3220
+I00
+S'Tf\x8e\x85\x8e1\xf6\xbf'
+p3274
+tp3275
+bsS'_expanded_class_weight'
+p3276
+g3190
+(g3191
+(I0
+tp3277
+g3193
+tp3278
+Rp3279
+(I1
+(I2
+tp3280
+g3220
+I00
+S'\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?'
+p3281
+tp3282
+bsS'warm_start'
+p3283
+I00
+sg2
+g3
+sS'eta0'
+p3284
+F0.0
+sS'l1_ratio'
+p3285
+F0.15
+sS'average'
+p3286
+I00
+sS'power_t'
+p3287
+F0.5
+sbtp3288
+asbsb.

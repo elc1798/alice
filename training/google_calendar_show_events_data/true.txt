@@ -1,4 +1,6 @@
 do i have any events
+do i have any events on
+do i have any events on next
 do i have any events on sunday
 do i have any events on monday
 do i have any events on tuesday
@@ -12,6 +14,8 @@ do i have any events on tomorrow
 do i have any events in a week
 do i have any events in a month
 do i have anything
+do i have anything on
+do i have anything on next
 do i have anything on sunday
 do i have anything on monday
 do i have anything on tuesday
@@ -25,6 +29,8 @@ do i have anything tomorrow
 do i have anything in a week
 do i have anything in a month
 do i have anything to do
+do i have anything to do next
+do i have anything to do on next
 do i have anything to do on sunday
 do i have anything to do on monday
 do i have anything to do on tuesday
@@ -37,7 +43,25 @@ do i have anything to do on this day
 do i have anything to do tomorrow
 do i have anything to do in a week
 do i have anything to do in a month
+do i have to do anything to do
+do i have to do anything
+do i have to do anything next
+do i have to do anything on next
+do i have to do anything on sunday
+do i have to do anything on monday
+do i have to do anything on tuesday
+do i have to do anything on wednesday
+do i have to do anything on thursday
+do i have to do anything on friday
+do i have to do anything on saturday
+do i have to do anything today
+do i have to do anything on this day
+do i have to do anything tomorrow
+do i have to do anything in a week
+do i have to do anything in a month
 don't i have to do anything
+don't i have to do anything on
+don't i have to do anything on next
 don't i have to do anything on sunday
 don't i have to do anything on monday
 don't i have to do anything on tuesday
@@ -51,6 +75,8 @@ don't i have to do anything tomorrow
 don't i have to do anything in a week
 don't i have to do anything in a month
 don't i have any events
+don't i have any events on
+don't i have any events on next
 don't i have any events on sunday
 don't i have any events on monday
 don't i have any events on tuesday
@@ -64,6 +90,8 @@ don't i have any events on tomorrow
 don't i have any events in a week
 don't i have any events in a month
 don't i have anything
+don't i have anything on
+don't i have anything on next
 don't i have anything on sunday
 don't i have anything on monday
 don't i have anything on tuesday
@@ -77,6 +105,8 @@ don't i have anything tomorrow
 don't i have anything in a week
 don't i have anything in a month
 don't i have anything to do
+don't i have anything to do on
+don't i have anything to do on next
 don't i have anything to do on sunday
 don't i have anything to do on monday
 don't i have anything to do on tuesday
@@ -90,6 +120,8 @@ don't i have anything to do tomorrow
 don't i have anything to do in a week
 don't i have anything to do in a month
 don't i have to do anything
+don't i have to do anything on
+don't i have to do anything on next
 don't i have to do anything on sunday
 don't i have to do anything on monday
 don't i have to do anything on tuesday
@@ -103,6 +135,8 @@ don't i have to do anything tomorrow
 don't i have to do anything in a week
 don't i have to do anything in a month
 any events
+any events on
+any events on next
 any events on sunday
 any events on monday
 any events on tuesday
@@ -116,6 +150,8 @@ any events on tomorrow
 any events in a week
 any events in a month
 am i free
+am i free on
+am i free on next
 am i free on sunday
 am i free on monday
 am i free on tuesday
@@ -129,6 +165,8 @@ am i free on tomorrow
 am i free in a week
 am i free in a month
 am i free
+am i free for
+am i free for next
 am i free for sunday
 am i free for monday
 am i free for tuesday
@@ -142,6 +180,8 @@ am i free for tomorrow
 am i free for a week
 am i free for a month
 what events are
+what events are on
+what events are on next
 what events are on sunday
 what events are on monday
 what events are on tuesday
@@ -155,6 +195,8 @@ what events are on tomorrow
 what events are in a week
 what events are in a month
 what events do i have
+what events do i have on
+what events do i have on next
 what events do i have on sunday
 what events do i have on monday
 what events do i have on tuesday
@@ -168,6 +210,8 @@ what events do i have on tomorrow
 what events do i have in a week
 what events do i have in a month
 what do i have
+what do i have on
+what do i have on next
 what do i have on sunday
 what do i have on monday
 what do i have on tuesday
@@ -181,6 +225,8 @@ what do i have on tomorrow
 what do i have in a week
 what do i have in a month
 what do i have to do
+what do i have to do on
+what do i have to do on next
 what do i have to do on sunday
 what do i have to do on monday
 what do i have to do on tuesday
@@ -194,6 +240,8 @@ what do i have to do on tomorrow
 what do i have to do in a week
 what do i have to do in a month
 what is on my calendar
+what is on my calendar for
+what is on my calendar for next
 what is on my calendar for sunday
 what is on my calendar for monday
 what is on my calendar for tuesday
@@ -207,6 +255,8 @@ what is on my calendar for tomorrow
 what is on my calendar for this week
 what is on my calendar for this month
 are there any events
+are there any events on
+are there any events on next
 are there any events on sunday
 are there any events on monday
 are there any events on tuesday
@@ -220,6 +270,8 @@ are there any events on tomorrow
 are there any events in a week
 are there any events in a month
 aren't there any events
+aren't there any events on
+aren't there any events on next
 aren't there any events on sunday
 aren't there any events on monday
 aren't there any events on tuesday
@@ -233,6 +285,8 @@ aren't there any events on tomorrow
 aren't there any events in a week
 aren't there any events in a month
 is there anything to do
+is there anything to do on
+is there anything to do on next
 is there anything to do on sunday
 is there anything to do on monday
 is there anything to do on tuesday
@@ -246,6 +300,8 @@ is there anything to do on tomorrow
 is there anything to do in a week
 is there anything to do in a month
 is there anything i have to do
+is there anything i have to do on
+is there anything i have to do on next
 is there anything i have to do on sunday
 is there anything i have to do on monday
 is there anything i have to do on tuesday
@@ -258,7 +314,13 @@ is there anything i have to do on this day
 is there anything i have to do on tomorrow
 is there anything i have to do in a week
 is there anything i have to do in a month
+is there anything to do today
+is there anything to do tomorrow
+is there anything i have to do today
+is there anything i have to do tomorrow
+check events
 check events for
+check events for next
 check events for sunday
 check events for monday
 check events for tuesday
@@ -273,6 +335,7 @@ check events for this day
 check events for this week
 check events for this month
 check events on
+check events on
 check events on sunday
 check events on monday
 check events on tuesday
@@ -285,7 +348,9 @@ check events on this day
 check events on tomorrow
 check events on this week
 check events on month
+check calendar
 check calendar for
+check calendar for next
 check calendar for sunday
 check calendar for monday
 check calendar for tuesday
@@ -299,7 +364,9 @@ check calendar for tomorrow
 check calendar for this day
 check calendar for this week
 check calendar for this month
+check calendar
 check calendar on
+check calendar on next
 check calendar on sunday
 check calendar on monday
 check calendar on tuesday
@@ -312,7 +379,9 @@ check calendar on this day
 check calendar on tomorrow
 check calendar on this week
 check calendar on month
+check my calendar
 check my calendar for
+check my calendar for next
 check my calendar for sunday
 check my calendar for monday
 check my calendar for tuesday
@@ -327,6 +396,7 @@ check my calendar for this day
 check my calendar for this week
 check my calendar for this month
 check my calendar on
+check my calendar on next
 check my calendar on sunday
 check my calendar on monday
 check my calendar on tuesday
@@ -339,7 +409,9 @@ check my calendar on this day
 check my calendar on tomorrow
 check my calendar on this week
 check my calendar on this month
+check google calendar
 check google calendar for
+check google calendar for next
 check google calendar for sunday
 check google calendar for monday
 check google calendar for tuesday
@@ -354,6 +426,7 @@ check google calendar for this day
 check google calendar for this week
 check google calendar for this month
 check google calendar on
+check google calendar on next
 check google calendar on sunday
 check google calendar on monday
 check google calendar on tuesday

@@ -1,4 +1,7 @@
 do i have any events,True
+do i have any events on,True
+do i have to do anything next,True
+don't i have anything on next,True
 do i have anything,True
 do i have anything to do on wednesday,True
 don't i have anything to do tomorrow,True
@@ -6,9 +9,22 @@ don't i have anything to do in a month,True
 what do i have to do on friday,True
 are there any events on this day,True
 is there anything i have to do in a week,True
+any events,True
+any events in a month,True
+am i free in a week,True
+am i free for saturday,True
+am i free for this day,True
+what events are on,True
+what events are on tomorrow,True
+what events do i have on saturday,True
+what do i have in a week,True
+what do i have to do,True
+is there anything to do today,True
 check events for today,True
+check events for next,True
 check calendar for monday,True
 check calendar on thursday,True
 check my calendar on saturday,True
 check google calendar for,True
 check google calendar on tuesday,True
+

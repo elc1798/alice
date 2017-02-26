@@ -19,6 +19,7 @@ class CommandActuator:
             "OPEN_WEB_BROWSER.model" : self.open_web_browser,
             "GOOGLE_SEARCH.model" : self.google_search,
             "GOOGLE_CALENDAR_SHOW_EVENTS.model" : self.google_calendar_show_events,
+            "GOOGLE_MAIL_LIST_MAIL.model" : self.google_mail_list_mail,
             "GET_TIME.model" : self.get_time
         }
         self.talk = talk
@@ -84,7 +85,6 @@ class CommandActuator:
 
     def google_calendar_show_events(self, s):
         s = s.split(' ')
-        date = 'today'
 
         if 'on' in s:
             index = s.index('on') + 1
@@ -103,21 +103,22 @@ class CommandActuator:
 
         goog.ShowEvents(s)
 
-    def get_time(self, s):
-        hour = datetime.now().hour
-        minutes = datetime.now().minute
-        is_morning = hour < 12
-        hour = (hour % 12)
-        if hour == 0:
-            hour = 12
+    def google_mail_list_mail(self, s):
+        s = ['UNREAD']
+        goog.ListMail(s)
 
-        curr_time = "%d %d" % (hour, minutes)
-        if is_morning:
+    def get_time(self, s):
+
+        hour = (int(datetime.now().strftime('%H')) / 12)
+        minutes = datetime.now().strftime('%M')
+        is_morning = (hour % 12) == 0
+
+        curr_time = "" + hour + " " + minutes
+        if (is_morning) :
             curr_time += "A.M."
         else :
             curr_time += "P.M."
 
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (curr_time,))
         os.system(COMMANDS.SAY % (curr_time,))
 
 class DummyActuator:

@@ -8,11 +8,13 @@ from oauth2client.file import Storage
 
 import datetime
 
-SCOPES = 'https://www.googleapis.com/auth/calendar.readonly'
-CLIENT_SECRET_FILE = '../../API_KEYS/google_creds.json'
+CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+
+SCOPES = 'https://www.googleapis.com/auth/'
+CLIENT_SECRET_FILE = os.path.join(CURRENT_DIR, '../../API_KEYS/google_creds.json')
 APPLICATION_NAME = 'Alice'
 
-def get_credentials():
+def get_credentials(scope_detail):
     """Gets valid user credentials from storage.
 
     If nothing has been stored, or if the stored credentials are invalid,
@@ -21,33 +23,34 @@ def get_credentials():
     Returns:
         Credentials, the obtained credential.
     """
+    if scope_detail == "calendar":
+        FULL_SCOPE = "https://www.googleapis.com/auth/calendar.readonly"
+    if scope_detail == "mail":
+        #FULL_SCOPE = "https://www.googleapis.com/auth/mail.readonly"
+        FULL_SCOPE = "https://mail.google.com/"
     home_dir = os.path.expanduser('~')
     credential_dir = os.path.join(home_dir, '.credentials')
     if not os.path.exists(credential_dir):
         print("Directory does not exist :(")
-    credential_path = os.path.join(credential_dir, 'calendar-python-quickstart.json')
 
+    if scope_detail == "calendar":
+        credential_path = os.path.join(credential_dir, 'calendar-python-quickstart.json')
+    if scope_detail == "mail":
+        credential_path = os.path.join(credential_dir, 'gmail-python-quickstart.json')
+    
     store = Storage(credential_path)
     credentials = store.get()
     if not credentials or credentials.invalid:
-        flow = client.flow_from_clientsecrets(CLIENT_SECRET_FILE, SCOPES)
+        flow = client.flow_from_clientsecrets(CLIENT_SECRET_FILE, FULL_SCOPE)
         flow.user_agent = APPLICATION_NAME
-        if flags:
-            credentials = tools.run_flow(flow, store, flags)
-        else: # Needed only for compatibility with Python 2.6
-            credentials = tools.run(flow, store)
+        credentials = tools.run(flow, store)
         print('Storing credentials to ' + credential_path)
     return credentials
 
 def ShowEvents(s):
     time_max = GetTimeMax(s)
-    num_of_events = 20
-    """Shows basic usage of the Google Calendar API.
-
-    Creates a Google Calendar API service object and outputs a list of the next
-    10 events on the user's calendar.
-    """
-    credentials = get_credentials()
+    num_of_events = 10
+    credentials = get_credentials("calendar")
     http = credentials.authorize(httplib2.Http())
     service = discovery.build('calendar', 'v3', http=http)
     now = datetime.datetime.utcnow().isoformat() + 'Z' # 'Z' indicates UTC time
@@ -79,7 +82,7 @@ def GetTimeMax(s):
 
     date_utc = date_utc + time_delta
 
-    if s == 'today' or s[0] == '' or s[0] == 'today':
+    if s == 'today' or s[0] == 'today':
         print('today')
         return date_utc.isoformat() + 'Z'
     if s[0] == 'day':
@@ -135,6 +138,37 @@ def GetTimeMax(s):
         day_diff = abs(day_now - 6)
         date_utc = date_utc + datetime.timedelta(days=day_diff)
         return date_utc.isoformat() + 'Z'
+
+def ListMail(s):
+    print("Delivering mail: ")
+    labels = s
+    credentials = get_credentials("mail")
+    http = credentials.authorize(httplib2.Http())
+    service = discovery.build('gmail', 'v1', http=http)
+    results = service.users().messages().list(userId='me', labelIds=labels, maxResults=10).execute()
+    messages = results.get('messages', [])
+
+    if not messages:
+        print("No mail found.")
+    for message in messages:
+        message_id = message.get("id")
+        message_content = service.users().messages().get(userId='me',
+                id=message_id).execute()
+        message_time = (int(message_content.get("internalDate")))/1000.0
+        message_time_str = datetime.datetime.fromtimestamp(message_time).strftime('%Y-%m-%d %H:%M:%S')
+        message_payload = message_content.get("payload")
+        message_from = ""
+        message_subject = ""
+        for headers in message_payload.get("headers"):
+            if headers.get("name") == "From":
+                message_from = headers.get("value")
+            if headers.get("name") == "Subject":
+                message_subject = str(headers.get("value"))
+        if len(message_subject) > 70:
+            print("%-30s%-85s%-50s" % ("Time: " + message_time_str, " Subject: " + message_subject[:70], " From: " + message_from))
+            print("%-30s%-85s" % ("", "          " + message_subject[70:]))
+        else:
+            print("%-30s%-85s%-50s" % ("Time: " + message_time_str, " Subject: " + message_subject, " From: " + message_from))
 
 #if __name__ == '__main__':
 #    main()
