@@ -6,6 +6,7 @@ from services import google as goog
 import subprocess
 import urllib2
 import json
+import pyowm
 
 class CommandActuator:
 
@@ -23,7 +24,8 @@ class CommandActuator:
             "GOOGLE_CALENDAR_SHOW_EVENTS.model" : self.google_calendar_show_events,
             "GOOGLE_MAIL_LIST_MAIL.model" : self.google_mail_list_mail,
             "GET_TIME.model" : self.get_time,
-            "GET_NEWS.model" : self.get_news
+            "GET_NEWS.model" : self.get_news, 
+            "GET_WEATHER.model" : self.get_weather
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -68,11 +70,25 @@ class CommandActuator:
         url = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=3ca58b6ade8f4fc69988ed4d497a5d79"
         jstr = urllib2.urlopen(url).read()  
         ts = json.loads( jstr )
-        for i in range(2,10):
+        for i in range(10):
             headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
             headline = ''.join([i if ord(i) < 128 else ' ' for i in headline])
             print headline
             os.system(COMMANDS.NEWS_SAY % headline)
+
+    def get_weather(self,s):
+        f = urllib2.urlopen('http://freegeoip.net/json/')
+        json_string = f.read()
+        f.close()
+        location = json.loads(json_string)
+        location_city = location['city']
+        place = 'location[\'city\']' + ", " + location['country_code']
+        api_key = "70e52321050523bb149227183e2ec5e5"
+        owm = pyowm.OWM(api_key)
+        w = owm.weather_at_place(place).get_weather()
+        temp = (w.get_temperature('fahrenheit')['temp_max'] +w.get_temperature('fahrenheit')['temp_min']) / 2 
+        weather = "The weather today is " + str(temp) + " degrees fahrenheit"
+        os.system(COMMANDS.DISPLAY_NOTIFICATION % (weather,))
 
     def open_web_browser(self, s):
         command = s.split(" dot ")

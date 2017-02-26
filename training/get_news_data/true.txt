@@ -8,7 +8,6 @@ get live newsfeed
 get news feed
 get live news feed
 get headlines
-
 find news
 find the news
 find current news
@@ -19,7 +18,6 @@ find live newsfeed
 find news feed
 find live news feed
 find headlines
-
 tell me news
 tell me the news
 tell me current news
@@ -30,7 +28,6 @@ tell me live newsfeed
 tell me news feed
 tell me live news feed
 tell me headlines
-
 what is news
 what is the news
 what is current news
@@ -41,7 +38,6 @@ what is live newsfeed
 what is news feed
 what is live news feed
 what is headlines
-
 what's the news
 what's the the news
 what's the current news
@@ -52,7 +48,6 @@ what's the live newsfeed
 what's the news feed
 what's the live news feed
 what's the headlines
-
 what are the news
 what are the the news
 what are the current news
@@ -63,7 +58,6 @@ what are the live newsfeed
 what are the news feed
 what are the live news feed
 what are the headlines
-
 what're the news
 what're the the news
 what're the current news
@@ -74,18 +68,6 @@ what're the live newsfeed
 what're the news feed
 what're the live news feed
 what're the headlines
-
-what's in news
-what's in the news
-what's in current news
-what's in current events
-what's in live news
-what's in newsfeed
-what's in live newsfeed
-what's in news feed
-what's in live news feed
-what's in headlines
-
 today's news
 today's current news 
 today's current events
@@ -95,18 +77,15 @@ today's live newsfeed
 today's news feed
 today's live news feed
 today's headlines
-
 news today
 the news today
 current news today
 current events today
 live news today
-newsfeed today
 live newsfeed today
 news feed today
 live news feed today
 headlines today
-
 news
 the news
 current news
@@ -117,7 +96,6 @@ live newsfeed
 news feed
 live news feed
 headlines
-
 gather the latest headlines please
 give me intel on current events
 give me intel
@@ -161,8 +139,6 @@ what is the news today
 what are the latest events 
 what events are going on right now
 what is in the news today
-
-
 intel
 intelligence report
 debrief me
