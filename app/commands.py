@@ -29,6 +29,7 @@ if sys.platform == "darwin":
     SAY = "xsay -t child_female -p +50 -r -30 \"%s\""
     # The second %s is for compatibility purposes. It will always be
     # substituted with an empty string
+    LOCK = "pmset displaysleepnow"
     VOLUME_CONTROL = "osascript -e 'set volume  \"%d\"'%s"
     VOLUME_GET = "osascript -e 'get volume settings'"
-
+    NEWS_SAY = "echo \"%s\""

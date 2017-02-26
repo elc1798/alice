@@ -4,6 +4,8 @@ import commands as COMMANDS
 from datetime import datetime
 from services import google as goog
 import subprocess
+import urllib2
+import json
 
 class CommandActuator:
 
@@ -20,7 +22,8 @@ class CommandActuator:
             "GOOGLE_SEARCH.model" : self.google_search,
             "GOOGLE_CALENDAR_SHOW_EVENTS.model" : self.google_calendar_show_events,
             "GOOGLE_MAIL_LIST_MAIL.model" : self.google_mail_list_mail,
-            "GET_TIME.model" : self.get_time
+            "GET_TIME.model" : self.get_time,
+            "GET_NEWS.model" : self.get_news
         }
         self.talk = talk
         self.volume_controller = volume_controller
@@ -60,6 +63,16 @@ class CommandActuator:
 
     def lock(self, s):
         os.system(COMMANDS.LOCK)
+
+    def get_news(self, s):
+        url = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy=top&apiKey=3ca58b6ade8f4fc69988ed4d497a5d79"
+        jstr = urllib2.urlopen(url).read()  
+        ts = json.loads( jstr )
+        for i in range(2,10):
+            headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
+            headline = ''.join([i if ord(i) < 128 else ' ' for i in headline])
+            print headline
+            os.system(COMMANDS.NEWS_SAY % headline)
 
     def open_web_browser(self, s):
         command = s.split(" dot ")

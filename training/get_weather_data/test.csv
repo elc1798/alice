@@ -1,0 +1,279 @@
+don't get weather,False
+don't get forecast,False
+don't get temperature,False
+don't get if it's cold this week,False
+don't get if it's hot this week,False
+don't get if it's raining this week,False
+don't get if it's rainy this week,False
+don't get if it's cloudy this week,False
+don't get if it's foggy this week,False
+don't get if it's snowing this week,False
+don't get if it's freezing this week,False
+
+what's not weather,False
+what's not forecast,False
+what's not temperature,False
+what's not if it's cold this week,False
+what's not if it's hot this week,False
+what's not if it's raining this week,False
+what's not if it's rainy this week,False
+what's not if it's cloudy this week,False
+what's not if it's foggy this week,False
+what's not if it's snowing this week,False
+what's not if it's freezing this week,False
+
+
+don't get if it's cold today,False
+don't get if it's hot today,False
+don't get if it's raining today,False
+don't get if it's rainy today,False
+don't get if it's cloudy today,False
+don't get if it's foggy today,False
+don't get if it's snowing today,False
+don't get if it's freezing today,False
+
+what's not if it's cold today,False
+what's not if it's hot today,False
+what's not if it's raining today,False
+what's not if it's rainy today,False
+what's not if it's cloudy today,False
+what's not if it's foggy today,False
+what's not if it's snowing today,False
+what's not if it's freezing today,False
+
+
+what's not today's weather,False
+what's not today's forecast,False
+what's not today's temperature,False
+
+what's not this week's weather,False
+what's not this week's forecast,False
+what's not this week's temperature,False
+
+what's not the weather,False
+what's not the forecast,False
+what's not the temperature,False
+
+what's not the weather this week,False
+what's not the forecast this week,False
+what's not the temperature this week,False
+
+not this week's weather,False
+this week's forecast,False
+this week's temperature,False
+
+what's not the weather today,False
+what's not the forecast today,False
+what's not the temperature today,False
+
+not today's weather,False
+not today's forecast,False
+not today's temperature,False
+
+not current weather,False
+not current forecast,False
+not current temperature,False
+
+not today's weather,False
+not today's forecast,False
+not today's temperature,False
+
+not this week's weather,False
+not this week's forecast,False
+not this week's temperature,False
+
+don't get today's weather,False
+don't get today's forecast,False
+don't get today's temperature,False
+
+don't get this week's weather,False
+don't get this week's forecast,False
+don't get this week's temperature,False
+
+don't get current weather,False
+don't get current forecast,False
+don't get current temperature,False
+
+how's the weather not,False
+how's the forecast not,False
+how's the temperature not,False
+
+how is the weather not,False
+how is the forecast not,False
+how is the temperature not,False
+
+how's the weather this week,False not,False
+how's the forecast this week,False not,False
+how's the temperature this week,False not,False
+
+how's the weather not today,False
+how's the forecast not today,False
+how's the temperature not today,False
+
+not weather,False
+not forecast,False
+not temperature,False
+
+
+
+
+
+get weather,True
+get forecast,True
+get temperature,True
+get if it's cold this week,True
+get if it's hot this week,True
+get if it's raining this week,True
+get if it's rainy this week,True
+get if it's cloudy this week,True
+get if it's foggy this week,True
+get if it's snowing this week,True
+get if it's freezing this week,True
+
+what's weather,True
+what's forecast,True
+what's temperature,True
+what's if it's cold this week,True
+what's if it's hot this week,True
+what's if it's raining this week,True
+what's if it's rainy this week,True
+what's if it's cloudy this week,True
+what's if it's foggy this week,True
+what's if it's snowing this week,True
+what's if it's freezing this week,True
+
+
+get if it's cold today,True
+get if it's hot today,True
+get if it's raining today,True
+get if it's rainy today,True
+get if it's cloudy today,True
+get if it's foggy today,True
+get if it's snowing today,True
+get if it's freezing today,True
+
+what's if it's cold today,True
+what's if it's hot today,True
+what's if it's raining today,True
+what's if it's rainy today,True
+what's if it's cloudy today,True
+what's if it's foggy today,True
+what's if it's snowing today,True
+what's if it's freezing today,True
+
+
+what's today's weather,True
+what's today's forecast,True
+what's today's temperature,True
+
+what's this week's weather,True
+what's this week's forecast,True
+what's this week's temperature,True
+
+what's the weather,True
+what's the forecast,True
+what's the temperature,True
+
+what's the weather this week,True
+what's the forecast this week,True
+what's the temperature this week,True
+
+this week's weather,True
+this week's forecast,True
+this week's temperature,True
+
+what's the weather today,True
+what's the forecast today,True
+what's the temperature today,True
+
+today's weather,True
+today's forecast,True
+today's temperature,True
+
+current weather,True
+current forecast,True
+current temperature,True
+
+today's weather,True
+today's forecast,True
+today's temperature,True
+
+this week's weather,True
+this week's forecast,True
+this week's temperature,True
+
+get today's weather,True
+get today's forecast,True
+get today's temperature,True
+
+get this week's weather,True
+get this week's forecast,True
+get this week's temperature,True
+
+get current weather,True
+get current forecast,True
+get current temperature,True
+
+how's the weather,True
+how's the forecast,True
+how's the temperature,True
+
+how is the weather,True
+how is the forecast,True
+how is the temperature,True
+
+how's the weather this week,True
+how's the forecast this week,True
+how's the temperature this week,True
+
+how's the weather today,True
+how's the forecast today,True
+how's the temperature today,True
+
+weather,True
+forecast,True
+temperature,True
+if it's cold this week,True
+if it's hot this week,True
+if it's raining this week,True
+if it's rainy this week,True
+if it's cloudy this week,True
+if it's foggy this week,True
+if it's snowing this week,True
+if it's freezing this week,True
+
+will it rain this week,True
+will it snow this week,True
+will it hail this week,True
+
+is it cold this week,True
+is it hot this week,True
+is it raining this week,True
+is it rainy this week,True
+is it cloudy this week,True
+is it foggy this week,True
+is it snowing this week,True
+is it freezing this week,True
+
+if it's cold today,True
+if it's hot today,True
+if it's raining today,True
+if it's rainy today,True
+if it's cloudy today,True
+if it's foggy today,True
+if it's snowing today,True
+if it's freezing today,True
+
+will it rain today,True
+will it snow today,True
+will it hail today,True
+
+is it cold today,True
+is it hot today,True
+is it raining today,True
+is it rainy today,True
+is it cloudy today,True
+is it foggy today,True
+is it snowing today,True
+is it freezing today,True
+

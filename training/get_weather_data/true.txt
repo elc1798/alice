@@ -1,0 +1,158 @@
+get weather
+get forecast
+get temperature
+get if it's cold this week
+get if it's hot this week
+get if it's raining this week
+get if it's rainy this week
+get if it's cloudy this week
+get if it's foggy this week
+get if it's snowing this week
+get if it's freezing this week
+
+what's weather
+what's forecast
+what's temperature
+what's if it's cold this week
+what's if it's hot this week
+what's if it's raining this week
+what's if it's rainy this week
+what's if it's cloudy this week
+what's if it's foggy this week
+what's if it's snowing this week
+what's if it's freezing this week
+
+
+get if it's cold today
+get if it's hot today
+get if it's raining today
+get if it's rainy today
+get if it's cloudy today
+get if it's foggy today
+get if it's snowing today
+get if it's freezing today
+
+what's if it's cold today
+what's if it's hot today
+what's if it's raining today
+what's if it's rainy today
+what's if it's cloudy today
+what's if it's foggy today
+what's if it's snowing today
+what's if it's freezing today
+
+
+what's today's weather
+what's today's forecast
+what's today's temperature
+
+what's this week's weather
+what's this week's forecast
+what's this week's temperature
+
+what's the weather
+what's the forecast
+what's the temperature
+
+what's the weather this week
+what's the forecast this week
+what's the temperature this week
+
+this week's weather
+this week's forecast
+this week's temperature
+
+what's the weather today
+what's the forecast today
+what's the temperature today
+
+today's weather
+today's forecast
+today's temperature
+
+current weather
+current forecast
+current temperature
+
+today's weather
+today's forecast
+today's temperature
+
+this week's weather
+this week's forecast
+this week's temperature
+
+get today's weather
+get today's forecast
+get today's temperature
+
+get this week's weather
+get this week's forecast
+get this week's temperature
+
+get current weather
+get current forecast
+get current temperature
+
+how's the weather
+how's the forecast
+how's the temperature
+
+how is the weather
+how is the forecast
+how is the temperature
+
+how's the weather this week
+how's the forecast this week
+how's the temperature this week
+
+how's the weather today
+how's the forecast today
+how's the temperature today
+
+weather
+forecast
+temperature
+if it's cold this week
+if it's hot this week
+if it's raining this week
+if it's rainy this week
+if it's cloudy this week
+if it's foggy this week
+if it's snowing this week
+if it's freezing this week
+
+will it rain this week
+will it snow this week
+will it hail this week
+
+is it cold this week
+is it hot this week
+is it raining this week
+is it rainy this week
+is it cloudy this week
+is it foggy this week
+is it snowing this week
+is it freezing this week
+
+if it's cold today
+if it's hot today
+if it's raining today
+if it's rainy today
+if it's cloudy today
+if it's foggy today
+if it's snowing today
+if it's freezing today
+
+will it rain today
+will it snow today
+will it hail today
+
+is it cold today
+is it hot today
+is it raining today
+is it rainy today
+is it cloudy today
+is it foggy today
+is it snowing today
+is it freezing today
