@@ -6,19 +6,45 @@ from alicized_models import CommandMatchingModel
 from alicized_models import GrammarMatchingModel
 from alicized_models import OrdinalScaleModel
 
-to_lower = lambda s : s.lower()
+COMMANDS_GLOB_PATTERN = "data/commands/*_data"
+ORDINAL_SCALERS_GLOB_PATTERN = "data/ordinal_scalers/*_data"
+MODEL_FILE_EXTENSION = ".model"
+LOSS_FUNCTIONS = [
+    "hinge",
+    "log",
+    "modified_huber",
+    "squared_hinge",
+    "perceptron",
+    "squared_loss",
+    "huber",
+    "epsilon_insensitive",
+    "squared_epsilon_insensitive"
+]
+PENALTY_FUNCTIONS = [ "none", "l2", "l1", "elasticnet" ]
 
-def load_data(data_folder):
+TRAIN_PAIRS = [
+    ( loss, penalty )
+    for loss in LOSS_FUNCTIONS
+    for penalty in PENALTY_FUNCTIONS
+]
+
+def load_data(dataset_path):
     """
-    Returns 2 lists: the hot list and cold list
+    Returns the hot list (true cases) and cold list (false cases)
+
+    Args:
+        dataset_path:   The path to the folder containing the data files
     """
-    print "[ DATA LOAD ] Loading data from %s..." % (data_folder,)
+    print "[ DATA LOAD ] Loading data from %s..." % (dataset_path,)
+
+    to_lower = lambda s : s.lower()
+
     hot, cold = None, None
-    with open(os.path.join(data_folder, "true.txt")) as f:
+    with open(os.path.join(dataset_path, "true.txt")) as f:
         hot = map(to_lower, f.read().strip().split('\n'))
-    with open(os.path.join(data_folder, "false.txt")) as f:
+    with open(os.path.join(dataset_path, "false.txt")) as f:
         cold = map(to_lower, f.read().strip().split('\n'))
-    return hot, cold
+    return [ i for i in hot if len(i) > 0 ], [ i for i in cold if len(i) > 0 ]
 
 def load_ordinal_scaler(data_folder):
     """
@@ -33,72 +59,94 @@ def load_ordinal_scaler(data_folder):
             data[ os.path.basename(fname)[:-4] ] = map(to_lower, f.read().strip().split('\n'))
     return data
 
-def has_custom_grammar(model_folder):
-    return os.path.isfile(os.path.join(model_folder, "grammar.py")) and os.path.isfile(os.path.join(model_folder, "__init__.py"))
+def get_model_name(dataset_path):
+    """
+    Returns the model's name given its dataset_path
 
-def has_custom_model(model_folder):
-    return os.path.isfile(os.path.join(model_folder, "custom.py")) and os.path.isfile(os.path.join(model_folder, "__init__.py"))
+    Args:
+        dataset_path: path to the model's dataset
 
-def get_classifier(model_folder, dataset, use_old=False, ordinal_scalers=False):
-
+    Returns:
+        The model's name as a string
+    """
     # The model name is the folder name without the _data at the end, in all
     # caps, and with the extension '.model'
+    return os.path.basename(dataset_path)[:-5].upper() + MODEL_FILE_EXTENSION
 
-    MODEL_FILENAME = model_folder[:-5].upper() + ".model"
-    if ordinal_scalers:
-        MODEL_FILENAME = "ORDINAL_SCALE_" + MODEL_FILENAME
-    MODEL_PATH = os.path.join("MODELS", MODEL_FILENAME)
+def get_model_path(dataset_path):
+    """
+    Returns the model's path given its dataset_path
+    """
+    assert(os.path.dirname(dataset_path).startswith("data/"))
+    return os.path.join(
+        os.path.dirname(
+            dataset_path.replace("data", "models", 1)
+        ), get_model_name(dataset_path)
+    )
+
+def get_existing_classifier(model_folder, dataset, use_old=False):
+    MODEL_FILENAME = get_model_name(model_folder)
+    MODEL_PATH = get_model_path(model_folder)
 
     if os.path.isfile(MODEL_PATH) and use_old:
         print "Using existing model..."
         with open(MODEL_PATH, 'r') as MODEL_FILE:
             return pickle.load(MODEL_FILE)
     else:
-        g = None
-        loss = "squared_hinge"
-        penalty = "elasticnet"
-        alpha = 1e-3
-        n_iter = 5
-        if has_custom_grammar(model_folder):
-            tmp = __import__(model_folder + ".grammar").grammar.get_grammar()
-            g = GrammarMatchingModel(rules=tmp)
-        if has_custom_model(model_folder):
-            tmp = __import__(model_folder + ".custom").custom.get_config()
-            if "loss" in tmp:
-                loss = tmp["loss"]
-            if "penalty" in tmp:
-                penalty = tmp["penalty"]
-            if "alpha" in tmp:
-                alpha = tmp["alpha"]
-            if "n_iter" in tmp:
-                n_iter = tmp["n_iter"]
+        return None
 
-        if ordinal_scalers:
-            model = OrdinalScaleModel( dataset , shuffle=True, train=True,
-                    name=MODEL_FILENAME,
-                    loss=loss, penalty=penalty, alpha=alpha, n_iter=n_iter )
-        else:
+def get_classifiers(model_folder, dataset, use_old=False):
+    g = None
+    alpha = 1e-3
+    n_iter = 5
+
+    models = []
+    for loss in LOSS_FUNCTIONS:
+        for penalty in PENALTY_FUNCTIONS:
             model = CommandMatchingModel( dataset , shuffle=True, train=True,
-                    name=MODEL_FILENAME, grammar=g,
+                    name=get_model_name(model_folder), grammar=g,
                     loss=loss, penalty=penalty, alpha=alpha, n_iter=n_iter )
+            models.append(model)
+    return models
 
-        with open(MODEL_PATH, 'w') as MODEL_FILE:
-            pickle.dump(model, MODEL_FILE)
-        return model
+def get_datasets(glob_pattern):
+    """
+    Gets a list of paths to dataset directories using a globbing pattern
 
-def get_training_list(ordinal_scalers=False):
-    if ordinal_scalers:
-        return [ path for path in glob.glob("ordinal_scalers/*_data") if
-                os.path.isdir(path) and path != "_data" ]
-    else:
-        return [ path for path in glob.glob("*_data") if os.path.isdir(path)
-                and path != "_data" ]
+    Args:
+        glob_pattern:   A globbing pattern for directory tree traversal,
+                        i.e. **/filename, subdir/*.txt, subdir/*_data
 
-if __name__ == "__main__":
+    Returns:
+        A Python list of strings, representing directory paths
+    """
+    return [
+        path
+        for path in glob.glob(glob_pattern)
+        if os.path.isdir(path)
+    ]
 
-    training_list = get_training_list()
-    # Data amplification
+def get_command_data_list():
+    """
+    Gets a list of paths to command datasets using get_datasets
+    """
+    return get_datasets(COMMANDS_GLOB_PATTERN)
 
+def get_ordinal_scaler_data_list():
+    """
+    Gets a list of paths to ordinal scaler datasets using get_datasets
+    """
+    return get_datasets(ORDINAL_SCALERS_GLOB_PATTERN)
+
+def test_model(test_func, tests, correct):
+    failcount = 0
+    for i in range(len(tests)):
+        res = test_func(tests[i])
+        if res != correct[i]:
+            failcount += 1
+    return failcount
+
+def get_amplified_data_from_training_list(training_list):
     amplified_data = {}
     for trainee in training_list:
         hot, cold = load_data(trainee)
@@ -109,91 +157,64 @@ if __name__ == "__main__":
             if trainee == other:
                 continue
             amplified_data[trainee][1] += amplified_data[other][0] # Add the other's hot to our cold
+    return amplified_data
+
+if __name__ == "__main__":
+    amplified_data = get_amplified_data_from_training_list(get_command_data_list())
 
     with open("nonsense.txt") as f:
-        tmp = map(to_lower, f.read().strip().split('\n'))
+        tmp = f.read().strip().lower().split('\n')
         for trainee in amplified_data:
             amplified_data[trainee][1] += tmp
 
-    training_list = get_training_list(ordinal_scalers=True)
-    ordinal_scalers = {}
-    for trainee in training_list:
-        ordinal_scalers[os.path.basename(trainee)] = load_ordinal_scaler(trainee)
-
-    print "\n\n"
-
     build_fail = [ False, "" ]
 
-    for trainee in ordinal_scalers:
-        model = get_classifier(trainee, ordinal_scalers[trainee], use_old=True,
-                ordinal_scalers=True)
-        
-        failcount = 0
-        num_tests = 0
-
-        with open(os.path.join("ordinal_scalers", trainee, "test.csv")) as csvfile:
-            tests = csv.reader(csvfile)
-            for test in tests:
-                if len(test) != 2:
-                    continue
-                num_tests += 1
-                res = str(model.rate(test[0]))
-                if res != test[1]:
-                    failcount += 1
-                    print "Failed on test: %s. Should be: %s, got %s instead." % (test[0], test[1], res)
-
-        if failcount > 0:
-            build_fail[0] = True
-            build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s: Failed %d out of %d tests" % (trainee, failcount, num_tests)) )
-        print "Model %s failed %d out of %d tests" % (trainee, failcount, num_tests)
-        print "\n\n"
-
     for trainee in amplified_data:
-        model = get_classifier(trainee, amplified_data[trainee], use_old=True)
+        models = get_classifiers(trainee, amplified_data[trainee], use_old=False)
 
-        failcount = 0
-        num_tests = 0
-
+        # Build testing data and variables
+        failcounts = []
+        test_cases = []
+        correct = []
         with open(os.path.join(trainee, "test.csv")) as csvfile:
             tests = csv.reader(csvfile)
             for test in tests:
                 if len(test) != 2:
                     continue
-                num_tests += 1
-                res = str(model.match(test[0]))
-                if res != test[1]:
-                    failcount += 1
-                    print "Failed on test: %s. Should be: %s, got %s instead." % (test[0], test[1], res)
+                test_cases.append(test[0])
+                correct.append(test[1] == "True")
 
-        with open(os.path.join(trainee, "true.txt")) as f:
-            tests = f.read().strip().split("\n")
-            for test in tests:
-                if len(test) != 2:
-                    continue
-                num_tests += 1
-                res = model.match(test)
-                if res != True:
-                    failcount += 1
-                    print "Failed on test: %s. Should be: True, got %s instead." % (test, res)
+        test_cases += amplified_data[trainee][0]
+        correct += [ True ] * len(amplified_data[trainee][0])
 
-        with open(os.path.join(trainee, "false.txt")) as f:
-            tests = f.read().strip().split("\n")
-            for test in tests:
-                if len(test) != 2:
-                    continue
-                num_tests += 1
-                res = model.match(test)
-                if res != False:
-                    failcount += 1
-                    print "Failed on test: %s. Should be: False, got %s instead." % (test, res)
+        test_cases += amplified_data[trainee][1]
+        correct += [ False ] * len(amplified_data[trainee][1])
 
-        if failcount > 0:
+        num_tests = len(test_cases)
+
+        # Run tests with each possible model and keep track of the best one
+        min_index = -1
+        min_value = float("inf")
+        for model in models:
+            failcounts.append(test_model(model.match, test_cases, correct))
+            if failcounts[-1] < min_value:
+                min_index = len(failcounts) - 1
+                min_value = failcounts[-1]
+
+        if min_value > 0:
             build_fail[0] = True
-            build_fail[1] = "\n".join( (build_fail[1], "Errors in Model %s: Failed %d out of %d tests" % (trainee, failcount, num_tests)) )
-        print "Model %s failed %d out of %d tests" % (trainee, failcount, num_tests)
-        print "\n\n"
+            build_fail[1] = "\n".join(
+                (
+                    build_fail[1],
+                    "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
+                )
+            )
+        print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
+
+        # Save the best model
+        with open(get_model_path(trainee), 'w') as MODEL_FILE:
+            pickle.dump(models[min_index], MODEL_FILE)
 
     if build_fail[0]:
         print build_fail[1]
-        assert(False)
 
