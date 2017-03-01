@@ -140,11 +140,15 @@ def get_ordinal_scaler_data_list():
 
 def test_model(test_func, tests, correct):
     failcount = 0
+    error_messages = []
     for i in range(len(tests)):
         res = test_func(tests[i])
         if res != correct[i]:
+            error_messages.append(
+                "Failed test '%s': Got '%r', should be '%r'" % (tests[i], res, correct[i])
+            )
             failcount += 1
-    return failcount
+    return failcount, "\n".join(error_messages)
 
 def get_amplified_data_from_training_list(training_list):
     amplified_data = {}
@@ -174,6 +178,7 @@ if __name__ == "__main__":
 
         # Build testing data and variables
         failcounts = []
+        error_messages = []
         test_cases = []
         correct = []
         with open(os.path.join(trainee, "test.csv")) as csvfile:
@@ -181,8 +186,8 @@ if __name__ == "__main__":
             for test in tests:
                 if len(test) != 2:
                     continue
-                test_cases.append(test[0])
-                correct.append(test[1] == "True")
+                test_cases.append(test[0].strip())
+                correct.append(test[1].strip() == "True")
 
         test_cases += amplified_data[trainee][0]
         correct += [ True ] * len(amplified_data[trainee][0])
@@ -196,7 +201,9 @@ if __name__ == "__main__":
         min_index = -1
         min_value = float("inf")
         for model in models:
-            failcounts.append(test_model(model.match, test_cases, correct))
+            f_count, message = test_model(model.match, test_cases, correct)
+            failcounts.append(f_count)
+            error_messages.append(message)
             if failcounts[-1] < min_value:
                 min_index = len(failcounts) - 1
                 min_value = failcounts[-1]
@@ -209,6 +216,8 @@ if __name__ == "__main__":
                     "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
                 )
             )
+        if failcounts[min_index] > 0:
+            print "\n", error_messages[min_index]
         print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
 
         # Save the best model
