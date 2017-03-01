@@ -28,7 +28,6 @@ do not give me the news
 do not give me the current events
 please do not give me the news
 please do not get teh current events
-please get the news todays
 do not tell me hwat is going on in the world todays
 dont give me news
 please dont tell me the latest events
@@ -175,7 +174,6 @@ what isn't going on in the world today
 what aren't the current events today
 what isn't the news today
 what aren't the latest events 
-what events are going on right now
 what isn't in the news today
 not intel
 not intelligence report

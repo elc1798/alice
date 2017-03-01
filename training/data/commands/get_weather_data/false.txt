@@ -59,8 +59,6 @@ what's not the forecast this week
 what's not the temperature this week
 
 not this week's weather
-this week's forecast
-this week's temperature
 
 not what's not the weather today
 not what's not the forecast today
