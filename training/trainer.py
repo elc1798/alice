@@ -37,14 +37,14 @@ def load_data(dataset_path):
     """
     print "[ DATA LOAD ] Loading data from %s..." % (dataset_path,)
 
-    to_lower = lambda s : s.lower()
-
-    hot, cold = None, None
-    with open(os.path.join(dataset_path, "true.txt")) as f:
-        hot = map(to_lower, f.read().strip().split('\n'))
-    with open(os.path.join(dataset_path, "false.txt")) as f:
-        cold = map(to_lower, f.read().strip().split('\n'))
-    return [ i for i in hot if len(i) > 0 ], [ i for i in cold if len(i) > 0 ]
+    data = {}
+    sets = glob.glob("%s/*.txt" % (dataset_path,))
+    for fname in sets:
+        with open(fname, 'r') as f:
+            set_name = os.path.basename(fname).split(".")[0]
+            contents = f.read().strip().lower().split("\n")
+            data[set_name] = [ i for i in contents if len(i) > 0 ]
+    return data
 
 def load_ordinal_scaler(data_folder):
     """
@@ -150,26 +150,26 @@ def test_model(test_func, tests, correct):
             failcount += 1
     return failcount, "\n".join(error_messages)
 
-def get_amplified_data_from_training_list(training_list):
+def get_amplified_data_from_training_list(training_list, ordinal_scaler=False):
     amplified_data = {}
     for trainee in training_list:
-        hot, cold = load_data(trainee)
-        amplified_data[trainee] = [ hot, cold ]
+        amplified_data[trainee] = load_data(trainee)
 
-    for trainee in training_list:
-        for other in training_list:
-            if trainee == other:
-                continue
-            amplified_data[trainee][1] += amplified_data[other][0] # Add the other's hot to our cold
+    if not ordinal_scaler:
+        for trainee in training_list:
+            for other in training_list:
+                if trainee == other:
+                    continue
+                amplified_data[trainee]["false"] += amplified_data[other]["true"]
     return amplified_data
 
-if __name__ == "__main__":
+def train_commands():
     amplified_data = get_amplified_data_from_training_list(get_command_data_list())
 
     with open("nonsense.txt") as f:
         tmp = f.read().strip().lower().split('\n')
         for trainee in amplified_data:
-            amplified_data[trainee][1] += tmp
+            amplified_data[trainee]["false"] += tmp
 
     build_fail = [ False, "" ]
 
@@ -187,13 +187,13 @@ if __name__ == "__main__":
                 if len(test) != 2:
                     continue
                 test_cases.append(test[0].strip())
-                correct.append(test[1].strip() == "True")
+                correct.append(test[1].strip().lower() == "true")
 
-        test_cases += amplified_data[trainee][0]
-        correct += [ True ] * len(amplified_data[trainee][0])
+        test_cases += amplified_data[trainee]["true"]
+        correct += [ True ] * len(amplified_data[trainee]["true"])
 
-        test_cases += amplified_data[trainee][1]
-        correct += [ False ] * len(amplified_data[trainee][1])
+        test_cases += amplified_data[trainee]["false"]
+        correct += [ False ] * len(amplified_data[trainee]["false"])
 
         num_tests = len(test_cases)
 
@@ -226,4 +226,7 @@ if __name__ == "__main__":
 
     if build_fail[0]:
         print build_fail[1]
+
+if __name__ == "__main__":
+    train_commands()
 

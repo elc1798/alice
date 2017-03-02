@@ -41,7 +41,7 @@ class CommandMatchingModel:
                 - n_iter
 
         """
-        assert(len(dataset) == 2 and type(dataset[0]) == list and type(dataset[1]) == list)
+        assert(len(dataset.keys()) == 2 and type(dataset["true"]) == list and type(dataset["false"]) == list)
 
         self.name = name
         self.grammar = grammar
@@ -50,7 +50,7 @@ class CommandMatchingModel:
         self.alpha = alpha
         self.n_iter = n_iter
 
-        self.data = [ (i, "True") for i in dataset[0] ] + [ (i, "False") for i in dataset[1] ]
+        self.data = [ (i, "True") for i in dataset["true"] ] + [ (i, "False") for i in dataset["false"] ]
         if shuffle:
             random.shuffle(self.data)
 
