@@ -80,7 +80,7 @@ class CommandMatchingModel:
                     penalty=self.penalty,
                     alpha=self.alpha,
                     n_iter=self.n_iter,
-                    random_state=42
+                    random_state=random.randint(0, 1000)
                 )),
             ])
         _ = self.classifier.fit(training_set["data"], training_set["target"])
@@ -132,7 +132,7 @@ class GrammarMatchingModel:
 class OrdinalScaleModel:
 
     def __init__(self, dataset, shuffle=True, train=False, name="",
-            loss="squared_hinge", penalty="elasticnet", alpha=1e-3, n_iter=5):
+            grammar=None, loss="squared_hinge", penalty="elasticnet", alpha=1e-3, n_iter=5):
         """
         Creates an instance of the CommandMatchingModel.
 
@@ -146,6 +146,7 @@ class OrdinalScaleModel:
                         constructor. False by default.
             name    -   The name of the model. This is optional, and is only
                         used to identify the model externally
+            grammar -   Always None. Parameter exists for conformity.
 
             The below parameters are parameters for the SKLearn SGDClassifier.
             See the sci-kit learn documentation for their meanings.
@@ -201,7 +202,7 @@ class OrdinalScaleModel:
                     penalty=self.penalty,
                     alpha=self.alpha,
                     n_iter=self.n_iter,
-                    random_state=42
+                    random_state=random.randint(0, 1000)
                 )),
             ])
         _ = self.classifier.fit(training_set["data"], training_set["target"])

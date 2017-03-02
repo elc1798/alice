@@ -95,17 +95,30 @@ def get_existing_classifier(model_folder, dataset, use_old=False):
     else:
         return None
 
-def get_classifiers(model_folder, dataset, use_old=False):
+def get_classifiers(model_folder, dataset, use_old=False, ordinal_scaler=False):
     g = None
     alpha = 1e-3
     n_iter = 5
 
+    model_class = CommandMatchingModel
+    if ordinal_scaler:
+        model_class = OrdinalScaleModel
+
     models = []
     for loss in LOSS_FUNCTIONS:
         for penalty in PENALTY_FUNCTIONS:
-            model = CommandMatchingModel( dataset , shuffle=True, train=True,
-                    name=get_model_name(model_folder), grammar=g,
-                    loss=loss, penalty=penalty, alpha=alpha, n_iter=n_iter )
+            model = model_class(
+                dataset,
+                shuffle=True,
+                train=True,
+                name=get_model_name(model_folder),
+                grammar=g,
+                loss=loss,
+                penalty=penalty,
+                alpha=alpha,
+                n_iter=n_iter
+            )
+
             models.append(model)
     return models
 
@@ -227,6 +240,71 @@ def train_commands():
     if build_fail[0]:
         print build_fail[1]
 
+def train_ordinal_scalers():
+    amplified_data = get_amplified_data_from_training_list(
+        get_ordinal_scaler_data_list(),
+        ordinal_scaler=True
+    )
+
+    build_fail = [ False, "" ]
+
+    for trainee in amplified_data:
+        models = get_classifiers(
+            trainee,
+            amplified_data[trainee],
+            use_old=False,
+            ordinal_scaler=True
+        )
+
+        # Build testing data and variables
+        failcounts = []
+        error_messages = []
+        test_cases = []
+        correct = []
+        with open(os.path.join(trainee, "test.csv")) as csvfile:
+            tests = csv.reader(csvfile)
+            for test in tests:
+                if len(test) != 2:
+                    continue
+                test_cases.append(test[0].strip().lower())
+                correct.append(int(test[1].strip().lower()))
+
+        for ordinality in amplified_data[trainee]:
+            test_cases += amplified_data[trainee][ordinality]
+            correct += [ int(ordinality) ] * len(amplified_data[trainee][ordinality])
+
+        num_tests = len(test_cases)
+
+        # Run tests with each possible model and keep track of the best one
+        min_index = -1
+        min_value = float("inf")
+        for model in models:
+            f_count, message = test_model(model.rate, test_cases, correct)
+            failcounts.append(f_count)
+            error_messages.append(message)
+            if failcounts[-1] < min_value:
+                min_index = len(failcounts) - 1
+                min_value = failcounts[-1]
+
+        if min_value > 0:
+            build_fail[0] = True
+            build_fail[1] = "\n".join(
+                (
+                    build_fail[1],
+                    "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
+                )
+            )
+        if failcounts[min_index] > 0:
+            print "\n", error_messages[min_index]
+        print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
+
+        # Save the best model
+        with open(get_model_path(trainee), 'w') as MODEL_FILE:
+            pickle.dump(models[min_index], MODEL_FILE)
+
+    if build_fail[0]:
+        print build_fail[1]
+
 if __name__ == "__main__":
     train_commands()
-
+    train_ordinal_scalers()
