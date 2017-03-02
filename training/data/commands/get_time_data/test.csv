@@ -131,8 +131,6 @@ please don't retrieve the time,False
 please don't retrieve what time it is,False
 please don't retrieve the current time,False
 
-
-
 what time is it,True
 what time is it now,True
 what time is it right now,True

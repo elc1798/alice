@@ -1,0 +1,1492 @@
+(ialicized_models
+OrdinalScaleModel
+p0
+(dp1
+S'loss'
+p2
+S'perceptron'
+p3
+sS'trained'
+p4
+I01
+sS'name'
+p5
+S'VOLUME_CONTROL.model'
+p6
+sS'n_iter'
+p7
+I5
+sS'penalty'
+p8
+S'l2'
+p9
+sS'target_names'
+p10
+(lp11
+S'1'
+p12
+aS'0'
+p13
+aS'3'
+p14
+aS'2'
+p15
+asS'alpha'
+p16
+F0.001
+sS'data'
+p17
+(lp18
+(S'please can you make it louder'
+p19
+g15
+tp20
+a(S'turn up the sound please'
+p21
+g15
+tp22
+a(S'turn the beat down please'
+p23
+g12
+tp24
+a(S'can you turn up the tunez'
+p25
+g15
+tp26
+a(S'unmute music\r'
+p27
+g14
+tp28
+a(S'turn it off'
+p29
+g13
+tp30
+a(S'lower the volume'
+p31
+g12
+tp32
+a(S'unmute volume\r'
+p33
+g14
+tp34
+a(S'can you decrease the sound'
+p35
+g12
+tp36
+a(S'give the music back\r'
+p37
+g14
+tp38
+a(S'give volume back\r'
+p39
+g14
+tp40
+a(S'please sound up'
+p41
+g15
+tp42
+a(S'can you turn up the sound'
+p43
+g15
+tp44
+a(S'reset the sound please\r'
+p45
+g14
+tp46
+a(S'resume playing sound\r'
+p47
+g14
+tp48
+a(S'give the sound back\r'
+p49
+g14
+tp50
+a(S'reset the sound\r'
+p51
+g14
+tp52
+a(S'can you please turn the tune down'
+p53
+g12
+tp54
+a(S'stop muting\r'
+p55
+g14
+tp56
+a(S'sound up please'
+p57
+g15
+tp58
+a(S'turn up the beat'
+p59
+g15
+tp60
+a(S'turn it up please'
+p61
+g15
+tp62
+a(S'please volume higher'
+p63
+g15
+tp64
+a(S'turn it down'
+p65
+g13
+tp66
+a(S'make the sound quieter'
+p67
+g12
+tp68
+a(S'lower the tunez please'
+p69
+g12
+tp70
+a(S'please sound higher'
+p71
+g15
+tp72
+a(S'bring back the music please\r'
+p73
+g14
+tp74
+a(S'please give tunes back\r'
+p75
+g14
+tp76
+a(S'turn up the tunez'
+p77
+g15
+tp78
+a(S'please louder'
+p79
+g15
+tp80
+a(S'play sound again please\r'
+p81
+g14
+tp82
+a(S'be quiet'
+p83
+g13
+tp84
+a(S'reset the volume please\r'
+p85
+g14
+tp86
+a(S'please give volume back\r'
+p87
+g14
+tp88
+a(S'stop playing'
+p89
+g13
+tp90
+a(S'can you unmute the music\r'
+p91
+g14
+tp92
+a(S'can you turn the beat down'
+p93
+g12
+tp94
+a(S'off'
+p95
+g13
+tp96
+a(S'kill the music'
+p97
+g13
+tp98
+a(S'play sound again\r'
+p99
+g14
+tp100
+a(S'please can you turn the volume higher'
+p101
+g15
+tp102
+a(S'can you mute'
+p103
+g13
+tp104
+a(S'can you please unmute\r'
+p105
+g14
+tp106
+a(S'can you turn up the volume'
+p107
+g15
+tp108
+a(S'turn down the sound'
+p109
+g12
+tp110
+a(S'unmute the sound\r'
+p111
+g14
+tp112
+a(S'make the volume zero'
+p113
+g13
+tp114
+a(S'can you give the music back\r'
+p115
+g14
+tp116
+a(S'can you please turn the beat down'
+p117
+g12
+tp118
+a(S'bring back the beats\r'
+p119
+g14
+tp120
+a(S'play music again please\r'
+p121
+g14
+tp122
+a(S'play music again\r'
+p123
+g14
+tp124
+a(S'mute'
+p125
+g13
+tp126
+a(S'stop mute\r'
+p127
+g14
+tp128
+a(S'begin playing music again\r'
+p129
+g14
+tp130
+a(S'turn the volume to zero'
+p131
+g13
+tp132
+a(S'shut up'
+p133
+g13
+tp134
+a(S'lower the sound'
+p135
+g12
+tp136
+a(S'bring back the music\r'
+p137
+g14
+tp138
+a(S'can you reset sound\r'
+p139
+g14
+tp140
+a(S'undo mute\r'
+p141
+g14
+tp142
+a(S'give the tunes back please\r'
+p143
+g14
+tp144
+a(S'can you please turn up the volume'
+p145
+g15
+tp146
+a(S'please be quiet'
+p147
+g13
+tp148
+a(S'stop muting please\r'
+p149
+g14
+tp150
+a(S'increase the volume'
+p151
+g15
+tp152
+a(S'please give the music back\r'
+p153
+g14
+tp154
+a(S'can you turn the tune down'
+p155
+g12
+tp156
+a(S'unmute pls\r'
+p157
+g14
+tp158
+a(S'make the volume lower'
+p159
+g12
+tp160
+a(S'bring back the tunes please\r'
+p161
+g14
+tp162
+a(S'can you shut up'
+p163
+g13
+tp164
+a(S'reset the volume\r'
+p165
+g14
+tp166
+a(S'give tunes back\r'
+p167
+g14
+tp168
+a(S'spotify stop playing'
+p169
+g13
+tp170
+a(S'can you turn up the tune'
+p171
+g15
+tp172
+a(S'can you turn the volume higher please'
+p173
+g15
+tp174
+a(S'can you please shut up'
+p175
+g13
+tp176
+a(S'can you turn the sound down'
+p177
+g12
+tp178
+a(S'turn up the sound'
+p179
+g15
+tp180
+a(S'unmute please\r'
+p181
+g14
+tp182
+a(S'can you reset volume\r'
+p183
+g14
+tp184
+a(S'can you make it louder please'
+p185
+g15
+tp186
+a(S'louder please'
+p187
+g15
+tp188
+a(S'turn up the the beat'
+p189
+g15
+tp190
+a(S'please give the music back\r'
+p191
+g14
+tp192
+a(S'set the volume zero'
+p193
+g13
+tp194
+a(S'set the volume to zero'
+p195
+g13
+tp196
+a(S'make the sound softer'
+p197
+g12
+tp198
+a(S'turn up the beat please'
+p199
+g15
+tp200
+a(S'lower the tunes please'
+p201
+g12
+tp202
+a(S'turn off the beats'
+p203
+g13
+tp204
+a(S'give music back please\r'
+p205
+g14
+tp206
+a(S'give volume back please\r'
+p207
+g14
+tp208
+a(S'please turn it down'
+p209
+g13
+tp210
+a(S'unmute the volume\r'
+p211
+g14
+tp212
+a(S'give the volume back please\r'
+p213
+g14
+tp214
+a(S'can you please turn up the tune'
+p215
+g15
+tp216
+a(S'music down'
+p217
+g13
+tp218
+a(S'reset volume\r'
+p219
+g14
+tp220
+a(S'make the volume 0'
+p221
+g13
+tp222
+a(S'turn up the tune'
+p223
+g15
+tp224
+a(S'turn up the volume'
+p225
+g15
+tp226
+a(S'decrease the volume'
+p227
+g12
+tp228
+a(S'turn the tune down'
+p229
+g12
+tp230
+a(S'give music back\r'
+p231
+g14
+tp232
+a(S'volume up'
+p233
+g15
+tp234
+a(S'stop the tunez'
+p235
+g13
+tp236
+a(S'please stop muting\r'
+p237
+g14
+tp238
+a(S'turn up'
+p239
+g15
+tp240
+a(S'please turn it up'
+p241
+g15
+tp242
+a(S'set volume 0'
+p243
+g13
+tp244
+a(S'turn up the sound'
+p245
+g15
+tp246
+a(S'resume playing music\r'
+p247
+g14
+tp248
+a(S'can you reset the sound\r'
+p249
+g14
+tp250
+a(S'can you reset the volume\r'
+p251
+g14
+tp252
+a(S'can you please mute'
+p253
+g13
+tp254
+a(S'kill the noise'
+p255
+g13
+tp256
+a(S'turn up the volume'
+p257
+g15
+tp258
+a(S'make the volume softer'
+p259
+g12
+tp260
+a(S'turn the beat down'
+p261
+g12
+tp262
+a(S'turn up the tunes'
+p263
+g15
+tp264
+a(S'change the volume back\r'
+p265
+g14
+tp266
+a(S'can you play music again\r'
+p267
+g14
+tp268
+a(S'can you turn up the volume please'
+p269
+g15
+tp270
+a(S'please can you turn up the volume'
+p271
+g15
+tp272
+a(S'unmute\r'
+p273
+g14
+tp274
+a(S'sound higher please'
+p275
+g15
+tp276
+a(S'can you please reset the volume\r'
+p277
+g14
+tp278
+a(S'volume higher please'
+p279
+g15
+tp280
+a(S'bring back the tunes\r'
+p281
+g14
+tp282
+a(S'can you turn up the beat'
+p283
+g15
+tp284
+a(S'give the music back please\r'
+p285
+g14
+tp286
+a(S'can you unmute the sound\r'
+p287
+g14
+tp288
+a(S'spotify shut up'
+p289
+g13
+tp290
+a(S'make the sound louder'
+p291
+g15
+tp292
+a(S'please give the sound back\r'
+p293
+g14
+tp294
+a(S'make the sound higher'
+p295
+g15
+tp296
+a(S'can you play sound again\r'
+p297
+g14
+tp298
+a(S'reset sound\r'
+p299
+g14
+tp300
+a(S'give the music back please'
+p301
+g14
+tp302
+a(S'turn off the sound please'
+p303
+g13
+tp304
+a(S'can you unmute\r'
+p305
+g14
+tp306
+a(S'turn down the volume'
+p307
+g12
+tp308
+a(S'turn the sound down please'
+p309
+g12
+tp310
+a(S'shut the fuck up'
+p311
+g13
+tp312
+a(S'turn up the volume please'
+p313
+g15
+tp314
+a(S'can you please turn up the beat'
+p315
+g15
+tp316
+a(S'shut up please'
+p317
+g13
+tp318
+a(S'turn it down'
+p319
+g12
+tp320
+a(S'can you please turn up the sound'
+p321
+g15
+tp322
+a(S'unmute sound\r'
+p323
+g14
+tp324
+a(S'give tunes back please\r'
+p325
+g14
+tp326
+a(S'can you please turn the sound down'
+p327
+g12
+tp328
+a(S'turn up the tunez please'
+p329
+g15
+tp330
+a(S'can you please turn up the tunez'
+p331
+g15
+tp332
+a(S'change the sound back\r'
+p333
+g14
+tp334
+a(S'mute please'
+p335
+g13
+tp336
+a(S'please give music back\r'
+p337
+g14
+tp338
+a(S'lower the volume'
+p339
+g12
+tp340
+asS'classifier'
+p341
+ccopy_reg
+_reconstructor
+p342
+(csklearn.pipeline
+Pipeline
+p343
+c__builtin__
+object
+p344
+Ntp345
+Rp346
+(dp347
+S'_sklearn_version'
+p348
+S'0.18.1'
+p349
+sS'steps'
+p350
+(lp351
+(S'vect'
+p352
+g342
+(csklearn.feature_extraction.text
+CountVectorizer
+p353
+g344
+Ntp354
+Rp355
+(dp356
+S'decode_error'
+p357
+Vstrict
+p358
+sS'lowercase'
+p359
+I01
+sS'stop_words'
+p360
+NsS'vocabulary'
+p361
+NsS'tokenizer'
+p362
+NsS'encoding'
+p363
+Vutf-8
+p364
+sS'token_pattern'
+p365
+V(?u)\u005cb\u005cw\u005cw+\u005cb
+p366
+sS'input'
+p367
+Vcontent
+p368
+sS'analyzer'
+p369
+Vword
+p370
+sS'vocabulary_'
+p371
+(dp372
+Vset
+p373
+cnumpy.core.multiarray
+scalar
+p374
+(cnumpy
+dtype
+p375
+(S'i8'
+p376
+I0
+I1
+tp377
+Rp378
+(I3
+S'<'
+p379
+NNNI-1
+I-1
+I0
+tp380
+bS'!\x00\x00\x00\x00\x00\x00\x00'
+p381
+tp382
+Rp383
+sVplay
+p384
+g374
+(g378
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
+p385
+tp386
+Rp387
+sVgive
+p388
+g374
+(g378
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+p389
+tp390
+Rp391
+sVsound
+p392
+g374
+(g378
+S'$\x00\x00\x00\x00\x00\x00\x00'
+p393
+tp394
+Rp395
+sVit
+p396
+g374
+(g378
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+p397
+tp398
+Rp399
+sVup
+p400
+g374
+(g378
+S'/\x00\x00\x00\x00\x00\x00\x00'
+p401
+tp402
+Rp403
+sVdown
+p404
+g374
+(g378
+S'\n\x00\x00\x00\x00\x00\x00\x00'
+p405
+tp406
+Rp407
+sVbring
+p408
+g374
+(g378
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
+p409
+tp410
+Rp411
+sVzero
+p412
+g374
+(g378
+S'2\x00\x00\x00\x00\x00\x00\x00'
+p413
+tp414
+Rp415
+sVlouder
+p416
+g374
+(g378
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
+p417
+tp418
+Rp419
+sVdecrease
+p420
+g374
+(g378
+S'\t\x00\x00\x00\x00\x00\x00\x00'
+p421
+tp422
+Rp423
+sVbeats
+p424
+g374
+(g378
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
+p425
+tp426
+Rp427
+sVbegin
+p428
+g374
+(g378
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
+p429
+tp430
+Rp431
+sVagain
+p432
+g374
+(g378
+S'\x00\x00\x00\x00\x00\x00\x00\x00'
+p433
+tp434
+Rp435
+sVquieter
+p436
+g374
+(g378
+S'\x1e\x00\x00\x00\x00\x00\x00\x00'
+p437
+tp438
+Rp439
+sVtunez
+p440
+g374
+(g378
+S'+\x00\x00\x00\x00\x00\x00\x00'
+p441
+tp442
+Rp443
+sVmuting
+p444
+g374
+(g378
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
+p445
+tp446
+Rp447
+sVmake
+p448
+g374
+(g378
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
+p449
+tp450
+Rp451
+sVmute
+p452
+g374
+(g378
+S'\x15\x00\x00\x00\x00\x00\x00\x00'
+p453
+tp454
+Rp455
+sVplease
+p456
+g374
+(g378
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+p457
+tp458
+Rp459
+sVincrease
+p460
+g374
+(g378
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+p461
+tp462
+Rp463
+sVto
+p464
+g374
+(g378
+S'(\x00\x00\x00\x00\x00\x00\x00'
+p465
+tp466
+Rp467
+sVmusic
+p468
+g374
+(g378
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
+p469
+tp470
+Rp471
+sVtune
+p472
+g374
+(g378
+S')\x00\x00\x00\x00\x00\x00\x00'
+p473
+tp474
+Rp475
+sVyou
+p476
+g374
+(g378
+S'1\x00\x00\x00\x00\x00\x00\x00'
+p477
+tp478
+Rp479
+sVhigher
+p480
+g374
+(g378
+S'\r\x00\x00\x00\x00\x00\x00\x00'
+p481
+tp482
+Rp483
+sVbe
+p484
+g374
+(g378
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
+p485
+tp486
+Rp487
+sVshut
+p488
+g374
+(g378
+S'"\x00\x00\x00\x00\x00\x00\x00'
+p489
+tp490
+Rp491
+sVnoise
+p492
+g374
+(g378
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
+p493
+tp494
+Rp495
+sVpls
+p496
+g374
+(g378
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+p497
+tp498
+Rp499
+sVspotify
+p500
+g374
+(g378
+S'%\x00\x00\x00\x00\x00\x00\x00'
+p501
+tp502
+Rp503
+sVbeat
+p504
+g374
+(g378
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
+p505
+tp506
+Rp507
+sVstop
+p508
+g374
+(g378
+S'&\x00\x00\x00\x00\x00\x00\x00'
+p509
+tp510
+Rp511
+sVundo
+p512
+g374
+(g378
+S'-\x00\x00\x00\x00\x00\x00\x00'
+p513
+tp514
+Rp515
+sVback
+p516
+g374
+(g378
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
+p517
+tp518
+Rp519
+sVvolume
+p520
+g374
+(g378
+S'0\x00\x00\x00\x00\x00\x00\x00'
+p521
+tp522
+Rp523
+sVfuck
+p524
+g374
+(g378
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+p525
+tp526
+Rp527
+sVchange
+p528
+g374
+(g378
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
+p529
+tp530
+Rp531
+sVreset
+p532
+g374
+(g378
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+p533
+tp534
+Rp535
+sVlower
+p536
+g374
+(g378
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
+p537
+tp538
+Rp539
+sVoff
+p540
+g374
+(g378
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
+p541
+tp542
+Rp543
+sVunmute
+p544
+g374
+(g378
+S'.\x00\x00\x00\x00\x00\x00\x00'
+p545
+tp546
+Rp547
+sVquiet
+p548
+g374
+(g378
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+p549
+tp550
+Rp551
+sVresume
+p552
+g374
+(g378
+S' \x00\x00\x00\x00\x00\x00\x00'
+p553
+tp554
+Rp555
+sVturn
+p556
+g374
+(g378
+S',\x00\x00\x00\x00\x00\x00\x00'
+p557
+tp558
+Rp559
+sVsofter
+p560
+g374
+(g378
+S'#\x00\x00\x00\x00\x00\x00\x00'
+p561
+tp562
+Rp563
+sVcan
+p564
+g374
+(g378
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
+p565
+tp566
+Rp567
+sVtunes
+p568
+g374
+(g378
+S'*\x00\x00\x00\x00\x00\x00\x00'
+p569
+tp570
+Rp571
+sVkill
+p572
+g374
+(g378
+S'\x10\x00\x00\x00\x00\x00\x00\x00'
+p573
+tp574
+Rp575
+sVthe
+p576
+g374
+(g378
+S"'\x00\x00\x00\x00\x00\x00\x00"
+p577
+tp578
+Rp579
+sVplaying
+p580
+g374
+(g378
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+p581
+tp582
+Rp583
+ssS'binary'
+p584
+I00
+sS'ngram_range'
+p585
+(I1
+I1
+tp586
+sg348
+g349
+sS'max_df'
+p587
+F1.0
+sS'min_df'
+p588
+I1
+sS'max_features'
+p589
+NsS'fixed_vocabulary_'
+p590
+I00
+sS'strip_accents'
+p591
+NsS'dtype'
+p592
+cnumpy
+int64
+p593
+sS'stop_words_'
+p594
+c__builtin__
+set
+p595
+((lp596
+tp597
+Rp598
+sS'preprocessor'
+p599
+Nsbtp600
+a(S'tfidf'
+p601
+g342
+(csklearn.feature_extraction.text
+TfidfTransformer
+p602
+g344
+Ntp603
+Rp604
+(dp605
+S'smooth_idf'
+p606
+I01
+sg348
+g349
+sS'_idf_diag'
+p607
+g342
+(cscipy.sparse.csr
+csr_matrix
+p608
+g344
+Ntp609
+Rp610
+(dp611
+S'indices'
+p612
+cnumpy.core.multiarray
+_reconstruct
+p613
+(cnumpy
+ndarray
+p614
+(I0
+tp615
+S'b'
+p616
+tp617
+Rp618
+(I1
+(I51
+tp619
+g375
+(S'i4'
+p620
+I0
+I1
+tp621
+Rp622
+(I3
+S'<'
+p623
+NNNI-1
+I-1
+I0
+tp624
+bI00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x00'
+p625
+tp626
+bsS'indptr'
+p627
+g613
+(g614
+(I0
+tp628
+g616
+tp629
+Rp630
+(I1
+(I52
+tp631
+g622
+I00
+S'\x00\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x03\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\x06\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\t\x00\x00\x00\n\x00\x00\x00\x0b\x00\x00\x00\x0c\x00\x00\x00\r\x00\x00\x00\x0e\x00\x00\x00\x0f\x00\x00\x00\x10\x00\x00\x00\x11\x00\x00\x00\x12\x00\x00\x00\x13\x00\x00\x00\x14\x00\x00\x00\x15\x00\x00\x00\x16\x00\x00\x00\x17\x00\x00\x00\x18\x00\x00\x00\x19\x00\x00\x00\x1a\x00\x00\x00\x1b\x00\x00\x00\x1c\x00\x00\x00\x1d\x00\x00\x00\x1e\x00\x00\x00\x1f\x00\x00\x00 \x00\x00\x00!\x00\x00\x00"\x00\x00\x00#\x00\x00\x00$\x00\x00\x00%\x00\x00\x00&\x00\x00\x00\'\x00\x00\x00(\x00\x00\x00)\x00\x00\x00*\x00\x00\x00+\x00\x00\x00,\x00\x00\x00-\x00\x00\x00.\x00\x00\x00/\x00\x00\x000\x00\x00\x001\x00\x00\x002\x00\x00\x003\x00\x00\x00'
+p632
+tp633
+bsS'maxprint'
+p634
+I50
+sS'_shape'
+p635
+(I51
+I51
+tp636
+sg17
+g613
+(g614
+(I0
+tp637
+g616
+tp638
+Rp639
+(I1
+(I51
+tp640
+g375
+(S'f8'
+p641
+I0
+I1
+tp642
+Rp643
+(I3
+S'<'
+p644
+NNNI-1
+I-1
+I0
+tp645
+bI00
+S'\x8ft\xee\xbaY\x08\x10@\x01\x10\x15\xfd\x85U\x06@\x86\t\xe1;\xb8\xf4\x13@{?c\xf9\xb3G\x0e@\x86\t\xe1;\xb8\xf4\x13@\x0b\x03\xadz\xea\x93\x15@H\xc2\x01\xdc\xef.\x11@\x84"\xe6y\x920\x03@\x86\t\xe1;\xb8\xf4\x13@\x86\t\xe1;\xb8\xf4\x13@\x17\x15\x1e\xf3\xf9\x08\n@\x0b\x03\xadz\xea\x93\x15@\x00\xb1\xa49#\xbc\x08@\x8ft\xee\xbaY\x08\x10@\x0b\x03\xadz\xea\x93\x15@\x86\x91k:{\x1f\x0f@\x86\t\xe1;\xb8\xf4\x13@H\xc2\x01\xdc\xef.\x11@\xb2\xb3\xff.\x16\x91\x10@E]\x99\xfd\x81\x84\r@\xe0\xe5\xa8 7X\x08@\xb2\xb3\xff.\x16\x91\x10@\xcc\xbb\xcd\x1a"\xce\x12@\x0b\x03\xadz\xea\x93\x15@\xfc\xe6\x90\\\xa2\xe9\x11@\xb2\xb3\xff.\x16\x91\x10@H\xc2\x01\xdc\xef.\x11@T{Bm\x02\xdc\xfe?\x0b\x03\xadz\xea\x93\x15@\x86\t\xe1;\xb8\xf4\x13@\x0b\x03\xadz\xea\x93\x15@\x14\xf6D\xf8N\xd2\x0c@\x86\t\xe1;\xb8\xf4\x13@\xcc\xbb\xcd\x1a"\xce\x12@\xb2\xb3\xff.\x16\x91\x10@\x86\t\xe1;\xb8\xf4\x13@\x8ft\xee\xbaY\x08\x04@\x86\t\xe1;\xb8\xf4\x13@\x8ft\xee\xbaY\x08\x10@d\xcfa^D\xe1\xf8?\x86\t\xe1;\xb8\xf4\x13@\xb2\xb3\xff.\x16\x91\x10@\x86\x91k:{\x1f\x0f@\xb2\xb3\xff.\x16\x91\x10@\xe2xl\xfd\x92g\x01@\x0b\x03\xadz\xea\x93\x15@@\x08\xe7\x89a.\x0c@\xe9RU\xef\x9e\x99\x03@\xbb\x86\x90Lld\x03@\x84"\xe6y\x920\x03@\xfc\xe6\x90\\\xa2\xe9\x11@'
+p646
+tp647
+bsbsS'use_idf'
+p648
+I01
+sS'sublinear_tf'
+p649
+I00
+sS'norm'
+p650
+Vl2
+p651
+sbtp652
+a(S'clsfr'
+p653
+g342
+(csklearn.linear_model.stochastic_gradient
+SGDClassifier
+p654
+g344
+Ntp655
+Rp656
+(dp657
+S't_'
+p658
+F806.0
+sS'n_jobs'
+p659
+I1
+sS'shuffle'
+p660
+I01
+sS'verbose'
+p661
+I0
+sS'classes_'
+p662
+g613
+(g614
+(I0
+tp663
+g616
+tp664
+Rp665
+(I1
+(I4
+tp666
+g375
+(S'S1'
+p667
+I0
+I1
+tp668
+Rp669
+(I3
+S'|'
+p670
+NNNI1
+I1
+I0
+tp671
+bI00
+S'0123'
+p672
+tp673
+bsS'class_weight'
+p674
+NsS'fit_intercept'
+p675
+I01
+sg8
+g9
+sS'random_state'
+p676
+I961
+sg348
+g349
+sS'loss_function'
+p677
+csklearn.linear_model.sgd_fast
+Hinge
+p678
+(F0.0
+tp679
+Rp680
+sS'C'
+p681
+F1.0
+sg7
+I5
+sS'epsilon'
+p682
+F0.1
+sS'learning_rate'
+p683
+S'optimal'
+p684
+sS'coef_'
+p685
+g613
+(g614
+(I0
+tp686
+g616
+tp687
+Rp688
+(I1
+(I4
+I51
+tp689
+g643
+I00
+S'Z\xf9\xae\xaap\x8a\xf0\xbf\xacw%\xdc\xa7K\xef\xbfX\x98\xf7\xb0\xd4\x0b\xe7?\x9d\x8d\xf4\x91\x9eT\xf4\xbf\x00\x00\x00\x00\x00\x00\x00\x00B\xb2\xbf\x89E\x98\xe4\xbf\xdeDzV\x1c\xbc\xe6\xbf\x95\x1c\x9f\xa8\xac\t\xcc?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00:\x10A\xcbEG\xf1?\x00\x00\x00\x00\x00\x00\x00\x00]!\xd1\xab\xf1K\xe2\xbf\xcd\x88\xc5Q\xc6\xc9\xe9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xed6\xcc\x8e\xaf\\\xdb?\xc1.y\xbf\x94\xe3\xea?\xa3\xdb\xc8\xcax\x94\xfa\xbf\x8e\x01\xa1\x15\xa2\xc6\xe5\xbf\xd9\x15\xb9\x9d6\xc2\xe6?#Jl\xa9\xb2\x8e\xd4?\x80\xbb_C\xb9\x8d\xe3?\t\xb0|\x11\xcf\xac\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x92\xdf\xc3N\x00\x84\xf7?\xb4@e_#_\xe2\xbf\x0b\x14Z\xe4u\t\xf1?"\xbe\x9d;"\x87\xd1\xbf\xd3\x84\x85X\x05J\xeb\xbfX\x98\xf7\xb0\xd4\x0b\xe7?\xfd\x0c\xa0\x16\xd6\x85\xe8\xbfG\x83\x9b\xfb-O\xe5\xbf\xb1\xeeF\xf3s\xc0\xf6\xbf \xcdEa\x93\x92\xe5?J\xf0\x08\x15|\xeb\xf8?\xa6EN\xf8\xe7\xc4\xe7\xbf\xe7\xca\xb3\x01,H\xe7\xbfXN\x99Y\x8f\x18\xe5?q\xfd\xafkn`\xc8\xbf\xb3\xa9?\xd7\x8e\tv\xbfwkw\x01([\xe5?O\xae5\xd8r\xf5\xf4\xbf\x85\xb9\x11Z^t\xe4\xbf\x1fs<9_\x15\xe6?\xc5\xa6\xc0\xbbw\x85\xec\xbfu\xfeTt\x07\xda\xf9\xbf(\x1f\x1d\xe7\xf6\xd1\xe1\xbf\x8a\xc5\xcf[\xf6"\xf1\xbfL*H~H\xb5\xd0?\x95\x1c\x9f\xa8\xac\t\xcc?\x02\xf8u \xe9\xdb\xf3?\x94F\xa0\x95\x07K\xe2\xbf)\xcd%\xdeb\xcc\xdf\xbf\x00\x00\x00\x00\x00\x00\x00\x00q\x8fBRj\xfa\xda?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00TO\xfa\xaf\x04\x91\xa2\xbf\x00\x00\x00\x00\x00\x00\x00\x00pj\xa6\xb6\x14:\xec?\xef#\xd4\x87\x9f\x9e\xf3?\x00\x00\x00\x00\x00\x00\x00\x00\xbb\xa8_\x95\xb9\x9b\xe1\xbfY\xcc \x7f\n\x17\xe5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x9e\xcac{y\xc5\xf0\xbf\x00\x00\x00\x00\x00\x00\x00\x00q\x920\x87P\xb8\xe1\xbfT\xa2\xc1\xf9pi\xf5?Y\xce-\x0f\xe5\xee\xca\xbfI(\x95\xee\xf3\xec\xfe\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00N\xe6\x88\x19\x8b\x19\xe7\xbf\x9c\x1b\x8c_\x0b\xe7\xe2\xbf\x00\x00\x00\x00\x00\x00\x00\x00M\x9c\xcf\x97Q\xf1\xdb\xbf\xd3\x84\x85X\x05J\xeb\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xfd\x0c\xa0\x16\xd6\x85\xe8?\xcd\xcc\xeb\xf9\x15,\xe5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xf2\x952[\xe2\xf7\xec\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xa6EN\xf8\xe7\xc4\xe7?\xb0\xc0\t\x13\xe3\xe0\xd8\xbf\x00\x00\x00\x00\x00\x00\x00\x00o\xac\xad\r\x14\xe2\xe5\xbf\x04%\xc4\xf3\x97h\xdb?\x00\x00\x00\x00\x00\x00\x00\x00*#=\x9a\x08\x11\xe3?\x00\x00\x00\x00\x00\x00\x00\x00;"6t\x87/\xa6\xbf\x97\x96vG\xd8\xc7\xc4?\x00\x00\x00\x00\x00\x00\x00\x00(\x1f\x1d\xe7\xf6\xd1\xe1\xbf\x92\x7f\xc5q\xbar\xf7\xbfdG\xc0\x1a%\x0b\xd8\xbfTO\xfa\xaf\x04\x91\xa2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd6\x8e\xace\x93\xdf\xe3\xbf\xb1\xaf.)\xd5\x94\xdc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xda\xb5x\xb5\x8e-\xe3?H\x00I\x94?\x87\xe6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0/#\xab\xcc\xad\xba?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0e\x02\xe1\xf6x\xf9\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xba\xb6\xe2\xfc]\xa7\xdf\xbf}\x84A\x89\x83\x9b\xf6?@\x95:@b\xc0\xec?\x06#\x8e;\xa3=\xd2?\x00\x00\x00\x00\x00\x00\x00\x00p\x920\x87P\xb8\xf1?\x8e\x01\xa1\x15\xa2\xc6\xe5\xbfhF\tx\xe4\xfc\xc2?\xad1\xf0\x9b~\'\xdf\xbf\x1b\xb3\x02\x1a\xd26\xe9\xbf\t\xb0|\x11\xcf\xac\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00R\xae\x9cV\xbc8\xe4\xbf\xed\xa50h\x11\x89\xe4\xbf\x00\x00\x00\x00\x00\x00\x00\x00=\x0cCX\xb0\x18\xc2?\xd3\x84\x85X\x05J\xeb\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xd0\xa4\x14\xac\xcfM\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\t\xf0\x15%\x93{\xf8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd8\x1d>\xe5\x9b\x92\xc7?\x00\x00\x00\x00\x00\x00\x00\x00\xe6\xf7\x04=8/\xe4\xbfG\xa4\x93,\xdc\x91\xc7\xbfxkw\x01([\xe5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xf09\xf2N\x99\x14\xbb?\x00\x00\x00\x00\x00\x00\x00\x00\xc3\xb3\xea\x03\x11\x1c\xe3?\x00\x00\x00\x00\x00\x00\x00\x00(\x1f\x1d\xe7\xf6\xd1\xe1\xbf\xa1C\xf1\x9c3\xae\xee?\xa6v\x11k\xd2\xbf\xb3\xbf\xa0/#\xab\xcc\xad\xba?Rl\xfe\xc8^+\xe3\xbfZ\xf9\xae\xaap\x8a\xf0?\x82\xcc8n\x9a\x0b\xee?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00B\xb2\xbf\x89E\x98\xe4?\x00\x00\x00\x00\x00\x00\x00\x00\x1c@\x98Q\xd5e\xc1\xbf\xec\x1de:\x9aG\xe9?\x00\x00\x00\x00\x00\x00\x00\x00M\xb0\x1b(^\xce\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xbb\xa8_\x95\xb9\x9b\xe1?\xad,\xb0\x81j\x9f\xe3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc1.y\xbf\x94\xe3\xea\xbf\x8eGU\x99\xa6\xbb\xed\xbf\x1d\x0b%[$\x99\xe5\xbf\x08\x0e;,\xbe=\xe3\xbf\x16\xeb\x8d\x82\xb2h\xe4?~\xb6\x1c\x88\xa3;\x95?\t\xb0|\x11\xcf\xac\xe7?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb4@e_#_\xe2?R\xf1\xb4\x19CW\xd3\xbf\xbfR\xe2\t5`\xbf\xbf\xd3\x84\x85X\x05J\xeb?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xbbt{8 \xb7\xff?\xa3\xb8xG\xa7\x15\xf7? \xcdEa\x93\x92\xe5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00oK\x04\xf8\x02X\xe1?XN\x99Y\x8f\x18\xe5\xbf\x066\xf9\x94!T\xec?|\xb2"\x0e\xb2o\xcc\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xad\x9b\xa1\x0f\xb6\x9c\xf6\xbfi\xf4\x8e\xa7R\xbd\xea\xbfw\xfeTt\x07\xda\xe9?\xaci1\x93-\x88\xf2?K\xe9uu:\x1e\xe2\xbf\xcej1\xdd\x8c0\xcc?\x1c@\x98Q\xd5e\xc1\xbf\xb4\x83\xedws\x8c\xe4\xbf'
+p690
+tp691
+bsg16
+F0.001
+sS'intercept_'
+p692
+g613
+(g614
+(I0
+tp693
+g616
+tp694
+Rp695
+(I1
+(I4
+tp696
+g643
+I00
+S'\x9f\x96-\x88\xb9y\xa9\xbf\\mh\xb2\x15?\xcb\xbf\xaf\xc4\xa2\xd5\xe9\x0c\xd2\xbf\x1e\xfd\xeac\x98\xfe\x9c\xbf'
+p697
+tp698
+bsS'_expanded_class_weight'
+p699
+g613
+(g614
+(I0
+tp700
+g616
+tp701
+Rp702
+(I1
+(I4
+tp703
+g643
+I00
+S'\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\xf0?'
+p704
+tp705
+bsS'warm_start'
+p706
+I00
+sg2
+g3
+sS'eta0'
+p707
+F0.0
+sS'l1_ratio'
+p708
+F0.15
+sS'average'
+p709
+I00
+sS'power_t'
+p710
+F0.5
+sbtp711
+asbsb.

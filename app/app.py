@@ -26,7 +26,7 @@ class AliceReceiver(fbchat.Client):
         self.markAsDelivered(author_id, mid)
         self.markAsRead(author_id)
 
-        if str(author_id) != str(self.uid):
+        if str(author_id) != str(self.uid) and str(author_id) in self.knownfriends:
             print message
             parse_query(message)
 
@@ -47,20 +47,25 @@ spotify_controller = None
 
 def load_models():
     global models, volume_controller, spotify_controller
-    model_list = glob.glob("../training/MODELS/*.model")
-    log("Found %d models" % (len(model_list),))
-    for model_name in model_list:
+    command_model_list = glob.glob("../training/models/commands/*.model")
+    log("Found %d command models" % (len(command_model_list),))
+    for model_name in command_model_list:
         with open(model_name, 'r') as MODEL_FILE:
-            if model_name.endswith("ORDINAL_SCALE_VOLUME_CONTROL.model"):
+            log("\tLoading << %s >> as command matcher" % (model_name,))
+            models.append(pickle.load(MODEL_FILE))
+        log("Loaded model: %s" % (models[-1].name,))
+
+    ordinal_scaler_model_list = glob.glob("../training/models/ordinal_scalers/*.model")
+    for model_name in ordinal_scaler_model_list:
+        with open(model_name, 'r') as MODEL_FILE:
+            if model_name.endswith("VOLUME_CONTROL.model"):
                 log("\tLoading << %s >> as volume controller" % (model_name,))
                 volume_controller = core_funcs.VolumeController(pickle.load(MODEL_FILE))
-            elif model_name.endswith("ORDINAL_SCALE_SPOTIFY.model"):
+            elif model_name.endswith("SPOTIFY.model"):
                 log("\tLoading << %s >> as spotify controller" % (model_name,))
                 spotify_controller = core_funcs.SpotifyController(pickle.load(MODEL_FILE))
             else:
-                log("\tLoading << %s >> as command matcher" % (model_name,))
-                models.append(pickle.load(MODEL_FILE))
-        log("Loaded model: %s" % (models[-1].name,))
+                log("UNRECOGNIZED ORDINAL SCALE MODEL")
 
 def cross_check_models(sentence):
     global volume_controller, spotify_controller

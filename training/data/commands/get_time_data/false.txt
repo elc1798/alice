@@ -4,7 +4,6 @@ what time isn't it right now
 what time isn't it currently
 what's not the time
 what's the clock not
-current time
 do not get current time
 do not get the current time
 do not check the current time
@@ -16,13 +15,11 @@ do not get me the clock
 do not get the time
 do not get the clock
 do not get time
-time
 do not read time
 do not read the time
 do not read the clock
 do not read me the clock
 do not read your watch
-clock
 do not get clock
 do not retrieve the time
 do not retrieve what time it is
@@ -84,13 +81,11 @@ don't get me the clock
 don't get the time
 don't get the clock
 don't get time
-time
 don't read time
 don't read the time
 don't read the clock
 don't read me the clock
 don't read your watch
-clock
 don't get clock
 don't retrieve the time
 don't retrieve what time it is
