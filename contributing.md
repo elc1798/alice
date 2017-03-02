@@ -9,7 +9,7 @@ credentials file inside (from the Google Developer Console)
 
 To create a new command and it's training library you have to do 4 major steps:
 
- - Create a folder in `training/` with the naming scheme `COMMAND_NAME_DATA`
+ - Create a folder in `training/commands` with the naming scheme `COMMAND_NAME_DATA`
  - Populate the folder with `true.txt`, `false.txt`, and `tests.csv`, which are
    used during the machine learning training as the positive data, negative
    data, and unit tests, respectively.
