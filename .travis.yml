@@ -12,4 +12,4 @@ before_install:
 
 script:
     - "cd training"
-    - "python trainer.py -uoc
+    - "python trainer.py -uoc"
