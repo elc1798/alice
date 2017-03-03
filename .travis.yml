@@ -1,0 +1,15 @@
+language: python
+
+python:
+    - "2.7"
+
+install:
+    - "pip install -r requirements.txt"
+
+before_install:
+    - "sudo apt-get update"
+    - "sudo apt-get install python-dev"
+
+script:
+    - "cd training"
+    - "python trainer.py -uoc"

@@ -1,10 +1,14 @@
 import pickle, csv
 import os.path
 import glob
+import argparse
+import numpy as np
 
 from alicized_models import CommandMatchingModel
 from alicized_models import GrammarMatchingModel
 from alicized_models import OrdinalScaleModel
+
+USE_OLD = False
 
 COMMANDS_GLOB_PATTERN = "data/commands/*_data"
 ORDINAL_SCALERS_GLOB_PATTERN = "data/ordinal_scalers/*_data"
@@ -95,10 +99,17 @@ def get_existing_classifier(model_folder, dataset, use_old=False):
     else:
         return None
 
-def get_classifiers(model_folder, dataset, use_old=False, ordinal_scaler=False):
+def get_classifiers(model_folder, dataset, ordinal_scaler=False):
+    global USE_OLD
     g = None
     alpha = 1e-3
     n_iter = 5
+
+    if USE_OLD:
+        model = None
+        with open(get_model_path(model_folder), 'r') as MODEL_FILE:
+            model = pickle.load(MODEL_FILE)
+            return [ model ]
 
     model_class = CommandMatchingModel
     if ordinal_scaler:
@@ -176,7 +187,55 @@ def get_amplified_data_from_training_list(training_list, ordinal_scaler=False):
                 amplified_data[trainee]["false"] += amplified_data[other]["true"]
     return amplified_data
 
+def get_best_model(trainee, models, test_cases, correct, build_fail=[False,"",0,0], ordinal_scaler=False):
+    global USE_OLD
+
+    # Build testing data and variables
+    failcounts = []
+    error_messages = []
+
+    num_tests = len(test_cases)
+
+    # Run tests with each possible model and keep track of the best one
+    min_index = -1
+    min_value = float("inf")
+    for model in models:
+        func = model.rate if ordinal_scaler else model.match
+        f_count, message = test_model(func, test_cases, correct)
+        failcounts.append(f_count)
+        error_messages.append(message)
+        if failcounts[-1] < min_value:
+            min_index = len(failcounts) - 1
+            min_value = failcounts[-1]
+
+    if min_value > 0:
+        build_fail[0] = True
+        build_fail[1] = "\n".join(
+            (
+                build_fail[1],
+                "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
+            )
+        )
+        build_fail[2] += min_value
+        build_fail[3] += num_tests
+
+    if failcounts[min_index] > 0:
+        print "\n", error_messages[min_index]
+    print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
+
+    # Assert that our fail rate is small
+    assert(float(min_value) / float(num_tests) * 100 < 0.5)
+
+    # Save the best model
+    if not USE_OLD:
+        with open(get_model_path(trainee), 'w') as MODEL_FILE:
+            pickle.dump(models[min_index], MODEL_FILE)
+
+    return build_fail
+
 def train_commands():
+    global USE_OLD
+
     amplified_data = get_amplified_data_from_training_list(get_command_data_list())
 
     with open("nonsense.txt") as f:
@@ -184,14 +243,11 @@ def train_commands():
         for trainee in amplified_data:
             amplified_data[trainee]["false"] += tmp
 
-    build_fail = [ False, "" ]
+    build_fail = [ False, "", 0, 0 ]
 
     for trainee in amplified_data:
-        models = get_classifiers(trainee, amplified_data[trainee], use_old=False)
+        models = get_classifiers(trainee, amplified_data[trainee])
 
-        # Build testing data and variables
-        failcounts = []
-        error_messages = []
         test_cases = []
         correct = []
         with open(os.path.join(trainee, "test.csv")) as csvfile:
@@ -208,57 +264,30 @@ def train_commands():
         test_cases += amplified_data[trainee]["false"]
         correct += [ False ] * len(amplified_data[trainee]["false"])
 
-        num_tests = len(test_cases)
-
-        # Run tests with each possible model and keep track of the best one
-        min_index = -1
-        min_value = float("inf")
-        for model in models:
-            f_count, message = test_model(model.match, test_cases, correct)
-            failcounts.append(f_count)
-            error_messages.append(message)
-            if failcounts[-1] < min_value:
-                min_index = len(failcounts) - 1
-                min_value = failcounts[-1]
-
-        if min_value > 0:
-            build_fail[0] = True
-            build_fail[1] = "\n".join(
-                (
-                    build_fail[1],
-                    "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
-                )
-            )
-        if failcounts[min_index] > 0:
-            print "\n", error_messages[min_index]
-        print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
-
-        # Save the best model
-        with open(get_model_path(trainee), 'w') as MODEL_FILE:
-            pickle.dump(models[min_index], MODEL_FILE)
+        build_fail = get_best_model(trainee, models, test_cases, correct, build_fail=build_fail)
 
     if build_fail[0]:
         print build_fail[1]
 
+    return build_fail[-2:]
+
 def train_ordinal_scalers():
+    global USE_OLD
+
     amplified_data = get_amplified_data_from_training_list(
         get_ordinal_scaler_data_list(),
         ordinal_scaler=True
     )
 
-    build_fail = [ False, "" ]
+    build_fail = [ False, "", 0, 0 ]
 
     for trainee in amplified_data:
         models = get_classifiers(
             trainee,
             amplified_data[trainee],
-            use_old=False,
             ordinal_scaler=True
         )
 
-        # Build testing data and variables
-        failcounts = []
-        error_messages = []
         test_cases = []
         correct = []
         with open(os.path.join(trainee, "test.csv")) as csvfile:
@@ -273,38 +302,32 @@ def train_ordinal_scalers():
             test_cases += amplified_data[trainee][ordinality]
             correct += [ int(ordinality) ] * len(amplified_data[trainee][ordinality])
 
-        num_tests = len(test_cases)
-
-        # Run tests with each possible model and keep track of the best one
-        min_index = -1
-        min_value = float("inf")
-        for model in models:
-            f_count, message = test_model(model.rate, test_cases, correct)
-            failcounts.append(f_count)
-            error_messages.append(message)
-            if failcounts[-1] < min_value:
-                min_index = len(failcounts) - 1
-                min_value = failcounts[-1]
-
-        if min_value > 0:
-            build_fail[0] = True
-            build_fail[1] = "\n".join(
-                (
-                    build_fail[1],
-                    "Errors in Model %s: Failed %d out of %d tests" % (trainee, min_value, num_tests)
-                )
-            )
-        if failcounts[min_index] > 0:
-            print "\n", error_messages[min_index]
-        print "Model %s failed %d out of %d tests" % (trainee, min_value, num_tests)
-
-        # Save the best model
-        with open(get_model_path(trainee), 'w') as MODEL_FILE:
-            pickle.dump(models[min_index], MODEL_FILE)
+        build_fail = get_best_model(trainee, models, test_cases, correct,
+                build_fail=build_fail, ordinal_scaler=True)
 
     if build_fail[0]:
         print build_fail[1]
 
+    return build_fail[-2:]
+
 if __name__ == "__main__":
-    train_commands()
-    train_ordinal_scalers()
+    parser = argparse.ArgumentParser(description="Granular Price Risk Analyzer")
+    parser.add_argument("--train-commands", "-c", action="store_true", help="Train all the commands")
+    parser.add_argument("--train-ord-scalers", "-o", action="store_true", help="Train all the ordinal scalers")
+    parser.add_argument("--use-old", "-u", action="store_true", help="Test pre-trained models rather than re-train")
+
+    args = parser.parse_args()
+
+    error_rate = np.zeros(2)
+
+    if args.use_old:
+        USE_OLD = True
+    if args.train_commands:
+        error_rate += np.array(train_commands())
+    if args.train_ord_scalers:
+        error_rate += np.array(train_ordinal_scalers())
+
+    error_percentage = (float(error_rate[0]) / float(error_rate[1])) * 100
+    print "Fail rate: %f%%" % (error_percentage,)
+    assert(error_rate[1] == 0 or error_percentage < 0.5)
+
