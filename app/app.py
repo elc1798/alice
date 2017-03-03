@@ -38,7 +38,7 @@ def log(s, tolerance=1):
 
 def parse_query(res):
     # For open_web_browser
-    res = res.replace('.', ' dot ')
+    res = res.replace('.', ' dot ').lower()
     cross_check_models(res)
 
 models = []
@@ -71,6 +71,7 @@ def cross_check_models(sentence):
     global volume_controller, spotify_controller
     log("Checking << %s >> with existing models..." % (sentence,))
 
+    sentence = sentence.lower()
     matched = None
     for model in models:
         if model.match(sentence):
