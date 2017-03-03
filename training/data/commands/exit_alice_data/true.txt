@@ -20,3 +20,5 @@ exit
 exit please
 can you please exit
 can you exit
+quit
+can you quit

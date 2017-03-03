@@ -12,3 +12,4 @@ turn off,False
 turn yourself off,True
 turn yourself on,False
 kill yourself,True
+quit,True

@@ -28,7 +28,7 @@ do not give me the news,False
 do not give me the current events,False
 please do not give me the news,False
 please do not get teh current events,False
-please get the news todays,False
+please get the news todays,True
 do not tell me hwat is going on in the world todays,False
 dont give me news,False
 please dont tell me the latest events,False
