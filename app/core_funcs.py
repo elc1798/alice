@@ -167,11 +167,11 @@ class CommandActuator:
         if hour == 0:
             hour = 12
 
-        curr_time = "%d %d" % (hour, minutes)
+        curr_time = "%d %02d" % (hour, minutes)
         if is_morning:
-            curr_time += "A.M."
+            curr_time += " A.M."
         else :
-            curr_time += "P.M."
+            curr_time += " P.M."
 
         os.system(COMMANDS.DISPLAY_NOTIFICATION % (curr_time,))
         os.system(COMMANDS.SAY % (curr_time,))
