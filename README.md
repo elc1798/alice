@@ -1,5 +1,7 @@
 # Alice
 
+[![Build Status](https://travis-ci.org/elc1798/alice.svg?branch=master)](https://travis-ci.org/elc1798/alice)
+
 Digital Assistant for Linux (and Mac!), inspired by Cortana, Siri, Alexa, and Google Assistant
 
 ### Why did I decide to do this?
