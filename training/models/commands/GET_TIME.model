@@ -28,7241 +28,7241 @@ F0.001
 sS'data'
 p12
 (lp13
-(S'please spotify play previous song'
+(S'do i have any events on today'
 p14
 S'False'
 p15
 tp16
-a(S'what is new in inbox'
+a(S"what's the weather today"
 p17
 g15
 tp18
-a(S'check google calendar on thursday'
+a(S'am i free for thursday'
 p19
 g15
 tp20
-a(S'do not get me the clock please'
+a(S'could you add an event'
 p21
 g15
 tp22
-a(S"don't retrieve the current time"
+a(S"don't i have to do anything on monday"
 p23
 g15
 tp24
-a(S'am i free in a week'
+a(S"what's the news"
 p25
 g15
 tp26
-a(S'could you please create an event'
+a(S'do i have any events in a week'
 p27
 g15
 tp28
-a(S'could you add new event please'
+a(S'shutdown the computer please'
 p29
 g15
 tp30
-a(S'can you turn up the tunez'
+a(S'what events do i have in a month'
 p31
 g15
 tp32
-a(S'check your watch'
+a(S'am i free for this day'
 p33
+g15
+tp34
+a(S'what is in my mail please'
+p35
+g15
+tp36
+a(S'please shutdown'
+p37
+g15
+tp38
+a(S'what are the live news'
+p39
+g15
+tp40
+a(S'do i have to do anything to do'
+p41
+g15
+tp42
+a(S'create an event'
+p43
+g15
+tp44
+a(S'lock the screen'
+p45
+g15
+tp46
+a(S'can you please turn off the computer'
+p47
+g15
+tp48
+a(S'can you please close current window'
+p49
+g15
+tp50
+a(S'check calendar'
+p51
+g15
+tp52
+a(S'shutdown please'
+p53
+g15
+tp54
+a(S'please create an event'
+p55
+g15
+tp56
+a(S"please what's new in new mail"
+p57
+g15
+tp58
+a(S'can you turn off my computer'
+p59
+g15
+tp60
+a(S"don't i have anything to do on friday"
+p61
+g15
+tp62
+a(S"don't i have anything on thursday"
+p63
+g15
+tp64
+a(S'tell me live news'
+p65
+g15
+tp66
+a(S'do not retrieve the time'
+p67
+g15
+tp68
+a(S'go ahead spotify please'
+p69
+g15
+tp70
+a(S'please spotify pause the song'
+p71
+g15
+tp72
+a(S'check my calendar for this day'
+p73
+g15
+tp74
+a(S'open dot ee dee you'
+p75
+g15
+tp76
+a(S'what events are on tuesday'
+p77
+g15
+tp78
+a(S"if it's cold this week"
+p79
+g15
+tp80
+a(S'please add event'
+p81
+g15
+tp82
+a(S"don't i have anything on this day"
+p83
+g15
+tp84
+a(S'kill the current window'
+p85
+g15
+tp86
+a(S'get forecast'
+p87
+g15
+tp88
+a(S'spotify go to the last song'
+p89
+g15
+tp90
+a(S'please kill current window'
+p91
+g15
+tp92
+a(S'find live news'
+p93
+g15
+tp94
+a(S'check events for this month'
+p95
+g15
+tp96
+a(S"don't retrieve the time please"
+p97
+g15
+tp98
+a(S'what is on my calendar for today'
+p99
+g15
+tp100
+a(S'retrieve what time it is'
+p101
 S'True'
-p34
-tp35
-a(S'get newsfeed'
-p36
-g15
-tp37
-a(S'would you open gmail please'
-p38
-g15
-tp39
-a(S'spotify skip'
-p40
-g15
-tp41
-a(S"don't check your watch please"
-p42
-g15
-tp43
-a(S'can you make an event please'
-p44
-g15
-tp45
-a(S'check my calendar for this week'
-p46
-g15
-tp47
-a(S'do not get the time please'
-p48
-g15
-tp49
-a(S'what events do i have on tomorrow'
-p50
-g15
-tp51
-a(S'could you schedule a new event'
-p52
-g15
-tp53
-a(S"what's the temperature today"
-p54
-g15
-tp55
-a(S'read time please'
-p56
-g34
-tp57
-a(S'please will you check my mail'
-p58
-g15
-tp59
-a(S'please check what time it is'
-p60
-g34
-tp61
-a(S'check gmail'
-p62
-g15
-tp63
-a(S'pause spotify please'
-p64
-g15
-tp65
-a(S'please shut down'
-p66
-g15
-tp67
-a(S'is there anything to do in a month'
-p68
-g15
-tp69
-a(S'could you please add an event'
-p70
-g15
-tp71
-a(S"today's weather"
-p72
-g15
-tp73
-a(S'please make an event'
-p74
-g15
-tp75
-a(S'do i have anything to do in a month'
-p76
-g15
-tp77
-a(S'check google calendar on this day'
-p78
-g15
-tp79
-a(S'please pause song'
-p80
-g15
-tp81
-a(S"what's if it's foggy today"
-p82
-g15
-tp83
-a(S'please give me the news'
-p84
-g15
-tp85
-a(S'emergency shutdown'
-p86
-g15
-tp87
-a(S'will you check my gmail please'
-p88
-g15
-tp89
-a(S"don't i have to do anything on this day"
-p90
-g15
-tp91
-a(S"don't read your watch"
-p92
-g15
-tp93
-a(S'do i have anything to do today'
-p94
-g15
-tp95
-a(S"today's weather"
-p96
-g15
-tp97
-a(S"get if it's foggy today"
-p98
-g15
-tp99
-a(S'please can you check new gmail'
-p100
-g15
-tp101
-a(S'am i free for friday'
 p102
-g15
 tp103
-a(S"get if it's cloudy today"
+a(S"don't i have to do anything in a week"
 p104
 g15
 tp105
-a(S'please what is new in inbox'
+a(S'please go to dot com'
 p106
 g15
 tp107
-a(S'can you check gmail please'
+a(S'is it cloudy this week'
 p108
 g15
 tp109
-a(S"today's current events"
+a(S"don't i have to do anything on tuesday"
 p110
 g15
 tp111
-a(S'would you check gmail'
+a(S'please do not get time'
 p112
 g15
 tp113
-a(S'what is new in my inbox'
+a(S'open gmail please'
 p114
 g15
 tp115
-a(S'will you get the current events for me'
+a(S"if it's rainy today"
 p116
 g15
 tp117
-a(S'can you make it louder please'
+a(S'are there any events on thursday'
 p118
 g15
 tp119
-a(S'check google calendar for sunday'
+a(S"please don't read time"
 p120
 g15
 tp121
-a(S'is there anything i have to do on'
+a(S'please can you check new gmail'
 p122
 g15
 tp123
-a(S'get current forecast'
+a(S'am i free for saturday'
 p124
 g15
 tp125
-a(S'check my calendar on sunday'
+a(S'can you please close the current window'
 p126
 g15
 tp127
-a(S"don't get the time please"
+a(S'do not check what time it is'
 p128
 g15
 tp129
-a(S'please create an event'
+a(S'tell me live newsfeed'
 p130
 g15
 tp131
-a(S'is it rainy today'
+a(S"don't i have to do anything on next"
 p132
 g15
 tp133
-a(S'kill window'
+a(S'is there anything i have to do on sunday'
 p134
 g15
 tp135
-a(S'please open a browser'
+a(S"please what's in inbox"
 p136
 g15
 tp137
-a(S'what is the news today'
+a(S'find news'
 p138
 g15
 tp139
-a(S'check my inbox'
+a(S"don't i have to do anything on sunday"
 p140
 g15
 tp141
-a(S'please start'
+a(S'next'
 p142
 g15
 tp143
-a(S'read your watch please'
+a(S'what is new in my gmail'
 p144
-g34
+g15
 tp145
-a(S'what is the news'
+a(S'get headlines'
 p146
 g15
 tp147
-a(S"what're the live news feed"
+a(S'what events are on tomorrow'
 p148
 g15
 tp149
-a(S"don't retrieve the current time please"
+a(S'set the volume to zero'
 p150
 g15
 tp151
-a(S'read your watch'
+a(S'open gmail'
 p152
-g34
+g15
 tp153
-a(S"don't i have anything to do on tuesday"
+a(S'is there anything to do on this day'
 p154
 g15
 tp155
-a(S'could you check inbox'
+a(S'news now please'
 p156
 g15
 tp157
-a(S"what're the live newsfeed"
+a(S'pause please'
 p158
 g15
 tp159
-a(S'check calendar on month'
+a(S"please what's new in my gmail"
 p160
 g15
 tp161
-a(S'can you turn up the volume'
+a(S"what's this week's weather"
 p162
 g15
 tp163
-a(S'play '
+a(S'can you please create an event'
 p164
 g15
 tp165
-a(S'can you please shut off my computer'
+a(S"what're the live news"
 p166
 g15
 tp167
-a(S"what's in mail"
+a(S"what's new in my gmail please"
 p168
 g15
 tp169
-a(S'get the information'
+a(S'make a new event please'
 p170
 g15
 tp171
-a(S'turn up the sound'
+a(S"aren't there any events on wednesday"
 p172
 g15
 tp173
-a(S"don't i have any events on monday"
+a(S'would you check gmail please'
 p174
 g15
 tp175
-a(S'check my calendar for saturday'
+a(S'could you check my mail please'
 p176
 g15
 tp177
-a(S'what is on my calendar for tomorrow'
+a(S'would you check my inbox'
 p178
 g15
 tp179
-a(S'check google calendar on tuesday'
+a(S'can you turn off'
 p180
 g15
 tp181
-a(S"what's in new gmail"
+a(S'close the current window'
 p182
 g15
 tp183
-a(S"today's news"
+a(S'can you create an event please'
 p184
 g15
 tp185
-a(S'could you schedule a new event please'
+a(S'do i have any events on'
 p186
 g15
 tp187
-a(S"aren't there any events on friday"
+a(S'lock computer please'
 p188
 g15
 tp189
-a(S'do not retrieve what time it is please'
+a(S'schedule a new event'
 p190
 g15
 tp191
-a(S'whats going on in the world todays please'
+a(S'could you schedule new event'
 p192
 g15
 tp193
-a(S"if it's cloudy this week"
+a(S'can you please schedule new event'
 p194
 g15
 tp195
-a(S"what's the newsfeed"
+a(S'open default browser'
 p196
 g15
 tp197
-a(S'please retrieve the time'
+a(S'please turn it down'
 p198
-g34
+g15
 tp199
-a(S'could you open inbox please'
+a(S'do not check the clock right now'
 p200
 g15
 tp201
-a(S'am i free for next'
+a(S'search please for'
 p202
 g15
 tp203
-a(S'live news today'
+a(S"what's if it's rainy today"
 p204
 g15
 tp205
-a(S'can you shutdown the computer'
+a(S'open mail please'
 p206
 g15
 tp207
-a(S'please tell me whats going on in the news please'
+a(S'do i have anything to do next'
 p208
 g15
 tp209
-a(S'could you make event please'
+a(S'bye bye alice'
 p210
 g15
 tp211
-a(S"aren't there any events on thursday"
+a(S"please what's new in my inbox"
 p212
 g15
 tp213
-a(S'do i have to do anything on friday'
+a(S'do i have to do anything on sunday'
 p214
 g15
 tp215
-a(S'make an event'
+a(S'do i have anything'
 p216
 g15
 tp217
-a(S"don't read time"
+a(S"what's new in new gmail please"
 p218
 g15
 tp219
-a(S"aren't there any events in a week"
+a(S'will you open inbox please'
 p220
 g15
 tp221
-a(S'please get the current events'
+a(S'do i have anything tomorrow'
 p222
 g15
 tp223
-a(S"this week's weather"
+a(S'spotify play the last song'
 p224
 g15
 tp225
-a(S'check calendar for thursday'
+a(S'could you make new event please'
 p226
 g15
 tp227
-a(S'could you please make new event'
+a(S'will you check my gmail'
 p228
 g15
 tp229
-a(S'shutdown my computer'
+a(S'please check new gmail'
 p230
 g15
 tp231
-a(S'check gmail please'
+a(S'start browser please'
 p232
 g15
 tp233
-a(S'search google'
+a(S'please do not get current time'
 p234
 g15
 tp235
-a(S"what's the forecast today"
+a(S'make the sound quieter'
 p236
 g15
 tp237
-a(S"don't retrieve what time it is please"
+a(S'check google calendar for next'
 p238
 g15
 tp239
-a(S'can you create new event please'
+a(S'could you check inbox please'
 p240
 g15
 tp241
-a(S'would you open mail please'
+a(S"please what's in my inbox"
 p242
 g15
 tp243
-a(S'start a default browser please'
+a(S'can you add an event'
 p244
 g15
 tp245
-a(S'close active window'
+a(S'tell me news feed'
 p246
 g15
 tp247
-a(S'spotify play the song before'
+a(S'check my gmail please'
 p248
 g15
 tp249
-a(S'what events are'
+a(S"don't i have to do anything on wednesday"
 p250
 g15
 tp251
-a(S'can you please schedule event'
+a(S'will you check new gmail please'
 p252
 g15
 tp253
-a(S'do i have anything in a month'
+a(S'please pause the song'
 p254
 g15
 tp255
-a(S'could you add event please'
+a(S'any events on this day'
 p256
 g15
 tp257
-a(S'what are the live news feed'
+a(S'what do i have to do in a month'
 p258
 g15
 tp259
-a(S'am i free in a month'
+a(S"get if it's freezing this week"
 p260
 g15
 tp261
-a(S'can you please schedule a new event'
+a(S'get the information'
 p262
 g15
 tp263
-a(S'open default browser please'
+a(S'please do not read time'
 p264
 g15
 tp265
-a(S'quit'
+a(S'are there any events on tuesday'
 p266
 g15
 tp267
-a(S'is there anything i have to do in a month'
+a(S'is it rainy this week'
 p268
 g15
 tp269
-a(S'tell me live news'
+a(S'please pause'
 p270
 g15
 tp271
-a(S"please don't read me the clock"
+a(S'please spotify start'
 p272
 g15
 tp273
-a(S'would you check new mail'
+a(S'check events on this day'
 p274
 g15
 tp275
-a(S'spotify shut up'
+a(S'please will you open my gmail'
 p276
 g15
 tp277
-a(S'please pause the song'
+a(S"don't i have to do anything on tuesday"
 p278
 g15
 tp279
-a(S'can you quit'
+a(S"aren't there any events on this day"
 p280
 g15
 tp281
-a(S'please what is new in my mail'
+a(S'could you open inbox please'
 p282
 g15
 tp283
-a(S'check calendar for sunday'
+a(S'spotify pause please'
 p284
 g15
 tp285
-a(S'find headlines'
+a(S'check events for'
 p286
 g15
 tp287
-a(S"if it's cold today"
+a(S"if it's foggy this week"
 p288
 g15
 tp289
-a(S'do i have anything on next'
+a(S'please what is new in new gmail'
 p290
 g15
 tp291
-a(S'am i free on this day'
+a(S"don't retrieve the current time"
 p292
 g15
 tp293
-a(S'am i free for tomorrow'
+a(S'what events are in a month'
 p294
 g15
 tp295
-a(S'can you check new mail please'
+a(S'please check my gmail'
 p296
 g15
 tp297
-a(S'anything in my gmail'
+a(S'fake news'
 p298
 g15
 tp299
-a(S"don't i have to do anything on friday"
+a(S"what's if it's foggy this week"
 p300
 g15
 tp301
-a(S'any events'
+a(S'schedule an event please'
 p302
 g15
 tp303
-a(S"if it's hot this week"
+a(S'get current time please'
 p304
-g15
+g102
 tp305
-a(S"get today's weather"
+a(S'check google calendar for saturday'
 p306
 g15
 tp307
-a(S'would you check my gmail'
+a(S'add an event please'
 p308
 g15
 tp309
-a(S'do i have to do anything on tuesday'
+a(S'live news feed today'
 p310
 g15
 tp311
-a(S'check events for'
+a(S'can you please turn the tune down'
 p312
 g15
 tp313
-a(S'any events on this day'
+a(S'could you please create a new event'
 p314
 g15
 tp315
-a(S"what's in my inbox please"
+a(S'do i have any events on wednesday'
 p316
 g15
 tp317
-a(S'what are the latest events '
+a(S'go to'
 p318
 g15
 tp319
-a(S'see you'
+a(S'what do i have on this day'
 p320
 g15
 tp321
-a(S"don't i have anything to do on this day"
+a(S'please retrieve the time'
 p322
-g15
+g102
 tp323
-a(S"don't i have anything"
+a(S'check calendar for today'
 p324
 g15
 tp325
-a(S'could you open my inbox'
+a(S'get clock'
 p326
-g15
+g102
 tp327
-a(S"don't i have anything tomorrow"
+a(S"today's live news"
 p328
 g15
 tp329
-a(S'anything new in inbox'
+a(S'open my mail please'
 p330
 g15
 tp331
-a(S'do i have to do anything on monday'
+a(S'check google calendar'
 p332
 g15
 tp333
-a(S"don't i have to do anything"
+a(S"if it's hot today"
 p334
 g15
 tp335
-a(S"aren't there any events on monday"
+a(S'search google for please'
 p336
 g15
 tp337
-a(S"if it's cloudy today"
+a(S'get the time'
 p338
-g15
+g102
 tp339
-a(S"if it's freezing this week"
+a(S'can you make a new event please'
 p340
 g15
 tp341
-a(S'what are the newsfeed'
+a(S"don't i have to do anything today"
 p342
 g15
 tp343
-a(S'what is in mail'
+a(S'go to dot net'
 p344
 g15
 tp345
-a(S"if it's foggy this week"
+a(S"get this week's forecast"
 p346
 g15
 tp347
-a(S'google for'
+a(S'please would you check inbox'
 p348
 g15
 tp349
-a(S'check events on'
+a(S"today's current news "
 p350
 g15
 tp351
-a(S'shut off my computer'
+a(S'can you please schedule a new event'
 p352
 g15
 tp353
-a(S'turn my computer off'
+a(S"don't i have to do anything on"
 p354
 g15
 tp355
-a(S"if it's freezing today"
+a(S"what's if it's raining today"
 p356
 g15
 tp357
-a(S'set the volume zero'
+a(S"don't i have anything to do on sunday"
 p358
 g15
 tp359
-a(S'can you schedule new event'
+a(S'unmute please'
 p360
 g15
 tp361
-a(S"what's forecast"
+a(S'any events on monday'
 p362
 g15
 tp363
-a(S'open my mail'
+a(S'can you please shut my computer down'
 p364
 g15
 tp365
-a(S'do i have to do anything on wednesday'
+a(S'open mail'
 p366
 g15
 tp367
-a(S'song stop'
+a(S'spotify play'
 p368
 g15
 tp369
-a(S'tell me headlines'
+a(S'please spotify play previous song'
 p370
 g15
 tp371
-a(S'what is new in new gmail please'
+a(S'turn off my computer'
 p372
 g15
 tp373
-a(S'open default browser'
+a(S'can you check my inbox please'
 p374
 g15
 tp375
-a(S'read the time please'
+a(S"don't read your watch"
 p376
-g34
+g15
 tp377
-a(S'please will you open inbox'
+a(S'am i free for sunday'
 p378
 g15
 tp379
-a(S'get me the clock please'
+a(S'open dot edu'
 p380
-g34
+g15
 tp381
-a(S"please don't get clock"
+a(S'open a browser'
 p382
 g15
 tp383
-a(S'open a default browser please'
+a(S"don't i have anything on sunday"
 p384
 g15
 tp385
-a(S'stop the song'
+a(S'what is in mail please'
 p386
 g15
 tp387
-a(S'could you make an event please'
+a(S"don't i have to do anything on thursday"
 p388
 g15
 tp389
-a(S"don't i have anything on"
+a(S'can you please turn my computer off'
 p390
 g15
 tp391
-a(S'headlines'
+a(S'can you check inbox'
 p392
 g15
 tp393
-a(S"what's if it's cold this week"
+a(S'what is going on in the world today'
 p394
 g15
 tp395
-a(S'what is in the news today'
+a(S"this week's weather"
 p396
 g15
 tp397
-a(S'please could you check mail'
+a(S'please what is new in gmail'
 p398
 g15
 tp399
-a(S'could you create new event please'
+a(S'what is live newsfeed'
 p400
 g15
 tp401
-a(S'bye bye alice'
+a(S'is it snowing today'
 p402
 g15
 tp403
-a(S"aren't there any events on this day"
+a(S'can you please shut off'
 p404
 g15
 tp405
-a(S"get today's temperature"
+a(S'could you create a new event please'
 p406
 g15
 tp407
-a(S'check calendar for this day'
+a(S"what's the temperature"
 p408
 g15
 tp409
-a(S'check calendar for this day'
+a(S'stop the tunez'
 p410
 g15
 tp411
-a(S'check your watch please'
+a(S'could you make an event'
 p412
-g34
+g15
 tp413
-a(S'intelligence report'
+a(S'check events for this day'
 p414
 g15
 tp415
-a(S'am i free for tuesday'
+a(S'please check the clock'
 p416
-g15
+g102
 tp417
-a(S'could you check new mail'
+a(S'are there any events on sunday'
 p418
 g15
 tp419
-a(S"please don't read the time"
+a(S'check gmail please'
 p420
 g15
 tp421
-a(S'go back'
+a(S'please could you check my gmail'
 p422
 g15
 tp423
-a(S'do not read me the clock'
+a(S'turn up the beat'
 p424
 g15
 tp425
-a(S'what is on my calendar for this month'
+a(S'shut off my computer please'
 p426
 g15
 tp427
-a(S'can you kill this window'
+a(S'give me intel'
 p428
 g15
 tp429
-a(S'check calendar on today'
+a(S'what is on my calendar for friday'
 p430
 g15
 tp431
-a(S'check google calendar on today'
+a(S'any events on tuesday'
 p432
 g15
 tp433
-a(S'volume higher please'
+a(S"what's if it's snowing today"
 p434
 g15
 tp435
-a(S'intel'
+a(S'will you check my inbox please'
 p436
 g15
 tp437
-a(S'could you add a new event'
+a(S'please do not get the time'
 p438
 g15
 tp439
-a(S'check google calendar for this day'
+a(S"what's this week's forecast"
 p440
 g15
 tp441
-a(S'what is on my calendar'
+a(S"what's new in my inbox"
 p442
 g15
 tp443
-a(S'make the sound softer'
+a(S'anything in mail'
 p444
 g15
 tp445
-a(S'what events do i have on next'
+a(S'please shut my computer down'
 p446
 g15
 tp447
-a(S'do i have anything to do on this day'
+a(S'spotify pause'
 p448
 g15
 tp449
-a(S'what do i have on thursday'
+a(S'time please'
 p450
-g15
+g102
 tp451
-a(S'anything new in gmail'
+a(S'read your watch please'
 p452
-g15
+g102
 tp453
-a(S"don't i have anything on friday"
+a(S'please will you check new gmail'
 p454
 g15
 tp455
-a(S'please what is in mail'
+a(S'check events on wednesday'
 p456
 g15
 tp457
-a(S"what time isn't it right now"
+a(S'do not get current time'
 p458
 g15
 tp459
-a(S'please go to dot com'
+a(S'what do i have to do on monday'
 p460
 g15
 tp461
-a(S'tell me live newsfeed'
+a(S'turn up the tune'
 p462
 g15
 tp463
-a(S"don't i have any events on wednesday"
+a(S"what's new in new gmail"
 p464
 g15
 tp465
-a(S'please will you open my gmail'
+a(S'start a default browser please'
 p466
 g15
 tp467
-a(S"what's new in my gmail"
+a(S'lower the tunes please'
 p468
 g15
 tp469
-a(S'please search'
+a(S'brief me'
 p470
 g15
 tp471
-a(S'please would you check mail'
+a(S"don't get the time please"
 p472
 g15
 tp473
-a(S'start browser'
+a(S'do i have to do anything in a month'
 p474
 g15
 tp475
-a(S'could you make event'
+a(S'please could you check my inbox'
 p476
 g15
 tp477
-a(S"today's news feed"
+a(S"don't get clock"
 p478
 g15
 tp479
-a(S'shut down please'
+a(S'will you check inbox'
 p480
 g15
 tp481
-a(S'turn up the tune'
+a(S'last song please'
 p482
 g15
 tp483
-a(S'turn up'
+a(S'please get the current time'
 p484
-g15
+g102
 tp485
-a(S'any events on friday'
+a(S'check calendar on thursday'
 p486
 g15
 tp487
-a(S'live news'
+a(S"please don't check your watch"
 p488
 g15
 tp489
-a(S'spotify pause please'
+a(S'a backbone dictates above my grief'
 p490
 g15
 tp491
-a(S'check calendar on'
+a(S'would you open gmail'
 p492
 g15
 tp493
-a(S'turn the beat down please'
+a(S'google search please'
 p494
 g15
 tp495
-a(S'would you open my gmail please'
+a(S'kill active window'
 p496
 g15
 tp497
-a(S'can you check new gmail'
+a(S'is there anything i have to do tomorrow'
 p498
 g15
 tp499
-a(S'please read me the clock'
+a(S"don't read time"
 p500
-g34
+g15
 tp501
-a(S'what is on my calendar for monday'
+a(S'todays headlines'
 p502
 g15
 tp503
-a(S'sound higher please'
+a(S"how's the weather today"
 p504
 g15
 tp505
-a(S'what events are going on right now'
+a(S'what do i have in a month'
 p506
 g15
 tp507
-a(S'pause spotify'
+a(S'is there anything i have to do on thursday'
 p508
 g15
 tp509
-a(S"what's if it's rainy today"
+a(S'could you add a new event please'
 p510
 g15
 tp511
-a(S'can you put me on the lock screen'
+a(S'open a browser please'
 p512
 g15
 tp513
-a(S'find the current events'
+a(S'play spotify please'
 p514
 g15
 tp515
-a(S'spotify previous song please'
+a(S'will you check mail please'
 p516
 g15
 tp517
-a(S'can you shut off'
+a(S'get live news feed'
 p518
 g15
 tp519
-a(S'check my calendar on tomorrow'
+a(S"don't read time please"
 p520
 g15
 tp521
-a(S'is there anything to do in a week'
+a(S"what're the news"
 p522
 g15
 tp523
-a(S'check google calendar on sunday'
+a(S'check calendar on tuesday'
 p524
 g15
 tp525
-a(S'is there anything i have to do on next'
+a(S'please will you check my gmail'
 p526
 g15
 tp527
-a(S'the news today'
+a(S'is there anything i have to do on'
 p528
 g15
 tp529
-a(S'can you please kill active window'
+a(S'please google search for'
 p530
 g15
 tp531
-a(S'stop spotify'
+a(S'spotify skip'
 p532
 g15
 tp533
-a(S"don't i have to do anything on"
+a(S'please read the clock'
 p534
-g15
+g102
 tp535
-a(S'any new mail'
+a(S'do i have to do anything on this day'
 p536
 g15
 tp537
-a(S'can you schedule event'
+a(S'lock my computer please'
 p538
 g15
 tp539
-a(S'is it foggy today'
+a(S'read the clock please'
 p540
-g15
+g102
 tp541
-a(S'please do not check your watch'
+a(S"please don't check the current time"
 p542
 g15
 tp543
-a(S'retrieve the current time please'
+a(S'check your watch'
 p544
-g34
+g102
 tp545
-a(S'start default browser'
+a(S'shutdown'
 p546
 g15
 tp547
-a(S"what's if it's foggy this week"
+a(S'check my mail please'
 p548
 g15
 tp549
-a(S'could you please schedule an event'
+a(S'check my calendar on tuesday'
 p550
 g15
 tp551
-a(S"don't i have to do anything on monday"
+a(S'what is new in new gmail please'
 p552
 g15
 tp553
-a(S"please don't read time"
+a(S'can you get information on the current events'
 p554
 g15
 tp555
-a(S'do i have anything in my inbox'
+a(S'do i have anything to do on saturday'
 p556
 g15
 tp557
-a(S'do i have any events'
+a(S'please will you check gmail'
 p558
 g15
 tp559
-a(S'open my mail please'
+a(S'am i free on thursday'
 p560
 g15
 tp561
-a(S'what are the the news'
+a(S'please do not read the time'
 p562
 g15
 tp563
-a(S"don't i have to do anything tomorrow"
+a(S"don't retrieve the time"
 p564
 g15
 tp565
-a(S'check events on monday'
+a(S'could you please schedule an event'
 p566
 g15
 tp567
-a(S'make the sound higher'
+a(S"what's new in my inbox please"
 p568
 g15
 tp569
-a(S'check new mail'
+a(S'add a new event'
 p570
 g15
 tp571
-a(S'what events are on today'
+a(S'check new gmail please'
 p572
 g15
 tp573
-a(S'check my calendar on this month'
+a(S'what events do i have on tomorrow'
 p574
 g15
 tp575
-a(S'find the news'
+a(S'can you please shutdown'
 p576
 g15
 tp577
-a(S'sweet dreams'
+a(S'could you check mail'
 p578
 g15
 tp579
-a(S'check calendar for monday'
+a(S'please spotify last song'
 p580
 g15
 tp581
-a(S"aren't there any events on tomorrow"
+a(S'please will you check inbox'
 p582
 g15
 tp583
-a(S'what events do i have'
+a(S'can you turn up the tune'
 p584
 g15
 tp585
-a(S'can you check my mail please'
+a(S'turn it down'
 p586
 g15
 tp587
-a(S"get if it's cloudy this week"
+a(S'can you please turn up the tune'
 p588
 g15
 tp589
-a(S'can you add a new event'
+a(S'can you turn up the volume please'
 p590
 g15
 tp591
-a(S'live news feed'
+a(S"don't get the current time"
 p592
 g15
 tp593
-a(S"don't check the clock right now"
+a(S'read me the clock'
 p594
-g15
+g102
 tp595
-a(S'get the current events'
+a(S'check my calendar on this day'
 p596
 g15
 tp597
-a(S'turn off the sound please'
+a(S'do not get me the clock'
 p598
 g15
 tp599
-a(S'close current window'
+a(S'turn it up please'
 p600
 g15
 tp601
-a(S'shut up please'
+a(S'please get the time'
 p602
-g15
+g102
 tp603
-a(S'can you please shut off'
+a(S"please what's new in my mail"
 p604
 g15
 tp605
-a(S'please will you check mail'
+a(S'would you open mail please'
 p606
 g15
 tp607
-a(S'issue commands'
+a(S'google please for'
 p608
 g15
 tp609
-a(S'decrease the volume'
+a(S'is there anything to do on tomorrow'
 p610
 g15
 tp611
-a(S'can you shut off my computer'
+a(S'check my calendar on monday'
 p612
 g15
 tp613
-a(S'do not check the clock right now'
+a(S'am i free on monday'
 p614
 g15
 tp615
-a(S"please don't get the clock"
+a(S'what are the news'
 p616
 g15
 tp617
-a(S'predict the outcome on a new document'
+a(S'retrieve the current time please'
 p618
-g15
+g102
 tp619
-a(S'would you open my gmail'
+a(S"don't i have anything to do today"
 p620
 g15
 tp621
-a(S'could you create a new event please'
+a(S'get me the clock please'
 p622
-g15
+g102
 tp623
-a(S'can you check new gmail please'
+a(S"what's in inbox"
 p624
 g15
 tp625
-a(S'can you turn up the sound'
+a(S'turn it off'
 p626
 g15
 tp627
-a(S'what do i have in a week'
+a(S'could you open my gmail please'
 p628
 g15
 tp629
-a(S'can you turn yourself off please'
+a(S'anything in my inbox'
 p630
 g15
 tp631
-a(S'check my calendar on thursday'
+a(S'what events are on wednesday'
 p632
 g15
 tp633
-a(S'am i free for today'
+a(S'stop playing'
 p634
 g15
 tp635
-a(S'check inbox'
+a(S"don't i have any events on tomorrow"
 p636
 g15
 tp637
-a(S'do i have any events on this day'
+a(S"what's if it's foggy today"
 p638
 g15
 tp639
-a(S'is it hot this week'
+a(S'do i have anything on thursday'
 p640
 g15
 tp641
-a(S'create an event'
+a(S'can you create new event please'
 p642
 g15
 tp643
-a(S'will you open my gmail please'
+a(S'would you check my gmail'
 p644
 g15
 tp645
-a(S'please would you check new mail'
+a(S'do i have anything in a week'
 p646
 g15
 tp647
-a(S'check my calendar for thursday'
+a(S'can you shut down the computer'
 p648
 g15
 tp649
-a(S'could you check new mail please'
+a(S'can you shutdown'
 p650
 g15
 tp651
-a(S'make an event please'
+a(S'please do not when is it'
 p652
 g15
 tp653
-a(S'what is newsfeed'
+a(S'what is the news'
 p654
 g15
 tp655
-a(S'please find out the latest headlines'
+a(S'google'
 p656
 g15
 tp657
-a(S'schedule an event please'
+a(S'please can you check new mail'
 p658
 g15
 tp659
-a(S'what do i have in a month'
+a(S'turn the volume to zero'
 p660
 g15
 tp661
-a(S'turn up the volume'
+a(S'find current events'
 p662
 g15
 tp663
-a(S'what events do i have on this day'
+a(S'check calendar for saturday'
 p664
 g15
 tp665
-a(S'please lock computer'
+a(S'is there anything i have to do on this day'
 p666
 g15
 tp667
-a(S'is there anything i have to do tomorrow'
+a(S'turn the sound down please'
 p668
 g15
 tp669
-a(S'do i have to do anything next'
+a(S'what do i have to do on wednesday'
 p670
 g15
 tp671
-a(S'extract the features using almost the same feature'
+a(S'check calendar for friday'
 p672
 g15
 tp673
-a(S'please spotify previous'
+a(S'what events are on'
 p674
 g15
 tp675
-a(S'please last song'
+a(S'can you please close active window'
 p676
 g15
 tp677
-a(S'open my inbox'
+a(S"today's weather"
 p678
 g15
 tp679
-a(S'please close current window'
+a(S'check my calendar on wednesday'
 p680
 g15
 tp681
-a(S'check calendar for friday'
+a(S"don't i have to do anything on thursday"
 p682
 g15
 tp683
-a(S'what events do i have in a month'
+a(S"don't i have to do anything on next"
 p684
 g15
 tp685
-a(S'make a new event please'
+a(S'sweet dreams alice'
 p686
 g15
 tp687
-a(S"what's the live news"
+a(S'retrieve the time please'
 p688
-g15
+g102
 tp689
-a(S'check calendar on thursday'
+a(S'what is in gmail'
 p690
 g15
 tp691
-a(S'what do i have to do on saturday'
+a(S'how is the temperature'
 p692
 g15
 tp693
-a(S'can you close the current window'
+a(S'what events do i have on tuesday'
 p694
 g15
 tp695
-a(S'check google calendar for wednesday'
+a(S'check calendar for this month'
 p696
 g15
 tp697
-a(S'do i have anything today'
+a(S"what time isn't it now"
 p698
 g15
 tp699
-a(S'can you open browser please'
+a(S'turn off the computer'
 p700
 g15
 tp701
-a(S'please check the clock'
+a(S"aren't there any events in a month"
 p702
-g34
+g15
 tp703
-a(S"what're the the news"
+a(S'please would you open my mail'
 p704
 g15
 tp705
-a(S'lower the volume'
+a(S'can you please kill the active window'
 p706
 g15
 tp707
-a(S"please don't check your watch"
+a(S'can you check mail please'
 p708
 g15
 tp709
-a(S'is it rainy this week'
+a(S'temperature'
 p710
 g15
 tp711
-a(S'give me intel'
+a(S'check my calendar for tomorrow'
 p712
 g15
 tp713
-a(S'please start a default browser'
+a(S'will you get the current headlines'
 p714
 g15
 tp715
-a(S'shut down'
+a(S'shutdown my computer please'
 p716
 g15
 tp717
-a(S"don't i have to do anything today"
+a(S"what's the newsfeed"
 p718
 g15
 tp719
-a(S'do i have anything on sunday'
+a(S'would you check mail'
 p720
 g15
 tp721
-a(S'shut up'
+a(S'could you schedule a new event'
 p722
 g15
 tp723
-a(S'what is on my calendar for wednesday'
+a(S'do i have anything on'
 p724
 g15
 tp725
-a(S'next'
+a(S"if it's freezing today"
 p726
 g15
 tp727
-a(S'check google calendar for next'
+a(S'spotify previous song please'
 p728
 g15
 tp729
-a(S'can you shutdown my computer'
+a(S'emergency shutdown'
 p730
 g15
 tp731
-a(S'give me the current events please'
+a(S"don't read the time please"
 p732
 g15
 tp733
-a(S"don't i have anything to do on"
+a(S"what's today's forecast"
 p734
 g15
 tp735
-a(S'please what is new in my inbox'
+a(S"what's if it's snowing this week"
 p736
 g15
 tp737
-a(S'please make new event'
+a(S'could you check new mail'
 p738
 g15
 tp739
-a(S'please could you check gmail'
+a(S'will you open my inbox please'
 p740
 g15
 tp741
-a(S'spotify play the song'
+a(S'what do i have to do on today'
 p742
 g15
 tp743
-a(S'please start spotify'
+a(S'is there anything to do on monday'
 p744
 g15
 tp745
-a(S'do not check the current time please'
+a(S'check events for thursday'
 p746
 g15
 tp747
-a(S'can you shutdown'
+a(S"please don't retrieve the time"
 p748
 g15
 tp749
-a(S'will you open my mail'
+a(S'check calendar for'
 p750
 g15
 tp751
-a(S"aren't there any events on wednesday"
+a(S'next spotify please'
 p752
 g15
 tp753
-a(S'start a browser please'
+a(S'can you schedule event please'
 p754
 g15
 tp755
-a(S'can you kill the window'
+a(S'check my calendar for friday'
 p756
 g15
 tp757
-a(S"what's new in my mail"
+a(S'turn the beat down'
 p758
 g15
 tp759
-a(S'schedule event please'
+a(S'tell me current news'
 p760
 g15
 tp761
-a(S'check calendar for tomorrow'
+a(S'are there any events on next'
 p762
 g15
 tp763
-a(S"what's in new gmail please"
+a(S'please schedule a new event'
 p764
 g15
 tp765
-a(S'check events on month'
+a(S'check my calendar for this week'
 p766
 g15
 tp767
-a(S'can you make new event'
+a(S'please shutdown my computer'
 p768
 g15
 tp769
-a(S'do not retrieve the current time'
+a(S'bye alice'
 p770
 g15
 tp771
-a(S'lower the sound'
+a(S'check events for monday'
 p772
 g15
 tp773
-a(S'please check the current time'
+a(S'is there anything to do on wednesday'
 p774
-g34
+g15
 tp775
-a(S'spotify go back'
+a(S'can you turn the beat down'
 p776
 g15
 tp777
-a(S'please add event'
+a(S'spotify next song '
 p778
 g15
 tp779
-a(S'what is on my calendar for'
+a(S'do i have anything on next'
 p780
 g15
 tp781
-a(S'check calendar on this day'
+a(S"don't i have any events on thursday"
 p782
 g15
 tp783
-a(S'check my calendar on wednesday'
+a(S"what's the forecast"
 p784
 g15
 tp785
-a(S'what do i have to do on next'
+a(S'check events for this day'
 p786
 g15
 tp787
-a(S'get clock please'
+a(S'what are the current news'
 p788
-g34
+g15
 tp789
-a(S'do not read the time'
+a(S'are there any events on friday'
 p790
 g15
 tp791
-a(S"please what's new in new gmail"
+a(S'get time'
 p792
-g15
+g102
 tp793
-a(S'am i free for sunday'
+a(S"today's news"
 p794
 g15
 tp795
-a(S"what's this week's weather"
+a(S'can you open a browser please'
 p796
 g15
 tp797
-a(S'open dot org'
+a(S'will it snow today'
 p798
 g15
 tp799
-a(S'turn it up please'
+a(S'can you turn yourself off please'
 p800
 g15
 tp801
-a(S'please kill the window'
+a(S"don't retrieve what time it is"
 p802
 g15
 tp803
-a(S'could you check mail'
+a(S'play song'
 p804
 g15
 tp805
-a(S"what's new in mail please"
+a(S"if it's snowing this week"
 p806
 g15
 tp807
-a(S'add new event'
+a(S'please read me the clock'
 p808
-g15
+g102
 tp809
-a(S'shutdown'
+a(S'would you check mail please'
 p810
 g15
 tp811
-a(S'do i have any events in a month'
+a(S'would you open inbox please'
 p812
 g15
 tp813
-a(S'do i have anything to do on thursday'
+a(S'lower the volume'
 p814
 g15
 tp815
-a(S'could you open mail please'
+a(S'lower the sound'
 p816
 g15
 tp817
-a(S"please don't get the time"
+a(S'current news'
 p818
 g15
 tp819
-a(S"please what's in new gmail"
+a(S"what's weather"
 p820
 g15
 tp821
-a(S'do not check the clock right now please'
+a(S'live newsfeed today'
 p822
 g15
 tp823
-a(S'can you lock the screen'
+a(S'what time is it'
 p824
-g15
+g102
 tp825
-a(S'do i have to do anything tomorrow'
+a(S'please pause song'
 p826
 g15
 tp827
-a(S'please would you check new gmail'
+a(S'is there anything to do on tuesday'
 p828
 g15
 tp829
-a(S'read the time'
+a(S'please retrieve the current time'
 p830
-g34
+g102
 tp831
-a(S"what's in mail please"
+a(S"don't get the current time please"
 p832
 g15
 tp833
-a(S'do not get the current time'
+a(S'please google for'
 p834
 g15
 tp835
-a(S'what events are on sunday'
+a(S'what are the headlines'
 p836
 g15
 tp837
-a(S'please add an event'
+a(S'could you make a new event'
 p838
 g15
 tp839
-a(S'check events for next'
+a(S'could you make new event'
 p840
 g15
 tp841
-a(S'am i free on'
+a(S'search google please'
 p842
 g15
 tp843
-a(S'any mail'
+a(S'kill the music'
 p844
 g15
 tp845
-a(S'get current time'
+a(S'what is on my calendar'
 p846
-g34
+g15
 tp847
-a(S'please could you open inbox'
+a(S'can you check gmail'
 p848
 g15
 tp849
-a(S'check events on this day'
+a(S'could you check my gmail'
 p850
 g15
 tp851
-a(S"what's the current news"
+a(S'are there any events on wednesday'
 p852
 g15
 tp853
-a(S'please spotify start the song'
+a(S'am i free for wednesday'
 p854
 g15
 tp855
-a(S'please can you check mail'
+a(S'do not check what time it is please'
 p856
 g15
 tp857
-a(S"don't i have anything to do on friday"
+a(S'spotify pause the song please'
 p858
 g15
 tp859
-a(S'kill the current window'
+a(S'what is in new mail'
 p860
 g15
 tp861
-a(S"don't get the clock please"
+a(S'do i have anything to do on tuesday'
 p862
 g15
 tp863
-a(S'do not check your watch please'
+a(S'exit please'
 p864
 g15
 tp865
-a(S'can you please open a browser'
+a(S'please shut down'
 p866
 g15
 tp867
-a(S"how's the temperature"
+a(S'will you open my mail please'
 p868
 g15
 tp869
-a(S'please what is new in gmail'
+a(S'stop the song'
 p870
 g15
 tp871
-a(S'could you check my mail please'
+a(S'retrieve what time it is please'
 p872
-g15
+g102
 tp873
-a(S'check my calendar on saturday'
+a(S'do not retrieve what time it is please'
 p874
 g15
 tp875
-a(S"please don't get me the clock"
+a(S'please could you check mail'
 p876
 g15
 tp877
-a(S'open inbox please'
+a(S'live news today'
 p878
 g15
 tp879
-a(S'check calendar on friday'
+a(S'please lock the screen'
 p880
 g15
 tp881
-a(S'please volume higher'
+a(S'can you make event please'
 p882
 g15
 tp883
-a(S"don't i have anything on saturday"
+a(S'any events on sunday'
 p884
 g15
 tp885
-a(S"don't get the current time please"
+a(S'check calendar on tomorrow'
 p886
 g15
 tp887
-a(S'please add new event'
+a(S"how's the temperature this week"
 p888
 g15
 tp889
-a(S'is there anything to do on saturday'
+a(S'get current weather'
 p890
 g15
 tp891
-a(S'check mail please'
+a(S'can you please close this window'
 p892
 g15
 tp893
-a(S"aren't there any events on next"
+a(S'can you shutdown my computer'
 p894
 g15
 tp895
-a(S'find current events'
+a(S'start a browser'
 p896
 g15
 tp897
-a(S'please go back'
+a(S'please will you open inbox'
 p898
 g15
 tp899
-a(S'please would you open my inbox'
+a(S'make new event please'
 p900
 g15
 tp901
-a(S'please read the time'
+a(S'shut down please'
 p902
-g34
+g15
 tp903
-a(S'check my gmail'
+a(S"what're the the news"
 p904
 g15
 tp905
-a(S"please what's new in gmail"
+a(S'spotify shut up'
 p906
 g15
 tp907
-a(S'put me on the lock screen please'
+a(S'skip'
 p908
 g15
 tp909
-a(S"don't get me the clock please"
+a(S'predict the outcome on a new document'
 p910
 g15
 tp911
-a(S'can you please shutdown the computer'
+a(S'unmute'
 p912
 g15
 tp913
-a(S'send me to the lock screen'
+a(S"get if it's cloudy today"
 p914
 g15
 tp915
-a(S"don't check your watch"
+a(S'extract the features using almost the same feature'
 p916
 g15
 tp917
-a(S'check google calendar for this week'
+a(S'do not check the current time'
 p918
 g15
 tp919
-a(S'shut the fuck up'
+a(S'google please'
 p920
 g15
 tp921
-a(S'can you close the active window'
+a(S'will you open my gmail'
 p922
 g15
 tp923
-a(S'are there any events on wednesday'
+a(S'do not retrieve the time please'
 p924
 g15
 tp925
-a(S'can you please shutdown'
+a(S'can you kill this window'
 p926
 g15
 tp927
-a(S"don't get time"
+a(S'check calendar on month'
 p928
 g15
 tp929
-a(S'stop playing'
+a(S'please spotify last'
 p930
 g15
 tp931
-a(S'get weather'
+a(S'get live newsfeed'
 p932
 g15
 tp933
-a(S"what's the live news feed"
+a(S'check what time it is please'
 p934
-g15
+g102
 tp935
-a(S"don't i have anything on next"
+a(S'sound higher please'
 p936
 g15
 tp937
-a(S'can you turn my computer off'
+a(S'make an event'
 p938
 g15
 tp939
-a(S'good night alice'
+a(S'check google calendar on monday'
 p940
 g15
 tp941
-a(S'what is in inbox'
+a(S'is there anything to do on saturday'
 p942
 g15
 tp943
-a(S'can you turn the volume higher please'
+a(S'can you please turn the sound down'
 p944
 g15
 tp945
-a(S'search'
+a(S'what do i have to do on tomorrow'
 p946
 g15
 tp947
-a(S'turn off the computer'
+a(S'do i have anything to do on this day'
 p948
 g15
 tp949
-a(S'do i have anything'
+a(S'can you please make a new event'
 p950
 g15
 tp951
-a(S'see ya alice'
+a(S"what's new in mail"
 p952
 g15
 tp953
-a(S'will it rain today'
+a(S"don't get current time"
 p954
 g15
 tp955
-a(S'would you open my mail please'
+a(S'add an event'
 p956
 g15
 tp957
-a(S'what do i have on friday'
+a(S'check calendar on sunday'
 p958
 g15
 tp959
-a(S'shutdown please'
+a(S'go ahead'
 p960
 g15
 tp961
-a(S'turn off the beats'
+a(S'can you please kill active window'
 p962
 g15
 tp963
-a(S'please do not retrieve the current time'
+a(S'check google calendar for monday'
 p964
 g15
 tp965
-a(S'what do i have to do'
+a(S'please create event'
 p966
 g15
 tp967
-a(S'what are the news feed'
+a(S'please do not get the clock'
 p968
 g15
 tp969
-a(S'find live news'
+a(S'what is new in gmail please'
 p970
 g15
 tp971
-a(S'check my calendar for tuesday'
+a(S'news feed today'
 p972
 g15
 tp973
-a(S'what is new in my mail'
+a(S'turn up'
 p974
 g15
 tp975
-a(S'check events for sunday'
+a(S'any events on wednesday'
 p976
 g15
 tp977
-a(S'check events for this week'
+a(S'check my calendar for today'
 p978
 g15
 tp979
-a(S'will you check my mail please'
+a(S'can you shut down my computer'
 p980
 g15
 tp981
-a(S'start a default browser'
+a(S'are there any events on saturday'
 p982
 g15
 tp983
-a(S'please do not when is it'
+a(S'please start a browser'
 p984
 g15
 tp985
-a(S'play the song before'
+a(S'can you kill the window'
 p986
 g15
 tp987
-a(S'can you mute'
+a(S'do i have to do anything in a week'
 p988
 g15
 tp989
-a(S'please open my mail'
+a(S'do not get the clock'
 p990
 g15
 tp991
-a(S'what is live news'
+a(S"what's if it's hot today"
 p992
 g15
 tp993
-a(S'make event please'
+a(S'could you please make event'
 p994
 g15
 tp995
-a(S'check new gmail please'
+a(S'please what is in mail'
 p996
 g15
 tp997
-a(S'what events are on next'
+a(S"what's in my mail please"
 p998
 g15
 tp999
-a(S'search please'
+a(S'what do i have to do on this day'
 p1000
 g15
 tp1001
-a(S'see ya'
+a(S"don't i have anything to do on monday"
 p1002
 g15
 tp1003
-a(S'news'
+a(S"today's weather"
 p1004
 g15
 tp1005
-a(S'please turn off my computer'
+a(S'send me to the lock screen please'
 p1006
 g15
 tp1007
-a(S'what do i have on monday'
+a(S'what do i have to do on sunday'
 p1008
 g15
 tp1009
-a(S'what events do i have on today'
+a(S"please don't check the clock right now"
 p1010
 g15
 tp1011
-a(S'can you schedule a new event'
+a(S'would you check new gmail'
 p1012
 g15
 tp1013
-a(S'search google for please'
+a(S'open default browser please'
 p1014
 g15
 tp1015
-a(S'could you schedule event please'
+a(S'forecast'
 p1016
 g15
 tp1017
-a(S'get the clock'
+a(S'please could you check new mail'
 p1018
-g34
+g15
 tp1019
-a(S'check my calendar on friday'
+a(S'do i have any events on monday'
 p1020
 g15
 tp1021
-a(S"what's the weather this week"
+a(S'spotify go please'
 p1022
 g15
 tp1023
-a(S'can you create event please'
+a(S'open my inbox'
 p1024
 g15
 tp1025
-a(S'current weather'
+a(S'please can you make it louder'
 p1026
 g15
 tp1027
-a(S"this week's temperature"
+a(S'could you open gmail'
 p1028
 g15
 tp1029
-a(S'turn up the sound please'
+a(S'check google calendar on friday'
 p1030
 g15
 tp1031
-a(S'turn off the computer please'
+a(S'could you please make a new event'
 p1032
 g15
 tp1033
-a(S'start song'
+a(S"get if it's cold this week"
 p1034
 g15
 tp1035
-a(S'bye'
+a(S'am i free on saturday'
 p1036
 g15
 tp1037
-a(S'what is on my calendar for this day'
+a(S'am i free on wednesday'
 p1038
 g15
 tp1039
-a(S'please turn it down'
+a(S'would you check new mail please'
 p1040
 g15
 tp1041
-a(S'will it snow today'
+a(S'please could you check new gmail'
 p1042
 g15
 tp1043
-a(S'will you open gmail'
+a(S"don't i have anything to do"
 p1044
 g15
 tp1045
-a(S'am i free for saturday'
+a(S'start'
 p1046
 g15
 tp1047
-a(S'do i have to do anything on sunday'
+a(S'start default browser please'
 p1048
 g15
 tp1049
-a(S'will it rain this week'
+a(S'do not get me the clock please'
 p1050
 g15
 tp1051
-a(S'would you check inbox'
+a(S"don't check the clock right now"
 p1052
 g15
 tp1053
-a(S'what is news'
+a(S'bye bye'
 p1054
 g15
 tp1055
-a(S'turn the volume to zero'
+a(S'what is in new gmail please'
 p1056
 g15
 tp1057
-a(S"don't i have anything to do today"
+a(S'close current window'
 p1058
 g15
 tp1059
-a(S'spotify go ahead'
+a(S'am i free today'
 p1060
 g15
 tp1061
-a(S'do i have to do anything on this day'
+a(S"don't i have to do anything today"
 p1062
 g15
 tp1063
-a(S'spotify play last song please'
+a(S'do not get the time please'
 p1064
 g15
 tp1065
-a(S'when is it please'
+a(S'search google'
 p1066
-g34
+g15
 tp1067
-a(S'do i have to do anything in a month'
+a(S'do i have anything to do today'
 p1068
 g15
 tp1069
-a(S'turn off my computer please'
+a(S'tell me live news feed'
 p1070
 g15
 tp1071
-a(S'please kill the active window'
+a(S"don't check the clock right now please"
 p1072
 g15
 tp1073
-a(S'would you open inbox'
+a(S'can you shut my computer down'
 p1074
 g15
 tp1075
-a(S'could you add event'
+a(S'any new gmail'
 p1076
 g15
 tp1077
-a(S'do not read the clock please'
+a(S'check calendar on wednesday'
 p1078
 g15
 tp1079
-a(S'please get the clock'
+a(S'current weather'
 p1080
-g34
+g15
 tp1081
-a(S'check google calendar on month'
+a(S'go back'
 p1082
 g15
 tp1083
-a(S"what's if it's cloudy today"
+a(S'turn up the volume'
 p1084
 g15
 tp1085
-a(S'will you check my inbox'
+a(S'is there anything i have to do on friday'
 p1086
 g15
 tp1087
-a(S'what do i have to do on tuesday'
+a(S'can you turn up the sound'
 p1088
 g15
 tp1089
-a(S'please shut off'
+a(S'can you check mail'
 p1090
 g15
 tp1091
-a(S'check google calendar for monday'
+a(S"aren't there any events on friday"
 p1092
 g15
 tp1093
-a(S'start browser please'
+a(S'could you please add a new event'
 p1094
 g15
 tp1095
-a(S'what are the live news'
+a(S"get today's temperature"
 p1096
 g15
 tp1097
-a(S'unmute please'
+a(S'can you please turn off my computer'
 p1098
 g15
 tp1099
-a(S'please get clock'
+a(S'kill the noise'
 p1100
-g34
+g15
 tp1101
-a(S'open browser'
+a(S'get the current events'
 p1102
 g15
 tp1103
-a(S'please check the clock right now'
+a(S'can you please add a new event'
 p1104
-g34
+g15
 tp1105
-a(S'can you please add an event'
+a(S'check events on sunday'
 p1106
 g15
 tp1107
-a(S"what're the current news"
+a(S'please open my inbox'
 p1108
 g15
 tp1109
-a(S'could you open mail'
+a(S"what're the current news"
 p1110
 g15
 tp1111
-a(S'go ahead spotify please'
+a(S'is there anything i have to do in a month'
 p1112
 g15
 tp1113
-a(S'check google calendar on monday'
+a(S'what are the live news feed'
 p1114
 g15
 tp1115
-a(S'please what is new in mail'
+a(S'please go back'
 p1116
 g15
 tp1117
-a(S'please open my inbox'
+a(S"how's the temperature"
 p1118
 g15
 tp1119
-a(S'do i have anything on this day'
+a(S'check events on'
 p1120
 g15
 tp1121
-a(S'current temperature'
+a(S'google search please for'
 p1122
 g15
 tp1123
-a(S'go to'
+a(S"what's new in my gmail"
 p1124
 g15
 tp1125
-a(S"don't i have to do anything on this day"
+a(S'what events do i have on thursday'
 p1126
 g15
 tp1127
-a(S'am i free'
+a(S'can you open browser please'
 p1128
 g15
 tp1129
-a(S'tell me newsfeed'
+a(S"what's in new gmail please"
 p1130
 g15
 tp1131
-a(S"what's the news feed"
+a(S"aren't there any events on today"
 p1132
 g15
 tp1133
-a(S"don't read the clock"
+a(S'do i have anything to do in a month'
 p1134
 g15
 tp1135
-a(S"what's new in mail"
+a(S'could you add an event please'
 p1136
 g15
 tp1137
-a(S"get this week's weather"
+a(S'please what is new in inbox'
 p1138
 g15
 tp1139
-a(S'please go spotify '
+a(S"don't retrieve what time it is please"
 p1140
 g15
 tp1141
-a(S'can you send me to the lock screen please'
+a(S"what's the temperature today"
 p1142
 g15
 tp1143
-a(S'please shutdown the computer'
+a(S'please what is in my inbox'
 p1144
 g15
 tp1145
-a(S'check my calendar on monday'
+a(S'check events on today'
 p1146
 g15
 tp1147
-a(S'can you please make an event'
+a(S'get weather'
 p1148
 g15
 tp1149
-a(S'any events in a week'
+a(S'do i have anything on this day'
 p1150
 g15
 tp1151
-a(S'tell me current events'
+a(S'mute'
 p1152
 g15
 tp1153
-a(S'play spotify please'
+a(S"please what's new in new gmail"
 p1154
 g15
 tp1155
-a(S'is there anything to do on sunday'
+a(S'is there anything to do'
 p1156
 g15
 tp1157
-a(S'what is new in new mail'
+a(S'could you please make an event'
 p1158
 g15
 tp1159
-a(S'lock my computer'
+a(S'do not read the clock please'
 p1160
 g15
 tp1161
-a(S'could you add an event'
+a(S"don't i have anything to do in a month"
 p1162
 g15
 tp1163
-a(S'any events in a month'
+a(S"don't check what time it is please"
 p1164
 g15
 tp1165
-a(S'can you make event please'
+a(S"don't read me the clock please"
 p1166
 g15
 tp1167
-a(S'will you open inbox'
+a(S'what do i have to do on thursday'
 p1168
 g15
 tp1169
-a(S'please stop song'
+a(S'what is new in mail please'
 p1170
 g15
 tp1171
-a(S'do not read your watch'
+a(S'turn off the beats'
 p1172
 g15
 tp1173
-a(S'could you open my inbox please'
+a(S'do i have anything to do tomorrow'
 p1174
 g15
 tp1175
-a(S'search google for'
+a(S'will you check gmail please'
 p1176
 g15
 tp1177
-a(S'kill this window'
+a(S'time'
 p1178
-g15
+g102
 tp1179
-a(S'please will you check inbox'
+a(S"what's today's temperature"
 p1180
 g15
 tp1181
-a(S'can you please schedule an event'
+a(S'close window'
 p1182
 g15
 tp1183
-a(S'please spotify start'
+a(S'what do i have on tuesday'
 p1184
 g15
 tp1185
-a(S"what's new in gmail please"
+a(S'volume higher please'
 p1186
 g15
 tp1187
-a(S'kill current window'
+a(S'is there anything i have to do on saturday'
 p1188
 g15
 tp1189
-a(S'please kill the current window'
+a(S'find live news feed'
 p1190
 g15
 tp1191
-a(S'get live news feed'
+a(S'are there any events on tomorrow'
 p1192
 g15
 tp1193
-a(S'close window'
+a(S'could you schedule new event please'
 p1194
 g15
 tp1195
-a(S'could you check mail please'
+a(S'check calendar on this week'
 p1196
 g15
 tp1197
-a(S"what's weather"
+a(S'what are the the news'
 p1198
 g15
 tp1199
-a(S'check events on sunday'
+a(S'can you schedule an event'
 p1200
 g15
 tp1201
-a(S'will you check mail please'
+a(S'okay alice'
 p1202
 g15
 tp1203
-a(S'could you check my mail'
+a(S"get if it's snowing this week"
 p1204
 g15
 tp1205
-a(S'can you turn yourself off'
+a(S'google for'
 p1206
 g15
 tp1207
-a(S'could you schedule new event please'
+a(S'please go to'
 p1208
 g15
 tp1209
-a(S'can you check mail please'
+a(S"don't i have anything on saturday"
 p1210
 g15
 tp1211
-a(S"don't read the clock please"
+a(S'get the clock'
 p1212
-g15
+g102
 tp1213
-a(S'pause please'
+a(S'can you please make event'
 p1214
 g15
 tp1215
-a(S'can you please schedule new event'
+a(S"what's if it's raining this week"
 p1216
 g15
 tp1217
-a(S'do i have any events on friday'
+a(S'a releasing moderate stalls beside the material cell'
 p1218
 g15
 tp1219
-a(S'can you kill the current window'
+a(S'please shut off'
 p1220
 g15
 tp1221
-a(S'will you check my gmail'
+a(S'check google calendar on'
 p1222
 g15
 tp1223
-a(S'is there anything to do on this day'
+a(S'check the clock'
 p1224
-g15
+g102
 tp1225
-a(S"get if it's foggy this week"
+a(S'can you create a new event please'
 p1226
 g15
 tp1227
-a(S'create event please'
+a(S'is there anything to do in a month'
 p1228
 g15
 tp1229
-a(S'retrieve the time'
+a(S'check my calendar for tuesday'
 p1230
-g34
-tp1231
-a(S'get current time please'
-p1232
-g34
-tp1233
-a(S'do not get me the clock'
-p1234
 g15
+tp1231
+a(S"what's in my inbox"
+p1232
+g15
+tp1233
+a(S'please get current time'
+p1234
+g102
 tp1235
-a(S'check events for saturday'
+a(S'will you open gmail'
 p1236
 g15
 tp1237
-a(S"please don't get time"
+a(S"what's new in my mail please"
 p1238
 g15
 tp1239
-a(S"don't i have any events"
+a(S'anything new in mail'
 p1240
 g15
 tp1241
-a(S"today's current news "
+a(S'what is the news today'
 p1242
 g15
 tp1243
-a(S'would you check new gmail'
+a(S'read the time'
 p1244
-g15
+g102
 tp1245
-a(S'can you please kill the active window'
+a(S'what are the current events'
 p1246
 g15
 tp1247
-a(S'spotify go to the last song'
+a(S'find the current events'
 p1248
 g15
 tp1249
-a(S"if it's raining this week"
+a(S'please start browsing'
 p1250
 g15
 tp1251
-a(S'please would you open my gmail'
+a(S'read time'
 p1252
-g15
+g102
 tp1253
-a(S'am i free on thursday'
+a(S'please would you open my inbox'
 p1254
 g15
 tp1255
-a(S'stop'
+a(S'please sound higher'
 p1256
 g15
 tp1257
-a(S'any events on today'
+a(S'please search google for'
 p1258
 g15
 tp1259
-a(S'please would you check my mail'
+a(S'please make an event'
 p1260
 g15
 tp1261
-a(S'will you open gmail please'
+a(S"don't i have to do anything on saturday"
 p1262
 g15
 tp1263
-a(S"if it's rainy today"
+a(S'can you make new event please'
 p1264
 g15
 tp1265
-a(S'check my calendar on tuesday'
+a(S'do not read me the clock'
 p1266
 g15
 tp1267
-a(S"if it's hot today"
+a(S'live news feed'
 p1268
 g15
 tp1269
-a(S'news feed'
+a(S'can you please shutdown the computer'
 p1270
 g15
 tp1271
-a(S'spotify play previous song please'
+a(S'be quiet'
 p1272
 g15
 tp1273
-a(S'start spotify please'
+a(S'is there anything to do on'
 p1274
 g15
 tp1275
-a(S'check if i have anything in my inbox'
+a(S'make event please'
 p1276
 g15
 tp1277
-a(S'any events on tuesday'
+a(S'can you create new event'
 p1278
 g15
 tp1279
-a(S"please don't get the current time"
+a(S'what events do i have on this day'
 p1280
 g15
 tp1281
-a(S'could you please make a new event'
+a(S'please turn my computer off'
 p1282
 g15
 tp1283
-a(S'do not get the clock'
+a(S'would you check inbox please'
 p1284
 g15
 tp1285
-a(S'can you unmute please'
+a(S'turn off the sound please'
 p1286
 g15
 tp1287
-a(S'please could you open my inbox'
+a(S'can you make it louder please'
 p1288
 g15
 tp1289
-a(S'do i have any events on tuesday'
+a(S"what's the the news"
 p1290
 g15
 tp1291
-a(S'next spotify please'
+a(S'check calendar for thursday'
 p1292
 g15
 tp1293
-a(S'can you check my gmail'
+a(S'sweet dreams'
 p1294
 g15
 tp1295
-a(S"what's if it's freezing today"
+a(S'get current temperature'
 p1296
 g15
 tp1297
-a(S'can you please shut my computer down'
+a(S'will it snow this week'
 p1298
 g15
 tp1299
-a(S'lock computer please'
+a(S'check my calendar'
 p1300
 g15
 tp1301
-a(S"don't i have to do anything on thursday"
+a(S'gather information on todays current events please'
 p1302
 g15
 tp1303
-a(S'check new mail please'
+a(S'what is new in inbox'
 p1304
 g15
 tp1305
-a(S'put me on the lock screen'
+a(S'is it rainy today'
 p1306
 g15
 tp1307
-a(S"what's this week's forecast"
+a(S'please open inbox'
 p1308
 g15
 tp1309
-a(S'is there anything i have to do on sunday'
+a(S"how's the forecast"
 p1310
 g15
 tp1311
-a(S'turn it down'
+a(S"don't i have anything in a week"
 p1312
 g15
 tp1313
-a(S'retrieve the time please'
+a(S'please get me the clock'
 p1314
-g34
+g102
 tp1315
-a(S'a releasing moderate stalls beside the material cell'
+a(S'do not check the clock right now please'
 p1316
 g15
 tp1317
-a(S"don't i have any events on this day"
+a(S'see ya'
 p1318
 g15
 tp1319
-a(S'how is the forecast'
+a(S'please add new event'
 p1320
 g15
 tp1321
-a(S"don't i have any events on friday"
+a(S'spotify stop'
 p1322
 g15
 tp1323
-a(S'spotify previous please'
+a(S'check calendar'
 p1324
 g15
 tp1325
-a(S'fake news'
+a(S'is there anything i have to do in a week'
 p1326
 g15
 tp1327
-a(S'will you open my mail please'
+a(S'pause spotify please'
 p1328
 g15
 tp1329
-a(S'can you create a new event'
+a(S"this week's forecast"
 p1330
 g15
 tp1331
-a(S'could you make a new event'
+a(S'could you create an event'
 p1332
 g15
 tp1333
-a(S'is there anything to do on friday'
+a(S"don't check what time it is"
 p1334
 g15
 tp1335
-a(S'please could you open my mail'
+a(S'pause spotify'
 p1336
 g15
 tp1337
-a(S'get live news'
+a(S'could you please schedule new event'
 p1338
 g15
 tp1339
-a(S'any events on tomorrow'
+a(S'is there anything to do in a week'
 p1340
 g15
 tp1341
-a(S'open browser please'
+a(S'what is in the news today'
 p1342
 g15
 tp1343
-a(S"what're the newsfeed"
+a(S"if it's snowing today"
 p1344
 g15
 tp1345
-a(S'please make a new event'
+a(S'we stick to simple problems in this post for the sake of illustration'
 p1346
 g15
 tp1347
-a(S'what events do i have in a week'
+a(S'what events are on this day'
 p1348
 g15
 tp1349
-a(S'check google calendar for today'
+a(S'shut off my computer'
 p1350
 g15
 tp1351
-a(S'please spotify pause the song'
+a(S'please pause spotify'
 p1352
 g15
 tp1353
-a(S"don't i have to do anything on saturday"
+a(S'do i have to do anything'
 p1354
 g15
 tp1355
-a(S'what do i have to do on friday'
+a(S'could you open inbox'
 p1356
 g15
 tp1357
-a(S'what is on my calendar for next'
+a(S"don't i have to do anything in a month"
 p1358
 g15
 tp1359
-a(S'can you lock my computer please'
+a(S'check events on month'
 p1360
 g15
 tp1361
-a(S'open gmail please'
+a(S'read time please'
 p1362
-g15
+g102
 tp1363
-a(S'get time please'
+a(S'do i have anything today'
 p1364
-g34
+g15
 tp1365
-a(S"what're the news"
+a(S'are there any events on'
 p1366
 g15
 tp1367
-a(S'please can you check gmail'
+a(S"what's new in new mail please"
 p1368
 g15
 tp1369
-a(S"what's if it's snowing this week"
+a(S'please kill the active window'
 p1370
 g15
 tp1371
-a(S'am i free for a month'
+a(S'am i free on tomorrow'
 p1372
 g15
 tp1373
-a(S'stop the tunez'
+a(S"please don't read your watch"
 p1374
 g15
 tp1375
-a(S'please do not get the time'
+a(S'check events on monday'
 p1376
 g15
 tp1377
-a(S'please do not get the current time'
+a(S'can you turn yourself off'
 p1378
 g15
 tp1379
-a(S'what is in my gmail please'
+a(S'check google calendar for tuesday'
 p1380
 g15
 tp1381
-a(S'what events do i have on thursday'
+a(S'please would you check new gmail'
 p1382
 g15
 tp1383
-a(S'open a browser'
+a(S'would you open mail'
 p1384
 g15
 tp1385
-a(S'read time'
+a(S'any events on'
 p1386
-g34
+g15
 tp1387
-a(S'lower the tunez please'
+a(S'could you add new event please'
 p1388
 g15
 tp1389
-a(S'what do i have to do on'
+a(S'please can you check my gmail'
 p1390
 g15
 tp1391
-a(S'turn up the tunez'
+a(S'do i have to do anything tomorrow'
 p1392
 g15
 tp1393
-a(S'skip spotify please'
+a(S'what events are on today'
 p1394
 g15
 tp1395
-a(S"get if it's freezing today"
+a(S'what time is it now'
 p1396
-g15
+g102
 tp1397
-a(S'please open a browser'
+a(S'byebye'
 p1398
 g15
 tp1399
-a(S'lock'
+a(S"what's the current events"
 p1400
 g15
 tp1401
-a(S"please what's new in inbox"
+a(S"don't retrieve the current time please"
 p1402
 g15
 tp1403
-a(S'please close the active window'
+a(S'please will you check new mail'
 p1404
 g15
 tp1405
-a(S"don't i have to do anything on next"
+a(S'spotify skip ahead please'
 p1406
 g15
 tp1407
-a(S'check my calendar for monday'
+a(S"what's new in mail please"
 p1408
 g15
 tp1409
-a(S'please open dot com'
+a(S'good night alice'
 p1410
 g15
 tp1411
-a(S'weather'
+a(S'please do not read the clock'
 p1412
 g15
 tp1413
-a(S'will you open mail please'
+a(S'check my calendar on friday'
 p1414
 g15
 tp1415
-a(S'go back to the last song '
+a(S'could you open my mail please'
 p1416
 g15
 tp1417
-a(S'please open'
+a(S'tell me the news'
 p1418
 g15
 tp1419
-a(S"what's in my gmail"
+a(S'do i have any events on thursday'
 p1420
 g15
 tp1421
-a(S"what's the clock not"
+a(S'please could you open mail'
 p1422
 g15
 tp1423
-a(S'am i free'
+a(S'gather information on'
 p1424
 g15
 tp1425
-a(S'what is in new mail please'
+a(S'give me intel on current events'
 p1426
 g15
 tp1427
-a(S'what do i have on'
+a(S'do not time please'
 p1428
 g15
 tp1429
-a(S'could you open gmail please'
+a(S'will you get the news for me'
 p1430
 g15
 tp1431
-a(S'please what is in inbox'
+a(S'lower the tunez please'
 p1432
 g15
 tp1433
-a(S"what's in new mail please"
+a(S'do not check the clock'
 p1434
 g15
 tp1435
-a(S'alice'
+a(S'current events'
 p1436
 g15
 tp1437
-a(S'could you make new event'
+a(S'please will you open mail'
 p1438
 g15
 tp1439
-a(S'am i free on tomorrow'
+a(S'what do i have on saturday'
 p1440
 g15
 tp1441
-a(S'hey alice'
+a(S"get if it's rainy today"
 p1442
 g15
 tp1443
-a(S"what's the the news"
+a(S'check new gmail'
 p1444
 g15
 tp1445
-a(S'is there anything i have to do on wednesday'
+a(S"don't i have anything to do in a week"
 p1446
 g15
 tp1447
-a(S'do not time please'
+a(S'check google calendar for today'
 p1448
 g15
 tp1449
-a(S'can you please close current window'
+a(S'is it cold this week'
 p1450
 g15
 tp1451
-a(S'schedule a new event'
+a(S'what do i have to do on next'
 p1452
 g15
 tp1453
-a(S'do i have to do anything to do'
+a(S'please will you open my mail'
 p1454
 g15
 tp1455
-a(S'do i have any events on wednesday'
+a(S'am i free for'
 p1456
 g15
 tp1457
-a(S"what's new in new gmail"
+a(S'am i free for today'
 p1458
 g15
 tp1459
-a(S'do i have any events on sunday'
+a(S'please do not get me the clock'
 p1460
 g15
 tp1461
-a(S'what are the news'
+a(S'mute please'
 p1462
 g15
 tp1463
-a(S'go to dot ee dee you'
+a(S'could you check gmail please'
 p1464
 g15
 tp1465
-a(S'please pause spotify'
+a(S'please search for'
 p1466
 g15
 tp1467
-a(S'shut down the computer please'
+a(S"don't i have anything"
 p1468
 g15
 tp1469
-a(S"don't i have anything on thursday"
+a(S'can you please turn up the tunez'
 p1470
 g15
 tp1471
-a(S'what is headlines'
+a(S"if it's raining this week"
 p1472
 g15
 tp1473
-a(S'please schedule an event'
+a(S"get this week's temperature"
 p1474
 g15
 tp1475
-a(S'do i have to do anything on saturday'
+a(S'shutdown my computer'
 p1476
 g15
 tp1477
-a(S'search please for'
+a(S"please don't get time"
 p1478
 g15
 tp1479
-a(S'could you schedule an event please'
+a(S'please check my inbox'
 p1480
 g15
 tp1481
-a(S'gather information on'
+a(S'do not read your watch'
 p1482
 g15
 tp1483
-a(S"today's live newsfeed"
+a(S'can you please turn the beat down'
 p1484
 g15
 tp1485
-a(S'do not get time'
+a(S'what events are on friday'
 p1486
 g15
 tp1487
-a(S'louder please'
+a(S'what is in mail'
 p1488
 g15
 tp1489
-a(S"what's new in new mail"
+a(S'please can you check inbox'
 p1490
 g15
 tp1491
-a(S'will you get the current headlines'
+a(S'check calendar for monday'
 p1492
 g15
 tp1493
-a(S'current events today'
+a(S'turn up the tunez'
 p1494
 g15
 tp1495
-a(S"what's today's temperature"
+a(S"please don't when is it"
 p1496
 g15
 tp1497
-a(S"don't retrieve the time"
+a(S'please what is new in my inbox'
 p1498
 g15
 tp1499
-a(S'can you please make new event'
+a(S'do not get clock'
 p1500
 g15
 tp1501
-a(S'do not read time please'
+a(S'what is new in mail'
 p1502
 g15
 tp1503
-a(S'check google calendar for this month'
+a(S'can you shut down'
 p1504
 g15
 tp1505
-a(S'set volume 0'
+a(S'please retrieve what time it is'
 p1506
-g15
+g102
 tp1507
-a(S'check calendar on monday'
+a(S"please don't check what time it is"
 p1508
 g15
 tp1509
-a(S'can you please create an event'
+a(S'am i free on tuesday'
 p1510
 g15
 tp1511
-a(S"please what's new in my inbox"
+a(S'please read time'
 p1512
-g15
+g102
 tp1513
-a(S'add event'
+a(S'please open browser'
 p1514
 g15
 tp1515
-a(S"what's new in my mail please"
+a(S'please would you open gmail'
 p1516
 g15
 tp1517
-a(S'please turn it up'
+a(S"please don't get clock"
 p1518
 g15
 tp1519
-a(S'shut down my computer please'
+a(S'what is on my calendar for wednesday'
 p1520
 g15
 tp1521
-a(S'what events are on saturday'
+a(S'what do i have on monday'
 p1522
 g15
 tp1523
-a(S'open dot ee dee you'
+a(S'could you schedule an event please'
 p1524
 g15
 tp1525
-a(S'todays headlines'
+a(S'would you open my mail please'
 p1526
 g15
 tp1527
-a(S'please pause'
+a(S'see ya alice'
 p1528
 g15
 tp1529
-a(S"please what's in my inbox"
+a(S'do not read time please'
 p1530
 g15
 tp1531
-a(S"don't i have any events on thursday"
+a(S"how's the forecast this week"
 p1532
 g15
 tp1533
-a(S'please give me the current events please'
+a(S'find headlines'
 p1534
 g15
 tp1535
-a(S'start browsing'
+a(S'can you please turn up the volume'
 p1536
 g15
 tp1537
-a(S'what is new in inbox please'
+a(S'check events on'
 p1538
 g15
 tp1539
-a(S'is it cold this week'
+a(S'create event'
 p1540
 g15
 tp1541
-a(S'please add a new event'
+a(S'get current forecast'
 p1542
 g15
 tp1543
-a(S'check my calendar on this week'
+a(S'shut down the computer'
 p1544
 g15
 tp1545
-a(S'shutdown the computer please'
+a(S'lock the screen please'
 p1546
 g15
 tp1547
-a(S'will you open my inbox'
+a(S'can you shut off my computer'
 p1548
 g15
 tp1549
-a(S'are there any events in a week'
+a(S'please could you open my inbox'
 p1550
 g15
 tp1551
-a(S'please do not get current time'
+a(S'current events please'
 p1552
 g15
 tp1553
-a(S"don't i have to do anything on tuesday"
+a(S'spotify last please'
 p1554
 g15
 tp1555
-a(S'a decent problem gossips beside the shoulder'
+a(S'check google calendar on sunday'
 p1556
 g15
 tp1557
-a(S"what're the news feed"
+a(S'what do i have in a week'
 p1558
 g15
 tp1559
-a(S'can you please turn the sound down'
+a(S'what is new in my mail'
 p1560
 g15
 tp1561
-a(S'could you please create a new event'
+a(S"don't i have anything to do tomorrow"
 p1562
 g15
 tp1563
-a(S'what do i have on this day'
+a(S'can you schedule new event'
 p1564
 g15
 tp1565
-a(S'what time is it'
+a(S"if it's rainy this week"
 p1566
-g34
+g15
 tp1567
-a(S"don't get current time please"
+a(S'can you please make an event'
 p1568
 g15
 tp1569
-a(S"don't i have to do anything on monday"
+a(S'can you put me on the lock screen please'
 p1570
 g15
 tp1571
-a(S'can you please kill this window'
+a(S'start default browser'
 p1572
 g15
 tp1573
-a(S'please can you check my inbox'
+a(S"what's if it's freezing this week"
 p1574
 g15
 tp1575
-a(S'do i have anything tomorrow'
+a(S'shut up'
 p1576
 g15
 tp1577
-a(S'turn up the volume please'
+a(S'will you check my gmail please'
 p1578
 g15
 tp1579
-a(S'please do not get time'
+a(S"get if it's cloudy this week"
 p1580
 g15
 tp1581
-a(S'get time'
+a(S'check my inbox'
 p1582
-g34
+g15
 tp1583
-a(S'will you get the headlines'
+a(S'do not read me the clock please'
 p1584
 g15
 tp1585
-a(S"get if it's hot this week"
+a(S"don't i have to do anything tomorrow"
 p1586
 g15
 tp1587
-a(S'do not retrieve what time it is'
+a(S'do not get clock please'
 p1588
 g15
 tp1589
-a(S'give me the news please'
+a(S'see you'
 p1590
 g15
 tp1591
-a(S'is it hot today'
+a(S'please create a new event'
 p1592
 g15
 tp1593
-a(S"don't check what time it is please"
+a(S'get current events'
 p1594
 g15
 tp1595
-a(S'check the current time'
+a(S'check events on tuesday'
 p1596
-g34
+g15
 tp1597
-a(S'check events on friday'
+a(S'could you check my gmail please'
 p1598
 g15
 tp1599
-a(S'am i free on wednesday'
+a(S'please what is in new mail'
 p1600
 g15
 tp1601
-a(S'can you shut my computer down'
+a(S"don't i have any events on"
 p1602
 g15
 tp1603
-a(S"don't i have to do anything in a week"
+a(S"don't i have to do anything in a month"
 p1604
 g15
 tp1605
-a(S"what's if it's hot today"
+a(S'could you open my mail'
 p1606
 g15
 tp1607
-a(S"please what's in my mail"
+a(S'check my calendar for this day'
 p1608
 g15
 tp1609
-a(S'find live newsfeed'
+a(S'could you open gmail please'
 p1610
 g15
 tp1611
-a(S'create a new event'
+a(S'read the clock'
 p1612
-g15
+g102
 tp1613
-a(S'could you create a new event'
+a(S"what's the clock not"
 p1614
 g15
 tp1615
-a(S'could you create new event'
+a(S"please what's in my gmail"
 p1616
 g15
 tp1617
-a(S'make event'
+a(S'is there anything to do on today'
 p1618
 g15
 tp1619
-a(S'is there anything to do on wednesday'
+a(S'check events for next'
 p1620
 g15
 tp1621
-a(S'please search for'
+a(S'check mail please'
 p1622
 g15
 tp1623
-a(S"don't i have anything to do on next"
+a(S'check google calendar on thursday'
 p1624
 g15
 tp1625
-a(S'can you turn the beat down'
+a(S'check events for tomorrow'
 p1626
 g15
 tp1627
-a(S'would you open my inbox please'
+a(S"don't read your watch please"
 p1628
 g15
 tp1629
-a(S'what do i have to do on thursday'
+a(S'issue commands'
 p1630
 g15
 tp1631
-a(S'are there any events on monday'
+a(S"don't read the clock please"
 p1632
 g15
 tp1633
-a(S'can you check new mail'
+a(S"what's in new gmail"
 p1634
 g15
 tp1635
-a(S'please create new event'
+a(S'please do not check your watch'
 p1636
 g15
 tp1637
-a(S'is there anything i have to do on today'
+a(S'turn up the volume'
 p1638
 g15
 tp1639
-a(S'am i free on sunday'
+a(S'is there anything to do today'
 p1640
 g15
 tp1641
-a(S'schedule a new event please'
+a(S'is there anything to do on friday'
 p1642
 g15
 tp1643
-a(S'please do not get the clock'
+a(S"what's if it's cloudy today"
 p1644
 g15
 tp1645
-a(S'get news now'
+a(S"get if it's cold today"
 p1646
 g15
 tp1647
-a(S'what are the headlines'
+a(S'please could you check my mail'
 p1648
 g15
 tp1649
-a(S"don't read your watch please"
+a(S'do not get the current time'
 p1650
 g15
 tp1651
-a(S'close this window'
+a(S'hey alex'
 p1652
 g15
 tp1653
-a(S"what's the time"
+a(S'are there any events'
 p1654
-g34
+g15
 tp1655
-a(S'what are the current events today'
+a(S"what's new in gmail please"
 p1656
 g15
 tp1657
-a(S'can you check mail'
+a(S'would you open my inbox'
 p1658
 g15
 tp1659
-a(S'can you open a browser please'
+a(S'put me on the lock screen please'
 p1660
 g15
 tp1661
-a(S'please check new mail'
+a(S"get if it's rainy this week"
 p1662
 g15
 tp1663
-a(S'is there anything i have to do on thursday'
+a(S'please kill this window'
 p1664
 g15
 tp1665
-a(S'what is new in my mail please'
+a(S'how is the forecast'
 p1666
 g15
 tp1667
-a(S'please schedule a new event'
+a(S'anything in gmail'
 p1668
 g15
 tp1669
-a(S"what's if it's freezing this week"
+a(S'do not get the current time please'
 p1670
 g15
 tp1671
-a(S'can you please kill current window'
+a(S'please get the news'
 p1672
 g15
 tp1673
-a(S'what events are in a month'
+a(S'can you create an event'
 p1674
 g15
 tp1675
-a(S"get if it's rainy today"
+a(S'get news now'
 p1676
 g15
 tp1677
-a(S'what is new in my gmail'
+a(S'what is on my calendar for'
 p1678
 g15
 tp1679
-a(S"what's the current events"
+a(S'is it freezing this week'
 p1680
 g15
 tp1681
-a(S'live newsfeed'
+a(S'set volume 0'
 p1682
 g15
 tp1683
-a(S"don't get me the clock"
+a(S'please louder'
 p1684
 g15
 tp1685
-a(S'what events are on friday'
+a(S'can you turn the tune down'
 p1686
 g15
 tp1687
-a(S'are there any events on sunday'
+a(S"don't i have anything in a month"
 p1688
 g15
 tp1689
-a(S"please don't retrieve what time it is"
+a(S'what events do i have'
 p1690
 g15
 tp1691
-a(S'will you get the current events'
+a(S'will you check my mail please'
 p1692
 g15
 tp1693
-a(S'gather information on todays current events please'
+a(S'will it hail this week'
 p1694
 g15
 tp1695
-a(S'what events do i have on'
+a(S"don't i have anything to do on tuesday"
 p1696
 g15
 tp1697
-a(S'can you schedule new event please'
+a(S'check events on this week'
 p1698
 g15
 tp1699
-a(S'news now please'
+a(S'turn up the beat please'
 p1700
 g15
 tp1701
-a(S'what time is it now'
+a(S'shut down my computer please'
 p1702
-g34
+g15
 tp1703
-a(S'is it cold today'
+a(S'is it foggy this week'
 p1704
 g15
 tp1705
-a(S'close the active window'
+a(S'please can you check mail'
 p1706
 g15
 tp1707
-a(S'good night'
+a(S'please can you check my inbox'
 p1708
 g15
 tp1709
-a(S"get if it's freezing this week"
+a(S'can you turn my computer off'
 p1710
 g15
 tp1711
-a(S"don't check the clock right now please"
+a(S'please could you check gmail'
 p1712
 g15
 tp1713
-a(S'am i free today'
+a(S'anything new in my mail'
 p1714
 g15
 tp1715
-a(S'what do i have on today'
+a(S'open inbox please'
 p1716
 g15
 tp1717
-a(S"what's in gmail"
+a(S'please would you open inbox'
 p1718
 g15
 tp1719
-a(S'check google calendar for this day'
+a(S'will you get the current events'
 p1720
 g15
 tp1721
-a(S'do i have to do anything'
+a(S'could you please make new event'
 p1722
 g15
 tp1723
-a(S'please shut off my computer'
+a(S"this week's weather"
 p1724
 g15
 tp1725
-a(S'would you check inbox please'
+a(S'check google calendar for tomorrow'
 p1726
 g15
 tp1727
-a(S'read the clock please'
+a(S'please could you open gmail'
 p1728
-g34
+g15
 tp1729
-a(S"please don't check the clock right now"
+a(S'what is newsfeed'
 p1730
 g15
 tp1731
-a(S'please check gmail'
+a(S'what is current events'
 p1732
 g15
 tp1733
-a(S'we stick to simple problems in this post for the sake of illustration'
+a(S'can you please shutdown my computer'
 p1734
 g15
 tp1735
-a(S'can you please turn up the volume'
+a(S'can you open this program'
 p1736
 g15
 tp1737
-a(S'open mail please'
+a(S'alice'
 p1738
 g15
 tp1739
-a(S'can you turn off the computer'
+a(S'intel'
 p1740
 g15
 tp1741
-a(S'can you make event'
+a(S"what's new in gmail"
 p1742
 g15
 tp1743
-a(S'turn it down'
+a(S'shut down'
 p1744
 g15
 tp1745
-a(S'do i have anything to do on next'
+a(S'am i free for a month'
 p1746
 g15
 tp1747
-a(S'please google'
+a(S"today's forecast"
 p1748
 g15
 tp1749
-a(S'can you open this program'
+a(S'am i free on sunday'
 p1750
 g15
 tp1751
-a(S"what's new in my gmail please"
+a(S'please get time'
 p1752
-g15
+g102
 tp1753
-a(S'check calendar for today'
+a(S'check my calendar on sunday'
 p1754
 g15
 tp1755
-a(S'could you please schedule event'
+a(S'can you please add event'
 p1756
 g15
 tp1757
-a(S'please could you check inbox'
+a(S'check my calendar for thursday'
 p1758
 g15
 tp1759
-a(S'what is current events'
+a(S'anything new in gmail'
 p1760
 g15
 tp1761
-a(S'could you create event please'
+a(S'check events on friday'
 p1762
 g15
 tp1763
-a(S"if it's foggy today"
+a(S'please do not retrieve the current time'
 p1764
 g15
 tp1765
-a(S'time please'
+a(S'gather the latest headlines please'
 p1766
-g34
+g15
 tp1767
-a(S'make the volume softer'
+a(S'any new mail'
 p1768
 g15
 tp1769
-a(S'can you please shut up'
+a(S'will you open a browser'
 p1770
 g15
 tp1771
-a(S'what events are in a week'
+a(S'check calendar on this day'
 p1772
 g15
 tp1773
-a(S'what is new in mail please'
+a(S'hey alice'
 p1774
 g15
 tp1775
-a(S"what're the live news"
+a(S'please check inbox'
 p1776
 g15
 tp1777
-a(S'can you add a new event please'
+a(S'is there anything i have to do on tuesday'
 p1778
 g15
 tp1779
-a(S'please do not retrieve what time it is'
+a(S'do not check the current time please'
 p1780
 g15
 tp1781
-a(S"i think i didn't answer an earlier question"
+a(S'please do not get clock'
 p1782
 g15
 tp1783
-a(S"what're the current events"
+a(S'go to dot gov'
 p1784
 g15
 tp1785
-a(S'please will you open my mail'
+a(S'am i free for next'
 p1786
 g15
 tp1787
-a(S'stop song please'
+a(S"don't i have any events on friday"
 p1788
 g15
 tp1789
-a(S'check what time it is please'
+a(S'do i have anything on monday'
 p1790
-g34
+g15
 tp1791
-a(S'check events for tuesday'
+a(S'what events are on next'
 p1792
 g15
 tp1793
-a(S'is it cloudy today'
+a(S"don't i have to do anything on this day"
 p1794
 g15
 tp1795
-a(S'get me the clock'
+a(S'the tale pretends'
 p1796
-g34
+g15
 tp1797
-a(S"get if it's snowing today"
+a(S'search'
 p1798
 g15
 tp1799
-a(S'are there any events on today'
+a(S'google search for please'
 p1800
 g15
 tp1801
-a(S'how is the weather'
+a(S"what's the live news feed"
 p1802
 g15
 tp1803
-a(S'lower the tunes please'
+a(S'what is live news feed'
 p1804
 g15
 tp1805
-a(S"please what's in new mail"
+a(S'skip spotify please'
 p1806
 g15
 tp1807
-a(S'are there any events on this day'
+a(S'spotify last song please'
 p1808
 g15
 tp1809
-a(S'anything in gmail'
+a(S"don't check the clock please"
 p1810
 g15
 tp1811
-a(S'please do not get clock'
+a(S"get if it's freezing today"
 p1812
 g15
 tp1813
-a(S"don't get the current time"
+a(S'please can you check gmail'
 p1814
 g15
 tp1815
-a(S'please get current time'
+a(S'headlines'
 p1816
-g34
+g15
 tp1817
-a(S'do i have to do anything in a week'
+a(S'do not when is it please'
 p1818
 g15
 tp1819
-a(S'turn yourself off'
+a(S'can you lock the screen'
 p1820
 g15
 tp1821
-a(S"don't i have any events on tomorrow"
+a(S'please would you check my gmail'
 p1822
 g15
 tp1823
-a(S"how's the weather this week"
+a(S'will you check new mail'
 p1824
 g15
 tp1825
-a(S'what do i have on tomorrow'
+a(S'spotify pause please'
 p1826
 g15
 tp1827
-a(S'spotify pause'
+a(S'can you shut off'
 p1828
 g15
 tp1829
-a(S'could you please make an event'
+a(S'get time please'
 p1830
-g15
+g102
 tp1831
-a(S'could you open gmail'
+a(S'turn my computer off'
 p1832
 g15
 tp1833
-a(S'lower the volume'
+a(S'add event'
 p1834
 g15
 tp1835
-a(S'is there anything i have to do on friday'
+a(S'turn yourself off'
 p1836
 g15
 tp1837
-a(S'get the current events'
+a(S'tell me current events'
 p1838
 g15
 tp1839
-a(S'check mail'
+a(S'check my gmail'
 p1840
 g15
 tp1841
-a(S'check google calendar on this week'
+a(S'check calendar for this day'
 p1842
 g15
 tp1843
-a(S'turn my computer off please'
+a(S"don't i have any events on tuesday"
 p1844
 g15
 tp1845
-a(S'check the clock right now'
+a(S'go to dot edu'
 p1846
-g34
+g15
 tp1847
-a(S'do not retrieve the time'
+a(S"please don't get me the clock"
 p1848
 g15
 tp1849
-a(S'what do i have to do on wednesday'
+a(S"get if it's snowing today"
 p1850
 g15
 tp1851
-a(S'check new gmail'
+a(S'get live news'
 p1852
 g15
 tp1853
-a(S'do i have anything on monday'
+a(S'schedule event please'
 p1854
 g15
 tp1855
-a(S"don't i have any events on next"
+a(S'can you check my mail'
 p1856
 g15
 tp1857
-a(S"don't i have to do anything on sunday"
+a(S'shut down the computer please'
 p1858
 g15
 tp1859
-a(S'please start default browser'
+a(S'current time'
 p1860
-g15
+g102
 tp1861
-a(S'go spotify please'
+a(S'please would you open mail'
 p1862
 g15
 tp1863
-a(S'could you check inbox please'
+a(S'what do i have on sunday'
 p1864
 g15
 tp1865
-a(S'alice next please'
+a(S'please will you check mail'
 p1866
 g15
 tp1867
-a(S'can you shut down the computer'
+a(S'please make new event'
 p1868
 g15
 tp1869
-a(S'create a new event please'
+a(S'check events for this week'
 p1870
 g15
 tp1871
-a(S'spotify stop the song '
+a(S'check calendar for sunday'
 p1872
 g15
 tp1873
-a(S'make the volume zero'
+a(S'check google calendar on tomorrow'
 p1874
 g15
 tp1875
-a(S'turn off please'
+a(S'please give me the news'
 p1876
 g15
 tp1877
-a(S'check calendar for tuesday'
+a(S'check calendar for this week'
 p1878
 g15
 tp1879
-a(S'open dot gov'
+a(S'kill window'
 p1880
 g15
 tp1881
-a(S'please will you open gmail'
+a(S'please spotify previous'
 p1882
 g15
 tp1883
-a(S'give me intel on current events'
+a(S'what do i have on today'
 p1884
 g15
 tp1885
-a(S"today's headlines"
+a(S'can you exit'
 p1886
 g15
 tp1887
-a(S'please get time'
+a(S"this week's temperature"
 p1888
-g34
+g15
 tp1889
-a(S'can you please mute'
+a(S'am i free'
 p1890
 g15
 tp1891
-a(S'any events on thursday'
+a(S'what is on my calendar for saturday'
 p1892
 g15
 tp1893
-a(S'go to dot edu'
+a(S'please start browser'
 p1894
 g15
 tp1895
-a(S'spotify last song please'
+a(S"aren't there any events on tomorrow"
 p1896
 g15
 tp1897
-a(S'spotify stop'
+a(S'what is on my calendar for tuesday'
 p1898
 g15
 tp1899
-a(S'will you check inbox please'
+a(S'what events are'
 p1900
 g15
 tp1901
-a(S'what are the current events'
+a(S'will you check new mail please'
 p1902
 g15
 tp1903
-a(S'please shutdown my computer'
+a(S'are there any events on monday'
 p1904
 g15
 tp1905
-a(S'could you check my inbox'
+a(S"please what's in gmail"
 p1906
 g15
 tp1907
-a(S'volume up'
+a(S'can you please schedule an event'
 p1908
 g15
 tp1909
-a(S'what do i have to do on this day'
+a(S'do not retrieve what time it is'
 p1910
 g15
 tp1911
-a(S'please make event'
+a(S'can you check new mail please'
 p1912
 g15
 tp1913
-a(S'is it freezing this week'
+a(S'google search for'
 p1914
 g15
 tp1915
-a(S'check events for friday'
+a(S'check my calendar for wednesday'
 p1916
 g15
 tp1917
-a(S'check events on saturday'
+a(S'do i have to do anything on thursday'
 p1918
 g15
 tp1919
-a(S'do not when is it please'
+a(S"what's the temperature this week"
 p1920
 g15
 tp1921
-a(S'can you please turn up the tunez'
+a(S"don't time please"
 p1922
 g15
 tp1923
-a(S'can you shut up'
+a(S'am i free on'
 p1924
 g15
 tp1925
-a(S'do not read the time please'
+a(S'what events are on sunday'
 p1926
 g15
 tp1927
-a(S'what is in new gmail please'
+a(S'please stop song'
 p1928
 g15
 tp1929
-a(S'add event please'
+a(S'create a new event please'
 p1930
 g15
 tp1931
-a(S'what are the live newsfeed'
+a(S"don't i have to do anything on this day"
 p1932
 g15
 tp1933
-a(S'please would you check my gmail'
+a(S'please schedule new event'
 p1934
 g15
 tp1935
-a(S"if it's raining today"
+a(S'could you please schedule a new event'
 p1936
 g15
 tp1937
-a(S'please kill this window'
+a(S'could you check mail please'
 p1938
 g15
 tp1939
-a(S'find news feed'
+a(S'sound up please'
 p1940
 g15
 tp1941
-a(S'could you please add new event'
+a(S'find live newsfeed'
 p1942
 g15
 tp1943
-a(S"what's new in new mail please"
+a(S'can you check inbox please'
 p1944
 g15
 tp1945
-a(S'alice go ahead please'
+a(S'any events in a month'
 p1946
 g15
 tp1947
-a(S'get current temperature'
+a(S'please turn off'
 p1948
 g15
 tp1949
-a(S'can you make a new event please'
+a(S'search for'
 p1950
 g15
 tp1951
-a(S'can you schedule event please'
+a(S'can you add a new event please'
 p1952
 g15
 tp1953
-a(S'check inbox please'
+a(S'what events are on thursday'
 p1954
 g15
 tp1955
-a(S"don't i have anything to do on wednesday"
+a(S'what events are on monday'
 p1956
 g15
 tp1957
-a(S'check calendar for this week'
+a(S'do i have to do anything on wednesday'
 p1958
 g15
 tp1959
-a(S'please check my inbox'
+a(S'please what is in my mail'
 p1960
 g15
 tp1961
-a(S'check google calendar'
+a(S'check my calendar for'
 p1962
 g15
 tp1963
-a(S'google search for'
+a(S'check calendar on monday'
 p1964
 g15
 tp1965
-a(S'please open browser'
+a(S'can you create a new event'
 p1966
 g15
 tp1967
-a(S'check my mail'
+a(S'any events on friday'
 p1968
 g15
 tp1969
-a(S'check google calendar on'
+a(S'do i have any events on sunday'
 p1970
 g15
 tp1971
-a(S'are there any events on saturday'
+a(S'please open my gmail'
 p1972
 g15
 tp1973
-a(S"how's the forecast today"
+a(S'am i free on this day'
 p1974
 g15
 tp1975
-a(S'will you check gmail'
+a(S"don't i have any events on wednesday"
 p1976
 g15
 tp1977
-a(S"don't i have to do anything on"
+a(S"don't i have to do anything on wednesday"
 p1978
 g15
 tp1979
-a(S"don't get the time"
+a(S'alex'
 p1980
 g15
 tp1981
-a(S'is there anything to do tomorrow'
+a(S'song stop'
 p1982
 g15
 tp1983
-a(S"this week's temperature"
+a(S'please get the clock'
 p1984
-g15
+g102
 tp1985
-a(S"don't i have to do anything on thursday"
+a(S'get the current time'
 p1986
-g15
+g102
 tp1987
-a(S'can you add an event please'
+a(S'will it rain this week'
 p1988
 g15
 tp1989
-a(S'make a new event'
+a(S'will you open mail please'
 p1990
 g15
 tp1991
-a(S'could you open my mail'
+a(S'please get the current events'
 p1992
 g15
 tp1993
-a(S'check google calendar on wednesday'
+a(S'will you check gmail'
 p1994
 g15
 tp1995
-a(S"what's new in my inbox please"
+a(S'get newsfeed'
 p1996
 g15
 tp1997
-a(S'can you please turn off the computer'
+a(S"what's new in my mail"
 p1998
 g15
 tp1999
-a(S"please what's new in my gmail"
+a(S'what is new in my inbox'
 p2000
 g15
 tp2001
-a(S'schedule event'
+a(S'check google calendar for thursday'
 p2002
 g15
 tp2003
-a(S'google for please'
+a(S'good bye'
 p2004
 g15
 tp2005
-a(S'is it freezing today'
+a(S'find news feed'
 p2006
 g15
 tp2007
-a(S'is there anything to do on'
+a(S"today's current events"
 p2008
 g15
 tp2009
-a(S"please what's new in mail"
+a(S'check google calendar for friday'
 p2010
 g15
 tp2011
-a(S'do i have anything on friday'
+a(S'please what is in new gmail'
 p2012
 g15
 tp2013
-a(S'turn the sound down please'
+a(S"what's new in new mail"
 p2014
 g15
 tp2015
-a(S'check calendar on sunday'
+a(S'could you open my inbox please'
 p2016
 g15
 tp2017
-a(S'will you check new gmail'
+a(S'any events on thursday'
 p2018
 g15
 tp2019
-a(S'do i have any events on saturday'
+a(S'please check the clock right now'
 p2020
-g15
+g102
 tp2021
-a(S'could you please schedule a new event'
+a(S'what is news feed'
 p2022
 g15
 tp2023
-a(S'can you please turn the tune down'
+a(S'check calendar on next'
 p2024
 g15
 tp2025
-a(S'okay alex'
+a(S'make the volume lower'
 p2026
 g15
 tp2027
-a(S'what events are on thursday'
+a(S"don't i have to do anything on monday"
 p2028
 g15
 tp2029
-a(S'please check my gmail'
+a(S'get the current time please'
 p2030
-g15
+g102
 tp2031
-a(S'spotify play the last song'
+a(S'please start'
 p2032
 g15
 tp2033
-a(S'is there anything to do on monday'
+a(S'can you check new mail'
 p2034
 g15
 tp2035
-a(S'please will you open my inbox'
+a(S'open my gmail'
 p2036
 g15
 tp2037
-a(S'do i have anything to do on sunday'
+a(S'would you check inbox'
 p2038
 g15
 tp2039
-a(S'do not get time please'
+a(S'will it hail today'
 p2040
 g15
 tp2041
-a(S"aren't there any events on sunday"
+a(S'make the volume zero'
 p2042
 g15
 tp2043
-a(S"please don't when is it"
+a(S'is it cloudy today'
 p2044
 g15
 tp2045
-a(S'what is new in mail'
+a(S'could you schedule a new event please'
 p2046
 g15
 tp2047
-a(S'could you create an event please'
+a(S"what's if it's cloudy this week"
 p2048
 g15
 tp2049
-a(S'can you please add event'
+a(S'increase the volume'
 p2050
 g15
 tp2051
-a(S'tell me current news'
+a(S'please lock my computer'
 p2052
 g15
 tp2053
-a(S'please will you check my inbox'
+a(S'please do not check the current time'
 p2054
 g15
 tp2055
-a(S'do i have anything to do on saturday'
+a(S'what events do i have on friday'
 p2056
 g15
 tp2057
-a(S'please could you check my gmail'
+a(S'what are the newsfeed'
 p2058
 g15
 tp2059
-a(S'turn down the sound'
+a(S'can you make new event'
 p2060
 g15
 tp2061
-a(S"get if it's rainy this week"
+a(S'music down'
 p2062
 g15
 tp2063
-a(S"don't i have to do anything tomorrow"
+a(S'can you turn up the beat'
 p2064
 g15
 tp2065
-a(S'check calendar'
+a(S'can you add event'
 p2066
 g15
 tp2067
-a(S'is it snowing this week'
+a(S'quit'
 p2068
 g15
 tp2069
-a(S'am i free for monday'
+a(S"get if it's hot today"
 p2070
 g15
 tp2071
-a(S"get this week's temperature"
+a(S'spotify go back to the last song '
 p2072
 g15
 tp2073
-a(S"what's today's weather"
+a(S'please spotify pause'
 p2074
 g15
 tp2075
-a(S'shut down the computer'
+a(S'please find out the latest headlines'
 p2076
 g15
 tp2077
-a(S'please would you open my mail'
+a(S'please do not retrieve what time it is'
 p2078
 g15
 tp2079
-a(S"what's today's forecast"
+a(S'please be quiet'
 p2080
 g15
 tp2081
-a(S"please what's in inbox"
+a(S'what is new in inbox please'
 p2082
 g15
 tp2083
-a(S'do not get the time'
+a(S'turn yourself off please'
 p2084
 g15
 tp2085
-a(S'sweet dreams alice'
+a(S'do not get time please'
 p2086
 g15
 tp2087
-a(S'could you please create event'
+a(S"aren't there any events on saturday"
 p2088
 g15
 tp2089
-a(S"don't get time please"
+a(S'would you open my inbox please'
 p2090
 g15
 tp2091
-a(S'can you unmute'
+a(S'can you please shut down my computer'
 p2092
 g15
 tp2093
-a(S'please sound up'
+a(S"don't i have anything tomorrow"
 p2094
 g15
 tp2095
-a(S'do i have anything to do on monday'
+a(S"don't i have anything today"
 p2096
 g15
 tp2097
-a(S'check google calendar for saturday'
+a(S'alice next please'
 p2098
 g15
 tp2099
-a(S'what is on my calendar for today'
+a(S'will you open my mail'
 p2100
 g15
 tp2101
-a(S"today's newsfeed"
+a(S'would you check gmail'
 p2102
 g15
 tp2103
-a(S'can you turn up the tune'
+a(S'please close the active window'
 p2104
 g15
 tp2105
-a(S'what events are on tomorrow'
+a(S'open'
 p2106
 g15
 tp2107
-a(S'go to dot net'
+a(S'search please'
 p2108
 g15
 tp2109
-a(S"don't i have any events on tuesday"
+a(S"get if it's hot this week"
 p2110
 g15
 tp2111
-a(S'time'
+a(S'can you kill the current window'
 p2112
-g34
+g15
 tp2113
-a(S'could you add a new event please'
+a(S'debrief me'
 p2114
 g15
 tp2115
-a(S'am i free for a week'
+a(S'check inbox'
 p2116
 g15
 tp2117
-a(S'start'
+a(S'please get clock'
 p2118
-g15
+g102
 tp2119
-a(S'please spotify pause'
+a(S'please can you turn the volume higher'
 p2120
 g15
 tp2121
-a(S'check calendar on this week'
+a(S"how's the weather this week"
 p2122
 g15
 tp2123
-a(S'can you please create event'
+a(S'could you check new mail please'
 p2124
 g15
 tp2125
-a(S'what is live newsfeed'
+a(S'please shut off my computer'
 p2126
 g15
 tp2127
-a(S"get if it's hot today"
+a(S'what is new in gmail'
 p2128
 g15
 tp2129
-a(S"what's the weather"
+a(S'please add a new event'
 p2130
 g15
 tp2131
-a(S'can you open a browser'
+a(S'get the the latest headlines'
 p2132
 g15
 tp2133
-a(S'anything new in my inbox'
+a(S"get if it's raining this week"
 p2134
 g15
 tp2135
-a(S'current events'
+a(S'can you lock my computer please'
 p2136
 g15
 tp2137
-a(S'do not read your watch please'
+a(S"today's newsfeed"
 p2138
 g15
 tp2139
-a(S"don't i have to do anything"
+a(S'what is on my calendar for tomorrow'
 p2140
 g15
 tp2141
-a(S'can you please close this window'
+a(S'could you open my inbox'
 p2142
 g15
 tp2143
-a(S"what's in gmail please"
+a(S'could you create an event please'
 p2144
 g15
 tp2145
-a(S'check events on today'
+a(S'close the active window'
 p2146
 g15
 tp2147
-a(S'sound up please'
+a(S'what do i have on wednesday'
 p2148
 g15
 tp2149
-a(S'add an event please'
+a(S'find newsfeed'
 p2150
 g15
 tp2151
-a(S'what events do i have on monday'
+a(S"please don't read the clock"
 p2152
 g15
 tp2153
-a(S'please spotify last'
+a(S'do not check your watch please'
 p2154
 g15
 tp2155
-a(S'gimme the news'
+a(S'please shut down my computer'
 p2156
 g15
 tp2157
-a(S'do i have any events on monday'
+a(S'current events today'
 p2158
 g15
 tp2159
-a(S'debrief me'
+a(S'please kill active window'
 p2160
 g15
 tp2161
-a(S"don't i have any events in a week"
+a(S'is it raining today'
 p2162
 g15
 tp2163
-a(S'can you add new event please'
+a(S'am i free on next'
 p2164
 g15
 tp2165
-a(S'please what is in new mail'
+a(S'check the clock please'
 p2166
-g15
+g102
 tp2167
-a(S"don't i have to do anything on sunday"
+a(S'turn up the volume please'
 p2168
 g15
 tp2169
-a(S"don't i have anything to do in a week"
+a(S'could you create event'
 p2170
 g15
 tp2171
-a(S"what's the live newsfeed"
+a(S'will you check new gmail'
 p2172
 g15
 tp2173
-a(S"what's the forecast"
+a(S'please will you open my inbox'
 p2174
 g15
 tp2175
-a(S'am i free on monday'
+a(S'what do i have to do on tuesday'
 p2176
 g15
 tp2177
-a(S'music down'
+a(S'turn it down'
 p2178
 g15
 tp2179
-a(S'are there any events in a month'
+a(S'put me on the lock screen'
 p2180
 g15
 tp2181
-a(S'kill the noise'
+a(S'check calendar on friday'
 p2182
 g15
 tp2183
-a(S'check calendar for wednesday'
+a(S'start browser'
 p2184
 g15
 tp2185
-a(S'do i have anything to do tomorrow'
+a(S'can you turn up the volume'
 p2186
 g15
 tp2187
-a(S'please create event'
+a(S'check my calendar on next'
 p2188
 g15
 tp2189
-a(S'open gmail'
+a(S'check google calendar for sunday'
 p2190
 g15
 tp2191
-a(S'am i free on friday'
+a(S'lock'
 p2192
 g15
 tp2193
-a(S'what events do i have on wednesday'
+a(S'close this window'
 p2194
 g15
 tp2195
-a(S'will you open mail'
+a(S"if it's foggy today"
 p2196
 g15
 tp2197
-a(S'can you please kill the current window'
+a(S'can you make an event'
 p2198
 g15
 tp2199
-a(S'can you check my gmail please'
+a(S'can you check my gmail'
 p2200
 g15
 tp2201
-a(S'close current program'
+a(S"don't i have to do anything on friday"
 p2202
 g15
 tp2203
-a(S'please schedule new event'
+a(S"don't check your watch please"
 p2204
 g15
 tp2205
-a(S"get this week's forecast"
+a(S'check my calendar on'
 p2206
 g15
 tp2207
-a(S'do i have to do anything on next'
+a(S'is there anything to do tomorrow'
 p2208
 g15
 tp2209
-a(S'google please for'
+a(S'can you check my gmail please'
 p2210
 g15
 tp2211
-a(S'google please'
+a(S'please what is in gmail'
 p2212
 g15
 tp2213
-a(S"don't i have anything to do in a month"
+a(S'go spotify please'
 p2214
 g15
 tp2215
-a(S'will you check my mail'
+a(S'are there any events in a week'
 p2216
 g15
 tp2217
-a(S'hey alex'
+a(S'check mail'
 p2218
 g15
 tp2219
-a(S'can you check gmail'
+a(S'check calendar on saturday'
 p2220
 g15
 tp2221
-a(S'spotify skip ahead'
+a(S'can you send me to the lock screen'
 p2222
 g15
 tp2223
-a(S'mute'
+a(S'check my calendar for monday'
 p2224
 g15
 tp2225
-a(S"how's the temperature today"
+a(S'is it cold today'
 p2226
 g15
 tp2227
-a(S'is it raining this week'
+a(S'create new event please'
 p2228
 g15
 tp2229
-a(S"don't i have anything on sunday"
+a(S'do i have anything in my inbox'
 p2230
 g15
 tp2231
-a(S'please open my gmail'
+a(S"today's news feed"
 p2232
 g15
 tp2233
-a(S'could you create event'
+a(S'would you check my mail please'
 p2234
 g15
 tp2235
-a(S"what's not the time"
+a(S'is it hot today'
 p2236
 g15
 tp2237
-a(S'can you please add a new event'
+a(S'is there anything to do on thursday'
 p2238
 g15
 tp2239
-a(S'check my calendar on today'
+a(S'get current time'
 p2240
-g15
+g102
 tp2241
-a(S'schedule new event'
+a(S'the news'
 p2242
 g15
 tp2243
-a(S'open my gmail please'
+a(S'send me to the lock screen'
 p2244
 g15
 tp2245
-a(S"what's in my mail"
+a(S'would you check new mail'
 p2246
 g15
 tp2247
-a(S'spotify start please'
+a(S'what do i have to do on'
 p2248
 g15
 tp2249
-a(S'can you send me to the lock screen'
+a(S"don't i have anything on next"
 p2250
 g15
 tp2251
-a(S'what events are on'
+a(S'schedule new event'
 p2252
 g15
 tp2253
-a(S'shut off please'
+a(S"how's the forecast today"
 p2254
 g15
 tp2255
-a(S'tell me the news'
+a(S'find the news'
 p2256
 g15
 tp2257
-a(S"what's in my gmail please"
+a(S"don't read the time"
 p2258
 g15
 tp2259
-a(S'will you open my gmail'
+a(S'check google calendar for this day'
 p2260
 g15
 tp2261
-a(S'check my calendar for wednesday'
+a(S'what is in my mail'
 p2262
 g15
 tp2263
-a(S'a backbone dictates above my grief'
+a(S"what's in gmail please"
 p2264
 g15
 tp2265
-a(S"don't i have to do anything on tuesday"
+a(S'is there anything i have to do on wednesday'
 p2266
 g15
 tp2267
-a(S'what is on my calendar for tuesday'
+a(S'please what is in my gmail'
 p2268
 g15
 tp2269
-a(S'is there anything i have to do in a week'
+a(S'check the current time'
 p2270
-g15
+g102
 tp2271
-a(S'please go to'
+a(S'do not get current time please'
 p2272
 g15
 tp2273
-a(S'please would you check gmail'
+a(S'spotify play the song'
 p2274
 g15
 tp2275
-a(S'check my calendar'
+a(S'what is in new gmail'
 p2276
 g15
 tp2277
-a(S"how's the forecast this week"
+a(S"what's temperature"
 p2278
 g15
 tp2279
-a(S'current news today'
+a(S'create a new event'
 p2280
 g15
 tp2281
-a(S'would you open my inbox'
+a(S"please what's in mail"
 p2282
 g15
 tp2283
-a(S'please do not read the clock'
+a(S'could you check my mail'
 p2284
 g15
 tp2285
-a(S"what's if it's hot this week"
+a(S"don't i have anything on"
 p2286
 g15
 tp2287
-a(S'can you decrease the sound'
+a(S'anything new in inbox'
 p2288
 g15
 tp2289
-a(S'open dot net'
+a(S'make a new event'
 p2290
 g15
 tp2291
-a(S'what do i have on next'
+a(S'can you quit'
 p2292
 g15
 tp2293
-a(S'create event'
+a(S'give me the current events please'
 p2294
 g15
 tp2295
-a(S'spotify stop playing'
+a(S'spotify play the song before'
 p2296
 g15
 tp2297
-a(S"don't i have any events on saturday"
+a(S'give me the news please'
 p2298
 g15
 tp2299
-a(S'open dot edu'
+a(S'am i free on friday'
 p2300
 g15
 tp2301
-a(S"don't i have to do anything in a week"
+a(S"don't i have anything to do on next"
 p2302
 g15
 tp2303
-a(S"how's the forecast"
+a(S'can you schedule event'
 p2304
 g15
 tp2305
-a(S'would you check mail'
+a(S'could you create a new event'
 p2306
 g15
 tp2307
-a(S'i like dogs'
+a(S'what is on my calendar for this week'
 p2308
 g15
 tp2309
-a(S"don't i have anything in a month"
+a(S'tell me headlines'
 p2310
 g15
 tp2311
-a(S'please could you open my gmail'
+a(S'alice go ahead please'
 p2312
 g15
 tp2313
-a(S"aren't there any events in a month"
+a(S'please google'
 p2314
 g15
 tp2315
-a(S'get the current time please'
+a(S'would you open my gmail'
 p2316
-g34
+g15
 tp2317
-a(S'live newsfeed today'
+a(S"don't when is it please"
 p2318
 g15
 tp2319
-a(S'google'
+a(S"please what's in new mail"
 p2320
 g15
 tp2321
-a(S'check my calendar on this day'
+a(S"get this week's weather"
 p2322
 g15
 tp2323
-a(S'please will you check new gmail'
+a(S'check calendar on today'
 p2324
 g15
 tp2325
-a(S'turn up the tunez please'
+a(S'turn off the computer please'
 p2326
 g15
 tp2327
-a(S'alex'
+a(S'anything in my gmail'
 p2328
 g15
 tp2329
-a(S'what is new in gmail please'
+a(S'what is on my calendar for this day'
 p2330
 g15
 tp2331
-a(S'make the volume lower'
+a(S'could you make a new event please'
 p2332
 g15
 tp2333
-a(S'check google calendar for'
+a(S"what's the time"
 p2334
-g15
+g102
 tp2335
-a(S'turn up the tunes'
+a(S'could you please add event'
 p2336
 g15
 tp2337
-a(S'what do i have to do on sunday'
+a(S'any events'
 p2338
 g15
 tp2339
-a(S"don't i have to do anything in a month"
+a(S'retrieve the time'
 p2340
-g15
+g102
 tp2341
-a(S"what time isn't it"
+a(S'can you please schedule event'
 p2342
 g15
 tp2343
-a(S'check calendar on tuesday'
+a(S'check google calendar on tuesday'
 p2344
 g15
 tp2345
-a(S'can you please turn off my computer'
+a(S'what is on my calendar for next'
 p2346
 g15
 tp2347
-a(S'what events do i have on sunday'
+a(S'get current news'
 p2348
 g15
 tp2349
-a(S"get if it's raining today"
+a(S'please sound up'
 p2350
 g15
 tp2351
-a(S'please read time'
+a(S'check events for wednesday'
 p2352
-g34
+g15
 tp2353
-a(S'do i have anything to do next'
+a(S'what do i have on'
 p2354
 g15
 tp2355
-a(S'do not get clock please'
+a(S'please play spotify '
 p2356
 g15
 tp2357
-a(S"don't i have anything to do"
+a(S'news today'
 p2358
 g15
 tp2359
-a(S'please schedule event'
+a(S'can you please shut off my computer'
 p2360
 g15
 tp2361
-a(S"don't i have to do anything in a month"
+a(S'could you schedule event please'
 p2362
 g15
 tp2363
-a(S'please shut down the computer'
+a(S'can you check new gmail please'
 p2364
 g15
 tp2365
-a(S'check calendar on tomorrow'
+a(S'what is headlines'
 p2366
 g15
 tp2367
-a(S'current news'
+a(S"how's the temperature today"
 p2368
 g15
 tp2369
-a(S'are there any events on'
+a(S'can you get the latest headlines'
 p2370
 g15
 tp2371
-a(S'news feed today'
+a(S'start browsing'
 p2372
 g15
 tp2373
-a(S'can you lock the screen please'
+a(S'would you check my gmail please'
 p2374
 g15
 tp2375
-a(S'go to dot gov'
+a(S'spotify start please'
 p2376
 g15
 tp2377
-a(S"what's in my mail please"
+a(S'what is in inbox'
 p2378
 g15
 tp2379
-a(S'spotify next'
+a(S'news feed'
 p2380
 g15
 tp2381
-a(S'check my calendar on'
+a(S'what do i have on next'
 p2382
 g15
 tp2383
-a(S'could you schedule event'
+a(S'do i have to do anything on tuesday'
 p2384
 g15
 tp2385
-a(S"don't time please"
+a(S'start a browser please'
 p2386
 g15
 tp2387
-a(S'any events on sunday'
+a(S'please check the current time'
 p2388
-g15
+g102
 tp2389
-a(S'what is new in new gmail'
+a(S'spotify go ahead'
 p2390
 g15
 tp2391
-a(S'can you add new event'
+a(S'do i have to do anything on saturday'
 p2392
 g15
 tp2393
-a(S"what's this week's temperature"
+a(S'can you add new event please'
 p2394
 g15
 tp2395
-a(S'can you get the current events'
+a(S'get me the news todays'
 p2396
 g15
 tp2397
-a(S'would you check my mail please'
+a(S"if it's cold today"
 p2398
 g15
 tp2399
-a(S'will you open inbox please'
+a(S'check if i have anything in my inbox'
 p2400
 g15
 tp2401
-a(S'good bye'
+a(S'do not retrieve the current time'
 p2402
 g15
 tp2403
-a(S'would you check new mail please'
+a(S'kill this window'
 p2404
 g15
 tp2405
-a(S'would you open my mail'
+a(S"please don't get the current time"
 p2406
 g15
 tp2407
-a(S'could you check my inbox please'
+a(S'create event please'
 p2408
 g15
 tp2409
-a(S"today's live news feed"
+a(S'what do i have to do'
 p2410
 g15
 tp2411
-a(S'check events for thursday'
+a(S"today's live news feed"
 p2412
 g15
 tp2413
-a(S'could you please make event'
+a(S'check google calendar for this day'
 p2414
 g15
 tp2415
-a(S'can you please turn off'
+a(S'check what time it is'
 p2416
-g15
+g102
 tp2417
-a(S'please do not check the clock right now'
+a(S'louder please'
 p2418
 g15
 tp2419
-a(S'is there anything to do on tomorrow'
+a(S'shut my computer down'
 p2420
 g15
 tp2421
-a(S'be quiet'
+a(S"what's forecast"
 p2422
 g15
 tp2423
-a(S'can you please close active window'
+a(S'open browser please'
 p2424
 g15
 tp2425
-a(S'turn up the beat please'
+a(S'could you schedule an event'
 p2426
 g15
 tp2427
-a(S"please don't check the clock"
+a(S'please do not retrieve the time'
 p2428
 g15
 tp2429
-a(S'any events on saturday'
+a(S"please what's new in gmail"
 p2430
 g15
 tp2431
-a(S"how's the weather today"
+a(S'add new event please'
 p2432
 g15
 tp2433
-a(S'check events on'
+a(S'check google calendar on today'
 p2434
 g15
 tp2435
-a(S'check the clock'
+a(S"don't get me the clock"
 p2436
-g34
+g15
 tp2437
-a(S'could you check my gmail'
+a(S"don't i have anything to do on wednesday"
 p2438
 g15
 tp2439
-a(S"what's new in inbox"
+a(S'turn off'
 p2440
 g15
 tp2441
-a(S"don't i have anything today"
+a(S"don't i have any events on sunday"
 p2442
 g15
 tp2443
-a(S'get headlines'
+a(S"don't i have anything on wednesday"
 p2444
 g15
 tp2445
-a(S'please sound higher'
+a(S'spotify stop playing'
 p2446
 g15
 tp2447
-a(S'please shut my computer down'
+a(S'kill current window'
 p2448
 g15
 tp2449
-a(S"what time isn't it now"
+a(S"what's the weather this week"
 p2450
 g15
 tp2451
-a(S"don't check the clock please"
+a(S'can you please close the active window'
 p2452
 g15
 tp2453
-a(S'check google calendar on tomorrow'
+a(S'please schedule event'
 p2454
 g15
 tp2455
-a(S"please don't get current time"
+a(S'can you please kill the window'
 p2456
 g15
 tp2457
-a(S"what's new in inbox please"
+a(S'can you please turn up the sound'
 p2458
 g15
 tp2459
-a(S'please what is new in new mail'
+a(S'create new event'
 p2460
 g15
 tp2461
-a(S"what's if it's snowing today"
+a(S'check google calendar on this day'
 p2462
 g15
 tp2463
-a(S'would you check mail please'
+a(S"don't i have anything on friday"
 p2464
 g15
 tp2465
-a(S"don't i have to do anything on friday"
+a(S'do i have any events on friday'
 p2466
 g15
 tp2467
-a(S'check my calendar for this day'
+a(S'can you unmute please'
 p2468
 g15
 tp2469
-a(S'please spotify previous song'
+a(S'create an event please'
 p2470
 g15
 tp2471
-a(S'do not read me the clock please'
+a(S'can you please shut up'
 p2472
 g15
 tp2473
-a(S'check what time it is'
+a(S'please do not read me the clock'
 p2474
-g34
+g15
 tp2475
-a(S'do i have any events in a week'
+a(S'kill the active program'
 p2476
 g15
 tp2477
-a(S'open mail'
+a(S'do i have to do anything next'
 p2478
 g15
 tp2479
-a(S'open my inbox please'
+a(S'please open mail'
 p2480
 g15
 tp2481
-a(S'do i have any events on'
+a(S'add event please'
 p2482
 g15
 tp2483
-a(S'could you schedule new event'
+a(S"don't get me the clock please"
 p2484
 g15
 tp2485
-a(S"what's the headlines"
+a(S'please shutdown the computer'
 p2486
 g15
 tp2487
-a(S'please will you open mail'
+a(S'can you please open a browser'
 p2488
 g15
 tp2489
-a(S'will you check inbox'
+a(S'read the time please'
 p2490
-g15
+g102
 tp2491
-a(S'get the news'
+a(S'is it snowing this week'
 p2492
 g15
 tp2493
-a(S'check calendar for this month'
+a(S'please open dot com'
 p2494
 g15
 tp2495
-a(S'please google for'
+a(S'find current news'
 p2496
 g15
 tp2497
-a(S"what's in new mail"
+a(S'am i free in a month'
 p2498
 g15
 tp2499
-a(S'anything new in my mail'
+a(S'open browser'
 p2500
 g15
 tp2501
-a(S"what's the clock"
+a(S'please open a browser'
 p2502
-g34
+g15
 tp2503
-a(S'are there any events'
+a(S'start spotify please'
 p2504
 g15
 tp2505
-a(S'do not get clock'
+a(S'can you check if i have anything in my inbox'
 p2506
 g15
 tp2507
-a(S'bye bye'
+a(S'is there anything i have to do'
 p2508
 g15
 tp2509
-a(S'check google calendar for thursday'
+a(S'check my inbox please'
 p2510
 g15
 tp2511
-a(S'what is in my gmail'
+a(S"what's if it's cold this week"
 p2512
 g15
 tp2513
-a(S'can you add event please'
+a(S'can you please create new event'
 p2514
 g15
 tp2515
-a(S'can you turn up the beat'
+a(S'is it foggy today'
 p2516
 g15
 tp2517
-a(S'am i free for thursday'
+a(S'please spotify pause'
 p2518
 g15
 tp2519
-a(S'please open gmail'
+a(S'could you add a new event'
 p2520
 g15
 tp2521
-a(S'any gmail'
+a(S'could you add event'
 p2522
 g15
 tp2523
-a(S'unmute'
+a(S"please what's new in mail"
 p2524
 g15
 tp2525
-a(S'make new event please'
+a(S'pause the song please'
 p2526
 g15
 tp2527
-a(S'can you please add new event'
+a(S'do not read time'
 p2528
 g15
 tp2529
-a(S'please can you check inbox'
+a(S'could you please schedule event'
 p2530
 g15
 tp2531
-a(S'please what is in gmail'
+a(S"today's temperature"
 p2532
 g15
 tp2533
-a(S'tell me live news feed'
+a(S'will you check my mail'
 p2534
 g15
 tp2535
-a(S'do not check what time it is please'
+a(S'what events do i have in a week'
 p2536
 g15
 tp2537
-a(S"if it's rainy this week"
+a(S'what events are going on right now'
 p2538
 g15
 tp2539
-a(S"how's the temperature this week"
+a(S'could you create new event please'
 p2540
 g15
 tp2541
-a(S"what's if it's raining this week"
+a(S'train a classifier to try to predict the category of a post'
 p2542
 g15
 tp2543
-a(S'do not get the clock please'
+a(S'start a default browser'
 p2544
 g15
 tp2545
-a(S'kill the program'
+a(S"today's temperature"
 p2546
 g15
 tp2547
-a(S'find live news feed'
+a(S'would you open my gmail please'
 p2548
 g15
 tp2549
-a(S'check google calendar on friday'
+a(S"don't i have to do anything"
 p2550
 g15
 tp2551
-a(S'go ahead'
+a(S'check google calendar for this month'
 p2552
 g15
 tp2553
-a(S'do i have anything on saturday'
+a(S'do i have any events in a month'
 p2554
 g15
 tp2555
-a(S"aren't there any events on today"
+a(S'can you please create event'
 p2556
 g15
 tp2557
-a(S'search for'
+a(S'spotify skip ahead'
 p2558
 g15
 tp2559
-a(S'can you turn off my computer'
+a(S'can you schedule a new event please'
 p2560
 g15
 tp2561
-a(S'what do i have on wednesday'
+a(S'what events do i have on saturday'
 p2562
 g15
 tp2563
-a(S'will you check new gmail please'
+a(S"get today's forecast"
 p2564
 g15
 tp2565
-a(S'what do i have'
+a(S'can you shut up'
 p2566
 g15
 tp2567
-a(S'can you please exit'
+a(S'check the clock right now please'
 p2568
-g15
+g102
 tp2569
-a(S'please could you check my inbox'
+a(S"aren't there any events on sunday"
 p2570
 g15
 tp2571
-a(S'am i free for'
+a(S'check google calendar for this week'
 p2572
 g15
 tp2573
-a(S'send me to the lock screen please'
+a(S'do i have any events on tuesday'
 p2574
 g15
 tp2575
-a(S"don't i have to do anything on wednesday"
+a(S'please schedule an event'
 p2576
 g15
 tp2577
-a(S'check calendar on next'
+a(S'can you get the current events'
 p2578
 g15
 tp2579
-a(S"please don't retrieve the time"
+a(S'please volume higher'
 p2580
 g15
 tp2581
-a(S"this week's weather"
+a(S'google search'
 p2582
 g15
 tp2583
-a(S'am i free on saturday'
+a(S'can you please exit'
 p2584
 g15
 tp2585
-a(S'are there any events on friday'
+a(S'check events on thursday'
 p2586
 g15
 tp2587
-a(S"don't i have any events on today"
+a(S'please do not check the clock'
 p2588
 g15
 tp2589
-a(S"don't i have any events on"
+a(S'can you please turn off'
 p2590
 g15
 tp2591
-a(S'can you shut down my computer'
+a(S'what are the current events today'
 p2592
 g15
 tp2593
-a(S'what is in my mail please'
+a(S'do i have any events on tomorrow'
 p2594
 g15
 tp2595
-a(S'can you turn up the volume please'
+a(S'am i free for a week'
 p2596
 g15
 tp2597
-a(S'do i have any events on today'
+a(S"what's the live news"
 p2598
 g15
 tp2599
-a(S'do not get current time'
+a(S"what's in my gmail please"
 p2600
 g15
 tp2601
-a(S'what events are on this day'
+a(S'can you lock the screen please'
 p2602
 g15
 tp2603
-a(S'could you make an event'
+a(S"what time isn't it"
 p2604
 g15
 tp2605
-a(S'what is on my calendar for this week'
+a(S'check events for saturday'
 p2606
 g15
 tp2607
-a(S'spotify go back to the last song '
+a(S'can you create event'
 p2608
 g15
 tp2609
-a(S'what events do i have on saturday'
+a(S"don't get clock please"
 p2610
 g15
 tp2611
-a(S'can you please make a new event'
+a(S"please don't retrieve the current time"
 p2612
 g15
 tp2613
-a(S'can you please create a new event'
+a(S"aren't there any events"
 p2614
 g15
 tp2615
-a(S'can you please turn the beat down'
+a(S'am i free for monday'
 p2616
 g15
 tp2617
-a(S'what events are on tuesday'
+a(S'check events for tuesday'
 p2618
 g15
 tp2619
-a(S'please can you check my gmail'
+a(S'will it rain today'
 p2620
 g15
 tp2621
-a(S'make new event'
+a(S'please close this window'
 p2622
 g15
 tp2623
-a(S'what is new in gmail'
+a(S'is there anything to do on next'
 p2624
 g15
 tp2625
-a(S'are there any events on thursday'
+a(S'check google calendar on wednesday'
 p2626
 g15
 tp2627
-a(S'will you check mail'
+a(S'check your watch please'
 p2628
-g15
+g102
 tp2629
-a(S'could you please create new event'
+a(S'please can you turn up the volume'
 p2630
 g15
 tp2631
-a(S'what is new in new mail please'
+a(S'please check my mail'
 p2632
 g15
 tp2633
-a(S'anything in my mail'
+a(S'could you check new gmail'
 p2634
 g15
 tp2635
-a(S'brief me'
+a(S'what do i have to do in a week'
 p2636
 g15
 tp2637
-a(S'kill active window'
+a(S'spotify start the song please'
 p2638
 g15
 tp2639
-a(S'would you check gmail please'
+a(S"what's the news feed"
 p2640
 g15
 tp2641
-a(S'can you create new event'
+a(S'whats going on in the world todays please'
 p2642
 g15
 tp2643
-a(S'would you check my inbox'
+a(S'give me the current events'
 p2644
 g15
 tp2645
-a(S"how's the weather"
+a(S'spotify next'
 p2646
 g15
 tp2647
-a(S'spotify last please'
+a(S'please check mail'
 p2648
 g15
 tp2649
-a(S"don't read me the clock please"
+a(S'please will you check my inbox'
 p2650
 g15
 tp2651
-a(S'start a browser'
+a(S'please send me to the lock screen'
 p2652
 g15
 tp2653
-a(S"what's the forecast this week"
+a(S'please check new mail'
 p2654
 g15
 tp2655
-a(S'get current news'
+a(S'what is new in new mail'
 p2656
 g15
 tp2657
-a(S"don't retrieve what time it is"
+a(S'please do not get the current time'
 p2658
 g15
 tp2659
-a(S'create an event please'
+a(S'get clock please'
 p2660
-g15
+g102
 tp2661
-a(S'please check inbox'
+a(S'open dot net'
 p2662
 g15
 tp2663
-a(S'forecast'
+a(S'shut down my computer'
 p2664
 g15
 tp2665
-a(S'get live newsfeed'
+a(S'close current program'
 p2666
 g15
 tp2667
-a(S'any events on next'
+a(S'kill the active window'
 p2668
 g15
 tp2669
-a(S'please could you open gmail'
+a(S'can you close this window'
 p2670
 g15
 tp2671
-a(S'what do i have to do on tomorrow'
+a(S'can you please mute'
 p2672
 g15
 tp2673
-a(S'google search for please'
+a(S'what is in my gmail'
 p2674
 g15
 tp2675
-a(S'current events please'
+a(S'what time is it currently'
 p2676
-g15
+g102
 tp2677
-a(S'please what is in my gmail'
+a(S'can you check gmail please'
 p2678
 g15
 tp2679
-a(S'make the volume 0'
+a(S'go to dot ee dee you'
 p2680
 g15
 tp2681
-a(S'shut off my computer please'
+a(S'please what is in inbox'
 p2682
 g15
 tp2683
-a(S'anything in mail'
+a(S'am i free for tuesday'
 p2684
 g15
 tp2685
-a(S'what do i have to do on monday'
+a(S'turn down the volume'
 p2686
 g15
 tp2687
-a(S'exit'
+a(S"what're the live newsfeed"
 p2688
 g15
 tp2689
-a(S'start the song'
+a(S'do not check your watch'
 p2690
 g15
 tp2691
-a(S"what's in my inbox"
+a(S'can you lock my computer please'
 p2692
 g15
 tp2693
-a(S'please close this window'
+a(S'please go spotify '
 p2694
 g15
 tp2695
-a(S"please what's in my gmail"
+a(S'are there any events on today'
 p2696
 g15
 tp2697
-a(S'go back please'
+a(S"don't i have to do anything on"
 p2698
 g15
 tp2699
-a(S'increase the volume'
+a(S'can you check my inbox'
 p2700
 g15
 tp2701
-a(S'anything new in my gmail'
+a(S'do i have any events on this day'
 p2702
 g15
 tp2703
-a(S'can you please shut down my computer'
+a(S"what's in new mail please"
 p2704
 g15
 tp2705
-a(S'do i have any events on next'
+a(S"what's in my mail"
 p2706
 g15
 tp2707
-a(S'tell me news'
+a(S'am i free'
 p2708
 g15
 tp2709
-a(S'would you check my mail'
+a(S'can you check my mail please'
 p2710
 g15
 tp2711
-a(S'is there anything i have to do today'
+a(S'please would you check my inbox'
 p2712
 g15
 tp2713
-a(S'please start a browser'
+a(S'the news today'
 p2714
 g15
 tp2715
-a(S'is there anything i have to do on tuesday'
+a(S'start song'
 p2716
 g15
 tp2717
-a(S'schedule an event'
+a(S'are there any events in a month'
 p2718
 g15
 tp2719
-a(S'find newsfeed'
+a(S'next song'
 p2720
 g15
 tp2721
-a(S'is there anything to do on next'
+a(S"don't get the clock"
 p2722
 g15
 tp2723
-a(S'check events for wednesday'
+a(S'lock my computer'
 p2724
 g15
 tp2725
-a(S'please read your watch'
+a(S'do not retrieve the current time please'
 p2726
-g34
+g15
 tp2727
-a(S'retrieve what time it is please'
+a(S"please don't read the time"
 p2728
-g34
+g15
 tp2729
-a(S'make the sound quieter'
+a(S'what events do i have on wednesday'
 p2730
 g15
 tp2731
-a(S'could you add an event please'
+a(S'anything in my mail'
 p2732
 g15
 tp2733
-a(S'open my gmail'
+a(S'please close active window'
 p2734
 g15
 tp2735
-a(S'what events are on monday'
+a(S'any events on saturday'
 p2736
 g15
 tp2737
-a(S"what's the weather today"
+a(S"today's live newsfeed"
 p2738
 g15
 tp2739
-a(S'do not check your watch'
+a(S'can you please make new event'
 p2740
 g15
 tp2741
-a(S'what do i have to do in a month'
+a(S'please will you check my mail'
 p2742
 g15
 tp2743
-a(S'can you schedule a new event please'
+a(S'any mail'
 p2744
 g15
 tp2745
-a(S'please kill active window'
+a(S'good night'
 p2746
 g15
 tp2747
-a(S'go to dot com'
+a(S'i like dogs'
 p2748
 g15
 tp2749
-a(S'please get the time'
+a(S'what events do i have on next'
 p2750
-g34
+g15
 tp2751
-a(S'is there anything i have to do on saturday'
+a(S'will you check mail'
 p2752
 g15
 tp2753
-a(S"don't i have anything to do tomorrow"
+a(S'are there any events on this day'
 p2754
 g15
 tp2755
-a(S'please start browser'
+a(S'search for please'
 p2756
 g15
 tp2757
-a(S'please google search for'
+a(S"don't i have to do anything"
 p2758
 g15
 tp2759
-a(S'please google search'
+a(S'weather'
 p2760
 g15
 tp2761
-a(S'please check my mail'
+a(S'add new event'
 p2762
 g15
 tp2763
-a(S'anything in inbox'
+a(S'check calendar for next'
 p2764
 g15
 tp2765
-a(S'will you check new mail'
+a(S'can you please create a new event'
 p2766
 g15
 tp2767
-a(S'shutdown my computer please'
+a(S"what're the current events"
 p2768
 g15
 tp2769
-a(S'will you check new mail please'
+a(S'could you please create event'
 p2770
 g15
 tp2771
-a(S'check events for this day'
+a(S'do i have to do anything on monday'
 p2772
 g15
 tp2773
-a(S'do not check the clock'
+a(S'please will you open gmail'
 p2774
 g15
 tp2775
-a(S'are there any events on next'
+a(S'schedule event'
 p2776
 g15
 tp2777
-a(S"please don't read the clock"
+a(S'schedule a new event please'
 p2778
 g15
 tp2779
-a(S'get temperature'
+a(S'check the clock right now'
 p2780
-g15
+g102
 tp2781
-a(S'what is new in my gmail please'
+a(S"please what's in new gmail"
 p2782
 g15
 tp2783
-a(S'what is in new gmail'
+a(S'can you please kill this window'
 p2784
 g15
 tp2785
-a(S'kill the active program'
+a(S'any events in a week'
 p2786
 g15
 tp2787
-a(S'will it snow this week'
+a(S'can you lock computer'
 p2788
 g15
 tp2789
-a(S'bye alice'
+a(S'please open my mail'
 p2790
 g15
 tp2791
-a(S"don't when is it please"
+a(S'do i have anything to do'
 p2792
 g15
 tp2793
-a(S"what's in inbox please"
+a(S"don't check the current time"
 p2794
 g15
 tp2795
-a(S"don't i have anything on monday"
+a(S'spotify play last song please'
 p2796
 g15
 tp2797
-a(S'do not check what time it is'
+a(S'please last song'
 p2798
 g15
 tp2799
-a(S'do i have anything to do on friday'
+a(S'check my calendar on today'
 p2800
 g15
 tp2801
-a(S'please start browsing'
+a(S"this week's forecast"
 p2802
 g15
 tp2803
-a(S'get the current time'
+a(S"don't i have any events on today"
 p2804
-g34
+g15
 tp2805
-a(S'am i free on tuesday'
+a(S"please what's in my mail"
 p2806
 g15
 tp2807
-a(S'google search please for'
+a(S"don't i have to do anything on saturday"
 p2808
 g15
 tp2809
-a(S'please check mail'
+a(S'what is current news'
 p2810
 g15
 tp2811
-a(S'pause song please'
+a(S"don't i have anything to do on saturday"
 p2812
 g15
 tp2813
-a(S'lock computer'
+a(S'do not get the time'
 p2814
 g15
 tp2815
-a(S'please could you check new mail'
+a(S'please close current window'
 p2816
 g15
 tp2817
-a(S"don't i have anything to do on saturday"
+a(S'can you add a new event'
 p2818
 g15
 tp2819
-a(S'check the clock right now please'
+a(S'clock'
 p2820
-g34
+g102
 tp2821
-a(S'current events'
+a(S'please do not read your watch'
 p2822
 g15
 tp2823
-a(S'what events are on wednesday'
+a(S'make the volume softer'
 p2824
 g15
 tp2825
-a(S'could you check my gmail please'
+a(S"if it's cloudy this week"
 p2826
 g15
 tp2827
-a(S'could you open my gmail please'
+a(S'what time is it right now'
 p2828
-g15
+g102
 tp2829
-a(S'please search google'
+a(S"don't i have any events on monday"
 p2830
 g15
 tp2831
-a(S'any events on monday'
+a(S'turn my computer off please'
 p2832
 g15
 tp2833
-a(S'check my calendar for tomorrow'
+a(S"don't get the time"
 p2834
 g15
 tp2835
-a(S'add an event'
+a(S'could you add event please'
 p2836
 g15
 tp2837
-a(S'do not read time'
+a(S'what is new in new gmail'
 p2838
 g15
 tp2839
-a(S'what do i have on sunday'
+a(S'check inbox please'
 p2840
 g15
 tp2841
-a(S'please what is new in my gmail'
+a(S'please close the window'
 p2842
 g15
 tp2843
-a(S'news today'
+a(S'what is in new mail please'
 p2844
 g15
 tp2845
-a(S"aren't there any events on"
+a(S"don't get current time please"
 p2846
 g15
 tp2847
-a(S'google search please'
+a(S'do i have anything on saturday'
 p2848
 g15
 tp2849
-a(S'temperature'
+a(S'please would you open my gmail'
 p2850
 g15
 tp2851
-a(S'check calendar for'
+a(S'current events'
 p2852
 g15
 tp2853
-a(S"what're the headlines"
+a(S'do i have anything to do on thursday'
 p2854
 g15
 tp2855
-a(S'next song'
+a(S'will you check my inbox'
 p2856
 g15
 tp2857
-a(S'do not check the clock please'
+a(S"don't get time please"
 p2858
 g15
 tp2859
-a(S'can you create an event please'
+a(S'is there anything to do on sunday'
 p2860
 g15
 tp2861
-a(S'briefing'
+a(S'will you check inbox please'
 p2862
 g15
 tp2863
-a(S'is it raining today'
+a(S'would you open gmail please'
 p2864
 g15
 tp2865
-a(S'could you make new event please'
+a(S'do i have to do anything today'
 p2866
 g15
 tp2867
-a(S'can you lock computer please'
+a(S'will you get the headlines'
 p2868
 g15
 tp2869
-a(S'please do not check the current time'
+a(S"don't check your watch"
 p2870
 g15
 tp2871
-a(S'please would you check inbox'
+a(S'check events on tomorrow'
 p2872
 g15
 tp2873
-a(S'close the current window'
+a(S'okay alex'
 p2874
 g15
 tp2875
-a(S'pause the song please'
+a(S'do i have any events on next'
 p2876
 g15
 tp2877
-a(S'live news feed today'
+a(S"aren't there any events on"
 p2878
 g15
 tp2879
-a(S"today's temperature"
+a(S'will you open mail'
 p2880
 g15
 tp2881
-a(S'what is on my calendar for thursday'
+a(S'would you open my mail'
 p2882
 g15
 tp2883
-a(S'do not retrieve the current time please'
+a(S"how's the weather"
 p2884
 g15
 tp2885
-a(S"please what's new in my mail"
+a(S'do i have any events on saturday'
 p2886
 g15
 tp2887
-a(S"today's forecast"
+a(S'turn up the the beat'
 p2888
 g15
 tp2889
-a(S'any events on wednesday'
+a(S'what is live news'
 p2890
 g15
 tp2891
-a(S'get current events'
+a(S'a decent problem gossips beside the shoulder'
 p2892
 g15
 tp2893
-a(S'what do i have to do on today'
+a(S'gimme the news'
 p2894
 g15
 tp2895
-a(S'can you create event'
+a(S"don't i have any events on saturday"
 p2896
 g15
 tp2897
-a(S'do not get current time please'
+a(S'could you please create an event'
 p2898
 g15
 tp2899
-a(S'last song please'
+a(S'go to dot com'
 p2900
 g15
 tp2901
-a(S'what is current news'
+a(S"what's if it's hot this week"
 p2902
 g15
 tp2903
-a(S'would you open inbox please'
+a(S"what's in my gmail"
 p2904
 g15
 tp2905
-a(S"don't i have any events in a month"
+a(S'open dot org'
 p2906
 g15
 tp2907
-a(S'search google please for'
+a(S'open dot com'
 p2908
 g15
 tp2909
-a(S'check the clock please'
+a(S'what is new in my inbox please'
 p2910
-g34
+g15
 tp2911
-a(S"aren't there any events on tuesday"
+a(S'do i have anything on sunday'
 p2912
 g15
 tp2913
-a(S'please can you check my mail'
+a(S"what's today's weather"
 p2914
 g15
 tp2915
-a(S'check the current time please'
+a(S'go back please'
 p2916
-g34
+g15
 tp2917
-a(S'please what is new in new gmail'
+a(S'is there anything i have to do on next'
 p2918
 g15
 tp2919
-a(S'do i have to do anything today'
+a(S'check my calendar on saturday'
 p2920
 g15
 tp2921
-a(S'can you close this window'
+a(S"aren't there any events on thursday"
 p2922
 g15
 tp2923
-a(S'please do not read your watch'
+a(S'check my calendar for saturday'
 p2924
 g15
 tp2925
-a(S'please would you open mail'
+a(S'please google search'
 p2926
 g15
 tp2927
-a(S'lock the screen please'
+a(S'can you add new event'
 p2928
 g15
 tp2929
-a(S'do i have anything on tuesday'
+a(S'what is new in my gmail please'
 p2930
 g15
 tp2931
-a(S'can you please turn up the beat'
+a(S'could you make event please'
 p2932
 g15
 tp2933
-a(S'headlines today'
+a(S'can you please add an event'
 p2934
 g15
 tp2935
-a(S'open inbox'
+a(S'turn up the sound please'
 p2936
 g15
 tp2937
-a(S'do i have anything to do on wednesday'
+a(S'please start default browser'
 p2938
 g15
 tp2939
-a(S'what do i have on tuesday'
+a(S'please do not check the clock right now'
 p2940
 g15
 tp2941
-a(S'turn yourself off please'
+a(S'can you schedule a new event'
 p2942
 g15
 tp2943
-a(S'do i have anything to do on tuesday'
+a(S'any events on tomorrow'
 p2944
 g15
 tp2945
-a(S'could you open my mail please'
+a(S'turn the tune down'
 p2946
 g15
 tp2947
-a(S'can you turn the sound down'
+a(S'do not get the clock please'
 p2948
 g15
 tp2949
-a(S'check my calendar for friday'
+a(S'start browsing please'
 p2950
 g15
 tp2951
-a(S'please lock my computer'
+a(S'check google calendar for'
 p2952
 g15
 tp2953
-a(S'what is in inbox please'
+a(S'please spotify go '
 p2954
 g15
 tp2955
-a(S'would you open gmail'
+a(S"don't i have any events in a month"
 p2956
 g15
 tp2957
-a(S'could you open my gmail'
+a(S'anything new in my inbox'
 p2958
 g15
 tp2959
-a(S'is there anything i have to do'
+a(S'what are the latest events '
 p2960
 g15
 tp2961
-a(S'do i have anything on thursday'
+a(S'please make event'
 p2962
 g15
 tp2963
-a(S'turn the beat down'
+a(S'please what is new in mail'
 p2964
 g15
 tp2965
-a(S'get the clock please'
+a(S'would you check my inbox please'
 p2966
-g34
+g15
 tp2967
-a(S'will you open a browser'
+a(S'what events do i have on'
 p2968
 g15
 tp2969
-a(S'please open inbox'
+a(S"today's forecast"
 p2970
 g15
 tp2971
-a(S'what are the current news'
+a(S'can you decrease the sound'
 p2972
 g15
 tp2973
-a(S'can you make a new event'
+a(S'search google please for'
 p2974
 g15
 tp2975
-a(S'could you check gmail please'
+a(S"if it's hot this week"
 p2976
 g15
 tp2977
-a(S'check my gmail please'
+a(S"what's if it's freezing today"
 p2978
 g15
 tp2979
-a(S'please what is in my inbox'
+a(S'check google calendar on next'
 p2980
 g15
 tp2981
-a(S'what events do i have on friday'
+a(S'what do i have to do on friday'
 p2982
 g15
 tp2983
-a(S'okay alice'
+a(S'check my calendar on thursday'
 p2984
 g15
 tp2985
-a(S'please will you check gmail'
+a(S"what's in gmail"
 p2986
 g15
 tp2987
-a(S'please shut down my computer'
+a(S'is there anything i have to do on tomorrow'
 p2988
 g15
 tp2989
-a(S'will it hail today'
+a(S'any gmail'
 p2990
 g15
 tp2991
 a(S'get the time please'
 p2992
-g34
+g102
 tp2993
-a(S'please spotify go '
+a(S'please start a default browser'
 p2994
 g15
 tp2995
-a(S'spotify next song '
+a(S'turn down the sound'
 p2996
 g15
 tp2997
-a(S'could you please add a new event'
+a(S'do not read your watch please'
 p2998
 g15
 tp2999
-a(S'check calendar on wednesday'
+a(S'do not read the time please'
 p3000
 g15
 tp3001
-a(S"this week's forecast"
+a(S'please shut down the computer'
 p3002
 g15
 tp3003
-a(S'please could you check new gmail'
+a(S'am i free for friday'
 p3004
 g15
 tp3005
-a(S'please would you open gmail'
+a(S'check my calendar on tomorrow'
 p3006
 g15
 tp3007
-a(S'please would you open inbox'
+a(S"if it's freezing this week"
 p3008
 g15
 tp3009
-a(S'tell me news feed'
+a(S'could you schedule event'
 p3010
 g15
 tp3011
-a(S'spotify go please'
+a(S'please would you check mail'
 p3012
 g15
 tp3013
-a(S'do not check the current time'
+a(S'is it hot this week'
 p3014
 g15
 tp3015
-a(S'byebye'
+a(S'please turn off my computer'
 p3016
 g15
 tp3017
-a(S"aren't there any events on saturday"
+a(S'will you open inbox'
 p3018
 g15
 tp3019
-a(S'please could you check my mail'
+a(S'what is in gmail please'
 p3020
 g15
 tp3021
-a(S'can you please turn up the tune'
+a(S'can you schedule an event please'
 p3022
 g15
 tp3023
-a(S'can you check if i have anything in my inbox'
+a(S"don't i have anything to do on"
 p3024
 g15
 tp3025
-a(S'do not get the current time please'
+a(S'could you check my inbox please'
 p3026
 g15
 tp3027
-a(S'kill the music'
+a(S'please turn off the computer'
 p3028
 g15
 tp3029
-a(S'is it cloudy this week'
+a(S'do i have anything in a month'
 p3030
 g15
 tp3031
-a(S"don't get current time"
+a(S'shut up please'
 p3032
 g15
 tp3033
-a(S'check google calendar on saturday'
+a(S'do i have anything to do on wednesday'
 p3034
 g15
 tp3035
-a(S'read me the clock'
+a(S'what is in my inbox please'
 p3036
-g34
+g15
 tp3037
-a(S'are there any events on tuesday'
+a(S'is it raining this week'
 p3038
 g15
 tp3039
-a(S'can you make an event'
+a(S'pause song please'
 p3040
 g15
 tp3041
-a(S'can you please kill the window'
+a(S'briefing'
 p3042
 g15
 tp3043
-a(S"don't check the clock"
+a(S"don't i have any events"
 p3044
 g15
 tp3045
-a(S'please do not read time'
+a(S'please what is new in my mail'
 p3046
 g15
 tp3047
-a(S"don't i have to do anything on wednesday"
+a(S'is there anything i have to do on monday'
 p3048
 g15
 tp3049
-a(S'could you create an event'
+a(S'read your watch'
 p3050
-g15
+g102
 tp3051
-a(S'turn up the sound'
+a(S'please check gmail'
 p3052
 g15
 tp3053
-a(S'anything new in mail'
+a(S'can you open a browser'
 p3054
 g15
 tp3055
-a(S'turn off'
+a(S'do i have anything on wednesday'
 p3056
 g15
 tp3057
-a(S'check calendar for saturday'
+a(S'start the song'
 p3058
 g15
 tp3059
-a(S'check my calendar for'
+a(S'decrease the volume'
 p3060
 g15
 tp3061
-a(S'any events on'
+a(S'close active window'
 p3062
 g15
 tp3063
-a(S"don't get clock"
+a(S'can you shutdown the computer'
 p3064
 g15
 tp3065
-a(S"don't i have anything on wednesday"
+a(S"what's in inbox please"
 p3066
 g15
 tp3067
-a(S'please close active window'
+a(S"get today's weather"
 p3068
 g15
 tp3069
-a(S'is it foggy this week'
+a(S'please could you open my mail'
 p3070
 g15
 tp3071
-a(S'will you check my inbox please'
+a(S'any events on today'
 p3072
 g15
 tp3073
-a(S'can you create a new event please'
+a(S'current forecast'
 p3074
 g15
 tp3075
-a(S'can you add an event'
+a(S'can you lock computer please'
 p3076
 g15
 tp3077
-a(S"please don't check the current time"
+a(S'turn off my computer please'
 p3078
 g15
 tp3079
-a(S"what's new in gmail"
+a(S'please make a new event'
 p3080
 g15
 tp3081
-a(S'spotify play'
+a(S'could you create new event'
 p3082
 g15
 tp3083
-a(S"this week's forecast"
+a(S'do i have anything to do in a week'
 p3084
 g15
 tp3085
-a(S'check my calendar for this month'
+a(S'what is in my gmail please'
 p3086
 g15
 tp3087
-a(S'please be quiet'
+a(S'what is on my calendar for this month'
 p3088
 g15
 tp3089
-a(S'can you please shutdown my computer'
+a(S'what events do i have on sunday'
 p3090
 g15
 tp3091
-a(S'train a classifier to try to predict the category of a post'
+a(S'please spotify start the song'
 p3092
 g15
 tp3093
-a(S'get the time'
+a(S"today's headlines"
 p3094
-g34
+g15
 tp3095
-a(S'add new event please'
+a(S"aren't there any events on monday"
 p3096
 g15
 tp3097
-a(S'search google please'
+a(S'can you turn up the tunez'
 p3098
 g15
 tp3099
-a(S'read me the clock please'
+a(S'spotify go back'
 p3100
-g34
+g15
 tp3101
-a(S'am i free on next'
+a(S'check events for today'
 p3102
 g15
 tp3103
-a(S'what is on my calendar for saturday'
+a(S'any events on next'
 p3104
 g15
 tp3105
-a(S'check events on tomorrow'
+a(S'what is in inbox please'
 p3106
 g15
 tp3107
-a(S'current forecast'
+a(S'please spotify previous song'
 p3108
 g15
 tp3109
-a(S"please what's in gmail"
+a(S'check my calendar for this month'
 p3110
 g15
 tp3111
-a(S"what's the news"
+a(S'how is the weather'
 p3112
 g15
 tp3113
-a(S"get if it's raining this week"
+a(S'could you make event'
 p3114
 g15
 tp3115
-a(S'newsfeed'
+a(S'can you unmute'
 p3116
 g15
 tp3117
-a(S'check events for tomorrow'
+a(S'current temperature'
 p3118
 g15
 tp3119
-a(S'please retrieve the current time'
+a(S'check events on saturday'
 p3120
-g34
+g15
 tp3121
-a(S'what is in gmail'
+a(S'is it freezing today'
 p3122
 g15
 tp3123
-a(S"get if it's cold this week"
+a(S'what is new in new mail please'
 p3124
 g15
 tp3125
-a(S'please spotify pause'
+a(S'shut the fuck up'
 p3126
 g15
 tp3127
-a(S'find current news'
+a(S'anything new in my gmail'
 p3128
 g15
 tp3129
-a(S'check events for this day'
+a(S'could you please create new event'
 p3130
 g15
 tp3131
-a(S"what's if it's rainy this week"
+a(S'open my inbox please'
 p3132
 g15
 tp3133
-a(S'check my mail please'
+a(S'when is it please'
 p3134
-g15
+g102
 tp3135
-a(S'can you please create new event'
+a(S'please read your watch'
 p3136
-g15
+g102
 tp3137
-a(S'set the volume to zero'
+a(S'go back to the last song '
 p3138
 g15
 tp3139
-a(S'get news'
+a(S'get the current events'
 p3140
 g15
 tp3141
-a(S'spotify start the song please'
+a(S"what're the live news feed"
 p3142
 g15
 tp3143
-a(S'please will you check my gmail'
+a(S'please when is it'
 p3144
-g15
+g102
 tp3145
-a(S"don't retrieve the time please"
+a(S"aren't there any events on tuesday"
 p3146
 g15
 tp3147
-a(S'what is in new mail'
+a(S'can you please kill the current window'
 p3148
 g15
 tp3149
-a(S'can you get the latest headlines'
+a(S'do i have anything to do on monday'
 p3150
 g15
 tp3151
-a(S'what is new in my inbox please'
+a(S"this week's temperature"
 p3152
 g15
 tp3153
-a(S"don't check the current time please"
+a(S'check new mail'
 p3154
 g15
 tp3155
-a(S'is there anything to do on today'
+a(S'check my calendar on this week'
 p3156
 g15
 tp3157
-a(S'turn the tune down'
+a(S'what events do i have on today'
 p3158
 g15
 tp3159
-a(S'schedule new event please'
+a(S'lower the volume'
 p3160
 g15
 tp3161
-a(S'exit please'
+a(S'will you open my inbox'
 p3162
 g15
 tp3163
-a(S'read the clock'
+a(S'spotify stop the song '
 p3164
-g34
+g15
 tp3165
-a(S"don't i have anything to do on sunday"
+a(S"don't get time"
 p3166
 g15
 tp3167
-a(S'is there anything i have to do on tomorrow'
+a(S'do not check the clock please'
 p3168
 g15
 tp3169
-a(S'please will you check new mail'
+a(S'could you add new event'
 p3170
 g15
 tp3171
-a(S"if it's cold this week"
+a(S'check gmail'
 p3172
 g15
 tp3173
-a(S'please can you turn the volume higher'
+a(S"what's the current news"
 p3174
 g15
 tp3175
-a(S"get if it's cold today"
+a(S'open my mail'
 p3176
 g15
 tp3177
-a(S'please do not get me the clock'
+a(S'check google calendar for wednesday'
 p3178
 g15
 tp3179
-a(S'can you add event'
+a(S'please read the time'
 p3180
-g15
+g102
 tp3181
-a(S"today's live news"
+a(S'turn up the sound'
 p3182
 g15
 tp3183
-a(S'please close the current window'
+a(S"get if it's foggy today"
 p3184
 g15
 tp3185
-a(S'what do i have on saturday'
+a(S'check my mail'
 p3186
 g15
 tp3187
-a(S'can you please turn up the sound'
+a(S'live newsfeed'
 p3188
 g15
 tp3189
-a(S'turn down the volume'
+a(S'open a default browser'
 p3190
 g15
 tp3191
-a(S'google search'
+a(S'would you check new gmail please'
 p3192
 g15
 tp3193
-a(S'get me the news todays'
+a(S'get the news'
 p3194
 g15
 tp3195
-a(S'check events on this week'
+a(S"don't i have any events in a week"
 p3196
 g15
 tp3197
-a(S'please can you turn up the volume'
+a(S'check calendar on'
 p3198
 g15
 tp3199
-a(S"what time isn't it currently"
+a(S'check my calendar on this month'
 p3200
 g15
 tp3201
-a(S'check google calendar on next'
+a(S'make event'
 p3202
 g15
 tp3203
-a(S'check calendar on saturday'
+a(S'go to dot org'
 p3204
 g15
 tp3205
-a(S'current time'
+a(S'can you mute'
 p3206
-g34
+g15
 tp3207
-a(S'can you schedule an event please'
+a(S'spotify play previous song please'
 p3208
 g15
 tp3209
-a(S"what's new in my inbox"
+a(S'can you schedule new event please'
 p3210
 g15
 tp3211
-a(S'shut off'
+a(S"get if it's raining today"
 p3212
 g15
 tp3213
-a(S'anything in my inbox'
+a(S"don't i have any events on next"
 p3214
 g15
 tp3215
-a(S'give me the news'
+a(S"don't i have to do anything on friday"
 p3216
 g15
 tp3217
-a(S'can you get information on the current events'
+a(S"what's if it's rainy this week"
 p3218
 g15
 tp3219
-a(S'what is live news feed'
+a(S'can you make event'
 p3220
 g15
 tp3221
-a(S'check google calendar for tomorrow'
+a(S'do i have anything to do on friday'
 p3222
 g15
 tp3223
-a(S'will you get the news for me'
+a(S'what do i have on friday'
 p3224
 g15
 tp3225
-a(S'can you shut down'
+a(S'do i have anything to do on next'
 p3226
 g15
 tp3227
-a(S'is there anything i have to do on this day'
+a(S'turn the beat down please'
 p3228
 g15
 tp3229
-a(S'check events'
+a(S'tell me newsfeed'
 p3230
 g15
 tp3231
-a(S'what is going on in the world today'
+a(S"don't check the clock"
 p3232
 g15
 tp3233
-a(S'spotify pause please'
+a(S'what events are on saturday'
 p3234
 g15
 tp3235
-a(S"don't i have to do anything on saturday"
+a(S'please open a browser'
 p3236
 g15
 tp3237
-a(S'please get the news'
+a(S'please add an event'
 p3238
 g15
 tp3239
-a(S'would you check new gmail please'
+a(S'make the sound softer'
 p3240
 g15
 tp3241
-a(S'can you exit'
+a(S'newsfeed'
 p3242
 g15
 tp3243
-a(S'check my calendar for sunday'
+a(S'what is new in my mail please'
 p3244
 g15
 tp3245
-a(S"don't i have anything on this day"
+a(S'do not get time'
 p3246
 g15
 tp3247
-a(S"if it's snowing today"
+a(S'check calendar for tuesday'
 p3248
 g15
 tp3249
-a(S'what is in my inbox please'
+a(S'turn up the sound'
 p3250
 g15
 tp3251
-a(S'turn up the beat'
+a(S'please can you check my mail'
 p3252
 g15
 tp3253
-a(S'shutdown the computer'
+a(S'could you create event please'
 p3254
 g15
 tp3255
-a(S"what's if it's cold today"
+a(S'turn up the tunes'
 p3256
 g15
 tp3257
-a(S"what's in inbox"
+a(S'please close the current window'
 p3258
 g15
 tp3259
-a(S'give me the current events'
+a(S"don't i have any events on this day"
 p3260
 g15
 tp3261
-a(S'open dot com'
+a(S'is there anything i have to do today'
 p3262
 g15
 tp3263
-a(S'can you please turn my computer off'
+a(S'can you please shut down'
 p3264
 g15
 tp3265
-a(S'please do not read the time'
+a(S'check new mail please'
 p3266
 g15
 tp3267
-a(S"what's the temperature"
+a(S"please don't get the clock"
 p3268
 g15
 tp3269
-a(S'please close the window'
+a(S'what is in my inbox'
 p3270
 g15
 tp3271
-a(S'check google calendar for friday'
+a(S'please search google'
 p3272
 g15
 tp3273
-a(S'please play spotify '
+a(S'please give me the current events please'
 p3274
 g15
 tp3275
-a(S'do not retrieve the time please'
+a(S'tell me news'
 p3276
 g15
 tp3277
-a(S'please do not check what time it is'
+a(S"what's not the time"
 p3278
 g15
 tp3279
-a(S'can you make new event please'
+a(S'could you check my inbox'
 p3280
 g15
 tp3281
-a(S'get clock'
+a(S'retrieve the current time'
 p3282
-g34
+g102
 tp3283
-a(S'what is in gmail please'
+a(S'add a new event please'
 p3284
 g15
 tp3285
-a(S'please send me to the lock screen'
+a(S'give me the news'
 p3286
 g15
 tp3287
-a(S'check events on tuesday'
+a(S"please don't check the clock"
 p3288
 g15
 tp3289
-a(S'will it hail this week'
+a(S'can you close the current window'
 p3290
 g15
 tp3291
-a(S'add a new event please'
+a(S'live news'
 p3292
 g15
 tp3293
-a(S'please could you open mail'
+a(S'can you add an event please'
 p3294
 g15
 tp3295
-a(S'are there any events on tomorrow'
+a(S'will you get the current events for me'
 p3296
 g15
 tp3297
-a(S'do not read the clock'
+a(S'can you please kill current window'
 p3298
 g15
 tp3299
-a(S'please turn off'
+a(S'what are the live newsfeed'
 p3300
 g15
 tp3301
-a(S'can you turn off'
+a(S'can you add event please'
 p3302
 g15
 tp3303
-a(S'can you please shut down the computer'
+a(S'could you open mail'
 p3304
 g15
 tp3305
-a(S'please turn off the computer'
+a(S'open dot gov'
 p3306
 g15
 tp3307
-a(S'kill the active window'
+a(S'set the volume zero'
 p3308
 g15
 tp3309
-a(S'create new event please'
+a(S'check google calendar on this week'
 p3310
 g15
 tp3311
-a(S'please retrieve what time it is'
+a(S'can you create event please'
 p3312
-g34
+g15
 tp3313
-a(S"what's if it's raining today"
+a(S'would you check my mail'
 p3314
 g15
 tp3315
-a(S'check events for this month'
+a(S'check google calendar on saturday'
 p3316
 g15
 tp3317
-a(S'what is in my inbox'
+a(S"what's the headlines"
 p3318
 g15
 tp3319
-a(S"don't read me the clock"
+a(S'check events for sunday'
 p3320
 g15
 tp3321
-a(S'check my inbox please'
+a(S"please what's new in inbox"
 p3322
 g15
 tp3323
-a(S'do i have anything to do'
+a(S'exit'
 p3324
 g15
 tp3325
-a(S'check events for monday'
+a(S'please create new event'
 p3326
 g15
 tp3327
-a(S'can you create an event'
+a(S'make the sound higher'
 p3328
 g15
 tp3329
-a(S'can you please make event'
+a(S"don't i have to do anything tomorrow"
 p3330
 g15
 tp3331
-a(S'check my calendar for this day'
+a(S'what do i have to do on saturday'
 p3332
 g15
 tp3333
-a(S"what's the temperature this week"
+a(S"don't check the current time please"
 p3334
 g15
 tp3335
-a(S'can you please close the current window'
+a(S"what's the live newsfeed"
 p3336
 g15
 tp3337
-a(S'can you please shut down'
+a(S'could you please add an event'
 p3338
 g15
 tp3339
-a(S"don't i have anything to do on thursday"
+a(S'check my calendar for sunday'
 p3340
 g15
 tp3341
-a(S'do i have anything to do in a week'
+a(S"what's the weather"
 p3342
 g15
 tp3343
-a(S"don't read the time"
+a(S'can you turn the sound down'
 p3344
 g15
 tp3345
-a(S'can you turn the tune down'
+a(S'please check your watch'
 p3346
-g15
+g102
 tp3347
-a(S'turn off my computer'
+a(S"aren't there any events in a week"
 p3348
 g15
 tp3349
-a(S'please what is in my mail'
+a(S'please could you check inbox'
 p3350
 g15
 tp3351
-a(S'is there anything to do'
+a(S"what's in mail"
 p3352
 g15
 tp3353
-a(S"don't i have any events on sunday"
+a(S'read me the clock please'
 p3354
-g15
+g102
 tp3355
-a(S'do i have anything in a week'
+a(S'please what is new in my gmail'
 p3356
 g15
 tp3357
-a(S'can you lock computer'
+a(S"what's in new mail"
 p3358
 g15
 tp3359
-a(S'please can you make it louder'
+a(S'turn up the tunez please'
 p3360
 g15
 tp3361
-a(S'check google calendar for tuesday'
+a(S'open a default browser please'
 p3362
 g15
 tp3363
-a(S'could you make a new event please'
+a(S'check calendar for tomorrow'
 p3364
 g15
 tp3365
-a(S'get news feed'
+a(S'am i free in a week'
 p3366
 g15
 tp3367
-a(S'can you please close the active window'
+a(S'make the sound louder'
 p3368
 g15
 tp3369
-a(S'please spotify last song'
+a(S'please open'
 p3370
 g15
 tp3371
-a(S"please what's new in new mail"
+a(S"don't i have to do anything in a week"
 p3372
 g15
 tp3373
-a(S'open a default browser'
+a(S'headlines today'
 p3374
 g15
 tp3375
-a(S"don't read the time please"
+a(S"don't get the clock please"
 p3376
 g15
 tp3377
-a(S'would you check my gmail please'
+a(S'open my gmail please'
 p3378
 g15
 tp3379
-a(S'would you check my inbox please'
+a(S'anything in inbox'
 p3380
 g15
 tp3381
-a(S'search for please'
+a(S'check events for friday'
 p3382
 g15
 tp3383
-a(S'can you check my inbox please'
+a(S'what do i have on tomorrow'
 p3384
 g15
 tp3385
-a(S'can you schedule an event'
+a(S"what're the news feed"
 p3386
 g15
 tp3387
-a(S'shut down my computer'
+a(S'make an event please'
 p3388
 g15
 tp3389
-a(S'could you open inbox'
+a(S'please would you check my mail'
 p3390
 g15
 tp3391
-a(S'check calendar'
+a(S'turn off please'
 p3392
 g15
 tp3393
-a(S'please do not read me the clock'
+a(S"what time isn't it currently"
 p3394
 g15
 tp3395
-a(S'start browsing please'
+a(S'could you open mail please'
 p3396
 g15
 tp3397
-a(S'please give me current events'
+a(S'check google calendar on month'
 p3398
 g15
 tp3399
-a(S'please turn my computer off'
+a(S"what's new in inbox"
 p3400
 g15
 tp3401
-a(S'check my calendar on next'
+a(S'play the song before'
 p3402
 g15
 tp3403
-a(S'do i have anything on'
+a(S'please would you check gmail'
 p3404
 g15
 tp3405
-a(S'what is in mail please'
+a(S"if it's cloudy today"
 p3406
 g15
 tp3407
-a(S'check events on thursday'
+a(S'what is on my calendar for sunday'
 p3408
 g15
 tp3409
-a(S'turn up the the beat'
+a(S"don't i have anything to do on this day"
 p3410
 g15
 tp3411
-a(S'can you check my inbox'
+a(S'what do i have'
 p3412
 g15
 tp3413
-a(S"don't i have to do anything today"
+a(S'what is on my calendar for thursday'
 p3414
 g15
 tp3415
-a(S'what time is it currently'
+a(S"aren't there any events on next"
 p3416
-g34
+g15
 tp3417
-a(S'can you lock my computer please'
+a(S"what's this week's temperature"
 p3418
 g15
 tp3419
-a(S'check calendar for next'
+a(S'please could you open my gmail'
 p3420
 g15
 tp3421
-a(S'please get me the clock'
+a(S"don't i have anything to do on thursday"
 p3422
-g34
+g15
 tp3423
-a(S'could you please schedule new event'
+a(S"what's in my inbox please"
 p3424
 g15
 tp3425
-a(S"please don't retrieve the current time"
+a(S'stop spotify'
 p3426
 g15
 tp3427
-a(S'please lock the screen'
+a(S"don't read the clock"
 p3428
 g15
 tp3429
-a(S'make the sound louder'
+a(S'please give me current events'
 p3430
 g15
 tp3431
-a(S"don't get the clock"
+a(S'do i have any events'
 p3432
 g15
 tp3433
-a(S"please don't check what time it is"
+a(S"please don't get current time"
 p3434
 g15
 tp3435
-a(S'do i have any events on tomorrow'
+a(S"if it's raining today"
 p3436
 g15
 tp3437
-a(S"don't check the current time"
+a(S'do i have anything on tuesday'
 p3438
 g15
 tp3439
-a(S'please spotify play last song'
+a(S'stop song please'
 p3440
 g15
 tp3441
-a(S'please what is in new gmail'
+a(S'please check what time it is'
 p3442
-g15
+g102
 tp3443
-a(S'spotify pause the song please'
+a(S'can you please turn up the beat'
 p3444
 g15
 tp3445
-a(S'please create a new event'
+a(S'shut my computer down please'
 p3446
 g15
 tp3447
-a(S'get forecast'
+a(S'is there anything i have to do on today'
 p3448
 g15
 tp3449
-a(S"get today's forecast"
+a(S'please could you open inbox'
 p3450
 g15
 tp3451
-a(S'is there anything to do on thursday'
+a(S'can you turn the volume higher please'
 p3452
 g15
 tp3453
-a(S'shut my computer down'
+a(S"don't read me the clock"
 p3454
 g15
 tp3455
-a(S'what is on my calendar for friday'
+a(S"don't i have anything on monday"
 p3456
 g15
 tp3457
-a(S"today's forecast"
+a(S'shut off'
 p3458
 g15
 tp3459
-a(S"today's temperature"
+a(S'make the volume 0'
 p3460
 g15
 tp3461
-a(S"please what's in mail"
+a(S'do i have to do anything on next'
 p3462
 g15
 tp3463
-a(S'will you check gmail please'
+a(S'intelligence report'
 p3464
 g15
 tp3465
-a(S'clock'
+a(S'please start spotify'
 p3466
-g34
-tp3467
-a(S'open a browser please'
-p3468
 g15
+tp3467
+a(S'get the clock please'
+p3468
+g102
 tp3469
-a(S"don't read time please"
+a(S'what events do i have on monday'
 p3470
 g15
 tp3471
-a(S"don't check what time it is"
+a(S'please open gmail'
 p3472
 g15
 tp3473
-a(S'the news'
+a(S'can you close the active window'
 p3474
 g15
 tp3475
-a(S'play song'
+a(S'could you check new gmail please'
 p3476
 g15
 tp3477
-a(S'add a new event'
+a(S'what is on my calendar for monday'
 p3478
 g15
 tp3479
-a(S"what's if it's cloudy this week"
+a(S'get me the clock'
 p3480
-g15
+g102
 tp3481
-a(S"what's temperature"
+a(S'am i free for tomorrow'
 p3482
 g15
 tp3483
-a(S'would you open mail'
+a(S'please kill the window'
 p3484
 g15
 tp3485
-a(S'the tale pretends'
+a(S'check the current time please'
 p3486
-g15
+g102
 tp3487
-a(S'please kill current window'
+a(S'check calendar for wednesday'
 p3488
 g15
 tp3489
-a(S'please read the clock'
+a(S"please don't read me the clock"
 p3490
-g34
+g15
 tp3491
-a(S'am i free for wednesday'
+a(S'get news'
 p3492
 g15
 tp3493
-a(S'do i have to do anything on thursday'
+a(S'can you check new gmail'
 p3494
 g15
 tp3495
-a(S'please do not check the clock'
+a(S'could you open my gmail'
 p3496
 g15
 tp3497
-a(S'retrieve the current time'
+a(S'please search'
 p3498
-g34
+g15
 tp3499
-a(S'what events do i have on tuesday'
+a(S'please do not check what time it is'
 p3500
 g15
 tp3501
-a(S'please shutdown'
+a(S'please tell me whats going on in the news please'
 p3502
 g15
 tp3503
-a(S'is there anything to do today'
+a(S"don't i have to do anything on sunday"
 p3504
 g15
 tp3505
-a(S'spotify skip ahead please'
+a(S'current news today'
 p3506
 g15
 tp3507
-a(S'how is the temperature'
+a(S'search google for'
 p3508
 g15
 tp3509
-a(S'check events for today'
+a(S'please would you check new mail'
 p3510
 g15
 tp3511
-a(S'do i have anything on wednesday'
+a(S'check calendar for this day'
 p3512
 g15
 tp3513
-a(S'lock my computer please'
+a(S'open inbox'
 p3514
 g15
 tp3515
-a(S'check my calendar for today'
+a(S"what's the forecast this week"
 p3516
 g15
 tp3517
-a(S'any new gmail'
+a(S'could you check inbox'
 p3518
 g15
 tp3519
-a(S'will you open my inbox please'
+a(S'shutdown the computer'
 p3520
 g15
 tp3521
-a(S'check my calendar for next'
+a(S'what are the news feed'
 p3522
 g15
 tp3523
-a(S'shut my computer down please'
+a(S'bye'
 p3524
 g15
 tp3525
-a(S'could you schedule an event'
+a(S"don't i have anything on tuesday"
 p3526
 g15
 tp3527
-a(S'skip'
+a(S'schedule new event please'
 p3528
 g15
 tp3529
-a(S"don't get clock please"
+a(S'kill the program'
 p3530
 g15
 tp3531
-a(S"aren't there any events"
+a(S"what're the newsfeed"
 p3532
 g15
 tp3533
-a(S'please check your watch'
+a(S"what's new in inbox please"
 p3534
-g34
+g15
 tp3535
-a(S'please check new gmail'
+a(S'do i have to do anything on friday'
 p3536
 g15
 tp3537
-a(S'can you check inbox'
+a(S'what events are in a week'
 p3538
 g15
 tp3539
-a(S'please can you check new mail'
+a(S'please lock computer'
 p3540
 g15
 tp3541
-a(S'please would you check my inbox'
+a(S'do i have anything to do on sunday'
 p3542
 g15
 tp3543
-a(S'could you please add event'
+a(S'get news feed'
 p3544
 g15
 tp3545
-a(S'check events on wednesday'
+a(S'can you please add new event'
 p3546
 g15
 tp3547
-a(S'mute please'
+a(S'can you send me to the lock screen please'
 p3548
 g15
 tp3549
-a(S"don't i have to do anything on next"
+a(S'can you please shut down the computer'
 p3550
 g15
 tp3551
-a(S'create new event'
+a(S'do not read the time'
 p3552
 g15
 tp3553
-a(S'please louder'
+a(S'volume up'
 p3554
 g15
 tp3555
-a(S'do i have any events on thursday'
+a(S'make new event'
 p3556
 g15
 tp3557
-a(S'what is in my mail'
+a(S'what do i have on thursday'
 p3558
 g15
 tp3559
-a(S"don't i have anything on tuesday"
+a(S'can you turn off the computer'
 p3560
 g15
 tp3561
-a(S'open'
+a(S'shut off please'
 p3562
 g15
 tp3563
-a(S'please when is it'
+a(S'please spotify play last song'
 p3564
-g34
+g15
 tp3565
-a(S'what do i have to do in a week'
+a(S'google for please'
 p3566
 g15
 tp3567
-a(S"don't i have anything to do on monday"
+a(S'news'
 p3568
 g15
 tp3569
-a(S'what time is it right now'
+a(S"please don't get the time"
 p3570
-g34
+g15
 tp3571
-a(S'turn it off'
+a(S"what's the forecast today"
 p3572
 g15
 tp3573
-a(S'could you check new gmail'
+a(S'would you open inbox'
 p3574
 g15
 tp3575
-a(S'gather the latest headlines please'
+a(S'do i have anything on friday'
 p3576
 g15
 tp3577
-a(S'get current weather'
+a(S'check events'
 p3578
 g15
 tp3579
-a(S'is there anything to do on tuesday'
+a(S"get if it's foggy this week"
 p3580
 g15
 tp3581
-a(S'please do not retrieve the time'
+a(S'play '
 p3582
 g15
 tp3583
-a(S'can you check my mail'
+a(S'stop'
 p3584
 g15
 tp3585
-a(S"if it's snowing this week"
+a(S'please what is new in new mail'
 p3586
 g15
 tp3587
-a(S"don't i have anything in a week"
+a(S"what's if it's cold today"
 p3588
 g15
 tp3589
-a(S'please search google for'
+a(S"i think i didn't answer an earlier question"
 p3590
 g15
 tp3591
-a(S'is it snowing today'
+a(S"what're the headlines"
 p3592
 g15
 tp3593
-a(S'start default browser please'
+a(S'can you make a new event'
 p3594
 g15
 tp3595
-a(S'turn up the volume'
+a(S'can you put me on the lock screen'
 p3596
 g15
 tp3597
-a(S"get if it's snowing this week"
+a(S"what time isn't it right now"
 p3598
 g15
 tp3599
-a(S"please don't read your watch"
+a(S'spotify previous please'
 p3600
 g15
 tp3601
-a(S'can you check inbox please'
+a(S'please kill the current window'
 p3602
 g15
 tp3603
-a(S'is there anything i have to do on monday'
+a(S'will you open my gmail please'
 p3604
 g15
 tp3605
-a(S'what is on my calendar for sunday'
+a(S'could you make an event please'
 p3606
 g15
 tp3607
-a(S'can you put me on the lock screen please'
+a(S"what's the clock"
 p3608
-g15
+g102
 tp3609
-a(S'could you add new event'
+a(S'can you make an event please'
 p3610
 g15
 tp3611
-a(S'get the the latest headlines'
+a(S'schedule an event'
 p3612
 g15
 tp3613
-a(S'retrieve what time it is'
+a(S'check my calendar for next'
 p3614
-g34
+g15
 tp3615
-a(S'find news'
+a(S'get temperature'
 p3616
 g15
 tp3617
-a(S'what is news feed'
+a(S'what is news'
 p3618
 g15
 tp3619
-a(S'lock the screen'
+a(S'please turn it up'
 p3620
 g15
 tp3621
-a(S'please get the current time'
+a(S'lock computer'
 p3622
-g34
+g15
 tp3623
-a(S"what's new in new gmail please"
+a(S"please don't retrieve what time it is"
 p3624
 g15
 tp3625
-a(S'please open mail'
+a(S"what's in mail please"
 p3626
 g15
 tp3627
-a(S'could you check new gmail please'
+a(S'do not read the clock'
 p3628
 g15
 tp3629
-a(S'go to dot org'
+a(S'will you open gmail please'
 p3630
 g15
 tp3631
-a(S'am i free for this day'
+a(S'could you please add new event'
 p3632
 g15
 tp3633
@@ -7329,7 +7329,7 @@ p3663
 sS'vocabulary_'
 p3664
 (dp3665
-Vraining
+Vevent
 p3666
 cnumpy.core.multiarray
 scalar
@@ -7350,407 +7350,407 @@ NNNI-1
 I-1
 I0
 tp3673
-bS'\xa2\x00\x00\x00\x00\x00\x00\x00'
+bS'?\x00\x00\x00\x00\x00\x00\x00'
 p3674
 tp3675
 Rp3676
-sVtodays
+sVraining
 p3677
 g3667
 (g3671
-S'\xcf\x00\x00\x00\x00\x00\x00\x00'
+S'\xa2\x00\x00\x00\x00\x00\x00\x00'
 p3678
 tp3679
 Rp3680
-sVmute
+sVtodays
 p3681
 g3667
 (g3671
-S'~\x00\x00\x00\x00\x00\x00\x00'
+S'\xcf\x00\x00\x00\x00\x00\x00\x00'
 p3682
 tp3683
 Rp3684
-sVskip
+sVmute
 p3685
 g3667
 (g3671
-S'\xb7\x00\x00\x00\x00\x00\x00\x00'
+S'~\x00\x00\x00\x00\x00\x00\x00'
 p3686
 tp3687
 Rp3688
-sVmonth
+sVskip
 p3689
 g3667
 (g3671
-S'|\x00\x00\x00\x00\x00\x00\x00'
+S'\xb7\x00\x00\x00\x00\x00\x00\x00'
 p3690
 tp3691
 Rp3692
-sVnot
+sVmonth
 p3693
 g3667
 (g3671
-S'\x87\x00\x00\x00\x00\x00\x00\x00'
+S'|\x00\x00\x00\x00\x00\x00\x00'
 p3694
 tp3695
 Rp3696
-sVsofter
+sVwatch
 p3697
 g3667
 (g3671
-S'\xba\x00\x00\x00\x00\x00\x00\x00'
+S'\xdc\x00\x00\x00\x00\x00\x00\x00'
 p3698
 tp3699
 Rp3700
-sVkill
+sVnot
 p3701
 g3667
 (g3671
-S'n\x00\x00\x00\x00\x00\x00\x00'
+S'\x87\x00\x00\x00\x00\x00\x00\x00'
 p3702
 tp3703
 Rp3704
-sVworld
+sVsofter
 p3705
 g3667
 (g3671
-S'\xe6\x00\x00\x00\x00\x00\x00\x00'
+S'\xba\x00\x00\x00\x00\x00\x00\x00'
 p3706
 tp3707
 Rp3708
-sVgo
+sVkill
 p3709
 g3667
 (g3671
-S'T\x00\x00\x00\x00\x00\x00\x00'
+S'n\x00\x00\x00\x00\x00\x00\x00'
 p3710
 tp3711
 Rp3712
-sVheadlines
+sVedu
 p3713
 g3667
 (g3671
-S']\x00\x00\x00\x00\x00\x00\x00'
+S'<\x00\x00\x00\x00\x00\x00\x00'
 p3714
 tp3715
 Rp3716
-sVfind
+sVgo
 p3717
 g3667
 (g3671
-S'G\x00\x00\x00\x00\x00\x00\x00'
+S'T\x00\x00\x00\x00\x00\x00\x00'
 p3718
 tp3719
 Rp3720
-sVprevious
+sVheadlines
 p3721
 g3667
 (g3671
-S'\x98\x00\x00\x00\x00\x00\x00\x00'
+S']\x00\x00\x00\x00\x00\x00\x00'
 p3722
 tp3723
 Rp3724
-sVspotify
+sVfind
 p3725
 g3667
 (g3671
-S'\xbd\x00\x00\x00\x00\x00\x00\x00'
+S'G\x00\x00\x00\x00\x00\x00\x00'
 p3726
 tp3727
 Rp3728
-sVpause
+sVprevious
 p3729
 g3667
 (g3671
-S'\x91\x00\x00\x00\x00\x00\x00\x00'
+S'\x98\x00\x00\x00\x00\x00\x00\x00'
 p3730
 tp3731
 Rp3732
-sVsnowing
+sVspotify
 p3733
 g3667
 (g3671
-S'\xb9\x00\x00\x00\x00\x00\x00\x00'
+S'\xbd\x00\x00\x00\x00\x00\x00\x00'
 p3734
 tp3735
 Rp3736
-sVsunday
+sVpause
 p3737
 g3667
 (g3671
-S'\xc2\x00\x00\x00\x00\x00\x00\x00'
+S'\x91\x00\x00\x00\x00\x00\x00\x00'
 p3738
 tp3739
 Rp3740
-sVsend
+sVsnowing
 p3741
 g3667
 (g3671
-S'\xb1\x00\x00\x00\x00\x00\x00\x00'
+S'\xb9\x00\x00\x00\x00\x00\x00\x00'
 p3742
 tp3743
 Rp3744
-sVaren
+sVsunday
 p3745
 g3667
 (g3671
-S'\r\x00\x00\x00\x00\x00\x00\x00'
+S'\xc2\x00\x00\x00\x00\x00\x00\x00'
 p3746
 tp3747
 Rp3748
-sVto
+sVsend
 p3749
 g3667
 (g3671
-S'\xcd\x00\x00\x00\x00\x00\x00\x00'
+S'\xb1\x00\x00\x00\x00\x00\x00\x00'
 p3750
 tp3751
 Rp3752
-sVadd
+sVaren
 p3753
 g3667
 (g3671
-S'\x02\x00\x00\x00\x00\x00\x00\x00'
+S'\r\x00\x00\x00\x00\x00\x00\x00'
 p3754
 tp3755
 Rp3756
-sVgoing
+sVto
 p3757
 g3667
 (g3671
-S'U\x00\x00\x00\x00\x00\x00\x00'
+S'\xcd\x00\x00\x00\x00\x00\x00\x00'
 p3758
 tp3759
 Rp3760
-sVmail
+sVadd
 p3761
 g3667
 (g3671
-S'v\x00\x00\x00\x00\x00\x00\x00'
+S'\x02\x00\x00\x00\x00\x00\x00\x00'
 p3762
 tp3763
 Rp3764
-sVbye
+sVgoing
 p3765
 g3667
 (g3671
-S'\x19\x00\x00\x00\x00\x00\x00\x00'
+S'U\x00\x00\x00\x00\x00\x00\x00'
 p3766
 tp3767
 Rp3768
-sVdo
+sVmail
 p3769
 g3667
 (g3671
-S'4\x00\x00\x00\x00\x00\x00\x00'
+S'v\x00\x00\x00\x00\x00\x00\x00'
 p3770
 tp3771
 Rp3772
-sVpredict
+sVbye
 p3773
 g3667
 (g3671
-S'\x96\x00\x00\x00\x00\x00\x00\x00'
+S'\x19\x00\x00\x00\x00\x00\x00\x00'
 p3774
 tp3775
 Rp3776
-sVgood
+sVdo
 p3777
 g3667
 (g3671
-S'V\x00\x00\x00\x00\x00\x00\x00'
+S'4\x00\x00\x00\x00\x00\x00\x00'
 p3778
 tp3779
 Rp3780
-sVemergency
+sVpredict
 p3781
 g3667
 (g3671
-S'>\x00\x00\x00\x00\x00\x00\x00'
+S'\x96\x00\x00\x00\x00\x00\x00\x00'
 p3782
 tp3783
 Rp3784
-sVget
+sVgood
 p3785
 g3667
 (g3671
-S'P\x00\x00\x00\x00\x00\x00\x00'
+S'V\x00\x00\x00\x00\x00\x00\x00'
 p3786
 tp3787
 Rp3788
-sVya
+sVemergency
 p3789
 g3667
 (g3671
-S'\xe8\x00\x00\x00\x00\x00\x00\x00'
+S'>\x00\x00\x00\x00\x00\x00\x00'
 p3790
 tp3791
 Rp3792
-sVmaterial
+sVget
 p3793
 g3667
 (g3671
-S'x\x00\x00\x00\x00\x00\x00\x00'
+S'P\x00\x00\x00\x00\x00\x00\x00'
 p3794
 tp3795
 Rp3796
-sVwatch
+sVya
 p3797
 g3667
 (g3671
-S'\xdc\x00\x00\x00\x00\x00\x00\x00'
+S'\xe8\x00\x00\x00\x00\x00\x00\x00'
 p3798
 tp3799
 Rp3800
-sVanswer
+sVmaterial
 p3801
 g3667
 (g3671
-S'\t\x00\x00\x00\x00\x00\x00\x00'
+S'x\x00\x00\x00\x00\x00\x00\x00'
 p3802
 tp3803
 Rp3804
-sVreport
+sVfreezing
 p3805
 g3667
 (g3671
-S'\xa7\x00\x00\x00\x00\x00\x00\x00'
+S'L\x00\x00\x00\x00\x00\x00\x00'
 p3806
 tp3807
 Rp3808
-sVusing
+sVreport
 p3809
 g3667
 (g3671
-S'\xda\x00\x00\x00\x00\x00\x00\x00'
+S'\xa7\x00\x00\x00\x00\x00\x00\x00'
 p3810
 tp3811
 Rp3812
-sVnow
+sVworld
 p3813
 g3667
 (g3671
-S'\x88\x00\x00\x00\x00\x00\x00\x00'
+S'\xe6\x00\x00\x00\x00\x00\x00\x00'
 p3814
 tp3815
 Rp3816
-sVday
+sVnow
 p3817
 g3667
 (g3671
-S',\x00\x00\x00\x00\x00\x00\x00'
+S'\x88\x00\x00\x00\x00\x00\x00\x00'
 p3818
 tp3819
 Rp3820
-sVdreams
+sVday
 p3821
 g3667
 (g3671
-S':\x00\x00\x00\x00\x00\x00\x00'
+S',\x00\x00\x00\x00\x00\x00\x00'
 p3822
 tp3823
 Rp3824
-sVintel
+sVdreams
 p3825
 g3667
 (g3671
-S'h\x00\x00\x00\x00\x00\x00\x00'
+S':\x00\x00\x00\x00\x00\x00\x00'
 p3826
 tp3827
 Rp3828
-sVshoulder
+sVintel
 p3829
 g3667
 (g3671
-S'\xb3\x00\x00\x00\x00\x00\x00\x00'
+S'h\x00\x00\x00\x00\x00\x00\x00'
 p3830
 tp3831
 Rp3832
-sVgov
+sVshoulder
 p3833
 g3667
 (g3671
-S'Y\x00\x00\x00\x00\x00\x00\x00'
+S'\xb3\x00\x00\x00\x00\x00\x00\x00'
 p3834
 tp3835
 Rp3836
-sValex
+sVmoderate
 p3837
 g3667
 (g3671
-S'\x04\x00\x00\x00\x00\x00\x00\x00'
+S'z\x00\x00\x00\x00\x00\x00\x00'
 p3838
 tp3839
 Rp3840
-sVlike
+sValex
 p3841
 g3667
 (g3671
-S'q\x00\x00\x00\x00\x00\x00\x00'
+S'\x04\x00\x00\x00\x00\x00\x00\x00'
 p3842
 tp3843
 Rp3844
-sVgossips
+sVlike
 p3845
 g3667
 (g3671
-S'X\x00\x00\x00\x00\x00\x00\x00'
+S'q\x00\x00\x00\x00\x00\x00\x00'
 p3846
 tp3847
 Rp3848
-sVdidn
+sVgossips
 p3849
 g3667
 (g3671
-S'3\x00\x00\x00\x00\x00\x00\x00'
+S'X\x00\x00\x00\x00\x00\x00\x00'
 p3850
 tp3851
 Rp3852
-sVwednesday
+sVdidn
 p3853
 g3667
 (g3671
-S'\xdf\x00\x00\x00\x00\x00\x00\x00'
+S'3\x00\x00\x00\x00\x00\x00\x00'
 p3854
 tp3855
 Rp3856
-sVcloudy
+sVwednesday
 p3857
 g3667
 (g3671
-S'#\x00\x00\x00\x00\x00\x00\x00'
+S'\xdf\x00\x00\x00\x00\x00\x00\x00'
 p3858
 tp3859
 Rp3860
-sVtry
+sVcloudy
 p3861
 g3667
 (g3671
-S'\xd2\x00\x00\x00\x00\x00\x00\x00'
+S'#\x00\x00\x00\x00\x00\x00\x00'
 p3862
 tp3863
 Rp3864
-sVtunez
+sVtry
 p3865
 g3667
 (g3671
-S'\xd6\x00\x00\x00\x00\x00\x00\x00'
+S'\xd2\x00\x00\x00\x00\x00\x00\x00'
 p3866
 tp3867
 Rp3868
-sVgimme
+sVunmute
 p3869
 g3667
 (g3671
-S'Q\x00\x00\x00\x00\x00\x00\x00'
+S'\xd8\x00\x00\x00\x00\x00\x00\x00'
 p3870
 tp3871
 Rp3872
-sVweather
+sVgimme
 p3873
 g3667
 (g3671
-S'\xde\x00\x00\x00\x00\x00\x00\x00'
+S'Q\x00\x00\x00\x00\x00\x00\x00'
 p3874
 tp3875
 Rp3876
@@ -7818,115 +7818,115 @@ S'i\x00\x00\x00\x00\x00\x00\x00'
 p3906
 tp3907
 Rp3908
-sVedu
+sVback
 p3909
 g3667
 (g3671
-S'<\x00\x00\x00\x00\x00\x00\x00'
+S'\x0e\x00\x00\x00\x00\x00\x00\x00'
 p3910
 tp3911
 Rp3912
-sVback
+sVhail
 p3913
 g3667
 (g3671
-S'\x0e\x00\x00\x00\x00\x00\x00\x00'
+S'[\x00\x00\x00\x00\x00\x00\x00'
 p3914
 tp3915
 Rp3916
-sVhail
+sValice
 p3917
 g3667
 (g3671
-S'[\x00\x00\x00\x00\x00\x00\x00'
+S'\x05\x00\x00\x00\x00\x00\x00\x00'
 p3918
 tp3919
 Rp3920
-sValice
+sVzero
 p3921
 g3667
 (g3671
-S'\x05\x00\x00\x00\x00\x00\x00\x00'
+S'\xec\x00\x00\x00\x00\x00\x00\x00'
 p3922
 tp3923
 Rp3924
-sVsee
+sVcomputer
 p3925
 g3667
 (g3671
-S'\xb0\x00\x00\x00\x00\x00\x00\x00'
+S"'\x00\x00\x00\x00\x00\x00\x00"
 p3926
 tp3927
 Rp3928
-sVlouder
+sVare
 p3929
 g3667
 (g3671
-S't\x00\x00\x00\x00\x00\x00\x00'
+S'\x0c\x00\x00\x00\x00\x00\x00\x00'
 p3930
 tp3931
 Rp3932
-sVare
+sVclose
 p3933
 g3667
 (g3671
-S'\x0c\x00\x00\x00\x00\x00\x00\x00'
+S'"\x00\x00\x00\x00\x00\x00\x00'
 p3934
 tp3935
 Rp3936
-sVclose
+sVcalendar
 p3937
 g3667
 (g3671
-S'"\x00\x00\x00\x00\x00\x00\x00'
+S'\x1b\x00\x00\x00\x00\x00\x00\x00'
 p3938
 tp3939
 Rp3940
-sVcalendar
+sVextract
 p3941
 g3667
 (g3671
-S'\x1b\x00\x00\x00\x00\x00\x00\x00'
+S'B\x00\x00\x00\x00\x00\x00\x00'
 p3942
 tp3943
 Rp3944
-sVextract
+sVcold
 p3945
 g3667
 (g3671
-S'B\x00\x00\x00\x00\x00\x00\x00'
+S'$\x00\x00\x00\x00\x00\x00\x00'
 p3946
 tp3947
 Rp3948
-sVcold
+sVout
 p3949
 g3667
 (g3671
-S'$\x00\x00\x00\x00\x00\x00\x00'
+S'\x8f\x00\x00\x00\x00\x00\x00\x00'
 p3950
 tp3951
 Rp3952
-sVout
+sVcategory
 p3953
 g3667
 (g3671
-S'\x8f\x00\x00\x00\x00\x00\x00\x00'
+S'\x1d\x00\x00\x00\x00\x00\x00\x00'
 p3954
 tp3955
 Rp3956
-sVcategory
+sVwhat
 p3957
 g3667
 (g3671
-S'\x1d\x00\x00\x00\x00\x00\x00\x00'
+S'\xe1\x00\x00\x00\x00\x00\x00\x00'
 p3958
 tp3959
 Rp3960
-sVwhat
+sVgive
 p3961
 g3667
 (g3671
-S'\xe1\x00\x00\x00\x00\x00\x00\x00'
+S'R\x00\x00\x00\x00\x00\x00\x00'
 p3962
 tp3963
 Rp3964
@@ -8034,11 +8034,11 @@ S'\x80\x00\x00\x00\x00\x00\x00\x00'
 p4014
 tp4015
 Rp4016
-sVmoderate
+sVgov
 p4017
 g3667
 (g3671
-S'z\x00\x00\x00\x00\x00\x00\x00'
+S'Y\x00\x00\x00\x00\x00\x00\x00'
 p4018
 tp4019
 Rp4020
@@ -8066,1099 +8066,1099 @@ S'\xb4\x00\x00\x00\x00\x00\x00\x00'
 p4030
 tp4031
 Rp4032
-sVnoise
+sVfriday
 p4033
 g3667
 (g3671
-S'\x86\x00\x00\x00\x00\x00\x00\x00'
+S'M\x00\x00\x00\x00\x00\x00\x00'
 p4034
 tp4035
 Rp4036
-sVtomorrow
+sVschedule
 p4037
 g3667
 (g3671
-S'\xd0\x00\x00\x00\x00\x00\x00\x00'
+S'\xad\x00\x00\x00\x00\x00\x00\x00'
 p4038
 tp4039
 Rp4040
-sVschedule
+sVscreen
 p4041
 g3667
 (g3671
-S'\xad\x00\x00\x00\x00\x00\x00\x00'
+S'\xae\x00\x00\x00\x00\x00\x00\x00'
 p4042
 tp4043
 Rp4044
-sVscreen
+sVdictates
 p4045
 g3667
 (g3671
-S'\xae\x00\x00\x00\x00\x00\x00\x00'
+S'2\x00\x00\x00\x00\x00\x00\x00'
 p4046
 tp4047
 Rp4048
-sVdictates
+sVfree
 p4049
 g3667
 (g3671
-S'2\x00\x00\x00\x00\x00\x00\x00'
+S'K\x00\x00\x00\x00\x00\x00\x00'
 p4050
 tp4051
 Rp4052
-sVfree
+sVwe
 p4053
 g3667
 (g3671
-S'K\x00\x00\x00\x00\x00\x00\x00'
+S'\xdd\x00\x00\x00\x00\x00\x00\x00'
 p4054
 tp4055
 Rp4056
-sVwe
+sVillustration
 p4057
 g3667
 (g3671
-S'\xdd\x00\x00\x00\x00\x00\x00\x00'
+S'c\x00\x00\x00\x00\x00\x00\x00'
 p4058
 tp4059
 Rp4060
-sVillustration
+sVactive
 p4061
 g3667
 (g3671
-S'c\x00\x00\x00\x00\x00\x00\x00'
+S'\x01\x00\x00\x00\x00\x00\x00\x00'
 p4062
 tp4063
 Rp4064
-sVactive
+sVnews
 p4065
 g3667
 (g3671
-S'\x01\x00\x00\x00\x00\x00\x00\x00'
+S'\x82\x00\x00\x00\x00\x00\x00\x00'
 p4066
 tp4067
 Rp4068
-sVnews
+sVpost
 p4069
 g3667
 (g3671
-S'\x82\x00\x00\x00\x00\x00\x00\x00'
+S'\x95\x00\x00\x00\x00\x00\x00\x00'
 p4070
 tp4071
 Rp4072
-sVpost
+sVdon
 p4073
 g3667
 (g3671
-S'\x95\x00\x00\x00\x00\x00\x00\x00'
+S'7\x00\x00\x00\x00\x00\x00\x00'
 p4074
 tp4075
 Rp4076
-sVdon
+sVon
 p4077
 g3667
 (g3671
-S'7\x00\x00\x00\x00\x00\x00\x00'
+S'\x8c\x00\x00\x00\x00\x00\x00\x00'
 p4078
 tp4079
 Rp4080
-sVearlier
+sVsearch
 p4081
 g3667
 (g3671
-S';\x00\x00\x00\x00\x00\x00\x00'
+S'\xaf\x00\x00\x00\x00\x00\x00\x00'
 p4082
 tp4083
 Rp4084
-sVon
+sVlast
 p4085
 g3667
 (g3671
-S'\x8c\x00\x00\x00\x00\x00\x00\x00'
+S'o\x00\x00\x00\x00\x00\x00\x00'
 p4086
 tp4087
 Rp4088
-sVsearch
+sVahead
 p4089
 g3667
 (g3671
-S'\xaf\x00\x00\x00\x00\x00\x00\x00'
+S'\x03\x00\x00\x00\x00\x00\x00\x00'
 p4090
 tp4091
 Rp4092
-sVlast
+sVof
 p4093
 g3667
 (g3671
-S'o\x00\x00\x00\x00\x00\x00\x00'
+S'\x89\x00\x00\x00\x00\x00\x00\x00'
 p4094
 tp4095
 Rp4096
-sVahead
+sVcould
 p4097
 g3667
 (g3671
-S'\x03\x00\x00\x00\x00\x00\x00\x00'
+S'(\x00\x00\x00\x00\x00\x00\x00'
 p4098
 tp4099
 Rp4100
-sVof
+sVcurrent
 p4101
 g3667
 (g3671
-S'\x89\x00\x00\x00\x00\x00\x00\x00'
+S'*\x00\x00\x00\x00\x00\x00\x00'
 p4102
 tp4103
 Rp4104
-sVcould
+sVquiet
 p4105
 g3667
 (g3671
-S'(\x00\x00\x00\x00\x00\x00\x00'
+S'\x9e\x00\x00\x00\x00\x00\x00\x00'
 p4106
 tp4107
 Rp4108
-sVcurrent
+sVturn
 p4109
 g3667
 (g3671
-S'*\x00\x00\x00\x00\x00\x00\x00'
+S'\xd7\x00\x00\x00\x00\x00\x00\x00'
 p4110
 tp4111
 Rp4112
-sVquiet
+sVisn
 p4113
 g3667
 (g3671
-S'\x9e\x00\x00\x00\x00\x00\x00\x00'
+S'k\x00\x00\x00\x00\x00\x00\x00'
 p4114
 tp4115
 Rp4116
-sVturn
+sVbrowsing
 p4117
 g3667
 (g3671
-S'\xd7\x00\x00\x00\x00\x00\x00\x00'
+S'\x18\x00\x00\x00\x00\x00\x00\x00'
 p4118
 tp4119
 Rp4120
-sVisn
+sVcom
 p4121
 g3667
 (g3671
-S'k\x00\x00\x00\x00\x00\x00\x00'
+S'%\x00\x00\x00\x00\x00\x00\x00'
 p4122
 tp4123
 Rp4124
-sVbrowsing
+sVthink
 p4125
 g3667
 (g3671
-S'\x18\x00\x00\x00\x00\x00\x00\x00'
+S'\xc9\x00\x00\x00\x00\x00\x00\x00'
 p4126
 tp4127
 Rp4128
-sVcom
+sVfeed
 p4129
 g3667
 (g3671
-S'%\x00\x00\x00\x00\x00\x00\x00'
+S'F\x00\x00\x00\x00\x00\x00\x00'
 p4130
 tp4131
 Rp4132
-sVthink
+sVthis
 p4133
 g3667
 (g3671
-S'\xc9\x00\x00\x00\x00\x00\x00\x00'
+S'\xca\x00\x00\x00\x00\x00\x00\x00'
 p4134
 tp4135
 Rp4136
-sVfeed
+sVwhats
 p4137
 g3667
 (g3671
-S'F\x00\x00\x00\x00\x00\x00\x00'
+S'\xe2\x00\x00\x00\x00\x00\x00\x00'
 p4138
 tp4139
 Rp4140
-sVthis
+sVfeatures
 p4141
 g3667
 (g3671
-S'\xca\x00\x00\x00\x00\x00\x00\x00'
+S'E\x00\x00\x00\x00\x00\x00\x00'
 p4142
 tp4143
 Rp4144
-sVwhats
+sVsimple
 p4145
 g3667
 (g3671
-S'\xe2\x00\x00\x00\x00\x00\x00\x00'
+S'\xb6\x00\x00\x00\x00\x00\x00\x00'
 p4146
 tp4147
 Rp4148
-sVfeatures
+sVsweet
 p4149
 g3667
 (g3671
-S'E\x00\x00\x00\x00\x00\x00\x00'
+S'\xc3\x00\x00\x00\x00\x00\x00\x00'
 p4150
 tp4151
 Rp4152
-sVsimple
+sVtuesday
 p4153
 g3667
 (g3671
-S'\xb6\x00\x00\x00\x00\x00\x00\x00'
+S'\xd3\x00\x00\x00\x00\x00\x00\x00'
 p4154
 tp4155
 Rp4156
-sVsweet
+sVyourself
 p4157
 g3667
 (g3671
-S'\xc3\x00\x00\x00\x00\x00\x00\x00'
+S'\xeb\x00\x00\x00\x00\x00\x00\x00'
 p4158
 tp4159
 Rp4160
-sVtuesday
+sVdown
 p4161
 g3667
 (g3671
-S'\xd3\x00\x00\x00\x00\x00\x00\x00'
+S'9\x00\x00\x00\x00\x00\x00\x00'
 p4162
 tp4163
 Rp4164
-sVunmute
+sVput
 p4165
 g3667
 (g3671
-S'\xd8\x00\x00\x00\x00\x00\x00\x00'
+S'\x9c\x00\x00\x00\x00\x00\x00\x00'
 p4166
 tp4167
 Rp4168
-sVyourself
+sVweather
 p4169
 g3667
 (g3671
-S'\xeb\x00\x00\x00\x00\x00\x00\x00'
+S'\xde\x00\x00\x00\x00\x00\x00\x00'
 p4170
 tp4171
 Rp4172
-sVdown
+sVdecrease
 p4173
 g3667
 (g3671
-S'9\x00\x00\x00\x00\x00\x00\x00'
+S'/\x00\x00\x00\x00\x00\x00\x00'
 p4174
 tp4175
 Rp4176
-sVput
+sVthursday
 p4177
 g3667
 (g3671
-S'\x9c\x00\x00\x00\x00\x00\x00\x00'
+S'\xcb\x00\x00\x00\x00\x00\x00\x00'
 p4178
 tp4179
 Rp4180
-sVgoogle
+sVshutdown
 p4181
 g3667
 (g3671
-S'W\x00\x00\x00\x00\x00\x00\x00'
+S'\xb5\x00\x00\x00\x00\x00\x00\x00'
 p4182
 tp4183
 Rp4184
-sVdecrease
+sVfake
 p4185
 g3667
 (g3671
-S'/\x00\x00\x00\x00\x00\x00\x00'
+S'C\x00\x00\x00\x00\x00\x00\x00'
 p4186
 tp4187
 Rp4188
-sVthursday
+sVopen
 p4189
 g3667
 (g3671
-S'\xcb\x00\x00\x00\x00\x00\x00\x00'
+S'\x8d\x00\x00\x00\x00\x00\x00\x00'
 p4190
 tp4191
 Rp4192
-sVshutdown
+sVtomorrow
 p4193
 g3667
 (g3671
-S'\xb5\x00\x00\x00\x00\x00\x00\x00'
+S'\xd0\x00\x00\x00\x00\x00\x00\x00'
 p4194
 tp4195
 Rp4196
-sVfake
+sVquit
 p4197
 g3667
 (g3671
-S'C\x00\x00\x00\x00\x00\x00\x00'
+S'\xa0\x00\x00\x00\x00\x00\x00\x00'
 p4198
 tp4199
 Rp4200
-sVopen
+sVtemperature
 p4201
 g3667
 (g3671
-S'\x8d\x00\x00\x00\x00\x00\x00\x00'
+S'\xc6\x00\x00\x00\x00\x00\x00\x00'
 p4202
 tp4203
 Rp4204
-sVyour
+sVwould
 p4205
 g3667
 (g3671
-S'\xea\x00\x00\x00\x00\x00\x00\x00'
+S'\xe7\x00\x00\x00\x00\x00\x00\x00'
 p4206
 tp4207
 Rp4208
-sVquit
+sVtunez
 p4209
 g3667
 (g3671
-S'\xa0\x00\x00\x00\x00\x00\x00\x00'
+S'\xd6\x00\x00\x00\x00\x00\x00\x00'
 p4210
 tp4211
 Rp4212
-sVtemperature
+sVsake
 p4213
 g3667
 (g3671
-S'\xc6\x00\x00\x00\x00\x00\x00\x00'
+S'\xaa\x00\x00\x00\x00\x00\x00\x00'
 p4214
 tp4215
 Rp4216
-sVwould
+sVdecent
 p4217
 g3667
 (g3671
-S'\xe7\x00\x00\x00\x00\x00\x00\x00'
+S'.\x00\x00\x00\x00\x00\x00\x00'
 p4218
 tp4219
 Rp4220
-sVsake
+sVcreate
 p4221
 g3667
 (g3671
-S'\xaa\x00\x00\x00\x00\x00\x00\x00'
+S')\x00\x00\x00\x00\x00\x00\x00'
 p4222
 tp4223
 Rp4224
-sVdecent
+sVthere
 p4225
 g3667
 (g3671
-S'.\x00\x00\x00\x00\x00\x00\x00'
+S'\xc8\x00\x00\x00\x00\x00\x00\x00'
 p4226
 tp4227
 Rp4228
-sVcreate
+sVquestion
 p4229
 g3667
 (g3671
-S')\x00\x00\x00\x00\x00\x00\x00'
+S'\x9d\x00\x00\x00\x00\x00\x00\x00'
 p4230
 tp4231
 Rp4232
-sVthere
+sVwindow
 p4233
 g3667
 (g3671
-S'\xc8\x00\x00\x00\x00\x00\x00\x00'
+S'\xe5\x00\x00\x00\x00\x00\x00\x00'
 p4234
 tp4235
 Rp4236
-sVquestion
+sVnext
 p4237
 g3667
 (g3671
-S'\x9d\x00\x00\x00\x00\x00\x00\x00'
+S'\x84\x00\x00\x00\x00\x00\x00\x00'
 p4238
 tp4239
 Rp4240
-sVwindow
+sVstart
 p4241
 g3667
 (g3671
-S'\xe5\x00\x00\x00\x00\x00\x00\x00'
+S'\xbf\x00\x00\x00\x00\x00\x00\x00'
 p4242
 tp4243
 Rp4244
-sVnext
+sVlive
 p4245
 g3667
 (g3671
-S'\x84\x00\x00\x00\x00\x00\x00\x00'
+S'r\x00\x00\x00\x00\x00\x00\x00'
 p4246
 tp4247
 Rp4248
-sVstart
+sVprogram
 p4249
 g3667
 (g3671
-S'\xbf\x00\x00\x00\x00\x00\x00\x00'
+S'\x9b\x00\x00\x00\x00\x00\x00\x00'
 p4250
 tp4251
 Rp4252
-sVlive
+sVmusic
 p4253
 g3667
 (g3671
-S'r\x00\x00\x00\x00\x00\x00\x00'
+S'}\x00\x00\x00\x00\x00\x00\x00'
 p4254
 tp4255
 Rp4256
-sVprogram
+sVtell
 p4257
 g3667
 (g3671
-S'\x9b\x00\x00\x00\x00\x00\x00\x00'
+S'\xc5\x00\x00\x00\x00\x00\x00\x00'
 p4258
 tp4259
 Rp4260
-sVmusic
+sVtoday
 p4261
 g3667
 (g3671
-S'}\x00\x00\x00\x00\x00\x00\x00'
+S'\xce\x00\x00\x00\x00\x00\x00\x00'
 p4262
 tp4263
 Rp4264
-sVtell
+sVpretends
 p4265
 g3667
 (g3671
-S'\xc5\x00\x00\x00\x00\x00\x00\x00'
+S'\x97\x00\x00\x00\x00\x00\x00\x00'
 p4266
 tp4267
 Rp4268
-sVtoday
+sVsound
 p4269
 g3667
 (g3671
-S'\xce\x00\x00\x00\x00\x00\x00\x00'
+S'\xbc\x00\x00\x00\x00\x00\x00\x00'
 p4270
 tp4271
 Rp4272
-sVpretends
+sVreleasing
 p4273
 g3667
 (g3671
-S'\x97\x00\x00\x00\x00\x00\x00\x00'
+S'\xa6\x00\x00\x00\x00\x00\x00\x00'
 p4274
 tp4275
 Rp4276
-sVsound
+sVcommands
 p4277
 g3667
 (g3671
-S'\xbc\x00\x00\x00\x00\x00\x00\x00'
+S'&\x00\x00\x00\x00\x00\x00\x00'
 p4278
 tp4279
 Rp4280
-sVreleasing
+sVit
 p4281
 g3667
 (g3671
-S'\xa6\x00\x00\x00\x00\x00\x00\x00'
+S'm\x00\x00\x00\x00\x00\x00\x00'
 p4282
 tp4283
 Rp4284
-sVcommands
+sVvolume
 p4285
 g3667
 (g3671
-S'&\x00\x00\x00\x00\x00\x00\x00'
+S'\xdb\x00\x00\x00\x00\x00\x00\x00'
 p4286
 tp4287
 Rp4288
-sVit
+sVtrain
 p4289
 g3667
 (g3671
-S'm\x00\x00\x00\x00\x00\x00\x00'
+S'\xd1\x00\x00\x00\x00\x00\x00\x00'
 p4290
 tp4291
 Rp4292
-sVvolume
+sVstick
 p4293
 g3667
 (g3671
-S'\xdb\x00\x00\x00\x00\x00\x00\x00'
+S'\xc0\x00\x00\x00\x00\x00\x00\x00'
 p4294
 tp4295
 Rp4296
-sVtrain
+sVbeat
 p4297
 g3667
 (g3671
-S'\xd1\x00\x00\x00\x00\x00\x00\x00'
+S'\x11\x00\x00\x00\x00\x00\x00\x00'
 p4298
 tp4299
 Rp4300
-sVstick
+sVfoggy
 p4301
 g3667
 (g3671
-S'\xc0\x00\x00\x00\x00\x00\x00\x00'
+S'H\x00\x00\x00\x00\x00\x00\x00'
 p4302
 tp4303
 Rp4304
-sVbeat
+sVgoogle
 p4305
 g3667
 (g3671
-S'\x11\x00\x00\x00\x00\x00\x00\x00'
+S'W\x00\x00\x00\x00\x00\x00\x00'
 p4306
 tp4307
 Rp4308
-sVfoggy
+sVdocument
 p4309
 g3667
 (g3671
-S'H\x00\x00\x00\x00\x00\x00\x00'
+S'5\x00\x00\x00\x00\x00\x00\x00'
 p4310
 tp4311
 Rp4312
-sVdocument
+sVme
 p4313
 g3667
 (g3671
-S'5\x00\x00\x00\x00\x00\x00\x00'
+S'y\x00\x00\x00\x00\x00\x00\x00'
 p4314
 tp4315
 Rp4316
-sVme
+sVanything
 p4317
 g3667
 (g3671
-S'y\x00\x00\x00\x00\x00\x00\x00'
+S'\x0b\x00\x00\x00\x00\x00\x00\x00'
 p4318
 tp4319
 Rp4320
-sVanything
+sVdefault
 p4321
 g3667
 (g3671
-S'\x0b\x00\x00\x00\x00\x00\x00\x00'
+S'1\x00\x00\x00\x00\x00\x00\x00'
 p4322
 tp4323
 Rp4324
-sVfriday
+sVsnow
 p4325
 g3667
 (g3671
-S'M\x00\x00\x00\x00\x00\x00\x00'
+S'\xb8\x00\x00\x00\x00\x00\x00\x00'
 p4326
 tp4327
 Rp4328
-sVdefault
+sVsee
 p4329
 g3667
 (g3671
-S'1\x00\x00\x00\x00\x00\x00\x00'
+S'\xb0\x00\x00\x00\x00\x00\x00\x00'
 p4330
 tp4331
 Rp4332
-sVup
+sVdogs
 p4333
 g3667
 (g3671
-S'\xd9\x00\x00\x00\x00\x00\x00\x00'
+S'6\x00\x00\x00\x00\x00\x00\x00'
 p4334
 tp4335
 Rp4336
-sVdogs
+sVwill
 p4337
 g3667
 (g3671
-S'6\x00\x00\x00\x00\x00\x00\x00'
+S'\xe4\x00\x00\x00\x00\x00\x00\x00'
 p4338
 tp4339
 Rp4340
-sVwill
+sVlouder
 p4341
 g3667
 (g3671
-S'\xe4\x00\x00\x00\x00\x00\x00\x00'
+S't\x00\x00\x00\x00\x00\x00\x00'
 p4342
 tp4343
 Rp4344
-sVcomputer
+sVcan
 p4345
 g3667
 (g3671
-S"'\x00\x00\x00\x00\x00\x00\x00"
+S'\x1c\x00\x00\x00\x00\x00\x00\x00'
 p4346
 tp4347
 Rp4348
-sVcan
+sVbriefing
 p4349
 g3667
 (g3671
-S'\x1c\x00\x00\x00\x00\x00\x00\x00'
+S'\x16\x00\x00\x00\x00\x00\x00\x00'
 p4350
 tp4351
 Rp4352
-sVbriefing
+sVproblem
 p4353
 g3667
 (g3671
-S'\x16\x00\x00\x00\x00\x00\x00\x00'
+S'\x99\x00\x00\x00\x00\x00\x00\x00'
 p4354
 tp4355
 Rp4356
-sVproblem
+sVoutcome
 p4357
 g3667
 (g3671
-S'\x99\x00\x00\x00\x00\x00\x00\x00'
+S'\x90\x00\x00\x00\x00\x00\x00\x00'
 p4358
 tp4359
 Rp4360
-sVoutcome
+sVmy
 p4361
 g3667
 (g3671
-S'\x90\x00\x00\x00\x00\x00\x00\x00'
+S'\x7f\x00\x00\x00\x00\x00\x00\x00'
 p4362
 tp4363
 Rp4364
-sVmy
+sVdee
 p4365
 g3667
 (g3671
-S'\x7f\x00\x00\x00\x00\x00\x00\x00'
+S'0\x00\x00\x00\x00\x00\x00\x00'
 p4366
 tp4367
 Rp4368
-sVdee
+sVbrowser
 p4369
 g3667
 (g3671
-S'0\x00\x00\x00\x00\x00\x00\x00'
+S'\x17\x00\x00\x00\x00\x00\x00\x00'
 p4370
 tp4371
 Rp4372
-sVfeature
+sVbefore
 p4373
 g3667
 (g3671
-S'D\x00\x00\x00\x00\x00\x00\x00'
+S'\x13\x00\x00\x00\x00\x00\x00\x00'
 p4374
 tp4375
 Rp4376
-sVbrowser
+sVup
 p4377
 g3667
 (g3671
-S'\x17\x00\x00\x00\x00\x00\x00\x00'
+S'\xd9\x00\x00\x00\x00\x00\x00\x00'
 p4378
 tp4379
 Rp4380
-sVsaturday
+sValmost
 p4381
 g3667
 (g3671
-S'\xac\x00\x00\x00\x00\x00\x00\x00'
+S'\x06\x00\x00\x00\x00\x00\x00\x00'
 p4382
 tp4383
 Rp4384
-sVgive
+sVlock
 p4385
 g3667
 (g3671
-S'R\x00\x00\x00\x00\x00\x00\x00'
+S's\x00\x00\x00\x00\x00\x00\x00'
 p4386
 tp4387
 Rp4388
-sValmost
+sVis
 p4389
 g3667
 (g3671
-S'\x06\x00\x00\x00\x00\x00\x00\x00'
+S'j\x00\x00\x00\x00\x00\x00\x00'
 p4390
 tp4391
 Rp4392
-sVlock
+sVin
 p4393
 g3667
 (g3671
-S's\x00\x00\x00\x00\x00\x00\x00'
+S'd\x00\x00\x00\x00\x00\x00\x00'
 p4394
 tp4395
 Rp4396
-sVis
+sVam
 p4397
 g3667
 (g3671
-S'j\x00\x00\x00\x00\x00\x00\x00'
+S'\x07\x00\x00\x00\x00\x00\x00\x00'
 p4398
 tp4399
 Rp4400
-sVin
+sVfuck
 p4401
 g3667
 (g3671
-S'd\x00\x00\x00\x00\x00\x00\x00'
+S'N\x00\x00\x00\x00\x00\x00\x00'
 p4402
 tp4403
 Rp4404
-sVam
+sVbackbone
 p4405
 g3667
 (g3671
-S'\x07\x00\x00\x00\x00\x00\x00\x00'
+S'\x0f\x00\x00\x00\x00\x00\x00\x00'
 p4406
 tp4407
 Rp4408
-sVfuck
+sVan
 p4409
 g3667
 (g3671
-S'N\x00\x00\x00\x00\x00\x00\x00'
+S'\x08\x00\x00\x00\x00\x00\x00\x00'
 p4410
 tp4411
 Rp4412
-sVan
+sVbeats
 p4413
 g3667
 (g3671
-S'\x08\x00\x00\x00\x00\x00\x00\x00'
+S'\x12\x00\x00\x00\x00\x00\x00\x00'
 p4414
 tp4415
 Rp4416
-sVbeats
+sVright
 p4417
 g3667
 (g3671
-S'\x12\x00\x00\x00\x00\x00\x00\x00'
+S'\xa9\x00\x00\x00\x00\x00\x00\x00'
 p4418
 tp4419
 Rp4420
-sVright
+sVhave
 p4421
 g3667
 (g3671
-S'\xa9\x00\x00\x00\x00\x00\x00\x00'
+S'\\\x00\x00\x00\x00\x00\x00\x00'
 p4422
 tp4423
 Rp4424
-sVhave
+sVstalls
 p4425
 g3667
 (g3671
-S'\\\x00\x00\x00\x00\x00\x00\x00'
+S'\xbe\x00\x00\x00\x00\x00\x00\x00'
 p4426
 tp4427
 Rp4428
-sVstalls
+sVcheck
 p4429
 g3667
 (g3671
-S'\xbe\x00\x00\x00\x00\x00\x00\x00'
+S'\x1f\x00\x00\x00\x00\x00\x00\x00'
 p4430
 tp4431
 Rp4432
-sVcheck
+sVif
 p4433
 g3667
 (g3671
-S'\x1f\x00\x00\x00\x00\x00\x00\x00'
+S'b\x00\x00\x00\x00\x00\x00\x00'
 p4434
 tp4435
 Rp4436
-sVif
+sVinformation
 p4437
 g3667
 (g3671
-S'b\x00\x00\x00\x00\x00\x00\x00'
+S'g\x00\x00\x00\x00\x00\x00\x00'
 p4438
 tp4439
 Rp4440
-sVinformation
+sVrainy
 p4441
 g3667
 (g3671
-S'g\x00\x00\x00\x00\x00\x00\x00'
+S'\xa3\x00\x00\x00\x00\x00\x00\x00'
 p4442
 tp4443
 Rp4444
-sVrainy
+sVnoise
 p4445
 g3667
 (g3671
-S'\xa3\x00\x00\x00\x00\x00\x00\x00'
+S'\x86\x00\x00\x00\x00\x00\x00\x00'
 p4446
 tp4447
 Rp4448
-sVzero
+sVmake
 p4449
 g3667
 (g3671
-S'\xec\x00\x00\x00\x00\x00\x00\x00'
+S'w\x00\x00\x00\x00\x00\x00\x00'
 p4450
 tp4451
 Rp4452
-sVmake
+sVsong
 p4453
 g3667
 (g3671
-S'w\x00\x00\x00\x00\x00\x00\x00'
+S'\xbb\x00\x00\x00\x00\x00\x00\x00'
 p4454
 tp4455
 Rp4456
-sVsong
+sVwhen
 p4457
 g3667
 (g3671
-S'\xbb\x00\x00\x00\x00\x00\x00\x00'
+S'\xe3\x00\x00\x00\x00\x00\x00\x00'
 p4458
 tp4459
 Rp4460
-sVwhen
+sVfeature
 p4461
 g3667
 (g3671
-S'\xe3\x00\x00\x00\x00\x00\x00\x00'
+S'D\x00\x00\x00\x00\x00\x00\x00'
 p4462
 tp4463
 Rp4464
-sVsnow
+sVsame
 p4465
 g3667
 (g3671
-S'\xb8\x00\x00\x00\x00\x00\x00\x00'
+S'\xab\x00\x00\x00\x00\x00\x00\x00'
 p4466
 tp4467
 Rp4468
-sVsame
+sVsaturday
 p4469
 g3667
 (g3671
-S'\xab\x00\x00\x00\x00\x00\x00\x00'
+S'\xac\x00\x00\x00\x00\x00\x00\x00'
 p4470
 tp4471
 Rp4472
-sVevent
+sVbeside
 p4473
 g3667
 (g3671
-S'?\x00\x00\x00\x00\x00\x00\x00'
+S'\x14\x00\x00\x00\x00\x00\x00\x00'
 p4474
 tp4475
 Rp4476
-sVbeside
+sVhow
 p4477
 g3667
 (g3671
-S'\x14\x00\x00\x00\x00\x00\x00\x00'
+S'a\x00\x00\x00\x00\x00\x00\x00'
 p4478
 tp4479
 Rp4480
-sVhow
+sVhot
 p4481
 g3667
 (g3671
-S'a\x00\x00\x00\x00\x00\x00\x00'
+S'`\x00\x00\x00\x00\x00\x00\x00'
 p4482
 tp4483
 Rp4484
-sVhot
+sVanswer
 p4485
 g3667
 (g3671
-S'`\x00\x00\x00\x00\x00\x00\x00'
+S'\t\x00\x00\x00\x00\x00\x00\x00'
 p4486
 tp4487
 Rp4488
-sVbefore
+sVyou
 p4489
 g3667
 (g3671
-S'\x13\x00\x00\x00\x00\x00\x00\x00'
+S'\xe9\x00\x00\x00\x00\x00\x00\x00'
 p4490
 tp4491
 Rp4492
-sVyou
+sVgmail
 p4493
 g3667
 (g3671
-S'\xe9\x00\x00\x00\x00\x00\x00\x00'
+S'S\x00\x00\x00\x00\x00\x00\x00'
 p4494
 tp4495
 Rp4496
-sVgmail
+sVevents
 p4497
 g3667
 (g3671
-S'S\x00\x00\x00\x00\x00\x00\x00'
+S'@\x00\x00\x00\x00\x00\x00\x00'
 p4498
 tp4499
 Rp4500
-sVevents
+sVhigher
 p4501
 g3667
 (g3671
-S'@\x00\x00\x00\x00\x00\x00\x00'
+S'_\x00\x00\x00\x00\x00\x00\x00'
 p4502
 tp4503
 Rp4504
-sVhigher
+sVweek
 p4505
 g3667
 (g3671
-S'_\x00\x00\x00\x00\x00\x00\x00'
+S'\xe0\x00\x00\x00\x00\x00\x00\x00'
 p4506
 tp4507
 Rp4508
-sVweek
+sVplay
 p4509
 g3667
 (g3671
-S'\xe0\x00\x00\x00\x00\x00\x00\x00'
+S'\x92\x00\x00\x00\x00\x00\x00\x00'
 p4510
 tp4511
 Rp4512
-sVplay
+sVokay
 p4513
 g3667
 (g3671
-S'\x92\x00\x00\x00\x00\x00\x00\x00'
+S'\x8b\x00\x00\x00\x00\x00\x00\x00'
 p4514
 tp4515
 Rp4516
-sVokay
+sVhey
 p4517
 g3667
 (g3671
-S'\x8b\x00\x00\x00\x00\x00\x00\x00'
+S'^\x00\x00\x00\x00\x00\x00\x00'
 p4518
 tp4519
 Rp4520
-sVhey
+sVmonday
 p4521
 g3667
 (g3671
-S'^\x00\x00\x00\x00\x00\x00\x00'
+S'{\x00\x00\x00\x00\x00\x00\x00'
 p4522
 tp4523
 Rp4524
-sVmonday
+sVany
 p4525
 g3667
 (g3671
-S'{\x00\x00\x00\x00\x00\x00\x00'
+S'\n\x00\x00\x00\x00\x00\x00\x00'
 p4526
 tp4527
 Rp4528
-sVany
+sVstop
 p4529
 g3667
 (g3671
-S'\n\x00\x00\x00\x00\x00\x00\x00'
+S'\xc1\x00\x00\x00\x00\x00\x00\x00'
 p4530
 tp4531
 Rp4532
-sVstop
+sVorg
 p4533
 g3667
 (g3671
-S'\xc1\x00\x00\x00\x00\x00\x00\x00'
+S'\x8e\x00\x00\x00\x00\x00\x00\x00'
 p4534
 tp4535
 Rp4536
-sVorg
+sVearlier
 p4537
 g3667
 (g3671
-S'\x8e\x00\x00\x00\x00\x00\x00\x00'
+S';\x00\x00\x00\x00\x00\x00\x00'
 p4538
 tp4539
 Rp4540
-sVbackbone
+sVproblems
 p4541
 g3667
 (g3671
-S'\x0f\x00\x00\x00\x00\x00\x00\x00'
+S'\x9a\x00\x00\x00\x00\x00\x00\x00'
 p4542
 tp4543
 Rp4544
-sVproblems
+sVquieter
 p4545
 g3667
 (g3671
-S'\x9a\x00\x00\x00\x00\x00\x00\x00'
+S'\x9f\x00\x00\x00\x00\x00\x00\x00'
 p4546
 tp4547
 Rp4548
-sVquieter
+sVrain
 p4549
 g3667
 (g3671
-S'\x9f\x00\x00\x00\x00\x00\x00\x00'
+S'\xa1\x00\x00\x00\x00\x00\x00\x00'
 p4550
 tp4551
 Rp4552
-sVrain
+sVbyebye
 p4553
 g3667
 (g3671
-S'\xa1\x00\x00\x00\x00\x00\x00\x00'
+S'\x1a\x00\x00\x00\x00\x00\x00\x00'
 p4554
 tp4555
 Rp4556
-sVfreezing
+sVtune
 p4557
 g3667
 (g3671
-S'L\x00\x00\x00\x00\x00\x00\x00'
+S'\xd4\x00\x00\x00\x00\x00\x00\x00'
 p4558
 tp4559
 Rp4560
-sVbyebye
+sVyour
 p4561
 g3667
 (g3671
-S'\x1a\x00\x00\x00\x00\x00\x00\x00'
+S'\xea\x00\x00\x00\x00\x00\x00\x00'
 p4562
 tp4563
 Rp4564
-sVtune
+sVgrief
 p4565
 g3667
 (g3671
-S'\xd4\x00\x00\x00\x00\x00\x00\x00'
+S'Z\x00\x00\x00\x00\x00\x00\x00'
 p4566
 tp4567
 Rp4568
-sVgrief
+sVlower
 p4569
 g3667
 (g3671
-S'Z\x00\x00\x00\x00\x00\x00\x00'
+S'u\x00\x00\x00\x00\x00\x00\x00'
 p4570
 tp4571
 Rp4572
-sVlower
+sVoff
 p4573
 g3667
 (g3671
-S'u\x00\x00\x00\x00\x00\x00\x00'
+S'\x8a\x00\x00\x00\x00\x00\x00\x00'
 p4574
 tp4575
 Rp4576
-sVoff
+sVusing
 p4577
 g3667
 (g3671
-S'\x8a\x00\x00\x00\x00\x00\x00\x00'
+S'\xda\x00\x00\x00\x00\x00\x00\x00'
 p4578
 tp4579
 Rp4580
@@ -9467,7 +9467,7 @@ sg8
 g9
 sS'random_state'
 p4713
-I399
+I991
 sg3641
 g3642
 sS'loss_function'
@@ -9505,7 +9505,7 @@ I237
 tp4726
 g4680
 I00
-S'\x00\x00\x00\x00\x00\x00\x00\x00\x01~;\xbb\xc0j\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa9\xc3\xdc\xa2\x90~\xe7\xbf\x85\'\x97\xb7~g\x04\xc0Yx\xc1p(\xd4\xf1\xbfr:\xd3\xc9#\x9d\x03\xc0\xf2\x17o(\x9d\x82\xd2\xbf[^\x83\x7fr\xb7\xdd\xbf\x00\x00\x00\x00\x00\x00\x00\x009h0\xc3x\xec\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d\x82\xea\x91\x90g\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00^o\xbd\x90\xf0i\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}\x96\x0c\xe4\x08n\xe0\xbf\x0c\xeaA\\\xb8\'\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x0e\xae\xb8\x84M\xde\x01\xc0\x00\x00\x00\x00\x00\x00\x00\x00Y\xf8\x0e\xb7Cn\x06\xc0\x00\x00\x00\x00\x00\x00\x00\x00h\x84\x87\x84!k\x02\xc0\xd3\xad\xb7HM\xc8\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xe9\x11\xd3\xd6jT\xe1\xbf\x08\x9e}V\xa5\xef\x99\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x96\x88\xc2\xce\xe7V\x12@\xc6\xf9\x957<\x02\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x88\x91\x1b<\xb3\xa6\x02\xc0\x00\x00\x00\x00\x00\x00\x00\x00h\x07B\x1c*\xb2\x0c\xc0\x92\x07\xdaYk}\xd0\xbfZP\xf7\x8a\xa0\x90\xe2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa3\xebA\xb4\x0e>\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00[^\x83\x7fr\xb7\xdd\xbf\x98\xc9Sm\x98>\x0b\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xe1\xd0\xbe\xc5\xc5\x0e\xc0~\x08\xeb\xfc\xfe\xe6\x1e\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xca\xf547\xd1`\x04\xc0}\xf9CbP\xdc\x03\xc0[^\x83\x7fr\xb7\xdd\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x990l-d\xae\x04\xc0\xbb\x87\x1f\x93(\x89\xf9\xbf7\\\x01\xdfI\x1b\x02\xc0Yx\xc1p(\xd4\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00Yx\xc1p(\xd4\xf1\xbfYx\xc1p(\xd4\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xb4\xefe\xc4+\x92\x01\xc0w\xe4\x9b\xe2p\xe8\r\xc0.$i?\xa0\xab\x08\xc0\xb7\xbc\xad\xcd\xf32\xed\xbfr:\xd3\xc9#\x9d\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00^\x9aD\x12)V\xcf?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x83\t\x13\x81B\xc2\xf9\xbf\xd06\x9c\x18\xcdE\xff\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00be\xe4\xbe\xbf\x0e\xe7\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa2\xebWw\xe6\xa6\x11\xc0\xb6\x99!\x9e\xc2q\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa4\x00\xceL\xb8\xc3\xee\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00df\xc1\x07\xee\xf6\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00}g\x03\x0f"S\xd5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x96\xc8y\xcc\xa9V\xf4?\x1eu\xe3?\x07\xe9\x08\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x80\xe2\xbb\xb6G\xee\xd3\xbf\xd6i\x06\xff>\x19\xe6\xbf\x83\xfa\xe5\x9as\x92\x01\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xf6\xe1\xd0\xbe\xc5\xc5\x0e\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x96\xa1\xb5p\xad\xe5\xf9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe4\x19\xbb59\xa1\xf2\xbf,sIHU\x07\x08\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xe9\x11\xd3\xd6jT\xe1\xbf\'{\xb4\xbc\xbd\x8f\xd4\xbf\xe9\x11\xd3\xd6jT\xe1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x13\x92\xc9M[\x89\x08\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00h\x89q\x9d\xdcp\xfe\xbf\x00\x00\x00\x00\x00\x00\x00\x00U\xc2\xe2\x9b\x8d\xc8\xf6\xbf\x80\xd11\xa8TF\x05\xc0\x99\xad\x87\x8a\xbdK\x00\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10v\xa2X\x05\xb6\x13\xc0.\x15\xaey\xfe\x11\xa8?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa0\xbc(\x9e\x1ag\x08\xc0O\xccVd\x930\xfb\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00]\x04\xd3by\x8c\xa1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00,&i\x89\xb1\xc3\xee\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00x\x1dwG+\x0c\xed\xbf\x00\x00\x00\x00\x00\x00\x00\x00[^\x83\x7fr\xb7\xdd\xbf^o\xbd\x90\xf0i\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00k4FW\x13\x8c\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00[\xa0:(P\xd6\x0e\xc0nhBa\x1d\x14\xdf?\xe9\x11\xd3\xd6jT\xe1\xbf\x00\x00\x00\x00\x00\x00\x00\x00%\x0et`k\x8d\xf4?.\xe0\x96Qu|\xdd?\x00\x00\x00\x00\x00\x00\x00\x00Yx\xc1p(\xd4\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xdf\xf6\x0b\xb6sy\x11\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xca\xf547\xd1`\x04\xc0\x0c_k\x97i\x8a\xf6\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe8\x17P\x10\xf3\xce\xfa\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00U\x82\xe6R$\x1d\xfd\xbf*\xd3\x96~\xda\x03\xef\xbf\x89\xb2S\xc5\xee\xd2\x00\xc0\xe9\x11\xd3\xd6jT\xe1\xbf\xa0\xe07\x1c\xd7W\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xe5\xa5\xaa\x08H\x9d\x06\xc0\x00\x00\x00\x00\x00\x00\x00\x00}\xf9CbP\xdc\x03\xc0,&i\x89\xb1\xc3\xee\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xef\x1eY-sG\xec\xbf\xb6\x8d\\\xb0\xaf\xa3\xc3\xbf\x00\x00\x00\x00\x00\x00\x00\x00[^\x83\x7fr\xb7\xdd\xbf\xe9\x82+t\xe12\x02\xc0\x00\x00\x00\x00\x00\x00\x00\x00@\x08\xfbp\x95\xb9\x13@8k\x89\xbe\xcc\xc8\xf4\xbff6\x12\x07\x9bG\x10\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xdb\xaau\xda\xa1\xbd\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00*\x98O\xf1\x81\xb7\xee\xbf\x15(\x1dH-\xf1\xfc\xbfq\x11\x15\x01\x1c\xcc\xf1\xbfYx\xc1p(\xd4\xf1\xbf\xef\x9f\x96<\x9d/\xf3\xbfr \xda\xcb\xbeA\xfc?\x00\x00\x00\x00\x00\x00\x00\x00\x97\x145\x0c\xf8a\t\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00L\x05\x8b\x98\xdf5\xa2?\x00\x00\x00\x00\x00\x00\x00\x00\xe0\xb1\x07\xfa[)\x02@\x00\x00\x00\x00\x00\x00\x00\x00\xc5\n\x0b\xa06B\xe4\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xac\xfa\xceu\xad\xfc\xfe\xbfr \xda\xcb\xbeA\xfc?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+S'\x00\x00\x00\x00\x00\x00\x00\x00f\xba\x00\xe6\x16\xf1\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00!\xb5\x9d!\xd8\xc1\x0e\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xe4\x84\xb7M9\xe9\xed\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf6\n\xb5hO\x08\xe7\xbf\x1c\xa6\xc4\n\x04}\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xe0\x9cL4\xf7H\xfd\xbf\xb6|3\x1fE\xd7\x08\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00Fiu\xf88o\xf5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1aweY\xc8\xa0\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xb1#\x01\x82my\x0f\xc0\x00\x00\x00\x00\x00\x00\x00\x00!\xe4\x03\x1f\xac{\x02\xc0|\x84\xc7/\xbd\x15\xfe\xbfl2\x9d\xff\x17\xd8\x02\xc0\xd2\x14\x8a\xf1~\xdd\xfb\xbf\x00\x00\x00\x00\x00\x00\x00\x00+e\x8b\x95\xf7\x97\xf2\xbf\xfc\xfc\xb3v\xd5B\xe9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x11\xcd\xc5\x94\xf0q\x15@\xb3\xcap\x95X\xf5\xc3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1aa[\xe7\x0f\x02\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xba>\xa9\xde\xa2\x18\x0b\xc0O\xfa\x1c\xe6\xcfq\xbf?\xb6\xba\x9e\x03\xac@\xd9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00n~\xf4\xa0\x92\xe1\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1c\xa6\xc4\n\x04}\xf2\xbf\x96S\xd4~\xf1_\x14\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xef\xd2\xb5\x87\xf4\x9c!\xc0\x8e\xd8\x84\x99]\xb0\x02\xc0\xbc\xa7}0\x88\x8c\xec\xbf\x0cM\xc7u\xab#\xf2\xbf\x1c\xa6\xc4\n\x04}\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00n~\xf4\xa0\x92\xe1\x07\xc0b\xb2A\xfbR_\xfd\xbf\x13\r\xcbb>\x87\x03\xc0!\x00\xa4\x8eJ\xe1\x01\xc08sQi\xb8\xb1\xdd\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00d@\xf1\x8f\x80\x9f\xff\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x8e\x87\xe9J\xe1:\xf3\xbf\x0eKS_\xa84\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe2u{R\x9d\xa4\xe7?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xee\x87\xf1^\xcd\xc8\x08\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xe2\xd7\x07\\be\x06\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x10\xf3c\xbc\xa0\x17\xfb\xbf\xbf\x0f+ns(\t\xc0\x00\x00\x00\x00\x00\x00\x00\x00b\xe5m\xfb\xbc\x99\xdc\xbfi\xd6@\xb8\xe7\x8d\t\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xdc|\xe2\xa1\x945\x02\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf4-\xe2\xfa\xae\xfc\xe0\xbf\xac\x1c\x0f;?"\xf1\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x12\x87p\x1fl\xf7?\xa2I(\x0151\n\xc0\x00\x00\x00\x00\x00\x00\x00\x00~j\xcfZ<\xf1\xc7\xbf\xd3\xdb\xf8r"\xab\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00A\x83\xb4y\xae]\xfd\xbf\xf4Ogo\x94e\x00\xc0sM\x94\xd6\x9e\x83\xf8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1fZ>\xa2)\\\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00+e\x8b\x95\xf7\x97\xf2\xbfM\xff\xa8\xe6\xb3@\xf9\xbf+e\x8b\x95\xf7\x97\xf2\xbf\xd8R\x83C$\xa3\x05\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x9a\x96;\r\xa2\x9b\xf5\xbfN\xc3\xc77~\xdf\xca\xbf\xfe\x0f\xf6\xc5\xe0\xde\xfa\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd1\xbcP\x91\x05\x95\x02\xc04t\xd9+s\xa9\x0b\xc0?\x08\x1e^\xe2\xf8\xfd\xbft0\x0c\xd3\x8eb\x02\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x006\xd4\r\xab\xe1\xf1\x15\xc0\xbe\x1c\xa9\x0f\x00^\xc2?\x00\x00\x00\x00\x00\x00\x00\x00\xf4\x9f\x98\x1c\xa5\xa7\x04\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x1el\xb7\x9f\xaf\xc2\t\xc0\xec\xa4\xca\x00\xbc3\xf9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xbd\xca\x90\x88\xc2\x1b\xee\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x17i\x9a,\x08\xac\x06\xc0\xbeJ\xf2\xdbJ\xf5\xbe?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x90zZ\x1c\x9al\xc9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1c\xa6\xc4\n\x04}\xf2\xbfFiu\xf88o\xf5\xbf\x00\x00\x00\x00\x00\x00\x00\x00)6\x1b\xb6\xb3\xd4\xe9\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xaf\xd9\xcc\xed\xbf\xc9\xf1?+e\x8b\x95\xf7\x97\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xa5\xb4Y\xd6.\x00\xeb?\x00\xc5\xd2\x86I1\xd3?\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xfd^\xc5\xa2\xf3\x1d\x02\xc0\x00^t\x0b\xe6=\xfb\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xa2\xfc\xa7\x93\xa3\xc4\x04\xc0\xcf\x0eQ\xe8\\R\xf5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd3P\xd8v\xed\xd1\xff\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\\j\xd4\x9b\xed|\x02\xc0+<E/\x8aQ\n\xc09\xa6#m\x17\x00\x05\xc0+e\x8b\x95\xf7\x97\xf2\xbf9n\xb8Qh\x12\x10\xc0\x00\x00\x00\x00\x00\x00\x00\x00`\x91p\x97\x15m\x02\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x0cM\xc7u\xab#\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x86\xa6>H(\x17\x06\xc0\xd3\x16A&H\x07\x0f\xc0\n\xe3\xea\xbd+\x02\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x1c\xa6\xc4\n\x04}\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00s7\xab+\xde\xee\x13@C&y\x81\x0c\xca\xfd\xbf\xad{\xed\x19\xa2\t\xff\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\xc4`\xb2\xacN>\x04\xc0\xf5\x82\x15\xb0\x15Y\xec\xbf\xf9\x8b\xd2\xa5?u\x07\xc0\x00\x00\x00\x00\x00\x00\x00\x00m\x82\xc6 \xe0Y\xd7\xbf>\xee,R\x1b\x96\x00@\x00\x00\x00\x00\x00\x00\x00\x00\x82\xa5\x0bm\xf1\xe6\xe4\xbfO\x8b\x97\x7f\x83\x1a\t\xc0\xaf\x165\xb9\xa3\x7f\x05\xc0,\xff\x96\xab\xa9\x01\xcc?\x00\x00\x00\x00\x00\x00\x00\x00\xc9\xa07\xd5~=\x00@\xaco\xb9\xb8N&\x04\xc0\xe42\x82\xbb\xbd\xaf\x03\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x02\xbd3\xe7\xcaD\x0f\xc0>\xee,R\x1b\x96\x00@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
 p4727
 tp4728
 bsg11
@@ -9524,7 +9524,7 @@ Rp4732
 tp4733
 g4680
 I00
-S'\xeeo\x9e)\xe4\x02\xf0\xbf'
+S'\x1b"\x1dK\xd1\x9c\xf0\xbf'
 p4734
 tp4735
 bsS'_expanded_class_weight'
