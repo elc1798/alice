@@ -1,7 +1,7 @@
 import os, sys, threading, time
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
-import commands as COMMANDS
+import constants
 import psutil
 import atexit
 
@@ -26,7 +26,7 @@ class CPUMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_cpu_usage),)
         message = CPUMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -55,7 +55,7 @@ class MemoryMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_mem_usage),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -85,7 +85,7 @@ class TempMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_temp),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -106,9 +106,12 @@ class TempMonitor(Monitor):
         self.temp_file.close()
 
 monitor_threads = {}
+cpu_mon = None
+mem_mon = None
+temp_mon = None
 
 def start():
-    global monitor_threads
+    global monitor_threads, cpu_mon, mem_mon, temp_mon
 
     if len(monitor_threads) > 0:
         return
@@ -126,6 +129,8 @@ def start():
         monitor_threads[thread].start()
 
 def stop():
+    global cpu_mon, mem_mon, temp_mon
+
     cpu_mon.stop()
     mem_mon.stop()
     temp_mon.stop()
