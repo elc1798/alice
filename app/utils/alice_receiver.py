@@ -1,3 +1,5 @@
+import fbchat
+
 class AliceReceiver(fbchat.Client):
     def __init__(self, email, password, callback, debug=True, user_agent=None):
         fbchat.Client.__init__(self,email, password, debug, user_agent)

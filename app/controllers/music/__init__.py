@@ -36,13 +36,13 @@ class MusicController:
         myid = self.model.rate(sentence)
 
         if myid == 0:
-            os.system(COMMANDS.MUSIC_PLAY)
+            os.system(MUSIC_PLAY)
         elif myid == 1:
-            os.system(COMMANDS.MUSIC_PAUSE)
+            os.system(MUSIC_PAUSE)
         elif myid == 2:
-            os.system(COMMANDS.MUSIC_NEXT_SONG)
+            os.system(MUSIC_NEXT_SONG)
         elif myid == 3:
-            os.system(COMMANDS.MUSIC_LAST_SONG)
+            os.system(MUSIC_LAST_SONG)
 
 SINGLETON_INSTANCE = MusicController()
 

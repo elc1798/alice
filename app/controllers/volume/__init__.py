@@ -4,6 +4,8 @@ CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 
+import subprocess
+
 MODEL_LOCATION = os.path.join(
     CURRENT_DIR,
     "../../../training/models/ordinal_scalers/VOLUME_CONTROL.model"
@@ -33,7 +35,7 @@ class VolumeController:
 
     def update_volume(self, sentence):
         """
-        Apologies for the... abundance... of magic numbers. num = 10 declares the
+        Apologies for the... abundance... of magic numbers. num = x declares the
         default "delta" for our volume (in linux). The myid values are derived
         from the clusters from the VOLUME_CONTROL ordinal scaler model (0.txt,
         1.txt, etc.)
@@ -59,7 +61,7 @@ class VolumeController:
             modifier = ""
             num = self.volume_before_mute
 
-        if sys.platform.startswith(constants.LINUX_IDENTIFIER) and myid != 3:
+        if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER) and myid != 3:
             modifier = ""
             # Find the current volume and calculates a lower and higher volume
             num = self.get_current_volume()

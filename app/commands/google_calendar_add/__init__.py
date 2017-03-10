@@ -20,7 +20,7 @@ def google_calendar_add_event(query, controller):
     elif "event please" in s:
         index = s.index("event please") + 1
         s = s[index:]
-    else: #" event " in s:
+    elif "event " in s:
         index = s.index("event") + 1
         s = s[index:]
 
