@@ -1,5 +1,5 @@
 next song
-spotify next song 
+spotify next song
 spotify next
 spotify skip
 spotify skip ahead

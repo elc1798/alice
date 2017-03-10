@@ -21,4 +21,4 @@ spotify stop
 stop
 song stop
 stop the song
-spotify stop the song 
+spotify stop the song
