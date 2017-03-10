@@ -18,7 +18,7 @@ p7
 I5
 sS'penalty'
 p8
-S'elasticnet'
+S'l2'
 p9
 sS'target_names'
 p10
@@ -37,349 +37,349 @@ F0.001
 sS'data'
 p17
 (lp18
-(S'please spotify play last song'
+(S'please spotify pause the song'
 p19
-g14
+g12
 tp20
-a(S'last song please'
+a(S'spotify play previous song please'
 p21
 g14
 tp22
-a(S'please spotify pause the song'
+a(S'skip'
 p23
-g12
+g15
 tp24
-a(S'spotify stop the song'
+a(S'go spotify please'
 p25
-g12
+g13
 tp26
-a(S'please spotify pause'
+a(S'please pause the song'
 p27
 g12
 tp28
-a(S'please spotify pause'
+a(S'please spotify last song'
 p29
-g12
-tp30
-a(S'please pause the song'
-p31
-g12
-tp32
-a(S'start the song'
-p33
-g13
-tp34
-a(S'spotify play the song'
-p35
-g13
-tp36
-a(S'skip'
-p37
-g15
-tp38
-a(S'please spotify start'
-p39
-g13
-tp40
-a(S'go ahead spotify please'
-p41
-g15
-tp42
-a(S'spotify previous please'
-p43
 g14
-tp44
-a(S'stop the song'
-p45
+tp30
+a(S'spotify play the song'
+p31
+g13
+tp32
+a(S'please spotify previous song'
+p33
+g14
+tp34
+a(S'please pause spotify'
+p35
 g12
+tp36
+a(S'go back please'
+p37
+g14
+tp38
+a(S'please spotify play last song'
+p39
+g14
+tp40
+a(S'spotify stop the song'
+p41
+g12
+tp42
+a(S'start'
+p43
+g13
+tp44
+a(S'please go back'
+p45
+g14
 tp46
-a(S'go spotify please'
+a(S'spotify start please'
 p47
 g13
 tp48
-a(S'spotify play the song before'
+a(S'go back to the last song '
 p49
 g14
 tp50
-a(S'alice next please'
+a(S'pause spotify'
 p51
-g15
+g12
 tp52
-a(S'spotify play previous song please'
+a(S'please spotify go'
 p53
-g14
+g13
 tp54
-a(S'please spotify previous song'
+a(S'play song'
 p55
-g14
+g13
 tp56
-a(S'spotify skip ahead'
+a(S'please spotify last'
 p57
-g15
+g14
 tp58
-a(S'please spotify previous'
+a(S'stop the song'
 p59
-g14
+g12
 tp60
-a(S'spotify last please'
-p61
-g14
-tp62
 a(S'spotify pause please'
+p61
+g12
+tp62
+a(S'stop spotify'
 p63
 g12
 tp64
-a(S'resume'
+a(S'play spotify please'
 p65
 g13
 tp66
-a(S'pause please'
+a(S'last song please'
 p67
-g12
+g14
 tp68
-a(S'please spotify play previous song'
+a(S'please pause song'
 p69
-g14
+g12
 tp70
-a(S'go back please'
+a(S'please spotify start the song'
 p71
-g14
+g13
 tp72
-a(S'pause the song please'
+a(S'spotify stop'
 p73
 g12
 tp74
-a(S'pause song please'
+a(S'song stop'
 p75
 g12
 tp76
-a(S'spotify go ahead'
+a(S'stop song please'
 p77
-g15
+g12
 tp78
-a(S'start spotify please'
+a(S'please start spotify'
 p79
 g13
 tp80
-a(S'please spotify last song'
+a(S'pause the song please'
 p81
-g14
+g12
 tp82
-a(S'next spotify please'
+a(S'pause song please'
 p83
-g15
+g12
 tp84
-a(S'spotify next song'
+a(S'spotify go back'
 p85
-g15
+g14
 tp86
-a(S'spotify pause please'
+a(S'please play spotify'
 p87
-g12
+g13
 tp88
-a(S'spotify go to the last song'
+a(S'spotify pause the song please'
 p89
-g14
-tp90
-a(S'play the song before'
-p91
-g14
-tp92
-a(S'go back to the last song '
-p93
-g14
-tp94
-a(S'start song'
-p95
-g13
-tp96
-a(S'please spotify go'
-p97
-g13
-tp98
-a(S'play'
-p99
-g13
-tp100
-a(S'please spotify start the song'
-p101
-g13
-tp102
-a(S'stop song please'
-p103
 g12
+tp90
+a(S'go ahead spotify please'
+p91
+g15
+tp92
+a(S'unpause the song'
+p93
+g13
+tp94
+a(S'please last song'
+p95
+g14
+tp96
+a(S'spotify last song please'
+p97
+g14
+tp98
+a(S'next spotify please'
+p99
+g15
+tp100
+a(S'please spotify pause'
+p101
+g12
+tp102
+a(S'spotify skip ahead please'
+p103
+g15
 tp104
-a(S'spotify previous song please'
+a(S'spotify play last song please'
 p105
 g14
 tp106
-a(S'spotify stop'
+a(S'go ahead'
 p107
-g12
+g15
 tp108
-a(S'spotify go back to the last song '
+a(S'alice next please'
 p109
-g14
+g15
 tp110
-a(S'spotify pause'
+a(S'resume the song'
 p111
-g12
+g13
 tp112
-a(S'spotify play the last song'
+a(S'spotify go back to the last song '
 p113
 g14
 tp114
-a(S'spotify play'
+a(S'spotify skip'
 p115
-g13
+g15
 tp116
-a(S'pause spotify'
+a(S'resume'
 p117
-g12
+g13
 tp118
-a(S'please go spotify'
+a(S'please pause'
 p119
-g13
+g12
 tp120
-a(S'next'
+a(S'spotify last please'
 p121
-g15
-tp122
-a(S'unpause the song'
-p123
-g13
-tp124
-a(S'spotify skip ahead please'
-p125
-g15
-tp126
-a(S'stop spotify'
-p127
-g12
-tp128
-a(S'please pause song'
-p129
-g12
-tp130
-a(S'song stop'
-p131
-g12
-tp132
-a(S'spotify last song please'
-p133
 g14
-tp134
-a(S'please stop song'
-p135
+tp122
+a(S'spotify pause please'
+p123
 g12
+tp124
+a(S'spotify play'
+p125
+g13
+tp126
+a(S'please spotify play previous song'
+p127
+g14
+tp128
+a(S'start song'
+p129
+g13
+tp130
+a(S'spotify go please'
+p131
+g13
+tp132
+a(S'spotify pause'
+p133
+g12
+tp134
+a(S'spotify previous song please'
+p135
+g14
 tp136
-a(S'spotify next'
+a(S'please spotify pause'
 p137
-g15
+g12
 tp138
-a(S'go ahead'
+a(S'next'
 p139
 g15
 tp140
-a(S'spotify start the song please'
+a(S'spotify skip ahead'
 p141
-g13
+g15
 tp142
-a(S'spotify go please'
+a(S'pause spotify please'
 p143
-g13
-tp144
-a(S'spotify pause the song please'
-p145
 g12
-tp146
-a(S'please last song'
-p147
+tp144
+a(S'please spotify previous'
+p145
 g14
+tp146
+a(S'spotify go ahead'
+p147
+g15
 tp148
-a(S'play spotify please'
+a(S'please spotify start'
 p149
 g13
 tp150
-a(S'unpause'
+a(S'pause please'
 p151
-g13
+g12
 tp152
-a(S'resume the song'
+a(S'spotify previous please'
 p153
-g13
-tp154
-a(S'next song'
-p155
-g15
-tp156
-a(S'spotify play last song please'
-p157
 g14
+tp154
+a(S'please go spotify'
+p155
+g13
+tp156
+a(S'alice go ahead please'
+p157
+g15
 tp158
-a(S'spotify start please'
+a(S'start the song'
 p159
 g13
 tp160
-a(S'pause spotify please'
-p161
-g12
-tp162
-a(S'alice go ahead please'
-p163
-g15
-tp164
 a(S'skip spotify please'
-p165
+p161
 g15
+tp162
+a(S'spotify play the song before'
+p163
+g14
+tp164
+a(S'start spotify please'
+p165
+g13
 tp166
-a(S'please spotify last'
+a(S'spotify go to the last song'
 p167
 g14
 tp168
-a(S'start'
+a(S'spotify play the last song'
 p169
-g13
+g14
 tp170
-a(S'spotify skip'
+a(S'spotify start the song please'
 p171
-g15
+g13
 tp172
-a(S'play song'
+a(S'next song'
 p173
-g13
+g15
 tp174
-a(S'stop'
+a(S'play the song before'
 p175
-g12
+g14
 tp176
-a(S'please start spotify'
+a(S'please stop song'
 p177
-g13
+g12
 tp178
-a(S'please pause spotify'
+a(S'spotify next song'
 p179
-g12
+g15
 tp180
-a(S'go back'
+a(S'play'
 p181
-g14
-tp182
-a(S'spotify go back'
-p183
-g14
-tp184
-a(S'please go back'
-p185
-g14
-tp186
-a(S'please play spotify'
-p187
 g13
-tp188
-a(S'please pause'
-p189
+tp182
+a(S'stop'
+p183
 g12
+tp184
+a(S'unpause'
+p185
+g13
+tp186
+a(S'go back'
+p187
+g14
+tp188
+a(S'spotify next'
+p189
+g15
 tp190
 asS'classifier'
 p191
@@ -846,7 +846,7 @@ sg8
 g9
 sS'random_state'
 p402
-I963
+I644
 sg198
 g199
 sS'loss_function'
@@ -884,7 +884,7 @@ I20
 tp415
 g369
 I00
-S'\xdd\xd5\x92\xd8\x9c\xa2\x0f\xc0\x00\x00\x00\x00\x00\x00\x00\x00\xb0\n\xa6@\xa9`\x10\xc0\xe4\x95\xe3\t\x99\xc2\r\xc0\x90{{#\x8a\x9e\xfb?\x11|\x18\xbf1\xc9\x0c\xc0\xcaW*ID\xca\xfc\xbf\xe1\xd2Zr\xb8.\x05\xc0\x89\xde\x04\xf0\xd5\xec\x01@\xa0,\x1a\xc7\xac\n\xd3?\x7fsn\x16L\x9d\x0e\xc0\x93\x1c\xe5\x19\xc5P\x07@\xdeQ\x10\xc6t\xd6\xf2\xbf\xc7\x8e\xe0\x95\xb6\xe2\xf1\xbf\xa4[\x87o\xf2\x95\x9d?D\x04\xce:\xef:\x07@\xca\x1a\x9b\x8aK\xe1\x04\xc0p\x9b\x0e\xe4\xb4v\xbd?\x00\x00\x00\x00\x00\x00\x00\x00e\xc3F\x1a\xa9\xda\x06@\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00y^\xba\xfc0\xdb\xf5\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xa514&$\x0c\xfd\xbf\xc1dU\xc1\xa3S\x01\xc0\xcaW*ID\xca\xfc\xbfO\xe1d\xce\xd0d\x10@\x8aWT\xa53w\xf7\xbf\x8c\xa9\x1b\xb6\x02\x83\xe3\xbf\x1b\x8a7\xc7#\xc9\xf6\xbfQg\xd1\x92z\x03\xfc\xbf\x0f]\xdb3\x0b\xd4\xfa\xbf\xa4\x05\xe4\xf7\xc8\xab\xc8\xbfQ\xac\x1b\x8f\xb0\x17\xd6\xbf\xf6\x98\x7fQXT\xf4\xbf\xfd\xc3\x8e\xbb\xe8\x83\x06@\\C\xd6\x03=!\xe2\xbf\xd3\ns8F[\xf1\xbfa\x1f\xe4\xeb\xad1\xf7\xbf\x0e\t\x977\x7f\x9a\x0c@\xf7\xc9\'8S:\xf3?y^\xba\xfc0\xdb\xf5\xbf\x00\x00\x00\x00\x00\x00\x00\x00ioN\xe8\xa3\xc3\xe3\xbf\x95|3\x98\x81"\xf4\xbf\x0c\xa5\xa2&\x0co\t@\xbe?\x0fG\xb8\xe6\xf8\xbf\x8aWT\xa53w\xf7\xbfVK`\xd2~\x1b\x02\xc0z\xbf\xea\xc4RL\xf6\xbfQg\xd1\x92z\x03\xfc\xbf\xf4d\xf4z{k\x06@ Yx\xf3\xde\xb9\xe4\xbf\x91\x00\xb8\x028\xf2\xd3\xbf`c\xf3\x9f\x13\xcf\xfc\xbf1E\xe9\x83\x9f\xf6\xf3\xbf4F\'2\x97\xf8\xed\xbf\x00\x00\x00\x00\x00\x00\x00\x00\x939X\x8b)\xd3\xfc\xbf\xe9\x91yfpK\xf2\xbf\x00\x00\x00\x00\x00\x00\x00\x009\xee\xe1\xdbbc\x10@\xc2\xef!t\xa1B\x0f@\x86\xe3P]\x0b.\xfb\xbfp\xc6-\x90\x9c\xd9\x12@6\xa6\xebD!\x96\xfa\xbf\xdf\xbc\x12\xba\xdf>\xf5\xbff\xe8di\x8f\xca\xf6\xbf\x8c>\xf2\xdd\x91\xc0\xf0\xbf\x89[\xa7\xff\xd4\xe4\x10@\x16pT\xddf\xc7\xf6\xbf\x9a\xe8s\x05z \xf3\xbf6\xcd\xc3\n\x12\x9b\xae?q\xaf\x0e\x98\x85w\xf6\xbf\xfb\x81\xa0Y\xd6B\xf8\xbf1E\xe9\x83\x9f\xf6\xf3\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xd3\ns8F[\xf1?a\x1f\xe4\xeb\xad1\xf7\xbf'
+S'\x00\x19\x91\xb2\x99`\x0e\xc0\x00\x00\x00\x00\x00\x00\x00\x00X\x13\xfb\xad\x16L\x0e\xc0U\x87\x80Ey\xf2\x0b\xc0\x19\xdf?%\xaf\x9f\x04@\xa9^\xc0[\xa1R\x13\xc0\x9d\xf1\xc6QA\x8f\xf6\xbf\xad\xa1\xea B\xcb\x01\xc0\x1b\x9f{S\x92\xb0\x00@7!\xe3\xadS\x95\xd4\xbf\x05\xf5\xfeP \xbd\x0c\xc0\xad\xb6C\xc9\x82w\x05@\xf1\x137\x9f\xda]\xfa\xbf\x06\xf3\xa2\xd9$!\xe9\xbf\xd9\tI3\xeef\xdd?\xfc.\xe9G\xa5Y\x06@\xc2\x17\x08,\xec\xb7\x03\xc0\xa8\xb8\xd4i\xbf2\xe6?\xbb\x1f\x17\x1a-.\xf0\xbf\xab\xb6C\xc9\x82w\x05@%\xdf6\xd3\xa7\xf0\xf4\xbf\x84\xaf\xbe\xf91\xcd\xf3\xbf"\xdf6\xd3\xa7\xf0\xf4\xbf\x04IG\xe3\xb8\xfd\xf2\xbf!\xc6\x03\xe3\xb1\x05\x00\xc0\r\xd5\x91\x18\x7f\\\xf4\xbf.F\x8a\xb0q\xeb\xef\xbf\xbf\xf0\xfb\xeb.w\x0c@Y%\xf4\xe9\x18\xad\x00\xc0\xc5\x87\xcc\xea\x17\xb1\xd9\xbf\x9c\xf1\xc6QA\x8f\xf6\xbf\xf3\x137\x9f\xda]\xfa\xbf\xf1\x137\x9f\xda]\xfa\xbf.\xc5\xd4\x00\xa0!\xc5?3\x82\x00(1n\xe1?\xa2\x0f\xd8{\x8eT\x04\xc0s\xaa\xdc]+\xca\x0c@\x8a\x18\xb5\xea\x01\xa8\xd3?\x00\x00\x00\x00\x00\x00\x00\x00\xab\xb6C\xc9\x82w\xf5\xbfH\xe3O\xa87X\r@\x84\xaf\xbe\xf91\xcd\xf3?\x92\x1a\xe3\r1g\x04\xc0\x00\x00\x00\x00\x00\x00\x00\x00\x96L\xa3F\xa7\xff\xdb\xbf\x08\xd5\x91\x18\x7f\\\xf4\xbf\xed\xcb\xf4=?9\x0e@\x89\xe5\xe06\xcb\xfe\xf6\xbfRSb\x1dP\x0f\xf5\xbf\x03\x0e\x17\x13\xd5\x13\xe6\xbf\x9c\xf1\xc6QA\x8f\xf6\xbf\xf3\x137\x9f\xda]\xfa\xbfy\xa1\xd28\xde\x96\x08@\xd9\x18U\x17EW\xf6\xbf\xa2\xfb\xd2\xbc\x05\xbe\xe2\xbf\xf2\x137\x9f\xda]\xfa\xbf \ng\xf4YK\xf5\xbf-\xd5\xc4\x9e\xb1\xc9\xe8\xbf\x00\x00\x00\x00\x00\x00\x00\x00\xab\xb6C\xc9\x82w\xf5\xbf%\xdf6\xd3\xa7\xf0\xf4\xbf\x84\xaf\xbe\xf91\xcd\xf3\xbf\xc7\xa3_\xc4\xc2\xd3\x03@U\x87\x80Ey\xf2\x0b@\xcd\xa4\r\xb6A]\xf0\xbf\x1e\x99\xc2/|t\x0f@8\x80\x12A\xe0\xad\x03\xc0\x87\xef\xa6\xcd\xfc\x7f\x04\xc0w\x83\xb8\xc4^M\xf7\xbf%\xbe\xd6\x99\xd7t\xdd\xbf\x8fY\x86\x12\xf0\xbb\x12@\xf3\x137\x9f\xda]\xfa\xbf\xf1\x137\x9f\xda]\xfa\xbf\xb6u\x9b.t\xbe\xcf\xbf\xde\xcb\x13(m\xb3\xcd\xbf_\x91N\xfe\xc8\xc9\x02\xc0 \ng\xf4YK\xf5\xbf\xfa\xed%\xf5\xe4\xf9\xed\xbf\xbe\x1f\x17\x1a-.\xf0?\xab\xb6C\xc9\x82w\xf5\xbf'
 p416
 tp417
 bsg16
@@ -903,7 +903,7 @@ Rp421
 tp422
 g369
 I00
-S'\xbc\xf1\xddQ\xdaP\xc1\xbfz#\xbcgQn\xce\xbfZ\x92v\x9f\x0bx\xc8\xbfw\xdeD\x84(\xf4\xb5\xbf'
+S'e\x0b\xf67\xc8\xd3\xc2\xbf\n\xb6\xff%\xdd\xce\xd1\xbfF7\xbbk\xbcM\xc1\xbf\xa8\xd8Z\x8e\xa6\x10\xcf\xbf'
 p423
 tp424
 bsS'_expanded_class_weight'

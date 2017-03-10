@@ -1,5 +1,5 @@
 play song
-play 
+play
 start song
 spotify play
 spotify play the song
@@ -13,9 +13,9 @@ go spotify please
 please spotify start
 please spotify start the song
 please start spotify
-please play spotify 
-please spotify go 
-please go spotify 
+please play spotify
+please spotify go
+please go spotify
 pause song please
 pause please
 stop song please
@@ -39,9 +39,9 @@ spotify stop
 stop
 song stop
 stop the song
-spotify stop the song 
+spotify stop the song
 next song
-spotify next song 
+spotify next song
 spotify next
 spotify skip
 spotify skip ahead
@@ -75,7 +75,12 @@ play the song before
 spotify play the song before
 spotify play the last song
 spotify go back
-spotify go back to the last song 
+spotify go back to the last song
 go back
-go back to the last song 
+go back to the last song
 spotify go to the last song
+unpause the song
+resume the song
+continue the song
+unpause
+resume
