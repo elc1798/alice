@@ -4,7 +4,10 @@ CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 
-MODEL_LOCATION = "../../../training/models/ordinal_scalers/MUSIC.model"
+MODEL_LOCATION = os.path.join(
+    CURRENT_DIR,
+    "../../../training/models/ordinal_scalers/MUSIC.model"
+)
 
 MUSIC_PLAY = "rhythmbox-client --play"
 MUSIC_PAUSE = "rhythmbox-client --pause"
@@ -26,7 +29,8 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
 class MusicController:
 
     def __init__(self):
-        self.model = pickle.load(MODEL_LOCATION)
+        with open(MODEL_LOCATION, 'r') as m_file:
+            self.model = pickle.load(m_file)
 
     def perform_action(self, sentence):
         myid = self.model.rate(sentence)

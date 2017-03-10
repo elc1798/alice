@@ -4,7 +4,10 @@ CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 
-MODEL_LOCATION = "../../../training/models/ordinal_scalers/VOLUME_CONTROL.model"
+MODEL_LOCATION = os.path.join(
+    CURRENT_DIR,
+    "../../../training/models/ordinal_scalers/VOLUME_CONTROL.model"
+)
 VOLUME_GET_COMMAND = "amixer -D pulse get Master"
 VOLUME_CONTROL_COMMAND = "amixer -D pulse sset Master %d%%%s > /dev/null 2>&1"
 
@@ -13,7 +16,8 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
 
 class VolumeController:
     def __init__(self):
-        self.model = pickle.load(MODEL_LOCATION)
+        with open(MODEL_LOCATION, 'r') as m_file:
+            self.model = pickle.load(m_file)
         self.volume_before_mute = self.get_current_volume()
 
     def get_current_volume(self):

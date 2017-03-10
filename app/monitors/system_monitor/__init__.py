@@ -1,12 +1,11 @@
 import os, sys, threading, time
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
+sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import commands as COMMANDS
 import psutil
 import atexit
 
 class Monitor:
-
     def __init__(self):
         pass
 
@@ -107,21 +106,27 @@ class TempMonitor(Monitor):
         self.temp_file.close()
 
 monitor_threads = {}
-cpu_mon = CPUMonitor()
-mem_mon = MemoryMonitor()
-temp_mon = TempMonitor()
 
-monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
-monitor_threads["mem_mon"] = threading.Thread(target=mem_mon.monitor)
-monitor_threads["temp_mon"] = threading.Thread(target=temp_mon.monitor)
+def start():
+    global monitor_threads
 
-@atexit.register
-def stop_threads():
+    if len(monitor_threads) > 0:
+        return
+
+    cpu_mon = CPUMonitor()
+    mem_mon = MemoryMonitor()
+    temp_mon = TempMonitor()
+
+    monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
+    monitor_threads["mem_mon"] = threading.Thread(target=mem_mon.monitor)
+    monitor_threads["temp_mon"] = threading.Thread(target=temp_mon.monitor)
+
+    for thread in monitor_threads:
+        monitor_threads[thread].daemon = True
+        monitor_threads[thread].start()
+
+def stop():
     cpu_mon.stop()
     mem_mon.stop()
     temp_mon.stop()
-
-for thread in monitor_threads:
-    monitor_threads[thread].daemon = True
-    monitor_threads[thread].start()
 
