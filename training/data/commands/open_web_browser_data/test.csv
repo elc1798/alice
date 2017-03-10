@@ -8,3 +8,9 @@ do not open a browser,False
 don't open a browser,False
 close a browser,False
 do not open a default browser,False
+go to google dot com,True
+go to facebook dot com,True
+take me to google dot com,True
+take me to github dot com,True
+open illinois dot edu,True
+google this,False
