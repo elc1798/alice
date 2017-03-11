@@ -3,8 +3,8 @@ import getpass
 
 import os, sys, threading
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
-import commands as COMMANDS
+sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
+import constants
 
 class FBListenerBot(fbchat.Client):
     def __init__(self,email, password, debug=True, user_agent=None):
@@ -16,10 +16,20 @@ class FBListenerBot(fbchat.Client):
 
         if str(author_id) != str(self.uid):
             feedback = "%s said: %s" % (self.knownfriends[author_id], message)
-            os.system(COMMANDS.DISPLAY_NOTIFICATION % (feedback,))
+            os.system(constants.DISPLAY_NOTIFICATION % (feedback,))
 
-bot = FBListenerBot(str(raw_input("Username: ")), str(getpass.getpass()), debug=False)
-t = threading.Thread(target=bot.listen)
-t.daemon = True
-t.start()
+GLOBAL_THREAD = None
+
+def start():
+    global GLOBAL_THREAD
+    if GLOBAL_THREAD is not None:
+        return
+
+    bot = FBListenerBot(str(raw_input("Username: ")), str(getpass.getpass()), debug=False)
+    GLOBAL_THREAD = threading.Thread(target=bot.listen)
+    GLOBAL_THREAD.daemon = True
+    GLOBAL_THREAD.start()
+
+def stop():
+    pass
 

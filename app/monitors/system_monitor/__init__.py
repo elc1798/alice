@@ -1,12 +1,11 @@
 import os, sys, threading, time
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
-import commands as COMMANDS
+sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
+import constants
 import psutil
 import atexit
 
 class Monitor:
-
     def __init__(self):
         pass
 
@@ -27,7 +26,7 @@ class CPUMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_cpu_usage),)
         message = CPUMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -56,7 +55,7 @@ class MemoryMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_mem_usage),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -86,7 +85,7 @@ class TempMonitor(Monitor):
     def warn(self):
         truncated = "%d" % (int(self.current_temp),)
         message = MemoryMonitor.message % (truncated,)
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % (message,))
+        os.system(constants.DISPLAY_NOTIFICATION % (message,))
 
     def monitor(self):
         self.running = True
@@ -107,21 +106,32 @@ class TempMonitor(Monitor):
         self.temp_file.close()
 
 monitor_threads = {}
-cpu_mon = CPUMonitor()
-mem_mon = MemoryMonitor()
-temp_mon = TempMonitor()
+cpu_mon = None
+mem_mon = None
+temp_mon = None
 
-monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
-monitor_threads["mem_mon"] = threading.Thread(target=mem_mon.monitor)
-monitor_threads["temp_mon"] = threading.Thread(target=temp_mon.monitor)
+def start():
+    global monitor_threads, cpu_mon, mem_mon, temp_mon
 
-@atexit.register
-def stop_threads():
+    if len(monitor_threads) > 0:
+        return
+
+    cpu_mon = CPUMonitor()
+    mem_mon = MemoryMonitor()
+    temp_mon = TempMonitor()
+
+    monitor_threads["cpu_mon"] = threading.Thread(target=cpu_mon.monitor)
+    monitor_threads["mem_mon"] = threading.Thread(target=mem_mon.monitor)
+    monitor_threads["temp_mon"] = threading.Thread(target=temp_mon.monitor)
+
+    for thread in monitor_threads:
+        monitor_threads[thread].daemon = True
+        monitor_threads[thread].start()
+
+def stop():
+    global cpu_mon, mem_mon, temp_mon
+
     cpu_mon.stop()
     mem_mon.stop()
     temp_mon.stop()
-
-for thread in monitor_threads:
-    monitor_threads[thread].daemon = True
-    monitor_threads[thread].start()
 

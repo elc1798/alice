@@ -10,7 +10,7 @@ import datetime
 
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
-import commands as COMMANDS
+import constants
 
 SCOPES = 'https://www.googleapis.com/auth/'
 CLIENT_SECRET_FILE = os.path.join(CURRENT_DIR, '../../API_KEYS/google_creds.json')
@@ -49,7 +49,7 @@ def get_credentials(scope_detail):
         print('Storing credentials to ' + credential_path)
     return credentials
 
-def AddEvent(s):
+def add_event(s):
     credentials = get_credentials("calendar")
     http = credentials.authorize(httplib2.Http())
     service = discovery.build("calendar", "v3", http=http)
@@ -57,10 +57,10 @@ def AddEvent(s):
             text=s).execute()
 
     print('successfully created event on calendar: ')
-    ShowEvents("next month")
+    show_events("next month")
 
-def ShowEvents(s):
-    time_max = GetTimeMax(s)
+def show_events(s):
+    time_max = get_time_max(s)
     num_of_events = 10
     credentials = get_credentials("calendar")
     http = credentials.authorize(httplib2.Http())
@@ -76,12 +76,12 @@ def ShowEvents(s):
     if not events:
         print('No upcoming events found.')
     else:
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % ("You have upcoming events today!",))
+        os.system(constants.DISPLAY_NOTIFICATION % ("You have upcoming events today!",))
     for event in events:
         start = event['start'].get('dateTime', event['start'].get('date'))
         print(start, event['summary'])
 
-def GetTimeMax(s):
+def get_time_max(s):
     date_utc = datetime.datetime.now()
     date_utc = date_utc.replace(hour=23, minute=59, second=59)
     time_delta = datetime.timedelta(days=0)
@@ -153,7 +153,7 @@ def GetTimeMax(s):
         date_utc = date_utc + datetime.timedelta(days=day_diff)
         return date_utc.isoformat() + 'Z'
 
-def ListMail(s):
+def list_mail(s):
     print("Delivering mail: ")
     labels = s
     credentials = get_credentials("mail")
@@ -165,7 +165,7 @@ def ListMail(s):
     if not messages:
         print("No mail found.")
     elif len(messages) > 0:
-        os.system(COMMANDS.DISPLAY_NOTIFICATION % ("You have unread messages in your inbox!",))
+        os.system(constants.DISPLAY_NOTIFICATION % ("You have unread messages in your inbox!",))
     for message in messages:
         message_id = message.get("id")
         message_content = service.users().messages().get(userId='me',

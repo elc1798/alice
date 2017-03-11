@@ -1,5 +1,5 @@
 play song
-play 
+play
 start
 start song
 spotify play
@@ -14,6 +14,10 @@ go spotify please
 please spotify start
 please spotify start the song
 please start spotify
-please play spotify 
-please spotify go 
-please go spotify 
+please play spotify
+please spotify go
+please go spotify
+unpause the song
+unpause
+resume
+resume the song

@@ -1,13 +1,16 @@
 import subprocess
 import os, sys, threading, time
-CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
-sys.path.insert(0, os.path.join(CURRENT_DIR, ".."))
-import commands as COMMANDS
 from datetime import datetime
+
+CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
+sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
+import constants
 
 APT_GET_UPDATES = "apt-get upgrade -s"
 PIP_UPDATES = "pip list -o"
 OUTDATED_NOTIFICATION = "There are %d outdated packages in %s"
+
+should_continue = True
 
 def get_num_apt_upgrades():
     global APT_GET_UPDATES
@@ -27,10 +30,12 @@ def get_num_pip_upgrades():
 def display_notification(service, num):
     global OUTDATED_NOTIFICATION
     feedback = OUTDATED_NOTIFICATION % (num, service)
-    os.system(COMMANDS.DISPLAY_NOTIFICATION % (feedback,))
+    os.system(constants.DISPLAY_NOTIFICATION % (feedback,))
 
-def check_every_10_min():
-    while True:
+def hourly_check():
+    global should_continue
+
+    while should_continue:
         if datetime.now().minute == 0:
             apt_num = get_num_apt_upgrades()
             pip_num = get_num_pip_upgrades()
@@ -40,11 +45,23 @@ def check_every_10_min():
                 display_notification("Pip", pip_num)
         time.sleep(60)
 
+GLOBAL_THREAD = None
+
+def start():
+    global GLOBAL_THREAD
+    if GLOBAL_THREAD is not None:
+        return
+
+    GLOBAL_THREAD = threading.Thread(target=hourly_check)
+    GLOBAL_THREAD.daemon = True
+    GLOBAL_THREAD.start()
+
+def stop():
+    global should_continue
+
+    should_continue = False
+
 if __name__ == "__main__":
     print get_num_apt_upgrades()
     print get_num_pip_upgrades()
-else:
-    t = threading.Thread(target=check_every_10_min)
-    t.daemon = True
-    t.start()
 

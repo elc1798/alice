@@ -15,8 +15,39 @@ To create a new command and it's training library you have to do 4 major steps:
    data, and unit tests, respectively.
  - Run `training/trainer.py` which is an automated pipeline that trains, tests,
    and stores the models
- - Add a command to the `CommandActuator` class in `app/core_funcs.py`
+ - Add a new command to `app/commands`
 
-To create a new monitor or background process, create a new file in
-`app/services` and run a new thread in the global scope. To add it to alice,
-import it in the `main` function in `app/app.py`.
+How to add a new command to `app/commands`:
+
+ - Make a new folder with the name of your command in it. The name of the
+   directory really doesn't matter, but it should be descriptive.
+ - Create a file called `__init__.py` in your folder. You can use the
+   `__init__.py` file in any of the existing commands as a sample file.
+ - The only things your `__init__.py` needs to work correctly are:
+    - A variable called `TRIGGER_MODEL` containing a string with the name of the
+      model that is supposed to trigger your command.
+    - A variable called `FUNC` that is a pointer to a function that runs when
+      your command is triggered. The method signature should take in 2
+      arguments: `query` (the string that triggered it), and `controllers`, a
+      dictionary of controller objects.
+
+How to add a new controller to `app/controllers`:
+
+ - Make a new folder in `app/controllers` with the name of your controller.
+ - Create a file called `__init__.py`
+ - The only thing your `__init__.py` file needs to work correctly are:
+    - `NAME` (A variable that contains a unique identifier string for your
+      controller)
+    - `get_instance()` (A function that returns a (singleton, preferrably)
+      instance of a class that represents your controller)
+
+How to add a new monitor to `app/monitors`:
+ - Make a new folder in `app/monitors` with the name of your new monitor.
+ - Create a file called `__init__.py`
+ - You will need both a `start()` and `stop()` method.
+    - `start()` should create a background thread with whatever process you are
+      running, as well as make it a daemon so it exits along with the main
+      application.
+    - `stop()` should handle any file closes, logging, etc. and is triggered
+      when the main application ends using Python's `atexit` module.
+
