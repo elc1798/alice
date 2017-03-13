@@ -8,10 +8,10 @@ before_install:
     - "sudo apt-get install python-dev"
 
 install:
-    - "pip install -r requirements.txt"
+    - "pip install -r requirements.txt > /dev/null"
 
 before_script:
-    - "python -m spacy.en.download all || echo 'SpaCy install failed'"
+    - "python -m spacy.en.download all > /dev/null || echo 'SpaCy install failed'"
 
 script:
     - "cd training"
