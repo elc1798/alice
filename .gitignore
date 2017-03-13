@@ -6,3 +6,5 @@ API_KEYS
 google_creds.json
 .idea/
 .DS_Store
+
+test_output_file

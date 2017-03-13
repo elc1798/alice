@@ -13,3 +13,6 @@ before_install:
 script:
     - "cd training"
     - "python trainer.py -uoc"
+    - "cd ../app"
+    - "cat test_input_file | python app.py --test > test_output_file"
+    - "diff correct_output_file test_output_file"

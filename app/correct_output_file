@@ -1,0 +1,29 @@
+alice > This is a test session. Enter '!' to exit
+['EXIT_ALICE.model']
+alice > This is a test session. Enter '!' to exit
+['LOCK_COMPUTER.model']
+alice > This is a test session. Enter '!' to exit
+['MUSIC.model']
+alice > This is a test session. Enter '!' to exit
+['MUSIC.model']
+alice > This is a test session. Enter '!' to exit
+['VOLUME_CONTROL.model']
+alice > This is a test session. Enter '!' to exit
+['VOLUME_CONTROL.model']
+alice > This is a test session. Enter '!' to exit
+['GOOGLE_CALENDAR_ADD_EVENT.model']
+alice > This is a test session. Enter '!' to exit
+[]
+alice > This is a test session. Enter '!' to exit
+['KILL_ACTIVE_WINDOW.model']
+alice > This is a test session. Enter '!' to exit
+['SHUTDOWN_COMPUTER.model']
+alice > This is a test session. Enter '!' to exit
+['GOOGLE_MAIL_LIST_MAIL.model']
+alice > This is a test session. Enter '!' to exit
+['GOOGLE_SEARCH.model']
+alice > This is a test session. Enter '!' to exit
+[]
+alice > This is a test session. Enter '!' to exit
+['OPEN_WEB_BROWSER.model']
+alice > This is a test session. Enter '!' to exit
