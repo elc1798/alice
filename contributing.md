@@ -28,8 +28,10 @@ How to add a new command to `app/commands`:
       model that is supposed to trigger your command.
     - A variable called `FUNC` that is a pointer to a function that runs when
       your command is triggered. The method signature should take in 2
-      arguments: `query` (the string that triggered it), and `controllers`, a
-      dictionary of controller objects.
+      arguments: `query` (the string that triggered it), and `**kwargs`, a
+      dictionary of optional keyword arguments. `controllers` is a key that is
+      commonly passed into `**kwargs`, and later on, SpaCy, `nlp` objects will
+      be passed into it as well.
 
 How to add a new controller to `app/controllers`:
 
