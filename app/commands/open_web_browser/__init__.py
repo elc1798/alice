@@ -7,7 +7,7 @@ OPEN_WEB_BROWSER = "sensible-browser \"%s\" 2>&1 /dev/null &"
 if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     OPEN_WEB_BROWSER = "open \"%s\" 2>&1 /dev/null &"
 
-def open_web_browser(query, controllers):
+def open_web_browser(query, **kwargs):
     command = query.split(" dot ")
     site = command[0].split(" ")[-1]
     top_level_domain = command[-1]

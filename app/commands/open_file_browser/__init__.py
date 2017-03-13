@@ -8,4 +8,4 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     OPEN_FILE_BROWSER = "open ~ %"
 
 TRIGGER_MODEL = "OPEN_FILE_BROWSER.model"
-FUNC = lambda query, controllers: os.system(OPEN_FILE_BROWSER)
+FUNC = lambda query, **kwargs: os.system(OPEN_FILE_BROWSER)

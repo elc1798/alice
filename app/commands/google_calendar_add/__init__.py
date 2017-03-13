@@ -5,7 +5,7 @@ from utils import google as goog
 sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 
-def google_calendar_add_event(query, controller):
+def google_calendar_add_event(query, **kwargs):
     s = query.split(' ')
 
     if "event for" in s:

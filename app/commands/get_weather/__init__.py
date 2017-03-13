@@ -9,7 +9,7 @@ import pyowm
 URL = "http://freegeoip.net/json/"
 API_KEY = "70e52321050523bb149227183e2ec5e5"
 
-def get_weather(query, controllers):
+def get_weather(query, **kwargs):
     f = urllib2.urlopen(URL)
     json_string = f.read()
     f.close()

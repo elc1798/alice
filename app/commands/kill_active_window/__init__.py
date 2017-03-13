@@ -8,4 +8,4 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     KILL_ACTIVE_WINDOW = "FILL THIS IN"
 
 TRIGGER_MODEL = "KILL_ACTIVE_WINDOW.model"
-FUNC = lambda query, controllers: os.system(KILL_ACTIVE_WINDOW)
+FUNC = lambda query, **kwargs: os.system(KILL_ACTIVE_WINDOW)

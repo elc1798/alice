@@ -6,5 +6,5 @@ sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 
 TRIGGER_MODEL = "GOOGLE_MAIL_LIST_MAIL.model"
-FUNC = lambda query, controllers: goog.list_mail(["UNREAD"])
+FUNC = lambda query, **kwargs: goog.list_mail(["UNREAD"])
 

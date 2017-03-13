@@ -79,7 +79,7 @@ class Commander:
         matches = self.model_matcher.get_matches(res)
         for match in matches:
             for officer_action in self.officers[match]:
-                officer_action(res, self.controllers)
+                officer_action(res, controllers=self.controllers)
 
 class Dummy(Commander):
 

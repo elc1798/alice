@@ -4,7 +4,7 @@ sys.path.insert(0, os.path.join(CURRENT_DIR, "..", ".."))
 import constants
 from datetime import datetime
 
-def get_time(query, controllers):
+def get_time(query, **kwargs):
     hour = datetime.now().hour
     minutes = datetime.now().minute
     is_morning = hour < 12

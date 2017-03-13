@@ -8,7 +8,7 @@ NEWS_API_URL = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy
 
 NUM_ARTICLES = 5
 
-def get_news(query, controllers):
+def get_news(query, **kwargs):
     jstr = urllib2.urlopen(url).read()
     ts = json.loads( jstr )
     for i in range(NUM_ARTICLES):

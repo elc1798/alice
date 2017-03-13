@@ -7,7 +7,7 @@ SHUTDOWN = "gnome-session-quit --power-off --no-prompt"
 if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     SHUTDOWN = "osascript -e 'tell app \"System Events\" to shut down'"
 
-def shutdown(query, controllers):
+def shutdown(query, **kwargs):
     os.system(SHUTDOWN)
     sys.exit()
 

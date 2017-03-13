@@ -9,7 +9,7 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     OPEN_WEB_BROWSER = "open \"%s\" 2>&1 /dev/null &"
 
 remove_list = [ "google", "search", "please", "for" ]
-def google_search(query, controllers):
+def google_search(query, **kwargs):
     s = query
     for string in remove_list:
         s = s.replace(string, "", 1)

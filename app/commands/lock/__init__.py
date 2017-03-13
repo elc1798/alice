@@ -8,4 +8,4 @@ if sys.platform.startswith(constants.MAC_OS_X_IDENTIFIER):
     LOCK = "pmset displaysleepnow"
 
 TRIGGER_MODEL = "LOCK_COMPUTER.model"
-FUNC = lambda query, controllers: os.system(LOCK)
+FUNC = lambda query, **kwargs: os.system(LOCK)
