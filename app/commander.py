@@ -83,6 +83,28 @@ class Commander:
 
 class Dummy(Commander):
 
+    # Override __init__
+    def __init__(self, config={}, log_func=None):
+        self.model_matcher = None
+        self.controllers = {}
+        self.officers = {}
+        self.monitors = []
+
+        self.log_func = log_func
+        if log_func is None:
+            def default_log(s, tolerance=0):
+                print s
+
+            self.log_func = default_log
+
+        self.load_models()
+        # We don't need to load the controllers, commands, or other such things
+        # self.load_controllers()
+        # self.load_commands()
+
+        # if config["monitors"] == True:
+        #     self.load_monitors()
+
     # Override parse_query
     def parse_query(self, res):
         print "This is a test session. Enter '!' to exit"
