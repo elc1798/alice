@@ -7,6 +7,8 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import SGDClassifier
 
+# {{{ Command Matching Model
+
 class CommandMatchingModel:
 
     def __init__(self, dataset, shuffle=True, train=False, name="",
@@ -99,6 +101,8 @@ class CommandMatchingModel:
         else:
             return predicted[0] == "True"
 
+# }}}
+# {{{ Ordinal Scale Model
 class OrdinalScaleModel:
 
     def __init__(self, dataset, shuffle=True, train=False, name="",
@@ -201,4 +205,6 @@ class OrdinalScaleModel:
             print "[ ERROR ] Non-int key found in Model: %s" % (self.name,)
             return None
         return ( min(tmp), max(tmp) )
+
+# }}}
 
