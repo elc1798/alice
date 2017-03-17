@@ -5,7 +5,6 @@ import argparse
 import numpy as np
 
 from alicized_models import CommandMatchingModel
-from alicized_models import GrammarMatchingModel
 from alicized_models import OrdinalScaleModel
 
 USE_OLD = False

@@ -96,10 +96,7 @@ class CommandMatchingModel:
 
         test = [ s.lower() ]
         predicted = self.classifier.predict(test)
-        if self.grammar.__class__ == GrammarMatchingModel and not self.grammar.match(s):
-            return False
-        else:
-            return predicted[0] == "True"
+        return predicted[0] == "True"
 
 # }}}
 # {{{ Ordinal Scale Model
@@ -198,7 +195,7 @@ class OrdinalScaleModel:
             return -1
 
     def get_range(self):
-        tmp = None
+        tmp = self.target_names
         try:
             tmp = map(int, tmp)
         except:
