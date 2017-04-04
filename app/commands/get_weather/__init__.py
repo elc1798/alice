@@ -9,6 +9,8 @@ import pyowm
 URL = "http://freegeoip.net/json/"
 API_KEY = "70e52321050523bb149227183e2ec5e5"
 
+FEEDBACK_FORMAT = "The temperature today is %d degrees fahrenheit, with %s"
+
 def get_weather(query, **kwargs):
     f = urllib2.urlopen(URL)
     json_string = f.read()
@@ -18,9 +20,15 @@ def get_weather(query, **kwargs):
     place = 'location[\'city\']' + ", " + location['country_code']
     owm = pyowm.OWM(API_KEY)
     w = owm.weather_at_place(place).get_weather()
-    temp = (w.get_temperature('fahrenheit')['temp_max'] +w.get_temperature('fahrenheit')['temp_min']) / 2 
-    weather = "The temperature today is " + str(temp) + " degrees fahrenheit"
+
+    temp = w.get_temperature('fahrenheit')['temp']
+    conditions = w.get_detailed_status()
+    weather = FEEDBACK_FORMAT % (temp, conditions)
     os.system(constants.DISPLAY_NOTIFICATION % (weather,))
 
 TRIGGER_MODEL = "GET_WEATHER.model"
 FUNC = get_weather
+
+if __name__ == "__main__":
+    get_weather("")
+

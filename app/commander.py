@@ -1,6 +1,8 @@
 import os, sys
 import pickle, glob
 
+import spacy
+
 from utils import model_matcher as mm
 CURRENT_DIR = os.path.dirname(os.path.realpath(__file__))
 
@@ -18,6 +20,8 @@ class Commander:
                 print s
 
             self.log_func = default_log
+
+        self.nlp = spacy.load('en')
 
         self.load_models()
         self.load_controllers()
@@ -73,13 +77,27 @@ class Commander:
             mon.stop()
 
     def parse_query(self, res):
-        # For open_web_browser
-        res = res.replace('.', ' dot ').lower()
+        parsed = self.nlp(unicode(res))
+
+        # We want to remove all interjections from our query, since they don't
+        # mean much
+
+        significant = [ word for word in parsed if word.dep != spacy.symbols.intj ]
+        res = " ".join(map(str, significant))
+
+        res = res.replace(".", " dot ").lower()
+
+        self.log_func("Parsed query: '%s'" % (res,), tolerance=1)
 
         matches = self.model_matcher.get_matches(res)
         for match in matches:
             for officer_action in self.officers[match]:
-                officer_action(res, controllers=self.controllers)
+                officer_action(
+                    res,
+                    controllers=self.controllers,
+                    nlp=self.nlp,
+                    log_func=self.log_func
+                )
 
 class Dummy(Commander):
 
@@ -98,12 +116,7 @@ class Dummy(Commander):
             self.log_func = default_log
 
         self.load_models()
-        # We don't need to load the controllers, commands, or other such things
-        # self.load_controllers()
-        # self.load_commands()
-
-        # if config["monitors"] == True:
-        #     self.load_monitors()
+        self.nlp = spacy.load('en')
 
     # Override parse_query
     def parse_query(self, res):
@@ -111,7 +124,17 @@ class Dummy(Commander):
         if res == "!":
             sys.exit()
 
+        parsed = self.nlp(unicode(res))
+
+        # We want to remove all interjections from our query, since they don't
+        # mean much
+
+        significant = [ word for word in parsed if word.dep != spacy.symbols.intj ]
+        res = " ".join(map(str, significant))
+
         res = res.replace(".", " dot ").lower()
+
+        self.log_func("Parsed query: '%s'" % (res,), tolerance=1)
 
         matches = self.model_matcher.get_matches(res)
         print matches

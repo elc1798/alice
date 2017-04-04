@@ -7,9 +7,7 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import SGDClassifier
 
-import spacy
-
-nlp = None
+# {{{ Command Matching Model
 
 class CommandMatchingModel:
 
@@ -98,37 +96,10 @@ class CommandMatchingModel:
 
         test = [ s.lower() ]
         predicted = self.classifier.predict(test)
-        if self.grammar.__class__ == GrammarMatchingModel and not self.grammar.match(s):
-            return False
-        else:
-            return predicted[0] == "True"
+        return predicted[0] == "True"
 
-class GrammarMatchingModel:
-
-    def __init__(self, rules={}):
-        global nlp
-        self.rules = rules
-        nlp = spacy.load('en')
-
-    def match(self, s):
-        docs = nlp(unicode(s))
-        match_any = len(self.rules["any"]) == 0
-        for key in self.rules["any"]:
-            if key in [ str(word.dep_) for word in docs ]:
-                match_any = match_any or len( [ str(x.text) for x in docs if
-                    str(x.text) in self.rules["any"][key] ] ) > 0
-        match_all = True
-        for key in self.rules["all"]:
-            possibilities = [ str(word.text) for word in docs if str(word.dep_) == key ]
-            match_all = match_all and len( [ x for x in possibilities if x in
-                    self.rules["all"][key] ] ) > 0
-        match_none = True
-        for key in self.rules["none"]:
-            possibilities = [ str(word.text) for word in docs if str(word.dep_) == key ]
-            match_all = match_all and len( [ x for x in possibilities if x in
-                    self.rules["none"][key] ] ) == 0
-        return match_any and match_all and match_none
-
+# }}}
+# {{{ Ordinal Scale Model
 class OrdinalScaleModel:
 
     def __init__(self, dataset, shuffle=True, train=False, name="",
@@ -224,11 +195,13 @@ class OrdinalScaleModel:
             return -1
 
     def get_range(self):
-        tmp = None
+        tmp = self.target_names
         try:
             tmp = map(int, tmp)
         except:
             print "[ ERROR ] Non-int key found in Model: %s" % (self.name,)
             return None
         return ( min(tmp), max(tmp) )
+
+# }}}
 
