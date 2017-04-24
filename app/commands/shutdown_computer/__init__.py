@@ -11,5 +11,5 @@ def shutdown(query, **kwargs):
     os.system(SHUTDOWN)
     sys.exit()
 
-TRIGGER_MODEL = "SHUTDOWN.model"
+TRIGGER_MODEL = "SHUTDOWN_COMPUTER.model"
 FUNC = shutdown
