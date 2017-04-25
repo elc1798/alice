@@ -9,7 +9,7 @@ NEWS_API_URL = "https://newsapi.org/v1/articles?source=the-new-york-times&sortBy
 NUM_ARTICLES = 5
 
 def get_news(query, **kwargs):
-    jstr = urllib2.urlopen(url).read()
+    jstr = urllib2.urlopen(NEWS_API_URL).read()
     ts = json.loads( jstr )
     for i in range(NUM_ARTICLES):
         headline = ( str(i+1) +  ". " + ts['articles'][i]['title'] )
